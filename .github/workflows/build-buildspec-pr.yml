@@ -69,9 +69,9 @@ jobs:
               badge="![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/$(dirname $file)/badge.json)"
               echo "- [$display $badge](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md) $version" >> PRcomment.txt
               echo >> PRcomment.txt
-              echo "\`./rebuild.sh $file\`" >> PRcomment.txt
               if [[ "$command" == SHELL* ]]
               then
+                echo "\`./rebuild.sh $file\`" >> PRcomment.txt
                 # don't even try to automatically build, but prepare message for PR comment
                 echo "command=$command"
                 echo "ko=1
@@ -96,9 +96,13 @@ jobs:
                 continue
               fi # end of SHELL*
 
+              echo "<details><summary>./rebuild.sh $file</summary>" >> PRcomment.txt
+              echo >> PRcomment.txt
               echo '```' >> PRcomment.txt
               cat $file >> PRcomment.txt
               echo '```' >> PRcomment.txt
+              echo >> PRcomment.txt
+              echo "</details>" >> PRcomment.txt
 
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
@@ -121,9 +125,14 @@ jobs:
                   && echo ":mag: diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
 
+              echo >> PRcomment.txt
+              echo '<details><summary>run time</summary>' >> PRcomment.txt
+              echo >> PRcomment.txt
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
+              echo >> PRcomment.txt
+              echo "</details>" >> PRcomment.txt
               rm -f time.txt
             fi
           done
