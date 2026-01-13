@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Testing
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.testing
+version=2.2.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-testing.git
+source.scm.tag=org.apache.sling.commons.testing-2.2.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.testing-2.2.2.pom
+outputs.0.length=7477
+outputs.0.checksums.sha512=26b48ce9e29245a5f94aadf6884b4391d4180abcbb9396e31ca57be9cb0ab9226ef69d22c7f82d8a364e1af7b6d813648496ef4cab6ce3537364d6d79b29e46e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.testing-2.2.2.jar
+outputs.1.length=86555
+outputs.1.checksums.sha512=dd3e58f0aae5874e2cbeac43f9824df6936be691f4fa354faa80755e9e2cc96c5d8c897df816f1f6c78c38008e1ffdd1b35e82be27edb6b1338b999d1a63429c
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.testing-2.2.2-source-release.zip
+outputs.2.length=86679
+outputs.2.checksums.sha512=a1f45536411a732c429d1274f2bb3bb8248793ac2cdcb7e405ca1de3b1aab543240385fac5611210000ac2120f357ed3df00929d6f3796c01a5330ea521918fa
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.testing-2.2.2-sources.jar
+outputs.3.length=67407
+outputs.3.checksums.sha512=ef03a9081abd8d05ce3560cc871a5e1509ebd1904ba944e1251725f05f35a0d3624d695ff3453197dd72c0a2a548883316a6c7e18f14de6260e9b1f6c64cea9e
