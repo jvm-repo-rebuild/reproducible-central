@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Tiles Maven Plugin
+group-id=io.repaint.maven
+artifact-id=tiles-maven-plugin
+version=2.43
+
+# source information
+source.scm.uri=scm:git:git@github.com:repaint-io/maven-tiles
+source.scm.tag=tiles-maven-plugin-2.43
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=io.repaint.maven
+outputs.0.filename=tiles-maven-plugin-2.43.pom
+outputs.0.length=12955
+outputs.0.checksums.sha512=70ea3985227ab4f4ed133ecebf1ef94f38056c44250d940bb5c53138f42d3b9c8a9e6d840a460391f8ff9207d039a7cf001131b81d162f8e0588ba06955848fc
+
+outputs.1.groupId=io.repaint.maven
+outputs.1.filename=tiles-maven-plugin-2.43.jar
+outputs.1.length=118384
+outputs.1.checksums.sha512=f5c7cff159740dbd0f2a2ca43f0d8cc1da7a7ddb35ad22e5af4fef22449c1f52b4d40ba03163d33049ac843222b28976b16a1709b9c0478c98a80e26b577c0c7
+
+outputs.2.groupId=io.repaint.maven
+outputs.2.filename=tiles-maven-plugin-2.43-sources.jar
+outputs.2.length=29560
+outputs.2.checksums.sha512=65fec7b0856383876832f591a6110db8c49e3187c1a24a716c7f3d55c6ac55fd69fc65ccd20221a8833b87adf8a968744b8d2f7fd6131db5d8a94ebedd01b19f
