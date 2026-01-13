@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/albertus82/unEXEPACK.git](https://github.com/albertus82/unEXEPACK.git)
 
-rebuilding **4 releases** of io.github.albertus82:unexepack:
+rebuilding **5 releases** of io.github.albertus82:unexepack:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/1.0.0/pom) | | | |
+| [1.0.0](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/1.0.0/pom) | [mvn jdk25](unexepack-1.0.0.buildspec) | [result](unexepack-1.0.0.buildinfo): [4 :white_check_mark:  1 :warning:](unexepack-1.0.0.buildcompare) | 1 :rotating_light: | 873K |
 | [0.3.1](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.3.1/pom) | [mvn jdk17](unexepack-0.3.1.buildspec) | [result](unexepack-0.3.1.buildinfo): [4 :white_check_mark:  1 :warning:](unexepack-0.3.1.buildcompare) | - | 868K |
 | [0.3.0](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.3.0/pom) | | | |
 | [0.2.3](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.2.3/pom) | | | |
