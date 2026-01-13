@@ -103,6 +103,7 @@ jobs:
               echo '```' >> PRcomment.txt
               echo >> PRcomment.txt
               echo "</details>" >> PRcomment.txt
+              echo >> PRcomment.txt
 
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
