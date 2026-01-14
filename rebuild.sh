@@ -41,7 +41,7 @@ DEFAULT_docker_build_opts=""
 DEFAULT_podman_build_opts="--format docker"
 DEFAULT_docker_run_opts=""
 DEFAULT_podman_run_opts="--userns=keep-id"
-DEFAULT_oci_engine_volumeflags=""
+DEFAULT_oci_engine_volume_flags=""
 DEFAULT_oci_engine_build_opts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_oci_engine} ]] && echo $DEFAULT_docker_build_opts || echo $DEFAULT_podman_build_opts)"
 DEFAULT_oci_engine_run_opts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_oci_engine} ]] && echo $DEFAULT_docker_run_opts || echo $DEFAULT_podman_run_opts)"
 
