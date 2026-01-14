@@ -87,6 +87,7 @@ rebuilding **70 releases** of io.jooby:jooby:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.15](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.15/pom) | | | |
 | [4.0.14](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.14/pom) | [mvn jdk21](jooby-4.0.14.buildspec) | [result](jooby-project-4.0.14.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.14.buildcompare) | | 14M |
 | [4.0.13](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.13/pom) | [mvn jdk21](jooby-4.0.13.buildspec) | [result](jooby-project-4.0.13.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.13.buildcompare) | | 14M |
 | [4.0.12](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.12/pom) | [mvn jdk21](jooby-4.0.12.buildspec) | [result](jooby-project-4.0.12.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.12.buildcompare) | | 14M |
@@ -102,6 +103,7 @@ rebuilding **70 releases** of io.jooby:jooby:
 | [4.0.2](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.2/pom) | [mvn jdk21](jooby-4.0.2.buildspec) | [result](jooby-project-4.0.2.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.2.buildcompare) | | 13M |
 | [4.0.1](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.1/pom) | [mvn jdk21](jooby-4.0.1.buildspec) | [result](jooby-project-4.0.1.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.1.buildcompare) | | 13M |
 | [4.0.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.0/pom) | [mvn jdk21](jooby-4.0.0.buildspec) | [result](jooby-project-4.0.0.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.0.buildcompare) | | 13M |
+| [3.11.6](https://central.sonatype.com/artifact/io.jooby/jooby/3.11.6/pom) | | | |
 | [3.11.5](https://central.sonatype.com/artifact/io.jooby/jooby/3.11.5/pom) | [mvn jdk17](jooby-3.11.5.buildspec) | [result](jooby-project-3.11.5.buildinfo): [174 :white_check_mark: ](jooby-project-3.11.5.buildcompare) | | 14M |
 | [3.11.4](https://central.sonatype.com/artifact/io.jooby/jooby/3.11.4/pom) | [mvn jdk17](jooby-3.11.4.buildspec) | [result](jooby-project-3.11.4.buildinfo): [174 :white_check_mark: ](jooby-project-3.11.4.buildcompare) | | 14M |
 | [3.11.3](https://central.sonatype.com/artifact/io.jooby/jooby/3.11.3/pom) | [mvn jdk17](jooby-3.11.3.buildspec) | [result](jooby-project-3.11.3.buildinfo): [174 :white_check_mark: ](jooby-project-3.11.3.buildcompare) | | 14M |
