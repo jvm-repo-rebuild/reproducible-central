@@ -80,14 +80,14 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **70 releases** of io.jooby:jooby:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **71 releases** of io.jooby:jooby:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 52 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.15](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.15/pom) | | | |
+| [4.0.15](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.15/pom) | [mvn jdk21](jooby-4.0.15.buildspec) | [result](jooby-project-4.0.15.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.15.buildcompare) | | 14M |
 | [4.0.14](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.14/pom) | [mvn jdk21](jooby-4.0.14.buildspec) | [result](jooby-project-4.0.14.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.14.buildcompare) | | 14M |
 | [4.0.13](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.13/pom) | [mvn jdk21](jooby-4.0.13.buildspec) | [result](jooby-project-4.0.13.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.13.buildcompare) | | 14M |
 | [4.0.12](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.12/pom) | [mvn jdk21](jooby-4.0.12.buildspec) | [result](jooby-project-4.0.12.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.12.buildcompare) | | 14M |
