@@ -1,0 +1,20 @@
+groupId=org.jspecify
+artifactId=jspecify
+version=1.0.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/jspecify/jspecify.git
+gitTag=v${version}
+
+tool=gradle
+jdk=21
+newline=lf
+
+execBefore="sed -i -e 's/def javaVersion = JavaLanguageVersion.of(System.env.JAVA_VERSION ?: 11)/def javaVersion = JavaLanguageVersion.of(21)/' build.gradle"
+command="./gradlew --no-daemon --info publishToMavenLocal -x :publishConformanceTestsPublicationToMavenLocal"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
