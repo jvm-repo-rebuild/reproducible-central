@@ -14,5 +14,5 @@ umask=022
 command="mvn -T 1 -Pdeploy clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=https://github.com/liftwizard/klass/issues/425
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/liftwizard/klass/issues/608
