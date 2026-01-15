@@ -1,0 +1,53 @@
+1 / 11 target/reference/cool.klass/klass-maven-archetype-0.6.0.jar klass-maven-archetype/target/klass-maven-archetype-0.6.0.jar
+--- target/reference/cool.klass/klass-maven-archetype-0.6.0.jar
++++ klass-maven-archetype/target/klass-maven-archetype-0.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 140010 bytes, number of entries: 226
+│ +Zip file size: 140000 bytes, number of entries: 226
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-13 13:01 META-INF/
+│  -rw-r--r--  2.0 unx       87 b- defN 26-Jan-13 13:01 META-INF/MANIFEST.MF
+│ @@ -216,13 +216,13 @@
+│  -rw-r--r--  2.0 unx     3162 b- defN 26-Jan-13 13:01 archetype-resources/gitignore
+│  -rw-r--r--  2.0 unx     1515 b- defN 26-Jan-13 13:01 archetype-resources/justfile.vm
+│ --rw-r--r--  2.0 unx     4420 b- defN 26-Jan-13 13:01 archetype-resources/pom.xml
+│ +-rw-r--r--  2.0 unx     4375 b- defN 26-Jan-13 13:01 archetype-resources/pom.xml
+│  -rw-r--r--  2.0 unx     5791 b- defN 26-Jan-13 13:01 archetype-resources/scripts/configure-github.sh
+│  -rw-r--r--  2.0 unx      988 b- defN 26-Jan-13 13:01 archetype-resources/spotbugs-exclude.xml
+│  -rw-r--r--  2.0 unx     2248 b- defN 26-Jan-13 13:01 META-INF/maven/cool.klass/klass-maven-archetype/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 26-Jan-13 13:01 META-INF/maven/cool.klass/klass-maven-archetype/pom.properties
+│ -226 files, 574416 bytes uncompressed, 90698 bytes compressed:  84.2%
+│ +226 files, 574371 bytes uncompressed, 90688 bytes compressed:  84.2%
+├── archetype-resources/pom.xml
+│ ├── archetype-resources/pom.xml
+│ │ @@ -18,17 +18,17 @@
+│ │      <mainClass>${app.rootPackageName}.dropwizard.application.${app.name}Application</mainClass>
+│ │      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ │      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│ │      <maven.compiler.source>21</maven.compiler.source>
+│ │      <maven.compiler.target>21</maven.compiler.target>
+│ │      <maven.compiler.release>21</maven.compiler.release>
+│ │      <maven.compiler.parameters>true</maven.compiler.parameters>
+│ │ -    <checkstyle.configuration>/home/runner/work/klass/klass/checkstyle-configuration.xml</checkstyle.configuration>
+│ │ -    <checkstyle.suppressions>/home/runner/work/klass/klass/checkstyle-suppressions.xml</checkstyle.suppressions>
+│ │ -    <checkstyle.cache>/home/runner/work/klass/klass/klass-maven-archetype/target/checkstyle-cache</checkstyle.cache>
+│ │ +    <checkstyle.configuration>/var/maven/app/checkstyle-configuration.xml</checkstyle.configuration>
+│ │ +    <checkstyle.suppressions>/var/maven/app/checkstyle-suppressions.xml</checkstyle.suppressions>
+│ │ +    <checkstyle.cache>/var/maven/app/klass-maven-archetype/target/checkstyle-cache</checkstyle.cache>
+│ │      <liftwizard.version>2.1.40</liftwizard.version>
+│ │      <klass.version>0.5.0</klass.version>
+│ │    </properties>
+│ │    <dependencyManagement>
+│ │      <dependencies>
+│ │        <dependency>
+│ │          <groupId>io.liftwizard</groupId>
+
+2 / 11 target/reference/cool.klass/klass-model-bootstrapped-json-views-0.6.0-sources.jar klass-models/klass-model-bootstrapped/klass-model-bootstrapped-json-views/target/klass-model-bootstrapped-json-views-0.6.0-sources.jar
+--- target/reference/cool.klass/klass-model-bootstrapped-json-views-0.6.0-sources.jar
++++ klass-models/klass-model-bootstrapped/klass-model-bootstrapped-json-views/target/klass-model-bootstrapped-json-views-0.6.0-sources.jar
+├── .input-hash
+│ @@ -1 +1 @@
+│ -6c1210f70f5cf0d563812246268d476d11bd096cf93641aeaa6964d4b963e2e2
+│ +6254cf05f24437cacb47210a742a8d2a2f7e3c8f208f11ca16ee719050969952
+
+# same .input-hash difference in every other file
