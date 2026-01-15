@@ -18,13 +18,14 @@ Source code: [https://gitlab.ow2.org/asm/asm.git](https://gitlab.ow2.org/asm/asm
 * [org.ow2.asm:asm-util](https://central.sonatype.com/artifact/org.ow2.asm/asm-util/overview)
 </details>
 
-rebuilding **2 releases** of org.ow2.asm:asm:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of org.ow2.asm:asm:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [9.9.1](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.9.1/pom) | [gradle jdk21](asm-9.9.1.buildspec) | [result](asm-9.9.1.buildinfo): [19 :white_check_mark: ](asm-9.9.1.buildcompare) | | 1017K |
 | [9.9](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.9/pom) | [gradle jdk21](asm-9.9.buildspec) | [result](asm-9.9.buildinfo): [19 :white_check_mark: ](asm-9.9.buildcompare) | | 1015K |
+| [9.8](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.8/pom) | [gradle jdk21](asm-9.8.buildspec) | [result](asm-9.8.buildinfo): [19 :white_check_mark: ](asm-9.8.buildcompare) | | 1010K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
