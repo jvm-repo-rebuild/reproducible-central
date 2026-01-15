@@ -23,7 +23,7 @@ then
   info "Fetching maven-metadata.xml from Maven Central"
   metaUrl="https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml"
   echo -e "downloading \033[1m${metaUrl}\033[0m to $(pwd)"
-  runcommand curl -s $metaUrl --output maven-metadata.xml || fatal "failed to download maven-metadata.xml"
+  runcommand curl -s --fail $metaUrl --output maven-metadata.xml || fatal "failed to download maven-metadata.xml"
   head -15 maven-metadata.xml
 fi
 
