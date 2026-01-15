@@ -1,5 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/github/hazendaz/base-parent/base-parent-56.buildspec:57
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
-content/io/jooby/jooby-4.0.14.buildspec:4.0.15
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.Final.buildspec:7.2.1.Final
