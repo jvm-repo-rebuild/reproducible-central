@@ -1,0 +1,5 @@
+version=9.9
+ok=19
+ko=0
+okFiles="asm-analysis-9.9-sources.jar asm-analysis-9.9.jar asm-analysis-9.9.pom asm-bom-9.9.pom asm-commons-9.9-sources.jar asm-commons-9.9.jar asm-commons-9.9.pom asm-test-9.9-sources.jar asm-test-9.9.jar asm-test-9.9.pom asm-tree-9.9-sources.jar asm-tree-9.9.jar asm-tree-9.9.pom asm-util-9.9-sources.jar asm-util-9.9.jar asm-util-9.9.pom asm-9.9-sources.jar asm-9.9.jar asm-9.9.pom"
+koFiles=""
