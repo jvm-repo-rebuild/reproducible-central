@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwizard/klass.git)
 
-<details><summary>This project defines 128 modules:</summary>
+<details><summary>This project defines 129 modules:</summary>
 
 * [cool.klass:klass](https://central.sonatype.com/artifact/cool.klass/klass/overview)
 * [cool.klass:klass-bom](https://central.sonatype.com/artifact/cool.klass/klass-bom/overview)
@@ -133,6 +133,7 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-syntax](https://central.sonatype.com/artifact/cool.klass/klass-syntax/overview)
 * [cool.klass:klass-syntax-css-class](https://central.sonatype.com/artifact/cool.klass/klass-syntax-css-class/overview)
 * [cool.klass:klass-syntax-css-class-generator](https://central.sonatype.com/artifact/cool.klass/klass-syntax-css-class-generator/overview)
+* [cool.klass:klass-syntax-css-maven-plugin](https://central.sonatype.com/artifact/cool.klass/klass-syntax-css-maven-plugin/overview)
 * [cool.klass:klass-syntax-highlighter-ansi](https://central.sonatype.com/artifact/cool.klass/klass-syntax-highlighter-ansi/overview)
 * [cool.klass:klass-token-categories](https://central.sonatype.com/artifact/cool.klass/klass-token-categories/overview)
 * [cool.klass:klass-token-categorizing-lexer](https://central.sonatype.com/artifact/cool.klass/klass-token-categorizing-lexer/overview)
@@ -142,10 +143,11 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 rebuilding **6 releases** of cool.klass:klass:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.6.0](https://central.sonatype.com/artifact/cool.klass/klass/0.6.0/pom) | [mvn jdk17](klass-0.6.0.buildspec) | :x: | |
+| [0.6.0](https://central.sonatype.com/artifact/cool.klass/klass/0.6.0/pom) | [mvn jdk17](klass-0.6.0.buildspec) | [result](klass-0.6.0.buildinfo): [328 :white_check_mark:  11 :warning:](klass-0.6.0.buildcompare) [:mag:](klass-0.6.0.diffoscope) [:memo:](https://github.com/liftwizard/klass/issues/608) | 11 :rotating_light: | 7.1M |
 | [0.5.0](https://central.sonatype.com/artifact/cool.klass/klass/0.5.0/pom) | [mvn jdk17](klass-0.5.0.buildspec) | [result](klass-0.5.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.5.0.buildcompare) [:memo:](https://github.com/liftwizard/klass/issues/425) | - | 7.4M |
 | [0.4.0](https://central.sonatype.com/artifact/cool.klass/klass/0.4.0/pom) | [mvn jdk17](klass-0.4.0.buildspec) | [result](klass-0.4.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.4.0.buildcompare) | - | 7.4M |
 | [0.3.0](https://central.sonatype.com/artifact/cool.klass/klass/0.3.0/pom) | [mvn jdk17](klass-0.3.0.buildspec) | [result](klass-0.3.0.buildinfo): [341 :white_check_mark:  1 :warning:](klass-0.3.0.buildcompare) | - | 7.4M |
