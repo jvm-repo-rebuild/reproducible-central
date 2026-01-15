@@ -1,0 +1,5 @@
+version=1.0.0
+ok=3
+ko=0
+okFiles="jspecify-1.0.0-sources.jar jspecify-1.0.0.jar jspecify-1.0.0.pom"
+koFiles=""
