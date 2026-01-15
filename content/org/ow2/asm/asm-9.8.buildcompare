@@ -1,0 +1,5 @@
+version=9.8
+ok=19
+ko=0
+okFiles="asm-analysis-9.8-sources.jar asm-analysis-9.8.jar asm-analysis-9.8.pom asm-bom-9.8.pom asm-commons-9.8-sources.jar asm-commons-9.8.jar asm-commons-9.8.pom asm-test-9.8-sources.jar asm-test-9.8.jar asm-test-9.8.pom asm-tree-9.8-sources.jar asm-tree-9.8.jar asm-tree-9.8.pom asm-util-9.8-sources.jar asm-util-9.8.jar asm-util-9.8.pom asm-9.8-sources.jar asm-9.8.jar asm-9.8.pom"
+koFiles=""
