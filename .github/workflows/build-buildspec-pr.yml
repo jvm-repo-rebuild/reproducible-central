@@ -64,6 +64,7 @@ jobs:
           for file in $(git diff --name-only -r HEAD^1 HEAD); do
             if [[ $file == *.buildspec ]]; then
               display=""
+              PR_merge_max_ko="0"
               . $file
               [ -n "$display" ] || display="$groupId:$artifactId"
               badge="![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/$(dirname $file)/badge.json)"
@@ -118,7 +119,8 @@ jobs:
               grep -v okFiles $buildcompare >> PRcomment.txt
               echo '```' >> PRcomment.txt
 
-              if [ $(grep "^ko=0" PRcomment.txt | wc -l) -eq 0 ]
+              ko="$(grep "^ko=0" PRcomment.txt | cut -d = -f 2)"
+              if [ $ko -eq 0 ]
               then
                 ./build_diffoscope.sh $buildcompare buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
@@ -132,6 +134,7 @@ jobs:
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
+              [ $ko -gt $PR_merge_max_ko ] || echo "=> merge PR" >> PRcomment.txt
               echo >> PRcomment.txt
               echo "</details>" >> PRcomment.txt
               rm -f time.txt
@@ -150,7 +153,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ $(grep "^ko=" PRcomment.txt | grep -v "ko=0" | wc -l) -eq 0 ]
+          if [ $(grep "^=> merge PR" PRcomment.txt | wc -l) -eq 1 ]
           then
             if [ "${{ github.event.pull_request.user.login }}" = "hboutemy" ]
             then
