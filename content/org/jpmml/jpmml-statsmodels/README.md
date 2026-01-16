@@ -14,17 +14,17 @@ Source code: [https://github.com/jpmml/jpmml-statsmodels.git](https://github.com
 * [org.jpmml:pmml-statsmodels-example](https://central.sonatype.com/artifact/org.jpmml/pmml-statsmodels-example/overview)
 </details>
 
-rebuilding **13 releases** of org.jpmml:jpmml-statsmodels:
+rebuilding **14 releases** of org.jpmml:jpmml-statsmodels:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 10, 9 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 11, 9 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.3.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.9/pom) | [mvn jdk11](jpmml-statsmodels-1.3.9.buildspec) | [result](jpmml-statsmodels-1.3.9.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.9.buildcompare) | 2 :recycle: | 55K |
 | [1.3.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.8/pom) | | | |
 | [1.3.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.7/pom) | | | |
-| [1.3.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.6/pom) | | | |
+| [1.3.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.6/pom) | [mvn jdk11](jpmml-statsmodels-1.3.6.buildspec) | [result](jpmml-statsmodels-1.3.6.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.6.buildcompare) | 1 :recycle: 1 :rotating_light: | 55K |
 | [1.3.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.5/pom) | [mvn jdk11](jpmml-statsmodels-1.3.5.buildspec) | [result](jpmml-statsmodels-1.3.5.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.5.buildcompare) | 1 :recycle: 1 :rotating_light: | 53K |
 | [1.3.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.4/pom) | [mvn jdk11](jpmml-statsmodels-1.3.4.buildspec) | [result](jpmml-statsmodels-1.3.4.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.4.buildcompare) | 2 :recycle: | 53K |
 | [1.3.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.3/pom) | [mvn jdk11](jpmml-statsmodels-1.3.3.buildspec) | [result](jpmml-statsmodels-1.3.3.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.3.buildcompare) | 2 :recycle: | 53K |
