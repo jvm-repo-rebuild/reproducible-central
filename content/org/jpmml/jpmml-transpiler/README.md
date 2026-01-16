@@ -21,6 +21,7 @@ rebuilding **15 releases** of org.jpmml:jpmml-transpiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.5.0/pom) | | | |
 | [1.4.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.8/pom) | [mvn jdk11](jpmml-transpiler-1.4.8.buildspec) | [result](jpmml-transpiler-1.4.8.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-transpiler-1.4.8.buildcompare) | 2 :recycle: | 267K |
 | [1.4.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.7/pom) | [mvn jdk11](jpmml-transpiler-1.4.7.buildspec) | [result](jpmml-transpiler-1.4.7.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-transpiler-1.4.7.buildcompare) | 2 :recycle: | 267K |
 | [1.4.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.6/pom) | [mvn jdk11](jpmml-transpiler-1.4.6.buildspec) | [result](jpmml-transpiler-1.4.6.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-transpiler-1.4.6.buildcompare) | 2 :recycle: | 267K |
