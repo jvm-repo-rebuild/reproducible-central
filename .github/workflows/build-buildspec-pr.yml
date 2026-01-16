@@ -120,7 +120,8 @@ jobs:
               echo '```' >> PRcomment.txt
 
               ko="$(grep "^ko=0" PRcomment.txt | cut -d = -f 2)"
-              if [ $ko -eq 0 ]
+              echo "PR_merge_max_ko=$PR_merge_max_ko: ko=$ko"
+              if [ "$ko" -eq 0 ]
               then
                 ./build_diffoscope.sh $buildcompare buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
@@ -134,8 +135,7 @@ jobs:
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
-              echo "PR_merge_max_ko=$PR_merge_max_ko: ko=$ko"
-              if [ $ko -le $PR_merge_max_ko ]
+              if [ "$ko" -le "$PR_merge_max_ko" ]
               then
                 echo "=> merge PR" >> PRcomment.txt
               fi
