@@ -1,0 +1,16 @@
+version=9.7.1
+ok=14
+ko=5
+okFiles="asm-analysis-9.7.1-sources.jar asm-analysis-9.7.1.pom asm-bom-9.7.1.pom asm-commons-9.7.1-sources.jar asm-commons-9.7.1.pom asm-test-9.7.1-sources.jar asm-test-9.7.1.pom asm-tree-9.7.1-sources.jar asm-tree-9.7.1.jar asm-tree-9.7.1.pom asm-util-9.7.1-sources.jar asm-util-9.7.1.pom asm-9.7.1-sources.jar asm-9.7.1.pom"
+koFiles="asm-analysis-9.7.1.jar asm-commons-9.7.1.jar asm-test-9.7.1.jar asm-util-9.7.1.jar asm-9.7.1.jar"
+# diffoscope central/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar repository/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar
+# diffoscope central/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar repository/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar
+# diffoscope central/org/ow2/asm/asm-test/9.7.1/asm-test-9.7.1.jar repository/org/ow2/asm/asm-test/9.7.1/asm-test-9.7.1.jar
+# diffoscope central/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar repository/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar
+# diffoscope central/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar
+stabilize_ok=0
+stabilize_ko=5
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="asm-analysis-9.7.1.jar.stabilized asm-commons-9.7.1.jar.stabilized asm-test-9.7.1.jar.stabilized asm-util-9.7.1.jar.stabilized asm-9.7.1.jar.stabilized"
+stabilize_ignoredFiles=""
