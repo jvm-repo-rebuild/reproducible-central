@@ -134,7 +134,11 @@ jobs:
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
-              [ $ko -gt $PR_merge_max_ko ] || echo "=> merge PR" >> PRcomment.txt
+              echo "PR_merge_max_ko=$PR_merge_max_ko: ko=$ko"
+              if [ $ko -le $PR_merge_max_ko ]
+              then
+                echo "=> merge PR" >> PRcomment.txt
+              fi
               echo >> PRcomment.txt
               echo "</details>" >> PRcomment.txt
               rm -f time.txt
