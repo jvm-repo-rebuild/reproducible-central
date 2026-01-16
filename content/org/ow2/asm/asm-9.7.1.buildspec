@@ -1,0 +1,20 @@
+groupId=org.ow2.asm
+artifactId=asm
+version=9.7.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://gitlab.ow2.org/asm/asm.git
+gitTag=ASM_9_7_1
+
+tool=gradle
+jdk=21
+newline=lf
+
+execBefore="sed -i -e '/sign publishing.publications.maven/g' build.gradle"
+command="./gradle/gradlew --no-daemon -Prelease publishToMavenLocal"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
