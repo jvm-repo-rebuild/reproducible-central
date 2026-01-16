@@ -119,7 +119,7 @@ jobs:
               grep -v okFiles $buildcompare >> PRcomment.txt
               echo '```' >> PRcomment.txt
 
-              ko="$(grep "^ko=0" PRcomment.txt | cut -d = -f 2)"
+              ko="$(grep "^ko=" PRcomment.txt | cut -d = -f 2)"
               echo "PR_merge_max_ko=$PR_merge_max_ko: ko=$ko"
               if [ "$ko" -eq 0 ]
               then
