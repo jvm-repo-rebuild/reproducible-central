@@ -73,6 +73,11 @@ then
     # re-run without hiding output to show if there are issues
     git ls-files --eol | grep w/lf | cut -c 40- | grep -v '"' | ${xargs} -d '\n' unix2dos
   fi
+  if [ "${newline}" == "crlf" ]
+  then
+    echo "no executable flag on Windows"
+    find . -type f -exec chmod a-x {} \;
+  fi
 else
   # use provided sourceDistribution
   info "Fetching source code from distribution \033[1m${sourceDistribution}\033[0m"
