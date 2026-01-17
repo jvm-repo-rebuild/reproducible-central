@@ -35,6 +35,7 @@ rebuilding **35 releases** of io.avaje:avaje-http-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.7](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.7/pom) | | | |
 | [3.7-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.7-RC2/pom) | | | |
 | [3.7-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.7-RC1/pom) | [mvn jdk25](avaje-http-3.7-RC1.buildspec) | [result](avaje-http-parent-3.7-RC1.buildinfo): [48 :white_check_mark:  1 :warning:](avaje-http-parent-3.7-RC1.buildcompare) | 1 :rotating_light: | 4.4M |
 | [3.6](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.6/pom) | [mvn jdk21](avaje-http-3.6.buildspec) | [result](avaje-http-parent-3.6.buildinfo): [48 :white_check_mark:  1 :warning:](avaje-http-parent-3.6.buildcompare) | 1 :rotating_light: | 4.4M |

@@ -3,8 +3,8 @@
   <groupId>io.avaje</groupId>
   <artifactId>avaje-http-parent</artifactId>
   <versioning>
-    <latest>3.7-RC2</latest>
-    <release>3.7-RC2</release>
+    <latest>3.7</latest>
+    <release>3.7</release>
     <versions>
       <version>1.23-RC1</version>
       <version>1.23-RC2</version>
@@ -104,7 +104,8 @@
       <version>3.6</version>
       <version>3.7-RC1</version>
       <version>3.7-RC2</version>
+      <version>3.7</version>
     </versions>
-    <lastUpdated>20260107151929</lastUpdated>
+    <lastUpdated>20260117164323</lastUpdated>
   </versioning>
 </metadata>

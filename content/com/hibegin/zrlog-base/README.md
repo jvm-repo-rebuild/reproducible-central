@@ -23,6 +23,7 @@ rebuilding **95 releases** of com.hibegin:zrlog-base:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.2.126](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.126/pom) | | | |
 | [3.2.125](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.125/pom) | [mvn jdk21](zrlog-base-3.2.125.buildspec) | [result](zrlog-base-3.2.125.buildinfo): [13 :white_check_mark: ](zrlog-base-3.2.125.buildcompare) | | 397K |
 | [3.2.124](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.124/pom) | [mvn jdk21](zrlog-base-3.2.124.buildspec) | [result](zrlog-base-3.2.124.buildinfo): [13 :white_check_mark: ](zrlog-base-3.2.124.buildcompare) | | 397K |
 | [3.2.123](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.123/pom) | [mvn jdk21](zrlog-base-3.2.123.buildspec) | [result](zrlog-base-3.2.123.buildinfo): [13 :white_check_mark: ](zrlog-base-3.2.123.buildcompare) | | 395K |
