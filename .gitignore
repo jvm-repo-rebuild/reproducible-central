@@ -25,7 +25,9 @@ maven-metadata
 maven-metadata.xml-staging
 bin/docker/tmp/
 wip/maven-metadata.xml
+m2/build-cache
 m2/toolchains.xml
+m2/discovered-jdk-toolchains-cache.xml
 m2/repository*/
 m2/wrapper/
 m2/.dev*/
