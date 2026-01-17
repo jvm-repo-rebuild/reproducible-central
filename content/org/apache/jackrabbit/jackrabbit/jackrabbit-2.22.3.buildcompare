@@ -1,0 +1,60 @@
+version=2.22.3
+ok=24
+ko=45
+ignored=0
+okFiles="jackrabbit-parent-2.22.3.pom jackrabbit-jcr-commons-2.22.3.pom jackrabbit-jcr-tests-2.22.3.pom jackrabbit-data-2.22.3.pom jackrabbit-aws-ext-2.22.3.pom jackrabbit-spi-2.22.3.pom jackrabbit-spi-2.22.3-tests.jar jackrabbit-spi-commons-2.22.3.pom jackrabbit-core-2.22.3.pom jackrabbit-vfs-ext-2.22.3.pom jackrabbit-webdav-2.22.3.pom jackrabbit-jcr-server-2.22.3.pom jackrabbit-jcr-servlet-2.22.3.pom jackrabbit-webapp-2.22.3.pom jackrabbit-jca-2.22.3.pom jackrabbit-jcr2spi-2.22.3.pom jackrabbit-jcr2spi-2.22.3-tests.jar jackrabbit-spi2jcr-2.22.3.pom jackrabbit-spi2dav-2.22.3.pom jackrabbit-spi2dav-2.22.3-tests.jar jackrabbit-jcr2dav-2.22.3.pom jackrabbit-jcr-client-2.22.3.pom jackrabbit-standalone-components-2.22.3.pom jackrabbit-it-osgi-2.22.3.pom"
+koFiles="jackrabbit-jcr-commons-2.22.3.jar jackrabbit-jcr-commons-2.22.3-sources.jar jackrabbit-jcr-tests-2.22.3.jar jackrabbit-jcr-tests-2.22.3-sources.jar jackrabbit-data-2.22.3.jar jackrabbit-data-2.22.3-sources.jar jackrabbit-data-2.22.3-tests.jar jackrabbit-aws-ext-2.22.3.jar jackrabbit-aws-ext-2.22.3-sources.jar jackrabbit-spi-2.22.3.jar jackrabbit-spi-2.22.3-sources.jar jackrabbit-spi-commons-2.22.3.jar jackrabbit-spi-commons-2.22.3-sources.jar jackrabbit-core-2.22.3.jar jackrabbit-core-2.22.3-sources.jar jackrabbit-core-2.22.3-tests.jar jackrabbit-vfs-ext-2.22.3.jar jackrabbit-vfs-ext-2.22.3-sources.jar jackrabbit-webdav-2.22.3.jar jackrabbit-webdav-2.22.3-sources.jar jackrabbit-jcr-server-2.22.3.jar jackrabbit-jcr-server-2.22.3-sources.jar jackrabbit-jcr-server-2.22.3-tests.jar jackrabbit-jcr-servlet-2.22.3.jar jackrabbit-jcr-servlet-2.22.3-sources.jar jackrabbit-webapp-2.22.3.war jackrabbit-webapp-2.22.3-sources.jar jackrabbit-webapp-2.22.3.jar jackrabbit-jca-2.22.3.rar jackrabbit-jca-2.22.3-sources.jar jackrabbit-jca-2.22.3.jar jackrabbit-jcr2spi-2.22.3.jar jackrabbit-jcr2spi-2.22.3-sources.jar jackrabbit-spi2jcr-2.22.3.jar jackrabbit-spi2jcr-2.22.3-sources.jar jackrabbit-spi2dav-2.22.3.jar jackrabbit-spi2dav-2.22.3-sources.jar jackrabbit-jcr2dav-2.22.3.jar jackrabbit-jcr2dav-2.22.3-sources.jar jackrabbit-jcr-client-2.22.3.jar jackrabbit-jcr-client-2.22.3-sources.jar jackrabbit-standalone-components-2.22.3.jar jackrabbit-standalone-components-2.22.3-sources.jar jackrabbit-it-osgi-2.22.3.jar jackrabbit-it-osgi-2.22.3-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-commons-2.22.3.jar jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-commons-2.22.3-sources.jar jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-tests-2.22.3.jar jackrabbit-jcr-tests/target/jackrabbit-jcr-tests-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-tests-2.22.3-sources.jar jackrabbit-jcr-tests/target/jackrabbit-jcr-tests-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-data-2.22.3.jar jackrabbit-data/target/jackrabbit-data-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-data-2.22.3-sources.jar jackrabbit-data/target/jackrabbit-data-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-data-2.22.3-tests.jar jackrabbit-data/target/jackrabbit-data-2.22.3-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-aws-ext-2.22.3.jar jackrabbit-aws-ext/target/jackrabbit-aws-ext-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-aws-ext-2.22.3-sources.jar jackrabbit-aws-ext/target/jackrabbit-aws-ext-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi-2.22.3.jar jackrabbit-spi/target/jackrabbit-spi-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi-2.22.3-sources.jar jackrabbit-spi/target/jackrabbit-spi-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi-commons-2.22.3.jar jackrabbit-spi-commons/target/jackrabbit-spi-commons-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi-commons-2.22.3-sources.jar jackrabbit-spi-commons/target/jackrabbit-spi-commons-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-core-2.22.3.jar jackrabbit-core/target/jackrabbit-core-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-core-2.22.3-sources.jar jackrabbit-core/target/jackrabbit-core-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-core-2.22.3-tests.jar jackrabbit-core/target/jackrabbit-core-2.22.3-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-vfs-ext-2.22.3.jar jackrabbit-vfs-ext/target/jackrabbit-vfs-ext-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-vfs-ext-2.22.3-sources.jar jackrabbit-vfs-ext/target/jackrabbit-vfs-ext-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-webdav-2.22.3.jar jackrabbit-webdav/target/jackrabbit-webdav-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-webdav-2.22.3-sources.jar jackrabbit-webdav/target/jackrabbit-webdav-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-server-2.22.3.jar jackrabbit-jcr-server/target/jackrabbit-jcr-server-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-server-2.22.3-sources.jar jackrabbit-jcr-server/target/jackrabbit-jcr-server-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-server-2.22.3-tests.jar jackrabbit-jcr-server/target/jackrabbit-jcr-server-2.22.3-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-servlet-2.22.3.jar jackrabbit-jcr-servlet/target/jackrabbit-jcr-servlet-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-servlet-2.22.3-sources.jar jackrabbit-jcr-servlet/target/jackrabbit-jcr-servlet-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.22.3.war jackrabbit-webapp/target/jackrabbit-webapp-2.22.3.war
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.22.3-sources.jar jackrabbit-webapp/target/jackrabbit-webapp-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.22.3.jar jackrabbit-webapp/target/jackrabbit-webapp-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jca-2.22.3.rar jackrabbit-jca/target/jackrabbit-jca-2.22.3.rar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jca-2.22.3-sources.jar jackrabbit-jca/target/jackrabbit-jca-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jca-2.22.3.jar jackrabbit-jca/target/jackrabbit-jca-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr2spi-2.22.3.jar jackrabbit-jcr2spi/target/jackrabbit-jcr2spi-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr2spi-2.22.3-sources.jar jackrabbit-jcr2spi/target/jackrabbit-jcr2spi-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi2jcr-2.22.3.jar jackrabbit-spi2jcr/target/jackrabbit-spi2jcr-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi2jcr-2.22.3-sources.jar jackrabbit-spi2jcr/target/jackrabbit-spi2jcr-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi2dav-2.22.3.jar jackrabbit-spi2dav/target/jackrabbit-spi2dav-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-spi2dav-2.22.3-sources.jar jackrabbit-spi2dav/target/jackrabbit-spi2dav-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr2dav-2.22.3.jar jackrabbit-jcr2dav/target/jackrabbit-jcr2dav-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr2dav-2.22.3-sources.jar jackrabbit-jcr2dav/target/jackrabbit-jcr2dav-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-client-2.22.3.jar jackrabbit-jcr-client/target/jackrabbit-jcr-client-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-jcr-client-2.22.3-sources.jar jackrabbit-jcr-client/target/jackrabbit-jcr-client-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-standalone-components-2.22.3.jar jackrabbit-standalone-components/target/jackrabbit-standalone-components-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-standalone-components-2.22.3-sources.jar jackrabbit-standalone-components/target/jackrabbit-standalone-components-2.22.3-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-it-osgi-2.22.3.jar jackrabbit-it-osgi/target/jackrabbit-it-osgi-2.22.3.jar
+# diffoscope target/reference/org.apache.jackrabbit/jackrabbit-it-osgi-2.22.3-sources.jar jackrabbit-it-osgi/target/jackrabbit-it-osgi-2.22.3-sources.jar
+stabilize_ok=0
+stabilize_ko=43
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles="jackrabbit-jcr-commons-2.22.3.jar.stabilized jackrabbit-jcr-commons-2.22.3-sources.jar.stabilized jackrabbit-jcr-tests-2.22.3.jar.stabilized jackrabbit-jcr-tests-2.22.3-sources.jar.stabilized jackrabbit-data-2.22.3.jar.stabilized jackrabbit-data-2.22.3-sources.jar.stabilized jackrabbit-data-2.22.3-tests.jar.stabilized jackrabbit-aws-ext-2.22.3.jar.stabilized jackrabbit-aws-ext-2.22.3-sources.jar.stabilized jackrabbit-spi-2.22.3.jar.stabilized jackrabbit-spi-2.22.3-sources.jar.stabilized jackrabbit-spi-commons-2.22.3.jar.stabilized jackrabbit-spi-commons-2.22.3-sources.jar.stabilized jackrabbit-core-2.22.3.jar.stabilized jackrabbit-core-2.22.3-sources.jar.stabilized jackrabbit-core-2.22.3-tests.jar.stabilized jackrabbit-vfs-ext-2.22.3.jar.stabilized jackrabbit-vfs-ext-2.22.3-sources.jar.stabilized jackrabbit-webdav-2.22.3.jar.stabilized jackrabbit-webdav-2.22.3-sources.jar.stabilized jackrabbit-jcr-server-2.22.3.jar.stabilized jackrabbit-jcr-server-2.22.3-sources.jar.stabilized jackrabbit-jcr-server-2.22.3-tests.jar.stabilized jackrabbit-jcr-servlet-2.22.3.jar.stabilized jackrabbit-jcr-servlet-2.22.3-sources.jar.stabilized jackrabbit-webapp-2.22.3-sources.jar.stabilized jackrabbit-webapp-2.22.3.jar.stabilized jackrabbit-jca-2.22.3-sources.jar.stabilized jackrabbit-jca-2.22.3.jar.stabilized jackrabbit-jcr2spi-2.22.3.jar.stabilized jackrabbit-jcr2spi-2.22.3-sources.jar.stabilized jackrabbit-spi2jcr-2.22.3.jar.stabilized jackrabbit-spi2jcr-2.22.3-sources.jar.stabilized jackrabbit-spi2dav-2.22.3.jar.stabilized jackrabbit-spi2dav-2.22.3-sources.jar.stabilized jackrabbit-jcr2dav-2.22.3.jar.stabilized jackrabbit-jcr2dav-2.22.3-sources.jar.stabilized jackrabbit-jcr-client-2.22.3.jar.stabilized jackrabbit-jcr-client-2.22.3-sources.jar.stabilized jackrabbit-standalone-components-2.22.3.jar.stabilized jackrabbit-standalone-components-2.22.3-sources.jar.stabilized jackrabbit-it-osgi-2.22.3.jar.stabilized jackrabbit-it-osgi-2.22.3-sources.jar.stabilized"
+stabilize_ignoredFiles="jackrabbit-webapp-2.22.3.war jackrabbit-jca-2.22.3.rar"
