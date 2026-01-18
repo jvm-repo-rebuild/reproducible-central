@@ -28,4 +28,4 @@ buildinfo=target/yauaa-parent-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 #diffoscope=yauaa-parent-${version}.diffoscope
-issue=
+issue=https://github.com/nielsbasjes/yauaa/issues/2031
