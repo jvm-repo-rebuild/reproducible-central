@@ -1,0 +1,96 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Logback-Parent
+group-id=ch.qos.logback
+artifact-id=logback-parent
+version=1.5.25
+
+# source information
+source.scm.uri=scm:git@github.com:qos-ch/logback.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+os.version=26.2
+os.arch=aarch64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=logback-access
+
+# aggregated output
+
+outputs.0.coordinates=ch.qos.logback:logback-parent
+
+outputs.0.0.groupId=ch.qos.logback
+outputs.0.0.filename=logback-parent-1.5.25.pom
+outputs.0.0.length=19290
+outputs.0.0.checksums.sha512=daa8f9ae2dc235d2e17c6187fc726f0f8e07e4e45f57bb4b60a7ca65b9c2ae7f92a80c7023a2dd549a20d68394c49bbe280b9ee78403898379190d2f180fb681
+
+outputs.1.coordinates=ch.qos.logback:logback-core
+
+outputs.1.0.groupId=ch.qos.logback
+outputs.1.0.filename=logback-core-1.5.25.pom
+outputs.1.0.length=9078
+outputs.1.0.checksums.sha512=d17c714e4560828bf43e2cb0c29cada48f36ee650e45d396a01aa542fe1d8991a5868232e2d9a44b896c20456980fb6434f3b7c7a8033cc5b3366169b8873f40
+
+outputs.1.1.groupId=ch.qos.logback
+outputs.1.1.filename=logback-core-1.5.25.jar
+outputs.1.1.length=658745
+outputs.1.1.checksums.sha512=c9556c9ae438e8eb396f6be6ae5eb66c7403b291e7901bac37cb85eca8ed959e4b3ed98917351bbea32181e8a47c8ee66aa8c8114644d082f45e53cf2b92ed1f
+
+outputs.1.2.groupId=ch.qos.logback
+outputs.1.2.filename=logback-core-1.5.25-sources.jar
+outputs.1.2.length=518314
+outputs.1.2.checksums.sha512=14dc56b43eed312566a44b19908e706a8ca03357d9c8ca362d165da6a71b3deca8c9e1238a3f0ceb94d69b071121c67b9710c8216c99fa51638c4fe50b35ad1c
+
+outputs.1.3.groupId=ch.qos.logback
+outputs.1.3.filename=logback-core-1.5.25-test-sources.jar
+outputs.1.3.length=238024
+outputs.1.3.checksums.sha512=30d160afd8e4c826018f489b0e24f749c5b553af0ba3bfaeb91d1429654d174a0b54a6907055da93b09a99fe74f3615346139ab16a0f2a15371890b681ed9fca
+
+outputs.1.4.groupId=ch.qos.logback
+outputs.1.4.filename=logback-core-1.5.25-tests.jar
+outputs.1.4.length=395305
+outputs.1.4.checksums.sha512=21b289aaa9fc332ce9c4ef768b1cbf2004b5a9e81774d5aaa687bf5c5b3a62642e03879182bf7c2bbaf48a1df4041babcda03fd375d6bf586633b476e389cc72
+
+outputs.2.coordinates=ch.qos.logback:logback-classic
+
+outputs.2.0.groupId=ch.qos.logback
+outputs.2.0.filename=logback-classic-1.5.25.pom
+outputs.2.0.length=12772
+outputs.2.0.checksums.sha512=cbe62b80d9113d32ad3e37c85f855d4b3269da6c5ccc1715f7cdc0496872be35f6b4a4cdaeba65787afa0256b7cac05128d21524e6502f39742b23c37656139b
+
+outputs.2.1.groupId=ch.qos.logback
+outputs.2.1.filename=logback-classic-1.5.25.jar
+outputs.2.1.length=309055
+outputs.2.1.checksums.sha512=54d871eb375c98be429bdc05a960e54b382404012993a7d7da78f6ac713fa72c087e4ba625fcc3fcf8503c64b0ae277f448117f8c4589e7c0e4525f7e34e4b69
+
+outputs.2.2.groupId=ch.qos.logback
+outputs.2.2.filename=logback-classic-1.5.25-sources.jar
+outputs.2.2.length=252368
+outputs.2.2.checksums.sha512=fbe8fb2641aebcdaee831b0e04e38dba2ea960e23a6342732558f7116d51bf79c27264a277457b53a46e1a03e5ed6a7f8626b7a314fa3fbb00d472c49d72b99c
+
+outputs.2.3.groupId=ch.qos.logback
+outputs.2.3.filename=logback-classic-1.5.25-test-sources.jar
+outputs.2.3.length=318040
+outputs.2.3.checksums.sha512=c38f8b6aaf2e81728c2f63a7157a460e9e83429b22884e385e54ef34283fabf781fa885e1f19cc8226d050be744d2babd381391ca6a50faf0cb627e82c190254
+
+outputs.2.4.groupId=ch.qos.logback
+outputs.2.4.filename=logback-classic-1.5.25-tests.jar
+outputs.2.4.length=469270
+outputs.2.4.checksums.sha512=fe1d5258f647e42500fe726bee6f1047936ee4e4a4e629f264a6c7afa09c7f5b1dc52c490d1923d6476db8c52dbf7b7b217418ad9bf33f45f278ffda69e58a3f
+
+outputs.3.coordinates=ch.qos.logback:logback-access
+
+outputs.3.0.groupId=ch.qos.logback
+outputs.3.0.filename=logback-access-1.5.25.pom
+outputs.3.0.length=964
+outputs.3.0.checksums.sha512=989d6a0508133758197588679d37df5e0b7dd3254e660e5c115924185b649f7644fac1bfe0229cc45258a1b809e2b8f712a2b5a47d7fc6981ccd68cc84df0e7e
