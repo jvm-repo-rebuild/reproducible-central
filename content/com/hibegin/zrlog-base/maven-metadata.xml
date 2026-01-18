@@ -3,8 +3,8 @@
   <groupId>com.hibegin</groupId>
   <artifactId>zrlog-base</artifactId>
   <versioning>
-    <latest>3.2.126</latest>
-    <release>3.2.126</release>
+    <latest>3.3.7</latest>
+    <release>3.3.7</release>
     <versions>
       <version>3.2.7</version>
       <version>3.2.8</version>
@@ -102,7 +102,15 @@
       <version>3.2.124</version>
       <version>3.2.125</version>
       <version>3.2.126</version>
+      <version>3.3.0</version>
+      <version>3.3.1</version>
+      <version>3.3.2</version>
+      <version>3.3.3</version>
+      <version>3.3.4</version>
+      <version>3.3.5</version>
+      <version>3.3.6</version>
+      <version>3.3.7</version>
     </versions>
-    <lastUpdated>20260117160315</lastUpdated>
+    <lastUpdated>20260118160717</lastUpdated>
   </versioning>
 </metadata>

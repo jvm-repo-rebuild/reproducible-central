@@ -1,6 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/ch/qos/logback/logback-1.5.24.buildspec:1.5.25
-content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.2.126
+content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-3.buildspec:11.3.1-beta-4
+content/io/airlift/airbase/airbase-342.buildspec:343
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.2-beta-1.buildspec:5.11.2-beta-2
+content/io/yupiik/fusion/fusion-1.0.32.buildspec:1.0.33
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
