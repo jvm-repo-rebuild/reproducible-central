@@ -14,7 +14,7 @@ source.scm.tag=v7.32.0
 build-tool=mvn
 
 # effective build environment information
-java.version=21.0.8
+java.version=21.0.9
 java.vendor=Ubuntu
 os.name=Linux
 os.version=6.11.0-1018-azure
