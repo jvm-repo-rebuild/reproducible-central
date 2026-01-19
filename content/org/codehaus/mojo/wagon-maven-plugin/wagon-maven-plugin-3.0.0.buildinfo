@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Wagon Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=wagon-maven-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/wagon-maven-plugin.git
+source.scm.tag=wagon-maven-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=wagon-maven-plugin-3.0.0.pom
+outputs.0.length=9664
+outputs.0.checksums.sha512=146c76300b889e8e9d35962976f7a3470e13e1ea332a6c7289c0191189f2f6ac7786451d27d19dfe9dedcae66ca53171ded2ff91062cead6f12a8696fbb26106
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=wagon-maven-plugin-3.0.0.jar
+outputs.1.length=57826
+outputs.1.checksums.sha512=b0c1670a0a5c8b520ffc598a3c218adb122c0757bf71a97baab8efedad84728675354a7200bc40a165991926a8133c7ed09c3d72ad8ee834bfd0cae4ecf52759
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=wagon-maven-plugin-3.0.0-source-release.zip
+outputs.2.length=90472
+outputs.2.checksums.sha512=f6d52557796b8cc5180eeba54ccf033c7448e1d8f8617d11c8d9f8ea6042a51ef8df7f0d842f97dfca71521cfd8223cfe5c627c48f77f37af83b56e613d1ceaa
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=wagon-maven-plugin-3.0.0-sources.jar
+outputs.3.length=44841
+outputs.3.checksums.sha512=ca1503f092e05b4d5d4c2ea81c1cb63d7ebd45209e30715c09e9295affcec72be86dad43e6c57e9ca9471bbe5ea008c11d0cffe959ccec3b10079c8e62b8235a
