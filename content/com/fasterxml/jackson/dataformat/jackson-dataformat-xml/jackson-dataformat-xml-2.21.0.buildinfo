@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-dataformat-XML
+group-id=com.fasterxml.jackson.dataformat
+artifact-id=jackson-dataformat-xml
+version=2.21.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformat-xml.git
+source.scm.tag=jackson-dataformat-xml-2.21.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_472
+java.vendor=Private Build
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.dataformat
+outputs.0.filename=jackson-dataformat-xml-2.21.0.pom
+outputs.0.length=9356
+outputs.0.checksums.sha512=d63a3c5fe1167afd472233f7aadb7f56bb02190eca28c2bef2d545b3eb8d84f04e2ed2bd3611e3ca282712d60ed50c7e8d1a67dfd47d79f5a3290a4afa0aa4a1
+
+outputs.1.groupId=com.fasterxml.jackson.dataformat
+outputs.1.filename=jackson-dataformat-xml-2.21.0.jar
+outputs.1.length=135585
+outputs.1.checksums.sha512=f6825e5a271b484a2221e848d20c2671b1165f8cb7a1e0f341a2d46fabb5fba31599a97efbf333d857c3127d463abfa34a76078d0097146c349b913799bbe191
+
+outputs.2.groupId=com.fasterxml.jackson.dataformat
+outputs.2.filename=jackson-dataformat-xml-2.21.0-sources.jar
+outputs.2.length=104138
+outputs.2.checksums.sha512=bda7b724f1ddeda4aa4c8c3d57ed2445302923d83aee934ea4619509f65fd014e15e3c77da7a8b146bef9691b55d7fb602398df97bdfb80ed97cb15d45b670dd
+
+outputs.3.groupId=com.fasterxml.jackson.dataformat
+outputs.3.filename=jackson-dataformat-xml-2.21.0-sbom-cyclonedx.xml
+outputs.3.length=12854
+outputs.3.checksums.sha512=2fa59d7e9fb31d58e2f45aed7241ef8a07b81adbb3c8fddc6cb3d22c1479ad01b01de65c65913ddd4725581e09f6cb0e8cfd6f209b0f729acc18204ba570511b
+
+outputs.4.groupId=com.fasterxml.jackson.dataformat
+outputs.4.filename=jackson-dataformat-xml-2.21.0-sbom-cyclonedx.json
+outputs.4.length=13761
+outputs.4.checksums.sha512=4b2d0782ad7bf6a30519d92bd099f39085091512b42de0b83807a83adbad09f80877f64fbe963d8b24938dab329de420bb9be45204ae8e015cd9b7c6793a8920
+# ignored jackson-dataformat-xml-2.21.0.module
