@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's AspectJ Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=aspectj-maven-plugin
+version=1.16.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/aspectj-maven-plugin.git
+source.scm.tag=aspectj-maven-plugin-1.16.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.5
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=aspectj-maven-plugin-1.16.0.pom
+outputs.0.length=12499
+outputs.0.checksums.sha512=d33d36a7bd70893ea11d92fdb526698ada2bd1f340c5e5557e955ab93c822a81fe0c857fb6eb88ce6b6eaba45a244fa284844f3ba02eb3c94b1ca0fef9d7914b
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=aspectj-maven-plugin-1.16.0.jar
+outputs.1.length=61167
+outputs.1.checksums.sha512=5f09b3b8d57e61f5370077e231d26b10e210968e1765f151f1977438128e786b14a75e01715e840a393b57190efea02186fe14d38677464900eb3f45b0f6b5f8
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=aspectj-maven-plugin-1.16.0-source-release.zip
+outputs.2.length=301120
+outputs.2.checksums.sha512=9edf512f39cf4d2647b38dd8b911953e8492bd344a90e6e48774100509df54b3e4591a4ab1f2bd091c78dbab0c5036fa09a87ff9cbcd457584b60774aa0b66eb
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=aspectj-maven-plugin-1.16.0-sources.jar
+outputs.3.length=43781
+outputs.3.checksums.sha512=34fc0d671a244eeb7817a050144b6fd0daacff55c6ea5e7073893d7b0e12e97c4a4d0b79d3cad5379ab0febd5c790ba79517f630ef9d159666e9fe51d0234eb6
