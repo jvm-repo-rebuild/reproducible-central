@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XML Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=xml-maven-plugin
+version=1.2.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/xml-maven-plugin.git
+source.scm.tag=xml-maven-plugin-1.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=xml-maven-plugin-1.2.1.pom
+outputs.0.length=8084
+outputs.0.checksums.sha512=8469c266c6bff86711747242eb21b5e19919e11fb4f5ebdabe3be1d693d61ae1be81bd0c6e4da65d688a75bbf30cb557c0cd8e7291afcb2d8cbc06caf24dcc7a
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=xml-maven-plugin-1.2.1.jar
+outputs.1.length=65804
+outputs.1.checksums.sha512=1e670dd6e7ddf30ba2d5309cd109e1550a7e2fed8babdb25480846cbb0e2489a85265fd5aaf6b304a7b607026d185977df432b098915e8f408ba695539b8a4d2
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=xml-maven-plugin-1.2.1-source-release.zip
+outputs.2.length=241059
+outputs.2.checksums.sha512=0a25a46bdf375978ec8f9970dbd25d9026897a2dbf0091f618533e84d74225a6c12f0c1c24c4d3d54a57546a20a5b33239f9002c01c6aea0ca84b7733626486e
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=xml-maven-plugin-1.2.1-sources.jar
+outputs.3.length=39725
+outputs.3.checksums.sha512=b7c775953fd16a9ba9cf64f874406f6ff96ffd3ca9bafa4bb33208fbe2fdb30c43936d3b8e5da6abcd80cea47c28734299386772f4b71cc2df863adb50b5e9d7
