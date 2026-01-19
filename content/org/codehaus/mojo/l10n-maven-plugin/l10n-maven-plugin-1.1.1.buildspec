@@ -1,0 +1,17 @@
+groupId=org.codehaus.mojo
+artifactId=l10n-maven-plugin
+display=${groupId}:${artifactId}
+version=1.1.1
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.12
+jdk=21
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
