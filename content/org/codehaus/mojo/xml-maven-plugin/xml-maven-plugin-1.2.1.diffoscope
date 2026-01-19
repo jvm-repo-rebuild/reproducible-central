@@ -1,0 +1,110 @@
+1 / 1 target/reference/org.codehaus.mojo/xml-maven-plugin-1.2.1-source-release.zip target/xml-maven-plugin-1.2.1-source-release.zip
+--- target/reference/org.codehaus.mojo/xml-maven-plugin-1.2.1-source-release.zip
++++ target/xml-maven-plugin-1.2.1-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 252168 bytes, number of entries: 429
+│ +Zip file size: 241059 bytes, number of entries: 387
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/
+│ @@ -111,24 +111,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it1/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it12/
+│ @@ -148,42 +140,22 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it3/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it9/
+│ @@ -205,18 +177,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsd/xsd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/generated-resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/generated-resources/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/generated-resources/xml/xslt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/xsl/
+│ @@ -332,19 +300,17 @@
+│  -rw-r--r--  2.0 unx      698 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it1/xml/doc1.xml
+│  -rw-r--r--  2.0 unx     1414 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/pom.xml
+│ --rw-r--r--  2.0 unx      119 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/target/generated-resources/xml/xslt/doc1.xml
+│  -rw-r--r--  2.0 unx      698 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it10/xml/doc1.xml
+│  -rw-r--r--  2.0 unx      828 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/it11.xsl
+│  -rw-r--r--  2.0 unx     1634 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/pom.xml
+│ --rw-r--r--  2.0 unx      119 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/target/generated-resources/xml/xslt/doc1.xml
+│  -rw-r--r--  2.0 unx      716 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it11/xml/doc1.xml
+│  -rw-r--r--  2.0 unx      754 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it12/catalogue.xml
+│ @@ -380,31 +346,26 @@
+│  -rw-r--r--  2.0 unx      828 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/it4.xsl
+│  -rw-r--r--  2.0 unx     1548 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/pom.xml
+│ --rw-r--r--  2.0 unx      119 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/target/generated-resources/xml/xslt/doc1.xml
+│  -rw-r--r--  2.0 unx      698 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it4/xml/doc1.xml
+│  -rw-r--r--  2.0 unx      866 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/it5.xsl
+│  -rw-r--r--  2.0 unx     1724 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/pom.xml
+│ --rw-r--r--  2.0 unx       70 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/target/generated-resources/xml/xslt/doc1.xml
+│  -rw-r--r--  2.0 unx      698 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it5/xml/doc1.xml
+│  -rw-r--r--  2.0 unx      806 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/it4.xsl
+│  -rw-r--r--  2.0 unx     1820 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/pom.xml
+│ --rw-r--r--  2.0 unx      119 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/target/generated-resources/xml/xslt/doc1.fo
+│  -rw-r--r--  2.0 unx      698 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it6/xml/doc1.xml
+│  -rw-r--r--  2.0 unx      806 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/it7.xsl
+│  -rw-r--r--  2.0 unx     1932 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/pom.xml
+│ --rw-r--r--  2.0 unx      119 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/target/generated-resources/xml/xslt/doc1.xml
+│  -rw-r--r--  2.0 unx      698 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it7/xml/doc1.xml
+│  -rw-r--r--  2.0 unx     1045 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/it8.xsl
+│  -rw-r--r--  2.0 unx     2057 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/pom.xml
+│ --rw-r--r--  2.0 unx      162 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/target/generated-resources/xml/xslt/doc1.xml
+│  -rw-r--r--  2.0 unx      696 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it8/xml/doc1.xml
+│  -rw-r--r--  2.0 unx     1511 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/it9/pom.xml
+│ @@ -417,15 +378,12 @@
+│  -rw-r--r--  2.0 unx     1676 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsd/xsd/schema.xsd
+│  -rw-r--r--  2.0 unx     2204 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/pom.xml
+│ --rw-r--r--  2.0 unx     1007 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/generated-resources/xml/xslt/book.xml
+│ --rw-r--r--  2.0 unx      847 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/generated-resources/xml/xslt/chapter.xml
+│ --rw-r--r--  2.0 unx      693 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/target/generated-resources/xml/xslt/section.xml
+│  -rw-r--r--  2.0 unx      732 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/xml/book.xml
+│  -rw-r--r--  2.0 unx      811 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/xml/chapter.xml
+│  -rw-r--r--  2.0 unx      693 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/xml/section.xml
+│  -rw-r--r--  2.0 unx     1005 b- defN 26-Jan-18 21:19 xml-maven-plugin-1.2.1/src/test/xinclude-xsl/xsl/copy.xsl
+│ -429 files, 538757 bytes uncompressed, 172770 bytes compressed:  67.9%
+│ +387 files, 535383 bytes uncompressed, 170529 bytes compressed:  68.1%
