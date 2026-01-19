@@ -14,17 +14,17 @@ Source code: [https://github.com/jpmml/jpmml-python.git](https://github.com/jpmm
 * [org.jpmml:pmml-python-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-python-testing/overview)
 </details>
 
-rebuilding **21 releases** of org.jpmml:jpmml-python:
+rebuilding **22 releases** of org.jpmml:jpmml-python:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 1 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 1 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.3.16](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.16/pom) | | | |
 | [1.3.15](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.15/pom) | | | |
 | [1.3.14](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.14/pom) | | | |
-| [1.3.13](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.13/pom) | | | |
+| [1.3.13](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.13/pom) | [mvn jdk11](jpmml-python-1.3.13.buildspec) | [result](jpmml-python-1.3.13.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-python-1.3.13.buildcompare) | 1 :recycle: 1 :rotating_light: | 301K |
 | [1.3.12](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.12/pom) | [mvn jdk11](jpmml-python-1.3.12.buildspec) | [result](jpmml-python-1.3.12.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-python-1.3.12.buildcompare) | 1 :recycle: 1 :rotating_light: | 300K |
 | [1.3.11](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.11/pom) | [mvn jdk11](jpmml-python-1.3.11.buildspec) | [result](jpmml-python-1.3.11.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-python-1.3.11.buildcompare) | 1 :recycle: 1 :rotating_light: | 256K |
 | [1.3.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.10/pom) | | | |
