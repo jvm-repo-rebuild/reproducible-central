@@ -7,21 +7,22 @@
 
 Source code: [https://github.com/jpmml/jpmml-transpiler.git](https://github.com/jpmml/jpmml-transpiler.git)
 
-<details><summary>This project defines 3 modules:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
 * [org.jpmml:jpmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/overview)
+* [org.jpmml:pmml-translator](https://central.sonatype.com/artifact/org.jpmml/pmml-translator/overview)
 * [org.jpmml:pmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/pmml-transpiler/overview)
 * [org.jpmml:pmml-transpiler-example](https://central.sonatype.com/artifact/org.jpmml/pmml-transpiler-example/overview)
 </details>
 
-rebuilding **15 releases** of org.jpmml:jpmml-transpiler:
+rebuilding **16 releases** of org.jpmml:jpmml-transpiler:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 6 had all their differences removed :recycle:
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 7 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.5.0/pom) | | | |
+| [1.5.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.5.0/pom) | [mvn jdk11](jpmml-transpiler-1.5.0.buildspec) | [result](jpmml-transpiler-1.5.0.buildinfo): [4 :white_check_mark:  3 :warning:](jpmml-transpiler-1.5.0.buildcompare) | 3 :recycle: | 276K |
 | [1.4.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.8/pom) | [mvn jdk11](jpmml-transpiler-1.4.8.buildspec) | [result](jpmml-transpiler-1.4.8.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-transpiler-1.4.8.buildcompare) | 2 :recycle: | 267K |
 | [1.4.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.7/pom) | [mvn jdk11](jpmml-transpiler-1.4.7.buildspec) | [result](jpmml-transpiler-1.4.7.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-transpiler-1.4.7.buildcompare) | 2 :recycle: | 267K |
 | [1.4.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.6/pom) | [mvn jdk11](jpmml-transpiler-1.4.6.buildspec) | [result](jpmml-transpiler-1.4.6.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-transpiler-1.4.6.buildcompare) | 2 :recycle: | 267K |
