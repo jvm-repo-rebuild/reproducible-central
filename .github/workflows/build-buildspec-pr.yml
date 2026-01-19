@@ -121,7 +121,7 @@ jobs:
 
               ko="$(grep "^ko=" PRcomment.txt | cut -d = -f 2)"
               echo "PR_merge_max_ko=$PR_merge_max_ko: ko=$ko"
-              if [ "$ko" -eq 0 ]
+              if [ $ko -ne 0 ]
               then
                 ./build_diffoscope.sh $buildcompare buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
