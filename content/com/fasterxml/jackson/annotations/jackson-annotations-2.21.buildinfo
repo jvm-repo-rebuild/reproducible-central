@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-annotations
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-annotations
+version=2.21
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-annotations.git
+source.scm.tag=jackson-annotations-2.21
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_472
+java.vendor=Private Build
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-annotations-2.21.pom
+outputs.0.length=7390
+outputs.0.checksums.sha512=fe4b58ec957920026916ddf034cf6e200e17310da01bc58bfa176d06d14f084a64f195701f68cf62ddd656f33cd9ff66bab8705059a67b5a2ece86e5addbea15
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-annotations-2.21.jar
+outputs.1.length=82104
+outputs.1.checksums.sha512=d832a99867acc2d5afb2596da760c50e6a6b54c1bbc8e6c4186f267a16e1d55c7a916ef8b034ad6b277c41e3342b91dcdc2e3dcea8bdccfe89e7c147894591be
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-annotations-2.21-sbom-cyclonedx.xml
+outputs.2.length=2742
+outputs.2.checksums.sha512=c3f666383c56e5946a5a0dfe174684a5e6571bd27a617053f3214745771fd148d01700b3a661056dd7d6c9b18e687730386214d133cd77482b64ff380c35e3ea
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-annotations-2.21-sbom-cyclonedx.json
+outputs.3.length=2943
+outputs.3.checksums.sha512=1d839f5a8b027ba153094e6c6c2f81a893fa33eeed6854a34059b64390c07852b4b7396258491eceba251ad7ee7a69e5e0c01274941c0818331e000be788149b
+
+outputs.4.groupId=com.fasterxml.jackson.core
+outputs.4.filename=jackson-annotations-2.21-sources.jar
+outputs.4.length=89547
+outputs.4.checksums.sha512=05fd1850bcede4268333e998ef4143d3b16a2590bb6c3df1fdfba7907d2c4ada94e4405fe6ecceedd7aa55a4512584e0c6d3654d01a3b00f7d4665d8950ea596
+
+outputs.5.groupId=com.fasterxml.jackson.core
+outputs.5.filename=jackson-annotations-2.21.module
+outputs.5.length=1917
+outputs.5.checksums.sha512=c3aa4b8d600135abc68cdbaa19277861960172a9baa76f125a2ea58392787edb1ae69047ffc2ce77e8c93ecc3c24302a8b842eb745c0137f93f6be3ad3e2dc25
