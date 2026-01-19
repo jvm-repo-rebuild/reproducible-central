@@ -28,6 +28,7 @@ rebuilding **1 releases** of org.codehaus.mojo:native-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.0.0/pom) | | | |
 | [1.0-M1](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.0-M1/pom) | [mvn jdk21](maven-native-1.0-M1.buildspec) | [result](maven-native-1.0-M1.buildinfo): [30 :white_check_mark: ](maven-native-1.0-M1.buildcompare) | | 688K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
