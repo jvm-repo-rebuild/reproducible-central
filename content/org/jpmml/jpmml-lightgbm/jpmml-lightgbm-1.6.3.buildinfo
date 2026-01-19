@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-LightGBM
+group-id=org.jpmml
+artifact-id=jpmml-lightgbm
+version=1.6.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-lightgbm.git
+source.scm.tag=1.6.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-lightgbm-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-lightgbm
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-lightgbm-1.6.3.pom
+outputs.0.0.length=3804
+outputs.0.0.checksums.sha512=c025d2b6e69e2551a21cb7054b5c71e0ba5897eaf40f5d9e44f01180856257a89f92b7ea2a70dc780d9bac5006fa484dbf78a86851db819537b9ecfc61b741ff
+
+outputs.1.coordinates=org.jpmml:pmml-lightgbm
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-lightgbm-1.6.3.pom
+outputs.1.0.length=1749
+outputs.1.0.checksums.sha512=a63cb8ef3f45fa0f52efeb70c00794fba582010751c403fceaa3f0a27cc7f3c1d1f27e6bad0fbf27aca0a1b61415983108f6243425d7b10e88b296b413aa080e
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-lightgbm-1.6.3.jar
+outputs.1.1.length=50789
+outputs.1.1.checksums.sha512=79ca79b0ba0c10591cac2c68025982e8107229c8d3532aa2f254d9ca563ca5810a6324d8f580ef1ae54bcd544533078a21fbbecd9c255b68cf0ff9ff3ef20433
+
+outputs.2.coordinates=org.jpmml:pmml-lightgbm-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-lightgbm-example-1.6.3.pom
+outputs.2.0.length=2032
+outputs.2.0.checksums.sha512=7c46c2eb219fcebc94f5fc141d7afef4db06c300d52181f5373415f046095f60a9aa42218e645157b1715f8a7a6b9d19e63994f5f147e6631ff228469f327c1f
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-lightgbm-example-1.6.3.jar
+outputs.2.1.length=5784
+outputs.2.1.checksums.sha512=b9ead0e67c9540ac3e991b90ca3d72863001b62d6e9f3b17c6eb6d5ddfade62b5dcffe6820841b271e9f1f9447f5a2a3e9a527df3f7cbf0cde01340cdfefd22b
