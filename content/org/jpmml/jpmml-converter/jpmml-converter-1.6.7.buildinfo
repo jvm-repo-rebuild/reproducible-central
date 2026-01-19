@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Converter
+group-id=org.jpmml
+artifact-id=jpmml-converter
+version=1.6.7
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-converter.git
+source.scm.tag=1.6.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=pmml-converter-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-converter
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-converter-1.6.7.pom
+outputs.0.0.length=3990
+outputs.0.0.checksums.sha512=6b05a93afea1839a8d66738b85aaaa826ba30672878384ebd6f27df01e060071a05a0e71c551bddf19df19a1fabacdbb3b906f8af0c40302daa510915c229d6e
+
+outputs.1.coordinates=org.jpmml:pmml-converter
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-converter-1.6.7.pom
+outputs.1.0.length=2057
+outputs.1.0.checksums.sha512=9ade94d9243cc76a5a919a44b4046b1ee2f0bf814d1a445415818b01bb870c558b971c16b784fc1ebea89bd9dfd27a38f3ab5be1f66367a6aaf206eda5414965
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-converter-1.6.7.jar
+outputs.1.1.length=209640
+outputs.1.1.checksums.sha512=59a035a089758eedfb6cf2d245294100289882b49da99dcc6925d81b93a21bf6141188e1bbe0c2c7d9775009b7cf60aa292c193f7755bff0b0d617959b99a5f3
+
+outputs.2.coordinates=org.jpmml:pmml-converter-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-converter-testing-1.6.7.pom
+outputs.2.0.length=1245
+outputs.2.0.checksums.sha512=087c49938160714285818f46e06d3a8e8afca776bb635cac328666ef64fd98781062b09150613df43dcde97f4a591a9ad535fdaade457bc3ce0108f11ed7a883
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-converter-testing-1.6.7.jar
+outputs.2.1.length=8275
+outputs.2.1.checksums.sha512=16b31337e43feca9f02bac9df0c0a074c1f52f6fd973ac6247867dc1e3b146f4bd76c5e4671753ec6a4513b3174c0968c4fec5c7cb67988f82d9499023ebd8a6
