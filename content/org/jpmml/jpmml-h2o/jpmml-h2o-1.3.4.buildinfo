@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-H2O
+group-id=org.jpmml
+artifact-id=jpmml-h2o
+version=1.3.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-h2o.git
+source.scm.tag=1.3.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-h2o-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-h2o
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-h2o-1.3.4.pom
+outputs.0.0.length=4747
+outputs.0.0.checksums.sha512=809f3b188e5a044a252d0d60692a47943ff1ffeff0ee6add782017eecefd498947457e5bce3f27d770d79a89097a15f0a707867f7593c6e779f64181389869d7
+
+outputs.1.coordinates=org.jpmml:pmml-h2o
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-h2o-1.3.4.pom
+outputs.1.0.length=1829
+outputs.1.0.checksums.sha512=ccf5aaf114346dfc5c4fc425b8f209b66c7446a07abbebbcbacb51520f202b1a431eb66e0dc112c1136c62aa0559a4cfdff8181381d9bb9d9100dc16a082015f
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-h2o-1.3.4.jar
+outputs.1.1.length=60119
+outputs.1.1.checksums.sha512=fda5a612f7c150891b331fe1a4364e27ceab07e1f9c9708c1b9fe8c87b63c6fd5a8768d8a0f1ea157940c9a51e170e6a142680b4ef50463fe450ca1804d40838
+
+outputs.2.coordinates=org.jpmml:pmml-h2o-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-h2o-example-1.3.4.pom
+outputs.2.0.length=2003
+outputs.2.0.checksums.sha512=ddb90ababe563b8d7feb7951f6d38204d2e80a80c2208ce6d4c09696e8b1fd2449e4d6a825b2f10a769e3cdc528f402287f0c86e83813387464ff75622acfd82
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-h2o-example-1.3.4.jar
+outputs.2.1.length=4822
+outputs.2.1.checksums.sha512=c4408f79fc25078ab0cdde2f49c2568a67fbc1ee42ed0a34275f543c8d4b12a483109fb093a46a88cf86e06ea1d68659c536e2c56c7bba31fdc4f7f42ef93633
