@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.13
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.13
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.13.pom
+outputs.0.0.length=3350
+outputs.0.0.checksums.sha512=ca12a4f17853f2607ec3b47071f09ac6078d960759214fd48853dd5f3dc7c47839e2d706a09ba0023fd21e8ddd1184deef694b2d4a0acd1b7d864703ed6d5d2f
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.13.pom
+outputs.1.0.length=5171
+outputs.1.0.checksums.sha512=7ed21dc3de0d02fd2743a348738e4be915e497b374da8926e9918b138abadc07802eb5934fcd33e7ceedc1ef7c63a98782d53d790e38b9807ef1e3973821bf66
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.13.jar
+outputs.1.1.length=293623
+outputs.1.1.checksums.sha512=1d2e78e206b627ed5f589724cf0e5515948eadf2ac096ef056f6669209550986a4d555011635fa5cf1e4d616de14dc40bfb2093c14d1a50433dc215c27f59ba0
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.13.pom
+outputs.2.0.length=1249
+outputs.2.0.checksums.sha512=f786728e2ad711b86909e082cbbfbd014cce5193cc97aef20e00fac80d2995261eb761d19166160bcadebe07d06c637765dd7538655489eac7b0c48fd5e0e052
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.13.jar
+outputs.2.1.length=4137
+outputs.2.1.checksums.sha512=b5584de0d94b319a2aa92bd407a8ee705c8b416f33a1744fb760e72247608dcd3bf0fbb3e281f27a1bb2ed4f2c106ae522111931b38be33e2f8af9cb7e92e9c1
