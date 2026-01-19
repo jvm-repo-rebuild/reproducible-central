@@ -1,0 +1,9 @@
+version=2.21.0
+ok=5
+ko=0
+ignored=1
+okFiles="jackson-datatype-joda-2.21.0.pom jackson-datatype-joda-2.21.0.jar jackson-datatype-joda-2.21.0-sources.jar jackson-datatype-joda-2.21.0-sbom-cyclonedx.xml jackson-datatype-joda-2.21.0-sbom-cyclonedx.json"
+koFiles=""
+ignoredFiles="jackson-datatype-joda-2.21.0.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
