@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson parent poms
+group-id=com.fasterxml.jackson
+artifact-id=jackson-parent
+version=2.21
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-parent.git
+source.scm.tag=jackson-parent-2.21
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson
+outputs.0.filename=jackson-parent-2.21.pom
+outputs.0.length=6879
+outputs.0.checksums.sha512=7f09fb690e700a20962f72bc3139acaea67b670a071599282cfafacb6995e887d9e6872e875526f5e17cfbad282cde0633c157a67e05ba66e17c76e9329bf5e1
