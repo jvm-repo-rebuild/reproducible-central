@@ -1,0 +1,467 @@
+1 / 11 target/reference/org.apache.nifi/nifi-2.7.2-source-release.zip target/nifi-2.7.2-source-release.zip
+--- target/reference/org.apache.nifi/nifi-2.7.2-source-release.zip
++++ target/nifi-2.7.2-source-release.zip
+├── nifi-2.7.2/.mvn/.develocity/develocity-workspace-id
+│ @@ -1 +1 @@
+│ -paslfr757jfw3pkb7orssc7y5u
+│ +diebhugt6jhozlrmhme4ah4rgi
+
+2 / 11 target/reference/org.apache.nifi/nifi-python-extension-api-2.7.2.jar nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api/target/nifi-python-extension-api-2.7.2.jar
+--- target/reference/org.apache.nifi/nifi-python-extension-api-2.7.2.jar
++++ nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api/target/nifi-python-extension-api-2.7.2.jar
+├── zipinfo {}
+│ @@ -1,10 +1,12 @@
+│ -Zip file size: 18854 bytes, number of entries: 18
+│ +Zip file size: 19056 bytes, number of entries: 20
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/
+│  -rw-r--r--  2.0 unx      342 b- defN 25-Dec-16 15:43 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 framework/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 framework/py4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 nifiapi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/maven/
+│ @@ -13,8 +15,8 @@
+│  -rw-r--r--  2.0 unx     1995 b- defN 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-python-extension-api/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-python-extension-api/pom.properties
+│ -18 files, 56256 bytes uncompressed, 16460 bytes compressed:  70.7%
+│ +20 files, 56256 bytes uncompressed, 16460 bytes compressed:  70.7%
+
+3 / 11 target/reference/org.apache.nifi/nifi-kerberos-user-service-nar-2.7.2.nar nifi-extension-bundles/nifi-standard-services/nifi-kerberos-user-service-bundle/nifi-kerberos-user-service-nar/target/nifi-kerberos-user-service-nar-2.7.2.nar
+--- target/reference/org.apache.nifi/nifi-kerberos-user-service-nar-2.7.2.nar
++++ nifi-extension-bundles/nifi-standard-services/nifi-kerberos-user-service-bundle/nifi-kerberos-user-service-nar/target/nifi-kerberos-user-service-nar-2.7.2.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │┄ Ordering differences only
+│ │ @@ -63,21 +63,21 @@
+│ │              <requiredPermission>access keytab</requiredPermission>
+│ │              <explanation>Allows user to define a Keytab and principal that can then be used by other components.</explanation>
+│ │            </restriction>
+│ │          </restrictions>
+│ │        </restricted>
+│ │        <providedServiceAPIs>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │        </providedServiceAPIs>
+│ │      </extension>
+│ │      <extension>
+│ │ @@ -174,21 +174,21 @@
+│ │              <requiredPermission>access ticket cache</requiredPermission>
+│ │              <explanation>Allows user to define a ticket cache and principal that can then be used by other components.</explanation>
+│ │            </restriction>
+│ │          </restrictions>
+│ │        </restricted>
+│ │        <providedServiceAPIs>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │        </providedServiceAPIs>
+│ │      </extension>
+│ │    </extensions>
+
+4 / 11 target/reference/org.apache.nifi/nifi-kerberos-user-service-nar-2.7.2-nar-extension-manifest.xml nifi-extension-bundles/nifi-standard-services/nifi-kerberos-user-service-bundle/nifi-kerberos-user-service-nar/target/META-INF/docs/extension-manifest.xml
+--- target/reference/org.apache.nifi/nifi-kerberos-user-service-nar-2.7.2-nar-extension-manifest.xml
++++ nifi-extension-bundles/nifi-standard-services/nifi-kerberos-user-service-bundle/nifi-kerberos-user-service-nar/target/META-INF/docs/extension-manifest.xml
+│   --- target/reference/org.apache.nifi/nifi-kerberos-user-service-nar-2.7.2-nar-extension-manifest.xml
+├── +++ nifi-extension-bundles/nifi-standard-services/nifi-kerberos-user-service-bundle/nifi-kerberos-user-service-nar/target/META-INF/docs/extension-manifest.xml
+│┄ Ordering differences only
+│ @@ -63,21 +63,21 @@
+│              <requiredPermission>access keytab</requiredPermission>
+│              <explanation>Allows user to define a Keytab and principal that can then be used by other components.</explanation>
+│            </restriction>
+│          </restrictions>
+│        </restricted>
+│        <providedServiceAPIs>
+│          <providedServiceAPI>
+│ -          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ +          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│            <groupId>org.apache.nifi</groupId>
+│            <artifactId>nifi-standard-services-api-nar</artifactId>
+│            <version>2.7.2</version>
+│          </providedServiceAPI>
+│          <providedServiceAPI>
+│ -          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ +          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│            <groupId>org.apache.nifi</groupId>
+│            <artifactId>nifi-standard-services-api-nar</artifactId>
+│            <version>2.7.2</version>
+│          </providedServiceAPI>
+│        </providedServiceAPIs>
+│      </extension>
+│      <extension>
+│ @@ -174,21 +174,21 @@
+│              <requiredPermission>access ticket cache</requiredPermission>
+│              <explanation>Allows user to define a ticket cache and principal that can then be used by other components.</explanation>
+│            </restriction>
+│          </restrictions>
+│        </restricted>
+│        <providedServiceAPIs>
+│          <providedServiceAPI>
+│ -          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ +          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│            <groupId>org.apache.nifi</groupId>
+│            <artifactId>nifi-standard-services-api-nar</artifactId>
+│            <version>2.7.2</version>
+│          </providedServiceAPI>
+│          <providedServiceAPI>
+│ -          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ +          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│            <groupId>org.apache.nifi</groupId>
+│            <artifactId>nifi-standard-services-api-nar</artifactId>
+│            <version>2.7.2</version>
+│          </providedServiceAPI>
+│        </providedServiceAPIs>
+│      </extension>
+│    </extensions>
+
+5 / 11 target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2.nar nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/nifi-splunk-nar-2.7.2.nar
+--- target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2.nar
++++ nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/nifi-splunk-nar-2.7.2.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -706,19 +706,14 @@
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │                <displayName>America/Costa_Rica</displayName>
+│ │                <value>America/Costa_Rica</value>
+│ │                <description/>
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │ -              <displayName>America/Coyhaique</displayName>
+│ │ -              <value>America/Coyhaique</value>
+│ │ -              <description/>
+│ │ -            </allowableValue>
+│ │ -            <allowableValue>
+│ │                <displayName>America/Creston</displayName>
+│ │                <value>America/Creston</value>
+│ │                <description/>
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │                <displayName>America/Cuiaba</displayName>
+│ │                <value>America/Cuiaba</value>
+
+6 / 11 target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2-nar-extension-manifest.xml nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/META-INF/docs/extension-manifest.xml
+--- target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2-nar-extension-manifest.xml
++++ nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/META-INF/docs/extension-manifest.xml
+│   --- target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2-nar-extension-manifest.xml
+├── +++ nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/META-INF/docs/extension-manifest.xml
+│ @@ -706,19 +706,14 @@
+│              </allowableValue>
+│              <allowableValue>
+│                <displayName>America/Costa_Rica</displayName>
+│                <value>America/Costa_Rica</value>
+│                <description/>
+│              </allowableValue>
+│              <allowableValue>
+│ -              <displayName>America/Coyhaique</displayName>
+│ -              <value>America/Coyhaique</value>
+│ -              <description/>
+│ -            </allowableValue>
+│ -            <allowableValue>
+│                <displayName>America/Creston</displayName>
+│                <value>America/Creston</value>
+│                <description/>
+│              </allowableValue>
+│              <allowableValue>
+│                <displayName>America/Cuiaba</displayName>
+│                <value>America/Cuiaba</value>
+
+7 / 11 target/reference/org.apache.nifi/nifi-docs-2.7.2-resources.zip nifi-docs/target/nifi-docs-2.7.2-resources.zip
+--- target/reference/org.apache.nifi/nifi-docs-2.7.2-resources.zip
++++ nifi-docs/target/nifi-docs-2.7.2-resources.zip
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 29581102 bytes, number of entries: 331
+│ +Zip file size: 29581087 bytes, number of entries: 331
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 html/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 html/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 html/misc/
+│  -rw-r--r--  2.0 unx    12908 b- defN 25-Dec-16 15:43 LICENSE
+│  -rw-r--r--  2.0 unx      163 b- defN 25-Dec-16 15:43 NOTICE
+│ --rw-r--r--  2.0 unx   520502 b- defN 25-Dec-16 15:43 html/administration-guide.html
+│ +-rw-r--r--  2.0 unx   520500 b- defN 25-Dec-16 15:43 html/administration-guide.html
+│  -rw-r--r--  2.0 unx    30934 b- defN 25-Dec-16 15:43 html/asciidoc-mod.css
+│ --rw-r--r--  2.0 unx   219216 b- defN 25-Dec-16 15:43 html/developer-guide.html
+│ --rw-r--r--  2.0 unx   245417 b- defN 25-Dec-16 15:43 html/expression-language-guide.html
+│ --rw-r--r--  2.0 unx   102015 b- defN 25-Dec-16 15:43 html/getting-started.html
+│ +-rw-r--r--  2.0 unx   219214 b- defN 25-Dec-16 15:43 html/developer-guide.html
+│ +-rw-r--r--  2.0 unx   245415 b- defN 25-Dec-16 15:43 html/expression-language-guide.html
+│ +-rw-r--r--  2.0 unx   102013 b- defN 25-Dec-16 15:43 html/getting-started.html
+│  -rw-r--r--  2.0 unx   173743 b- defN 25-Dec-16 15:43 html/images/CopyOnWrite.png
+│  -rw-r--r--  2.0 unx    62849 b- defN 25-Dec-16 15:43 html/images/DataIngress.png
+│ @@ -319,15 +319,15 @@
+│  -rw-r--r--  2.0 unx    44667 b- defN 25-Dec-16 15:43 html/images/zero-leader-node.png
+│  -rw-r--r--  2.0 unx    72154 b- defN 25-Dec-16 15:43 html/misc/WebCrawler.json
+│ --rw-r--r--  2.0 unx    78177 b- defN 25-Dec-16 15:43 html/nifi-in-depth.html
+│ --rw-r--r--  2.0 unx    57493 b- defN 25-Dec-16 15:43 html/overview.html
+│ --rw-r--r--  2.0 unx   100515 b- defN 25-Dec-16 15:43 html/python-developer-guide.html
+│ --rw-r--r--  2.0 unx   116217 b- defN 25-Dec-16 15:43 html/record-path-guide.html
+│ --rw-r--r--  2.0 unx    61040 b- defN 25-Dec-16 15:43 html/toolkit-guide.html
+│ --rw-r--r--  2.0 unx   357279 b- defN 25-Dec-16 15:43 html/user-guide.html
+│ --rw-r--r--  2.0 unx    98678 b- defN 25-Dec-16 15:43 html/walkthroughs.html
+│ -331 files, 34425768 bytes uncompressed, 29531202 bytes compressed:  14.2%
+│ +-rw-r--r--  2.0 unx    78175 b- defN 25-Dec-16 15:43 html/nifi-in-depth.html
+│ +-rw-r--r--  2.0 unx    57491 b- defN 25-Dec-16 15:43 html/overview.html
+│ +-rw-r--r--  2.0 unx   100513 b- defN 25-Dec-16 15:43 html/python-developer-guide.html
+│ +-rw-r--r--  2.0 unx   116215 b- defN 25-Dec-16 15:43 html/record-path-guide.html
+│ +-rw-r--r--  2.0 unx    61038 b- defN 25-Dec-16 15:43 html/toolkit-guide.html
+│ +-rw-r--r--  2.0 unx   357277 b- defN 25-Dec-16 15:43 html/user-guide.html
+│ +-rw-r--r--  2.0 unx    98676 b- defN 25-Dec-16 15:43 html/walkthroughs.html
+│ +331 files, 34425746 bytes uncompressed, 29531187 bytes compressed:  14.2%
+├── html/toolkit-guide.html
+│ @@ -1239,12 +1239,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2025-12-16 10:30:59 -0600
+│ +Last updated 2026-01-20 19:22:57 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...
+
+8 / 11 target/reference/org.apache.nifi/nifi-assembly-2.7.2-manifests.zip nifi-assembly/target/nifi-2.7.2-manifests.zip
+--- target/reference/org.apache.nifi/nifi-assembly-2.7.2-manifests.zip
++++ nifi-assembly/target/nifi-2.7.2-manifests.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 997498 bytes, number of entries: 917
+│ +Zip file size: 997487 bytes, number of entries: 917
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 nifi-manifests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 nifi-manifests/nifi-airtable-nar-nar/
+│ @@ -852,15 +852,15 @@
+│  -rw-r--r--  2.0 unx     3345 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-splunk-nar-nar/META-INF/docs/additional-details/org.apache.nifi.processors.splunk.PutSplunkHTTP/additionalDetails.md
+│  -rw-r--r--  2.0 unx     3790 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-splunk-nar-nar/META-INF/docs/additional-details/org.apache.nifi.processors.splunk.QuerySplunkIndexingStatus/additionalDetails.md
+│ --rw-r--r--  2.0 unx   122311 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-splunk-nar-nar/META-INF/docs/extension-manifest.xml
+│ +-rw-r--r--  2.0 unx   122175 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-splunk-nar-nar/META-INF/docs/extension-manifest.xml
+│  -rw-r--r--  2.0 unx    22619 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-ssl-context-service-nar-nar/META-INF/docs/extension-manifest.xml
+│  -rw-r--r--  2.0 unx      442 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-standard-content-viewer-nar-nar/META-INF/docs/extension-manifest.xml
+│ @@ -912,8 +912,8 @@
+│  -rw-r--r--  2.0 unx     4373 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-zendesk-services-nar-nar/META-INF/docs/additional-details/org.apache.nifi.services.zendesk.ZendeskRecordSink/additionalDetails.md
+│  -rw-r--r--  2.0 unx     6564 b- defN 25-Dec-16 15:43 nifi-manifests/nifi-zendesk-services-nar-nar/META-INF/docs/extension-manifest.xml
+│ -917 files, 5002810 bytes uncompressed, 768368 bytes compressed:  84.7%
+│ +917 files, 5002674 bytes uncompressed, 768357 bytes compressed:  84.7%
+├── nifi-manifests/nifi-kerberos-user-service-nar-nar/META-INF/docs/extension-manifest.xml
+│ ├── nifi-manifests/nifi-kerberos-user-service-nar-nar/META-INF/docs/extension-manifest.xml
+│ │┄ Ordering differences only
+│ │ @@ -63,21 +63,21 @@
+│ │              <requiredPermission>access keytab</requiredPermission>
+│ │              <explanation>Allows user to define a Keytab and principal that can then be used by other components.</explanation>
+│ │            </restriction>
+│ │          </restrictions>
+│ │        </restricted>
+│ │        <providedServiceAPIs>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │        </providedServiceAPIs>
+│ │      </extension>
+│ │      <extension>
+│ │ @@ -174,21 +174,21 @@
+│ │              <requiredPermission>access ticket cache</requiredPermission>
+│ │              <explanation>Allows user to define a ticket cache and principal that can then be used by other components.</explanation>
+│ │            </restriction>
+│ │          </restrictions>
+│ │        </restricted>
+│ │        <providedServiceAPIs>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.kerberos.KerberosUserService</className>
+│ │ +          <className>org.apache.nifi.kerberos.SelfContainedKerberosUserService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>2.7.2</version>
+│ │          </providedServiceAPI>
+│ │        </providedServiceAPIs>
+│ │      </extension>
+│ │    </extensions>
+├── nifi-manifests/nifi-splunk-nar-nar/META-INF/docs/extension-manifest.xml
+│ ├── nifi-manifests/nifi-splunk-nar-nar/META-INF/docs/extension-manifest.xml
+│ │ @@ -706,19 +706,14 @@
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │                <displayName>America/Costa_Rica</displayName>
+│ │                <value>America/Costa_Rica</value>
+│ │                <description/>
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │ -              <displayName>America/Coyhaique</displayName>
+│ │ -              <value>America/Coyhaique</value>
+│ │ -              <description/>
+│ │ -            </allowableValue>
+│ │ -            <allowableValue>
+│ │                <displayName>America/Creston</displayName>
+│ │                <value>America/Creston</value>
+│ │                <description/>
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │                <displayName>America/Cuiaba</displayName>
+│ │                <value>America/Cuiaba</value>
+
+9 / 11 target/reference/org.apache.nifi/nifi-stateless-resources-2.7.2.jar nifi-stateless/nifi-stateless-resources/target/nifi-stateless-resources-2.7.2.jar
+--- target/reference/org.apache.nifi/nifi-stateless-resources-2.7.2.jar
++++ nifi-stateless/nifi-stateless-resources/target/nifi-stateless-resources-2.7.2.jar
+├── zipinfo {}
+│ @@ -1,19 +1,21 @@
+│ -Zip file size: 13765 bytes, number of entries: 17
+│ +Zip file size: 13967 bytes, number of entries: 19
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/
+│  -rw-r--r--  2.0 unx      340 b- defN 25-Dec-16 15:43 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 conf/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 framework/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 framework/py4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-stateless-resources/
+│  -rw-r--r--  2.0 unx      274 b- defN 25-Dec-16 15:43 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Dec-16 15:43 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      163 b- defN 25-Dec-16 15:43 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1320 b- defN 25-Dec-16 15:43 bin/nifi-stateless-env.sh
+│  -rw-r--r--  2.0 unx     5410 b- defN 25-Dec-16 15:43 bin/nifi-stateless.sh
+│  -rw-r--r--  2.0 unx     1867 b- defN 25-Dec-16 15:43 conf/env-flow-config.properties
+│  -rw-r--r--  2.0 unx     3598 b- defN 25-Dec-16 15:43 conf/stateless-logback.xml
+│  -rw-r--r--  2.0 unx     2107 b- defN 25-Dec-16 15:43 conf/stateless.properties
+│  -rw-r--r--  2.0 unx     2162 b- defN 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-stateless-resources/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-stateless-resources/pom.properties
+│ -17 files, 28673 bytes uncompressed, 11545 bytes compressed:  59.7%
+│ +19 files, 28673 bytes uncompressed, 11545 bytes compressed:  59.7%
+
+10 / 11 target/reference/org.apache.nifi.registry/nifi-registry-web-ui-2.7.2.war nifi-registry/nifi-registry-core/nifi-registry-web-ui/target/nifi-registry-web-ui-2.7.2.war
+--- target/reference/org.apache.nifi.registry/nifi-registry-web-ui-2.7.2.war
++++ nifi-registry/nifi-registry-core/nifi-registry-web-ui/target/nifi-registry-web-ui-2.7.2.war
+├── zipinfo {}
+│ @@ -44,16 +44,16 @@
+│  -rw-r--r--  2.0 unx   165548 b- defN 25-Dec-16 15:43 assets/fonts/fontawesome-webfont.ttf
+│  -rw-r--r--  2.0 unx    98024 b- defN 25-Dec-16 15:43 assets/fonts/fontawesome-webfont.woff
+│  -rw-r--r--  2.0 unx    77160 b- defN 25-Dec-16 15:43 assets/fonts/fontawesome-webfont.woff2
+│  -rw-r--r--  2.0 unx     2467 b- defN 25-Dec-16 15:43 assets/images/registry-background-logo.svg
+│  -rw-r--r--  2.0 unx     2365 b- defN 25-Dec-16 15:43 assets/images/registry-logo-web-app.svg
+│  -rw-r--r--  2.0 unx     1550 b- defN 25-Dec-16 15:43 index.html
+│  -rw-r--r--  2.0 unx     8098 b- defN 25-Dec-16 15:43 locale/messages.es.xlf
+│ --rw-r--r--  2.0 unx   272522 b- defN 25-Dec-16 15:43 nf-registry.bundle.min.63733d308223a38eaed0.js
+│ --rw-r--r--  2.0 unx    31340 b- defN 25-Dec-16 15:43 nf-registry.bundle.min.63733d308223a38eaed0.js.gz
+│ +-rw-r--r--  2.0 unx   272522 b- defN 25-Dec-16 15:43 nf-registry.bundle.min.c0b65511b8567fdda137.js
+│ +-rw-r--r--  2.0 unx    31340 b- defN 25-Dec-16 15:43 nf-registry.bundle.min.c0b65511b8567fdda137.js.gz
+│  -rw-r--r--  2.0 unx   346165 b- defN 25-Dec-16 15:43 nf-registry.style.min.384116edabcfd1f3d557.css
+│  -rw-r--r--  2.0 unx    47469 b- defN 25-Dec-16 15:43 nf-registry.style.min.384116edabcfd1f3d557.css.gz
+│  -rw-r--r--  2.0 unx     1030 b- defN 25-Dec-16 15:43 node_modules/@covalent/core/README.md
+│  -rw-r--r--  2.0 unx   418015 b- defN 25-Dec-16 15:43 node_modules/@covalent/core/common/platform.css
+│  -rw-r--r--  2.0 unx    60840 b- defN 25-Dec-16 15:43 node_modules/@covalent/core/common/styles/font/MaterialIcons-Regular-v48.woff2
+│  -rw-r--r--  2.0 unx     6361 b- defN 25-Dec-16 15:43 node_modules/@nifi-fds/core/README.md
+│  -rw-r--r--  2.0 unx     5316 b- defN 25-Dec-16 15:43 node_modules/font-awesome/README.md
+
+11 / 11 target/reference/org.apache.nifi/nifi-runtime-manifest-2.7.2.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-2.7.2.jar
+--- target/reference/org.apache.nifi/nifi-runtime-manifest-2.7.2.jar
++++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-2.7.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 852270 bytes, number of entries: 418
+│ +Zip file size: 853796 bytes, number of entries: 418
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-16 15:43 META-INF/
+│  -rw-r--r--  2.0 unx      334 b- defN 25-Dec-16 15:43 META-INF/MANIFEST.MF
+│ @@ -251,15 +251,15 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Dec-16 15:43 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      160 b- defN 25-Dec-16 15:43 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     1056 b- defN 25-Dec-16 15:43 build.properties
+│ +-rw-r--r--  2.0 unx     1044 b- defN 25-Dec-16 15:43 build.properties
+│  -rw-r--r--  2.0 unx     2361 b- defN 25-Dec-16 15:43 docs/org.apache.nifi/nifi-airtable-nar/2.7.2/org.apache.nifi.processors.airtable.QueryAirtableTable/additionalDetails.md
+│  -rw-r--r--  2.0 unx     3518 b- defN 25-Dec-16 15:43 docs/org.apache.nifi/nifi-amqp-nar/2.7.2/org.apache.nifi.amqp.processors.ConsumeAMQP/additionalDetails.md
+│ @@ -410,11 +410,11 @@
+│  -rw-r--r--  2.0 unx     4308 b- defN 25-Dec-16 15:43 docs/org.apache.nifi/nifi-zendesk-nar/2.7.2/org.apache.nifi.processors.zendesk.PutZendeskTicket/additionalDetails.md
+│  -rw-r--r--  2.0 unx     4373 b- defN 25-Dec-16 15:43 docs/org.apache.nifi/nifi-zendesk-services-nar/2.7.2/org.apache.nifi.services.zendesk.ZendeskRecordSink/additionalDetails.md
+│ --rw-r--r--  2.0 unx  4556812 b- defN 25-Dec-16 15:43 nifi-runtime-manifest.json
+│ +-rw-r--r--  2.0 unx  4556654 b- defN 25-Dec-16 15:43 nifi-runtime-manifest.json
+│  -rw-r--r--  2.0 unx     7683 b- defN 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 25-Dec-16 15:43 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
+│ -418 files, 5405204 bytes uncompressed, 741774 bytes compressed:  86.3%
+│ +418 files, 5405034 bytes uncompressed, 743300 bytes compressed:  86.2%
+├── build.properties
+│ @@ -12,14 +12,14 @@
+│  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│  # See the License for the specific language governing permissions and
+│  # limitations under the License.
+│  
+│  Project-Version:2.7.2
+│  Build-Branch:main
+│  Build-Revision:1
+│ -Build-Timestamp:2025-12-16T16:44:25Z
+│ +Build-Timestamp:2026-01-20T19:24:02Z
+│  Maven-Version:3.9.11
+│  Created-By:Apache Maven 3.9.11 (3e54c93a704957b63ee3494413a2b544fd3d825b)
+│ -Build-Jdk:21.0.9
+│ -Build-Jdk-Vendor:Azul Systems, Inc.
+│ +Build-Jdk:21.0.5
+│ +Build-Jdk-Vendor:Ubuntu
+│  Build-Arch:amd64
+│  Build-Os:Linux
+├── nifi-runtime-manifest.json
+│ ├── Pretty-printed
+│ │┄ Similarity: 0.9677568937130766%
+│ │┄ Differences: {"'buildInfo'": "{'timestamp': 1768937044148, 'compiler': 'Ubuntu 21.0.5'}",
+│ │┄  "'bundles'": "{0: {'artifact': 'nifi-smb-smbj-client-nar', 'componentManifest': "
+│ │┄               "{'controllerServices': {0: {'artifact': 'nifi-smb-smbj-client-nar', 'type': "
+│ │┄               "'org.apache.nifi.services.smb.SmbjClientProviderService', 'typeDescription': "
+│ │┄               "'Provides access to SMB Sessions with shared authentication credentials.', "
+│ │┄               "'providedApiImplementations': {0: {'artifact': 'nifi-smb-c […]
+│ │ @@ -1,1413 +1,746 @@
+│ │  {
+│ │      "agentType": "nifi",
+│ │      "buildInfo": {
+│ │ -        "compiler": "Azul Systems, Inc. 21.0.9",
+│ │ +        "compiler": "Ubuntu 21.0.5",
+│ │          "revision": "1",
+│ │ -        "timestamp": 1765903466726,
+│ │ +        "timestamp": 1768937044148,
+│ │          "version": "2.7.2"
+│ │      },
+│ │      "bundles": [
+│ │          {
+│ │ -            "artifact": "nifi-hashicorp-vault-nar",
+│ │ +            "artifact": "nifi-smb-smbj-client-nar",
+│ │              "componentManifest": {
+│ │                  "controllerServices": [
+...
