@@ -109,6 +109,11 @@ jobs:
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
 
+              # update metadata if version not there
+              metadata="$(dirname ${file})/maven-metadata.xml"
+              grep "version>${version}</version" ${metadata} || curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
+              git add ${metadata}
+
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
               git commit -m "./rebuild.sh $file"
