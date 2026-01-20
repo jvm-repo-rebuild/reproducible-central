@@ -1,3 +1,4 @@
+# require https://github.com/apache/maven-apache-resources/pull/97
 1 / 11 target/reference/org.apache.nifi/nifi-2.7.2-source-release.zip target/nifi-2.7.2-source-release.zip
 --- target/reference/org.apache.nifi/nifi-2.7.2-source-release.zip
 +++ target/nifi-2.7.2-source-release.zip
@@ -6,6 +7,7 @@
 │ -paslfr757jfw3pkb7orssc7y5u
 │ +diebhugt6jhozlrmhme4ah4rgi
 
+# release manager did not start from a clean clone?
 2 / 11 target/reference/org.apache.nifi/nifi-python-extension-api-2.7.2.jar nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api/target/nifi-python-extension-api-2.7.2.jar
 --- target/reference/org.apache.nifi/nifi-python-extension-api-2.7.2.jar
 +++ nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api/target/nifi-python-extension-api-2.7.2.jar
@@ -135,6 +137,7 @@
 │      </extension>
 │    </extensions>
 
+# probably due to a small difference in JDK 21 used to rebuild vs reference
 5 / 11 target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2.nar nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/nifi-splunk-nar-2.7.2.nar
 --- target/reference/org.apache.nifi/nifi-splunk-nar-2.7.2.nar
 +++ nifi-extension-bundles/nifi-splunk-bundle/nifi-splunk-nar/target/nifi-splunk-nar-2.7.2.nar
