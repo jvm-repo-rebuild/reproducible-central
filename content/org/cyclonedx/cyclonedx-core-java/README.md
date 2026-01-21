@@ -13,6 +13,7 @@ rebuilding **44 releases** of org.cyclonedx:cyclonedx-core-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [12.0.1](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/12.0.1/pom) | | | |
 | [12.0.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/12.0.0/pom) | | | |
 | [11.0.1](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/11.0.1/pom) | [mvn jdk8](cyclonedx-core-java-11.0.1.buildspec) | [result](cyclonedx-core-java-11.0.1.buildinfo): [3 :white_check_mark: ](cyclonedx-core-java-11.0.1.buildcompare) | | 5.0M |
 | [11.0.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/11.0.0/pom) | [mvn jdk8](cyclonedx-core-java-11.0.0.buildspec) | [result](cyclonedx-core-java-11.0.0.buildinfo): [3 :white_check_mark: ](cyclonedx-core-java-11.0.0.buildcompare) | | 5.0M |

@@ -621,7 +621,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.ftpserver | [ftpserver-parent](../content/org/apache/mina/ftpserver/README.md) | 4 | 4 :warning: |
 | org.apache.netbeans | [nbpackage](../content/org/apache/netbeans/nbpackage/README.md) | 3 | 3 :white_check_mark: |
 | org.apache.netbeans.utilities | [utilities-parent](../content/org/apache/netbeans/utilities/README.md) | 5 | 5 :white_check_mark: |
-| org.apache.nifi | [nifi](../content/org/apache/nifi/nifi/README.md) | 31 | 31 :warning: |
+| org.apache.nifi | [nifi](../content/org/apache/nifi/nifi/README.md) | 33 | 33 :warning: |
 | | [nifi-api](../content/org/apache/nifi/nifi-api/README.md) | 6 | 6 :white_check_mark: |
 | | [nifi-nar-maven-plugin](../content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
 | org.apache.paimon | [paimon-shade](../content/org/apache/paimon/shade/README.md) | 2 | 2 :warning: |
@@ -963,7 +963,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **949** | **9811** | **7163** :white_check_mark:<br>**2648** :warning: |
+| **Count:** | **949** | **9813** | **7163** :white_check_mark:<br>**2650** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1046,7 +1046,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      50 mvn-3.9.11   8
      58 mvn-3.9.11  11
     150 mvn-3.9.11  17
-    222 mvn-3.9.11  21
+    224 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      74 mvn-3.9.11  25

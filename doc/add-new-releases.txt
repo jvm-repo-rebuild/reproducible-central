@@ -1,8 +1,14 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/at/yawk/lz4/lz4-java/lz4-java-1.10.2.buildspec:1.10.3
+content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-0.12.buildspec:0.13
 content/com/github/sitture/env-config/env-config-2.1.0.buildspec:2.2.0
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
 content/io/cucumber/cucumber-expressions/cucumber-expressions-18.0.1.buildspec:18.1.0
+content/io/cucumber/messages/messages-31.2.0.buildspec:32.0.0
+content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-3.2.0.buildspec:4.0.0-M1
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-11.0.1.buildspec:12.0.0
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-11.0.1.buildspec:12.0.1
+content/org/metricshub/community-connectors/community-connectors-1.0.17.buildspec:1.0.18
+content/org/simplify4u/pgp-keys-map/pgp-keys-map-2025.03.15.buildspec:2026.01.20
