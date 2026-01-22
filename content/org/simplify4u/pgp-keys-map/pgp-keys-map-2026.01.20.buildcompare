@@ -1,0 +1,8 @@
+version=2026.01.20
+ok=2
+ko=0
+ignored=0
+okFiles="pgp-keys-map-2026.01.20.pom pgp-keys-map-2026.01.20.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
