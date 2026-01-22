@@ -17,5 +17,5 @@ execBefore="unix2dos pom.xml */pom.xml" # very strange mix of crlf and lf
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

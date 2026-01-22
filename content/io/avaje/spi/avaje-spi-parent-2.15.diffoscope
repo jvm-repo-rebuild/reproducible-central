@@ -1,0 +1,75 @@
+1 / 2 target/reference/io.avaje/avaje-spi-core-2.15.jar avaje-spi-core/target/avaje-spi-core-2.15.jar
+--- target/reference/io.avaje/avaje-spi-core-2.15.jar
++++ avaje-spi-core/target/avaje-spi-core-2.15.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 49151 bytes, number of entries: 22
+│ +Zip file size: 49128 bytes, number of entries: 22
+│  -rw----     1.0 fat        0 bx stor 26-Jan-06 20:23 META-INF/
+│  -rw----     2.0 fat      149 bl defN 26-Jan-06 20:23 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 26-Jan-06 20:23 META-INF/services/
+│  -rw----     1.0 fat        0 b- stor 26-Jan-06 20:23 io/
+│  -rw----     1.0 fat        0 b- stor 26-Jan-06 20:23 io/avaje/
+│  -rw----     1.0 fat        0 b- stor 26-Jan-06 20:23 io/avaje/spi/
+│  -rw----     1.0 fat        0 b- stor 26-Jan-06 20:23 io/avaje/spi/internal/
+│  -rw----     2.0 fat       40 bl defN 26-Jan-06 20:23 META-INF/services/javax.annotation.processing.Processor
+│  -rw----     2.0 fat     2423 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/APContext$Ctx.class
+│  -rw----     2.0 fat    13612 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/APContext.class
+│  -rw----     2.0 fat    11759 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ModuleInfoReader.class
+│  -rw----     2.0 fat     5273 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ModuleReader.class
+│  -rw----     2.0 fat     3868 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/PomPluginWriter.class
+│ --rw----     2.0 fat     7249 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ProcessorUtils.class
+│ +-rw----     2.0 fat     7201 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ProcessorUtils.class
+│  -rw----     2.0 fat     3208 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ServicePrism.class
+│  -rw----     2.0 fat    30380 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ServiceProcessor.class
+│  -rw----     2.0 fat     1024 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ServiceProviderPrism$Values.class
+│  -rw----     2.0 fat     6075 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/ServiceProviderPrism.class
+│  -rw----     2.0 fat    19286 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/TypeMirrorVisitor.class
+│  -rw----     2.0 fat     1976 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/UType.class
+│  -rw----     2.0 fat     3443 bl defN 26-Jan-06 20:23 io/avaje/spi/internal/Utils.class
+│  -rw----     2.0 fat      407 bl defN 26-Jan-06 20:23 module-info.class
+│ -22 files, 110172 bytes uncompressed, 45771 bytes compressed:  58.5%
+│ +22 files, 110124 bytes uncompressed, 45748 bytes compressed:  58.5%
+
+2 / 2 target/reference/io.avaje/avaje-spi-core-2.15-sources.jar avaje-spi-core/target/avaje-spi-core-2.15-sources.jar
+--- target/reference/io.avaje/avaje-spi-core-2.15-sources.jar
++++ avaje-spi-core/target/avaje-spi-core-2.15-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 25372 bytes, number of entries: 23
+│ +Zip file size: 25347 bytes, number of entries: 23
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-06 20:23 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Jan-06 20:23 META-INF/MANIFEST.MF
+│ @@ -13,13 +13,13 @@
+│  -rw-r--r--  2.0 unx    13725 b- defN 26-Jan-06 20:23 io/avaje/spi/internal/APContext.java
+│  -rw-r--r--  2.0 unx     6805 b- defN 26-Jan-06 20:23 io/avaje/spi/internal/ModuleInfoReader.java
+│ --rw-r--r--  2.0 unx     7366 b- defN 26-Jan-06 20:23 io/avaje/spi/internal/ProcessorUtils.java
+│ +-rw-r--r--  2.0 unx     7214 b- defN 26-Jan-06 20:23 io/avaje/spi/internal/ProcessorUtils.java
+│  -rw-r--r--  2.0 unx    11458 b- defN 26-Jan-06 20:23 io/avaje/spi/internal/TypeMirrorVisitor.java
+│  -rw-r--r--  2.0 unx     4099 b- defN 26-Jan-06 20:23 io/avaje/spi/internal/UType.java
+│  -rw-r--r--  2.0 unx     1318 b- defN 26-Jan-06 20:23 META-INF/maven/io.avaje/avaje-spi-core/pom.xml
+│  -rw-r--r--  2.0 unx       59 b- defN 26-Jan-06 20:23 META-INF/maven/io.avaje/avaje-spi-core/pom.properties
+│ -23 files, 81548 bytes uncompressed, 22188 bytes compressed:  72.8%
+│ +23 files, 81396 bytes uncompressed, 22163 bytes compressed:  72.8%
+├── io/avaje/spi/internal/ProcessorUtils.java
+│ @@ -124,17 +124,16 @@
+│     * Return the common parent package between two classes/packages.
+│     *
+│     * @param firstPkg first class/package string
+│     * @param secondPkg second class/package string
+│     * @return the common package between the two classes
+│     */
+│    public static String commonParent(String firstPkg, String secondPkg) {
+│ -    if ((secondPkg == null || secondPkg.isBlank()) && (firstPkg == null || firstPkg.isBlank())) return "";
+│ -    if (secondPkg == null || secondPkg.isBlank()) return firstPkg;
+│ -    if (firstPkg == null || firstPkg.isBlank()) return packageOf(secondPkg);
+│ +    if (secondPkg == null) return firstPkg;
+│ +    if (firstPkg == null) return packageOf(secondPkg);
+│      if (secondPkg.startsWith(firstPkg)) {
+│        return firstPkg;
+│      }
+│      int next;
+│      do {
+│        next = firstPkg.lastIndexOf('.');
+│        if (next > -1) {
+
