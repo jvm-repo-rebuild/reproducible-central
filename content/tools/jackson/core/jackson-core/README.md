@@ -13,6 +13,7 @@ rebuilding **14 releases** of tools.jackson.core:jackson-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.4](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.4/pom) | | | |
 | [3.0.3](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.3/pom) | [mvn jdk17](jackson-core-3.0.3.buildspec) | [result](jackson-core-3.0.3.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.3.buildcompare) | | 1.1M |
 | [3.0.2](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.2/pom) | [mvn jdk17](jackson-core-3.0.2.buildspec) | [result](jackson-core-3.0.2.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.2.buildcompare) | | 1.1M |
 | [3.0.1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.1/pom) | [mvn jdk17](jackson-core-3.0.1.buildspec) | [result](jackson-core-3.0.1.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.1.buildcompare) | | 1.1M |
