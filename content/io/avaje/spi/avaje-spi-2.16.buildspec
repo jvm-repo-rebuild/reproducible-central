@@ -1,7 +1,7 @@
 groupId=io.avaje
 artifactId=avaje-spi-parent
 display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
-version=2.15
+version=2.16
 
 gitRepo=https://github.com/avaje/avaje-spi-service.git
 gitTag=${version}
@@ -18,4 +18,4 @@ command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/avaje/avaje-spi-service/issues/78
