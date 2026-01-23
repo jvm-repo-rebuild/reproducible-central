@@ -9,6 +9,7 @@ diffoscope=
 
 dir=`dirname ${previousBuildspec}`
 file=`basename ${previousBuildspec} -${version}.buildspec`
+echo "https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$dir/README.md"
 
 metadata="${dir}/maven-metadata.xml"
 # update metadata if nextVersion not there
@@ -29,7 +30,7 @@ nextJar="$jarArtifactId-$nextVersion.jar"
 if [ -n "$jarArtifactId" ]
 then
   referenceRepo="https://repo.maven.apache.org/maven2" && [ -n "$3" ] && referenceRepo=https://repository.apache.org/content/repositories/$3
-  echo "detecting JDK from $nextJar downloaded from $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/"
+  echo -e "\033[0;1mdetecting JDK from $nextJar\033[0;0m downloaded from $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/"
   [ -d tmp ] || mkdir tmp
   nextPom="$jarArtifactId-$nextVersion.pom"
   [ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
@@ -63,22 +64,25 @@ then
     echo "io.wcm buildNumber=${buildNumber}"
   fi
 
-  echo "useful content for investigating rebuild environment:"
+  echo
+  echo -e "\033[0;1museful content for investigating rebuild environment:\033[0;0m"
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$jarArtifactId-$nextVersion-MANIFEST.MF
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.properties > tmp/$jarArtifactId-$nextVersion-pom.properties
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.xml > tmp/$jarArtifactId-$nextVersion-pom.xml
   du --apparent-size -h tmp/$jarArtifactId-$nextVersion*
   detectNewline() {
-    [ -s $1 ] || return
-    if [ "$(grep $'\r' $1 | wc -l)" -eq 0 ]
+    [ -s $2 ] || return
+    if [ "$(grep $'\r' $2 | wc -l)" -eq 0 ]
     then
-      echo "$1 newline is *nix"
+      echo -n -e "\033[0;1m$1\033[0;0m newline is \033[0;1mlf  \033[0;0m"
     else
-      echo "$1 newline is windows"
+      echo -n -e "\033[0;1m$1\033[0;0m newline is \033[0;33mcrlf\033[0;0m"
     fi
+    echo "      based on $2"
   }
-  detectNewline tmp/$jarArtifactId-$nextVersion-pom.properties
-  detectNewline tmp/$jarArtifactId-$nextVersion-pom.xml
+  detectNewline "runtime" tmp/$jarArtifactId-$nextVersion-pom.properties
+  detectNewline " source" tmp/$jarArtifactId-$nextVersion-pom.xml
+  # TODO: update buildspec to match detected runtime and source newline (if source different from runtime)
   [ -s tmp/$jarArtifactId-$nextVersion-pom.xml ] && if ! diff -q tmp/$nextPom tmp/$jarArtifactId-$nextVersion-pom.xml
   then
     echo -e "\033[0;31mbuild done with shade or Maven 4\033[0m: pom in Maven Central differs from build pom in jar, trying to download build pom"
@@ -90,15 +94,22 @@ else
   [ -n "$jarArtifactId" ] && echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
 
-echo "buildspec newline=$newline"
-[ -n "$os" ] && echo "buildspec os=$os"
-[ -n "$arch" ] && echo "buildspec os=$arch"
-echo "buildspec tool=$tool"
+echo "buildspec:"
+{
+grep '^newline=' $previousBuildspec
+grep '^newlineGit=' $previousBuildspec
+grep '^os=' $previousBuildspec
+grep '^arch=' $previousBuildspec
+grep '^tool=' $previousBuildspec
+grep '^issue=...' $previousBuildspec
+grep '^PR_merge_max_ko=' $previousBuildspec
+} | sed -e 's/^/    /'
 # TODO add a way to check if new release requires same os/arch (probably requires some config in buildspec: it's ok given it does not happen often and has by nature a hard to guess impact)
 
 # check git tag existence
 . ${nextBuildspec}
-echo "checking Git tag $gitTag in Git repo $gitRepo"
+echo
+echo -e "\033[0;1mchecking Git tag $gitTag\033[0;0m in Git repo $gitRepo"
 git ls-remote --tags $gitRepo | grep "refs/tags/$gitTag$"
 if [ $(git ls-remote --tags $gitRepo | grep "refs/tags/$gitTag$" | wc -l) -eq 1 ]
 then
@@ -119,6 +130,7 @@ if [ "$CI" = true ]
 then
   echo -e "\033[0;32m${nextBuildspec}\033[0m"
 else
+  echo
   echo -e "test local build with: \033[0;32m./rebuild.sh ${nextBuildspec} $3\033[0m"
   echo
   echo -e "once buildspec is ok:"
