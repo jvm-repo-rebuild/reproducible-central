@@ -1,0 +1,46 @@
+1 / 2 target/reference/io.avaje/avaje-http-client-generator-3.7.jar http-generator-client/target/avaje-http-client-generator-3.7.jar
+
+2 / 2 target/reference/io.avaje/avaje-http-client-generator-3.7-sources.jar http-generator-client/target/avaje-http-client-generator-3.7-sources.jar
+--- target/reference/io.avaje/avaje-http-client-generator-3.7-sources.jar
++++ http-generator-client/target/avaje-http-client-generator-3.7-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 30049 bytes, number of entries: 32
+│ +Zip file size: 30024 bytes, number of entries: 32
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-17 16:34 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Jan-17 16:34 META-INF/MANIFEST.MF
+│ @@ -20,15 +20,15 @@
+│  -rw-r--r--  2.0 unx     8186 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/HeadersPrism.java
+│  -rw-r--r--  2.0 unx     8294 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/MetaDataPrism.java
+│ --rw-r--r--  2.0 unx     7375 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/ProcessorUtils.java
+│ +-rw-r--r--  2.0 unx     7223 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/ProcessorUtils.java
+│  -rw-r--r--  2.0 unx     6257 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/SuppressLoggingPrism.java
+│  -rw-r--r--  2.0 unx    11467 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/TypeMirrorVisitor.java
+│  -rw-r--r--  2.0 unx     4108 b- defN 26-Jan-17 16:34 io/avaje/http/generator/client/UType.java
+│  -rw-r--r--  2.0 unx       60 b- defN 26-Jan-17 16:34 META-INF/gradle/incremental.annotation.processors
+│  -rw-r--r--  2.0 unx     1796 b- defN 26-Jan-17 16:34 META-INF/maven/io.avaje/avaje-http-client-generator/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 26-Jan-17 16:34 META-INF/maven/io.avaje/avaje-http-client-generator/pom.properties
+│ -32 files, 95770 bytes uncompressed, 25059 bytes compressed:  73.8%
+│ +32 files, 95618 bytes uncompressed, 25034 bytes compressed:  73.8%
+├── io/avaje/http/generator/client/ProcessorUtils.java
+│ @@ -124,17 +124,16 @@
+│     * Return the common parent package between two classes/packages.
+│     *
+│     * @param firstPkg first class/package string
+│     * @param secondPkg second class/package string
+│     * @return the common package between the two classes
+│     */
+│    public static String commonParent(String firstPkg, String secondPkg) {
+│ -    if ((secondPkg == null || secondPkg.isBlank()) && (firstPkg == null || firstPkg.isBlank())) return "";
+│ -    if (secondPkg == null || secondPkg.isBlank()) return firstPkg;
+│ -    if (firstPkg == null || firstPkg.isBlank()) return packageOf(secondPkg);
+│ +    if (secondPkg == null) return firstPkg;
+│ +    if (firstPkg == null) return packageOf(secondPkg);
+│      if (secondPkg.startsWith(firstPkg)) {
+│        return firstPkg;
+│      }
+│      int next;
+│      do {
+│        next = firstPkg.lastIndexOf('.');
+│        if (next > -1) {
+
