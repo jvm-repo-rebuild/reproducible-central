@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Query
+group-id=io.cucumber
+artifact-id=query
+version=15.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/query.git
+source.scm.tag=v15.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=query-15.0.1.pom
+outputs.0.length=3906
+outputs.0.checksums.sha512=b53c49bf82f9b4b82e288b41467f2f079c345cc4b71110c51402871e89078b2aea558b453ad00dc28906d227f86d947bf72bddbccb70503587c632ef17c125e4
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=query-15.0.1.jar
+outputs.1.length=39317
+outputs.1.checksums.sha512=b0ce10353dae0dbac4b180510a546bd524e05aeca9bf29925edad8e1c4a7065c158491d629f99e58eb185bfadf44c2a7fe490b95a5ed0f63f3106bd924b774ef
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=query-15.0.1-sources.jar
+outputs.2.length=15147
+outputs.2.checksums.sha512=7f42ad4d89854162d719b47a8aa98e6d4b2d9df1723b76a83bb35caef8d2de4baf1ced6d9d444d9882470a0141b34fcdd52d29abdbdb0be37f4b9e36651cea40
