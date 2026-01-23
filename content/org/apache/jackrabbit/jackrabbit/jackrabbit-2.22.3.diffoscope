@@ -1,0 +1,73 @@
+1 / 3 target/reference/org.apache.jackrabbit/jackrabbit-spi-commons-2.22.3.jar jackrabbit-spi-commons/target/jackrabbit-spi-commons-2.22.3.jar
+--- target/reference/org.apache.jackrabbit/jackrabbit-spi-commons-2.22.3.jar
++++ jackrabbit-spi-commons/target/jackrabbit-spi-commons-2.22.3.jar
+├── META-INF/MANIFEST.MF
+│ @@ -47,19 +47,19 @@
+│   s.privilege;version="2.4.0";uses:="org.apache.jackrabbit.spi",org.apa
+│   che.jackrabbit.spi.commons.query;version="2.4.0";uses:="javax.jcr,jav
+│   ax.jcr.query,org.apache.jackrabbit.spi,org.apache.jackrabbit.spi.comm
+│   ons.conversion",org.apache.jackrabbit.spi.commons.query.qom;version="
+│   2.4.0";uses:="javax.jcr,javax.jcr.query,javax.jcr.query.qom,org.apach
+│   e.jackrabbit.commons.query.qom,org.apache.jackrabbit.spi,org.apache.j
+│   ackrabbit.spi.commons.conversion",org.apache.jackrabbit.spi.commons.q
+│ - uery.sql2;version="2.4.0";uses:="javax.jcr,javax.jcr.query.qom,org.ap
+│ - ache.jackrabbit.commons.query.sql2",org.apache.jackrabbit.spi.commons
+│ - .query.sql;version="2.4.1";uses:="javax.jcr.query,org.apache.jackrabb
+│ - it.spi,org.apache.jackrabbit.spi.commons.conversion,org.apache.jackra
+│ - bbit.spi.commons.query",org.apache.jackrabbit.spi.commons.query.xpath
+│ + uery.sql;version="2.4.1";uses:="javax.jcr.query,org.apache.jackrabbit
+│ + .spi,org.apache.jackrabbit.spi.commons.conversion,org.apache.jackrabb
+│ + it.spi.commons.query",org.apache.jackrabbit.spi.commons.query.sql2;ve
+│ + rsion="2.4.0";uses:="javax.jcr,javax.jcr.query.qom,org.apache.jackrab
+│ + bit.commons.query.sql2",org.apache.jackrabbit.spi.commons.query.xpath
+│   ;version="2.4.1";uses:="javax.jcr.query,org.apache.jackrabbit.spi.com
+│   mons.conversion,org.apache.jackrabbit.spi.commons.query",org.apache.j
+│   ackrabbit.spi.commons.tree;version="2.13.5";uses:="org.apache.jackrab
+│   bit.spi,org.apache.jackrabbit.spi.commons.conversion",org.apache.jack
+│   rabbit.spi.commons.util;version="2.4.0",org.apache.jackrabbit.spi.com
+│   mons.value;version="2.4.0";uses:="javax.jcr,org.apache.jackrabbit.spi
+│   ,org.apache.jackrabbit.spi.commons.conversion"
+
+2 / 3 target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.22.3.war jackrabbit-webapp/target/jackrabbit-webapp-2.22.3.war
+--- target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.22.3.war
++++ jackrabbit-webapp/target/jackrabbit-webapp-2.22.3.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 46941141 bytes, number of entries: 181
+│ +Zip file size: 46941144 bytes, number of entries: 181
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-13 07:05 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 26-Jan-13 07:05 META-INF/MANIFEST.MF
+│ @@ -65,15 +65,15 @@
+│  -rw-r--r--  2.0 unx    26163 b- defN 26-Jan-13 07:05 WEB-INF/lib/jackrabbit-jcr-servlet-2.22.3.jar
+│  -rw-r--r--  2.0 unx    28617 b- defN 26-Jan-13 07:05 WEB-INF/lib/jackrabbit-spi-2.22.3.jar
+│ --rw-r--r--  2.0 unx   811414 b- defN 26-Jan-13 07:05 WEB-INF/lib/jackrabbit-spi-commons-2.22.3.jar
+│ +-rw-r--r--  2.0 unx   811416 b- defN 26-Jan-13 07:05 WEB-INF/lib/jackrabbit-spi-commons-2.22.3.jar
+│  -rw-r--r--  2.0 unx   337464 b- defN 26-Jan-13 07:05 WEB-INF/lib/jackrabbit-webdav-2.22.3.jar
+│  -rw-r--r--  2.0 unx   628053 b- defN 26-Jan-13 07:05 WEB-INF/lib/jai-imageio-core-1.4.0.jar
+│ @@ -176,8 +176,8 @@
+│  -rw-r--r--  2.0 unx     6730 b- defN 26-Jan-13 07:05 META-INF/maven/org.apache.jackrabbit/jackrabbit-webapp/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 26-Jan-13 07:05 META-INF/maven/org.apache.jackrabbit/jackrabbit-webapp/pom.properties
+│ -181 files, 52751989 bytes uncompressed, 46915531 bytes compressed:  11.1%
+│ +181 files, 52751991 bytes uncompressed, 46915534 bytes compressed:  11.1%
+
+3 / 3 target/reference/org.apache.jackrabbit/jackrabbit-jca-2.22.3.rar jackrabbit-jca/target/jackrabbit-jca-2.22.3.rar
+--- target/reference/org.apache.jackrabbit/jackrabbit-jca-2.22.3.rar
++++ jackrabbit-jca/target/jackrabbit-jca-2.22.3.rar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 44964058 bytes, number of entries: 104
+│ +Zip file size: 44964061 bytes, number of entries: 104
+│  -rw-r--r--  2.0 unx       81 b- defN 26-Jan-13 07:05 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-13 07:05 META-INF/
+│ @@ -32,15 +32,15 @@
+│  -rw-r--r--  2.0 unx   413330 b- defN 26-Jan-13 07:05 jackrabbit-jcr-commons-2.22.3.jar
+│  -rw-r--r--  2.0 unx    28617 b- defN 26-Jan-13 07:05 jackrabbit-spi-2.22.3.jar
+│ --rw-r--r--  2.0 unx   811414 b- defN 26-Jan-13 07:05 jackrabbit-spi-commons-2.22.3.jar
+│ +-rw-r--r--  2.0 unx   811416 b- defN 26-Jan-13 07:05 jackrabbit-spi-commons-2.22.3.jar
+│  -rw-r--r--  2.0 unx   628053 b- defN 26-Jan-13 07:05 jai-imageio-core-1.4.0.jar
+│  -rw-r--r--  2.0 unx    68453 b- defN 26-Jan-13 07:05 jakarta.activation-1.2.2.jar
+│ @@ -99,8 +99,8 @@
+│  -rw-r--r--  2.0 unx     4961 b- defN 26-Jan-13 07:05 META-INF/maven/org.apache.jackrabbit/jackrabbit-jca/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 26-Jan-13 07:05 META-INF/maven/org.apache.jackrabbit/jackrabbit-jca/pom.properties
+│ -104 files, 50442780 bytes uncompressed, 44950868 bytes compressed:  10.9%
+│ +104 files, 50442782 bytes uncompressed, 44950871 bytes compressed:  10.9%
