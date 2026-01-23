@@ -1,0 +1,19 @@
+groupId=org.apache.jackrabbit
+artifactId=jackrabbit-parent
+display=${groupId}:${artifactId}
+version=2.22.3
+
+gitRepo=https://github.com/apache/jackrabbit.git
+gitTag=jackrabbit-${version}
+
+tool=mvn-3.9.11
+jdk=11
+newline=crlf
+newlineGit=lf
+umask=022
+
+command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/jackrabbit-${version}.buildinfo
+
+diffoscope=jackrabbit-${version}.diffoscope
+issue=
