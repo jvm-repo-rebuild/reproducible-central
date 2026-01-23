@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.sentrysoftware.maven:sentry-maven-skin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.5.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.5.00/pom) | | | |
 | [6.4.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.4.01/pom) | [mvn jdk17](sentry-maven-skin-6.4.01.buildspec) | [result](sentry-maven-skin-6.4.01.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.4.01.buildcompare) | | 2.3M |
 | [6.4.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.4.00/pom) | [mvn jdk17](sentry-maven-skin-6.4.00.buildspec) | [result](sentry-maven-skin-6.4.00.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.4.00.buildcompare) | | 2.3M |
 | [6.3.03](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.03/pom) | [mvn jdk17](sentry-maven-skin-6.3.03.buildspec) | [result](sentry-maven-skin-6.3.03.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.3.03.buildcompare) | | 2.3M |

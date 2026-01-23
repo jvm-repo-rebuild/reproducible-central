@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.cucumber:teamcity-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/io.cucumber/teamcity-formatter/0.3.0/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/io.cucumber/teamcity-formatter/0.2.0/pom) | [mvn jdk17](teamcity-formatter-0.2.0.buildspec) | [result](teamcity-formatter-0.2.0.buildinfo): [3 :white_check_mark: ](teamcity-formatter-0.2.0.buildcompare) | | 45K |
 | [0.1.1](https://central.sonatype.com/artifact/io.cucumber/teamcity-formatter/0.1.1/pom) | [mvn jdk11](teamcity-formatter-0.1.1.buildspec) | [result](teamcity-formatter-0.1.1.buildinfo): [3 :white_check_mark: ](teamcity-formatter-0.1.1.buildcompare) | | 44K |
 | [0.1.0](https://central.sonatype.com/artifact/io.cucumber/teamcity-formatter/0.1.0/pom) | [mvn jdk11](teamcity-formatter-0.1.0.buildspec) | [result](teamcity-formatter-0.1.0.buildinfo): [3 :white_check_mark: ](teamcity-formatter-0.1.0.buildcompare) | | 44K |
