@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-LightGBM
+group-id=org.jpmml
+artifact-id=jpmml-lightgbm
+version=1.6.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-lightgbm.git
+source.scm.tag=1.6.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=pmml-lightgbm-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-lightgbm
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-lightgbm-1.6.4.pom
+outputs.0.0.length=3804
+outputs.0.0.checksums.sha512=6a2f6f65e0edcd443d2464237271b988a9bbdaac8d74648d2c1a49d4d2a2b5258c42d54671667915aa72d4619f2bebd89ec89d8783072232ed53025f82e16c31
+
+outputs.1.coordinates=org.jpmml:pmml-lightgbm
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-lightgbm-1.6.4.pom
+outputs.1.0.length=1749
+outputs.1.0.checksums.sha512=cbc4f7b69cded1d04c37b2070209a7281e4061b38e623f19cb6b32a002eaf6725275325abf2e0b1dbb2398d0421b480baa2344b5c5ef2a9918a4b5e7ca2f5ffd
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-lightgbm-1.6.4.jar
+outputs.1.1.length=51270
+outputs.1.1.checksums.sha512=1ae0a1448eef40683f1fbd9839f0476ad43fcdeea8e4bde5233e3362a02bfc24d53e800fb3bf1d3da4d54948caf9fa3e3aa06bc4acc82a82f2d13f0430f08572
+
+outputs.2.coordinates=org.jpmml:pmml-lightgbm-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-lightgbm-example-1.6.4.pom
+outputs.2.0.length=2032
+outputs.2.0.checksums.sha512=d615cac172b1a7730a6ae709901020c97902212504f5b2cbf57d85eee5da32cefe97b12071f62b4b843892cb67577158ec9b2b7390163e1524bafa3fea7b8bdd
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-lightgbm-example-1.6.4.jar
+outputs.2.1.length=5784
+outputs.2.1.checksums.sha512=db010f55d654deb925ef1ff2d55227a75e830489cb31ff5a4776ac150a58cd9c25cc0718073ba68c4e461ff59911a0d4c33cfcb83b1885b9199a11c666b6bded
