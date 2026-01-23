@@ -1,22 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.10.2.buildspec:1.10.3
-content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.27.buildspec:0.28
 content/com/github/sitture/env-config/env-config-2.1.0.buildspec:2.2.0
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
-content/io/cucumber/cucumber-json-formatter/cucumber-json-formatter-0.3.2.buildspec:0.4.0
 content/io/cucumber/query/query-14.7.0.buildspec:15.0.1
-content/org/apache/commons/parent/commons-parent-95.buildspec:96
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/sentrysoftware/maven/maven-skin-tools/maven-skin-tools-1.4.00.buildspec:1.5.00
-content/tools/jackson/jackson-bom/jackson-bom-3.0.3.buildspec:3.0.4
-content/tools/jackson/jr/jackson-jr-3.0.3.buildspec:3.0.4
-content/tools/jackson/core/jackson-core/jackson-core-3.0.3.buildspec:3.0.4
-content/tools/jackson/core/jackson-databind/jackson-databind-3.0.3.buildspec:3.0.4
-content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.0.3.buildspec:3.0.4
-content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.0.3.buildspec:3.0.4
-content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.0.3.buildspec:3.0.4
-content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.0.3.buildspec:3.0.4
-content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.0.3.buildspec:3.0.4
-content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.0.3.buildspec:3.0.4
