@@ -1,0 +1,9 @@
+version=1.10.3
+ok=3
+ko=0
+ignored=1
+okFiles="lz4-java-1.10.3.pom lz4-java-1.10.3.jar lz4-java-1.10.3-sources.jar"
+koFiles=""
+ignoredFiles="lz4-java-1.10.3.module"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
