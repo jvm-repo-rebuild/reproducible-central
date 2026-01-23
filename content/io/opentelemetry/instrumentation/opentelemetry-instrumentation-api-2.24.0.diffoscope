@@ -1,0 +1,114 @@
+1 / 2 central/io/opentelemetry/instrumentation/opentelemetry-resources/2.24.0-alpha/opentelemetry-resources-2.24.0-alpha.jar repository/io/opentelemetry/instrumentation/opentelemetry-resources/2.24.0-alpha/opentelemetry-resources-2.24.0-alpha.jar
+--- central/io/opentelemetry/instrumentation/opentelemetry-resources/2.24.0-alpha/opentelemetry-resources-2.24.0-alpha.jar
++++ repository/io/opentelemetry/instrumentation/opentelemetry-resources/2.24.0-alpha/opentelemetry-resources-2.24.0-alpha.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 55936 bytes, number of entries: 65
+│ +Zip file size: 55940 bytes, number of entries: 65
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx      313 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/services/
+│ --rw-r--r--  2.0 unx      470 b- defN 80-Feb-01 00:00 META-INF/services/io.opentelemetry.sdk.autoconfigure.spi.ResourceProvider
+│ --rw-r--r--  2.0 unx      421 b- defN 80-Feb-01 00:00 META-INF/services/io.opentelemetry.sdk.autoconfigure.spi.internal.ComponentProvider
+│ +-rw-r--r--  2.0 unx      477 b- defN 80-Feb-01 00:00 META-INF/services/io.opentelemetry.sdk.autoconfigure.spi.ResourceProvider
+│ +-rw-r--r--  2.0 unx      426 b- defN 80-Feb-01 00:00 META-INF/services/io.opentelemetry.sdk.autoconfigure.spi.internal.ComponentProvider
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/
+│ @@ -60,8 +60,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/versions/11/io/opentelemetry/instrumentation/resources/
+│  -rw-r--r--  2.0 unx      567 b- defN 80-Feb-01 00:00 META-INF/versions/11/io/opentelemetry/instrumentation/resources/ProcessPid.class
+│ -65 files, 102786 bytes uncompressed, 43104 bytes compressed:  58.1%
+│ +65 files, 102798 bytes uncompressed, 43108 bytes compressed:  58.1%
+├── META-INF/services/io.opentelemetry.sdk.autoconfigure.spi.ResourceProvider
+│┄ Line-ending differences only
+│ @@ -1,7 +1,7 @@
+│ -io.opentelemetry.instrumentation.resources.ContainerResourceProvider
+│ -io.opentelemetry.instrumentation.resources.HostResourceProvider
+│ -io.opentelemetry.instrumentation.resources.JarServiceNameDetector
+│ -io.opentelemetry.instrumentation.resources.ManifestResourceProvider
+│ -io.opentelemetry.instrumentation.resources.OsResourceProvider
+│ -io.opentelemetry.instrumentation.resources.ProcessResourceProvider
+│ -io.opentelemetry.instrumentation.resources.ProcessRuntimeResourceProvider
+│ +io.opentelemetry.instrumentation.resources.ContainerResourceProvider
+│ +io.opentelemetry.instrumentation.resources.HostResourceProvider
+│ +io.opentelemetry.instrumentation.resources.JarServiceNameDetector
+│ +io.opentelemetry.instrumentation.resources.ManifestResourceProvider
+│ +io.opentelemetry.instrumentation.resources.OsResourceProvider
+│ +io.opentelemetry.instrumentation.resources.ProcessResourceProvider
+│ +io.opentelemetry.instrumentation.resources.ProcessRuntimeResourceProvider
+├── META-INF/services/io.opentelemetry.sdk.autoconfigure.spi.internal.ComponentProvider
+│┄ Line-ending differences only
+│ @@ -1,5 +1,5 @@
+│ -io.opentelemetry.instrumentation.resources.internal.ContainerResourceComponentProvider
+│ -io.opentelemetry.instrumentation.resources.internal.HostResourceComponentProvider
+│ -io.opentelemetry.instrumentation.resources.internal.JarResourceComponentProvider
+│ -io.opentelemetry.instrumentation.resources.internal.ManifestResourceComponentProvider
+│ -io.opentelemetry.instrumentation.resources.internal.ProcessResourceComponentProvider
+│ +io.opentelemetry.instrumentation.resources.internal.ContainerResourceComponentProvider
+│ +io.opentelemetry.instrumentation.resources.internal.HostResourceComponentProvider
+│ +io.opentelemetry.instrumentation.resources.internal.JarResourceComponentProvider
+│ +io.opentelemetry.instrumentation.resources.internal.ManifestResourceComponentProvider
+│ +io.opentelemetry.instrumentation.resources.internal.ProcessResourceComponentProvider
+
+2 / 2 central/io/opentelemetry/javaagent/opentelemetry-javaagent/2.24.0/opentelemetry-javaagent-2.24.0-spdx.json repository/io/opentelemetry/javaagent/opentelemetry-javaagent/2.24.0/opentelemetry-javaagent-2.24.0-spdx.json
+--- central/io/opentelemetry/javaagent/opentelemetry-javaagent/2.24.0/opentelemetry-javaagent-2.24.0-spdx.json
++++ repository/io/opentelemetry/javaagent/opentelemetry-javaagent/2.24.0/opentelemetry-javaagent-2.24.0-spdx.json
+├── Pretty-printed
+│┄ Similarity: 0.929584826762246%
+│┄ Differences: {"'creationInfo'": "{'created': '2026-01-23T18:49:01Z'}",
+│┄  "'documentNamespace'": "'https://opentelemetry.io/spdx/214b4990-d7f8-4ab1-975c-7c46cf23af1a'",
+│┄  "'packages'": "{0: {'sourceInfo': "
+│┄                "'git+https://github.com/null@<no-scm-revision>#javaagent[:javaagent]'}, 1: "
+│┄                "{'sourceInfo': "
+│┄                "'git+https://github.com/null@<no-scm-revision>#javaagent-extension-api[:javaagent-extension-api]'}, "
+│┄                "12: {'sourceInfo': "
+│┄                "'git+https://github.com/ […]
+│ @@ -1,17 +1,17 @@
+│  {
+│      "SPDXID": "SPDXRef-DOCUMENT",
+│      "creationInfo": {
+│ -        "created": "2026-01-17T01:45:21Z",
+│ +        "created": "2026-01-23T18:49:01Z",
+│          "creators": [
+│              "Tool: spdx-gradle-plugin"
+│          ]
+│      },
+│      "dataLicense": "CC0-1.0",
+│ -    "documentNamespace": "https://opentelemetry.io/spdx/45c4cfa7-e5b6-4604-9ba4-1bc8159d29a1",
+│ +    "documentNamespace": "https://opentelemetry.io/spdx/214b4990-d7f8-4ab1-975c-7c46cf23af1a",
+│      "hasExtractedLicensingInfos": [
+│          {
+│              "extractedText": "BSD-3-Clause",
+│              "licenseId": "LicenseRef-gnrtd0",
+│              "name": "BSD-3-Clause",
+│              "seeAlsos": [
+│                  "http://asm.ow2.io/license.html"
+│ @@ -26,29 +26,29 @@
+│              "description": "OpenTelemetry Javaagent",
+│              "downloadLocation": "NOASSERTION",
+│              "filesAnalyzed": false,
+│              "licenseConcluded": "NOASSERTION",
+│              "licenseDeclared": "NOASSERTION",
+│              "licenseInfoFromFiles": [],
+│              "name": "javaagent",
+│ -            "sourceInfo": "git+https://github.com/open-telemetry/opentelemetry-java-instrumentation@960ce5cea4955cab74ef51d921843508b042c6d4#javaagent[:javaagent]",
+│ +            "sourceInfo": "git+https://github.com/null@<no-scm-revision>#javaagent[:javaagent]",
+│              "supplier": "NOASSERTION",
+│              "versionInfo": "2.24.0"
+│          },
+│          {
+│              "SPDXID": "SPDXRef-gnrtd1",
+│              "copyrightText": "NOASSERTION",
+│              "description": "",
+│              "downloadLocation": "NOASSERTION",
+│              "filesAnalyzed": false,
+│              "licenseConcluded": "NOASSERTION",
+│              "licenseDeclared": "NOASSERTION",
+│              "licenseInfoFromFiles": [],
+│              "name": "javaagent-extension-api",
+│ -            "sourceInfo": "git+https://github.com/open-telemetry/opentelemetry-java-instrumentation@960ce5cea4955cab74ef51d921843508b042c6d4#javaagent-extension-api[:javaagent-extension-api]",
+│ +            "sourceInfo": "git+https://github.com/null@<no-scm-revision>#javaagent-extension-api[:javaagent-extension-api]",
+│              "supplier": "NOASSERTION",
+│              "versionInfo": "2.24.0-alpha"
+│          },
+...
