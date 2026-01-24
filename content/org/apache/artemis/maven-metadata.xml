@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.artemis</groupId>
+  <artifactId>artemis-project</artifactId>
+  <versioning>
+    <latest>2.50.0</latest>
+    <release>2.50.0</release>
+    <versions>
+      <version>2.50.0</version>
+    </versions>
+    <lastUpdated>20260123144805</lastUpdated>
+  </versioning>
+</metadata>
