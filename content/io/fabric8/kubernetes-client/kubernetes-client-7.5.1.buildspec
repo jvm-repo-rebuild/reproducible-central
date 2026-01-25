@@ -1,0 +1,21 @@
+groupId=io.fabric8
+artifactId=kubernetes-client-project
+version=7.5.1
+
+display=${groupId}:kubernetes-client
+
+gitRepo=https://github.com/fabric8io/kubernetes-client.git
+gitTag=v${version}
+
+# https://github.com/fabric8io/kubernetes-client/actions/workflows/release.yaml
+tool=mvn-3.9.11
+jdk=11
+newline=lf
+
+# https://github.com/fabric8io/kubernetes-client/blob/v7.5.0/.github/workflows/release.yaml
+command="SHELL mvn clean install -pl bom-manipulator-plugin && mvn -Pbom clean sundr:generate-bom bom-manipulator:copy-plugins && mvn -Prelease package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.skipModules='io.fabric8/crd-generator-test,io.fabric8/crd-generator-test-apt'"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
