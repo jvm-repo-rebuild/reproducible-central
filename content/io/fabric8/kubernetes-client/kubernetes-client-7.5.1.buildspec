@@ -17,5 +17,5 @@ command="SHELL mvn clean install -pl bom-manipulator-plugin && mvn -Pbom clean s
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
