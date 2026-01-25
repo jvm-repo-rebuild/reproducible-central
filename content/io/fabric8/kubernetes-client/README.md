@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github.com/fabric8io/kubernetes-client.git)
 
-<details><summary>This project defines 189 modules:</summary>
+<details><summary>This project defines 192 modules:</summary>
 
 * [io.fabric8.java-generator:io.fabric8.java-generator.gradle.plugin](https://central.sonatype.com/artifact/io.fabric8.java-generator/io.fabric8.java-generator.gradle.plugin/overview)
 * [io.fabric8.kubernetes:karaf](https://central.sonatype.com/artifact/io.fabric8.kubernetes/karaf/overview)
@@ -72,6 +72,8 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:kube-api-test-parent](https://central.sonatype.com/artifact/io.fabric8/kube-api-test-parent/overview)
 * [io.fabric8:kubernetes-client](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client/overview)
 * [io.fabric8:kubernetes-client-api](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-api/overview)
+* [io.fabric8:kubernetes-client-bom](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-bom/overview)
+* [io.fabric8:kubernetes-client-bom-with-deps](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-bom-with-deps/overview)
 * [io.fabric8:kubernetes-client-deps-compatibility-tests](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-deps-compatibility-tests/overview)
 * [io.fabric8:kubernetes-client-init-bc-fips](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-init-bc-fips/overview)
 * [io.fabric8:kubernetes-client-project](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/overview)
@@ -143,6 +145,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:openshift-model-config](https://central.sonatype.com/artifact/io.fabric8/openshift-model-config/overview)
 * [io.fabric8:openshift-model-console](https://central.sonatype.com/artifact/io.fabric8/openshift-model-console/overview)
 * [io.fabric8:openshift-model-hive](https://central.sonatype.com/artifact/io.fabric8/openshift-model-hive/overview)
+* [io.fabric8:openshift-model-insights](https://central.sonatype.com/artifact/io.fabric8/openshift-model-insights/overview)
 * [io.fabric8:openshift-model-installer](https://central.sonatype.com/artifact/io.fabric8/openshift-model-installer/overview)
 * [io.fabric8:openshift-model-machine](https://central.sonatype.com/artifact/io.fabric8/openshift-model-machine/overview)
 * [io.fabric8:openshift-model-machineconfig](https://central.sonatype.com/artifact/io.fabric8/openshift-model-machineconfig/overview)
@@ -200,16 +203,16 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **46 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **47 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 46 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 47 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [7.5.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.5.2/pom) | | | |
 | [7.5.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.5.1/pom) | | | |
-| [7.5.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.5.0/pom) | | | |
+| [7.5.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.5.0/pom) | [mvn jdk11](kubernetes-client-7.5.0.buildspec) | [result](kubernetes-client-project-7.5.0.buildinfo): [305 :white_check_mark:  1 :warning:](kubernetes-client-project-7.5.0.buildcompare) [:mag:](kubernetes-client-project-7.5.0.diffoscope) | 1 :rotating_light: | 233M |
 | [7.4.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.4.0/pom) | [mvn jdk11](kubernetes-client-7.4.0.buildspec) | [result](kubernetes-client-project-7.4.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.4.0.buildcompare) | 2 :rotating_light: | 228M |
 | [7.3.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.3.1/pom) | [mvn jdk11](kubernetes-client-7.3.1.buildspec) | [result](kubernetes-client-project-7.3.1.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.3.1.buildcompare) | - | 225M |
 | [7.3.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.3.0/pom) | [mvn jdk11](kubernetes-client-7.3.0.buildspec) | [result](kubernetes-client-project-7.3.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.3.0.buildcompare) | - | 225M |

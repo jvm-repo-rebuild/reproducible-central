@@ -1,0 +1,49 @@
+1 / 1 target/reference/io.fabric8/kubernetes-log4j-7.5.0.jar log4j/target/kubernetes-log4j-7.5.0.jar
+--- target/reference/io.fabric8/kubernetes-log4j-7.5.0.jar
++++ log4j/target/kubernetes-log4j-7.5.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 22400 bytes, number of entries: 27
+│ +Zip file size: 22448 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1793 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1935 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4633 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-log4j/
+│  -rw----     2.0 fat       61 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-log4j/pom.properties
+│  -rw----     2.0 fat     3495 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-log4j/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/org/
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/
+│  -rw----     2.0 fat     4571 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/ClientBuilder.class
+│  -rw----     2.0 fat     4244 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/ContainerUtil.class
+│  -rw----     2.0 fat     1032 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/KubernetesLookup$KubernetesInfo.class
+│  -rw----     2.0 fat    13452 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/KubernetesLookup.class
+│  -rw----     2.0 fat     6954 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/Log4jConfig.class
+│  -rw----     2.0 fat      140 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/package-info.class
+│ -27 files, 40456 bytes uncompressed, 17916 bytes compressed:  55.7%
+│ +27 files, 40598 bytes uncompressed, 17964 bytes compressed:  55.8%
+├── META-INF/MANIFEST.MF
+│ @@ -20,14 +20,16 @@
+│   ava.nio.file,java.time,java.util,java.util.concurrent.locks,java.util
+│   .function,java.util.regex,java.util.stream,org.apache.logging.log4j;v
+│   ersion="[2.20,3)",org.apache.logging.log4j.core;version="[2.24,3)",or
+│   g.apache.logging.log4j.core.config.plugins;version="[2.20,3)",org.apa
+│   che.logging.log4j.core.lookup;version="[2.24,3)",org.apache.logging.l
+│   og4j.spi;version="[2.25,3)",org.apache.logging.log4j.status;version="
+│   [2.23,3)",org.apache.logging.log4j.util;version="[2.25,3)"
+│ -Include-Resource: ,/META-INF/org/apache/logging/=/home/runner/work/kub
+│ - ernetes-client/kubernetes-client/log4j/target/classes/META-INF/org/ap
+│ - ache/logging/,/META-INF/jandex.idx=/home/runner/work/kubernetes-clien
+│ - t/kubernetes-client/log4j/target/classes/META-INF/jandex.idx
+│ +Include-Resource: ,/META-INF/org/apache/logging/=/home/herve/dev/maven
+│ + /misc/reproducible-central/content/io/fabric8/kubernetes-client/build
+│ + cache/kubernetes-client-project/log4j/target/classes/META-INF/org/apa
+│ + che/logging/,/META-INF/jandex.idx=/home/herve/dev/maven/misc/reproduc
+│ + ible-central/content/io/fabric8/kubernetes-client/buildcache/kubernet
+│ + es-client-project/log4j/target/classes/META-INF/jandex.idx
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+│  Tool: Bnd-6.3.1.202206071316
+
