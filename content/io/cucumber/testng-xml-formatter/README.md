@@ -14,7 +14,11 @@ rebuilding **8 releases** of io.cucumber:testng-xml-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+<<<<<<< Updated upstream
 | [0.8.0](https://central.sonatype.com/artifact/io.cucumber/testng-xml-formatter/0.8.0/pom) | [mvn jdk21](testng-xml-formatter-0.8.0.buildspec) | [result](testng-xml-formatter-0.8.0.buildinfo): [2 :white_check_mark:  1 :warning:](testng-xml-formatter-0.8.0.buildcompare) | 1 :no_entry_sign: | 30K |
+=======
+| [0.8.0](https://central.sonatype.com/artifact/io.cucumber/testng-xml-formatter/0.8.0/pom) | [mvn jdk21](testng-xml-formatter-0.8.0.buildspec) | [result](testng-xml-formatter-0.8.0.buildinfo): [2 :white_check_mark:  1 :warning:](testng-xml-formatter-0.8.0.buildcompare) [:mag:](testng-xml-formatter-0.8.0.diffoscope) | 1 :no_entry_sign: | 30K |
+>>>>>>> Stashed changes
 | [0.7.0](https://central.sonatype.com/artifact/io.cucumber/testng-xml-formatter/0.7.0/pom) | [mvn jdk17](testng-xml-formatter-0.7.0.buildspec) | [result](testng-xml-formatter-0.7.0.buildinfo): [3 :white_check_mark: ](testng-xml-formatter-0.7.0.buildcompare) | | 29K |
 | [0.6.0](https://central.sonatype.com/artifact/io.cucumber/testng-xml-formatter/0.6.0/pom) | [mvn jdk17](testng-xml-formatter-0.6.0.buildspec) | [result](testng-xml-formatter-0.6.0.buildinfo): [3 :white_check_mark: ](testng-xml-formatter-0.6.0.buildcompare) | | 29K |
 | [0.5.0](https://central.sonatype.com/artifact/io.cucumber/testng-xml-formatter/0.5.0/pom) | [mvn jdk17](testng-xml-formatter-0.5.0.buildspec) | [result](testng-xml-formatter-0.5.0.buildinfo): [3 :white_check_mark: ](testng-xml-formatter-0.5.0.buildcompare) | | 29K |
