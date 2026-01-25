@@ -1,13 +1,15 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/ch/qos/logback/logback-1.5.25.buildspec:1.5.26
 content/com/github/sitture/env-config/env-config-2.1.0.buildspec:2.2.0
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-4.buildspec:11.3.1-beta-5
 content/io/avaje/jex/avaje-jex-3.4-RC4.buildspec:3.4
-content/io/avaje/jsonb/avaje-jsonb-3.10-RC3.buildspec:3.10
-content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.11.0.buildspec:0.12.0
-content/io/cucumber/teamcity-formatter/teamcity-formatter-0.2.0.buildspec:0.3.0
-content/io/cucumber/testng-xml-formatter/testng-xml-formatter-0.7.0.buildspec:0.8.0
-content/org/apache/cxf/xjc-utils/xjc-utils-4.1.1.buildspec:4.1.2
+content/io/cucumber/cucumber-expressions/cucumber-expressions-18.1.0.buildspec:19.0.0
+content/io/cucumber/gherkin-utils/gherkin-utils-10.0.0.buildspec:11.0.0
+content/io/cucumber/html-formatter/html-formatter-22.3.0.buildspec:23.0.0
+content/io/cucumber/messages/messages-32.0.0.buildspec:32.0.1
+content/io/cucumber/tag-expressions/tag-expressions-8.1.0.buildspec:9.0.0
+content/org/apache/stormcrawler/stormcrawler-3.5.0.buildspec:3.5.1
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/apache/qpid/jms/qpid-jms-2.9.0.buildspec:2.10.0

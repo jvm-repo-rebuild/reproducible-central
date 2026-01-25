@@ -14,6 +14,7 @@ rebuilding **26 releases** of io.cucumber:html-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [23.0.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/23.0.0/pom) | | | |
 | [22.3.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.3.0/pom) | [mvn jdk17](html-formatter-22.3.0.buildspec) | [result](html-formatter-22.3.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.3.0.buildcompare) | | 568K |
 | [22.2.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.2.0/pom) | [mvn jdk17](html-formatter-22.2.0.buildspec) | [result](html-formatter-22.2.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.2.0.buildcompare) | | 568K |
 | [22.1.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.1.0/pom) | [mvn jdk17](html-formatter-22.1.0.buildspec) | [result](html-formatter-22.1.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.1.0.buildcompare) | | 568K |

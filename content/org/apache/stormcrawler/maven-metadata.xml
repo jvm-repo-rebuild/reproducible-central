@@ -3,8 +3,8 @@
   <groupId>org.apache.stormcrawler</groupId>
   <artifactId>stormcrawler</artifactId>
   <versioning>
-    <latest>3.5.0</latest>
-    <release>3.5.0</release>
+    <latest>3.5.1</latest>
+    <release>3.5.1</release>
     <versions>
       <version>3.0</version>
       <version>3.1.0</version>
@@ -12,7 +12,8 @@
       <version>3.3.0</version>
       <version>3.4.0</version>
       <version>3.5.0</version>
+      <version>3.5.1</version>
     </versions>
-    <lastUpdated>20250920174910</lastUpdated>
+    <lastUpdated>20260125162918</lastUpdated>
   </versioning>
 </metadata>
