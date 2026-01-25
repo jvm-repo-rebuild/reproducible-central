@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/eclipse-tycho/tycho.git)
 
-<details><summary>This project defines 59 modules:</summary>
+<details><summary>This project defines 60 modules:</summary>
 
 * [org.eclipse.tycho.extras:target-platform-validation-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho.extras/target-platform-validation-plugin/overview)
 * [org.eclipse.tycho.extras:tycho-custom-bundle-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho.extras/tycho-custom-bundle-plugin/overview)
@@ -23,6 +23,7 @@ Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/ecl
 * [org.eclipse.tycho:org.eclipse.tycho.surefire.junit5](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.junit5/overview)
 * [org.eclipse.tycho:org.eclipse.tycho.surefire.junit5.vintage](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.junit5.vintage/overview)
 * [org.eclipse.tycho:org.eclipse.tycho.surefire.junit5.vintage.internal](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.junit5.vintage.internal/overview)
+* [org.eclipse.tycho:org.eclipse.tycho.surefire.junit6](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.junit6/overview)
 * [org.eclipse.tycho:org.eclipse.tycho.surefire.osgibooter](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.osgibooter/overview)
 * [org.eclipse.tycho:org.eclipse.tycho.surefire.testng](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.testng/overview)
 * [org.eclipse.tycho:org.eclipse.tycho.surefire.testng.fixup](https://central.sonatype.com/artifact/org.eclipse.tycho/org.eclipse.tycho.surefire.testng.fixup/overview)
@@ -70,14 +71,14 @@ Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/ecl
 * [org.eclipse.tycho:tycho-wrap-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-wrap-plugin/overview)
 </details>
 
-rebuilding **2 releases** of org.eclipse.tycho:tycho:
+rebuilding **3 releases** of org.eclipse.tycho:tycho:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.2](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.2/pom) | | | |
+| [5.0.2](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.2/pom) | [mvn jdk21](tycho-5.0.2.buildspec) | [result](tycho-5.0.2.buildinfo): [172 :white_check_mark:  1 :warning:](tycho-5.0.2.buildcompare) | 1 :rotating_light: | 13M |
 | [5.0.1](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.1/pom) | [mvn jdk21](tycho-5.0.1.buildspec) | [result](tycho-5.0.1.buildinfo): [167 :white_check_mark:  3 :warning:](tycho-5.0.1.buildcompare) | 3 :rotating_light: | 13M |
 | [5.0.0](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.0/pom) | [mvn jdk21](tycho-5.0.0.buildspec) | [result](tycho-5.0.0.buildinfo): [164 :white_check_mark:  3 :warning:](tycho-5.0.0.buildcompare) [:mag:](tycho-5.0.0.diffoscope) [:memo:](https://github.com/eclipse-tycho/tycho/issues/5284) | 3 :rotating_light: | 13M |
 
