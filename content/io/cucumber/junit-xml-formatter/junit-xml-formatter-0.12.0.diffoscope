@@ -1,0 +1,56 @@
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>messages</artifactId>
+            <version>[32.0.0,33.0.0)</version>
+        </dependency>
+1 / 1 target/reference/io.cucumber/junit-xml-formatter-0.12.0.jar target/junit-xml-formatter-0.12.0.jar
+--- target/reference/io.cucumber/junit-xml-formatter-0.12.0.jar
++++ target/junit-xml-formatter-0.12.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 17905 bytes, number of entries: 17
+│ +Zip file size: 17903 bytes, number of entries: 17
+│  -rw----     1.0 fat        0 bx stor 26-Jan-22 23:29 META-INF/
+│  -rw----     2.0 fat      245 bl defN 26-Jan-22 23:29 META-INF/MANIFEST.MF
+│ @@ -12,8 +12,8 @@
+│  -rw----     2.0 fat       66 bl defN 26-Jan-22 23:29 META-INF/maven/io.cucumber/junit-xml-formatter/pom.properties
+│  -rw----     2.0 fat      368 bl defN 26-Jan-22 23:29 module-info.class
+│ -17 files, 38268 bytes uncompressed, 15163 bytes compressed:  60.4%
+│ +17 files, 38268 bytes uncompressed, 15161 bytes compressed:  60.4%
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -19,15 +19,15 @@
+│ │    #10 = Utf8               java.base
+│ │    #11 = Module             #12            // "org.jspecify"
+│ │    #12 = Utf8               org.jspecify
+│ │    #13 = Module             #14            // "java.xml"
+│ │    #14 = Utf8               java.xml
+│ │    #15 = Module             #16            // "io.cucumber.messages"
+│ │    #16 = Utf8               io.cucumber.messages
+│ │ -  #17 = Utf8               32.0.0
+│ │ +  #17 = Utf8               32.0.1
+│ │    #18 = Module             #19            // "io.cucumber.query"
+│ │    #19 = Utf8               io.cucumber.query
+│ │    #20 = Utf8               15.0.1
+│ │    #21 = Package            #22            // io/cucumber/junitxmlformatter
+│ │    #22 = Utf8               io/cucumber/junitxmlformatter
+│ │    #23 = Utf8               ModulePackages
+│ │  {
+│ │ @@ -40,15 +40,15 @@
+│ │      #9,8000                                 // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #11,0                                   // "org.jspecify"
+│ │      #0
+│ │      #13,0                                   // "java.xml"
+│ │      #0
+│ │      #15,20                                  // "io.cucumber.messages" ACC_TRANSITIVE
+│ │ -    #17                                     // 32.0.0
+│ │ +    #17                                     // 32.0.1
+│ │      #18,0                                   // "io.cucumber.query"
+│ │      #20                                     // 15.0.1
+│ │    1                                       // exports
+│ │      #21,0                                   // io/cucumber/junitxmlformatter
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    0                                       // provides
+
