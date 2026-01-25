@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/stormcrawler.git](https://github.com/apache/stormcrawler.git)
 
-<details><summary>This project defines 17 modules:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
 * [org.apache.stormcrawler:stormcrawler](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/overview)
 * [org.apache.stormcrawler:stormcrawler-ai](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-ai/overview)
 * [org.apache.stormcrawler:stormcrawler-archetype](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-archetype/overview)
 * [org.apache.stormcrawler:stormcrawler-aws](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-aws/overview)
 * [org.apache.stormcrawler:stormcrawler-core](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-core/overview)
+* [org.apache.stormcrawler:stormcrawler-docs](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-docs/overview)
 * [org.apache.stormcrawler:stormcrawler-external](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-external/overview)
 * [org.apache.stormcrawler:stormcrawler-langid](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-langid/overview)
 * [org.apache.stormcrawler:stormcrawler-opensearch](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-opensearch/overview)
@@ -28,14 +29,14 @@ Source code: [https://github.com/apache/stormcrawler.git](https://github.com/apa
 * [org.apache.stormcrawler:stormcrawler-warc](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-warc/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.stormcrawler:stormcrawler:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.apache.stormcrawler:stormcrawler:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.5.1](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.1/pom) | | | |
+| [3.5.1](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.1/pom) | [mvn jdk25](stormcrawler-3.5.1.buildspec) | [result](stormcrawler-3.5.1.buildinfo): [53 :white_check_mark: ](stormcrawler-3.5.1.buildcompare) | | 3.7M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.0/pom) | [mvn jdk21](stormcrawler-3.5.0.buildspec) | [result](stormcrawler-3.5.0.buildinfo): [50 :white_check_mark: ](stormcrawler-3.5.0.buildcompare) | | 3.3M |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.4.0/pom) | [mvn jdk17](stormcrawler-3.4.0.buildspec) | [result](stormcrawler-3.4.0.buildinfo): [47 :white_check_mark: ](stormcrawler-3.4.0.buildcompare) | | 3.3M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.3.0/pom) | [mvn jdk17](stormcrawler-3.3.0.buildspec) | [result](stormcrawler-3.3.0.buildinfo): [44 :white_check_mark: ](stormcrawler-3.3.0.buildcompare) | | 3.2M |
