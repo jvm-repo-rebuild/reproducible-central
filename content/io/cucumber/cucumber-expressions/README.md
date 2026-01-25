@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/cucumber-expressions.git](https://github.com/cucumber/cucumber-expressions.git)
 
-rebuilding **10 releases** of io.cucumber:cucumber-expressions:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of io.cucumber:cucumber-expressions:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [19.0.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/19.0.0/pom) | | | |
+| [19.0.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/19.0.0/pom) | [mvn jdk21](cucumber-expressions-19.0.0.buildspec) | [result](cucumber-expressions-19.0.0.buildinfo): [3 :white_check_mark: ](cucumber-expressions-19.0.0.buildcompare) | | 128K |
 | [18.1.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/18.1.0/pom) | [mvn jdk17](cucumber-expressions-18.1.0.buildspec) | [result](cucumber-expressions-18.1.0.buildinfo): [3 :white_check_mark: ](cucumber-expressions-18.1.0.buildcompare) | | 120K |
 | [18.0.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/18.0.1/pom) | [mvn jdk11](cucumber-expressions-18.0.1.buildspec) | [result](cucumber-expressions-18.0.1.buildinfo): [3 :white_check_mark: ](cucumber-expressions-18.0.1.buildcompare) | | 117K |
 | [18.0.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/18.0.0/pom) | [mvn jdk11](cucumber-expressions-18.0.0.buildspec) | [result](cucumber-expressions-18.0.0.buildinfo): [3 :white_check_mark: ](cucumber-expressions-18.0.0.buildcompare) | | 117K |
