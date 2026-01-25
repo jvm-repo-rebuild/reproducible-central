@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gherkin Utils
+group-id=io.cucumber
+artifact-id=gherkin-utils
+version=11.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/gherkin-utils.git
+source.scm.tag=v11.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=gherkin-utils-11.0.0.pom
+outputs.0.length=3557
+outputs.0.checksums.sha512=336aa5759df52486f58aa394094554ab91331283cabc81f47a4b2265afd52e6480c85465a3f2fe399bfa0e22b3d8def7634b7361afcb16f00785ba2d398958f9
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=gherkin-utils-11.0.0.jar
+outputs.1.length=19689
+outputs.1.checksums.sha512=56fd090313a1c84447b6428bbd75e3166cbee9241e381c21158a53a61ff261b7776e9b0a0e9724b7452329f75886f0b2272996073219ab236552399ba41c6cd6
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=gherkin-utils-11.0.0-sources.jar
+outputs.2.length=10011
+outputs.2.checksums.sha512=520cd78b522917069ae973901d9595aa179bccf7b3a237b6d23d051c43efa45b33fce68a638e2fadc4f40414ffd6180b0ede002975770abe8581951a6b346633
