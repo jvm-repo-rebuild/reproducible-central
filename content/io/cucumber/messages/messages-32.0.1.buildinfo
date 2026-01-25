@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Messages
+group-id=io.cucumber
+artifact-id=messages
+version=32.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/messages.git
+source.scm.tag=v32.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=messages-32.0.1.pom
+outputs.0.length=5766
+outputs.0.checksums.sha512=df5a4f690f90dd5a50de18b9f2c76436212b5a9a2771376670f43caaf3d9df3a96d19c072cd90d79b53daebc03837e498f0fdb5155fc2add02bbcfd714ca8451
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=messages-32.0.1.jar
+outputs.1.length=117253
+outputs.1.checksums.sha512=4fbe94294910da99d820b2942a22065d0fe3a03c8e321c885cf5ee866a8c6122a388324fb946028d2546ca57919a1fab187486d007b82f2143406b87eeeb2077
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=messages-32.0.1-sources.jar
+outputs.2.length=72651
+outputs.2.checksums.sha512=c432bc4b381fcedaea3a9db167f9114414730a47c9fcc0d7243cd0b89d06697f5caa3320b1773f8005319c6f3f80e5d444ffe06670d0b0d2e97c1c68e00a0a38
