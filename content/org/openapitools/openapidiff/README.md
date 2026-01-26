@@ -15,13 +15,13 @@ Source code: [https://github.com/OpenAPITools/openapi-diff.git](https://github.c
 * [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/overview)
 </details>
 
-rebuilding **20 releases** of org.openapitools.openapidiff:openapi-diff-parent:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of org.openapitools.openapidiff:openapi-diff-parent:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.7](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.7/pom) | | | |
+| [2.1.7](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.7/pom) | [mvn jdk11](openapi-diff-2.1.7.buildspec) | [result](openapi-diff-parent-2.1.7.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.7.buildcompare) | | 17M |
 | [2.1.6](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.6/pom) | [mvn jdk11](openapi-diff-2.1.6.buildspec) | [result](openapi-diff-parent-2.1.6.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.6.buildcompare) | | 17M |
 | [2.1.5](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.5/pom) | [mvn jdk11](openapi-diff-2.1.5.buildspec) | [result](openapi-diff-parent-2.1.5.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.5.buildcompare) | | 17M |
 | [2.1.4](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.4/pom) | [mvn jdk11](openapi-diff-2.1.4.buildspec) | [result](openapi-diff-parent-2.1.4.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.4.buildcompare) | | 17M |
