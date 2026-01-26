@@ -5,8 +5,7 @@ version=3.10
 
 gitRepo=https://github.com/avaje/avaje-jsonb.git
 gitTag=${version}
-gitTag="git log --all --pretty=format:%H --grep '$version'"
-gitTag=d48387a53c7817a16485f746735eee1facf5fc0e # missing Git tag, and git log command gives wrong value
+#gitTag="git log --all --pretty=format:%H --grep '$version'"
 
 tool=mvn
 jdk=25
