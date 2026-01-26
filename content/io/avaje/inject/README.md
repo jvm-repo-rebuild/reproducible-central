@@ -19,14 +19,14 @@ Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaj
 * [io.avaje:avaje-inject-test](https://central.sonatype.com/artifact/io.avaje/avaje-inject-test/overview)
 </details>
 
-rebuilding **60 releases** of io.avaje:avaje-inject-parent:
-- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **61 releases** of io.avaje:avaje-inject-parent:
+- **49** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [12.3-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.3-javax/pom) | | | |
+| [12.3-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.3-javax/pom) | [mvn jdk25 w](avaje-inject-12.3-javax.buildspec) | [result](avaje-inject-parent-12.3-javax.buildinfo): [20 :white_check_mark: ](avaje-inject-parent-12.3-javax.buildcompare) | | 811K |
 | [12.3](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.3/pom) | [mvn jdk25 w](avaje-inject-12.3.buildspec) | [result](avaje-inject-parent-12.3.buildinfo): [20 :white_check_mark: ](avaje-inject-parent-12.3.buildcompare) | | 811K |
 | [12.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.3-RC1/pom) | [mvn jdk25 w](avaje-inject-12.3-RC1.buildspec) | [result](avaje-inject-parent-12.3-RC1.buildinfo): [18 :white_check_mark:  2 :warning:](avaje-inject-parent-12.3-RC1.buildcompare) [:mag:](avaje-inject-parent-12.3-RC1.diffoscope) [:memo:](https://github.com/avaje/avaje-spi-service/issues/78#issuecomment-3790501542) | 2 :rotating_light: | 810K |
 | [12.2-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.2-javax/pom) | [mvn jdk25](avaje-inject-12.2-javax.buildspec) | [result](avaje-inject-parent-12.2-javax.buildinfo): [20 :white_check_mark: ](avaje-inject-parent-12.2-javax.buildcompare) | | 972K |
