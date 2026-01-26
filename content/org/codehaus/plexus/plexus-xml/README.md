@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.codehaus.plexus:plexus-xml:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.1.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.1.1/pom) | | | |
 | [4.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.1.0/pom) | [mvn jdk24](plexus-xml-4.1.0.buildspec) | [result](plexus-xml-4.1.0.buildinfo): [4 :white_check_mark: ](plexus-xml-4.1.0.buildcompare) | | 365K |
 | [4.0.4](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.4/pom) | [mvn jdk21](plexus-xml-4.0.4.buildspec) | [result](plexus-xml-4.0.4.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.4.buildcompare) | | 363K |
 | [4.0.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.3/pom) | [mvn jdk21](plexus-xml-4.0.3.buildspec) | [result](plexus-xml-4.0.3.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.3.buildcompare) | | 361K |

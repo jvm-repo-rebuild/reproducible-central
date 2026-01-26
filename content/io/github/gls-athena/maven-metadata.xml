@@ -3,8 +3,8 @@
   <groupId>io.github.gls-athena</groupId>
   <artifactId>athena-parent</artifactId>
   <versioning>
-    <latest>0.0.17</latest>
-    <release>0.0.17</release>
+    <latest>0.0.18</latest>
+    <release>0.0.18</release>
     <versions>
       <version>0.0.1</version>
       <version>0.0.2</version>
@@ -21,7 +21,8 @@
       <version>0.0.15</version>
       <version>0.0.16</version>
       <version>0.0.17</version>
+      <version>0.0.18</version>
     </versions>
-    <lastUpdated>20251011232134</lastUpdated>
+    <lastUpdated>20260126022316</lastUpdated>
   </versioning>
 </metadata>
