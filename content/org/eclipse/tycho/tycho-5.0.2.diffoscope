@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.eclipse.tycho/tycho-testing-harness-5.0.2.jar tycho-testing-harness/target/tycho-testing-harness-5.0.2.jar
+--- target/reference/org.eclipse.tycho/tycho-testing-harness-5.0.2.jar
++++ tycho-testing-harness/target/tycho-testing-harness-5.0.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 32510 bytes, number of entries: 33
+│ +Zip file size: 32505 bytes, number of entries: 33
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-24 06:29 META-INF/
+│  -rw-r--r--  2.0 unx       99 b- defN 26-Jan-24 06:29 META-INF/MANIFEST.MF
+│ @@ -25,11 +25,11 @@
+│  -rw-r--r--  2.0 unx     1354 b- defN 26-Jan-24 06:29 org/eclipse/tycho/testing/TychoPlexusTestCase$PlexusTestCaseExension.class
+│  -rw-r--r--  2.0 unx     6048 b- defN 26-Jan-24 06:29 org/eclipse/tycho/testing/TychoPlexusTestCase.class
+│ --rw-r--r--  2.0 unx       46 b- defN 26-Jan-24 06:29 org/eclipse/tycho/testing/settings.properties
+│ +-rw-r--r--  2.0 unx       41 b- defN 26-Jan-24 06:29 org/eclipse/tycho/testing/settings.properties
+│  -rw-r--r--  2.0 unx     2701 b- defN 26-Jan-24 06:29 META-INF/maven/org.eclipse.tycho/tycho-testing-harness/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 26-Jan-24 06:29 META-INF/maven/org.eclipse.tycho/tycho-testing-harness/pom.properties
+│ -33 files, 63019 bytes uncompressed, 27072 bytes compressed:  57.0%
+│ +33 files, 63014 bytes uncompressed, 27067 bytes compressed:  57.0%
+├── org/eclipse/tycho/testing/settings.properties
+│ @@ -1 +1 @@
+│ -settings.file=/home/christoph/.m2/settings.xml
+│ +settings.file=/var/maven/.m2/settings.xml
+
