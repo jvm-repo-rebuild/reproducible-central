@@ -1,0 +1,53 @@
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>messages</artifactId>
+            <version>[32.0.0,33.0.0)</version>
+        </dependency>
+--- target/reference/io.cucumber/gherkin-38.0.0.jar
++++ target/gherkin-38.0.0.jar
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -  SHA-256 checksum a9c8c1148111f28b6c1f98c45d4d5ad4ad82eb383c7e1663eba7835451b9aca4
+│ │ +  SHA-256 checksum 1e3632bac96b98c44a63f250300e5f36456a562b13b456422e9354212d8e3d45
+│ │    Compiled from "module-info.java"
+│ │  module io.cucumber.gherkin@38.0.0
+│ │    minor version: 0
+│ │    major version: 61
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #1                          // "module-info"
+│ │    super_class: #0
+│ │ @@ -18,15 +18,15 @@
+│ │     #8 = Utf8               38.0.0
+│ │     #9 = Module             #10            // "java.base"
+│ │    #10 = Utf8               java.base
+│ │    #11 = Module             #12            // "org.jspecify"
+│ │    #12 = Utf8               org.jspecify
+│ │    #13 = Module             #14            // "io.cucumber.messages"
+│ │    #14 = Utf8               io.cucumber.messages
+│ │ -  #15 = Utf8               32.0.0
+│ │ +  #15 = Utf8               32.0.1
+│ │    #16 = Package            #17            // io/cucumber/gherkin
+│ │    #17 = Utf8               io/cucumber/gherkin
+│ │    #18 = Utf8               ModulePackages
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │ @@ -34,15 +34,15 @@
+│ │    #8                                      // 38.0.0
+│ │    3                                       // requires
+│ │      #9,8000                                 // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #11,0                                   // "org.jspecify"
+│ │      #0
+│ │      #13,20                                  // "io.cucumber.messages" ACC_TRANSITIVE
+│ │ -    #15                                     // 32.0.0
+│ │ +    #15                                     // 32.0.1
+│ │    1                                       // exports
+│ │      #16,0                                   // io/cucumber/gherkin
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    0                                       // provides
+│ │  ModulePackages:
+│ │    #16                                     // io.cucumber.gherkin
