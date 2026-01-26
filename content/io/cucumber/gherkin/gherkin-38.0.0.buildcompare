@@ -1,0 +1,16 @@
+version=38.0.0
+ok=2
+ko=1
+ignored=0
+okFiles="gherkin-38.0.0.pom gherkin-38.0.0-sources.jar"
+koFiles="gherkin-38.0.0.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.cucumber/gherkin-38.0.0.jar target/gherkin-38.0.0.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="gherkin-38.0.0.jar"

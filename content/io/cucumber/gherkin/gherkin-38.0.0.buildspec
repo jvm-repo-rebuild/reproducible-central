@@ -11,7 +11,9 @@ jdk=21
 newline=lf
 umask=022
 
+# notice: other languages than Java ignored = c, cpp, dotnet, elixir, go, javascript, objective-c, perl, php, python, ruby
 command="SHELL cd java && mvn -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=java/target/${artifactId}-${version}.buildinfo
 
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
