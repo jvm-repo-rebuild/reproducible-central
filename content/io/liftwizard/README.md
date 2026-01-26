@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motlin/liftwizard.git)
 
-<details><summary>This project defines 180 modules:</summary>
+<details><summary>This project defines 183 modules:</summary>
 
 * [io.liftwizard:docs](https://central.sonatype.com/artifact/io.liftwizard/docs/overview)
 * [io.liftwizard:liftwizard](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/overview)
@@ -152,14 +152,17 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-principal-firebase](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-principal-firebase/overview)
 * [io.liftwizard:liftwizard-profile-parent](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-profile-parent/overview)
 * [io.liftwizard:liftwizard-reladomo](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo/overview)
+* [io.liftwizard:liftwizard-reladomo-csv-test-extension](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-csv-test-extension/overview)
 * [io.liftwizard:liftwizard-reladomo-graphql-data-fetcher](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-graphql-data-fetcher/overview)
 * [io.liftwizard:liftwizard-reladomo-graphql-deep-fetcher](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-graphql-deep-fetcher/overview)
 * [io.liftwizard:liftwizard-reladomo-graphql-operation](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-graphql-operation/overview)
 * [io.liftwizard:liftwizard-reladomo-operation-compiler](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-operation-compiler/overview)
 * [io.liftwizard:liftwizard-reladomo-operation-grammar](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-operation-grammar/overview)
+* [io.liftwizard:liftwizard-reladomo-rollback](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-rollback/overview)
 * [io.liftwizard:liftwizard-reladomo-serialize](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-serialize/overview)
 * [io.liftwizard:liftwizard-reladomo-simulated-sequence](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-simulated-sequence/overview)
 * [io.liftwizard:liftwizard-reladomo-simulated-sequence-ddls](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-simulated-sequence-ddls/overview)
+* [io.liftwizard:liftwizard-reladomo-test-data-parser](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-test-data-parser/overview)
 * [io.liftwizard:liftwizard-reladomo-test-extension](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-test-extension/overview)
 * [io.liftwizard:liftwizard-reladomo-test-resource-writer](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-test-resource-writer/overview)
 * [io.liftwizard:liftwizard-reladomo-test-rule](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-test-rule/overview)
@@ -191,13 +194,13 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-uuid](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-uuid/overview)
 </details>
 
-rebuilding **82 releases** of io.liftwizard:liftwizard:
-- **81** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **83 releases** of io.liftwizard:liftwizard:
+- **82** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.41](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.41/pom) | | | |
+| [2.1.41](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.41/pom) | [mvn jdk21](liftwizard-2.1.41.buildspec) | [result](liftwizard-2.1.41.buildinfo): [442 :white_check_mark: ](liftwizard-2.1.41.buildcompare) | | 3.3M |
 | [2.1.40](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.40/pom) | [mvn jdk17](liftwizard-2.1.40.buildspec) | [result](liftwizard-2.1.40.buildinfo): [433 :white_check_mark: ](liftwizard-2.1.40.buildcompare) | | 3.0M |
 | [2.1.39](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.39/pom) | [mvn jdk17](liftwizard-2.1.39.buildspec) | [result](liftwizard-2.1.39.buildinfo): [433 :white_check_mark: ](liftwizard-2.1.39.buildcompare) | | 3.0M |
 | [2.1.38](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.38/pom) | [mvn jdk17](liftwizard-2.1.38.buildspec) | [result](liftwizard-2.1.38.buildinfo): [433 :white_check_mark: ](liftwizard-2.1.38.buildcompare) | | 3.0M |
