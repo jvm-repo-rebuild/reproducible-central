@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 
-<details><summary>This project defines 38 modules:</summary>
+<details><summary>This project defines 40 modules:</summary>
 
 * [io.dropwizard.metrics:metrics-annotation](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-annotation/overview)
 * [io.dropwizard.metrics:metrics-bom](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-bom/overview)
@@ -21,6 +21,7 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-httpasyncclient](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpasyncclient/overview)
 * [io.dropwizard.metrics:metrics-httpclient](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpclient/overview)
 * [io.dropwizard.metrics:metrics-httpclient5](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpclient5/overview)
+* [io.dropwizard.metrics:metrics-jackson3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jackson3/overview)
 * [io.dropwizard.metrics:metrics-jakarta-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlet/overview)
 * [io.dropwizard.metrics:metrics-jakarta-servlet6](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlet6/overview)
 * [io.dropwizard.metrics:metrics-jakarta-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlets/overview)
@@ -30,6 +31,7 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-jersey2](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey2/overview)
 * [io.dropwizard.metrics:metrics-jersey3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey3/overview)
 * [io.dropwizard.metrics:metrics-jersey31](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey31/overview)
+* [io.dropwizard.metrics:metrics-jersey40](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey40/overview)
 * [io.dropwizard.metrics:metrics-jetty10](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty10/overview)
 * [io.dropwizard.metrics:metrics-jetty11](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty11/overview)
 * [io.dropwizard.metrics:metrics-jetty12](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12/overview)
@@ -49,13 +51,13 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlets/overview)
 </details>
 
-rebuilding **71 releases** of io.dropwizard.metrics:metrics-parent:
-- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **72 releases** of io.dropwizard.metrics:metrics-parent:
+- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 38 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.38](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.38/pom) | | | |
+| [4.2.38](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.38/pom) | [mvn jdk17](dropwizard-metrics-4.2.38.buildspec) | [result](metrics-parent-4.2.38.buildinfo): [116 :white_check_mark: ](metrics-parent-4.2.38.buildcompare) | | 1.2M |
 | [4.2.37](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.37/pom) | [mvn jdk17](dropwizard-metrics-4.2.37.buildspec) | [result](metrics-parent-4.2.37.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.37.buildcompare) | | 1.2M |
 | [4.2.36](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.36/pom) | [mvn jdk17](dropwizard-metrics-4.2.36.buildspec) | [result](metrics-parent-4.2.36.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.36.buildcompare) | | 1.2M |
 | [4.2.35](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.35/pom) | [mvn jdk17](dropwizard-metrics-4.2.35.buildspec) | [result](metrics-parent-4.2.35.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.35.buildcompare) | | 1.2M |
