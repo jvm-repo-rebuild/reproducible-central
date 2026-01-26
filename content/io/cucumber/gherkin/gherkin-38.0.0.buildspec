@@ -1,0 +1,17 @@
+groupId=io.cucumber
+artifactId=gherkin
+display=${groupId}:${artifactId}
+version=38.0.0
+
+gitRepo=https://github.com/cucumber/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+umask=022
+
+command="SHELL cd java && mvn -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+
+issue=
