@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache NetBeans NBPackage
+group-id=org.apache.netbeans
+artifact-id=nbpackage
+version=1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git
+source.scm.tag=nbpackage-1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.netbeans
+outputs.0.filename=nbpackage-1.0.pom
+outputs.0.length=8707
+outputs.0.checksums.sha512=07528f1fb091f2c09f1224d0e86e08f2c7d4683aac88bd52384248598bf0731f6bdf555ffc59ac1e80e07bde2f9cba2239a2fc067de328c46ad0444da124cc62
+
+outputs.1.groupId=org.apache.netbeans
+outputs.1.filename=nbpackage-1.0.jar
+outputs.1.length=381894
+outputs.1.checksums.sha512=b0b1e0bffac3f2958d8812ea8014489e9a00bbc2f9fd19734ffd1544a8d8a6170840ec1c6f20deb0648ba243a48d8341dd9007ccd12ac8ddf6e07b93978af131
+
+outputs.2.groupId=org.apache.netbeans
+outputs.2.filename=nbpackage-1.0-source-release.zip
+outputs.2.length=375519
+outputs.2.checksums.sha512=79ad17bfb7ca21b23257e672277272c584e98a93c79b7c58f917b7efb2f275c773a8b52a79eb72842b5c11c6253fe03d242b21d3df6daf9419e4e66792f7994a
+
+outputs.3.groupId=org.apache.netbeans
+outputs.3.filename=nbpackage-1.0-bin.tar.gz
+outputs.3.length=3220267
+outputs.3.checksums.sha512=ea6a6598b938ce7c43630867d828d633c4469761a4458b00051809d839a737784134d4b8e318a92e040e566001bd7533f69e359975f632e89a1abce3c55d0012
+
+outputs.4.groupId=org.apache.netbeans
+outputs.4.filename=nbpackage-1.0-bin.zip
+outputs.4.length=3220491
+outputs.4.checksums.sha512=585bd2dadb28c4d3e4bfe97f41e058975bd9a95d960bb620fa5b3b907e3c6d40fc63024a5a592739d9e8a510c90dd8a5ec24a170f5153f0a21bf6086596ed5a4
+
+outputs.5.groupId=org.apache.netbeans
+outputs.5.filename=nbpackage-1.0-sources.jar
+outputs.5.length=332201
+outputs.5.checksums.sha512=a0c1b88f5385332c33928040ba368991f561ed41012a5c4690f04ab0b388690808b34406db53f0201c75f234339ad53feb4d6f934e83d9c90560fa4c1c945b75
