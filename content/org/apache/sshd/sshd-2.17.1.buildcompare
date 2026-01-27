@@ -1,0 +1,9 @@
+version=2.17.1
+ok=51
+ko=0
+ignored=0
+okFiles="sshd-2.17.1.pom sshd-common-2.17.1.pom sshd-common-2.17.1.jar sshd-common-2.17.1-sources.jar sshd-common-2.17.1-tests.jar sshd-core-2.17.1.pom sshd-core-2.17.1.jar sshd-core-2.17.1-sources.jar sshd-core-2.17.1-tests.jar sshd-core-2.17.1-reusable-tests.jar sshd-mina-2.17.1.pom sshd-mina-2.17.1.jar sshd-mina-2.17.1-sources.jar sshd-netty-2.17.1.pom sshd-netty-2.17.1.jar sshd-netty-2.17.1-sources.jar sshd-sftp-2.17.1.pom sshd-sftp-2.17.1.jar sshd-sftp-2.17.1-sources.jar sshd-putty-2.17.1.pom sshd-putty-2.17.1.jar sshd-putty-2.17.1-sources.jar sshd-openpgp-2.17.1.pom sshd-openpgp-2.17.1.jar sshd-openpgp-2.17.1-sources.jar sshd-scp-2.17.1.pom sshd-scp-2.17.1.jar sshd-scp-2.17.1-sources.jar sshd-ldap-2.17.1.pom sshd-ldap-2.17.1.jar sshd-ldap-2.17.1-sources.jar sshd-git-2.17.1.pom sshd-git-2.17.1.jar sshd-git-2.17.1-sources.jar sshd-contrib-2.17.1.pom sshd-contrib-2.17.1.jar sshd-contrib-2.17.1-sources.jar sshd-spring-sftp-2.17.1.pom sshd-spring-sftp-2.17.1.jar sshd-spring-sftp-2.17.1-sources.jar sshd-cli-2.17.1.pom sshd-cli-2.17.1.jar sshd-cli-2.17.1-sources.jar sshd-osgi-2.17.1.pom sshd-osgi-2.17.1.jar sshd-osgi-2.17.1-sources.jar apache-sshd-2.17.1.pom apache-sshd-2.17.1.tar.gz apache-sshd-2.17.1.zip apache-sshd-2.17.1-src.tar.gz apache-sshd-2.17.1-src.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
