@@ -196,8 +196,9 @@
       <version>7.2.0.CR4</version>
       <version>7.2.0.Final</version>
       <version>7.2.1.Final</version>
+      <version>7.2.2.Final</version>
       <version>7.3.0.CR1</version>
     </versions>
-    <lastUpdated>20260123110410</lastUpdated>
+    <lastUpdated>20260127083735</lastUpdated>
   </versioning>
 </metadata>
