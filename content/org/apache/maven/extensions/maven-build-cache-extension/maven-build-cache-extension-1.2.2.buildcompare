@@ -1,0 +1,9 @@
+version=1.2.2
+ok=6
+ko=0
+ignored=0
+okFiles="maven-build-cache-extension-1.2.2.pom maven-build-cache-extension-1.2.2.jar maven-build-cache-extension-1.2.2-source-release.zip maven-build-cache-extension-1.2.2-sources.jar maven-build-cache-extension-1.2.2-cyclonedx.xml maven-build-cache-extension-1.2.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
