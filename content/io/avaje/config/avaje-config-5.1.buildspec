@@ -17,4 +17,4 @@ command="mvn -f ${artifactId} -Pcentral clean package -DskipTests -Dmaven.javado
 buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/avaje/avaje-config/issues/254

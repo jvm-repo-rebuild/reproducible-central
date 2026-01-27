@@ -1,0 +1,15 @@
+version=5.1
+ok=2
+ko=1
+ignored=0
+okFiles="avaje-config-5.1.pom avaje-config-5.1.jar"
+koFiles="avaje-config-5.1-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-config-5.1-sources.jar target/avaje-config-5.1-sources.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="avaje-config-5.1-sources.jar"

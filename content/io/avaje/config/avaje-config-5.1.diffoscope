@@ -1,0 +1,50 @@
+1 / 1 target/reference/io.avaje/avaje-config-5.1-sources.jar target/avaje-config-5.1-sources.jar
+--- target/reference/io.avaje/avaje-config-5.1-sources.jar
++++ target/avaje-config-5.1-sources.jar
+├── zipinfo {}
+│ @@ -1,14 +1,13 @@
+│ -Zip file size: 44158 bytes, number of entries: 50
+│ +Zip file size: 44040 bytes, number of entries: 49
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Jan-26 18:52 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 io/avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 io/avaje/config/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 io/avaje/config/load/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 META-INF/native-image/io.avaje.config.avaje-config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 META-INF/maven/io.avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-26 18:52 META-INF/maven/io.avaje/avaje-config/
+│  -rw-r--r--  2.0 unx    18911 b- defN 26-Jan-26 18:52 io/avaje/config/Config.java
+│  -rw-r--r--  2.0 unx      671 b- defN 26-Jan-26 18:52 io/avaje/config/ConfigExtension.java
+│ @@ -45,8 +44,8 @@
+│  -rw-r--r--  2.0 unx    10204 b- defN 26-Jan-26 18:52 io/avaje/config/YamlLoaderSimple.java
+│  -rw-r--r--  2.0 unx     2038 b- defN 26-Jan-26 18:52 io/avaje/config/YamlLoaderSnake.java
+│  -rw-r--r--  2.0 unx     1480 b- defN 26-Jan-26 18:52 io/avaje/config/package-info.java
+│  -rw-r--r--  2.0 unx      251 b- defN 26-Jan-26 18:52 module-info.java
+│  -rw-r--r--  2.0 unx      156 b- defN 26-Jan-26 18:52 META-INF/native-image/io.avaje.config.avaje-config/resource-config.json
+│  -rw-r--r--  2.0 unx     3193 b- defN 26-Jan-26 18:52 META-INF/maven/io.avaje/avaje-config/pom.xml
+│  -rw-r--r--  2.0 unx       53 b- defN 26-Jan-26 18:52 META-INF/maven/io.avaje/avaje-config/pom.properties
+│ -50 files, 141607 bytes uncompressed, 37006 bytes compressed:  73.9%
+│ +49 files, 141607 bytes uncompressed, 37006 bytes compressed:  73.9%
+├── zipnote «TEMP»/diffoscope_fovkzm1n_target/tmp3f5ur_mb_.zip
+│ @@ -9,17 +9,14 @@
+│  
+│  Filename: io/avaje/
+│  Comment: 
+│  
+│  Filename: io/avaje/config/
+│  Comment: 
+│  
+│ -Filename: io/avaje/config/load/
+│ -Comment: 
+│ -
+│  Filename: META-INF/native-image/
+│  Comment: 
+│  
+│  Filename: META-INF/native-image/io.avaje.config.avaje-config/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+
