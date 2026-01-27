@@ -1,0 +1,17 @@
+version=28.0.0
+ok=1
+ko=2
+ignored=0
+okFiles="compatibility-kit-28.0.0.pom"
+koFiles="compatibility-kit-28.0.0.jar compatibility-kit-28.0.0-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.cucumber/compatibility-kit-28.0.0.jar target/compatibility-kit-28.0.0.jar
+# diffoscope target/reference/io.cucumber/compatibility-kit-28.0.0-sources.jar target/compatibility-kit-28.0.0-sources.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="compatibility-kit-28.0.0.jar compatibility-kit-28.0.0-sources.jar"
