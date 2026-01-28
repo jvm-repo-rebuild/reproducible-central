@@ -1,12 +1,19 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/sitture/env-config/env-config-2.1.0.buildspec:2.2.0
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
 content/io/avaje/jex/avaje-jex-3.4-RC4.buildspec:3.4
-content/io/cucumber/ci-environment/ci-environment-12.0.0.buildspec:13.0.0
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.33.0.buildspec:7.34.1
+content/io/dropwizard/core/dropwizard-5.0.0.buildspec:5.0.1
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/apache/maven/extensions/maven-build-cache-extension/maven-build-cache-extension-1.2.1.buildspec:1.2.2
-content/org/codehaus/plexus/plexus-xml/plexus-xml-4.1.0.buildspec:4.1.1
-content/org/sentrysoftware/maven/maven-skin-tools/maven-skin-tools-1.5.00.buildspec:1.6.00
-content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.5.00.buildspec:6.6.00
+content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.6.00.buildspec:6.6.01
+content/tools/jackson/jackson-bom/jackson-bom-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/jr/jackson-jr-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/core/jackson-core/jackson-core-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/core/jackson-databind/jackson-databind-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.0.4.buildspec:3.1.0-rc1
+content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.0.4.buildspec:3.1.0-rc1

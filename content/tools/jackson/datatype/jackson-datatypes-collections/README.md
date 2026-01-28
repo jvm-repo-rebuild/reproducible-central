@@ -23,6 +23,7 @@ rebuilding **15 releases** of tools.jackson.datatype:jackson-datatypes-collectio
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.1.0-rc1/pom) | | | |
 | [3.0.4](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.4/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.4.buildspec) | [result](jackson-datatypes-collections-3.0.4.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.4.buildcompare) | | 861K |
 | [3.0.3](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.3/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.3.buildspec) | [result](jackson-datatypes-collections-3.0.3.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.3.buildcompare) | | 861K |
 | [3.0.2](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.2/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.2.buildspec) | [result](jackson-datatypes-collections-3.0.2.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.2.buildcompare) | | 859K |

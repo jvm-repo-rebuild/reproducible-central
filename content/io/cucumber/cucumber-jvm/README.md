@@ -40,6 +40,8 @@ rebuilding **39 releases** of io.cucumber:cucumber-jvm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [7.34.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.34.1/pom) | | | |
+| [7.34.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.34.0/pom) | | | |
 | [7.33.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.33.0/pom) | [mvn jdk17](cucumber-jvm-7.33.0.buildspec) | [result](cucumber-jvm-7.33.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.33.0.buildcompare) | | 5.6M |
 | [7.32.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.32.0/pom) | [mvn jdk17](cucumber-jvm-7.32.0.buildspec) | [result](cucumber-jvm-7.32.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.32.0.buildcompare) | | 5.6M |
 | [7.31.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.31.0/pom) | [mvn jdk17](cucumber-jvm-7.31.0.buildspec) | [result](cucumber-jvm-7.31.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.31.0.buildcompare) | | 5.6M |
