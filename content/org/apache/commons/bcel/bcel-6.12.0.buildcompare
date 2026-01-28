@@ -1,0 +1,9 @@
+version=6.12.0
+ok=7
+ko=0
+ignored=0
+okFiles="bcel-6.12.0.pom bcel-6.12.0.jar bcel-6.12.0-tests.jar bcel-6.12.0-sources.jar bcel-6.12.0-test-sources.jar bcel-6.12.0-cyclonedx.xml bcel-6.12.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
