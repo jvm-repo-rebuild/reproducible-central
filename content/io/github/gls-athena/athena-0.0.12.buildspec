@@ -1,0 +1,18 @@
+groupId=io.github.gls-athena
+artifactId=athena-parent
+display=${groupId}:athena
+version=0.0.12
+
+gitRepo=https://github.com/gls-athena/athena-parent
+gitTag=v$version
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn clean package -Prelease -DskipTests --batch-mode -Dmaven.javadoc.skip=true"
+buildinfo=target/$artifactId-$version.buildinfo
+
+issue=
+PR_merge_max_ko=57
