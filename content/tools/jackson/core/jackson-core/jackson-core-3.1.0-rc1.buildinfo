@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=tools.jackson.core
+artifact-id=jackson-core
+version=3.1.0-rc1
+
+# source information
+source.scm.uri=scm:git:https://github.com/FasterXML/jackson-core.git
+source.scm.tag=jackson-core-3.1.0-rc1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-core-3.1.0-rc1.pom
+outputs.0.length=11518
+outputs.0.checksums.sha512=611e8a9fabb7bd471f290959c98888f89d382927c45037032fda374c4419a501bd0ea005d710f61a090199a0cf0e79961633b880457cb4f48c84e2acd453a488
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-core-3.1.0-rc1.jar
+outputs.1.length=595079
+outputs.1.checksums.sha512=f5120ffbeaa710b477a09d809621e44690f7fb3d565402b639bce8a248880a7c6a8923145d5a5918c35242cc857ccfc63db2e59652693321baf7a7da3917d4da
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-core-3.1.0-rc1-sbom-cyclonedx.xml
+outputs.2.length=5166
+outputs.2.checksums.sha512=d796c2d8e84a4c95e7915518f0eff9c17af56a94aef911239498e463d0fdc3c3203d0251fc1336ceefa61f0a5e450e1c620dd5bbd5e8c42ce8cb7c57d58658fe
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-core-3.1.0-rc1-sbom-cyclonedx.json
+outputs.3.length=5796
+outputs.3.checksums.sha512=5d3864dbad84be8a0e9213acc0b9c668dd6a19404dd3f40a38be89406d6d0c397eaa1666d14f1c15db005bd8e607d16d17328d788a078dcb204703df6c822bd4
+
+outputs.4.groupId=tools.jackson.core
+outputs.4.filename=jackson-core-3.1.0-rc1.module
+outputs.4.length=2423
+outputs.4.checksums.sha512=b2b4ddbf870204bff10cc9d2a55a4b0b7a49d213dbac30f8df7d60b7c997df444f862180cc03ffffe3c7793dd0e3d80a966e3857b67392e8f64ac7a6fa0d3965
+
+outputs.5.groupId=tools.jackson.core
+outputs.5.filename=jackson-core-3.1.0-rc1-sources.jar
+outputs.5.length=481339
+outputs.5.checksums.sha512=bd49ea4fb61570e676af4b37f28fdb82ac6b0f8bce6987e7a12356192e1c64f106353cbf089bce96604eba122f403920555545a878d0a2c645d87c61f085165a
