@@ -50,14 +50,14 @@ Source code: [https://github.com/apache/jackrabbit-oak.git](https://github.com/a
 * [org.apache.jackrabbit:oak-upgrade](https://central.sonatype.com/artifact/org.apache.jackrabbit/oak-upgrade/overview)
 </details>
 
-rebuilding **15 releases** of org.apache.jackrabbit:jackrabbit-oak:
+rebuilding **16 releases** of org.apache.jackrabbit:jackrabbit-oak:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.90.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/oak-parent/1.90.0/pom) | | | |
+| [1.90.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.90.0/pom) | [mvn jdk11](jackrabbit-oak-1.90.0.buildspec) | [result](jackrabbit-oak-1.90.0.buildinfo): [136 :white_check_mark:  6 :warning:](jackrabbit-oak-1.90.0.buildcompare) [:mag:](jackrabbit-oak-1.90.0.diffoscope) | 6 :rotating_light: | 407M |
 | [1.88.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.88.0/pom) | [mvn jdk11 w](jackrabbit-oak-1.88.0.buildspec) | [result](jackrabbit-oak-1.88.0.buildinfo): [142 :white_check_mark: ](jackrabbit-oak-1.88.0.buildcompare) | | 380M |
 | [1.86.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.86.0/pom) | [mvn jdk11 w](jackrabbit-oak-1.86.0.buildspec) | [result](jackrabbit-oak-1.86.0.buildinfo): [140 :white_check_mark:  2 :warning:](jackrabbit-oak-1.86.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 2 :rotating_light: | 363M |
 | [1.84.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.84.0/pom) | [mvn jdk11](jackrabbit-oak-1.84.0.buildspec) | [result](jackrabbit-oak-1.84.0.buildinfo): [141 :white_check_mark:  1 :warning:](jackrabbit-oak-1.84.0.buildcompare) [:mag:](jackrabbit-oak-1.84.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 1 :rotating_light: | 363M |
