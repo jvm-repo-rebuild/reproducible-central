@@ -2,18 +2,7 @@
 # see bin/create-new-release-PRs.sh
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
+content/io/airlift/airbase/airbase-345.buildspec:346
 content/io/avaje/jex/avaje-jex-3.4-RC4.buildspec:3.4
-content/io/cucumber/cucumber-jvm/cucumber-jvm-7.33.0.buildspec:7.34.1
-content/io/dropwizard/core/dropwizard-5.0.0.buildspec:5.0.1
-content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.6.00.buildspec:6.6.01
-content/tools/jackson/jackson-bom/jackson-bom-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/jr/jackson-jr-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/core/jackson-core/jackson-core-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/core/jackson-databind/jackson-databind-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.0.4.buildspec:3.1.0-rc1
-content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.0.4.buildspec:3.1.0-rc1
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.1.buildspec:7.34.2
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.12.1.buildspec:5.13.0
