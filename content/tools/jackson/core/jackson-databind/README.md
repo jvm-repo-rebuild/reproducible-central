@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-databind.git](https://github.com/FasterXML/jackson-databind.git)
 
-rebuilding **15 releases** of tools.jackson.core:jackson-databind:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of tools.jackson.core:jackson-databind:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.1.0-rc1/pom) | | | |
+| [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.1.0-rc1/pom) | [mvn jdk17](jackson-databind-3.1.0-rc1.buildspec) | [result](jackson-databind-3.1.0-rc1.buildinfo): [5 :white_check_mark: ](jackson-databind-3.1.0-rc1.buildcompare) | | 3.2M |
 | [3.0.4](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.0.4/pom) | [mvn jdk17](jackson-databind-3.0.4.buildspec) | [result](jackson-databind-3.0.4.buildinfo): [3 :white_check_mark: ](jackson-databind-3.0.4.buildcompare) | | 3.1M |
 | [3.0.3](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.0.3/pom) | [mvn jdk17](jackson-databind-3.0.3.buildspec) | [result](jackson-databind-3.0.3.buildinfo): [3 :white_check_mark: ](jackson-databind-3.0.3.buildcompare) | | 3.1M |
 | [3.0.2](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.0.2/pom) | [mvn jdk17](jackson-databind-3.0.2.buildspec) | [result](jackson-databind-3.0.2.buildinfo): [3 :white_check_mark: ](jackson-databind-3.0.2.buildcompare) | | 3.1M |
