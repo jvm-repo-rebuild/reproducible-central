@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jackson-databind
+group-id=tools.jackson.core
+artifact-id=jackson-databind
+version=3.1.0-rc1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-databind.git
+source.scm.tag=jackson-databind-3.1.0-rc1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-databind-3.1.0-rc1.pom
+outputs.0.length=18041
+outputs.0.checksums.sha512=abc749aa48ba449d8e5d916d87d00c49f4591821fa8ef8ae6c621687cd7a23045a436a542af08eb7fc03f9197a90ce1de4c1d9bf49263f8f5b5245df1dbabe24
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-databind-3.1.0-rc1.jar
+outputs.1.length=1925233
+outputs.1.checksums.sha512=305f51c13525816a46403714349162659770cb88e45bb65fb1c1a91ec7a5ee78da6d0f8592393d076c3a1906d4d7d55588822ed26bda6971e883e14e8f55ea81
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-databind-3.1.0-rc1-sources.jar
+outputs.2.length=1327316
+outputs.2.checksums.sha512=21a27f8be3c4947c68eff15d8bdc94fc0ca905b25304a818a7c52511aaff2e1ca11645a8539e62f08beb3e7f68d2c51aa267eaa6f1f21d0d17f83014fc39a251
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-databind-3.1.0-rc1-sbom-cyclonedx.xml
+outputs.3.length=7791
+outputs.3.checksums.sha512=bfe1a01a28e65a2f48a0302696735fd2e111fdb1ef8fa09db2b06e88535770b16e9316a898bc6b2079857d35cd9d93d5abab0f41d5f34335451c3d286cfa8b97
+
+outputs.4.groupId=tools.jackson.core
+outputs.4.filename=jackson-databind-3.1.0-rc1-sbom-cyclonedx.json
+outputs.4.length=8677
+outputs.4.checksums.sha512=bef34eb8a998fdb64360fb2e9da2dbc83eded38f7c6f5e1403295b643ec45eb62ed9edc6322e446ab92f6bf35018ca78d7915bffee80345242e8fb1618f8c2a7
+# ignored jackson-databind-3.1.0-rc1.module
