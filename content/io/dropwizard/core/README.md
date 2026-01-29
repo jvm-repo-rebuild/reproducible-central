@@ -46,8 +46,8 @@ Source code: [https://github.com/dropwizard/dropwizard.git](https://github.com/d
 * [io.dropwizard:dropwizard-views-mustache](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views-mustache/overview)
 </details>
 
-rebuilding **104 releases** of io.dropwizard:dropwizard-project:
-- **99** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **105 releases** of io.dropwizard:dropwizard-project:
+- **100** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -86,7 +86,7 @@ rebuilding **104 releases** of io.dropwizard:dropwizard-project:
 | [4.0.0-beta.3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.0-beta.3/pom) | [mvn jdk11](dropwizard-4.0.0-beta.3.buildspec) | [result](dropwizard-project-4.0.0-beta.3.buildinfo): [91 :white_check_mark: ](dropwizard-project-4.0.0-beta.3.buildcompare) | | 1.5M |
 | [4.0.0-beta.2](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.0-beta.2/pom) | [mvn jdk11](dropwizard-4.0.0-beta.2.buildspec) | [result](dropwizard-project-4.0.0-beta.2.buildinfo): [91 :white_check_mark: ](dropwizard-project-4.0.0-beta.2.buildcompare) | | 1.4M |
 | [4.0.0-beta.1](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.0-beta.1/pom) | [mvn jdk11](dropwizard-4.0.0-beta.1.buildspec) | [result](dropwizard-project-4.0.0-beta.1.buildinfo): [91 :white_check_mark: ](dropwizard-project-4.0.0-beta.1.buildcompare) | | 1.4M |
-| [3.0.17](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/3.0.17/pom) | | | |
+| [3.0.17](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/3.0.17/pom) | [mvn jdk11](dropwizard-3.0.17.buildspec) | [result](dropwizard-project-3.0.17.buildinfo): [91 :white_check_mark: ](dropwizard-project-3.0.17.buildcompare) | | 1.5M |
 | [3.0.16](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/3.0.16/pom) | [mvn jdk11](dropwizard-3.0.16.buildspec) | [result](dropwizard-project-3.0.16.buildinfo): [91 :white_check_mark: ](dropwizard-project-3.0.16.buildcompare) | | 1.5M |
 | [3.0.15](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/3.0.15/pom) | [mvn jdk11](dropwizard-3.0.15.buildspec) | [result](dropwizard-project-3.0.15.buildinfo): [91 :white_check_mark: ](dropwizard-project-3.0.15.buildcompare) | | 1.5M |
 | [3.0.14](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/3.0.14/pom) | [mvn jdk11](dropwizard-3.0.14.buildspec) | [result](dropwizard-project-3.0.14.buildinfo): [91 :white_check_mark: ](dropwizard-project-3.0.14.buildcompare) | | 1.5M |
