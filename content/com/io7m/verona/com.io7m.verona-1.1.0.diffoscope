@@ -1,0 +1,166 @@
+1 / 11 target/reference/com.io7m.verona/com.io7m.verona.core-1.1.0.jar com.io7m.verona.core/target/com.io7m.verona.core-1.1.0.jar
+--- target/reference/com.io7m.verona/com.io7m.verona.core-1.1.0.jar
++++ com.io7m.verona.core/target/com.io7m.verona.core-1.1.0.jar
+├── META-INF/MANIFEST.MF
+│ @@ -8,15 +8,15 @@
+│  Bundle-Name: com.io7m.verona.core 1.1.0 - Semantic versioning types (Cor
+│   e)
+│  Bundle-SCM: https://www.github.com/io7m-com/verona
+│  Bundle-SymbolicName: com.io7m.verona.core
+│  Bundle-Vendor: io7m.com
+│  Bundle-Version: 1.1.0
+│  Export-Package: com.io7m.verona.core;version="1.0.0"
+│ -Implementation-Build: aa779159667cc07064b212430f48df8b07f44871
+│ +Implementation-Build: dc135c0124510b19d20fea59625c5e273420a823
+│  Implementation-Title: com.io7m.verona.core
+│  Implementation-Vendor-Id: com.io7m.verona
+│  Implementation-Vendor: io7m.com
+│  Implementation-Version: 1.1.0
+│  Import-Package: java.lang,java.lang.invoke,java.lang.runtime,java.util,j
+│   ava.util.function,java.util.regex,java.util.stream
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+├── com/io7m/verona/core/Version.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -131,38 +131,38 @@
+│ │    #127 = Utf8               compareTo
+│ │    #128 = Utf8               (Lcom/io7m/verona/core/Version;)I
+│ │ -  #129 = InvokeDynamic      #5:#130       // #5:hashCode:(Lcom/io7m/verona/core/Version;)I
+│ │ -  #130 = NameAndType        #131:#128     // hashCode:(Lcom/io7m/verona/core/Version;)I
+│ │ -  #131 = Utf8               hashCode
+...
+│ │ -  #151 = Utf8               compareUnsigned
+│ │ -  #152 = Utf8               (II)I
+│ │ +  #129 = Methodref          #10.#130      // java/util/Objects.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+│ │ +  #130 = NameAndType        #131:#132     // equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+│ │ +  #131 = Utf8               equals
+...
+│ │ +  #151 = NameAndType        #131:#152     // equals:(Lcom/io7m/verona/core/Version;Ljava/lang/Object;)Z
+│ │ +  #152 = Utf8               (Lcom/io7m/verona/core/Version;Ljava/lang/Object;)Z
+│ │    #153 = InvokeDynamic      #6:#154       // #6:compare:()Ljava/util/Comparator;
+│ │    #154 = NameAndType        #123:#155     // compare:()Ljava/util/Comparator;
+...
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,43 +1,42 @@
+│ │    Compiled from "module-info.java"
+│ │  module com.io7m.verona.core@1.1.0
+│ │    minor version: 0
+│ │    major version: 61
+│ │    flags: (0x8000) ACC_MODULE
+│ │ -  this_class: #2                          // "module-info"
+│ │ +  this_class: #1                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 3
+...
+
+2 / 11 target/reference/com.io7m.verona/com.io7m.verona.core-1.1.0-sources.jar com.io7m.verona.core/target/com.io7m.verona.core-1.1.0-sources.jar
+--- target/reference/com.io7m.verona/com.io7m.verona.core-1.1.0-sources.jar
++++ com.io7m.verona.core/target/com.io7m.verona.core-1.1.0-sources.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│ -Implementation-Build: aa779159667cc07064b212430f48df8b07f44871
+│ +Implementation-Build: dc135c0124510b19d20fea59625c5e273420a823
+│  Implementation-Title: com.io7m.verona.core (Sources)
+│  Implementation-Vendor-Id: com.io7m.verona
+│  Implementation-Vendor: io7m.com
+│  Implementation-Version: 1.1.0
+│  Specification-Title: com.io7m.verona.core (Sources)
+│  Specification-Vendor: io7m.com
+│  Specification-Version: 1.1.0
+
+3 / 11 target/reference/com.io7m.verona/com.io7m.verona.core-1.1.0-tests.jar com.io7m.verona.core/target/com.io7m.verona.core-1.1.0-tests.jar
+--- target/reference/com.io7m.verona/com.io7m.verona.core-1.1.0-tests.jar
++++ com.io7m.verona.core/target/com.io7m.verona.core-1.1.0-tests.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+│  Built-By: io7m
+│ -Implementation-Build: aa779159667cc07064b212430f48df8b07f44871
+│ +Implementation-Build: dc135c0124510b19d20fea59625c5e273420a823
+│  Implementation-Title: com.io7m.verona.core (Tests)
+│  Implementation-Vendor: io7m.com
+│  Implementation-Vendor-Id: com.io7m.verona
+│  Implementation-Version: 1.1.0
+│  Specification-Title: com.io7m.verona.core (Tests)
+│  Specification-Vendor: io7m.com
+│  Specification-Version: 1.1.0
+
+4 / 11 target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0.jar com.io7m.verona.tests.arbitraries/target/com.io7m.verona.tests.arbitraries-1.1.0.jar
+--- target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0.jar
++++ com.io7m.verona.tests.arbitraries/target/com.io7m.verona.tests.arbitraries-1.1.0.jar
+├── META-INF/MANIFEST.MF
+│ @@ -9,15 +9,15 @@
+│   ng types (Arbitraries)
+│  Bundle-SCM: https://www.github.com/io7m-com/verona
+│  Bundle-SymbolicName: com.io7m.verona.tests.arbitraries
+│  Bundle-Vendor: io7m.com
+│  Bundle-Version: 1.1.0
+│  Export-Package: com.io7m.verona.tests.arbitraries;version="1.0.0";uses:=
+│   "net.jqwik.api,net.jqwik.api.providers"
+│ -Implementation-Build: aa779159667cc07064b212430f48df8b07f44871
+│ +Implementation-Build: dc135c0124510b19d20fea59625c5e273420a823
+│  Implementation-Title: com.io7m.verona.tests.arbitraries
+│  Implementation-Vendor-Id: com.io7m.verona
+│  Implementation-Vendor: io7m.com
+│  Implementation-Version: 1.1.0
+│  Import-Package: com.io7m.verona.core;version="[1.0,2)",java.lang,java.la
+│   ng.invoke,java.util,java.util.function,java.util.regex,net.jqwik.api,ne
+│   t.jqwik.api.arbitraries,net.jqwik.api.providers
+├── module-info.class
+...
+
+5 / 11 target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0-sources.jar com.io7m.verona.tests.arbitraries/target/com.io7m.verona.tests.arbitraries-1.1.0-sources.jar
+--- target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0-sources.jar
++++ com.io7m.verona.tests.arbitraries/target/com.io7m.verona.tests.arbitraries-1.1.0-sources.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│ -Implementation-Build: aa779159667cc07064b212430f48df8b07f44871
+│ +Implementation-Build: dc135c0124510b19d20fea59625c5e273420a823
+│  Implementation-Title: com.io7m.verona.tests.arbitraries (Sources)
+│  Implementation-Vendor-Id: com.io7m.verona
+│  Implementation-Vendor: io7m.com
+│  Implementation-Version: 1.1.0
+│  Specification-Title: com.io7m.verona.tests.arbitraries (Sources)
+│  Specification-Vendor: io7m.com
+│  Specification-Version: 1.1.0
+
+6 / 11 target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0-cyclonedx.xml com.io7m.verona.tests.arbitraries/target/bom.xml
+--- target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0-cyclonedx.xml
++++ com.io7m.verona.tests.arbitraries/target/bom.xml
+│   --- target/reference/com.io7m.verona/com.io7m.verona.tests.arbitraries-1.1.0-cyclonedx.xml
+├── +++ com.io7m.verona.tests.arbitraries/target/bom.xml
+│ @@ -56,22 +56,22 @@
+│      <component type="library" bom-ref="pkg:maven/com.io7m.verona/com.io7m.verona.core@1.1.0?type=jar">
+│        <group>com.io7m.verona</group>
+│        <name>com.io7m.verona.core</name>
+│        <version>1.1.0</version>
+│        <description>Semantic versioning types (Core)</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">6331c18d879b8cbc37de918da3841937</hash>
+│ -        <hash alg="SHA-1">e110ce5baec6d628d1855f0836e4ce6956f53f62</hash>
+│ -        <hash alg="SHA-256">7c77d2e5e30a44991e0b31a0208c56e7f4398ce31956b2bc0b15841632468df8</hash>
+│ -        <hash alg="SHA-512">974e77ea7819cd6c324578f62efed4e421f4ee2aaa7052f798d7a2702618e77a0d0ee4f73e65fd9b1ed14796f34336633c0f1388ba66b3ec411b0197afc14875</hash>
+│ -        <hash alg="SHA-384">f39b04bbb6192246da0695718366060a3fd7dde24007c8c178711a664dfd0829e4fb91b17b7c22c29d6dabdc1f1620e4</hash>
+│ -        <hash alg="SHA3-384">a53a1c2858b5af41d9df4fad2679b04c2236200ea4ff038503bfd68fbf7e594327670bdd58f99d8a8929f63e74b46d3d</hash>
+│ -        <hash alg="SHA3-256">2aad8dcaa11c70a4c6f34fa25f1b59f566bff577c52d76c52c9020d3e016aefe</hash>
+│ -        <hash alg="SHA3-512">349eed08d98f96ba3507212bd768e7dc338d4069814daf1dc5d2bdc67b86c2edc4d1a7a5401335beb858ff843c97ab1aac42ef94fa165a818e6d165789fedaf5</hash>
+│ +        <hash alg="MD5">cd77e404ea7f689fb159b985bd1f8117</hash>
+│ +        <hash alg="SHA-1">292be1751a84642f1e9faad08c80c4e4797c514c</hash>
+│ +        <hash alg="SHA-256">989c7d984891a7bb1071162ac2248faa335b583833d10d1b8802ebc849ef14e7</hash>
+│ +        <hash alg="SHA-512">98c630f1acbc25c794f90ae814577ec404aab96f573079680db40754b887f11876b621d3e1b8289213ffc729a1edbf8dcb06699834de116f8a947053e4e78c5e</hash>
+│ +        <hash alg="SHA-384">b6ba0deb5da0ff66dd132301ba75281b88f955327df2cb721333575a7025d52e6b2b62b6799014e3d00162cf04df0833</hash>
+│ +        <hash alg="SHA3-384">2440bf317fc16a41c9f23dc54685bb3ac4c7fb8cd5393770fbc3a5d15bf1b11a51759ea75b0c076bbacfa53f868722a6</hash>
+│ +        <hash alg="SHA3-256">f5f96ab6b1630702804ad8f22bcdacc50a94ee0dc64e6e44054c275e9ac56884</hash>
+│ +        <hash alg="SHA3-512">a7a96e37df1761ef5c99bdaa761d51fc74a6faa764ddf8a932b1b138df0f5fc7391454859e2e883c12bd0221908c71e45137bb927953439df20bf73c5923e1cb</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>ISC</id>
+│            <text content-type="plain/text" encoding="base64">SVNDIExpY2Vuc2U6CgpDb3B5cmlnaHQgKGMpIDIwMDQtMjAxMCBieSBJbnRlcm5ldCBTeXN0ZW1zIENvbnNvcnRpdW0sIEluYy4gKCJJU0MiKQpDb3B5cmlnaHQgKGMpIDE5OTUtMjAwMyBieSBJbnRlcm5ldCBTb2Z0d2FyZSBDb25zb3J0aXVtCgpQZXJtaXNzaW9uIHRvIHVzZSwgY29weSwgbW9kaWZ5LCBhbmQvb3IgZGlzdHJpYnV0ZSB0aGlzIHNvZnR3YXJlIGZvciBhbnkgcHVycG9zZSB3aXRoIG9yIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLCBwcm92aWRlZCB0aGF0IHRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIGFwcGVhciBpbiBhbGwgY29waWVzLgoKVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIElTQyBESVNDTEFJTVMgQUxMIFdBUlJBTlRJRVMgV0lUSCBSRUdBUkQgVE8gVEhJUyBTT0ZUV0FSRSBJTkNMVURJTkcgQUxMIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MuIElOIE5PIEVWRU5UIFNIQUxMIElTQyBCRSBMSUFCTEUgRk9SIEFOWSBTUEVDSUFMLCBESVJFQ1QsIElORElSRUNULCBPUiBDT05TRVFVRU5USUFMIERBTUFHRVMgT1IgQU5ZIERBTUFHRVMgV0hBVFNPRVZFUiBSRVNVTFRJTkcgRlJPTSBMT1NTIE9GIFVTRSwgREFUQSBPUiBQUk9GSVRTLCBXSEVUSEVSIElOIEFOIEFDVElPTiBPRiBDT05UUkFDVCwgTkVHTElHRU5DRSBPUiBPVEhFUiBUT1JUSU9VUyBBQ1RJT04sIEFSSVNJTkcgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgVVNFIE9SIFBFUkZPUk1BTkNFIE9GIFRISVMgU09GVFdBUkUuCg==</text>
+│            <url>https://www.isc.org/licenses/</url>
+│          </license>
+
+...
