@@ -13,6 +13,7 @@ rebuilding **7 releases** of commons-codec:commons-codec:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.21.0](https://central.sonatype.com/artifact/commons-codec/commons-codec/1.21.0/pom) | | | |
 | [1.20.0](https://central.sonatype.com/artifact/commons-codec/commons-codec/1.20.0/pom) | [mvn jdk25](commons-codec-1.20.0.buildspec) | [result](commons-codec-1.20.0.buildinfo): [7 :white_check_mark: ](commons-codec-1.20.0.buildcompare) | | 1.5M |
 | [1.19.0](https://central.sonatype.com/artifact/commons-codec/commons-codec/1.19.0/pom) | [mvn jdk21](commons-codec-1.19.0.buildspec) | [result](commons-codec-1.19.0.buildinfo): [7 :white_check_mark: ](commons-codec-1.19.0.buildcompare) | | 1.4M |
 | [1.18.0](https://central.sonatype.com/artifact/commons-codec/commons-codec/1.18.0/pom) | [mvn jdk21](commons-codec-1.18.0.buildspec) | [result](commons-codec-1.18.0.buildinfo): [7 :white_check_mark: ](commons-codec-1.18.0.buildcompare) | | 1.4M |
