@@ -1,0 +1,50 @@
+# empty directory in source
+1 / 12 target/reference/org.eclipse.jetty/jetty-deploy-12.0.32-sources.jar jetty-core/jetty-deploy/target/jetty-deploy-12.0.32-sources.jar
+--- target/reference/org.eclipse.jetty/jetty-deploy-12.0.32-sources.jar
++++ jetty-core/jetty-deploy/target/jetty-deploy-12.0.32-sources.jar
+├── zipinfo {}
+│ @@ -1,19 +1,18 @@
+│ -Zip file size: 37454 bytes, number of entries: 41
+│ +Zip file size: 37300 bytes, number of entries: 40
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/
+│  -rw-r--r--  2.0 unx      338 b- defN 23-Jun-05 23:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/deploy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/deploy/bindings/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/deploy/graph/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/deploy/jmx/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/deploy/providers/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/deploy/providers/jmx/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/
+│ @@ -36,8 +35,8 @@
+│  -rw-r--r--  2.0 unx     2170 b- defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/jetty-deploy/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/jetty-deploy/pom.properties
+│ -41 files, 109171 bytes uncompressed, 31038 bytes compressed:  71.6%
+│ +40 files, 109171 bytes uncompressed, 31038 bytes compressed:  71.6%
+
+# not using jakarta.servlet-api-6.0.0.jar from Maven Central...
+2 / 12 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.32.tar.gz jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.32.tar.gz
+--- target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.32.tar.gz
++++ jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.32.tar.gz
+├── jetty-ee10-home-12.0.32.tar
+│ ├── file list
+│ │ @@ -39,15 +39,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    10957 2023-06-05 23:12:49.000000 lib/jakarta.inject-api-2.0.1.MR.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    25287 2023-06-05 23:12:49.000000 lib/jakarta.interceptor-api-2.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   323539 2023-06-05 23:12:49.000000 lib/jakarta.servlet-api-6.0.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   347613 2023-06-05 23:12:49.000000 lib/jakarta.servlet-api-6.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    28607 2023-06-05 23:12:49.000000 lib/jakarta.transaction-api-2.0.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    81982 2023-06-05 23:12:49.000000 lib/jetty-ee10-annotations-12.0.32.jar
+
+3 / 12 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.32.zip jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.32.zip
+4 / 12 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.32-sources.tar.gz jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.32-sources.tar.gz
+5 / 12 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.32-sources.zip jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.32-sources.zip
+
+6 / 12 target/reference/org.eclipse.jetty/jetty-home-12.0.32-cyclonedx.xml jetty-home/target/jetty-home-12.0.32-cyclonedx.xml
+7 / 12 target/reference/org.eclipse.jetty/jetty-home-12.0.32-cyclonedx.json jetty-home/target/jetty-home-12.0.32-cyclonedx.json
+
+8 / 12 target/reference/org.eclipse.jetty/jetty-home-12.0.32.tar.gz jetty-home/target/jetty-home-12.0.32.tar.gz
+...
