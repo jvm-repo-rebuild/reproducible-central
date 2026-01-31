@@ -28,6 +28,7 @@ rebuilding **14 releases** of org.jpmml:jpmml-model:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.7/pom) | | | |
 | [1.7.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.6/pom) | [mvn jdk11](jpmml-model-1.7.6.buildspec) | [result](jpmml-model-1.7.6.buildinfo): [9 :white_check_mark:  9 :warning:](jpmml-model-1.7.6.buildcompare) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | 8 :recycle: 1 :rotating_light: | 1.5M |
 | [1.7.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.5/pom) | [mvn jdk11](jpmml-model-1.7.5.buildspec) | [result](jpmml-model-1.7.5.buildinfo): [9 :white_check_mark:  9 :warning:](jpmml-model-1.7.5.buildcompare) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | 8 :recycle: 1 :rotating_light: | 1.5M |
 | [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.4/pom) | [mvn jdk11](jpmml-model-1.7.4.buildspec) | [result](jpmml-model-1.7.4.buildinfo): [9 :white_check_mark:  9 :warning:](jpmml-model-1.7.4.buildcompare) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | 9 :recycle: | 1.5M |
