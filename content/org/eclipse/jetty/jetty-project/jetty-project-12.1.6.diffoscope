@@ -1,0 +1,18 @@
+# not using jakarta.servlet-api-6.0.0.jar from Maven Central...
+1 / 8 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.1.6.tar.gz jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.1.6.tar.gz
+--- target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.1.6.tar.gz
++++ jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.1.6.tar.gz
+├── jetty-ee10-home-12.1.6.tar
+│ ├── file list
+│ │ @@ -40,15 +40,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    10681 2026-01-27 18:52:28.000000 lib/jakarta.inject-api-2.0.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    25287 2026-01-27 18:52:28.000000 lib/jakarta.interceptor-api-2.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   323539 2026-01-27 18:52:28.000000 lib/jakarta.servlet-api-6.0.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   347613 2026-01-27 18:52:28.000000 lib/jakarta.servlet-api-6.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    28607 2026-01-27 18:52:28.000000 lib/jakarta.transaction-api-2.0.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    66805 2026-01-27 18:52:28.000000 lib/jetty-ee10-annotations-12.1.6.jar
+
+# same issue
+2 / 8 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.1.6.zip jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.1.6.zip
+3 / 8 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.1.6-sources.tar.gz jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.1.6-sources.tar.gz
+...
