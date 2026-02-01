@@ -13,4 +13,5 @@ newline=lf
 command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=java/target/${artifactId}-${version}.buildinfo
 
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
