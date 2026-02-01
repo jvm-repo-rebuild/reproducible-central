@@ -1,0 +1,57 @@
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>messages</artifactId>
+            <version>[32.0.0,33.0.0)</version>
+        </dependency>
+1 / 1 target/reference/io.cucumber/usage-formatter-0.2.0.jar target/usage-formatter-0.2.0.jar
+--- target/reference/io.cucumber/usage-formatter-0.2.0.jar
++++ target/usage-formatter-0.2.0.jar
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,9 +1,9 @@
+│ │ -Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_tnnh1bj5_target/tmpsvme08_5_ZipContainer/module-info.class
+│ │ -  SHA-256 checksum 25f36753b509f0707a0d7632d84ef3a772c1f1ccb6ce2489e844917f7b654ac7
+│ │ +Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_tnnh1bj5_target/tmp1jca_lbi_ZipContainer/module-info.class
+│ │ +  SHA-256 checksum e9f12eb7505defb547fa659581e19f1d90ee3727d73d25e879087e9c327a7fa4
+│ │    Compiled from "module-info.java"
+│ │  module io.cucumber.usageformatter@0.2.0
+│ │    minor version: 0
+│ │    major version: 61
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #1                          // "module-info"
+│ │    super_class: #0
+│ │ @@ -19,15 +19,15 @@
+│ │     #8 = Utf8               0.2.0
+│ │     #9 = Module             #10            // "java.base"
+│ │    #10 = Utf8               java.base
+│ │    #11 = Module             #12            // "org.jspecify"
+│ │    #12 = Utf8               org.jspecify
+│ │    #13 = Module             #14            // "io.cucumber.messages"
+│ │    #14 = Utf8               io.cucumber.messages
+│ │ -  #15 = Utf8               32.0.0
+│ │ +  #15 = Utf8               32.0.1
+│ │    #16 = Module             #17            // "io.cucumber.query"
+│ │    #17 = Utf8               io.cucumber.query
+│ │    #18 = Utf8               15.0.1
+│ │    #19 = Package            #20            // io/cucumber/usageformatter
+│ │    #20 = Utf8               io/cucumber/usageformatter
+│ │    #21 = Utf8               ModulePackages
+│ │  {
+│ │ @@ -38,15 +38,15 @@
+│ │    #8                                      // 0.2.0
+│ │    4                                       // requires
+│ │      #9,8000                                 // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #11,0                                   // "org.jspecify"
+│ │      #0
+│ │      #13,20                                  // "io.cucumber.messages" ACC_TRANSITIVE
+│ │ -    #15                                     // 32.0.0
+│ │ +    #15                                     // 32.0.1
+│ │      #16,0                                   // "io.cucumber.query"
+│ │      #18                                     // 15.0.1
+│ │    1                                       // exports
+│ │      #19,0                                   // io/cucumber/usageformatter
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    0                                       // provides
+
