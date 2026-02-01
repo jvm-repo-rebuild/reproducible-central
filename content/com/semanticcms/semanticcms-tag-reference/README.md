@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/ao-apps/semanticcms-tag-reference.git](https://github.com/ao-apps/semanticcms-tag-reference.git)
 
-rebuilding **2 releases** of com.semanticcms:semanticcms-tag-reference:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of com.semanticcms:semanticcms-tag-reference:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-tag-reference/2.0.0/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-tag-reference/2.0.0/pom) | [mvn jdk21](semanticcms-tag-reference-2.0.0.buildspec) | [result](semanticcms-tag-reference-2.0.0.buildinfo): [3 :white_check_mark: ](semanticcms-tag-reference-2.0.0.buildcompare) | | 109K |
 | [1.10.2](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-tag-reference/1.10.2/pom) | [mvn jdk17](semanticcms-tag-reference-1.10.2.buildspec) | [result](semanticcms-tag-reference-1.10.2.buildinfo): [3 :white_check_mark: ](semanticcms-tag-reference-1.10.2.buildcompare) | | 112K |
 | [1.10.1](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-tag-reference/1.10.1/pom) | [mvn jdk17](semanticcms-tag-reference-1.10.1.buildspec) | [result](semanticcms-tag-reference-1.10.1.buildinfo): [2 :white_check_mark:  1 :warning:](semanticcms-tag-reference-1.10.1.buildcompare) | - | 111K |
 
