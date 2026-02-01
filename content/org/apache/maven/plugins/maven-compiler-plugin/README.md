@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/apache/maven-compiler-plugin.git](https://github.com/apache/maven-compiler-plugin.git)
 
-rebuilding **13 releases** of org.apache.maven.plugins:maven-compiler-plugin:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of org.apache.maven.plugins:maven-compiler-plugin:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -17,7 +17,7 @@ rebuilding **13 releases** of org.apache.maven.plugins:maven-compiler-plugin:
 | [4.0.0-beta-3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/4.0.0-beta-3/pom) | [mvn jdk21](maven-compiler-plugin-4.0.0-beta-3.buildspec) | [result](maven-compiler-plugin-4.0.0-beta-3.buildinfo): [7 :white_check_mark: ](maven-compiler-plugin-4.0.0-beta-3.buildcompare) | | 1.3M |
 | [4.0.0-beta-2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/4.0.0-beta-2/pom) | [mvn jdk21](maven-compiler-plugin-4.0.0-beta-2.buildspec) | [result](maven-compiler-plugin-4.0.0-beta-2.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-4.0.0-beta-2.buildcompare) | | 1.1M |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/4.0.0-beta-1/pom) | [mvn jdk21](maven-compiler-plugin-4.0.0-beta-1.buildspec) | [result](maven-compiler-plugin-4.0.0-beta-1.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-4.0.0-beta-1.buildcompare) | | 1.1M |
-| [3.15.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.15.0/pom) | | | |
+| [3.15.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.15.0/pom) | [mvn jdk25](maven-compiler-plugin-3.15.0.buildspec) | [result](maven-compiler-plugin-3.15.0.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-3.15.0.buildcompare) | | 1.2M |
 | [3.14.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.14.1/pom) | [mvn jdk17](maven-compiler-plugin-3.14.1.buildspec) | [result](maven-compiler-plugin-3.14.1.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-3.14.1.buildcompare) | | 1.2M |
 | [3.14.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.14.0/pom) | [mvn jdk21](maven-compiler-plugin-3.14.0.buildspec) | [result](maven-compiler-plugin-3.14.0.buildinfo): [5 :white_check_mark:  1 :warning:](maven-compiler-plugin-3.14.0.buildcompare) [:mag:](maven-compiler-plugin-3.14.0.diffoscope) | - | 1.1M |
 | [3.13.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.13.0/pom) | [mvn jdk21](maven-compiler-plugin-3.13.0.buildspec) | [result](maven-compiler-plugin-3.13.0.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-3.13.0.buildcompare) | | 1.2M |
