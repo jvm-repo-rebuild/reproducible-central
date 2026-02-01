@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS Parent Book
+group-id=com.semanticcms
+artifact-id=semanticcms-parent-book
+version=1.21.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-parent.git
+source.scm.tag=semanticcms-parent-book-1.21.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-parent-book-1.21.0.pom
+outputs.0.length=14423
+outputs.0.checksums.sha512=1693f2eb220581c3c4ba63d12183c8c6044c6826dbe337ea259989d6993cce4109be84a1605397d4c7823528af422d8196a441a3a644654afdf0303b4c6a4d99
+
+outputs.1.groupId=com.semanticcms
+outputs.1.filename=semanticcms-parent-book-1.21.0.jar
+outputs.1.length=353006
+outputs.1.checksums.sha512=261574a31f1822a39d8b9f1e45e73ffe643992f6695a6672324b5a0315f377f3ca9ff0a1aacb20dc04d35caabca20a15d99d68ac73db675a7f52969669467bc5
+
+outputs.2.groupId=com.semanticcms
+outputs.2.filename=semanticcms-parent-book-1.21.0-sources.jar
+outputs.2.length=353429
+outputs.2.checksums.sha512=e13e923a25a3b44079e431b72e4eb7353fc81a0cf4383bb4f4613c21487d9f972d23de8f221c938fe90ffb46efda1f4896b6d5a272bccab6864f781a50ed3416
