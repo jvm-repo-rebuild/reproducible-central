@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/eclipse-daanse/org.eclipse.daanse.pom](https://github.com/eclipse-daanse/org.eclipse.daanse.pom)
 
-rebuilding **6 releases** of org.eclipse.daanse:org.eclipse.daanse.pom.parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.eclipse.daanse:org.eclipse.daanse.pom.parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.0.7](https://central.sonatype.com/artifact/org.eclipse.daanse/org.eclipse.daanse.pom.parent/0.0.7/pom) | | | |
+| [0.0.7](https://central.sonatype.com/artifact/org.eclipse.daanse/org.eclipse.daanse.pom.parent/0.0.7/pom) | [mvn jdk17](org.eclipse.daanse.pom.parent-0.0.7.buildspec) | [result](org.eclipse.daanse.pom.parent-0.0.7.buildinfo): [1 :white_check_mark: ](org.eclipse.daanse.pom.parent-0.0.7.buildcompare) | | 36K |
 | [0.0.6](https://central.sonatype.com/artifact/org.eclipse.daanse/org.eclipse.daanse.pom.parent/0.0.6/pom) | [mvn jdk17](org.eclipse.daanse.pom.parent-0.0.6.buildspec) | [result](org.eclipse.daanse.pom.parent-0.0.6.buildinfo): [1 :white_check_mark: ](org.eclipse.daanse.pom.parent-0.0.6.buildcompare) | | 36K |
 | [0.0.5](https://central.sonatype.com/artifact/org.eclipse.daanse/org.eclipse.daanse.pom.parent/0.0.5/pom) | [mvn jdk17](org.eclipse.daanse.pom.parent-0.0.5.buildspec) | [result](org.eclipse.daanse.pom.parent-0.0.5.buildinfo): [1 :white_check_mark: ](org.eclipse.daanse.pom.parent-0.0.5.buildcompare) | | 35K |
 | [0.0.4](https://central.sonatype.com/artifact/org.eclipse.daanse/org.eclipse.daanse.pom.parent/0.0.4/pom) | [mvn jdk17](org.eclipse.daanse.pom.parent-0.0.4.buildspec) | [result](org.eclipse.daanse.pom.parent-0.0.4.buildinfo): [1 :white_check_mark: ](org.eclipse.daanse.pom.parent-0.0.4.buildcompare) | | 33K |
