@@ -53,17 +53,17 @@ Source code: [https://github.com/eclipse-ee4j/glassfish-grizzly.git](https://git
 * [org.glassfish.grizzly:tls-sni](https://central.sonatype.com/artifact/org.glassfish.grizzly/tls-sni/overview)
 </details>
 
-rebuilding **2 releases** of org.glassfish.grizzly:grizzly-project:
+rebuilding **3 releases** of org.glassfish.grizzly:grizzly-project:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [5.0.0](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.0/pom) | | | |
 | [4.1.0-M1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.1.0-M1/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.0.2/pom) | [mvn jdk17](grizzly-4.0.2.buildspec) | [result](grizzly-project-4.0.2.buildinfo): [120 :white_check_mark: ](grizzly-project-4.0.2.buildcompare) | | 30M |
-| [4.0.1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.0.1/pom) | | | |
+| [4.0.1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.0.1/pom) | [mvn jdk17](grizzly-4.0.1.buildspec) | [result](grizzly-project-4.0.1.buildinfo): [96 :white_check_mark:  24 :warning:](grizzly-project-4.0.1.buildcompare) | 24 :rotating_light: | 30M |
 | [4.0.0](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.0.0/pom) | [mvn jdk11](grizzly-4.0.0.buildspec) | [result](grizzly-project-4.0.0.buildinfo): [42 :white_check_mark:  78 :warning:](grizzly-project-4.0.0.buildcompare) | 32 :recycle: 46 :rotating_light: | 30M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
