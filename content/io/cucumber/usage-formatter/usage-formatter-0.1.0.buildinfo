@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Usage Formatter
+group-id=io.cucumber
+artifact-id=usage-formatter
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/usage-formatter.git
+source.scm.tag=v0.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=usage-formatter-0.1.0.pom
+outputs.0.length=3476
+outputs.0.checksums.sha512=62ce617a5c5a45fb21b430b27840229fd07980f5f34c7c308c4da2fcce0662d13cfd36225347d058bf53f63b70362bbd8b9199da3d77728e514868bbdd79bc1c
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=usage-formatter-0.1.0.jar
+outputs.1.length=27728
+outputs.1.checksums.sha512=34e0903e394728577571e3d51ceaf76eaa815569470362a7814b45c0278851369e7b2c43c9c78d9fb7ac8cdacd2ce69ddcf38381dd1d29ad7a8d41822523043c
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=usage-formatter-0.1.0-sources.jar
+outputs.2.length=11306
+outputs.2.checksums.sha512=af1c6f6da44d03bba91fee8269b05d1055e2dd0caaaa81973c283926800914396e45c796ffe25f4cef941160830503b5840c90b3e1f69dbe22b099cd5c17485e
