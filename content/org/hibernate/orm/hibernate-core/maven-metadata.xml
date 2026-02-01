@@ -152,6 +152,7 @@
       <version>6.6.39.Final</version>
       <version>6.6.40.Final</version>
       <version>6.6.41.Final</version>
+      <version>6.6.42.Final</version>
       <version>7.0.0.Alpha1</version>
       <version>7.0.0.Alpha2</version>
       <version>7.0.0.Alpha3</version>
@@ -190,6 +191,7 @@
       <version>7.1.12.Final</version>
       <version>7.1.13.Final</version>
       <version>7.1.14.Final</version>
+      <version>7.1.15.Final</version>
       <version>7.2.0.CR1</version>
       <version>7.2.0.CR2</version>
       <version>7.2.0.CR3</version>
@@ -197,8 +199,9 @@
       <version>7.2.0.Final</version>
       <version>7.2.1.Final</version>
       <version>7.2.2.Final</version>
+      <version>7.2.3.Final</version>
       <version>7.3.0.CR1</version>
     </versions>
-    <lastUpdated>20260127083735</lastUpdated>
+    <lastUpdated>20260201002754</lastUpdated>
   </versioning>
 </metadata>

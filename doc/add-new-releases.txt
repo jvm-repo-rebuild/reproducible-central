@@ -1,8 +1,13 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.7
-content/com/semanticcms/semanticcms-parent/semanticcms-parent-1.20.3.buildspec:2.0.0
-content/io/airlift/airbase/airbase-346.buildspec:347
-content/io/cucumber/pretty-formatter/pretty-formatter-2.4.1.buildspec:3.0.0
-content/org/apache/commons/commons-build-plugin/commons-build-plugin-1.16.0.buildspec:1.16.1
-content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.9.1.buildspec:1.9.2
+content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.5.0.buildspec:3.6.0
+content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
+content/com/semanticcms/semanticcms-parent-book/semanticcms-parent-book-1.20.3.buildspec:2.0.0
+content/com/semanticcms/semanticcms-tag-reference/semanticcms-tag-reference-1.10.2.buildspec:2.0.0
+content/com/semanticcms/semanticcms-tag-reference-book/semanticcms-tag-reference-book-1.10.2.buildspec:2.0.0
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-5.buildspec:11.3.1-beta-6
+content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-RC1
+content/io/avaje/prisms/avaje-prisms-2.0.buildspec:2.1-RC1
+content/org/apache/maven/plugins/maven-compiler-plugin/maven-compiler-plugin-4.0.0-beta-3.buildspec:4.0.0-beta-4
+content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.6.buildspec:0.0.7
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.1.Final.buildspec:4.2.2.Final
