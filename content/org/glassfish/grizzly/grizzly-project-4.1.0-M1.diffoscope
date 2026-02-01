@@ -1,0 +1,89 @@
+1 /        2 target/reference/org.glassfish.grizzly/grizzly-project-4.1.0-M1-cyclonedx.xml target/bom.xml
+--- target/reference/org.glassfish.grizzly/grizzly-project-4.1.0-M1-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/org.glassfish.grizzly/grizzly-project-4.1.0-M1-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -77,14 +77,24 @@
+│      <component type="library" bom-ref="pkg:maven/org.glassfish.grizzly/grizzly-framework@4.1.0-M1?type=jar">
+│        <publisher>Oracle Corporation</publisher>
+│        <group>org.glassfish.grizzly</group>
+│        <name>grizzly-framework</name>
+│        <version>4.1.0-M1</version>
+│        <description>Grizzly Bill of Materials (BOM)</description>
+│        <scope>required</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">99324903b616a06ab314c83c612cd674</hash>
+│ +        <hash alg="SHA-1">68cdafefed3d6427bd071a056fafe917ef77a0db</hash>
+│ +        <hash alg="SHA-256">cf056fb13de072e48cc964a969c613b1975a92547e15eba24ed7bee4ab9662bf</hash>
+│ +        <hash alg="SHA-512">653b5bb5f9b60d882b3d95fe0ae5f455ba81fdbda1a9e2b89e500b50d27f1fb7744596ad42188899a2c7691f004eff6994f0f22e32875ddfeae0dff03ff708a7</hash>
+│ +        <hash alg="SHA-384">913517ffe342ce77ecd31bc1156825c649634cba1cee5cfa0bb7116e4ef554c8ec0459500d9b07468395408145a1afd6</hash>
+│ +        <hash alg="SHA3-384">f4722bca20328b4932cb33e26911cf72844321cbf66517fa71f5b6dff0dcf20995a05c267e49ce92c98baa432ee94f61</hash>
+│ +        <hash alg="SHA3-256">f3a9e471654878992d913429159550ab312842d56a6f339ef094a426e575a182</hash>
+│ +        <hash alg="SHA3-512">17ac0cd4e611b32664ce1abfe65a8d1724ba30cf65d8aab92b530a0c98b4cb5cea47962ccfedb4e9d5f002a252cc09b8988a81b75418284e210f0e1decd918b7</hash>
+│ +      </hashes>
+│        <licenses>
+│          <license>
+│            <id>EPL-2.0</id>
+│            <url>https://www.eclipse.org/legal/epl-2.0</url>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.glassfish.grizzly/grizzly-framework@4.1.0-M1?type=jar</purl>
+│ @@ -115,14 +125,24 @@
+│      <component type="library" bom-ref="pkg:maven/org.glassfish.grizzly/grizzly-http@4.1.0-M1?type=jar">
+│        <publisher>Oracle Corporation</publisher>
+│        <group>org.glassfish.grizzly</group>
+│        <name>grizzly-http</name>
+│        <version>4.1.0-M1</version>
+│        <description>Grizzly Bill of Materials (BOM)</description>
+│        <scope>required</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">315e2940b07df5ee7bd5fb789c8109ea</hash>
+│ +        <hash alg="SHA-1">82f7084b7355b017881457cd303bab7c106cb068</hash>
+│ +        <hash alg="SHA-256">3a3299527eb5ef7ece591b569ac1bae670210eaf91352faff54eca48cf489f81</hash>
+│ +        <hash alg="SHA-512">51fe6e2459f86cdecce8a04976ffab582dd8be3db0797e463105e1763f129603cb5373ed185e6694cfa30c3c1b23e1216824cb9510206f5252f9f75b5c1d6015</hash>
+│ +        <hash alg="SHA-384">35644c4754c697edb3265b915297df3d0f934c8c8bcd98b8bc4c0e7bd76ac06a43d6cb8e00d562a5200928276d96aa74</hash>
+│ +        <hash alg="SHA3-384">cbea1ad64e63dbd0f7cc221d1ded7777ad95c2667fb1b39d04a8b35f0ec9a04d73bfe544e2c22a645833e23329f3eaa2</hash>
+│ +        <hash alg="SHA3-256">352d1aa355380526f12d0bda9036d76cff2d2e1480b8f7f224b0deec49239479</hash>
+│ +        <hash alg="SHA3-512">a12204c03e5becd4c079db4115157970b2f3894dbb48bba0706c48c0dc5683a37c0bf64269281360e00352503f658a0c4c7fdab1cea3ef4d1a9b75fa0d3d4497</hash>
+│ +      </hashes>
+│        <licenses>
+│          <license>
+│            <id>EPL-2.0</id>
+│            <url>https://www.eclipse.org/legal/epl-2.0</url>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.glassfish.grizzly/grizzly-http@4.1.0-M1?type=jar</purl>
+...
+
+2 /        2 target/reference/org.glassfish.grizzly/grizzly-project-4.1.0-M1-cyclonedx.json target/bom.json
+--- target/reference/org.glassfish.grizzly/grizzly-project-4.1.0-M1-cyclonedx.json
++++ target/bom.json
+├── Pretty-printed
+│ @@ -47,14 +47,48 @@
+│                  },
+│                  {
+│                      "type": "vcs",
+│                      "url": "https://github.com/eclipse-ee4j/grizzly/grizzly-framework"
+│                  }
+│              ],
+│              "group": "org.glassfish.grizzly",
+│ +            "hashes": [
+│ +                {
+│ +                    "alg": "MD5",
+│ +                    "content": "99324903b616a06ab314c83c612cd674"
+│ +                },
+│ +                {
+│ +                    "alg": "SHA-1",
+│ +                    "content": "68cdafefed3d6427bd071a056fafe917ef77a0db"
+│ +                },
+│ +                {
+│ +                    "alg": "SHA-256",
+│ +                    "content": "cf056fb13de072e48cc964a969c613b1975a92547e15eba24ed7bee4ab9662bf"
+│ +                },
+│ +                {
+│ +                    "alg": "SHA-512",
+│ +                    "content": "653b5bb5f9b60d882b3d95fe0ae5f455ba81fdbda1a9e2b89e500b50d27f1fb7744596ad42188899a2c7691f004eff6994f0f22e32875ddfeae0dff03ff708a7"
+│ +                },
+│ +                {
+│ +                    "alg": "SHA-384",
+│ +                    "content": "913517ffe342ce77ecd31bc1156825c649634cba1cee5cfa0bb7116e4ef554c8ec0459500d9b07468395408145a1afd6"
