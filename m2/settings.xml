@@ -85,6 +85,11 @@
 
   <mirrors>
     <mirror>
+      <id>central-portal-snapshots</id>
+      <mirrorOf>central-portal-snapshots</mirrorOf>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+    </mirror>
+    <mirror>
       <id>central</id>
       <mirrorOf>central</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
