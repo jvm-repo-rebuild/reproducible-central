@@ -17,13 +17,13 @@ Source code: [https://github.com/maveniverse/ipfs.git](https://github.com/maveni
 </details>
 
 rebuilding **8 releases** of eu.maveniverse.maven.ipfs:ipfs:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.2.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.3/pom) | [mvn jdk21](ipfs-0.2.3.buildspec) | :x: | |
-| [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.2/pom) | [mvn jdk21](ipfs-0.2.2.buildspec) | :x: | |
+| [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.2/pom) | [mvn jdk21](ipfs-0.2.2.buildspec) | [result](ipfs-0.2.2.buildinfo): [10 :white_check_mark: ](ipfs-0.2.2.buildcompare) | | 62K |
 | [0.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.1/pom) | [mvn jdk21](ipfs-0.2.1.buildspec) | [result](ipfs-0.2.1.buildinfo): [10 :white_check_mark: ](ipfs-0.2.1.buildcompare) | | 62K |
 | [0.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.0/pom) | [mvn jdk21](ipfs-0.2.0.buildspec) | [result](ipfs-0.2.0.buildinfo): [10 :white_check_mark: ](ipfs-0.2.0.buildcompare) | | 62K |
 | [0.1.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.1.3/pom) | [mvn jdk21](ipfs-0.1.3.buildspec) | [result](ipfs-0.1.3.buildinfo): [10 :white_check_mark: ](ipfs-0.1.3.buildcompare) | | 62K |
