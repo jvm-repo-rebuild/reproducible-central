@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS Parent
+group-id=com.semanticcms
+artifact-id=semanticcms-parent
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-parent.git
+source.scm.tag=semanticcms-parent-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-parent-2.0.1.pom
+outputs.0.length=4597
+outputs.0.checksums.sha512=43e68ed0021dd2faeba7690458ae9133b43b02de83f3ccd9c779c340bab7604f399bff11d094ddc1a9caaab97599c9d556102b66750411d8c75f173305829ccd
