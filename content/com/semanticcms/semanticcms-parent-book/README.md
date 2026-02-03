@@ -13,7 +13,9 @@ rebuilding **11 releases** of com.semanticcms:semanticcms-parent-book:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.1](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/2.0.1/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/2.0.0/pom) | [mvn jdk21](semanticcms-parent-book-2.0.0.buildspec) | [result](semanticcms-parent-book-2.0.0.buildinfo): [3 :white_check_mark: ](semanticcms-parent-book-2.0.0.buildcompare) | | 703K |
+| [1.22.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/1.22.0/pom) | | | |
 | [1.21.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/1.21.0/pom) | [mvn jdk21](semanticcms-parent-book-1.21.0.buildspec) | [result](semanticcms-parent-book-1.21.0.buildinfo): [3 :white_check_mark: ](semanticcms-parent-book-1.21.0.buildcompare) | | 704K |
 | [1.20.3](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/1.20.3/pom) | [mvn jdk17](semanticcms-parent-book-1.20.3.buildspec) | [result](semanticcms-parent-book-1.20.3.buildinfo): [3 :white_check_mark: ](semanticcms-parent-book-1.20.3.buildcompare) | | 703K |
 | [1.20.2](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/1.20.2/pom) | [mvn jdk17](semanticcms-parent-book-1.20.2.buildspec) | [result](semanticcms-parent-book-1.20.2.buildinfo): [3 :white_check_mark: ](semanticcms-parent-book-1.20.2.buildcompare) | | 702K |

@@ -22,6 +22,7 @@ rebuilding **8 releases** of eu.maveniverse.maven.ipfs:ipfs:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.3.0/pom) | | | |
 | [0.2.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.3/pom) | [mvn jdk21](ipfs-0.2.3.buildspec) | [result](ipfs-0.2.3.buildinfo): [10 :white_check_mark: ](ipfs-0.2.3.buildcompare) | | 62K |
 | [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.2/pom) | [mvn jdk21](ipfs-0.2.2.buildspec) | [result](ipfs-0.2.2.buildinfo): [10 :white_check_mark: ](ipfs-0.2.2.buildcompare) | | 62K |
 | [0.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.ipfs/ipfs/0.2.1/pom) | [mvn jdk21](ipfs-0.2.1.buildspec) | [result](ipfs-0.2.1.buildinfo): [10 :white_check_mark: ](ipfs-0.2.1.buildcompare) | | 62K |
