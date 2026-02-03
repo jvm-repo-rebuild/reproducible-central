@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Converter
+group-id=org.jpmml
+artifact-id=jpmml-converter
+version=1.6.9
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-converter.git
+source.scm.tag=1.6.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=pmml-converter-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-converter
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-converter-1.6.9.pom
+outputs.0.0.length=3990
+outputs.0.0.checksums.sha512=cba3bb524753f8865ca03e91558f79add020bf43b6a634194bc023185b0baeb9367c7bb08bb325e4ae8d88d26a32908689ccde2702ad7c7da67ab1e77f7ae12b
+
+outputs.1.coordinates=org.jpmml:pmml-converter
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-converter-1.6.9.pom
+outputs.1.0.length=1999
+outputs.1.0.checksums.sha512=f4d27bcd23ad5e0d99ba07fab769ad336dfa44e21dfea3cc083ceb6a262dc589979b1daddd12e4a143d1002a73e94a415042ae8818b8a3ab9b222cf6b9e6c584
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-converter-1.6.9.jar
+outputs.1.1.length=223315
+outputs.1.1.checksums.sha512=77f3b0d0db066ba82256c28da4394d36035c83f52f36ed729f1dcd0a4a287833052f6096eb8bd6992fa28526466cfb39f4bbf84dea6b300d34295541deb413b1
+
+outputs.2.coordinates=org.jpmml:pmml-converter-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-converter-testing-1.6.9.pom
+outputs.2.0.length=1187
+outputs.2.0.checksums.sha512=2230083789677f3721e2259d4e38abd0f3de275e6295fa9efa3c2d35d3526f058398af9338d8191a7f49a2762b3253a57cfc3647369b9b56b37dd96e1a9bf45a
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-converter-testing-1.6.9.jar
+outputs.2.1.length=8263
+outputs.2.1.checksums.sha512=2af1be44a1a42d86390c9bcc12ff140ed545be86bf61240df8aaa9f198353882e7517d142996c55e4bae5316a99473471eaca8b8d17aa295e2db0c4a269d5d1d
