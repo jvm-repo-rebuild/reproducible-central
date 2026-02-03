@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS Core All Book
+group-id=com.semanticcms
+artifact-id=semanticcms-core-all-book
+version=1.22.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-core-all.git
+source.scm.tag=semanticcms-core-all-book-1.22.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-core-all-book-1.22.0.pom
+outputs.0.length=14640
+outputs.0.checksums.sha512=ef7cce14613794b13a0c59f6c58a1339e60a8907ffec2bcd78a1b0deca37016471c75484867acd02d51afe326850d1c5923c23c393f3d76e6cf8edc5ea74f010
+
+outputs.1.groupId=com.semanticcms
+outputs.1.filename=semanticcms-core-all-book-1.22.0.jar
+outputs.1.length=341515
+outputs.1.checksums.sha512=7d4660394f099a1d44f10085848caa10f49c5b858508569f683490978456a1e0aa2ef1c4a13fb72c77f0532033a14a2c85c5ba9eb27b9688a9eae1f70be5ce20
+
+outputs.2.groupId=com.semanticcms
+outputs.2.filename=semanticcms-core-all-book-1.22.0-sources.jar
+outputs.2.length=341998
+outputs.2.checksums.sha512=e41da8c287519b1cdedcf1a384a3f079151ac64621d01547d9051f6b8207bc51b8e8d535b600bc4ccc637e50777258fcbbb5a5fc8f85d5c6ff6898a6ea26445e
