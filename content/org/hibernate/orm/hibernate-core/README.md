@@ -45,13 +45,13 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate/hibernate-vector/overview)
 </details>
 
-rebuilding **41 releases** of org.hibernate.orm:hibernate-core:
-- **40** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **42 releases** of org.hibernate.orm:hibernate-core:
+- **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | | | |
+| [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | [gradle jdk17](hibernate-core-8.0.0.Alpha1.buildspec) | [result](hibernate-core-8.0.0.Alpha1.buildinfo): [68 :white_check_mark: ](hibernate-core-8.0.0.Alpha1.buildcompare) | | 25M |
 | [7.3.0.CR2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.3.0.CR2/pom) | | | |
 | [7.3.0.CR1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.3.0.CR1/pom) | [gradle jdk17](hibernate-core-7.3.0.CR1.buildspec) | [result](hibernate-core-7.3.0.CR1.buildinfo): [68 :white_check_mark: ](hibernate-core-7.3.0.CR1.buildcompare) | | 25M |
 | [7.2.3.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.2.3.Final/pom) | [gradle jdk25](hibernate-core-7.2.3.Final.buildspec) | [result](hibernate-core-7.2.3.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.2.3.Final.buildcompare) | | 27M |
