@@ -14,14 +14,14 @@ Source code: [https://github.com/jpmml/jpmml-statsmodels.git](https://github.com
 * [org.jpmml:pmml-statsmodels-example](https://central.sonatype.com/artifact/org.jpmml/pmml-statsmodels-example/overview)
 </details>
 
-rebuilding **18 releases** of org.jpmml:jpmml-statsmodels:
+rebuilding **19 releases** of org.jpmml:jpmml-statsmodels:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 15, 11 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 16, 12 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.12](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.12/pom) | | | |
+| [1.3.12](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.12/pom) | [mvn jdk11](jpmml-statsmodels-1.3.12.buildspec) | [result](jpmml-statsmodels-1.3.12.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.12.buildcompare) | 2 :recycle: | 55K |
 | [1.3.11](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.11/pom) | [mvn jdk11](jpmml-statsmodels-1.3.11.buildspec) | [result](jpmml-statsmodels-1.3.11.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.11.buildcompare) | 2 :recycle: | 55K |
 | [1.3.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.10/pom) | [mvn jdk11](jpmml-statsmodels-1.3.10.buildspec) | [result](jpmml-statsmodels-1.3.10.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.10.buildcompare) | 2 :recycle: | 55K |
 | [1.3.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.9/pom) | [mvn jdk11](jpmml-statsmodels-1.3.9.buildspec) | [result](jpmml-statsmodels-1.3.9.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.9.buildcompare) | 2 :recycle: | 55K |

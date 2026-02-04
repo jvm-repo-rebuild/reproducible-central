@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-StatsModels
+group-id=org.jpmml
+artifact-id=jpmml-statsmodels
+version=1.3.12
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-statsmodels.git
+source.scm.tag=1.3.12
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=pmml-statsmodels-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-statsmodels
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-statsmodels-1.3.12.pom
+outputs.0.0.length=3800
+outputs.0.0.checksums.sha512=b6555013659b73e983ee270fa9878c0003a64dde5e6d2d689553d1d01bcc03b05dc8a0b3f912eb79ad9ee4f3ed3513b1af46532e38576687d97945745f8bf260
+
+outputs.1.coordinates=org.jpmml:pmml-statsmodels
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-statsmodels-1.3.12.pom
+outputs.1.0.length=1657
+outputs.1.0.checksums.sha512=30f71031961c348fda1327d73e3a0f450eecc68b70b4de494b574830df196a1dd8e938623c7aae50ad779c5083e7485d71bbc3cc0c255b20bf0699be5223cd16
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-statsmodels-1.3.12.jar
+outputs.1.1.length=42532
+outputs.1.1.checksums.sha512=31325fc286ed9a51a98b02b889ff0622eaeedb08241cc11164cf1993451d1c211fc4253935dfd6814abae71b65efdeffa01864b4a99e8bd5cdd1c92f000c0da5
+
+outputs.2.coordinates=org.jpmml:pmml-statsmodels-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-statsmodels-example-1.3.12.pom
+outputs.2.0.length=2544
+outputs.2.0.checksums.sha512=67394bc5250cb11e87cf4861797f2b785c0eac7ff9101437d895159295a07af2bea591da5ebb07a22ff372539d5ea90381052cf0c5ccf0bf604940ef29f6f630
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-statsmodels-example-1.3.12.jar
+outputs.2.1.length=5438
+outputs.2.1.checksums.sha512=917351919bc072246c016d2b11dc9b6ac8a03b5a8daec6122ebf8ac3c941ba857590d4788aa19904958181e4f1cdbd1ebb3bd0b0fbd5a960e7894dd5f34a5029
