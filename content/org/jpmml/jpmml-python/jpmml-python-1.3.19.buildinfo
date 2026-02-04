@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.19
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.19
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.19.pom
+outputs.0.0.length=3350
+outputs.0.0.checksums.sha512=ba449e8bfb34cc5fa19cc3c469365749f0f90d948dd2391f14dd2fa8ea24f3a40f5575d79d627fff9edd5e90994934142232c94c174a7b6fe279bcbd78f060c2
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.19.pom
+outputs.1.0.length=5113
+outputs.1.0.checksums.sha512=9af7cafa827e9378e56f6ad0956c36ea6bd921aa73b772df9ba82d7c9bca99823e12f58121eacdd998265d17448138489d77bfb845be50bbe9c06139f858c3df
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.19.jar
+outputs.1.1.length=301939
+outputs.1.1.checksums.sha512=4fe4a2463cd21e0988bea17ffd59e96110059e5415431ec41b5cf2e4714bcce50a8ba02adf57e41156d0309a243825659be8717427ffbee03728e4ab3212ad41
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.19.pom
+outputs.2.0.length=1408
+outputs.2.0.checksums.sha512=189e090b88102e7bbe66e35dccec3df168287f607718ddb88022ce04d113cd2010c8c2ff900bdad60db31fd1ca97c11a2b83ca161dd03418ce75ba833d852ed0
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.19.jar
+outputs.2.1.length=4196
+outputs.2.1.checksums.sha512=63ba4234797e7c7f5b02f5f176df3c9c4f195753a7fd4e2cb8a6799bc847aefc1477b2aebe862be5d8cee728b93070f542bcfc51fba30994ee5826fbefb4eacb
