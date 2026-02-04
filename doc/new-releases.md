@@ -22,10 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260203194918 --> [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | [0.5.2](../content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.2.buildspec) :white_check_mark: | [0.5.3](../content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.3.buildspec) | `bin/add-new-release.sh content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.2.buildspec 0.5.3` |
+| <!-- 20260204105547 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.10.0](../content/dev/langchain4j/langchain4j-1.10.0.buildspec) :white_check_mark: | [1.11.0](../content/dev/langchain4j/langchain4j-1.11.0.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.10.0.buildspec 1.11.0` |
+| <!-- 20260204080915 --> [cui-java-tools](../content/de/cuioss/cui-java-tools/README.md) | [2.6.1](../content/de/cuioss/cui-java-tools/cui-java-tools-2.6.1.buildspec) :white_check_mark: | [2.6.2](../content/de/cuioss/cui-java-tools/cui-java-tools-2.6.2.buildspec) | `bin/add-new-release.sh content/de/cuioss/cui-java-tools/cui-java-tools-2.6.1.buildspec 2.6.2` |
 | <!-- 20260203175511 --> [cui-parent-pom](../content/de/cuioss/cui-parent-pom/README.md) | [1.3.7](../content/de/cuioss/cui-parent-pom/cui-parent-pom-1.3.7.buildspec) :white_check_mark: | [1.4.0](../content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.0.buildspec) | `bin/add-new-release.sh content/de/cuioss/cui-parent-pom/cui-parent-pom-1.3.7.buildspec 1.4.0` |
 | <!-- 20260203175511 --> [cui-parent-pom](../content/de/cuioss/cui-parent-pom/README.md) | [1.3.7](../content/de/cuioss/cui-parent-pom/cui-parent-pom-1.3.7.buildspec) :white_check_mark: | 1.3.8  | `bin/add-new-release.sh content/de/cuioss/cui-parent-pom/cui-parent-pom-1.3.7.buildspec ...` |
-| <!-- 20260203055125 --> [semanticcms-core-docs](../content/com/semanticcms/semanticcms-core-docs/README.md) | [1.10.0](../content/com/semanticcms/semanticcms-core-docs/semanticcms-core-docs-1.10.0.buildspec) :white_check_mark: | [1.22.0](../content/com/semanticcms/semanticcms-core-docs/semanticcms-core-docs-1.22.0.buildspec) | `bin/add-new-release.sh content/com/semanticcms/semanticcms-core-docs/semanticcms-core-docs-1.10.0.buildspec 1.22.0` |
 | <!-- 20260203001326 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.10](../content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec) :white_check_mark: | [3.11-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.11-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec 3.11-RC1` |
 | <!-- 20260201200316 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [12.3-javax](../content/io/avaje/inject/avaje-inject-12.3-javax.buildspec) :white_check_mark: | [12.4-RC1](../content/io/avaje/inject/avaje-inject-12.4-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-12.3-javax.buildspec 12.4-RC1` |
 | <!-- 20260201075313 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.2.125](../content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec) :white_check_mark: | [3.3.8](../content/com/hibegin/zrlog-base/zrlog-base-3.3.8.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec 3.3.8` |
@@ -38,7 +38,9 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20251015094355 --> [:mailbox:](https://lists.apache.org/list?dev@jena.apache.org:lte=1M:VOTE) | [jena](../content/org/apache/jena/jena/README.md) | [5.6.0](../content/org/apache/jena/jena/jena-5.6.0.buildspec) :warning: | [6.0.0](../content/org/apache/jena/jena/jena-6.0.0.buildspec)  | `bin/add-new-release.sh content/org/apache/jena/jena/jena-5.6.0.buildspec 6.0.0 staging` |
+| <!-- 20260123161519 --> [:mailbox:](https://lists.apache.org/list?dev@activemq.apache.org:lte=1M:VOTE) | [artemis-pom](../content/org/apache/activemq/artemis/README.md) | [2.50.0](../content/org/apache/activemq/artemis/artemis-2.50.0.buildspec) :white_check_mark: | [2.51.0](../content/org/apache/activemq/artemis/artemis-2.51.0.buildspec)  | `bin/add-new-release.sh content/org/apache/activemq/artemis/artemis-2.50.0.buildspec 2.51.0 staging` |
+| <!-- 20260123144805 --> [:mailbox:](https://lists.apache.org/list?dev@artemis.apache.org:lte=1M:VOTE) | [artemis-project](../content/org/apache/artemis/README.md) | [2.50.0](../content/org/apache/artemis/artemis-2.50.0.buildspec) :white_check_mark: | [2.51.0](../content/org/apache/artemis/artemis-2.51.0.buildspec)  | `bin/add-new-release.sh content/org/apache/artemis/artemis-2.50.0.buildspec 2.51.0 staging` |
+| <!-- 20251105083054 --> [:mailbox:](https://lists.apache.org/list?dev@shiro.apache.org:lte=1M:VOTE) | [shiro-root](../content/org/apache/shiro/README.md) | [2.0.6](../content/org/apache/shiro/shiro-2.0.6.buildspec) :warning: | [2.1.0](../content/org/apache/shiro/shiro-2.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.6.buildspec 2.1.0 staging` |
 | <!-- 20250926104912 --> [:mailbox:](https://lists.apache.org/list?dev@flink.apache.org:lte=1M:VOTE) | [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | [1.13.0](../content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.13.0.buildspec) :warning: [:memo:](https://github.com/apache/flink-kubernetes-operator/pull/1034) | [1.14.0](../content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.14.0.buildspec)  | `bin/add-new-release.sh content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.13.0.buildspec 1.14.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20230213091324 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.feature.extension.apiregions](../content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | [2.0.0](../content/org/apache/sling/org.apache.sling.feature.extension.apiregions/org.apache.sling.feature.extension.apiregions-2.0.0.buildspec) :white_check_mark: | [2.1.0](../content/org/apache/sling/org.apache.sling.feature.extension.apiregions/org.apache.sling.feature.extension.apiregions-2.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.extension.apiregions/org.apache.sling.feature.extension.apiregions-2.0.0.buildspec 2.1.0 staging` |
@@ -50,12 +52,15 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260203211712 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | [1.3.11](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.11.buildspec) :warning: | [1.3.12](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.12.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.11.buildspec 1.3.12` |
-| <!-- 20260203205825 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.3.18](../content/org/jpmml/jpmml-python/jpmml-python-1.3.18.buildspec) :warning: | [1.3.19](../content/org/jpmml/jpmml-python/jpmml-python-1.3.19.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.3.18.buildspec 1.3.19` |
-| <!-- 20260202121540 --> [syncope](../content/org/apache/syncope/README.md) | [4.0.3](../content/org/apache/syncope/syncope-4.0.3.buildspec) :warning: | [4.0.4](../content/org/apache/syncope/syncope-4.0.4.buildspec) | `bin/add-new-release.sh content/org/apache/syncope/syncope-4.0.3.buildspec 4.0.4` |
+| <!-- 20260204162056 --> [jena](../content/org/apache/jena/jena/README.md) | [5.6.0](../content/org/apache/jena/jena/jena-5.6.0.buildspec) :warning: | [6.0.0](../content/org/apache/jena/jena/jena-6.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-5.6.0.buildspec 6.0.0` |
+| <!-- 20260204110717 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | [1.3.4](../content/org/jpmml/jpmml-h2o/jpmml-h2o-1.3.4.buildspec) :warning: | [1.3.5](../content/org/jpmml/jpmml-h2o/jpmml-h2o-1.3.5.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-h2o/jpmml-h2o-1.3.4.buildspec 1.3.5` |
+| <!-- 20260204110234 --> [quarkus-project](../content/io/quarkus/README.md) | [3.31.1](../content/io/quarkus/quarkus-3.31.1.buildspec) :warning: | [3.31.2](../content/io/quarkus/quarkus-3.31.2.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.31.1.buildspec 3.31.2` |
+| <!-- 20260204102700 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | [1.9.5](../content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.9.5.buildspec) :warning: | [1.9.6](../content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.9.6.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.9.5.buildspec 1.9.6` |
+| <!-- 20260204095522 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | [1.5.0](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.5.0.buildspec) :warning: | [1.5.1](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.5.1.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.5.0.buildspec 1.5.1` |
+| <!-- 20260204022526 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.118.7](../content/org/finos/legend/engine/legend-engine-4.118.7.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.118.7` |
+| <!-- 20260203213040 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | [1.6.4](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.4.buildspec) :warning: | [1.6.5](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.5.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.4.buildspec 1.6.5` |
 | <!-- 20260131143729 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.4](../content/io/avaje/jex/avaje-jex-3.4.buildspec) :warning: | [3.5-RC1](../content/io/avaje/jex/avaje-jex-3.5-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.4.buildspec 3.5-RC1` |
 | <!-- 20260130221056 --> [parent](../content/org/apache/sis/README.md) | [1.3](../content/org/apache/sis/parent-1.3.buildspec) :warning: [:memo:](https://github.com/apache/sis/pull/36) | [1.6](../content/org/apache/sis/parent-1.6.buildspec) | `bin/add-new-release.sh content/org/apache/sis/parent-1.3.buildspec 1.6` |
-| <!-- 20260128220532 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.118.6](../content/org/finos/legend/engine/legend-engine-4.118.6.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.118.6` |
 | <!-- 20260113194310 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.31.0](../content/org/webjars/swagger-ui/swagger-ui-5.31.0.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.31.0` |
 | <!-- 20260112093043 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.17.0](../content/org/apache/camel/camel/camel-4.17.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.17.0` |
 | <!-- 20260110093715 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.5](../content/com/taobao/arthas/arthas-4.1.5.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.5` |
@@ -77,12 +82,15 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260204204254 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
+| <!-- 20260203211712 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.12 :warning: |
+| <!-- 20260203205825 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.19 :warning: |
 | <!-- 20260203131130 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.9 :warning: |
+| <!-- 20260202121540 --> [syncope](../content/org/apache/syncope/README.md) | 4.0.4 :warning: |
 | <!-- 20260201120712 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.7 :warning: |
 | <!-- 20260201010113 --> [compatibility-kit](../content/io/cucumber/compatibility-kit/README.md) | 28.0.1 :warning: |
 | <!-- 20260131133916 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.7 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
 | <!-- 20260130114744 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.1.6 :warning: |
-| <!-- 20260128115716 --> [quarkus-project](../content/io/quarkus/README.md) | 3.31.1 :warning: |
 | <!-- 20260127063011 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.27 :warning: |
 | <!-- 20260126185715 --> [avaje-config](../content/io/avaje/config/README.md) | 5.1 :warning: [:memo:](https://github.com/avaje/avaje-config/issues/254) |
 | <!-- 20260124074934 --> [tycho](../content/org/eclipse/tycho/README.md) | 5.0.2 :warning: |
@@ -99,15 +107,11 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260118212315 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.1 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |
 | <!-- 20260117164323 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.7 :warning: [:memo:](https://github.com/avaje/avaje-spi-service/issues/78) |
 | <!-- 20260117020822 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.24.0 :warning: |
-| <!-- 20260116205915 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.5.0 :warning: |
 | <!-- 20260114210350 --> [avaje-spi-parent](../content/io/avaje/spi/README.md) | 2.16 :warning: [:memo:](https://github.com/avaje/avaje-spi-service/issues/78) |
 | <!-- 20260113210319 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.3.1 :warning: |
 | <!-- 20260113132719 --> [klass](../content/cool/klass/README.md) | 0.6.0 :warning: [:memo:](https://github.com/liftwizard/klass/issues/608) |
 | <!-- 20260112205449 --> [atom-jaxb-parent](../content/fr/vidal/oss/README.md) | 2.0.0 :warning: |
 | <!-- 20260111201035 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 1.7.8 :warning: |
-| <!-- 20260111191347 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.3.4 :warning: |
-| <!-- 20260111182013 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.5 :warning: |
-| <!-- 20260111180312 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.4 :warning: |
 | <!-- 20260110100713 --> [unexepack](../content/io/github/albertus82/unexepack/README.md) | 1.0.0 :warning: |
 | <!-- 20260110040915 --> [avaje-validator-parent](../content/io/avaje/validator/README.md) | 2.16 :warning: [:memo:](https://github.com/avaje/avaje-spi-service/issues/78#issuecomment-3790501542) |
 | <!-- 20260108121527 --> [com.io7m.verona](../content/com/io7m/verona/README.md) | 1.1.0 :warning: |
@@ -120,7 +124,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
 | <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
-| <!-- 20251218114241 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
 | <!-- 20251218112519 --> [jdplus-benchmarking](../content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 2.1.0 :warning: |
 | <!-- 20251217205526 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.7.2 :warning: |
 | <!-- 20251216135604 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.13 :warning: |
@@ -156,7 +159,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251017200142 --> [apache-rat-project](../content/org/apache/rat/README.md) | 0.17 :warning: [:memo:](https://github.com/apache/creadur-rat/commit/969f474e82aa7ef9082d1156d777b7e7b42ac3e3) |
 | <!-- 20251015201339 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.12.1 :warning: |
 | <!-- 20251015170335 --> [jakarta.servlet-api](../content/jakarta/servlet/jakarta.servlet-api/README.md) | 6.2.0-M1 :x: |
-| <!-- 20251015094355 --> [jena](../content/org/apache/jena/jena/README.md) | 5.6.0 :warning: |
 | <!-- 20250926104912 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.13.0 :warning: [:memo:](https://github.com/apache/flink-kubernetes-operator/pull/1034) |
 | <!-- 20250919111500 --> [jakarta.mail-api](../content/jakarta/mail/jakarta.mail-api/README.md) | 2.2.0-M1 :warning: |
 | <!-- 20250918173341 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.4 :warning: |

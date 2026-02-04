@@ -232,7 +232,7 @@ Reproducible Builds for Maven Central Repository
 | | [s8cms-core-bom-book](../content/com/semanticcms/semanticcms-core-bom-book/README.md) | 2 | 2 :white_check_mark: |
 | | [s8cms-core-bcl-json-ld](../content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld/README.md) | 1 | 1 :white_check_mark: |
 | | [s8cms-core-bcl-json-ld-book](../content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld-book/README.md) | 1 | 1 :white_check_mark: |
-| | [s8cms-core-docs](../content/com/semanticcms/semanticcms-core-docs/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-docs](../content/com/semanticcms/semanticcms-core-docs/README.md) | 2 | 2 :white_check_mark: |
 | | [s8cms-core-docs-book](../content/com/semanticcms/semanticcms-core-docs-book/README.md) | 2 | 2 :white_check_mark: |
 | | [s8cms-news-all](../content/com/semanticcms/semanticcms-news-all/README.md) | 2 | 2 :white_check_mark: |
 | | [s8cms-news-all-book](../content/com/semanticcms/semanticcms-news-all-book/README.md) | 2 | 2 :white_check_mark: |
@@ -473,7 +473,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.stormcrawler | [stormcrawler](../content/org/apache/stormcrawler/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.apache.struts | [struts2](../content/org/apache/struts/README.md) | 31 | 12 :white_check_mark: / 19 :warning: |
 | org.apache.synapse | [Apache-Synapse](../content/org/apache/synapse/README.md) | 1 | 1 :warning: |
-| org.apache.syncope | [syncope](../content/org/apache/syncope/README.md) | 25 | 9 :white_check_mark: / 16 :warning: |
+| org.apache.syncope | [syncope](../content/org/apache/syncope/README.md) | 26 | 9 :white_check_mark: / 17 :warning: |
 | org.apache.systemds | [systemds](../content/org/apache/systemds/README.md) | 3 | 3 :warning: |
 | org.apache.tika | [tika](../content/org/apache/tika/README.md) | 23 | 23 :warning: |
 | org.apache.wayang | [wayang](../content/org/apache/wayang/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
@@ -845,11 +845,11 @@ Reproducible Builds for Maven Central Repository
 | | [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 9 | 2 :white_check_mark: / 7 :warning: |
 | | [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 9 | 2 :white_check_mark: / 7 :warning: |
 | | [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 15 | 7 :white_check_mark: / 8 :warning: |
-| | [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 28 | 6 :white_check_mark: / 22 :warning: |
+| | [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 29 | 6 :white_check_mark: / 23 :warning: |
 | | [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 20 | 11 :white_check_mark: / 9 :warning: |
 | | [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 40 | 11 :white_check_mark: / 29 :warning: |
 | | [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 63 | 18 :white_check_mark: / 45 :warning: |
-| | [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 18 | 3 :white_check_mark: / 15 :warning: |
+| | [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 19 | 3 :white_check_mark: / 16 :warning: |
 | | [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 16 | 6 :white_check_mark: / 10 :warning: |
 | | [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 11 | 2 :white_check_mark: / 9 :warning: |
 | | [minify-maven-plugin](../content/org/jpmml/minify-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -965,10 +965,10 @@ Reproducible Builds for Maven Central Repository
 | tools.jackson.datatype | [jackson-datatype-joda](../content/tools/jackson/datatype/jackson-datatype-joda/README.md) | 16 | 16 :white_check_mark: |
 | | [jackson-datatypes-collections](../content/tools/jackson/datatype/jackson-datatypes-collections/README.md) | 16 | 16 :white_check_mark: |
 | | [jackson-datatypes-misc](../content/tools/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 16 | 16 :white_check_mark: |
-| uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
+| uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 9 | 9 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **954** | **10031** | **7326** :white_check_mark:<br>**2705** :warning: |
+| **Count:** | **954** | **10036** | **7328** :white_check_mark:<br>**2708** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -979,7 +979,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      35 gradle     11
     215 gradle     17
-    141 gradle     21
+    142 gradle     21
       5 gradle     24
       9 gradle     25
      35 mvn         7
@@ -1049,13 +1049,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.10  17
       1 mvn-3.9.10  21
      58 mvn-3.9.11   8
-     74 mvn-3.9.11  11
+     75 mvn-3.9.11  11
     171 mvn-3.9.11  17
-    242 mvn-3.9.11  21
+    243 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      77 mvn-3.9.11  25
-      8 mvn-3.9.12  11
+      9 mvn-3.9.12  11
       7 mvn-3.9.12  17
      39 mvn-3.9.12  21
      16 mvn-3.9.12  25
@@ -1085,7 +1085,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-    183 mvn-3.9.3  21
+    184 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       8 mvn-3.9.3  22
       5 mvn-3.9.3  25

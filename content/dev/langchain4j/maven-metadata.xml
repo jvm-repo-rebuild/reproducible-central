@@ -3,8 +3,8 @@
   <groupId>dev.langchain4j</groupId>
   <artifactId>langchain4j</artifactId>
   <versioning>
-    <latest>1.10.0</latest>
-    <release>1.10.0</release>
+    <latest>1.11.0</latest>
+    <release>1.11.0</release>
     <versions>
       <version>0.0.002-test</version>
       <version>0.0.6-test</version>
@@ -68,7 +68,8 @@
       <version>1.9.0</version>
       <version>1.9.1</version>
       <version>1.10.0</version>
+      <version>1.11.0</version>
     </versions>
-    <lastUpdated>20251224134919</lastUpdated>
+    <lastUpdated>20260204105547</lastUpdated>
   </versioning>
 </metadata>

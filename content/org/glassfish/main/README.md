@@ -329,7 +329,7 @@ rebuilding **32 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-JDK17-M7](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M7/pom) | [mvn jdk21](glassfish-8.0.0-JDK17-M7.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M7.buildinfo): [1286 :white_check_mark:  37 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M7.buildcompare) | - | 539M |
 | [8.0.0-JDK17-M6](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M6/pom) | | | |
 | [8.0.0-JDK17-M5](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M5/pom) | | | |
-| [8.0.0-DONTPUBLISH](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-DONTPUBLISH/pom) | | | |
+| [8.0.0](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0/pom) | | | |
 | [8.0.0-M15](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M15/pom) | | | |
 | [8.0.0-M14](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M14/pom) | | | |
 | [8.0.0-M13](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M13/pom) | [mvn jdk21](glassfish-8.0.0-M13.buildspec) | [result](glassfish-main-aggregator-8.0.0-M13.buildinfo): [1341 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-M13.buildcompare) | 5 :rotating_light: 6 :no_entry_sign: | 558M |
