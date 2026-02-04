@@ -1,0 +1,5 @@
+version=0.5.3
+ok=3
+ko=0
+okFiles="okapibarcode-0.5.3-sources.jar okapibarcode-0.5.3.jar okapibarcode-0.5.3.pom"
+koFiles=""
