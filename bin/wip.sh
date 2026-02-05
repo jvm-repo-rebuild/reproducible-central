@@ -1,14 +1,31 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-path=$1
+# Autogenerate a work-in-progress buildspec for an artifact
+# Specified either as a path to pom or as groupId:artifactId:version
 
-pomfile="$(basename $path)"
-dir="$(dirname $path)"
-version="$(basename $dir)"
-dir="$(dirname $dir)"
-artifactId="$(basename $dir)"
-groupIdDir="$(dirname $dir)"
-groupId="$(echo "$groupIdDir" | sed -e 's_/_._g')"
+if [ "$#" -eq 1 ]; then
+    path=$1
+
+    pomfile="$(basename $path)"
+    dir="$(dirname $path)"
+    version="$(basename $dir)"
+    dir="$(dirname $dir)"
+    artifactId="$(basename $dir)"
+    groupIdDir="$(dirname $dir)"
+    groupId="$(echo "$groupIdDir" | sed -e 's_/_._g')"
+elif [ "$#" -eq 2 ] && [ "$1" == "--gav" ]; then
+    gav="$2"
+    IFS=':' read -r groupId artifactId version <<< "$gav"
+
+    groupIdDir="${groupId//./\/}"
+    pomfile="$(basename $path)"
+    path="${groupIdDir}/${artifactId}/${version}/${pomfile}"
+else
+    echo "Usage:" >&2
+    echo "    $0 org/foo/bar/1.2.3/bar-1.2.3.pom" >&2
+    echo "    $0 --gav org.foo:bar:1.2.3" >&2
+    exit 1
+fi
 
 echo "$groupId:$artifactId:$version"
 echo "https://repo.maven.apache.org/maven2/$(dirname $path)"
@@ -45,7 +62,7 @@ gitRepo="$(echo "$dev" | sed -e 's/scm:git://' | sed -e 's_git@github.com:_https
 echo "$gitRepo"
 
 [ -f wip/maven-metadata.xml ] && rm wip/maven-metadata.xml
-spec="wip/$(basename $dir .pom)-$version.buildspec"
+spec="wip/$artifactId-$version.buildspec"
 
 echo "groupId=$groupId
 artifactId=$artifactId
