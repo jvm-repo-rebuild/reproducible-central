@@ -1,0 +1,73 @@
+version=4.0.5
+ok=75
+ko=58
+ignored=0
+okFiles="jaxb-bom-4.0.5.pom jaxb-bom-4.0.5-cyclonedx.xml jaxb-bom-4.0.5-cyclonedx.json jaxb-bom-ext-4.0.5.pom jaxb-bom-ext-4.0.5-cyclonedx.xml jaxb-bom-ext-4.0.5-cyclonedx.json jaxb-external-parent-4.0.5.pom jaxb-external-parent-4.0.5-resources.zip jaxb-external-parent-4.0.5-cyclonedx.xml jaxb-external-parent-4.0.5-cyclonedx.json relaxng-datatype-4.0.5.pom relaxng-datatype-4.0.5.jar relaxng-datatype-4.0.5-cyclonedx.xml relaxng-datatype-4.0.5-cyclonedx.json relaxng-datatype-4.0.5-sources.jar rngom-4.0.5.pom rngom-4.0.5-cyclonedx.xml rngom-4.0.5-cyclonedx.json rngom-4.0.5-sources.jar xsom-4.0.5.pom xsom-4.0.5-cyclonedx.xml xsom-4.0.5-cyclonedx.json xsom-4.0.5-sources.jar jaxb-parent-4.0.5.pom jaxb-parent-4.0.5-resources.zip jaxb-txw-parent-4.0.5.pom jaxb-txw-parent-4.0.5-cyclonedx.xml jaxb-txw-parent-4.0.5-cyclonedx.json txw2-4.0.5.pom txw2-4.0.5-cyclonedx.xml txw2-4.0.5-cyclonedx.json jaxb-codemodel-parent-4.0.5.pom jaxb-codemodel-parent-4.0.5-resources.zip jaxb-codemodel-parent-4.0.5-cyclonedx.xml jaxb-codemodel-parent-4.0.5-cyclonedx.json codemodel-4.0.5.pom codemodel-4.0.5-cyclonedx.xml codemodel-4.0.5-cyclonedx.json codemodel-4.0.5-sources.jar txwc2-4.0.5.pom codemodel-annotation-compiler-4.0.5.pom codemodel-annotation-compiler-4.0.5-sources.jar jaxb-core-4.0.5.pom jaxb-runtime-parent-4.0.5.pom jaxb-runtime-parent-4.0.5-cyclonedx.xml jaxb-runtime-parent-4.0.5-cyclonedx.json jaxb-runtime-4.0.5.pom jaxb-xjc-4.0.5.pom jaxb-jxc-4.0.5.pom jaxb-bundles-4.0.5.pom jaxb-bundles-4.0.5-cyclonedx.xml jaxb-bundles-4.0.5-cyclonedx.json jaxb-core-4.0.5.pom jaxb-impl-4.0.5.pom jaxb-xjc-4.0.5.pom jaxb-jxc-4.0.5.pom jaxb-docs-parent-4.0.5.pom jaxb-docs-parent-4.0.5-cyclonedx.xml jaxb-docs-parent-4.0.5-cyclonedx.json jaxb-release-documentation-4.0.5.pom jaxb-release-documentation-4.0.5-cyclonedx.xml jaxb-release-documentation-4.0.5-cyclonedx.json jaxb-samples-4.0.5.pom jaxb-samples-4.0.5-cyclonedx.xml jaxb-samples-4.0.5-cyclonedx.json jaxb-samples-4.0.5.zip jaxb-ri-4.0.5.pom jaxb-osgi-4.0.5.pom jaxb-osgi-4.0.5-cyclonedx.xml jaxb-osgi-4.0.5-cyclonedx.json jaxb-osgi-4.0.5.pom tests-4.0.5.pom jaxb-www-4.0.5.pom jaxb-www-4.0.5-cyclonedx.xml jaxb-www-4.0.5-cyclonedx.json"
+koFiles="rngom-4.0.5.jar xsom-4.0.5.jar jaxb-parent-4.0.5-cyclonedx.xml jaxb-parent-4.0.5-cyclonedx.json txw2-4.0.5.jar txw2-4.0.5-sources.jar codemodel-4.0.5.jar txwc2-4.0.5.jar txwc2-4.0.5-cyclonedx.xml txwc2-4.0.5-cyclonedx.json txwc2-4.0.5-sources.jar codemodel-annotation-compiler-4.0.5.jar codemodel-annotation-compiler-4.0.5-cyclonedx.xml codemodel-annotation-compiler-4.0.5-cyclonedx.json jaxb-core-4.0.5.jar jaxb-core-4.0.5-cyclonedx.xml jaxb-core-4.0.5-cyclonedx.json jaxb-core-4.0.5-sources.jar jaxb-runtime-4.0.5.jar jaxb-runtime-4.0.5-cyclonedx.xml jaxb-runtime-4.0.5-cyclonedx.json jaxb-runtime-4.0.5-sources.jar jaxb-xjc-4.0.5.jar jaxb-xjc-4.0.5-cyclonedx.xml jaxb-xjc-4.0.5-cyclonedx.json jaxb-xjc-4.0.5-sources.jar jaxb-jxc-4.0.5.jar jaxb-jxc-4.0.5-cyclonedx.xml jaxb-jxc-4.0.5-cyclonedx.json jaxb-jxc-4.0.5-sources.jar jaxb-core-4.0.5.jar jaxb-core-4.0.5-cyclonedx.xml jaxb-core-4.0.5-cyclonedx.json jaxb-core-4.0.5-sources.jar jaxb-impl-4.0.5.jar jaxb-impl-4.0.5-cyclonedx.xml jaxb-impl-4.0.5-cyclonedx.json jaxb-impl-4.0.5-sources.jar jaxb-xjc-4.0.5.jar jaxb-xjc-4.0.5-cyclonedx.xml jaxb-xjc-4.0.5-cyclonedx.json jaxb-xjc-4.0.5-sources.jar jaxb-jxc-4.0.5.jar jaxb-jxc-4.0.5-cyclonedx.xml jaxb-jxc-4.0.5-cyclonedx.json jaxb-jxc-4.0.5-sources.jar jaxb-release-documentation-4.0.5-docbook.zip jaxb-ri-4.0.5-cyclonedx.xml jaxb-ri-4.0.5-cyclonedx.json jaxb-ri-4.0.5.zip jaxb-osgi-4.0.5.jar jaxb-osgi-4.0.5-cyclonedx.xml jaxb-osgi-4.0.5-cyclonedx.json jaxb-osgi-4.0.5-sources.jar tests-4.0.5.jar tests-4.0.5-cyclonedx.xml tests-4.0.5-cyclonedx.json tests-4.0.5-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.sun.xml.bind.external/rngom-4.0.5.jar external/rngom/target/rngom-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/xsom-4.0.5.jar xsom/target/xsom-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind.mvn/jaxb-parent-4.0.5-cyclonedx.xml target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind.mvn/jaxb-parent-4.0.5-cyclonedx.json target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/txw2-4.0.5.jar txw/runtime/target/txw2-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/txw2-4.0.5-sources.jar txw/runtime/target/txw2-4.0.5-sources.jar
+# diffoscope target/reference/org.glassfish.jaxb/codemodel-4.0.5.jar codemodel/codemodel/target/codemodel-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/txwc2-4.0.5.jar txw/compiler/target/txwc2-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/txwc2-4.0.5-cyclonedx.xml txw/compiler/target/bom.xml
+# diffoscope target/reference/org.glassfish.jaxb/txwc2-4.0.5-cyclonedx.json txw/compiler/target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/txwc2-4.0.5-sources.jar txw/compiler/target/txwc2-4.0.5-sources.jar
+# diffoscope target/reference/org.glassfish.jaxb/codemodel-annotation-compiler-4.0.5.jar codemodel/codemodel-annotation-compiler/target/codemodel-annotation-compiler-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/codemodel-annotation-compiler-4.0.5-cyclonedx.xml codemodel/codemodel-annotation-compiler/target/bom.xml
+# diffoscope target/reference/org.glassfish.jaxb/codemodel-annotation-compiler-4.0.5-cyclonedx.json codemodel/codemodel-annotation-compiler/target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-core-4.0.5.jar core/target/jaxb-core-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-core-4.0.5-cyclonedx.xml core/target/bom.xml
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-core-4.0.5-cyclonedx.json core/target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-core-4.0.5-sources.jar core/target/jaxb-core-4.0.5-sources.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-runtime-4.0.5.jar runtime/impl/target/jaxb-runtime-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-runtime-4.0.5-cyclonedx.xml runtime/impl/target/bom.xml
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-runtime-4.0.5-cyclonedx.json runtime/impl/target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-runtime-4.0.5-sources.jar runtime/impl/target/jaxb-runtime-4.0.5-sources.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-xjc-4.0.5.jar xjc/target/jaxb-xjc-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-xjc-4.0.5-cyclonedx.xml xjc/target/bom.xml
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-xjc-4.0.5-cyclonedx.json xjc/target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-xjc-4.0.5-sources.jar xjc/target/jaxb-xjc-4.0.5-sources.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-jxc-4.0.5.jar jxc/target/jaxb-jxc-4.0.5.jar
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-jxc-4.0.5-cyclonedx.xml jxc/target/bom.xml
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-jxc-4.0.5-cyclonedx.json jxc/target/bom.json
+# diffoscope target/reference/org.glassfish.jaxb/jaxb-jxc-4.0.5-sources.jar jxc/target/jaxb-jxc-4.0.5-sources.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-core-4.0.5.jar bundles/core/target/jaxb-core-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-core-4.0.5-cyclonedx.xml bundles/core/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind/jaxb-core-4.0.5-cyclonedx.json bundles/core/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind/jaxb-core-4.0.5-sources.jar bundles/core/target/jaxb-core-4.0.5-sources.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-impl-4.0.5.jar bundles/runtime/target/jaxb-impl-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-impl-4.0.5-cyclonedx.xml bundles/runtime/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind/jaxb-impl-4.0.5-cyclonedx.json bundles/runtime/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind/jaxb-impl-4.0.5-sources.jar bundles/runtime/target/jaxb-impl-4.0.5-sources.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-xjc-4.0.5.jar bundles/xjc/target/jaxb-xjc-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-xjc-4.0.5-cyclonedx.xml bundles/xjc/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind/jaxb-xjc-4.0.5-cyclonedx.json bundles/xjc/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind/jaxb-xjc-4.0.5-sources.jar bundles/xjc/target/jaxb-xjc-4.0.5-sources.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-jxc-4.0.5.jar bundles/jxc/target/jaxb-jxc-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-jxc-4.0.5-cyclonedx.xml bundles/jxc/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind/jaxb-jxc-4.0.5-cyclonedx.json bundles/jxc/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind/jaxb-jxc-4.0.5-sources.jar bundles/jxc/target/jaxb-jxc-4.0.5-sources.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-release-documentation-4.0.5-docbook.zip docs/release-documentation/target/jaxb-release-documentation-4.0.5-docbook.zip
+# diffoscope target/reference/com.sun.xml.bind/jaxb-ri-4.0.5-cyclonedx.xml bundles/ri/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind/jaxb-ri-4.0.5-cyclonedx.json bundles/ri/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind/jaxb-ri-4.0.5.zip bundles/ri/target/jaxb-ri.zip
+# diffoscope target/reference/com.sun.xml.bind/jaxb-osgi-4.0.5.jar bundles/osgi/osgi/target/jaxb-osgi-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind/jaxb-osgi-4.0.5-cyclonedx.xml bundles/osgi/osgi/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind/jaxb-osgi-4.0.5-cyclonedx.json bundles/osgi/osgi/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind/jaxb-osgi-4.0.5-sources.jar bundles/osgi/osgi/target/jaxb-osgi-4.0.5-sources.jar
+# diffoscope target/reference/com.sun.xml.bind.mvn/tests-4.0.5.jar bundles/osgi/tests/target/tests-4.0.5.jar
+# diffoscope target/reference/com.sun.xml.bind.mvn/tests-4.0.5-cyclonedx.xml bundles/osgi/tests/target/bom.xml
+# diffoscope target/reference/com.sun.xml.bind.mvn/tests-4.0.5-cyclonedx.json bundles/osgi/tests/target/bom.json
+# diffoscope target/reference/com.sun.xml.bind.mvn/tests-4.0.5-sources.jar bundles/osgi/tests/target/tests-4.0.5-sources.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=58
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="rngom-4.0.5.jar xsom-4.0.5.jar jaxb-parent-4.0.5-cyclonedx.xml jaxb-parent-4.0.5-cyclonedx.json txw2-4.0.5.jar txw2-4.0.5-sources.jar codemodel-4.0.5.jar txwc2-4.0.5.jar txwc2-4.0.5-cyclonedx.xml txwc2-4.0.5-cyclonedx.json txwc2-4.0.5-sources.jar codemodel-annotation-compiler-4.0.5.jar codemodel-annotation-compiler-4.0.5-cyclonedx.xml codemodel-annotation-compiler-4.0.5-cyclonedx.json jaxb-core-4.0.5.jar jaxb-core-4.0.5-cyclonedx.xml jaxb-core-4.0.5-cyclonedx.json jaxb-core-4.0.5-sources.jar jaxb-runtime-4.0.5.jar jaxb-runtime-4.0.5-cyclonedx.xml jaxb-runtime-4.0.5-cyclonedx.json jaxb-runtime-4.0.5-sources.jar jaxb-xjc-4.0.5.jar jaxb-xjc-4.0.5-cyclonedx.xml jaxb-xjc-4.0.5-cyclonedx.json jaxb-xjc-4.0.5-sources.jar jaxb-jxc-4.0.5.jar jaxb-jxc-4.0.5-cyclonedx.xml jaxb-jxc-4.0.5-cyclonedx.json jaxb-jxc-4.0.5-sources.jar jaxb-core-4.0.5.jar jaxb-core-4.0.5-cyclonedx.xml jaxb-core-4.0.5-cyclonedx.json jaxb-core-4.0.5-sources.jar jaxb-impl-4.0.5.jar jaxb-impl-4.0.5-cyclonedx.xml jaxb-impl-4.0.5-cyclonedx.json jaxb-impl-4.0.5-sources.jar jaxb-xjc-4.0.5.jar jaxb-xjc-4.0.5-cyclonedx.xml jaxb-xjc-4.0.5-cyclonedx.json jaxb-xjc-4.0.5-sources.jar jaxb-jxc-4.0.5.jar jaxb-jxc-4.0.5-cyclonedx.xml jaxb-jxc-4.0.5-cyclonedx.json jaxb-jxc-4.0.5-sources.jar jaxb-release-documentation-4.0.5-docbook.zip jaxb-ri-4.0.5-cyclonedx.xml jaxb-ri-4.0.5-cyclonedx.json jaxb-ri-4.0.5.zip jaxb-osgi-4.0.5.jar jaxb-osgi-4.0.5-cyclonedx.xml jaxb-osgi-4.0.5-cyclonedx.json jaxb-osgi-4.0.5-sources.jar tests-4.0.5.jar tests-4.0.5-cyclonedx.xml tests-4.0.5-cyclonedx.json tests-4.0.5-sources.jar"
