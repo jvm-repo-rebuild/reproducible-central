@@ -1,0 +1,19 @@
+groupId=org.webjars
+artifactId=jquery-ui
+version=1.14.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/webjars/webjars-classic/blob/main/jquery-ui.properties
+# injected to https://github.com/webjars/webjars/blob/main/app/utils/WebJarCreator.scala by https://github.com/webjars/webjars/blob/main/conf/routes pointing to https://github.com/webjars/webjars/blob/main/app/controllers/Application.scala#L296
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
