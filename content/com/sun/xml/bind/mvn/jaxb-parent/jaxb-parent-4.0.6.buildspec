@@ -1,25 +1,23 @@
-# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
-
 # Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
-groupId=
-artifactId=
-version=
+groupId=com.sun.xml.bind.mvn
+artifactId=jaxb-parent
+version=4.0.6
 # referenceRepo = https://my.company.com/repo if reference is not in Maven Central but company-private
 
 display=${groupId}:${artifactId}
 
 # Source code
-gitRepo=https://github.com/project_org/${artifactId}.git
-gitTag=${artifactId}-${version}
+gitRepo=https://github.com/eclipse-ee4j/jaxb-ri.git
+gitTag=${version}-RI
 #sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
 #sourcePath=${artifactId}-${version}
 #sourceRmFiles=DEPENDENCIES LICENSE NOTICE
 
 # Rebuild environment prerequisites
-tool=mvn
+tool=mvn-3.9.11
 # or tool=mvn-3.9.11 if default 3.6.3 version does not match your prerequisites
 # or tool=gradle or tool=sbt
-jdk=8
+jdk=11
 newline=lf
 # crlf for Windows, lf for Unix
 #newlineGit=crlf
@@ -28,12 +26,12 @@ newline=lf
 #locale="en_US"
 
 # Rebuild command
-command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn clean package -f jaxb-ri/pom.xml -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 #execBefore=
 #execAfter=
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
-buildinfo=target/${artifactId}-${version}.buildinfo
+buildinfo=jaxb-ri/target/${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 #diffoscope=${artifactId}-${version}.diffoscope
