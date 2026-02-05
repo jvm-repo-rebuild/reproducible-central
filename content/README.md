@@ -246,7 +246,7 @@ Reproducible Builds for Maven Central Repository
 | com.vladsch.flexmark | [flexmark-java](../content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :white_check_mark: |
 | cool.klass | [klass](../content/cool/klass/README.md) | 6 | 6 :warning: |
 | de.jflex | [jflex](../content/de/jflex/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| de.cuioss | [cui-java-tools](../content/de/cuioss/cui-java-tools/README.md) | 7 | 7 :white_check_mark: |
+| de.cuioss | [cui-java-tools](../content/de/cuioss/cui-java-tools/README.md) | 8 | 8 :white_check_mark: |
 | | [cui-parent-pom](../content/de/cuioss/cui-parent-pom/README.md) | 43 | 40 :white_check_mark: / 3 :warning: |
 | de.gematik.pki | [gemLibPki](../content/de/gematik/pki/gemLibPki/README.md) | 28 | 28 :white_check_mark: |
 | de.gematik.pki.gemlibpki | [gemLibPki](../content/de/gematik/pki/gemlibpki-old/README.md) | 3 | 3 :warning: |
@@ -968,7 +968,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 9 | 9 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **954** | **10036** | **7328** :white_check_mark:<br>**2708** :warning: |
+| **Count:** | **954** | **10037** | **7329** :white_check_mark:<br>**2708** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1129,7 +1129,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     159 mvn-3.9.9  11
     320 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    466 mvn-3.9.9  21
+    467 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2
      17 mvn-3.9.9  22
       4 mvn-3.9.9  23
