@@ -17,7 +17,7 @@ build-tool=mvn
 java.version=11.0.30
 java.vendor=Ubuntu
 os.name=Linux
-os.version=6.18.3-200.fc43.x86_64
+os.version=6.11.0-1018-azure
 os.arch=amd64
 line.separator=\n
 
@@ -212,8 +212,8 @@ outputs.8.0.checksums.sha512=404754326268cb5c12a87bbbf158e9a38c00bf4470a9ea85b12
 
 outputs.8.1.groupId=org.glassfish.jaxb
 outputs.8.1.filename=txw2-4.0.6.jar
-outputs.8.1.length=73356
-outputs.8.1.checksums.sha512=b3338b0fee90aa6590c67c532d346ab1ef2f11843531d3dbb0146109975e87d7f8c9e41b18e313e4d2c0c401f9a6c17cc52d248e98c20a91acce0de9e84ca154
+outputs.8.1.length=73357
+outputs.8.1.checksums.sha512=27c7fac66f065481d08cca8e11d3b706fc93e2efb3e1a5dd821965bf63f24a50d5a6d7c01590c7a70ab19987109c1adda1731fcd2107888d2aa17f9788579c5d
 
 outputs.8.2.groupId=org.glassfish.jaxb
 outputs.8.2.filename=txw2-4.0.6-cyclonedx.xml
@@ -227,8 +227,8 @@ outputs.8.3.checksums.sha512=8fff5b9e28dc2b5f1e4f74b5d12bf5550e301f21ee978cbf223
 
 outputs.8.4.groupId=org.glassfish.jaxb
 outputs.8.4.filename=txw2-4.0.6-sources.jar
-outputs.8.4.length=69808
-outputs.8.4.checksums.sha512=71d3d4a9a2c1be560893bd75fe955be1579ab61b6132bcae51c5251aeb23415f76ce3b4e386bd631e351f2db9aaa692ef6bf0a7ad5a2b90df89bca1d03b2e674
+outputs.8.4.length=69809
+outputs.8.4.checksums.sha512=e76c1d59e7d25a246ded51f699721fe744302d54e77a78bb534923485c25dc855a6fd8b1f4392201bc9ed57d59b3e4646420908c4877bfe98d4919d75776dc0c
 
 outputs.9.coordinates=com.sun.xml.bind.mvn:jaxb-codemodel-parent
 
@@ -288,23 +288,23 @@ outputs.11.0.checksums.sha512=665403284a872dec9c3796326363890eddafa01ba6a08686af
 
 outputs.11.1.groupId=org.glassfish.jaxb
 outputs.11.1.filename=txwc2-4.0.6.jar
-outputs.11.1.length=72902
-outputs.11.1.checksums.sha512=b5849b8d4cb6356beda39b5829fc4959b5daa97618b182034a760b7668eef6f21c17dee6d01a3216af8176925652b5cbdc7fffe3d9748b97790cbb404df9f07f
+outputs.11.1.length=72903
+outputs.11.1.checksums.sha512=71baa50b20e8305f6b1f8b88c2463f46c8ca2c10c4da5654ef2ff95d809afe280098eb305bde121d589d16eec50717e850b09366bb6c64dc62b7b6e3cbc22f0e
 
 outputs.11.2.groupId=org.glassfish.jaxb
 outputs.11.2.filename=txwc2-4.0.6-cyclonedx.xml
 outputs.11.2.length=18853
-outputs.11.2.checksums.sha512=e93f263202a16431f8f9efb9d3b21db9626c19bebaeb69cc5db25a34f2e389977306561d8f82256434cb1397da094dc2d8cf607ea5cf4f045b3f27b52309dc88
+outputs.11.2.checksums.sha512=147cf372f536421ebc30da2a030426e1d5f572083ac3890a91503fc72179224e36b8994ab2a57312afa8dbea27132dcbe54552eb95225fd3d0f781e697ae54c3
 
 outputs.11.3.groupId=org.glassfish.jaxb
 outputs.11.3.filename=txwc2-4.0.6-cyclonedx.json
 outputs.11.3.length=22255
-outputs.11.3.checksums.sha512=ad6db84e7690f7500ff12fdf673a8cda7c127f7a7a35792ef00be87d5d7b5e39d258917c8a5d43dfe55f067468635ac727686350974972f6981f38e5bf3316bf
+outputs.11.3.checksums.sha512=e74e74673287ab0757b54f944a7a18ea42e23be5b59c4267418fc56c07741e6d98d6a5c0db4bd2b2908e9b1ce97e7f49ad7133f6e79d4785efe94f36c941a18f
 
 outputs.11.4.groupId=org.glassfish.jaxb
 outputs.11.4.filename=txwc2-4.0.6-sources.jar
-outputs.11.4.length=52237
-outputs.11.4.checksums.sha512=f5f7f7bc1c7d121973b77bfa6a7ef35ff0313c44f4b01d3e29f5db9a435ae4038a51916af265ff41fc80bdc12235820c980990dac5fbbece8e58f2e4199e0b39
+outputs.11.4.length=52239
+outputs.11.4.checksums.sha512=adb11ce85c603a25e5ac263fe43eaa95ccbbae73c7a2d65c9de0648127a5a006e5f0d72e4624e7e08f308cc0f1bd94f8d271ce149a80209fc79d50f8a31cd801
 
 outputs.12.coordinates=org.glassfish.jaxb:codemodel-annotation-compiler
 
@@ -342,23 +342,23 @@ outputs.13.0.checksums.sha512=e69b0bb2f814fff9e62ab79cf03d8817f72e183b0a2780438c
 
 outputs.13.1.groupId=org.glassfish.jaxb
 outputs.13.1.filename=jaxb-core-4.0.6.jar
-outputs.13.1.length=137919
-outputs.13.1.checksums.sha512=c25f6906e987b603523301d6e2787ce21c647b30bfcf4b3ffb63503df6680aa8eee9a1ae3d53ae8f8228b54433785efcbdbe95a712e314d2319f2646cbd3f033
+outputs.13.1.length=137920
+outputs.13.1.checksums.sha512=81e0b342617482d01977181636109a121008a30c26fe7a547956fa8c985dc6555e339336f387c2a7edbcdb7920fe62c17ff24c28988912ec7754065be04c028d
 
 outputs.13.2.groupId=org.glassfish.jaxb
 outputs.13.2.filename=jaxb-core-4.0.6-cyclonedx.xml
 outputs.13.2.length=14442
-outputs.13.2.checksums.sha512=13e38612981ce03bdeb55b92b3a5a96db9bf516b5932d6fdb94473635f1956e7539f83f0ef2f2fb7d83280268d0ab71881c790571c6813ce148f38bf43b94e3c
+outputs.13.2.checksums.sha512=a89300709987d8122b9b9aee7231bd2a3f943f4b571904d60b96523b3c046cd68c30b23b790cc01561fd5f8c3fd7011a71543ca19a865e2cfb72cca26123d6c8
 
 outputs.13.3.groupId=org.glassfish.jaxb
 outputs.13.3.filename=jaxb-core-4.0.6-cyclonedx.json
 outputs.13.3.length=16967
-outputs.13.3.checksums.sha512=93738f5370eb25a2afdfb624e7b3562d06bbae12ae70a86a941aefd385d68a85dffa3f688db39ead91b4deec4f08b554911ff631a670b3232b78877b23654fca
+outputs.13.3.checksums.sha512=717b26c4a3d8bc42c2082d9e3b0b84f654befce606b43ed4eff7e3efb9b7d822efd0123de7f6e8adb2d4d56b1c6cbad47637d84e08dfa7ca7e908e5ab29c72d5
 
 outputs.13.4.groupId=org.glassfish.jaxb
 outputs.13.4.filename=jaxb-core-4.0.6-sources.jar
-outputs.13.4.length=132325
-outputs.13.4.checksums.sha512=62067b7d761e67ed3be37487bed7c79e10d7d679722860022e7add752567c459dac13f4d26f8b361a81751642c093d5ba5027b8cb0cac96ec37cf6ac28044e70
+outputs.13.4.length=132326
+outputs.13.4.checksums.sha512=c66287bdeecb1f38fce70a77a9c68ca9d20c7812bbd946dd292b1c338331e1fd3e3171694e2673b7657b9955b0882e8fffbfd24df3f898ea44a1a81731ecb532
 
 outputs.14.coordinates=com.sun.xml.bind.mvn:jaxb-runtime-parent
 
@@ -386,23 +386,23 @@ outputs.15.0.checksums.sha512=c89e136fdb17f3deef2925703124fe59ad3d21c0837c90558e
 
 outputs.15.1.groupId=org.glassfish.jaxb
 outputs.15.1.filename=jaxb-runtime-4.0.6.jar
-outputs.15.1.length=920219
-outputs.15.1.checksums.sha512=6960245d6a7abb62c3909b6d56ddbe67bb5437a1327a693329bd3753798873136c2eda5ed046d0ba650f6627b1bc2dd00cb6b622a0bfdda1e01ddb9254a0f4a0
+outputs.15.1.length=920217
+outputs.15.1.checksums.sha512=f72c70d451d291b3068579a605e42e066723a2839d03a8ab906af92b403adb7a7924ed8bf488138678d73a7bb2809df51a6b235100deb9d2f3957f33fb18ce0f
 
 outputs.15.2.groupId=org.glassfish.jaxb
 outputs.15.2.filename=jaxb-runtime-4.0.6-cyclonedx.xml
 outputs.15.2.length=21452
-outputs.15.2.checksums.sha512=de285bc0ea029523adfd296f682c2baf82ece53b7e9b3224a426bd2a674cec717512b8804292399538cd884e51ed4a2a3e3e432132edd5a5add61d0c9b9190f7
+outputs.15.2.checksums.sha512=f3d0ce40be99fc7dd0f3088f0876a06899b275ff77d6579535d808b733127673d7cacba3b595235fe50db20b5591aa62ace4c34dff8129b90cc0f059c61f56c7
 
 outputs.15.3.groupId=org.glassfish.jaxb
 outputs.15.3.filename=jaxb-runtime-4.0.6-cyclonedx.json
 outputs.15.3.length=25226
-outputs.15.3.checksums.sha512=b041ad50a5e47dc37276139f3ae6759f3698344d49ceffc8b4868cc5dfe5fd7697ca30e7ce2746d32ed379c41ba1d00db6ab5e3acb70674a65cbc3ac9fbba6ee
+outputs.15.3.checksums.sha512=ddc7f7330747e8f534f374484ad4f47bc8164438f9ea4ac7be79a549cb3e707e4fa38bc420100b1f1910d863897751bc9cadd3893687dd3b5354cfbd8aa639da
 
 outputs.15.4.groupId=org.glassfish.jaxb
 outputs.15.4.filename=jaxb-runtime-4.0.6-sources.jar
-outputs.15.4.length=651520
-outputs.15.4.checksums.sha512=8a9b522bdbd8fb0f9d14f6bca95ee11435a739ffe8f87bd23fb0f409842ad32cf8b1236c67053579dcc19fdf10ff2cd25ab3f8a3c91b90f7cbffe697c8cadf71
+outputs.15.4.length=651517
+outputs.15.4.checksums.sha512=052f415f279f2c96a5f49aca5c3f5991b34c39c89a2110bb8aa203108bc0bdf8231796e885acee49cf2729fc034d79a90e514ea2e97c2c8af37f7d150cf14034
 
 outputs.16.coordinates=org.glassfish.jaxb:jaxb-xjc
 
@@ -413,23 +413,23 @@ outputs.16.0.checksums.sha512=f60d1b1d9677105ca29c96e71232918c850daef66ba5cbf568
 
 outputs.16.1.groupId=org.glassfish.jaxb
 outputs.16.1.filename=jaxb-xjc-4.0.6.jar
-outputs.16.1.length=918395
-outputs.16.1.checksums.sha512=cf9c9dc10fcce082c25114c2663c77de5a164eb397c4e912aa1de5264eb02dcad7b45b5f44eb7bcede39a49b6278ae2e5deb2e1193da0a30fac36e0f7006de5f
+outputs.16.1.length=918397
+outputs.16.1.checksums.sha512=655adfd78d3a86abd5b04fef7512144266618ab1f854351d455d44fc243964513eacd785111d4e02d5b33981a90b0bcda5a2cea08317d0b906c9a88dc1df6eee
 
 outputs.16.2.groupId=org.glassfish.jaxb
 outputs.16.2.filename=jaxb-xjc-4.0.6-cyclonedx.xml
 outputs.16.2.length=35241
-outputs.16.2.checksums.sha512=aa07679751f47e2df6af21c99ce58734067a2d8c91feda0e9d3af9e96fdff1ce41520cc6c4f1b7cdbd6b704c749b6b71f787d4c5c8bddcca77f381d453dd045a
+outputs.16.2.checksums.sha512=88170b9cecffdaa8cfb9fde1072c35ca029df9052d997d71a6670c7c1de2c81f846d32f2da2d449a78a3ebb10f6159d9e8eff7921fcefd082263028e3e43a5e0
 
 outputs.16.3.groupId=org.glassfish.jaxb
 outputs.16.3.filename=jaxb-xjc-4.0.6-cyclonedx.json
 outputs.16.3.length=41523
-outputs.16.3.checksums.sha512=b667622702009959f7f1f9e93fc729e60e06a2d274cd1bdf2149b082bf0758ada83dd15b0e3de021e2510407407dac6e2c5d950645a7ae813c1d8aa02d16c868
+outputs.16.3.checksums.sha512=f4ebfe06669c8d564bd05c70449bc17bf996483ed53f90c5e173be03ceb3fecf07320ec2b604b62aeac1b2d046671b6459eb2f5581b1b28dabe318fb7e5edccb
 
 outputs.16.4.groupId=org.glassfish.jaxb
 outputs.16.4.filename=jaxb-xjc-4.0.6-sources.jar
-outputs.16.4.length=707943
-outputs.16.4.checksums.sha512=c985b94859df8da702d5b04b6c11ee8496522b3c2695d71061965237ff9cfd39ab156f0adae56ba19a625d5b0255244ff55653ecff05ef2c367495a1a69c3ed7
+outputs.16.4.length=707945
+outputs.16.4.checksums.sha512=8ad993f1671c7ddaacf93ac6ba427e3a6eb3e91664858b6563c3a3de2b5a04b7f23ba5aa6f77092daea3826276e6a27671a20ec9f707bfe94c426f161ab9203e
 
 outputs.17.coordinates=org.glassfish.jaxb:jaxb-jxc
 
@@ -440,23 +440,23 @@ outputs.17.0.checksums.sha512=5774505af9f438400d42af4e12586e5685a8014773036cbfa3
 
 outputs.17.1.groupId=org.glassfish.jaxb
 outputs.17.1.filename=jaxb-jxc-4.0.6.jar
-outputs.17.1.length=115351
-outputs.17.1.checksums.sha512=eeae39f9290fc6bc927e7c68b099c1083c739723a850a11e7f09990f044af6070cbe45d0061220b8872fd340023abb9472b78352fd98714b58b3969e15469597
+outputs.17.1.length=115352
+outputs.17.1.checksums.sha512=588f2afa14e3832ae33329a94b4a0a6d683c8a1b1455251e3bbf099a261f47262b6bfe03f0a316d0888954a2e3f31370b1ebdf4c53a9bb730c86ac6a62b79e62
 
 outputs.17.2.groupId=org.glassfish.jaxb
 outputs.17.2.filename=jaxb-jxc-4.0.6-cyclonedx.xml
 outputs.17.2.length=41949
-outputs.17.2.checksums.sha512=2e484f04fd73f832d567c75a80006b12bb21b6323fd7cbcac41b63a785b1836dfd85f7130aeb5a6f9f1852c4c9780b6cf24bdb1fd6d504064d1aae0ac3d4674b
+outputs.17.2.checksums.sha512=babe06e01f8c41a3cc59cf0621a732fe0457d7d9ffa871a87345a6bc9f34c4dcd88ccdcc09a63870bbe351ee394c8e4c33d971f867a155d6674b1894252e8b21
 
 outputs.17.3.groupId=org.glassfish.jaxb
 outputs.17.3.filename=jaxb-jxc-4.0.6-cyclonedx.json
 outputs.17.3.length=49387
-outputs.17.3.checksums.sha512=523942e926f739639fb325756265f0b99475849f9dc2af34f6cf7dc816f97e09efc748a6410ef5b9c307c10c952244d753f8ca3319f5540677699cf80f885883
+outputs.17.3.checksums.sha512=8381d9b45014e4264ce5786f0261b4fdba5021afbc154f309e7e637f6d90f5099eff0501a8bf7137cff738f8fee15d0134767b4b5d7ce16e3b7d83bc168dfcef
 
 outputs.17.4.groupId=org.glassfish.jaxb
 outputs.17.4.filename=jaxb-jxc-4.0.6-sources.jar
-outputs.17.4.length=83203
-outputs.17.4.checksums.sha512=249efef6d07716bdc1fcfd02bc62d7ff60628583129581c42166f909b33df6b5170c83c006c04fdc35ce30112778e45d9d24bf837a7f1cb045490cd488f8b4dd
+outputs.17.4.length=83204
+outputs.17.4.checksums.sha512=6ca59301a6ff2815eb7e3265368b2ce2855515d4f024cf0d355be51a8ace8236a9085bbaaf86ef0efd346546fb35862fa00f166574f9d7e8ffe7245752fad780
 
 outputs.18.coordinates=com.sun.xml.bind.mvn:jaxb-bundles
 
@@ -484,23 +484,23 @@ outputs.19.0.checksums.sha512=0c7b0176d7cdb8140101331a35cccd3fedab3f871c5c87f065
 
 outputs.19.1.groupId=com.sun.xml.bind
 outputs.19.1.filename=jaxb-core-4.0.6.jar
-outputs.19.1.length=234739
-outputs.19.1.checksums.sha512=4117efdedec685ba23e065e65a66e15857d35cc36f75dfc3cdc9e3a8e9de31aa08864a574fc8dbe8f07230f9a12fe029f5540f14d4ba974e91022dbe38080515
+outputs.19.1.length=234740
+outputs.19.1.checksums.sha512=67296118fc22816584c41f8ce2a685b60b1036c6273d6857bf4a1a93700ec9c707169af130e546b5362d5d7f11c5691f774c9d4d6c7d4654a536cc61b3cd1603
 
 outputs.19.2.groupId=com.sun.xml.bind
 outputs.19.2.filename=jaxb-core-4.0.6-cyclonedx.xml
 outputs.19.2.length=17091
-outputs.19.2.checksums.sha512=043783d8232fcfa4b5c555e60ff123ddb4f035e1408f6e340e536e2709fe3eeada6dcd68170621af97272192710b091b5191ff2f457c87aac4e3443c354bb0d5
+outputs.19.2.checksums.sha512=7c043e73b43aa09b526134f6a3d1e0c2388312caacd914a994bec7a503a692b71559b8ccfd72735fd98c572d0fa857960c4c1d0260782d4f237e11fa8a0643e8
 
 outputs.19.3.groupId=com.sun.xml.bind
 outputs.19.3.filename=jaxb-core-4.0.6-cyclonedx.json
 outputs.19.3.length=19966
-outputs.19.3.checksums.sha512=6d003088f8d06050ed9b551d6ad17a07d6e3fa6c5fb2957a6e7ac5c8b7518eb684eba05382b19be9243a433ee4b3b95acf059390dbfa3227407d57a4dbe2ebb9
+outputs.19.3.checksums.sha512=8a6b61c4ccc28b433295627b051063bdad3b3960e9a3c31e438539cfc3f22217c0ae02bbf7d4ec3614c3a39cc91ab9d72080025eb8e48bc84dae2fbbc9af6e18
 
 outputs.19.4.groupId=com.sun.xml.bind
 outputs.19.4.filename=jaxb-core-4.0.6-sources.jar
-outputs.19.4.length=223116
-outputs.19.4.checksums.sha512=9a92d18d3c0e8abcf5ed05492614dcf86e6d4bdc3c290a07b427b204f18fe66aa8f0767e268d7d9e56019ca3127374a930515889777d1c846c627dfb8cd1d007
+outputs.19.4.length=223117
+outputs.19.4.checksums.sha512=5dc6d9affdc0a23678e06f9adc6b024d25b2aa2387a68be43ef22ca467b291bcbfe545d93803621ac56b2c973351d968f027530de136cfb9f29a3338ca48cbbf
 
 outputs.20.coordinates=com.sun.xml.bind:jaxb-impl
 
@@ -511,23 +511,23 @@ outputs.20.0.checksums.sha512=6a5981781507434baa1e680375b124d1d8d37e4611948d834b
 
 outputs.20.1.groupId=com.sun.xml.bind
 outputs.20.1.filename=jaxb-impl-4.0.6.jar
-outputs.20.1.length=923221
-outputs.20.1.checksums.sha512=eefa092ed548abb69e7f43fddd63621625cab90347a6b0b5d7d6ab19ca5fea507eef4d9a6af5546b7fcdb33957881844ad9208d79eb02c2f72c9322e146b4d30
+outputs.20.1.length=923219
+outputs.20.1.checksums.sha512=26c1c0c6256a6018c50461841c6fac52e02453b68f7592c710ab9ce798d9c326cc9730b62ee6b6d7be3792514a1eb2d86696925b9456c33303714fc295809636
 
 outputs.20.2.groupId=com.sun.xml.bind
 outputs.20.2.filename=jaxb-impl-4.0.6-cyclonedx.xml
 outputs.20.2.length=26224
-outputs.20.2.checksums.sha512=53129a5ec642924d8014e17ad4abfc9e1e3f82944eaa02ae6107d863f76f6342e5cf43b52c8251825d6120458e53bc06ba66112d83cdafedbd9504cbb9479e06
+outputs.20.2.checksums.sha512=4e6f885d3a2333edac529162c3d42a31d161fc96814a36effd39e3396f143db3fb19034cad2dc2a8e143fcab4d4828f36b0caabd2f7fe46cc4a11431375eac2f
 
 outputs.20.3.groupId=com.sun.xml.bind
 outputs.20.3.filename=jaxb-impl-4.0.6-cyclonedx.json
 outputs.20.3.length=30788
-outputs.20.3.checksums.sha512=303a78e2f3c5322fb6454007a6e94f2c03b089bdcc4f1377b50ad3b74644bb175f60100fc101566ae21adbe4ff4938e67060ab80b4418249f45a16741360caad
+outputs.20.3.checksums.sha512=69bd7a1bc55df6e271479e79ca3b1972546e372df27fada4c04e979a953cbbfbc83d073a61e73f7f2d4fa0a836289c870eba341dc5fe9cdd163f7d388041a719
 
 outputs.20.4.groupId=com.sun.xml.bind
 outputs.20.4.filename=jaxb-impl-4.0.6-sources.jar
-outputs.20.4.length=654338
-outputs.20.4.checksums.sha512=bb7c7638af19048b0b15d8b476c066ef9dfeb21e832efb856444e50bf6028f15f49aa970a7d56978e7ecac32d43a39df8a1c07e8c5e550e276fc049d5ceaae2d
+outputs.20.4.length=654337
+outputs.20.4.checksums.sha512=067572e7ab753470dec9b961ce6cbed348f2279b998e89fca8a1a908b55de7829da46ab8b0f6b8a458abd2c579a1ee56d0b140437adea270a091cfdfd6b0ee0c
 
 outputs.21.coordinates=com.sun.xml.bind:jaxb-xjc
 
@@ -538,23 +538,23 @@ outputs.21.0.checksums.sha512=e760d6e10bca0984b4d2bf81b1f4a4bfbc0422ee1a69126e84
 
 outputs.21.1.groupId=com.sun.xml.bind
 outputs.21.1.filename=jaxb-xjc-4.0.6.jar
-outputs.21.1.length=1932873
-outputs.21.1.checksums.sha512=e227100203e0e8bbc8fb9ad4fc5e9657fcc5cf6fb727a39ab81041221f7c3b9ec7b7b53f4f04672cd1b6605dc9d9c6d8e8c274da0e6f9fd67f7b9fd6ceeabfa9
+outputs.21.1.length=1932875
+outputs.21.1.checksums.sha512=a8ce5e790d42b2b4ac16571ef88030fbe583130069d574099d01fcee90d3073437248e962a2c50483e49464b8be84b5a1cc68db736f04f456be2cd3270be6292
 
 outputs.21.2.groupId=com.sun.xml.bind
 outputs.21.2.filename=jaxb-xjc-4.0.6-cyclonedx.xml
 outputs.21.2.length=42715
-outputs.21.2.checksums.sha512=c3070e5136fa14c059943f69abae2c29c6889e52af65a446e8546bfbf8edfd69691815e42d866377328102176546b7f44bbfb1d33cefd9a74b8dfd64c2d26837
+outputs.21.2.checksums.sha512=cdfd774e4a77fe105704475b2d87b1af47e3e9873a711e82238fa001e691e6d12a4deb45d0a331b8a147785c74dcc6843dbc128e731b093324e9c1501f06331a
 
 outputs.21.3.groupId=com.sun.xml.bind
 outputs.21.3.filename=jaxb-xjc-4.0.6-cyclonedx.json
 outputs.21.3.length=50071
-outputs.21.3.checksums.sha512=1c45a0c1f74b7945d7a00dc321ccd76d05c98e784aff681ad12940a4fd83a408a7f98788ee0131dc158888b91d09452ae3d9899a17d93d7cb0734dc3206f3f2e
+outputs.21.3.checksums.sha512=5b3d555d18adcb56a3b953f3f1333f6c008c958a880bbc695a1bb9c5bef4bb3f51e308966274da69d29c4aa83498b75c6c2772eed3d10e82d3c5a34c3b88579a
 
 outputs.21.4.groupId=com.sun.xml.bind
 outputs.21.4.filename=jaxb-xjc-4.0.6-sources.jar
-outputs.21.4.length=1450302
-outputs.21.4.checksums.sha512=83c85e3e240bf7bca2b3528b124744823f6f38b5560fb143d7910e2ccefef3bcf53abde34c227c1b52e04a51a2d7fe5eabb28e4385e2c53e4ef9aa7da8e94533
+outputs.21.4.length=1450304
+outputs.21.4.checksums.sha512=93e780aac430e4f5b281dc4a161a44b40c05784fc5f96e3efa454cf3c34f388b37d6cd33f7cd9ab69cc4d30168216ce440833c9177558a1ac003b222d24bec18
 
 outputs.22.coordinates=com.sun.xml.bind:jaxb-jxc
 
@@ -565,23 +565,23 @@ outputs.22.0.checksums.sha512=9419a1afc60fb1122ba05308131c03fa5ce068c833e16cb084
 
 outputs.22.1.groupId=com.sun.xml.bind
 outputs.22.1.filename=jaxb-jxc-4.0.6.jar
-outputs.22.1.length=119103
-outputs.22.1.checksums.sha512=35be894d17405f2bae66d6c91fd0c29acd3f0f880790195af303955ba66eeb01805065b867cd4a030e674c83e7f11bec1444747e55fc339950a38d523c0f5e83
+outputs.22.1.length=119104
+outputs.22.1.checksums.sha512=0c6d7c73844790fcc7c958241f12164b6254a06ecd6e7c37f55da66a117ce75622d2530311ae152c2f923f8cfe95011ffe4d7fd5d619c73fadce127fcf18f40d
 
 outputs.22.2.groupId=com.sun.xml.bind
 outputs.22.2.filename=jaxb-jxc-4.0.6-cyclonedx.xml
 outputs.22.2.length=51485
-outputs.22.2.checksums.sha512=b3481e5d324b7303dae1cb0676cb0f88e583776f1baf89cc890c7855a6df3f0e1d746fb22b85514eb624d334a1594d6b7128ba2cfec64f9057759bba9da1b343
+outputs.22.2.checksums.sha512=dd6366721e160e1daa03d7c8a6ba21d53060bb9654f22644186f778784f09ff7d0f45feddd57e7cb89c80ce3ba7255307b8af2d415c624e54486b64632047f61
 
 outputs.22.3.groupId=com.sun.xml.bind
 outputs.22.3.filename=jaxb-jxc-4.0.6-cyclonedx.json
 outputs.22.3.length=60510
-outputs.22.3.checksums.sha512=1fd7ae033ed68350f2f1acc19267ed9c04271de69b86dad72f14a691cd4c0430ab9358dd853f53129916d37e47deb13fa4c69ca5562b445c7dd8275cb088a41a
+outputs.22.3.checksums.sha512=05fb3e1b1b84c153e760f0feb46e6dc67daa40e85144219b29e420d613787d9168df4ef5d5ef7a7a9661e7e517393b9b7ac33c1ffebb0e170562405ce8b503fa
 
 outputs.22.4.groupId=com.sun.xml.bind
 outputs.22.4.filename=jaxb-jxc-4.0.6-sources.jar
-outputs.22.4.length=85995
-outputs.22.4.checksums.sha512=49ec261254f179d0c49ef198248a316a165cf7192727e5b2de3bafa308d0ba42cea9ae6db3505058dd6e4b4ef0f78e47bf7f22ec32491f8d6e7b1c0ac4b27278
+outputs.22.4.length=85996
+outputs.22.4.checksums.sha512=77de7e945a0b006642792d720c0966298f36b55e689283eba3df2ea95442b5b312c8089a65865d6d34b3773b21bedff857c2e1bc29597ae456587f6b72d2e580
 
 outputs.23.coordinates=com.sun.xml.bind.mvn:jaxb-docs-parent
 
@@ -619,8 +619,8 @@ outputs.24.2.checksums.sha512=44f388d8d00c057e82abc44bc93cab9b659acaa3b1f4450174
 
 outputs.24.3.groupId=com.sun.xml.bind
 outputs.24.3.filename=jaxb-release-documentation-4.0.6-docbook.zip
-outputs.24.3.length=594597
-outputs.24.3.checksums.sha512=97f80d435536ad3fa5b599ed2d75e513efc901a1c0644ba714f342411c4a1438b0ef71545e8c790ff039a787b2e817d91d853657aad28cea4efc3755b4362299
+outputs.24.3.length=594601
+outputs.24.3.checksums.sha512=e4e2d9c6f9fc24bdf55710ad3796e7bf0c5f4305a742b216e73ec4fbce2eca3e9408c492075bac71ad30dea2e5a335270e3515042fe0673a4757e6e2c046a8a7
 
 outputs.25.coordinates=com.sun.xml.bind:jaxb-samples
 
@@ -654,17 +654,17 @@ outputs.26.0.checksums.sha512=db7c7130c1bdcf89667ee277c2cb99705728d80a79fa23e2f8
 outputs.26.1.groupId=com.sun.xml.bind
 outputs.26.1.filename=jaxb-ri-4.0.6-cyclonedx.xml
 outputs.26.1.length=27193
-outputs.26.1.checksums.sha512=360bf32c4fa4c589b2e72e2ed864f509475a3c84c3faeefca8dfdcbd588f134370e4a71fb2c61484b74ab50b48d72c56bc9902f8f091c4a56836dcc7bf34562b
+outputs.26.1.checksums.sha512=42d48b0ab371cd49a160826aaae7c33bce126dd2804f33534c178d760778e90c05e009e3959de8f22dbde7ff7e95925c1ab58a9548c08d99acb2d27808ac3e7d
 
 outputs.26.2.groupId=com.sun.xml.bind
 outputs.26.2.filename=jaxb-ri-4.0.6-cyclonedx.json
 outputs.26.2.length=31897
-outputs.26.2.checksums.sha512=332746192989e6c343b6ee6766f6b84e56c2d3402e4ea09b44d555a9c3be45ff4f229c00e679b7195754614427393133cd0e60a2dd309136b969a883fa89cd65
+outputs.26.2.checksums.sha512=dfe6ff1a6dc2054ecb64cb6344199b00d4e1a587c9601a370708591a0ccc0089a65097386884500eb573a74deb02d45f6db7934df0d94391099990760e96d42f
 
 outputs.26.3.groupId=com.sun.xml.bind
 outputs.26.3.filename=jaxb-ri-4.0.6.zip
-outputs.26.3.length=3922719
-outputs.26.3.checksums.sha512=05a9423ae241131b3c6432307cc8bb7f41a5c295b218f6cc10dea27ef65d5895ac44cd9dde36063bc35a7850f2b186acdec9189f8d4b3a3673d0878da8c1feb7
+outputs.26.3.length=3922743
+outputs.26.3.checksums.sha512=57fad9b2634ae9868fd353367780d76934332b3453323f57c2fe736d3721b1e51db5621dcb4e5bce5cf1229519e449e037e597daea6d7c72ad8df4ec846edab8
 
 outputs.27.coordinates=com.sun.xml.bind.mvn:jaxb-osgi
 
@@ -692,23 +692,23 @@ outputs.28.0.checksums.sha512=6fbc36c31d7a2ed135f79cf37d772bd81ff0a0c5384b2259ee
 
 outputs.28.1.groupId=com.sun.xml.bind
 outputs.28.1.filename=jaxb-osgi-4.0.6.jar
-outputs.28.1.length=3533535
-outputs.28.1.checksums.sha512=6d96a0cde7104e8372063c804e3de8064a8841df919feef554925b84256fab64c92198464ad5018772ba1569cfd3dcb37b46132bfee7de1989bbe0ac3c6692de
+outputs.28.1.length=3533533
+outputs.28.1.checksums.sha512=74b6c577b9628c7e1a9d45bf43c48938d9bab799540730c4455304c4e9f155023a726a7bcd494c6358965a9c8b7c83107cb84d5a2423dd71e476589085ee6166
 
 outputs.28.2.groupId=com.sun.xml.bind
 outputs.28.2.filename=jaxb-osgi-4.0.6-cyclonedx.xml
 outputs.28.2.length=51996
-outputs.28.2.checksums.sha512=b3fda3158b5862559d4a2af83db6089c91cc402984d3e1cba570df3c63da792eead95800c7c3740ccca0157b4d72231ebfb1ec9d048b834b15f88e42c175325f
+outputs.28.2.checksums.sha512=79b88e2357ab329081f7d420d5823190dafedd9c5c144b3689918288113451c20898f9c1cd09d0b46c0d005bb3c9cc9a7c77a8e684ace00a8fca72df0548dbff
 
 outputs.28.3.groupId=com.sun.xml.bind
 outputs.28.3.filename=jaxb-osgi-4.0.6-cyclonedx.json
 outputs.28.3.length=60885
-outputs.28.3.checksums.sha512=b0c5eed8f555119a3b4e15c056ea56063e384a304351cd87964136775e7714d05078c7db222c4b173f7c1a575bca8afd6bbc4642ad3963539b29606208ca00c5
+outputs.28.3.checksums.sha512=e10edb3d2ecf489074ed08ea10b00cd6edf18641401f6c5e7de86391bd6d5f35c3e12d9347a1045149ecfc510efd26a34cae7266caab550bff4d814ab2c69d25
 
 outputs.28.4.groupId=com.sun.xml.bind
 outputs.28.4.filename=jaxb-osgi-4.0.6-sources.jar
-outputs.28.4.length=2690028
-outputs.28.4.checksums.sha512=25b67b37575c2731d97dc44fff795bbf0f47397e1d546b1a4a000160d0020688b3dacd30bf80ca13db957003c32224c478bdb83b941c8a648049167cc01ff635
+outputs.28.4.length=2690026
+outputs.28.4.checksums.sha512=e29112b82b53c3c01301c3c0367b472513bc691d125b3c5141f1027062cd1275806037140d8eb871cc72dfe39d67522f55667666eeaa3c4bf319ae59b018bce4
 
 outputs.29.coordinates=com.sun.xml.bind.mvn:tests
 
@@ -719,23 +719,23 @@ outputs.29.0.checksums.sha512=1531aaa2975c0f9e284c25bc4c2635737e5855f38606e293f6
 
 outputs.29.1.groupId=com.sun.xml.bind.mvn
 outputs.29.1.filename=tests-4.0.6.jar
-outputs.29.1.length=5127
-outputs.29.1.checksums.sha512=85ad305b8bc737acfed558166ddb7dd94ea236ad9afeaaae348332338f402b8102c24ac8957bc576fc3d42208bd6abb99bd30fb57f5d43c264f688f5a01a9a5a
+outputs.29.1.length=5128
+outputs.29.1.checksums.sha512=7f31f903072ee5f8da903c57963e1d909b728c36c9ce68ab46c29a9fe93526159d877155113d4df8915a3bf6bdca97aa5653dcb19c1b47327fa6ceb51f9ddc70
 
 outputs.29.2.groupId=com.sun.xml.bind.mvn
 outputs.29.2.filename=tests-4.0.6-cyclonedx.xml
 outputs.29.2.length=9665
-outputs.29.2.checksums.sha512=11424e61f6fd7d604641cdda7d5bb7438c9cad172fca62dbb7d3317ea58a2e9f78f41bfdb2b4ee445708a2d7abc88bc92e1f2dde8f30c6bd460461ee0a51469a
+outputs.29.2.checksums.sha512=58fdb5693b68af408477e0739f579b62bc5e9d663306fa9b3c4922c94d123906338ea06d596b5a4f31e0448c4e984c054687ae6f41f850ee46b101699cf6d107
 
 outputs.29.3.groupId=com.sun.xml.bind.mvn
 outputs.29.3.filename=tests-4.0.6-cyclonedx.json
 outputs.29.3.length=11368
-outputs.29.3.checksums.sha512=628a076c7c465d312cd11d611de51c7e85835ac543c05667a233d80a28e8842906fc46f6c2b20a981d6b0385fac9885c57511fc18d8ca519a90196a0eb7a2f05
+outputs.29.3.checksums.sha512=2cceabce07c5026f292cc7ac5c088fd2b4e543168f1217d1e50772e98ac9c00100f6975314d8ba76218710951f5de0b5a8d19f24fa49a81a0fd4512db8663a14
 
 outputs.29.4.groupId=com.sun.xml.bind.mvn
 outputs.29.4.filename=tests-4.0.6-sources.jar
-outputs.29.4.length=5127
-outputs.29.4.checksums.sha512=1ea5ec252fee3b2bec53229b57cda63f8a9057721f5183286962af8a672b869865c382796860cd4744c0a83b6e48382e2a5c496b0bb3e61876b3a7618eeeae34
+outputs.29.4.length=5128
+outputs.29.4.checksums.sha512=8479ecba6c2668c49e080fd52d38598aeb10d6f1a09f5fca8e0599d346db4a08cbbb7ce505c0c20ce559aa413664e822992e18f0d102c927b0b3b52f14fe29f7
 
 outputs.30.coordinates=com.sun.xml.bind.mvn:jaxb-www
 
