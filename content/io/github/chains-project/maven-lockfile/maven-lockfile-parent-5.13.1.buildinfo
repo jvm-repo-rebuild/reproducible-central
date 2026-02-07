@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=maven-lockfile-parent
+group-id=io.github.chains-project
+artifact-id=maven-lockfile-parent
+version=5.13.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/chains-project/maven-lockfile
+source.scm.tag=v5.13.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.aggregate.artifact-id=maven-lockfile
+
+# aggregated output
+
+outputs.0.coordinates=io.github.chains-project:maven-lockfile-parent
+
+outputs.0.0.groupId=io.github.chains-project
+outputs.0.0.filename=maven-lockfile-parent-5.13.1.pom
+outputs.0.0.length=8084
+outputs.0.0.checksums.sha512=4da83c345d57f6bc79d18e55ecec90e83b1594e3cc3fe20c7e59e95492f4c05c36767a5f12022b7738fc93c7a014dfc1e4f062af9e2f84a3cfca15385e68897a
+
+outputs.0.1.groupId=io.github.chains-project
+outputs.0.1.filename=maven-lockfile-parent-5.13.1-cyclonedx.xml
+outputs.0.1.length=3289
+outputs.0.1.checksums.sha512=302fccf0eb4fce5de0e757df6aeb5b38ed3c61fc7e2c04fd3e45bbe50b9314fa3799fa1b2783f34b0847867ca11a70c74db34738b5fe048f8757025c9987b3fb
+
+outputs.0.2.groupId=io.github.chains-project
+outputs.0.2.filename=maven-lockfile-parent-5.13.1-cyclonedx.json
+outputs.0.2.length=3639
+outputs.0.2.checksums.sha512=8017842f276f634c3adf439c6eeed8dfe8020e47524e96c7f106bfa22aaa8fa18eee1c0704ab5e31e618a97f20929f928e27bd5f9122b424faa8e6b31834e5c7
+
+outputs.1.coordinates=io.github.chains-project:maven-lockfile
+
+outputs.1.0.groupId=io.github.chains-project
+outputs.1.0.filename=maven-lockfile-5.13.1.pom
+outputs.1.0.length=10253
+outputs.1.0.checksums.sha512=197d8dc3ebdf818b6601b7c1352f7621ab07fd87fdfdc4f56658d80cc2943acfef6d0ca2c2852fd8dcada379bf8334c8d49fe3b2cdb3400f33d2f15920313321
+
+outputs.1.1.groupId=io.github.chains-project
+outputs.1.1.filename=maven-lockfile-5.13.1.jar
+outputs.1.1.length=90129
+outputs.1.1.checksums.sha512=27c9a7bd6d12b330866a45729fccc2558290f9f64bdd6377dd5af94acf95684d5360ae9cb3db528470ff1828f8efa8e1a0dc7b1824656cc8b3d3f975d2122204
+
+outputs.1.2.groupId=io.github.chains-project
+outputs.1.2.filename=maven-lockfile-5.13.1-cyclonedx.xml
+outputs.1.2.length=186685
+outputs.1.2.checksums.sha512=f3e0e762d061edaa2afdfa1e6bb663cbcb0f32e5d83b0a78889f45b32bb6e1d379c3dfcd429610f52f3714682d2055aa8fb7f78067cc2b9f6e4095db4365d648
+
+outputs.1.3.groupId=io.github.chains-project
+outputs.1.3.filename=maven-lockfile-5.13.1-cyclonedx.json
+outputs.1.3.length=203933
+outputs.1.3.checksums.sha512=ab5d224cea7d0656b50c5a41ca15d9698f3f6a10debbbd40c8f6a1976b0f61bb55dd7766f28ac281ebc813c0238a473d8389c61443ba90d952de5e0904da5e5d
+
+outputs.1.4.groupId=io.github.chains-project
+outputs.1.4.filename=maven-lockfile-5.13.1-sources.jar
+outputs.1.4.length=44046
+outputs.1.4.checksums.sha512=b98dbda5cdb94ea68056fb2636b888cbaf38d45cacecb17f9910a2ed7fd14871367baa0d227d70bdfdddcacafbfcb4ccaa5efc75262fd2f7b430c05efab96f8b
+
+outputs.1.5.groupId=io.github.chains-project
+outputs.1.5.filename=maven-lockfile-5.13.1-tests.jar
+outputs.1.5.length=25495
+outputs.1.5.checksums.sha512=a14dc8d6376b2c07c4a25f66616d91ad676484c4b822cc6e7f58649bbb42fa581ca915a6363bd07531a229e7b9ffe82a26e47f2ed9d8095082e089a211f43efe
