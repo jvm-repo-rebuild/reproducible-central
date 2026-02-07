@@ -18,4 +18,4 @@ execBefore="find . -type d -name target -exec \rm -rf {} \; ; find . -type d -ex
 buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
 
 #diffoscope=glassfish-main-aggregator-${version}.diffoscope
-issue=
+issue=https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179
