@@ -1,0 +1,17 @@
+groupId=org.eclipse.sisu
+artifactId=sisu-inject
+version=1.0.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-sisu/sisu-project.git
+gitTag=releases/${version}
+
+tool=mvn-3.9.12
+jdk=21
+newline=lf
+
+command="mvn clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drevision=${version}"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+issue=
