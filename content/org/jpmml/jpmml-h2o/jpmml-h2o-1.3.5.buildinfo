@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-H2O
+group-id=org.jpmml
+artifact-id=jpmml-h2o
+version=1.3.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-h2o.git
+source.scm.tag=1.3.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-h2o-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-h2o
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-h2o-1.3.5.pom
+outputs.0.0.length=4747
+outputs.0.0.checksums.sha512=f2dc4a6cd56b10747bda13c62dc56f4d246909f65d8ce61ef880fffa42cfd3b089514e317876a5a15f26aa654c176aad8338e93cf9adeabd338a63cfd22c76c3
+
+outputs.1.coordinates=org.jpmml:pmml-h2o
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-h2o-1.3.5.pom
+outputs.1.0.length=1771
+outputs.1.0.checksums.sha512=22c334e2dede753e9799a2dc1512d6f1af26709ed163a15df5d1f25be33b38fb95f6b36bfb0dc1a8dc9098fe72ddd6660790098a7ba90cfacb6c5bd915c26079
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-h2o-1.3.5.jar
+outputs.1.1.length=60111
+outputs.1.1.checksums.sha512=57a8b153169f346b5d17abe707035a245212802e4c31be930803fdadc297bc5b8cac43072818e903c0a448a9c1f617c896b5d14bc7e05cd1b451ced2c9b7a5ed
+
+outputs.2.coordinates=org.jpmml:pmml-h2o-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-h2o-example-1.3.5.pom
+outputs.2.0.length=2118
+outputs.2.0.checksums.sha512=1833e5f521fa1cdbfa012fc36d2fde09d1128cc45159de07497deda77e5b63436880057e37f364c71812d2440c3300ce9e6ea59939294b60e32bbca75594f0b1
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-h2o-example-1.3.5.jar
+outputs.2.1.length=4846
+outputs.2.1.checksums.sha512=4ec2606987c8d2c3363ea8331dd7ef76dad384a15d9b368c196bb4727ccc73de935d82b1cb44015212353cf2884124843185dde9ba2364d1fd11987062719209
