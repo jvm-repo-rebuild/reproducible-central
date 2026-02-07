@@ -1,4 +1,4 @@
-groupId=com.sun.xml.bind.mvn
+groupId=org.glassfish.jaxb
 artifactId=jaxb-parent
 version=4.0.6
 

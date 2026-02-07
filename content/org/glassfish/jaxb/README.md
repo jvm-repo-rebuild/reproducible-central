@@ -1,9 +1,9 @@
-[com.sun.xml.bind.mvn:jaxb-parent](https://central.sonatype.com/artifact/com.sun.xml.bind.mvn/jaxb-parent/versions) RB check
+[org.glassfish.jaxb:jaxb-parent](https://central.sonatype.com/artifact/org.glassfish.jaxb/jaxb-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.sun.xml.bind.mvn:jaxb-parent](https://central.sonatype.com/artifact/com.sun.xml.bind.mvn/jaxb-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/sun/xml/bind/mvn/jaxb/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/sun/xml/bind/mvn/jaxb/README.md)
+## Project: [org.glassfish.jaxb:jaxb-parent](https://central.sonatype.com/artifact/org.glassfish.jaxb/jaxb-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/jaxb/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/jaxb/README.md)
 
 Source code: [https://github.com/eclipse-ee4j/jaxb-ri.git](https://github.com/eclipse-ee4j/jaxb-ri.git)
 
@@ -42,13 +42,13 @@ Source code: [https://github.com/eclipse-ee4j/jaxb-ri.git](https://github.com/ec
 * [org.glassfish.jaxb:xsom](https://central.sonatype.com/artifact/org.glassfish.jaxb/xsom/overview)
 </details>
 
-rebuilding **1 releases** of com.sun.xml.bind.mvn:jaxb-parent:
+rebuilding **1 releases** of org.glassfish.jaxb:jaxb-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.6](https://central.sonatype.com/artifact/com.sun.xml.bind.mvn/jaxb-parent/4.0.6/pom) | [mvn jdk11](jaxb-4.0.6.buildspec) | [result](jaxb-parent-4.0.6.buildinfo): [75 :white_check_mark:  58 :warning:](jaxb-parent-4.0.6.buildcompare) [:mag:](jaxb-parent-4.0.6.diffoscope) | 58 :no_entry_sign: | 23M |
+| [4.0.6](https://central.sonatype.com/artifact/org.glassfish.jaxb/jaxb-parent/4.0.6/pom) | [mvn jdk11](jaxb-4.0.6.buildspec) | [result](jaxb-parent-4.0.6.buildinfo): [75 :white_check_mark:  58 :warning:](jaxb-parent-4.0.6.buildcompare) [:mag:](jaxb-parent-4.0.6.diffoscope) | 58 :no_entry_sign: | 23M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
