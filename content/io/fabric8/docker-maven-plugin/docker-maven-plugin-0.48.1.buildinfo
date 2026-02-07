@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=docker-maven-plugin
+group-id=io.fabric8
+artifact-id=docker-maven-plugin
+version=0.48.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/fabric8io/docker-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.groupId=io.fabric8
+outputs.0.filename=docker-maven-plugin-0.48.1.pom
+outputs.0.length=23067
+outputs.0.checksums.sha512=4b5fdbd8ce4612900d8c38b8bcd9c21977e4903ddc565a26dfb422559e79c902c0ee0821ddb70ae5c8c3ad3bd9dd6910aaba1c244cad08c831f7f3a60c57d5a5
+
+outputs.1.groupId=io.fabric8
+outputs.1.filename=docker-maven-plugin-0.48.1.jar
+outputs.1.length=741845
+outputs.1.checksums.sha512=fb57a7378d7ec3548f6f978f74f4e8dc4863cc05ed405c2612b46f0d2d34fc9da2262c5cade1180e748ac5f7af6a020a88d8d577fb90c48d66a98c2fc29d604b
+
+outputs.2.groupId=io.fabric8
+outputs.2.filename=docker-maven-plugin-0.48.1-sources.jar
+outputs.2.length=329460
+outputs.2.checksums.sha512=bc52c3f77bdd0b79cb53c65af6760965f80c8e9fa73dd211b1966789d30c9bffb0aaeedbea932a0f6d846f724634ef9d42bb859d10a3e07399554c9566b108c2
