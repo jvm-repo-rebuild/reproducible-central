@@ -1,0 +1,26 @@
+groupId=com.sun.xml.bind.mvn
+artifactId=jaxb-parent
+version=4.0.6
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/jaxb-ri.git
+gitTag=${version}-RI
+
+tool=mvn-3.9.11
+jdk=11
+newline=lf
+# crlf for Windows, lf for Unix
+#newlineGit=crlf
+#umask=022
+#timezone="Etc/GMT"
+#locale="en_US"
+
+command="mvn clean package -f jaxb-ri/pom.xml -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+#execBefore=
+#execAfter=
+
+buildinfo=jaxb-ri/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
