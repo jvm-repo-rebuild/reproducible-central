@@ -1,0 +1,9 @@
+version=351
+ok=4
+ko=0
+ignored=0
+okFiles="airbase-root-351.pom airbase-policy-351.pom airbase-policy-351.jar airbase-351.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
