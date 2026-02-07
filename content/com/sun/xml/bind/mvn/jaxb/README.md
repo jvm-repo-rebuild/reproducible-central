@@ -49,6 +49,6 @@ rebuilding **1 releases** of com.sun.xml.bind.mvn:jaxb-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.6](https://central.sonatype.com/artifact/com.sun.xml.bind.mvn/jaxb-parent/4.0.6/pom) | [mvn jdk11](jaxb-4.0.6.buildspec) | [result](jaxb-parent-4.0.6.buildinfo): [75 :white_check_mark:  58 :warning:](jaxb-parent-4.0.6.buildcompare) | 58 :no_entry_sign: | 23M |
+| [4.0.6](https://central.sonatype.com/artifact/com.sun.xml.bind.mvn/jaxb-parent/4.0.6/pom) | [mvn jdk11](jaxb-4.0.6.buildspec) | [result](jaxb-parent-4.0.6.buildinfo): [75 :white_check_mark:  58 :warning:](jaxb-parent-4.0.6.buildcompare) [:mag:](jaxb-parent-4.0.6.diffoscope) | 58 :no_entry_sign: | 23M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
