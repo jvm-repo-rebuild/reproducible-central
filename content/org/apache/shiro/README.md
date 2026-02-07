@@ -49,14 +49,14 @@ Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shi
 * [org.apache.shiro:shiro-web](https://central.sonatype.com/artifact/org.apache.shiro/shiro-web/overview)
 </details>
 
-rebuilding **18 releases** of org.apache.shiro:shiro-root:
+rebuilding **19 releases** of org.apache.shiro:shiro-root:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.1.0/pom) | | | |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.1.0/pom) | [mvn jdk21](shiro-2.1.0.buildspec) | [result](shiro-root-2.1.0.buildinfo): [99 :white_check_mark:  1 :warning:](shiro-root-2.1.0.buildcompare) | 1 :rotating_light: | 17M |
 | [2.0.6](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.6/pom) | [mvn jdk21](shiro-2.0.6.buildspec) | [result](shiro-root-2.0.6.buildinfo): [99 :white_check_mark:  1 :warning:](shiro-root-2.0.6.buildcompare) | 1 :rotating_light: | 17M |
 | [2.0.5](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.5/pom) | [mvn jdk24](shiro-2.0.5.buildspec) | [result](shiro-root-2.0.5.buildinfo): [134 :white_check_mark:  1 :warning:](shiro-root-2.0.5.buildcompare) | 1 :rotating_light: | 18M |
 | [2.0.4](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.4/pom) | [mvn jdk23](shiro-2.0.4.buildspec) | [result](shiro-root-2.0.4.buildinfo): [135 :white_check_mark: ](shiro-root-2.0.4.buildcompare) | | 19M |
