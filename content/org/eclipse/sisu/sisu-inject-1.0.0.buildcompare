@@ -1,0 +1,9 @@
+version=1.0.0
+ok=11
+ko=0
+ignored=0
+okFiles="sisu-inject-1.0.0.pom org.eclipse.sisu.inject-1.0.0.pom org.eclipse.sisu.inject-1.0.0.jar org.eclipse.sisu.plexus-1.0.0.pom org.eclipse.sisu.plexus-1.0.0.jar sisu-maven-plugin-1.0.0.pom sisu-maven-plugin-1.0.0.jar org.eclipse.sisu.inject.extender-1.0.0.pom org.eclipse.sisu.inject.extender-1.0.0.jar org.eclipse.sisu.plexus.extender-1.0.0.pom org.eclipse.sisu.plexus.extender-1.0.0.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
