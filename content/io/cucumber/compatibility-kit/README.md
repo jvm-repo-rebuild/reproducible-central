@@ -14,6 +14,7 @@ rebuilding **5 releases** of io.cucumber:compatibility-kit:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [29.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.0.0/pom) | | | |
 | [28.0.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/28.0.1/pom) | [mvn jdk21](compatibility-kit-28.0.1.buildspec) | [result](compatibility-kit-28.0.1.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-28.0.1.buildcompare) | 2 :no_entry_sign: | 13K |
 | [28.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/28.0.0/pom) | [mvn jdk21](compatibility-kit-28.0.0.buildspec) | [result](compatibility-kit-28.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-28.0.0.buildcompare) | 2 :no_entry_sign: | 13K |
 | [27.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/27.0.0/pom) | [mvn jdk17](compatibility-kit-27.0.0.buildspec) | [result](compatibility-kit-27.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-27.0.0.buildcompare) | 2 :no_entry_sign: | 11K |

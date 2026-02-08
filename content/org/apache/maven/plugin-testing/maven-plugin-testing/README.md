@@ -25,6 +25,7 @@ rebuilding **7 releases** of org.apache.maven.plugin-testing:maven-plugin-testin
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-1/pom) | [mvn jdk21](maven-plugin-testing-4.0.0-beta-1.buildspec) | [result](maven-plugin-testing-4.0.0-beta-1.buildinfo): [9 :white_check_mark: ](maven-plugin-testing-4.0.0-beta-1.buildcompare) | | 903K |
 | [4.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-alpha-2/pom) | [mvn jdk17](maven-plugin-testing-4.0.0-alpha-2.buildspec) | [result](maven-plugin-testing-4.0.0-alpha-2.buildinfo): [10 :white_check_mark: ](maven-plugin-testing-4.0.0-alpha-2.buildcompare) | | 1001K |
 | [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-alpha-1/pom) | [mvn jdk17](maven-plugin-testing-4.0.0-alpha-1.buildspec) | [result](maven-plugin-testing-4.0.0-alpha-1.buildinfo): [6 :white_check_mark: ](maven-plugin-testing-4.0.0-alpha-1.buildcompare) | | 256K |
+| [3.5.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/3.5.1/pom) | | | |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/3.5.0/pom) | [mvn jdk25](maven-plugin-testing-3.5.0.buildspec) | [result](maven-plugin-testing-3.5.0.buildinfo): [9 :white_check_mark: ](maven-plugin-testing-3.5.0.buildcompare) | | 834K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
