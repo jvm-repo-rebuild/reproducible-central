@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Plugin Testing
+group-id=org.apache.maven.plugin-testing
+artifact-id=maven-plugin-testing
+version=3.5.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-plugin-testing.git
+source.scm.tag=maven-plugin-testing-3.5.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.2
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=maven-plugin-testing-harness
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing
+
+outputs.0.0.groupId=org.apache.maven.plugin-testing
+outputs.0.0.filename=maven-plugin-testing-3.5.1.pom
+outputs.0.0.length=2887
+outputs.0.0.checksums.sha512=5a2146d4da38c4aa1d175c4c36c48c1a49745c560f0b763df6781aaba8024d181a0db6a8066f877d203774e359ff30c76b2579c09a26f082a794318f4678c3da
+
+outputs.0.1.groupId=org.apache.maven.plugin-testing
+outputs.0.1.filename=maven-plugin-testing-3.5.1-source-release.zip
+outputs.0.1.length=122944
+outputs.0.1.checksums.sha512=21887d5850a3f8d79314d7b3aac5111e56d6be7674047ad9963f75c238dc40dc2dafdec697fe1cb9714c223f25ca8b0c7915189cf92ef4196b7a6e6a4b2639a5
+
+outputs.0.2.groupId=org.apache.maven.plugin-testing
+outputs.0.2.filename=maven-plugin-testing-3.5.1-cyclonedx.xml
+outputs.0.2.length=140593
+outputs.0.2.checksums.sha512=aba874737c962b5a0a60f4e915da323db547934d74fe1e1ce12515996ac1d7a0afbfe3e4c2976299982f184a3b52e7856000919841d415b2e3518071c9f8d4aa
+
+outputs.0.3.groupId=org.apache.maven.plugin-testing
+outputs.0.3.filename=maven-plugin-testing-3.5.1-cyclonedx.json
+outputs.0.3.length=153660
+outputs.0.3.checksums.sha512=dfd0d8f79497c72ad19e14cf22609e0522443bff39bcef9f14ad5e0ec9078905a1953e7a4c2ea1da85e6533d188c354fcd2eb19351d5488adc9d82b27f2d5887
+
+outputs.1.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing-harness
+
+outputs.1.0.groupId=org.apache.maven.plugin-testing
+outputs.1.0.filename=maven-plugin-testing-harness-3.5.1.pom
+outputs.1.0.length=5704
+outputs.1.0.checksums.sha512=fc7a2c8d4bf5a8fec05f4719d8ce187f9d81431afda54600279234e142bff5472cf980e91bdfa4c69e575eadec000f73a7830e7fb6b9300afc7887b0f20da3fd
+
+outputs.1.1.groupId=org.apache.maven.plugin-testing
+outputs.1.1.filename=maven-plugin-testing-harness-3.5.1.jar
+outputs.1.1.length=71028
+outputs.1.1.checksums.sha512=6016a6ce1e9acf5d882710910297255a247390c43d8453779cf2818f7fadb3883598bb649b210dddd350b3ef7b9361e5c8d7b44883cf429f41eda58beae0390a
+
+outputs.1.2.groupId=org.apache.maven.plugin-testing
+outputs.1.2.filename=maven-plugin-testing-harness-3.5.1-sources.jar
+outputs.1.2.length=57783
+outputs.1.2.checksums.sha512=01fca8b3661c3913a79ed987731832e7a4cd90741842363576c1db3aad9c21128aaf61262de0f697dc6f9eefb49222c016c9f50448ecfac413c876b923aafa1e
+
+outputs.1.3.groupId=org.apache.maven.plugin-testing
+outputs.1.3.filename=maven-plugin-testing-harness-3.5.1-cyclonedx.xml
+outputs.1.3.length=138729
+outputs.1.3.checksums.sha512=f0f75246b62eaff34252c8bce9d716a080737ea90538137bfd9c3bc7211bfc64823f65fef3bf2fe6321d3bfabf16ca2025cbf333fa62ffa57f9babca2c9a2ae6
+
+outputs.1.4.groupId=org.apache.maven.plugin-testing
+outputs.1.4.filename=maven-plugin-testing-harness-3.5.1-cyclonedx.json
+outputs.1.4.length=151848
+outputs.1.4.checksums.sha512=1bb48d824499686577907113311dd6995cc9a0fa3913d3402d862289af925bf262166d8a4ff155d1146ccb833449e9f8c639a42962084409ef4be1c4d0aba87c
