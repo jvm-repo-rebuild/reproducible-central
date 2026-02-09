@@ -9,7 +9,7 @@ display=${groupId}:${artifactId}
 
 # Source code
 gitRepo=https://github.com/hibernate/hibernate-orm.git
-gitTag=7.1.11
+gitTag=$(echo ${version} | sed -e 's/.Final//')
 
 # Rebuild environment prerequisites
 tool=gradle
