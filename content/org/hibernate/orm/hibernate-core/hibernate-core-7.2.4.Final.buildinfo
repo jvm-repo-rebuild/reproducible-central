@@ -8,374 +8,374 @@ os.name=lf
 
 outputs.1.coordinates=org.hibernate:hibernate-agroal
 
-outputs.1.0.filename=hibernate-agroal-7.2.2.Final.pom
+outputs.1.0.filename=hibernate-agroal-7.2.4.Final.pom
 outputs.1.0.length=1956
-outputs.1.0.checksums.sha512=2cefa3d4efaf47c34506d9520a86179e84fac93234ab066a5cc4607af70efd3da15adf4271aff386e421b0405905168312beaa7f61e11bc80d5297cf79f9ad1a
+outputs.1.0.checksums.sha512=c5db94cd2e5592051d92e62978b08296436a094b1dd08c41e044d5123e3ceb35a59c426ad720c699f823322a701b0d250f682099da46330eabcab27c744fd5b6
 
 
 outputs.2.coordinates=org.hibernate:hibernate-ant
 
-outputs.2.0.filename=hibernate-ant-7.2.2.Final.pom
+outputs.2.0.filename=hibernate-ant-7.2.4.Final.pom
 outputs.2.0.length=1941
-outputs.2.0.checksums.sha512=3afd6b1b00a01db7da156969447b9df4dc2ee0471d65b2c61141722bb7e8970b5346b92dc510a4b2ddb359748d97c759bf7b0dbaa266216aac93d3b27866ab18
+outputs.2.0.checksums.sha512=0f1bd9ea4905a0584a4ee04e77049e08e42d1af37e9d749e0045f94678801354d80cb491cb8b0591c9f8bbec6146e46d67ce1f5488b51b90d81ffde39ea4652b
 
 
 outputs.3.coordinates=org.hibernate:hibernate-c3p0
 
-outputs.3.0.filename=hibernate-c3p0-7.2.2.Final.pom
+outputs.3.0.filename=hibernate-c3p0-7.2.4.Final.pom
 outputs.3.0.length=1946
-outputs.3.0.checksums.sha512=b7b8c6db78dec40c253200f9debbb4483d5db7b360f84c4bc96cc590aec754401e2cb49c141e237463b6b7e63dd61c97d6b50da7105bb485f57650cf3fd2940f
+outputs.3.0.checksums.sha512=1c69b9dece9056640a70b750a9c60299a51bd3d75435f1211ceafb8882e1061c1535f45c372a0c007c2373c8d009c2c183a7d7f8cf404ca2f44881082181106a
 
 
 outputs.4.coordinates=org.hibernate:hibernate-community-dialects
 
-outputs.4.0.filename=hibernate-community-dialects-7.2.2.Final.pom
+outputs.4.0.filename=hibernate-community-dialects-7.2.4.Final.pom
 outputs.4.0.length=2016
-outputs.4.0.checksums.sha512=efd8177a1aa30f994b34930622a0e8518eb43d28742a2a8faaf05f7006d342ccf300ca0129d45c49a8c9c29290b8fed0dedaad316aa968fa1cf820f1671e6bad
+outputs.4.0.checksums.sha512=36c872b203b2c35229a6a757082a0dd9a42468c968c51e06106d588b989ebabe1cf8ccb39d610335199322906714522b831462ff704baf352bc9e865284d9612
 
 
 outputs.5.coordinates=org.hibernate:hibernate-core
 
-outputs.5.0.filename=hibernate-core-7.2.2.Final.pom
+outputs.5.0.filename=hibernate-core-7.2.4.Final.pom
 outputs.5.0.length=1946
-outputs.5.0.checksums.sha512=d0d996951e1557c24192ad88dad328a8cdc66ed679ca0f158ea1fea965e5a5e76cfeacdad26041703fbca22aa2167fcc3e2637367b987f100cf162878b51ac6d
+outputs.5.0.checksums.sha512=0dfe1ff9a09c4a63248742bc070ee9478bbe440c1785b2f6848df525b4af25e53860153722ee21e39d5df80cf7394240f35d7b7a4660df4c1e18bd9780a9be30
 
 
 outputs.6.coordinates=org.hibernate:hibernate-envers
 
-outputs.6.0.filename=hibernate-envers-7.2.2.Final.pom
+outputs.6.0.filename=hibernate-envers-7.2.4.Final.pom
 outputs.6.0.length=1956
-outputs.6.0.checksums.sha512=b49f189d74af441ca9392dedece637a8adc6dc5501af17c2b437ef16b7cb1866529ab9df241326d3a11438835a88ae026e5b1c58a8153d1a9bf4c5f580106b38
+outputs.6.0.checksums.sha512=a4c4daf3863abb7a370db707946deb90c764a500de9fe27c499cd38c406d063ba898e8696bee2dee7070a21b329c4322a9bc17bc9a85812010098486d1cddfe7
 
 
 outputs.7.coordinates=org.hibernate:hibernate-graalvm
 
-outputs.7.0.filename=hibernate-graalvm-7.2.2.Final.pom
+outputs.7.0.filename=hibernate-graalvm-7.2.4.Final.pom
 outputs.7.0.length=1961
-outputs.7.0.checksums.sha512=81ac13db9effeb4277415783257a68766eb35cf22fc533557c6dbc56de2a208b6d068818ac244fc6eedefb41c32baf1950b1d69bf53a3fec64b4ed5cba01ddc8
+outputs.7.0.checksums.sha512=0de40f643925e0250c1201f1a09556e9ca91f8c8358134b473c863b8426b45a3d852ec48b2b5c71fca7a6c40ce670de2a637cd6c7dac344de9a451b34a1112b4
 
 
 outputs.8.coordinates=org.hibernate:hibernate-hikaricp
 
-outputs.8.0.filename=hibernate-hikaricp-7.2.2.Final.pom
+outputs.8.0.filename=hibernate-hikaricp-7.2.4.Final.pom
 outputs.8.0.length=1966
-outputs.8.0.checksums.sha512=d3a1e1da14ed6168060be0cf0f2b15cd62d82a9e2b1549d6b11be817dda15f95d506bf981dc77c8f5cd93b2debb0c26f549fda379dce0c14bef942aad4852593
+outputs.8.0.checksums.sha512=a1dc62adaf36b44984245c46d92d7728fde4d9f3e5d9869a8236b247c032b420d04e18426be321135da902f664f3d3975db957c60cedc2ea3f9f7e15a6e74ecb
 
 
 outputs.9.coordinates=org.hibernate:hibernate-jcache
 
-outputs.9.0.filename=hibernate-jcache-7.2.2.Final.pom
+outputs.9.0.filename=hibernate-jcache-7.2.4.Final.pom
 outputs.9.0.length=1956
-outputs.9.0.checksums.sha512=05a179730f0977906c5b31f975033b1dff0bb3c77b834dd8522a061bfd268becc06799ee7b8d298aa371c5b14a3f667bd91fcda74ce82b7fce178fd2c631412b
+outputs.9.0.checksums.sha512=6d28d49a9d95717d400dcf04828c5104b92d7511b6f86aa5ab274339a19e881f82399205fc2406d3640056602a1c6ce0db8539ba8065ec08dba7d2805fc34aa4
 
 
 outputs.10.coordinates=org.hibernate:hibernate-jfr
 
-outputs.10.0.filename=hibernate-jfr-7.2.2.Final.pom
+outputs.10.0.filename=hibernate-jfr-7.2.4.Final.pom
 outputs.10.0.length=1941
-outputs.10.0.checksums.sha512=41424e36b5847ff3b0668534cda157d09a0581203af8d719dbefc06a8c7632e53f71490db39f7e16b4ecdbd7d3f9675011d60946544dd227582fb31c01b71c02
+outputs.10.0.checksums.sha512=19f614054ed59b728025227f9d1c23290ad8b36d679a09961b5d5b51f296bf20ffb38121f423d16422706722488812f767302a29ba41eb38728e2fdcf3b6be7c
 
 
 outputs.11.coordinates=org.hibernate:hibernate-jpamodelgen
 
-outputs.11.0.filename=hibernate-jpamodelgen-7.2.2.Final.pom
+outputs.11.0.filename=hibernate-jpamodelgen-7.2.4.Final.pom
 outputs.11.0.length=2010
-outputs.11.0.checksums.sha512=c92946afee0eecc48c1c81459760ffe9a8bf5b28d29735814affe4acf6fa72df9d52799318be33dee9a1a2609f48b0525ba863e7077b5b6a5f27161a3a57dbae
+outputs.11.0.checksums.sha512=0d9761412555b9e2c222f901d3093c3a2c6a60c9139055186806eb4e73c85887d8981a9e5460fd295459a520906f1320001b456906cd1a19ee91e5e9f648ab49
 
 
 outputs.12.coordinates=org.hibernate:hibernate-micrometer
 
-outputs.12.0.filename=hibernate-micrometer-7.2.2.Final.pom
+outputs.12.0.filename=hibernate-micrometer-7.2.4.Final.pom
 outputs.12.0.length=1976
-outputs.12.0.checksums.sha512=220050c9c0d1222517ec9b1dabc560dfb3218463fe06e1980b3f6ffa91a37d6f54fce2eb984b3e90f77e07347d34cadf9cf88d5e28ef742f8dcf46e3c0c0fbb4
+outputs.12.0.checksums.sha512=62257bba37c3d418f5e11474cb01f02b4fd3a223b50a7ce9b4f17125c166fbc2586b6ef372030beda74e281d6405bd441fde149c14f65af06ca6745a47f56136
 
 
 outputs.13.coordinates=org.hibernate:hibernate-spatial
 
-outputs.13.0.filename=hibernate-spatial-7.2.2.Final.pom
+outputs.13.0.filename=hibernate-spatial-7.2.4.Final.pom
 outputs.13.0.length=1961
-outputs.13.0.checksums.sha512=2d15c5145c3594b547602ea1f25496746308d3215cc0cae3996fd1ef46fe6adf90ec9bd180d0a987966f235ab631cb1ce24e5c4f463543b7956a3e6e111432e7
+outputs.13.0.checksums.sha512=6ebea9df0fc7ef7cff42cca3888929b3f82166bc2ebb08535eb0904bc78c70319aa18d5e395fc6b3b97ee77f9dcb24e6ce236ce0b3c0d5fdea311e166a6109e9
 
 
 outputs.14.coordinates=org.hibernate:hibernate-testing
 
-outputs.14.0.filename=hibernate-testing-7.2.2.Final.pom
+outputs.14.0.filename=hibernate-testing-7.2.4.Final.pom
 outputs.14.0.length=1961
-outputs.14.0.checksums.sha512=f2df2d29f60dca3b83b8ebf8a714a8c3395e5669583006b512c5acc2495f638d630b3dc5540015d50ff96388e2152799606045cf47f0fdf6af396ebcbb7ca3ec
+outputs.14.0.checksums.sha512=a7190572a615e8b9aecf44ea2acad1db52ed9e312889620a27875a3780d052dc45bb1d55442c1ba7d6876e03d0e149873adf6a75ea957fe404c550fc918aa763
 
 
 outputs.15.coordinates=org.hibernate:hibernate-vector
 
-outputs.15.0.filename=hibernate-vector-7.2.2.Final.pom
+outputs.15.0.filename=hibernate-vector-7.2.4.Final.pom
 outputs.15.0.length=1956
-outputs.15.0.checksums.sha512=673c8db8563fbfce4be7a828281b3baa18b7aa9dc1e977b9ab977137067910e73ec28e16f97057fe42c5b7c7fd756d1ed0ad346199e7348769dfd4752155fcff
+outputs.15.0.checksums.sha512=e34ea057d0016921800ccf318c7ff1a9e8b32d17da9044c999889e03c3fb9d091ba0ab8956a6aadb231d97c0f2270f6641b12e2ef02df14365cf9116bb769bc9
 
 
 outputs.16.coordinates=org.hibernate.orm:hibernate-agroal
 
-outputs.16.0.filename=hibernate-agroal-7.2.2.Final-sources.jar
+outputs.16.0.filename=hibernate-agroal-7.2.4.Final-sources.jar
 outputs.16.0.length=5714
-outputs.16.0.checksums.sha512=c326d98eef678567fc53bd8667e94c350fe29055c9f687b5b333d545fe615f2fde8f2fe9573cb36156637b2fe4d2b0e5e3176ec838811c3a2d801511692ef6c5
+outputs.16.0.checksums.sha512=a5bcd08e1b00f2e5fe0107e3837fe3bad4c8593a58ef3de1c59eb63fae734f76d2e442a55707177b1be5c034103cf1c7addaaea522e12682fb4468455b0e85db
 
-outputs.16.1.filename=hibernate-agroal-7.2.2.Final.jar
-outputs.16.1.length=12872
-outputs.16.1.checksums.sha512=e8e5851ec2ef87b9629225009c7a4666ab89385193be0373f91b66900a8db20f8b4500230de28f67b52b623523bba9b65886bdfabe4f2a2e6ab69e03f4c18215
+outputs.16.1.filename=hibernate-agroal-7.2.4.Final.jar
+outputs.16.1.length=12873
+outputs.16.1.checksums.sha512=74dd77f9f0993bc373a098ebeac85c5403799d21afded5f8600867529ccebaf4efcb271429ac2f5b9cfdcf8af136addc1db42cc80206d3b769ecded4c66af68e
 
-outputs.16.2.filename=hibernate-agroal-7.2.2.Final.pom
+outputs.16.2.filename=hibernate-agroal-7.2.4.Final.pom
 outputs.16.2.length=3314
-outputs.16.2.checksums.sha512=04cadbf64940ec701189114f31c992564b7bce3318bbe210f6886cb16058c60d0418dadf4bac1b9cdb23933290bcef8220d213e78deb0dc832acbe260bdf936e
+outputs.16.2.checksums.sha512=bf76a7cbeef84c24585a1543cc0e2e697c47df7dd90161b1c02a0b73defcb0ff8da5746b3f7b0ea7cb1d80418d45ae44b2fcb3b2390a9ade45da0d7ac7e1d18a
 
 
 outputs.17.coordinates=org.hibernate.orm:hibernate-ant
 
-outputs.17.0.filename=hibernate-ant-7.2.2.Final-sources.jar
-outputs.17.0.length=34950
-outputs.17.0.checksums.sha512=824f1dfeb34ac845b032329c629d206a150d22b23f7dbdb8609986352055c1a32f83670211a9a06ce90f86c64e4f7d7d1529b0baabe91a66fb6e6aff2dc45ea6
+outputs.17.0.filename=hibernate-ant-7.2.4.Final-sources.jar
+outputs.17.0.length=34951
+outputs.17.0.checksums.sha512=012df56f53d426187216171403fb77b0b4c2e9120f20fa0f483cb1b86b078d2a026468bbee686c10c4dcb608edc584dd37216554073d77c337b283c1f80634ef
 
-outputs.17.1.filename=hibernate-ant-7.2.2.Final.jar
-outputs.17.1.length=70899
-outputs.17.1.checksums.sha512=8c08056a0703115c7e7473d64d9e985230e399a33c16ef8b3e5097b990485d6a318d513837caf292327c46dfec049025cd8c72304466d24375214bf90aa694af
+outputs.17.1.filename=hibernate-ant-7.2.4.Final.jar
+outputs.17.1.length=70900
+outputs.17.1.checksums.sha512=6f20d24b74bd714591efcb0c8ddaef79a887d00ca9168ea8b924955732784d0e9e94e97f705632e764efbbcb354f0bfc5088fa67176961f943419e3a33c841d0
 
-outputs.17.2.filename=hibernate-ant-7.2.2.Final.pom
+outputs.17.2.filename=hibernate-ant-7.2.4.Final.pom
 outputs.17.2.length=2642
-outputs.17.2.checksums.sha512=57421099900b612f7b952b92a06e7eb285e08ffabc31a9ed40750d037112939c871f0b2c777a8ce7550a98b68377d9e62ba7635aeff0a9a737b9b6726d27ad5b
+outputs.17.2.checksums.sha512=d999fe6c7bf25c5489390781f97ef550324953458ade28218c5ac54a7d830533ec24b88a2913da970291d02049ec19bdc0a24f731dfc5b0fe8b64f6783ce5513
 
 
 outputs.18.coordinates=org.hibernate.orm:hibernate-c3p0
 
-outputs.18.0.filename=hibernate-c3p0-7.2.2.Final-sources.jar
-outputs.18.0.length=7511
-outputs.18.0.checksums.sha512=c78afd7b02ab6484cd751130bb249be2fbd2bfaea1bb387e4fd74dd43d72c2bc5da4fadf003578e65cb7ff3618f70b317acee6e5c0329515902fcafb05dc08c7
+outputs.18.0.filename=hibernate-c3p0-7.2.4.Final-sources.jar
+outputs.18.0.length=7534
+outputs.18.0.checksums.sha512=4774139a1c38bc2fd07b0830474571ab6c8f77e0c456dd12915634568b563d1b443f9794e8c7249af7b8513890dde2c808f00ceab76984f0b6887a629fdaa692
 
-outputs.18.1.filename=hibernate-c3p0-7.2.2.Final.jar
-outputs.18.1.length=17946
-outputs.18.1.checksums.sha512=90e2e0434f03c322b4f7eb0bddf7d50d150ca60a9ab26d8b07bc133afa31efcab340f05eb25fb54d8f9f90e02c938c84f01866b9ebde6a17de4d3c45b35ba460
+outputs.18.1.filename=hibernate-c3p0-7.2.4.Final.jar
+outputs.18.1.length=17990
+outputs.18.1.checksums.sha512=ea873701a9cce3c2f7a11188be37128e26fb0d7d880b9adb30a9112bad542715ab851af22c3fa71020e1d6e4a27e343180d3d2826f8588ebb55340980e378f21
 
-outputs.18.2.filename=hibernate-c3p0-7.2.2.Final.pom
+outputs.18.2.filename=hibernate-c3p0-7.2.4.Final.pom
 outputs.18.2.length=2970
-outputs.18.2.checksums.sha512=e477f802ace11f9445a4eff9713175f2e1ea887a9587bd86ef9c49ea5d87502ab7ac4ce9c15db0e4efea798792b8de80979791c26d450540448d555423adef39
+outputs.18.2.checksums.sha512=a558df1f23b80ad577f6662334e043eaf3c4ab53ea9766b06b75bdc60a02eb0a7d2f8c1d684f1238dead98a7c1c48e79050f156ecbe39a683d81ea96386e8c7c
 
 
 outputs.19.coordinates=org.hibernate.orm:hibernate-community-dialects
 
-outputs.19.0.filename=hibernate-community-dialects-7.2.2.Final-sources.jar
-outputs.19.0.length=411202
-outputs.19.0.checksums.sha512=288f41df23b4011f83625d78248788e1f20663c49aeebf7fcad65ae7b34318b7f52530f6d418a12c2b8bcf27278b9dc772c5ba3bf5ee7a169098ce5b80d13585
+outputs.19.0.filename=hibernate-community-dialects-7.2.4.Final-sources.jar
+outputs.19.0.length=411233
+outputs.19.0.checksums.sha512=063dbeea22cae700961add37c2c07724a3e832035b77e8a23102ba88e1cbd9844c744aa24e3e5601d72af8d11f8c3658e517428ec2d9fa70b6bfe3bdc3743751
 
-outputs.19.1.filename=hibernate-community-dialects-7.2.2.Final.jar
-outputs.19.1.length=806643
-outputs.19.1.checksums.sha512=92d9af2c3c680acd59fbfaabfdbd5a4ce14d15d48dbfb045f9e69a5ee773904694102c103db338ccf49bd4cc629edd0ee109635c0cd404fa12989cdde7ba452b
+outputs.19.1.filename=hibernate-community-dialects-7.2.4.Final.jar
+outputs.19.1.length=806707
+outputs.19.1.checksums.sha512=3282a99f23bed582b2407208b6c6b440e09d588d577efae2e8e5c668418f346f72e6f783b5e6ef79f7c17b0345f74fcc2197e7202f71447a175dd824522e8d37
 
-outputs.19.2.filename=hibernate-community-dialects-7.2.2.Final.pom
+outputs.19.2.filename=hibernate-community-dialects-7.2.4.Final.pom
 outputs.19.2.length=2649
-outputs.19.2.checksums.sha512=f4c552f2d5adde47f89bf37efdd6b80d74e55508247d299574a089944f24e7aa7d5b7856fbade2ffe063f1af4ad9659ea719b0ed60c40b39c6556b8e4d8df9d5
+outputs.19.2.checksums.sha512=72a06e6f75b888ac0881dbb1faa897d742860242fdb94b7d154a93c1f3d93f12dfc2dd36ee8b6c1a3c753e2c705daaf3af4b39e7129ee7bc796b9044294b3d46
 
 
 outputs.20.coordinates=org.hibernate.orm:hibernate-core
 
-outputs.20.0.filename=hibernate-core-7.2.2.Final-sources.jar
-outputs.20.0.length=8137144
-outputs.20.0.checksums.sha512=689b5d5aada874a61f30d22e9612c0747bf15005fdf31b75db3cb48c52ff5caebd827074f5285c6a2e5cfc4bf16cc1477af9b5e9d1c09b78e4a7fc0a7285496c
+outputs.20.0.filename=hibernate-core-7.2.4.Final-sources.jar
+outputs.20.0.length=8138302
+outputs.20.0.checksums.sha512=bc5772b91e7a8ee65104bb1081c4f0169893d0b01bff513c2f6502dc4aab9e3790d03138f008cdccddc2f548050f77b4327113f23c692e17ed58cc8778c803a5
 
-outputs.20.1.filename=hibernate-core-7.2.2.Final.jar
-outputs.20.1.length=14410718
-outputs.20.1.checksums.sha512=4fcc7ddeebc56afe5443defd75e0c32e74a0e1a6dfdb466853360fd4b219bbad5557734faeb09cc040658157661fe520c86cd0ad7d9b7fa162b8def73c595a3b
+outputs.20.1.filename=hibernate-core-7.2.4.Final.jar
+outputs.20.1.length=14413321
+outputs.20.1.checksums.sha512=abcf67277f90044c4bd2a1818220b424d8fd7bf3c10960a43213b544ea7feb927df334f3a5b8dcc6f427175dee744b1bac899b166978df27495e05c91ed0bd81
 
-outputs.20.2.filename=hibernate-core-7.2.2.Final.pom
+outputs.20.2.filename=hibernate-core-7.2.4.Final.pom
 outputs.20.2.length=5386
-outputs.20.2.checksums.sha512=c6ecfee847b0bba9388c3c50801c8dea07b428d4fbeaa8b27d51050bdcc56c63981a760fbc7741305914c5f93857dcf517ea44da1f6f44ce73f6d8a1e1582f2f
+outputs.20.2.checksums.sha512=c3594b4ac83c1a5526d94395a9aaf324384053b29c34393ba209059b1374bb3edf94e6df2f3b9fa11e9a48dd77477609c6e87c7b2f0b8ef405f3c6490de17692
 
 
 outputs.21.coordinates=org.hibernate.orm:hibernate-envers
 
-outputs.21.0.filename=hibernate-envers-7.2.2.Final-sources.jar
-outputs.21.0.length=411239
-outputs.21.0.checksums.sha512=efcf057ee95ab70965088e9838ca91861d317c910a36948bd4fc394372c5f58ce57f6c52a2cec8c5058b186d70d1d323f5b9e2028c6f22acf332df9d2fcedde0
+outputs.21.0.filename=hibernate-envers-7.2.4.Final-sources.jar
+outputs.21.0.length=411339
+outputs.21.0.checksums.sha512=55bca14035cbaf2315bb5079c1816eb3524d4c8f8b727b8a3efaeab4dae34095c2f836271d43a268ee901c4b521a7be5048ce1ed516e7a90092012e32f8dedac
 
-outputs.21.1.filename=hibernate-envers-7.2.2.Final.jar
-outputs.21.1.length=637485
-outputs.21.1.checksums.sha512=9adfa00174363067aa0d326c5c30e3e7134d8d9315dd2174a5ed28606bfe8f6672b55d7d8cde697202a1f7557103394db1075ee13810c5ae3c0fd4aeb563f078
+outputs.21.1.filename=hibernate-envers-7.2.4.Final.jar
+outputs.21.1.length=637713
+outputs.21.1.checksums.sha512=0e5af289a864e4794498d4f4eb48c13aeff59b878b940ebbcbdb6f49438777d1bee5e3daa21762af54b78d12607bc2f4aaf909fde626b8481f1ae804a8bc6d93
 
-outputs.21.2.filename=hibernate-envers-7.2.2.Final.pom
+outputs.21.2.filename=hibernate-envers-7.2.4.Final.pom
 outputs.21.2.length=4014
-outputs.21.2.checksums.sha512=6cff32de2b6f245a7be9d960768da4f50e8d819d12b671ee5494c83dfb077d47f1dfa281610fe592184129decef5764a1aaf100f11a188fd4e367f3d8a62ced2
+outputs.21.2.checksums.sha512=f138c000bc26983add4feafd22034f44d23caade52163556f4d4ec2326b52dac7a5e08c8a64d99a7b3ca8f9d5dc0b03e0055e24d5f959d636758f5e7fc59d4e5
 
 
 outputs.22.coordinates=org.hibernate.orm:hibernate-graalvm
 
-outputs.22.0.filename=hibernate-graalvm-7.2.2.Final-sources.jar
-outputs.22.0.length=3612
-outputs.22.0.checksums.sha512=9d7e9484b82ca4cd5c2f311dd522fc62bfaf193529cdcae6f62af1d5ac828d123bf75ff294d046e45ce8b5a32c948ed2d09f04a184973c14ea8667de41b80856
+outputs.22.0.filename=hibernate-graalvm-7.2.4.Final-sources.jar
+outputs.22.0.length=3611
+outputs.22.0.checksums.sha512=94a9d4ae4acf316aaca781c1431a082a41e25df4baa4c6c8ee5d817e6110f8039a345bb06e8cb88ed194a1822c48bc58884b721b39a94fef7b0d6fc6bdadc53c
 
-outputs.22.1.filename=hibernate-graalvm-7.2.2.Final.jar
+outputs.22.1.filename=hibernate-graalvm-7.2.4.Final.jar
 outputs.22.1.length=8342
-outputs.22.1.checksums.sha512=cb4eba9a3cd728cc5db81191126d5af7dd1fa9e59b8354d280d8a1c0949ed628d928579ee64ef87d939fb5feae43e3462c44ecaa06cfee71ea5c301226da7bae
+outputs.22.1.checksums.sha512=372dbc3d8a44d315ed845294127a0a033cf51e7a2ab9d25be75da3e826f8f931c467ca41dc8070a29adfd389ae5831d60a57880236fac16a0e1f8f598ffb8782
 
-outputs.22.2.filename=hibernate-graalvm-7.2.2.Final.pom
+outputs.22.2.filename=hibernate-graalvm-7.2.4.Final.pom
 outputs.22.2.length=2327
-outputs.22.2.checksums.sha512=43f7654e30e4e02b27cb58149cded5f3635abe2ddc21cd09f6bdc494051b0c227d3e5460452beea4800328c2f24cb12a4d6f123a10c1829a82afd8c5d12bd24f
+outputs.22.2.checksums.sha512=781f07736c5f45cb97797f01b0543d9a0ab06e8f31485a1601cc9763f1232c5c5819a8c3a4dee0c573c2d3d2dc53833ee646f8e60257671975ea9c7ee4700ee7
 
 
 outputs.23.coordinates=org.hibernate.orm:hibernate-hikaricp
 
-outputs.23.0.filename=hibernate-hikaricp-7.2.2.Final-sources.jar
-outputs.23.0.length=6032
-outputs.23.0.checksums.sha512=087eda8916bb2045d2cd40ae8d492f3da977e0a7ac1cc31993740554253cdea61351ba3da645c93a9f0bfd715690e2d16a1e663f02c839a20730c47bc1f7a2af
+outputs.23.0.filename=hibernate-hikaricp-7.2.4.Final-sources.jar
+outputs.23.0.length=6033
+outputs.23.0.checksums.sha512=929af4354ffe319bfc74e1b3d5babf1ddf7635f7caacc4ea0826b6af4f9b93aa5ebb18c9eb51296e702fddfb6e0c50a9c20a23b503b35e6416b5b8d9d0acd23a
 
-outputs.23.1.filename=hibernate-hikaricp-7.2.2.Final.jar
-outputs.23.1.length=12896
-outputs.23.1.checksums.sha512=b7908cad36eb4015369cbebf632eeaaafddbf273fa69d840bfb6ac884784b5b3391cfd91e8889f33fc02b270a9d1750b245c44a4ce902e17e5fe55d89fa8d56b
+outputs.23.1.filename=hibernate-hikaricp-7.2.4.Final.jar
+outputs.23.1.length=12897
+outputs.23.1.checksums.sha512=ffb6dd85a7e6e6bcee23d670fc3357afbf6f9c5d21f7ebd75a3444a702aea614d77070f6bbb887ef51b30cc33355d7799ec61c9556db6502693ba0aaf7fb9599
 
-outputs.23.2.filename=hibernate-hikaricp-7.2.2.Final.pom
+outputs.23.2.filename=hibernate-hikaricp-7.2.4.Final.pom
 outputs.23.2.length=2966
-outputs.23.2.checksums.sha512=3af2abbbdeb40e731a1383d789cab1a2ae47ec2a2aa2d8ebb7e6bc4e96be0ccea483fcc2358d7b90f51ee7037ea605283956b256b3987f15b65df036bb063087
+outputs.23.2.checksums.sha512=7e63b8fe68d562cf54d3affc67e146e0c11258539210fd7ea8ab474e36402a6e3f66acd7b7c00d4853ee77cfcd7c9ab69537897287e29edea013d182195d6eeb
 
 
 outputs.24.coordinates=org.hibernate.orm:hibernate-jcache
 
-outputs.24.0.filename=hibernate-jcache-7.2.2.Final-sources.jar
-outputs.24.0.length=8880
-outputs.24.0.checksums.sha512=df388e7fe2f329e6a2ffc6149fd9e6f542112f5d0bdbee92c484d764c8cd9dd8779c222cf4f4baa288bb12b17de7e4fa68a63a0938870c8f26c4048623dcd721
+outputs.24.0.filename=hibernate-jcache-7.2.4.Final-sources.jar
+outputs.24.0.length=8881
+outputs.24.0.checksums.sha512=e5281dde4a96a3cfcbb8de1cee41d174c88057df3a3d7381aa8f58f83b2d182c717d71b0e0c5a313776ce0015c6e9e3b404d1800f8824dc70b6bbdd9bab93c95
 
-outputs.24.1.filename=hibernate-jcache-7.2.2.Final.jar
+outputs.24.1.filename=hibernate-jcache-7.2.4.Final.jar
 outputs.24.1.length=17563
-outputs.24.1.checksums.sha512=bd90d3b6b51fd0522b51f67b9a763992676276c017dd6977f05414d9609fb62dc2a8d3e5c53b419e214b3c6fcc2caa81125e49ada6d243e64e9451499051f532
+outputs.24.1.checksums.sha512=e68aef18a916d087bea39b9771f4343b280cfd15622f9d7f078e72081f3354c99a56c1b7afb4238e6fd553875383f812d965faa329290f614c4052a7ced8ffd2
 
-outputs.24.2.filename=hibernate-jcache-7.2.2.Final.pom
+outputs.24.2.filename=hibernate-jcache-7.2.4.Final.pom
 outputs.24.2.length=2996
-outputs.24.2.checksums.sha512=49c842be07ea20eadc381c7485e60d6ef19a8862c120b9e6b0dfcaecde10c6dff746ade5205f53f7ef7dcf651fe935cb84de2c56e267dad25bc81d14152f69e7
+outputs.24.2.checksums.sha512=2edc05a44c828ec873378489dcc5438f0b40615620f9d491e66391fb5a8a9e51649a40b5d88977fcc058a03406148fd138a10ce6218bae859884879df43d4ca4
 
 
 outputs.25.coordinates=org.hibernate.orm:hibernate-jfr
 
-outputs.25.0.filename=hibernate-jfr-7.2.2.Final-sources.jar
+outputs.25.0.filename=hibernate-jfr-7.2.4.Final-sources.jar
 outputs.25.0.length=17442
-outputs.25.0.checksums.sha512=4069f0031586f3bc172f993a4455394800198347a3e25dc07f2d3b86a77f4cc09d5b6ddc3af11d51084575d76f5d5598f6dc929ff3d151370d7407bc2761b1f8
+outputs.25.0.checksums.sha512=67cf247e9b539354a065099a54ca23b192352551bcf52e58983cead26f38ba5b389ef14d0abe3221b065f6e4b63588ba5feb42c0b8d5e0e22c6463434bfb88d6
 
-outputs.25.1.filename=hibernate-jfr-7.2.2.Final.jar
+outputs.25.1.filename=hibernate-jfr-7.2.4.Final.jar
 outputs.25.1.length=30383
-outputs.25.1.checksums.sha512=1de42416312901d56cacba4244c1d7c0b6b18c41986273f10b9bc0d5db7c24329846f35d5b85a5412201a11f7d737bd11fb4cf8e0360c4ac3d697f64eaf2f887
+outputs.25.1.checksums.sha512=9909c7429b7ee7efce4f60799a56745d58ad6cb6cec917db015a5842394bb56179def6c5aabdc19e6a58dc520ef6f595caedbb7b91370e0bb4662e8b58b1d849
 
-outputs.25.2.filename=hibernate-jfr-7.2.2.Final.pom
+outputs.25.2.filename=hibernate-jfr-7.2.4.Final.pom
 outputs.25.2.length=2622
-outputs.25.2.checksums.sha512=eb6854c830e7a7987dbc0222c6c911b986eea17461aeea09874a0456ffa6fe723d21e65eff49d19ad022b46da671a5db58cd135e0ff9676bc489e9b677f08022
+outputs.25.2.checksums.sha512=c669225ede61856faf84a54f7760e4e7b3cb80525631f508b7dbd805fc9140f67c8c2a8b76f51d96d8003e38c9f9fe8ca82f5e2f582a35345e7afef6af64828e
 
 
 outputs.26.coordinates=org.hibernate.orm:hibernate-jpamodelgen
 
-outputs.26.0.filename=hibernate-jpamodelgen-7.2.2.Final.pom
+outputs.26.0.filename=hibernate-jpamodelgen-7.2.4.Final.pom
 outputs.26.0.length=1972
-outputs.26.0.checksums.sha512=a381d374f10c87335e18e055985247dc6149068ad74f033e02a5acf582c74b8927cbe9d04041f07fd13608e22710994eb9e05e789d284489f7da26f17618289b
+outputs.26.0.checksums.sha512=f370ee391d01301ef59cc8c0a547629afdafa6b3594a8b430cbd9cf38e0a8d67d3ed40c9074ae53cbc881fe3e3ffaef13df09a4be5f339c6002ab09498ab0578
 
 
 outputs.27.coordinates=org.hibernate.orm:hibernate-maven-plugin
 
-outputs.27.0.filename=hibernate-maven-plugin-7.2.2.Final-sources.jar
+outputs.27.0.filename=hibernate-maven-plugin-7.2.4.Final-sources.jar
 outputs.27.0.length=5682
-outputs.27.0.checksums.sha512=15d7de10a938a201134026a005baa178d20f18aaea898399354c928c888acf9bb414767e0e781fea4b28e079b0e7c09901a0a88d73f0cfc7d98ec7198b4456c4
+outputs.27.0.checksums.sha512=066e131a486ebaa184c8c4d3880f040b3354c3ab5dbe9b84fcf3713173ff089f83d71831c5b93b7b59e5f800f2fac567e581355d590ad855ceeb8ff769c18d91
 
-outputs.27.1.filename=hibernate-maven-plugin-7.2.2.Final.jar
-outputs.27.1.length=16998
-outputs.27.1.checksums.sha512=0f52c385bf34847a9001a6cf3a75edc4e9856a2ab8384fd067235430594b530c969f1ea71dd508fdac0ab7bcd400bf64976f6572202369e950b645ad7a09f69c
+outputs.27.1.filename=hibernate-maven-plugin-7.2.4.Final.jar
+outputs.27.1.length=16999
+outputs.27.1.checksums.sha512=58c37276610483ab973ec057ab883f220927a8052a91bdbe51b81b650f3a63fb6983eb1eeefd923d92bff85189d05f4a8d404b6adf3793615cc5e4b0f2d56c9c
 
-outputs.27.2.filename=hibernate-maven-plugin-7.2.2.Final.pom
+outputs.27.2.filename=hibernate-maven-plugin-7.2.4.Final.pom
 outputs.27.2.length=3867
-outputs.27.2.checksums.sha512=0d440ae60102ec565401a32268fd45b253fd7994ed056809003f15523d1214fe768db6704c7b156f054568ce8592ed24eafd6b8e2743bf2afac6c0103991fe8e
+outputs.27.2.checksums.sha512=d9241c3fdd29a77a6c430936bd756529879725d7ce77601fee556f9291de109e9c4acd1048f42cb2227bac3cd6f995ee2affc936de36255f5a110816c11fc357
 
 
 outputs.28.coordinates=org.hibernate.orm:hibernate-micrometer
 
-outputs.28.0.filename=hibernate-micrometer-7.2.2.Final-sources.jar
+outputs.28.0.filename=hibernate-micrometer-7.2.4.Final-sources.jar
 outputs.28.0.length=5054
-outputs.28.0.checksums.sha512=1c0a8e95eb194f019111bebf178592ede50aa9861cbb70ebce997fc4f52b5b3bf8b25b8973b9803f774aa53b20ff0f3c99e8a19b78958633adf076ce4681ca19
+outputs.28.0.checksums.sha512=6df320d4cf76e1e66a5c5b0833caae1d078afdfa97a5f25a59a6fc5df84e3a373810cac0c5346204ed7358a014c1e54596be9fee03917a0c90091a0b5e67a74b
 
-outputs.28.1.filename=hibernate-micrometer-7.2.2.Final.jar
-outputs.28.1.length=14526
-outputs.28.1.checksums.sha512=89166007e8f4a2a71c4ee03788c015d11104edcb97e3569cb1c572ae4452b75807194cdf7d6d1d7701a176f477e62af725f2c7d7f589b2734da688ebafbb95aa
+outputs.28.1.filename=hibernate-micrometer-7.2.4.Final.jar
+outputs.28.1.length=14527
+outputs.28.1.checksums.sha512=143aac1481b6ce9138e898a576a030054efde1a61a058e8d901df6d072cc96c3e8108cd5904c2ab90ddbca2af52ebc46e532f32a28395e4023bca55470710d78
 
-outputs.28.2.filename=hibernate-micrometer-7.2.2.Final.pom
+outputs.28.2.filename=hibernate-micrometer-7.2.4.Final.pom
 outputs.28.2.length=3018
-outputs.28.2.checksums.sha512=71c94ebf11d1c775ca4e984764b7145025ae7c7b3a0a86f5286c9bc0082efa536f5d6783ccf0c84983611b6df38b3f72035696f405a5d8543b2abf94c77b391c
+outputs.28.2.checksums.sha512=8dbfe1f13115cba44b3103150e51e626a10c9870890c6c6cf98f0d1b976068aee4c25e30bfeffd701f41a4a169f61ec96e72be57caa58572a77469c3077286b7
 
 
 outputs.29.coordinates=org.hibernate.orm:hibernate-platform
 
-outputs.29.0.filename=hibernate-platform-7.2.2.Final.pom
+outputs.29.0.filename=hibernate-platform-7.2.4.Final.pom
 outputs.29.0.length=7790
-outputs.29.0.checksums.sha512=537c9b4ff46bd3b39d8fb899728e417932daa70beef35059395c1f498e78510d467ec568b10f98c7be8d83c4b60b0080be4ba494e4d8ada92bd75e0f1e97d7f0
+outputs.29.0.checksums.sha512=c0751db269b63941eac1e60d7bbc47b768f9efb6029834d5649047ef0e5a064f1673ac024511c1495674cbecd94cba39533ee4d241729b6a7aa785bba7de3ce6
 
 
 outputs.30.coordinates=org.hibernate.orm:hibernate-processor
 
-outputs.30.0.filename=hibernate-processor-7.2.2.Final-sources.jar
+outputs.30.0.filename=hibernate-processor-7.2.4.Final-sources.jar
 outputs.30.0.length=158777
-outputs.30.0.checksums.sha512=2c6bceada3ec76eebdbd1c98dee16aaa5e02ffc5b432b58f82fe6f6b385cc5678a2ef30722327a710d4dd55a9592c0e0c096e7b816f91947f674ee0424b81917
+outputs.30.0.checksums.sha512=c8ad1cc0b20868c072306793c327e7644369034ef5206cea2181cfb69d424ab1b288a40c6fb900cc3a8f08177f7063c21dc38072ae685b1f57598bf5f2eef802
 
-outputs.30.1.filename=hibernate-processor-7.2.2.Final.jar
-outputs.30.1.length=312710
-outputs.30.1.checksums.sha512=5c94b478242babab508f1ba49139cf4b7ad13380299ba0d0b63592015d08aa6b02a6df08e2523d07c9071cb8fd5f3970247af1c45973f27cee09b049667bf5f6
+outputs.30.1.filename=hibernate-processor-7.2.4.Final.jar
+outputs.30.1.length=312712
+outputs.30.1.checksums.sha512=baf2f8d9d181e4574fbfdb89f7fa7bf7f07146cf7b265c3fd53b82850e877f9f0542934cb321a4a22f9623f2fe03fed5962f86f65373b75abef5e04b3d980b7b
 
-outputs.30.2.filename=hibernate-processor-7.2.2.Final.pom
+outputs.30.2.filename=hibernate-processor-7.2.4.Final.pom
 outputs.30.2.length=5388
-outputs.30.2.checksums.sha512=def0be9fc63a410b6ba21804a4b01e16aed795cb484b2efb37107ccc8c1325697b80a8359453b7f6ed2dd6e1cad070391cfd1b18f8635206f871a9c8cb22f982
+outputs.30.2.checksums.sha512=dd104785f6707b3c64ff461548d410267d5420595a3cd8b5d1ea6357058c67b2c9abb51892983ad97d4117b2079cadd696fd9257f4cd3eec9f089176c46c17b2
 
 
 outputs.31.coordinates=org.hibernate.orm:hibernate-scan-jandex
 
-outputs.31.0.filename=hibernate-scan-jandex-7.2.2.Final-sources.jar
-outputs.31.0.length=11052
-outputs.31.0.checksums.sha512=b3e1de209756b616bd1dd7a944b0d90b2afdfed096c14758baf6396da995bdf9dd37663a827665158f538b45a8d44fec54de0d121d1261325a5087a03246594f
+outputs.31.0.filename=hibernate-scan-jandex-7.2.4.Final-sources.jar
+outputs.31.0.length=11053
+outputs.31.0.checksums.sha512=aecda19029e522107240dfc2285028521033e351af94f261656fb763fe668d7801b070f5ca6c56ff8efea96020dece0f58dae1e416f3bbb47dfe865db16840bf
 
-outputs.31.1.filename=hibernate-scan-jandex-7.2.2.Final.jar
+outputs.31.1.filename=hibernate-scan-jandex-7.2.4.Final.jar
 outputs.31.1.length=22138
-outputs.31.1.checksums.sha512=37362392fe93339d9736e27c7c8c00a2ec0b138beec8856f93dab86304e9ca688140773a85a87ee9df44a16f0b429d8b3871c0d73ed0a423869c6eb5bb4bfe20
+outputs.31.1.checksums.sha512=519370944c9c6d1cf7c8dc6326f7f8999246680e98c6b108b145e7a06cdf3707ae7ee5364bf1255e0a6dd8bfd9d015d14fa19ba5c9f539a4263f46eb99b71009
 
-outputs.31.2.filename=hibernate-scan-jandex-7.2.2.Final.pom
+outputs.31.2.filename=hibernate-scan-jandex-7.2.4.Final.pom
 outputs.31.2.length=3332
-outputs.31.2.checksums.sha512=2823379fbd900a3a1d70dd2f3f2d32869d66953c62a7469dd0ffdb5d5ba974bad177e18bf764f02795a59a9340491f09b6e0eec9749cad263dadddcb0b79c5f5
+outputs.31.2.checksums.sha512=3e0c1c35157001e12832e2868a72328846c24338a6e8c9a9fee69818aae3673662c6a104a4a3eefa305bf85e011046444b0b590eda1156a9557599837657b353
 
 
 outputs.32.coordinates=org.hibernate.orm:hibernate-spatial
 
-outputs.32.0.filename=hibernate-spatial-7.2.2.Final-sources.jar
-outputs.32.0.length=85433
-outputs.32.0.checksums.sha512=4a79e77071be4219cd97542da3416e2548fa13fb2f372367e4c07626c96dfdbc06068291941e81321641a39749fc5504877bd0404d2019f80746d064f9c52578
+outputs.32.0.filename=hibernate-spatial-7.2.4.Final-sources.jar
+outputs.32.0.length=85488
+outputs.32.0.checksums.sha512=c7c7436a561cc15295b0910e94ab1db85eddd2d68d3fe11337d70fe75bb67bf0ea0cc03ad207a4eab79d5e429f9c981e6fde99a49c2fab06f9bb3524ddbbc803
 
-outputs.32.1.filename=hibernate-spatial-7.2.2.Final.jar
-outputs.32.1.length=153304
-outputs.32.1.checksums.sha512=b29b5c58f533ce340814f08a945da58171a8d196d380273cc8c508bcb350c8cf6e5b32b1e62babce4697f926b1f2cae442bf59920e9861577043b52bd459ad0e
+outputs.32.1.filename=hibernate-spatial-7.2.4.Final.jar
+outputs.32.1.length=153405
+outputs.32.1.checksums.sha512=be3002a05a81143b25202ded2d97528958a329fb5678e4b4abf28fabd9b09bfa7034f8ecf4a7a1dd8dc4da4867a97d1fa858bef85a9d7a2f4b33a87923a015e2
 
-outputs.32.2.filename=hibernate-spatial-7.2.2.Final.pom
+outputs.32.2.filename=hibernate-spatial-7.2.4.Final.pom
 outputs.32.2.length=2984
-outputs.32.2.checksums.sha512=a2ebf006617cc56557b1c41495847008ccb994cf22dbdbf2148b33d1bb96d34b43dd7d76122ffa3c9ebb0f4e7424f95c1eb0f32e45109fe9d14a82252bea5443
+outputs.32.2.checksums.sha512=621d83018493a53a9d85a8b50fa492a8e38dfdecdabef002bf00757776f79a4b026ba272a585d1901c70631c73683a9772f9b1a1e231bdb6dc8f4ab71c42ed4b
 
 
 outputs.33.coordinates=org.hibernate.orm:hibernate-testing
 
-outputs.33.0.filename=hibernate-testing-7.2.2.Final-sources.jar
-outputs.33.0.length=337733
-outputs.33.0.checksums.sha512=6fc9172a756b6ab503a7394bd13eb39ed47d129faf73d99859c80e9fbd1da4a57665212a787ab2cf00a5486c8de860422929fb3e66676de71882f762465a5512
+outputs.33.0.filename=hibernate-testing-7.2.4.Final-sources.jar
+outputs.33.0.length=337734
+outputs.33.0.checksums.sha512=c10f365552c1faf5e0497128836087825c123f73cd340e458d99a9751500b12f027fd24cfb3e3457977d93cc605227b67a262f456b020367cfc25414bfef17a7
 
-outputs.33.1.filename=hibernate-testing-7.2.2.Final.jar
+outputs.33.1.filename=hibernate-testing-7.2.4.Final.jar
 outputs.33.1.length=866763
-outputs.33.1.checksums.sha512=9f18bd90aa625cc8e5ff7ad6eadd510cb2e81ea16441c9b70ea66ddab7b8acd80c2609da273503052ee4a7839795bc52a7d7c84c68fc8c369aae83105db18bcb
+outputs.33.1.checksums.sha512=35e5cad8423baf362792fd97253369cd7b95187b39777756e976c6bbb43a98dcfd3f0d1232f2dcb37b4eb2aa5826e7f41cadd62a7a931e41fc7cd533ff7d58fc
 
-outputs.33.2.filename=hibernate-testing-7.2.2.Final.pom
+outputs.33.2.filename=hibernate-testing-7.2.4.Final.pom
 outputs.33.2.length=9329
-outputs.33.2.checksums.sha512=670ca952e13fe32744b029cd63a26895b6977ee2cd4fbb0adc4b4c5a45ea96c17be72ce7be861c1c6eff0079c1e88525c4ed0646fb8e96808e8d010d16d0b623
+outputs.33.2.checksums.sha512=c9e0abfb88c64524f80475f3b6845079e24b8625031b04bc6a98c92ebc5512e068edb15f66ee6fdd630d89f50fe85d516f790210411948df57ca45c6908f7b6f
 
 
 outputs.34.coordinates=org.hibernate.orm:hibernate-vector
 
-outputs.34.0.filename=hibernate-vector-7.2.2.Final-sources.jar
-outputs.34.0.length=67399
-outputs.34.0.checksums.sha512=bd1721ee3c3697e8b070bd5630db9f9176bf2468e8cb8d6ad1497f69fff5ac3d2cccb10f508283a432ef82692f162b3ef144a680663bdbd48d25ffa186895e91
+outputs.34.0.filename=hibernate-vector-7.2.4.Final-sources.jar
+outputs.34.0.length=67397
+outputs.34.0.checksums.sha512=bd8d2101754f79f489e24075501a32898f53b3ee8ef4dcbb82fced4f4bbfd76439912a663e1bdcc7343b9fffa5c414013de60b1510f5f8be89ec429daa8c2577
 
-outputs.34.1.filename=hibernate-vector-7.2.2.Final.jar
-outputs.34.1.length=153174
-outputs.34.1.checksums.sha512=384f7ec44dc4a5b574383b1763cd5d96dcea429c157d70a24912f6eb3529e3e7671d9a2aa53d05f63179f6580562547f66fd2bec955830d3e7ccc787c85b13f5
+outputs.34.1.filename=hibernate-vector-7.2.4.Final.jar
+outputs.34.1.length=153176
+outputs.34.1.checksums.sha512=8b73d468b4010ba66ba6dd061acb19477c316f58c11fa0b507bb99b5a1daa13a2e44c57bf8be1ba4f0a6800293d77e758dbefeda3156a26abeb62d16e2c19fbb
 
-outputs.34.2.filename=hibernate-vector-7.2.2.Final.pom
+outputs.34.2.filename=hibernate-vector-7.2.4.Final.pom
 outputs.34.2.length=2626
-outputs.34.2.checksums.sha512=c0cd3a103e7f81fc48f83be81ea7dbec4d7e7cf43df33b2595fcf5d63fb3a30c390cea297d837f6bb018e6ef53038f4f7fb425606babcf171f79635b4984bc6b
+outputs.34.2.checksums.sha512=70e603730e4215f4870732645e9f62fc94cc4ddfab18d94e35cb207da462870f0eeeeb5d50e55fb5e3c26cce839ccdb20ae3e1124b334b95ee0131db374908dc
 
