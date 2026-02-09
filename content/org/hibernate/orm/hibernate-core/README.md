@@ -7,10 +7,11 @@
 
 Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com/hibernate/hibernate-orm.git)
 
-<details><summary>This project defines 34 modules:</summary>
+<details><summary>This project defines 36 modules:</summary>
 
 * [org.hibernate.orm:hibernate-agroal](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-agroal/overview)
 * [org.hibernate.orm:hibernate-ant](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-ant/overview)
+* [org.hibernate.orm:hibernate-assistant](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-assistant/overview)
 * [org.hibernate.orm:hibernate-c3p0](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-c3p0/overview)
 * [org.hibernate.orm:hibernate-community-dialects](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-community-dialects/overview)
 * [org.hibernate.orm:hibernate-core](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/overview)
@@ -30,6 +31,7 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate.orm:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-vector/overview)
 * [org.hibernate:hibernate-agroal](https://central.sonatype.com/artifact/org.hibernate/hibernate-agroal/overview)
 * [org.hibernate:hibernate-ant](https://central.sonatype.com/artifact/org.hibernate/hibernate-ant/overview)
+* [org.hibernate:hibernate-assistant](https://central.sonatype.com/artifact/org.hibernate/hibernate-assistant/overview)
 * [org.hibernate:hibernate-c3p0](https://central.sonatype.com/artifact/org.hibernate/hibernate-c3p0/overview)
 * [org.hibernate:hibernate-community-dialects](https://central.sonatype.com/artifact/org.hibernate/hibernate-community-dialects/overview)
 * [org.hibernate:hibernate-core](https://central.sonatype.com/artifact/org.hibernate/hibernate-core/overview)
@@ -51,9 +53,9 @@ rebuilding **45 releases** of org.hibernate.orm:hibernate-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | [gradle jdk17](hibernate-core-8.0.0.Alpha1.buildspec) | [result](hibernate-core-8.0.0.Alpha1.buildinfo): [68 :white_check_mark: ](hibernate-core-8.0.0.Alpha1.buildcompare) | | 25M |
-| [7.3.0.CR2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.3.0.CR2/pom) | [gradle jdk17](hibernate-core-7.3.0.CR2.buildspec) | [result](hibernate-core-7.3.0.CR2.buildinfo): [68 :white_check_mark: ](hibernate-core-7.3.0.CR2.buildcompare) | | 25M |
-| [7.3.0.CR1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.3.0.CR1/pom) | [gradle jdk17](hibernate-core-7.3.0.CR1.buildspec) | [result](hibernate-core-7.3.0.CR1.buildinfo): [68 :white_check_mark: ](hibernate-core-7.3.0.CR1.buildcompare) | | 25M |
+| [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | [gradle jdk25](hibernate-core-8.0.0.Alpha1.buildspec) | [result](hibernate-core-8.0.0.Alpha1.buildinfo): [68 :white_check_mark: ](hibernate-core-8.0.0.Alpha1.buildcompare) | | 25M |
+| [7.3.0.CR2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.3.0.CR2/pom) | [gradle jdk25](hibernate-core-7.3.0.CR2.buildspec) | [result](hibernate-core-7.3.0.CR2.buildinfo): [68 :white_check_mark: ](hibernate-core-7.3.0.CR2.buildcompare) | | 25M |
+| [7.3.0.CR1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.3.0.CR1/pom) | [gradle jdk25](hibernate-core-7.3.0.CR1.buildspec) | [result](hibernate-core-7.3.0.CR1.buildinfo): [72 :white_check_mark: ](hibernate-core-7.3.0.CR1.buildcompare) | | 27M |
 | [7.2.4.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.2.4.Final/pom) | [gradle jdk25](hibernate-core-7.2.4.Final.buildspec) | [result](hibernate-core-7.2.4.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.2.4.Final.buildcompare) | | 27M |
 | [7.2.3.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.2.3.Final/pom) | [gradle jdk25](hibernate-core-7.2.3.Final.buildspec) | [result](hibernate-core-7.2.3.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.2.3.Final.buildcompare) | | 27M |
 | [7.2.2.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.2.2.Final/pom) | [gradle jdk25](hibernate-core-7.2.2.Final.buildspec) | [result](hibernate-core-7.2.2.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.2.2.Final.buildcompare) | | 27M |
