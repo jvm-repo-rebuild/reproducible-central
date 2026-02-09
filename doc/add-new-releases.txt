@@ -2,10 +2,10 @@
 # see bin/create-new-release-PRs.sh
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
 content/com/io7m/ervilla/com.io7m.ervilla-1.0.0.buildspec:1.1.0
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-6.buildspec:11.3.1-beta-7
 content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-RC1
 content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec:3.11-RC1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.13.1.buildspec:5.13.2-beta-1
-content/land/oras/oras-java-sdk/oras-java-sdk-0.3.2.buildspec:0.3.3
-content/org/apache/sling/org.apache.sling.feature.extension.apiregions/org.apache.sling.feature.extension.apiregions-2.0.0.buildspec:2.1.0
+content/org/apache/commons/commons-jexl3/commons-jexl3-3.6.1.buildspec:3.6.2
+content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.9.0.buildspec:3.10.0
+content/org/eclipse/jkube/jkube-1.18.2.buildspec:1.19.0
 content/org/webjars/jquery-ui/jquery-ui-1.14.1.buildspec:1.14.2
+content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.3.buildspec:0.5.4

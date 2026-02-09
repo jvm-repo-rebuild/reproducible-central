@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.commons:commons-jexl3:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.6.2](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.2/pom) | | | |
 | [3.6.1](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.1/pom) | [mvn jdk21](commons-jexl3-3.6.1.buildspec) | [result](commons-jexl3-3.6.1.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.6.1.buildcompare) | | 1.9M |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.0/pom) | [mvn jdk25](commons-jexl3-3.6.0.buildspec) | [result](commons-jexl3-3.6.0.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.6.0.buildcompare) | | 1.9M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.5.0/pom) | [mvn jdk21](commons-jexl3-3.5.0.buildspec) | [result](commons-jexl3-3.5.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-jexl3-3.5.0.buildcompare) [:mag:](commons-jexl3-3.5.0.diffoscope) | - | 1.8M |
