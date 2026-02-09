@@ -1,0 +1,61 @@
+# release manager's workspace contains personal files...
+1 / 2 target/reference/org.apache.sling/org.apache.sling.feature.extension.apiregions-2.1.0-source-release.zip target/org.apache.sling.feature.extension.apiregions-2.1.0-source-release.zip
+--- target/reference/org.apache.sling/org.apache.sling.feature.extension.apiregions-2.1.0-source-release.zip
++++ target/org.apache.sling.feature.extension.apiregions-2.1.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 234403 bytes, number of entries: 175
+│ +Zip file size: 229725 bytes, number of entries: 171
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/.vscode/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/main/
+│ @@ -13,15 +12,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/main/java/org/apache/sling/feature/extension/apiregions/api/config/validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/main/java/org/apache/sling/feature/extension/apiregions/launcher/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/main/java/org/apache/sling/feature/extension/apiregions/scanner/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/main/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/main/resources/META-INF/
+│ @@ -39,16 +37,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/src/test/resources/json/
+│  -rw-r--r--  2.0 unx      180 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/.gitignore
+│ --rw-r--r--  2.0 unx    43304 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/.vscode/java-formatter.xml
+│ --rw-r--r--  2.0 unx      128 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/.vscode/settings.json
+│  -rw-r--r--  2.0 unx     1186 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/CODE_OF_CONDUCT.md
+│  -rw-r--r--  2.0 unx     1147 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/CONTRIBUTING.md
+│ @@ -170,8 +166,8 @@
+│  -rw-r--r--  2.0 unx      298 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      304 b- defN 26-Feb-03 15:39 org.apache.sling.feature.extension.apiregions-2.1.0/NOTICE
+│ -175 files, 768594 bytes uncompressed, 178799 bytes compressed:  76.7%
+│ +171 files, 725162 bytes uncompressed, 175087 bytes compressed:  75.9%
+
+2 / 2 target/reference/org.apache.sling/org.apache.sling.feature.extension.apiregions-2.1.0-sources.jar target/org.apache.sling.feature.extension.apiregions-2.1.0-sources.jar
+--- target/reference/org.apache.sling/org.apache.sling.feature.extension.apiregions-2.1.0-sources.jar
++++ target/org.apache.sling.feature.extension.apiregions-2.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,23 +1,22 @@
+│ -Zip file size: 112814 bytes, number of entries: 85
+│ +Zip file size: 112630 bytes, number of entries: 84
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Feb-03 15:39 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/analyser/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/api/artifacts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/api/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/api/config/validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/launcher/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 org/apache/sling/feature/extension/apiregions/scanner/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-03 15:39 META-INF/maven/
+│ @@ -80,8 +79,8 @@
+│  -rw-r--r--  2.0 unx     5193 b- defN 26-Feb-03 15:39 META-INF/maven/org.apache.sling/org.apache.sling.feature.extension.apiregions/pom.xml
+│  -rw-r--r--  2.0 unx       96 b- defN 26-Feb-03 15:39 META-INF/maven/org.apache.sling/org.apache.sling.feature.extension.apiregions/pom.properties
+│ -85 files, 354869 bytes uncompressed, 94742 bytes compressed:  73.3%
+│ +84 files, 354869 bytes uncompressed, 94742 bytes compressed:  73.3%
