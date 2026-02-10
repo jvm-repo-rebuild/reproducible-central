@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS Core BreadcrumbList JSON-LD Book
+group-id=com.semanticcms
+artifact-id=semanticcms-core-breadcrumblist-json-ld-book
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-core-breadcrumblist-json-ld.git
+source.scm.tag=semanticcms-core-breadcrumblist-json-ld-book-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-core-breadcrumblist-json-ld-book-2.0.1.pom
+outputs.0.length=14006
+outputs.0.checksums.sha512=41c47ede078c21b7a484160a9695b302246128b3e6805bd25b0878d7c207724579e1266a24449a45c2ed7be0777fd41a51db14c206863aee9acbf7c55704f7b0
+
+outputs.1.groupId=com.semanticcms
+outputs.1.filename=semanticcms-core-breadcrumblist-json-ld-book-2.0.1.jar
+outputs.1.length=346444
+outputs.1.checksums.sha512=2ae5855dd0229c03043e3bba6a495c8111ed5b0fd458b7d6df9426fdd6bcf12ba5de0ac4d369ec1fa7524ec82165a71d2dd91b597e38abb90e4a2c54f1b84f47
+
+outputs.2.groupId=com.semanticcms
+outputs.2.filename=semanticcms-core-breadcrumblist-json-ld-book-2.0.1-sources.jar
+outputs.2.length=346108
+outputs.2.checksums.sha512=8c8ec4ac1857d8b76cb62f508411d4cebe61dd720a9426a594b6ae65fd901c564aa67d03ae93de952a0ace62eda9b545f6501c1af4889b50cb033b87dba4973b
