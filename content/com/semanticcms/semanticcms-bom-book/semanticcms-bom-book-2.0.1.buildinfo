@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS BOM Book
+group-id=com.semanticcms
+artifact-id=semanticcms-bom-book
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-bom.git
+source.scm.tag=semanticcms-bom-book-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-bom-book-2.0.1.pom
+outputs.0.length=12662
+outputs.0.checksums.sha512=09d04976f383c1cff1e49101ba6c22225f2d198d855a5cd495315e77682163858b2386e018eaf1744e87e6526ac8a99c81a32c4bcd4e7208627f36d7da4eaa52
+
+outputs.1.groupId=com.semanticcms
+outputs.1.filename=semanticcms-bom-book-2.0.1.jar
+outputs.1.length=341271
+outputs.1.checksums.sha512=2839c520990ca5a25b5aad68a0bd3faed8ca39bf42b102239b9d3e6d8aece073920c550b11b02e74c4219f34592bce93368a6c04267d04dfebb2e7e2b3befa8e
+
+outputs.2.groupId=com.semanticcms
+outputs.2.filename=semanticcms-bom-book-2.0.1-sources.jar
+outputs.2.length=341198
+outputs.2.checksums.sha512=8403904ed9ccf0fb98a57703cd12a074f44d676c01773c6333a4b5eff4b82b002b865950519637326b668b10f7833b19068b07881fe3c8f6bd8c9319a39f2170
