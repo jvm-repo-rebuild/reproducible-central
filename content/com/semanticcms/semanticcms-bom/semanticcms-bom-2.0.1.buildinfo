@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS BOM
+group-id=com.semanticcms
+artifact-id=semanticcms-bom
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-bom.git
+source.scm.tag=semanticcms-bom-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-bom-2.0.1.pom
+outputs.0.length=9701
+outputs.0.checksums.sha512=71830579e67f86cac9e93539588210044718627548bafd28f9ad764ef7c74dd68dc8fc43d41933a4e8b0af2163a027abbe200799ad68deb4a12cf43863e20736
