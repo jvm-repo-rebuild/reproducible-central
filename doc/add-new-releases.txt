@@ -1,11 +1,23 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/ch/qos/logback/logback-1.5.28.buildspec:1.5.29
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
 content/com/io7m/ervilla/com.io7m.ervilla-1.0.0.buildspec:1.1.0
+content/com/semanticcms/semanticcms-all/semanticcms-all-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-all-book/semanticcms-all-book-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-bom/semanticcms-bom-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-bom-book/semanticcms-bom-book-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-all/semanticcms-core-all-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-all-book/semanticcms-core-all-book-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-bom/semanticcms-core-bom-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-bom-book/semanticcms-core-bom-book-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld/semanticcms-core-breadcrumblist-json-ld-1.5.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld-book/semanticcms-core-breadcrumblist-json-ld-book-1.5.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-docs/semanticcms-core-docs-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-core-docs-book/semanticcms-core-docs-book-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-news-all/semanticcms-news-all-1.22.0.buildspec:2.0.1
+content/com/semanticcms/semanticcms-news-all-book/semanticcms-news-all-book-1.22.0.buildspec:2.0.1
+content/io/airlift/airbase/airbase-351.buildspec:352
 content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-RC1
 content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec:3.11-RC1
-content/org/apache/commons/commons-jexl3/commons-jexl3-3.6.1.buildspec:3.6.2
-content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.9.0.buildspec:3.10.0
-content/org/eclipse/jkube/jkube-1.18.2.buildspec:1.19.0
-content/org/webjars/jquery-ui/jquery-ui-1.14.1.buildspec:1.14.2
-content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.3.buildspec:0.5.4
+content/org/apache/sling/org.apache.sling.xss/org.apache.sling.xss-2.4.8.buildspec:2.4.10

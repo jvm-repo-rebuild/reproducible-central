@@ -13,6 +13,7 @@ rebuilding **2 releases** of com.semanticcms:semanticcms-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.1](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-bom/2.0.1/pom) | | | |
 | [1.22.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-bom/1.22.0/pom) | [mvn jdk17](semanticcms-bom-1.22.0.buildspec) | [result](semanticcms-bom-1.22.0.buildinfo): [1 :white_check_mark: ](semanticcms-bom-1.22.0.buildcompare) | | 9.5K |
 | [1.14.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-bom/1.14.0/pom) | [mvn jdk17](semanticcms-bom-1.14.0.buildspec) | [result](semanticcms-bom-1.14.0.buildinfo): [1 :white_check_mark: ](semanticcms-bom-1.14.0.buildcompare) | | 12K |
 
