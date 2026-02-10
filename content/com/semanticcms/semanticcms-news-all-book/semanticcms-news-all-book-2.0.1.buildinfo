@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS News All Book
+group-id=com.semanticcms
+artifact-id=semanticcms-news-all-book
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-news-all.git
+source.scm.tag=semanticcms-news-all-book-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-news-all-book-2.0.1.pom
+outputs.0.length=12874
+outputs.0.checksums.sha512=7b2874509351dfe205201bc5e618db0ac11a7c2a59299dd80b6bf365b34061b443702a0d27a61cd7ae8847236ea251d26b789fc64cb66e0e485ff898219d7f9d
+
+outputs.1.groupId=com.semanticcms
+outputs.1.filename=semanticcms-news-all-book-2.0.1.jar
+outputs.1.length=341381
+outputs.1.checksums.sha512=9306d18069dce3b78f94965a1ac3746f7a2b876d1b63589c27296892032bc41a8c12ee22de2fa679e2e9d2e015a802896401485b9ddff8836300219ba3e762ee
+
+outputs.2.groupId=com.semanticcms
+outputs.2.filename=semanticcms-news-all-book-2.0.1-sources.jar
+outputs.2.length=341328
+outputs.2.checksums.sha512=a9e1edce123e7733fb0ee8f3e09a2bbfd05d57c01a387a95440e05d1d47ee4c1d8b4cab7bee564eef0217589ac931efb17db82e807f3c8a4eec110cf4276de6c
