@@ -1,0 +1,19 @@
+groupId=org.apache.artemis
+artifactId=artemis-project
+version=2.51.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/artemis.git
+gitTag=${version}
+
+tool=mvn-3.9.3
+jdk=25
+newline=lf
+umask=022
+
+command="mvn -Papache-release,release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/artemis-project-${version}.buildinfo
+
+#diffoscope=artemis-project-${version}.diffoscope
+issue=
