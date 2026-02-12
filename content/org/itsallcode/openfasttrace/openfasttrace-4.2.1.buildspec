@@ -1,0 +1,20 @@
+groupId=org.itsallcode.openfasttrace
+artifactId=openfasttrace
+display=${groupId}:${artifactId}
+version=4.2.1
+
+gitRepo=https://github.com/itsallcode/openfasttrace.git
+gitTag=${version}
+gitTag=1318bd2d3ff7fe662f5e619fbcc2496599a46cf1 # not exactly the Git tag, but 2 commits later...
+
+tool=mvn-3.9.12
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='*/*-root,*/*-parent,*/*-testutil'"
+execBefore="mvn clean"
+buildinfo=product/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
