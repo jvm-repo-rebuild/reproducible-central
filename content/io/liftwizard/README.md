@@ -200,6 +200,7 @@ rebuilding **83 releases** of io.liftwizard:liftwizard:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.1.42](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.42/pom) | | | |
 | [2.1.41](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.41/pom) | [mvn jdk21](liftwizard-2.1.41.buildspec) | [result](liftwizard-2.1.41.buildinfo): [442 :white_check_mark: ](liftwizard-2.1.41.buildcompare) | | 3.3M |
 | [2.1.40](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.40/pom) | [mvn jdk17](liftwizard-2.1.40.buildspec) | [result](liftwizard-2.1.40.buildinfo): [433 :white_check_mark: ](liftwizard-2.1.40.buildcompare) | | 3.0M |
 | [2.1.39](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.39/pom) | [mvn jdk17](liftwizard-2.1.39.buildspec) | [result](liftwizard-2.1.39.buildinfo): [433 :white_check_mark: ](liftwizard-2.1.39.buildcompare) | | 3.0M |

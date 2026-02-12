@@ -1,13 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.5.28.buildspec:1.5.29
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
 content/com/io7m/ervilla/com.io7m.ervilla-1.0.0.buildspec:1.1.0
-content/com/semanticcms/semanticcms-core-all/semanticcms-core-all-1.22.0.buildspec:2.0.1
+content/io/liftwizard/liftwizard-2.1.41.buildspec:2.1.42
 content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-RC1
 content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec:3.11-RC1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.13.2-beta-1.buildspec:5.13.2
-content/org/apache/artemis/artemis-2.50.0.buildspec:2.51.0
-content/org/apache/activemq/artemis/artemis-2.50.0.buildspec:2.51.0
-content/org/apache/sling/org.apache.sling.xss/org.apache.sling.xss-2.4.8.buildspec:2.4.10
-content/org/sentrysoftware/maven/maven-skin-tools/maven-skin-tools-1.6.00.buildspec:1.7.00
