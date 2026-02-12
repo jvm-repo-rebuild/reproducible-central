@@ -1,0 +1,17 @@
+version=4.2.0
+ok=43
+ko=2
+ignored=0
+okFiles="openfasttrace-api-4.2.0.pom openfasttrace-api-4.2.0.jar openfasttrace-api-4.2.0-sources.jar openfasttrace-core-4.2.0.pom openfasttrace-core-4.2.0.jar openfasttrace-core-4.2.0-sources.jar openfasttrace-exporter-common-4.2.0.pom openfasttrace-exporter-common-4.2.0.jar openfasttrace-exporter-common-4.2.0-sources.jar openfasttrace-exporter-specobject-4.2.0.pom openfasttrace-exporter-specobject-4.2.0.jar openfasttrace-exporter-specobject-4.2.0-sources.jar openfasttrace-importer-lightweightmarkup-4.2.0.pom openfasttrace-importer-lightweightmarkup-4.2.0.jar openfasttrace-importer-lightweightmarkup-4.2.0-sources.jar openfasttrace-importer-markdown-4.2.0.pom openfasttrace-importer-markdown-4.2.0.jar openfasttrace-importer-markdown-4.2.0-sources.jar openfasttrace-importer-restructuredtext-4.2.0.pom openfasttrace-importer-restructuredtext-4.2.0.jar openfasttrace-importer-restructuredtext-4.2.0-sources.jar openfasttrace-importer-xmlparser-4.2.0.pom openfasttrace-importer-xmlparser-4.2.0.jar openfasttrace-importer-xmlparser-4.2.0-sources.jar openfasttrace-importer-specobject-4.2.0.pom openfasttrace-importer-specobject-4.2.0.jar openfasttrace-importer-specobject-4.2.0-sources.jar openfasttrace-importer-tag-4.2.0.pom openfasttrace-importer-tag-4.2.0.jar openfasttrace-importer-tag-4.2.0-sources.jar openfasttrace-importer-zip-4.2.0.pom openfasttrace-importer-zip-4.2.0.jar openfasttrace-importer-zip-4.2.0-sources.jar openfasttrace-reporter-plaintext-4.2.0.pom openfasttrace-reporter-plaintext-4.2.0.jar openfasttrace-reporter-plaintext-4.2.0-sources.jar openfasttrace-reporter-html-4.2.0.pom openfasttrace-reporter-html-4.2.0.jar openfasttrace-reporter-html-4.2.0-sources.jar openfasttrace-reporter-aspec-4.2.0.pom openfasttrace-reporter-aspec-4.2.0.jar openfasttrace-reporter-aspec-4.2.0-sources.jar openfasttrace-4.2.0.pom"
+koFiles="openfasttrace-4.2.0.jar openfasttrace-4.2.0-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-4.2.0.jar product/target/openfasttrace-4.2.0.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-4.2.0-sources.jar product/target/openfasttrace-4.2.0-sources.jar
+stabilize_ok=2
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="openfasttrace-4.2.0.jar.stabilized openfasttrace-4.2.0-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
