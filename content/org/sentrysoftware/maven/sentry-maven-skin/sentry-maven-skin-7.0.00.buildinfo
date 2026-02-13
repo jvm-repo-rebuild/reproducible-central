@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Sentry Maven Skin
+group-id=org.sentrysoftware.maven
+artifact-id=sentry-maven-skin
+version=7.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/sentry-maven-skin.git
+source.scm.tag=v7.0.00
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.sentrysoftware.maven
+outputs.0.filename=sentry-maven-skin-7.0.00.pom
+outputs.0.length=9416
+outputs.0.checksums.sha512=440d2027c9b85474c650a8bd6e24508e3ddd70e97df331e8342f0e8fb812462841de58dcbf4c6ccab1ab2491a98beffa2c9f3520a8b89919488c072371cb51c0
+
+outputs.1.groupId=org.sentrysoftware.maven
+outputs.1.filename=sentry-maven-skin-7.0.00.jar
+outputs.1.length=2726646
+outputs.1.checksums.sha512=8b9fa5d2645a0a964aa7ad84867698ddf0413100c66962dd98e0144015f9285e0011bf6e35b8a002fc034521db94063f27a1b622c379451a9c21ff88adb69b15
+
+outputs.2.groupId=org.sentrysoftware.maven
+outputs.2.filename=sentry-maven-skin-7.0.00-sources.jar
+outputs.2.length=674737
+outputs.2.checksums.sha512=e553227ae6b0384e5dfed3e0ba320a4a362e245b8640877e8d836fac58e5da34eaeb50844f0caedf9cba1bd0017f15583bf2d04ebbf8ee9d86739a34605b3aea
