@@ -2,6 +2,9 @@
 # see bin/create-new-release-PRs.sh
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
 content/com/io7m/ervilla/com.io7m.ervilla-1.0.0.buildspec:1.1.0
-content/io/liftwizard/liftwizard-2.1.41.buildspec:2.1.42
-content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-RC1
-content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec:3.11-RC1
+content/io/airlift/airbase/airbase-352.buildspec:353
+content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-javax
+content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec:3.11
+content/io/avaje/prisms/avaje-prisms-2.1-RC1.buildspec:2.1-RC2
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.13.2.buildspec:5.13.3
+content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.6.01.buildspec:7.0.00
