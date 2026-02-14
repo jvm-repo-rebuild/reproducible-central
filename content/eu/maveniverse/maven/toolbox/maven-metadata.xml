@@ -3,8 +3,8 @@
   <groupId>eu.maveniverse.maven.toolbox</groupId>
   <artifactId>toolbox</artifactId>
   <versioning>
-    <latest>0.15.1</latest>
-    <release>0.15.1</release>
+    <latest>0.15.2</latest>
+    <release>0.15.2</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -104,7 +104,8 @@
       <version>0.14.9</version>
       <version>0.15.0</version>
       <version>0.15.1</version>
+      <version>0.15.2</version>
     </versions>
-    <lastUpdated>20260123161917</lastUpdated>
+    <lastUpdated>20260214165914</lastUpdated>
   </versioning>
 </metadata>

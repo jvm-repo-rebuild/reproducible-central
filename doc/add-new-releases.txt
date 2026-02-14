@@ -1,10 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/ch/qos/logback/logback-1.5.29.buildspec:1.5.31
+content/ch/qos/logback/access/access-2.0.9.buildspec:2.0.11
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
-content/com/io7m/ervilla/com.io7m.ervilla-1.0.0.buildspec:1.1.0
-content/io/airlift/airbase/airbase-352.buildspec:353
-content/io/avaje/inject/avaje-inject-12.3-javax.buildspec:12.4-javax
-content/io/avaje/jsonb/avaje-jsonb-3.10.buildspec:3.11
-content/io/avaje/prisms/avaje-prisms-2.1-RC1.buildspec:2.1-RC2
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.13.2.buildspec:5.13.3
-content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.6.01.buildspec:7.0.00
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.1.buildspec:1.4.2
+content/net/bytebuddy/byte-buddy-1.18.4.buildspec:1.18.5
