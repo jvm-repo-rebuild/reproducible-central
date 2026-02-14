@@ -11,6 +11,11 @@ jdk=21
 newline=lf
 locale=en_US
 umask=002
+# extracted from: wget https://repo.maven.apache.org/maven2/org/apache/nifi/nifi-compress-processors/$version/nifi-compress-processors-$version.jar  ; unzip -q -c nifi-compress-processors-$version.jar META-INF/DEPENDENCIES | grep 'hyperxpro/Brotli4j/natives/native'
+# -  - Brotli4j (https://github.com/hyperxpro/Brotli4j/natives/native-osx-aarch64) com.aayushatharva.brotli4j:native-osx-aarch64:jar:1.20.0
+# +  - Brotli4j (https://github.com/hyperxpro/Brotli4j/natives/native-linux-x86_64) com.aayushatharva.brotli4j:native-linux-x86_64:jar:1.20.0
+#os=osx
+#arch=aarm64
 
 # export MAVEN_OPTS="-Duser.language=en -Duser.country=US -Dfile.encoding=UTF-8"
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
