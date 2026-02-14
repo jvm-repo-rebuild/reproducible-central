@@ -1,0 +1,36 @@
+version=1.1.0
+ok=9
+ko=23
+ignored=0
+okFiles="com.io7m.ervilla-1.1.0.pom com.io7m.ervilla-1.1.0-cyclonedx.xml com.io7m.ervilla.api-1.1.0.pom com.io7m.ervilla.api-1.1.0-cyclonedx.xml com.io7m.ervilla.keycloak-1.1.0.pom com.io7m.ervilla.native_exec-1.1.0.pom com.io7m.ervilla.postgres-1.1.0.pom com.io7m.ervilla.test_extension-1.1.0.pom com.io7m.ervilla.tests-1.1.0.pom"
+koFiles="com.io7m.ervilla.api-1.1.0.jar com.io7m.ervilla.api-1.1.0-sources.jar com.io7m.ervilla.api-1.1.0-tests.jar com.io7m.ervilla.keycloak-1.1.0.jar com.io7m.ervilla.keycloak-1.1.0-sources.jar com.io7m.ervilla.keycloak-1.1.0-cyclonedx.xml com.io7m.ervilla.keycloak-1.1.0-tests.jar com.io7m.ervilla.native_exec-1.1.0.jar com.io7m.ervilla.native_exec-1.1.0-sources.jar com.io7m.ervilla.native_exec-1.1.0-cyclonedx.xml com.io7m.ervilla.native_exec-1.1.0-tests.jar com.io7m.ervilla.postgres-1.1.0.jar com.io7m.ervilla.postgres-1.1.0-sources.jar com.io7m.ervilla.postgres-1.1.0-cyclonedx.xml com.io7m.ervilla.postgres-1.1.0-tests.jar com.io7m.ervilla.test_extension-1.1.0.jar com.io7m.ervilla.test_extension-1.1.0-sources.jar com.io7m.ervilla.test_extension-1.1.0-cyclonedx.xml com.io7m.ervilla.test_extension-1.1.0-tests.jar com.io7m.ervilla.tests-1.1.0.jar com.io7m.ervilla.tests-1.1.0-sources.jar com.io7m.ervilla.tests-1.1.0-cyclonedx.xml com.io7m.ervilla.tests-1.1.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.api-1.1.0.jar com.io7m.ervilla.api/target/com.io7m.ervilla.api-1.1.0.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.api-1.1.0-sources.jar com.io7m.ervilla.api/target/com.io7m.ervilla.api-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.api-1.1.0-tests.jar com.io7m.ervilla.api/target/com.io7m.ervilla.api-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.keycloak-1.1.0.jar com.io7m.ervilla.keycloak/target/com.io7m.ervilla.keycloak-1.1.0.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.keycloak-1.1.0-sources.jar com.io7m.ervilla.keycloak/target/com.io7m.ervilla.keycloak-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.keycloak-1.1.0-cyclonedx.xml com.io7m.ervilla.keycloak/target/bom.xml
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.keycloak-1.1.0-tests.jar com.io7m.ervilla.keycloak/target/com.io7m.ervilla.keycloak-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.native_exec-1.1.0.jar com.io7m.ervilla.native_exec/target/com.io7m.ervilla.native_exec-1.1.0.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.native_exec-1.1.0-sources.jar com.io7m.ervilla.native_exec/target/com.io7m.ervilla.native_exec-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.native_exec-1.1.0-cyclonedx.xml com.io7m.ervilla.native_exec/target/bom.xml
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.native_exec-1.1.0-tests.jar com.io7m.ervilla.native_exec/target/com.io7m.ervilla.native_exec-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.postgres-1.1.0.jar com.io7m.ervilla.postgres/target/com.io7m.ervilla.postgres-1.1.0.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.postgres-1.1.0-sources.jar com.io7m.ervilla.postgres/target/com.io7m.ervilla.postgres-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.postgres-1.1.0-cyclonedx.xml com.io7m.ervilla.postgres/target/bom.xml
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.postgres-1.1.0-tests.jar com.io7m.ervilla.postgres/target/com.io7m.ervilla.postgres-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.test_extension-1.1.0.jar com.io7m.ervilla.test_extension/target/com.io7m.ervilla.test_extension-1.1.0.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.test_extension-1.1.0-sources.jar com.io7m.ervilla.test_extension/target/com.io7m.ervilla.test_extension-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.test_extension-1.1.0-cyclonedx.xml com.io7m.ervilla.test_extension/target/bom.xml
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.test_extension-1.1.0-tests.jar com.io7m.ervilla.test_extension/target/com.io7m.ervilla.test_extension-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.tests-1.1.0.jar com.io7m.ervilla.tests/target/com.io7m.ervilla.tests-1.1.0.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.tests-1.1.0-sources.jar com.io7m.ervilla.tests/target/com.io7m.ervilla.tests-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.tests-1.1.0-cyclonedx.xml com.io7m.ervilla.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.ervilla/com.io7m.ervilla.tests-1.1.0-tests.jar com.io7m.ervilla.tests/target/com.io7m.ervilla.tests-1.1.0-tests.jar
+stabilize_ok=15
+stabilize_ko=3
+stabilize_ignored=5
+stabilize_okFiles="com.io7m.ervilla.api-1.1.0-sources.jar.stabilized com.io7m.ervilla.api-1.1.0-tests.jar.stabilized com.io7m.ervilla.keycloak-1.1.0.jar.stabilized com.io7m.ervilla.keycloak-1.1.0-sources.jar.stabilized com.io7m.ervilla.keycloak-1.1.0-tests.jar.stabilized com.io7m.ervilla.native_exec-1.1.0-sources.jar.stabilized com.io7m.ervilla.native_exec-1.1.0-tests.jar.stabilized com.io7m.ervilla.postgres-1.1.0.jar.stabilized com.io7m.ervilla.postgres-1.1.0-sources.jar.stabilized com.io7m.ervilla.postgres-1.1.0-tests.jar.stabilized com.io7m.ervilla.test_extension-1.1.0.jar.stabilized com.io7m.ervilla.test_extension-1.1.0-sources.jar.stabilized com.io7m.ervilla.test_extension-1.1.0-tests.jar.stabilized com.io7m.ervilla.tests-1.1.0-sources.jar.stabilized com.io7m.ervilla.tests-1.1.0-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.ervilla.api-1.1.0.jar.stabilized com.io7m.ervilla.native_exec-1.1.0.jar.stabilized com.io7m.ervilla.tests-1.1.0.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.ervilla.keycloak-1.1.0-cyclonedx.xml com.io7m.ervilla.native_exec-1.1.0-cyclonedx.xml com.io7m.ervilla.postgres-1.1.0-cyclonedx.xml com.io7m.ervilla.test_extension-1.1.0-cyclonedx.xml com.io7m.ervilla.tests-1.1.0-cyclonedx.xml"
