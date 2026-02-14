@@ -269,14 +269,14 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf:org.apache.karaf.util](https://central.sonatype.com/artifact/org.apache.karaf/org.apache.karaf.util/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.karaf:karaf:
+rebuilding **12 releases** of org.apache.karaf:karaf:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.4.10](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.10/pom) | | | |
+| [4.4.10](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.10/pom) | [mvn jdk11](karaf-4.4.10.buildspec) | [result](karaf-4.4.10.buildinfo): [601 :white_check_mark:  18 :warning:](karaf-4.4.10.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 13 :rotating_light: 5 :no_entry_sign: | 500M |
 | [4.4.9](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.9/pom) | [mvn jdk11](karaf-4.4.9.buildspec) | [result](karaf-4.4.9.buildinfo): [597 :white_check_mark:  22 :warning:](karaf-4.4.9.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 17 :rotating_light: 5 :no_entry_sign: | 507M |
 | [4.4.8](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.8/pom) | [mvn jdk11](karaf-4.4.8.buildspec) | [result](karaf-4.4.8.buildinfo): [596 :white_check_mark:  18 :warning:](karaf-4.4.8.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 14 :rotating_light: 4 :no_entry_sign: | 297M |
 | [4.4.7](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.7/pom) | [mvn jdk11](karaf-4.4.7.buildspec) | [result](karaf-4.4.7.buildinfo): [593 :white_check_mark:  19 :warning:](karaf-4.4.7.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | - | 292M |
