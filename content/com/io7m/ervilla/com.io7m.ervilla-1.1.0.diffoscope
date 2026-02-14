@@ -1,0 +1,39 @@
+1 / 23 target/reference/com.io7m.ervilla/com.io7m.ervilla.api-1.1.0.jar com.io7m.ervilla.api/target/com.io7m.ervilla.api-1.1.0.jar
+--- target/reference/com.io7m.ervilla/com.io7m.ervilla.api-1.1.0.jar
++++ com.io7m.ervilla.api/target/com.io7m.ervilla.api-1.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 26598 bytes, number of entries: 39
+│ +Zip file size: 26594 bytes, number of entries: 39
+│  -rw----     2.0 fat     1274 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bx stor 00-Jan-01 00:00 META-INF/
+│ @@ -12,15 +12,15 @@
+│  -rw----     2.0 fat     2026 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/EContainerReference.class
+│  -rw----     2.0 fat     4219 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/EContainerSpec$Builder.class
+│ --rw----     2.0 fat     5897 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/EContainerSpec.class
+│ +-rw----     2.0 fat     5894 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/EContainerSpec.class
+│  -rw----     2.0 fat     1134 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/EContainerStop.class
+│  -rw----     2.0 fat      647 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/EContainerSupervisorFactoryType.class
+│ @@ -34,8 +34,8 @@
+│  -rw----     2.0 fat      274 b- defN 00-Jan-01 00:00 com/io7m/ervilla/api/package-info.class
+│  -rw----     2.0 fat      406 b- defN 00-Jan-01 00:00 module-info.class
+│ -39 files, 46374 bytes uncompressed, 20466 bytes compressed:  55.9%
+│ +39 files, 46371 bytes uncompressed, 20462 bytes compressed:  55.9%
+├── META-INF/MANIFEST.MF
+│ @@ -8,15 +8,15 @@
+│  Bundle-Name: com.io7m.ervilla.api 1.1.0 - Podman testing service (API)
+│  Bundle-SCM: https://www.github.com/io7m-com/ervilla
+│  Bundle-SymbolicName: com.io7m.ervilla.api
+│  Bundle-Vendor: io7m.com
+│  Bundle-Version: 1.1.0
+│  Export-Package: com.io7m.ervilla.api;version="1.2.0";uses:="com.io7m.lan
+│   ark.core"
+│ -Implementation-Build: 7ad51b5628ee83c0e01d76f86ca1c9d23705f6aa
+│ +Implementation-Build: 2592d2120a98cdf7f502660357b918eae42f5768
+│  Implementation-Title: com.io7m.ervilla.api
+│  Implementation-Vendor-Id: com.io7m.ervilla
+│  Implementation-Vendor: io7m.com
+│  Implementation-Version: 1.1.0
+│  Import-Package: com.io7m.lanark.core;version="[1.0,2)",java.io,java.lang
+│   ,java.lang.invoke,java.lang.runtime,java.net,java.net.http,java.nio.fil
+│   e,java.time,java.util,java.util.concurrent,java.util.function,org.slf4j
