@@ -19,13 +19,13 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 * [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/overview)
 </details>
 
-rebuilding **58 releases** of net.bytebuddy:byte-buddy-parent:
-- **52** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **59 releases** of net.bytebuddy:byte-buddy-parent:
+- **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.18.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.5/pom) | | | |
+| [1.18.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.5/pom) | [mvn jdk8](byte-buddy-1.18.5.buildspec) | [result](byte-buddy-parent-1.18.5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.5.buildcompare) | | 36M |
 | [1.18.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.4/pom) | [mvn jdk8](byte-buddy-1.18.4.buildspec) | [result](byte-buddy-parent-1.18.4.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.4.buildcompare) | | 36M |
 | [1.18.3](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.3/pom) | [mvn jdk8](byte-buddy-1.18.3.buildspec) | [result](byte-buddy-parent-1.18.3.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.3.buildcompare) | | 36M |
 | [1.18.2](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.2/pom) | [mvn jdk8](byte-buddy-1.18.2.buildspec) | [result](byte-buddy-parent-1.18.2.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.2.buildcompare) | | 36M |
