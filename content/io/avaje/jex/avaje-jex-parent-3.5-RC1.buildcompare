@@ -1,0 +1,38 @@
+version=3.5-RC1
+ok=4
+ko=24
+ignored=0
+okFiles="avaje-jex-file-upload-3.5-RC1.jar avaje-jex-htmx-3.5-RC1.jar avaje-jex-ssl-3.5-RC1.jar avaje-jex-websocket-3.5-RC1.jar"
+koFiles="avaje-jex-parent-3.5-RC1.pom avaje-jex-3.5-RC1.pom avaje-jex-3.5-RC1.jar avaje-jex-3.5-RC1-sources.jar avaje-jex-test-3.5-RC1.pom avaje-jex-test-3.5-RC1.jar avaje-jex-test-3.5-RC1-sources.jar avaje-jex-file-upload-3.5-RC1.pom avaje-jex-file-upload-3.5-RC1-sources.jar avaje-jex-freemarker-3.5-RC1.pom avaje-jex-freemarker-3.5-RC1.jar avaje-jex-freemarker-3.5-RC1-sources.jar avaje-jex-htmx-3.5-RC1.pom avaje-jex-htmx-3.5-RC1-sources.jar avaje-jex-mustache-3.5-RC1.pom avaje-jex-mustache-3.5-RC1.jar avaje-jex-mustache-3.5-RC1-sources.jar avaje-jex-static-content-3.5-RC1.pom avaje-jex-static-content-3.5-RC1.jar avaje-jex-static-content-3.5-RC1-sources.jar avaje-jex-ssl-3.5-RC1.pom avaje-jex-ssl-3.5-RC1-sources.jar avaje-jex-websocket-3.5-RC1.pom avaje-jex-websocket-3.5-RC1-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jex-parent-3.5-RC1.pom pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-3.5-RC1.pom avaje-jex/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-3.5-RC1.jar avaje-jex/target/avaje-jex-3.5-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jex-3.5-RC1-sources.jar avaje-jex/target/avaje-jex-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-test-3.5-RC1.pom avaje-jex-test/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-test-3.5-RC1.jar avaje-jex-test/target/avaje-jex-test-3.5-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jex-test-3.5-RC1-sources.jar avaje-jex-test/target/avaje-jex-test-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-file-upload-3.5-RC1.pom avaje-jex-file-upload/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-file-upload-3.5-RC1-sources.jar avaje-jex-file-upload/target/avaje-jex-file-upload-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-freemarker-3.5-RC1.pom avaje-jex-freemarker/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-freemarker-3.5-RC1.jar avaje-jex-freemarker/target/avaje-jex-freemarker-3.5-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jex-freemarker-3.5-RC1-sources.jar avaje-jex-freemarker/target/avaje-jex-freemarker-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-htmx-3.5-RC1.pom avaje-jex-htmx/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-htmx-3.5-RC1-sources.jar avaje-jex-htmx/target/avaje-jex-htmx-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-mustache-3.5-RC1.pom avaje-jex-mustache/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-mustache-3.5-RC1.jar avaje-jex-mustache/target/avaje-jex-mustache-3.5-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jex-mustache-3.5-RC1-sources.jar avaje-jex-mustache/target/avaje-jex-mustache-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-static-content-3.5-RC1.pom avaje-jex-static-content/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-static-content-3.5-RC1.jar avaje-jex-static-content/target/avaje-jex-static-content-3.5-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jex-static-content-3.5-RC1-sources.jar avaje-jex-static-content/target/avaje-jex-static-content-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-ssl-3.5-RC1.pom avaje-jex-ssl/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-ssl-3.5-RC1-sources.jar avaje-jex-ssl/target/avaje-jex-ssl-3.5-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-websocket-3.5-RC1.pom avaje-jex-websockets/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-websocket-3.5-RC1-sources.jar avaje-jex-websockets/target/avaje-jex-websocket-3.5-RC1-sources.jar
+stabilize_ok=0
+stabilize_ko=14
+stabilize_ignored=10
+stabilize_okFiles=""
+stabilize_koFiles="avaje-jex-3.5-RC1.jar.stabilized avaje-jex-3.5-RC1-sources.jar.stabilized avaje-jex-test-3.5-RC1.jar.stabilized avaje-jex-test-3.5-RC1-sources.jar.stabilized avaje-jex-file-upload-3.5-RC1-sources.jar.stabilized avaje-jex-freemarker-3.5-RC1.jar.stabilized avaje-jex-freemarker-3.5-RC1-sources.jar.stabilized avaje-jex-htmx-3.5-RC1-sources.jar.stabilized avaje-jex-mustache-3.5-RC1.jar.stabilized avaje-jex-mustache-3.5-RC1-sources.jar.stabilized avaje-jex-static-content-3.5-RC1.jar.stabilized avaje-jex-static-content-3.5-RC1-sources.jar.stabilized avaje-jex-ssl-3.5-RC1-sources.jar.stabilized avaje-jex-websocket-3.5-RC1-sources.jar.stabilized"
+stabilize_ignoredFiles="avaje-jex-parent-3.5-RC1.pom avaje-jex-3.5-RC1.pom avaje-jex-test-3.5-RC1.pom avaje-jex-file-upload-3.5-RC1.pom avaje-jex-freemarker-3.5-RC1.pom avaje-jex-htmx-3.5-RC1.pom avaje-jex-mustache-3.5-RC1.pom avaje-jex-static-content-3.5-RC1.pom avaje-jex-ssl-3.5-RC1.pom avaje-jex-websocket-3.5-RC1.pom"
