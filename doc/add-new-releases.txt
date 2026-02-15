@@ -1,7 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.5.29.buildspec:1.5.31
-content/ch/qos/logback/access/access-2.0.9.buildspec:2.0.11
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.1.buildspec:1.4.2
-content/net/bytebuddy/byte-buddy-1.18.4.buildspec:1.18.5
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-7.buildspec:11.3.1-beta-8
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.13.3.buildspec:5.13.4-beta-1
+content/io/github/sebastian-toepfer/json/rpc/json-rpc/json-rpc-0.8.3.buildspec:0.9.0
