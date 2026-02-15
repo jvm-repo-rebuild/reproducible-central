@@ -1,0 +1,9 @@
+version=0.9.0
+ok=34
+ko=0
+ignored=0
+okFiles="json-rpc-0.9.0.pom json-rpc-0.9.0-cyclonedx.xml json-rpc-0.9.0-cyclonedx.json json-rpc-runtime-0.9.0.pom json-rpc-runtime-0.9.0.jar json-rpc-runtime-0.9.0-cyclonedx.xml json-rpc-runtime-0.9.0-cyclonedx.json json-rpc-boundary-0.9.0.pom json-rpc-boundary-0.9.0.jar json-rpc-boundary-0.9.0-cyclonedx.xml json-rpc-boundary-0.9.0-cyclonedx.json json-rpc-extension-0.9.0.pom json-rpc-extension-0.9.0-cyclonedx.xml json-rpc-extension-0.9.0-cyclonedx.json json-rpc-extension-openrpc-0.9.0.pom json-rpc-extension-openrpc-0.9.0.jar json-rpc-extension-openrpc-0.9.0-cyclonedx.xml json-rpc-extension-openrpc-0.9.0-cyclonedx.json json-rpc-extension-micrometer-0.9.0.pom json-rpc-extension-micrometer-0.9.0.jar json-rpc-extension-micrometer-0.9.0-cyclonedx.xml json-rpc-extension-micrometer-0.9.0-cyclonedx.json json-rpc-extension-openrpc-0.9.0.pom json-rpc-extension-openrpc-0.9.0.jar json-rpc-extension-openrpc-0.9.0-cyclonedx.xml json-rpc-extension-openrpc-0.9.0-cyclonedx.json json-rpc-spring-integration-autoconfigure-0.9.0.pom json-rpc-spring-integration-autoconfigure-0.9.0.jar json-rpc-spring-integration-autoconfigure-0.9.0-cyclonedx.xml json-rpc-spring-integration-autoconfigure-0.9.0-cyclonedx.json json-rpc-spring-integration-starter-0.9.0.pom json-rpc-spring-integration-starter-0.9.0.jar json-rpc-spring-integration-starter-0.9.0-cyclonedx.xml json-rpc-spring-integration-starter-0.9.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
