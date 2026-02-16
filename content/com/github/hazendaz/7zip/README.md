@@ -13,6 +13,7 @@ rebuilding **8 releases** of com.github.hazendaz.7zip:7zip:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [26.00](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/26.00/pom) | | | |
 | [25.01](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/25.01/pom) | [mvn jdk17 w](7zip-25.01.buildspec) | [result](7zip-25.01.buildinfo): [4 :white_check_mark: ](7zip-25.01.buildcompare) | | 1.6M |
 | [24.09](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/24.09/pom) | [mvn jdk17 w](7zip-24.09.buildspec) | [result](7zip-24.09.buildinfo): [4 :white_check_mark: ](7zip-24.09.buildcompare) | | 1.6M |
 | [24.08](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/24.08/pom) | [mvn jdk17 w](7zip-24.08.buildspec) | [result](7zip-24.08.buildinfo): [4 :white_check_mark: ](7zip-24.08.buildcompare) | | 1.6M |

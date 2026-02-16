@@ -174,6 +174,7 @@ rebuilding **40 releases** of org.apache.pulsar:pulsar:
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.2/pom) | [mvn jdk17](pulsar-3.1.2.buildspec) | :x: | |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.1/pom) | [mvn jdk17](pulsar-3.1.1.buildspec) | :x: | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.0/pom) | [mvn jdk17](pulsar-3.1.0.buildspec) | :x: | |
+| [3.0.16](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.16/pom) | | | |
 | [3.0.15](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.15/pom) | | | |
 | [3.0.14](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.14/pom) | | | |
 | [3.0.13](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.13/pom) | | | |
