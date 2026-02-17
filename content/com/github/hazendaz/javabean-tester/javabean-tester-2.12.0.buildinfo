@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=javabean-tester
+group-id=com.github.hazendaz
+artifact-id=javabean-tester
+version=2.12.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/javabean-tester.git
+source.scm.tag=javabean-tester-2.12.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.2
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=javabean-tester-2.12.0.pom
+outputs.0.length=54253
+outputs.0.checksums.sha512=358313caa1883e4f9393e9789dfd0947acffadc4d84de84f3527dbd1673327cf524256f2383a8fe6a46b41077579dd0aa3253381c79067006fa03b56031632c9
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=javabean-tester-2.12.0.jar
+outputs.1.length=48527
+outputs.1.checksums.sha512=894d51655dfcf1889d18f80500dee6ee8cf5e96ce67d0b7c4f4445b96c54f260495f165ff3b92f7aaed7e60c620342ab5f2311281ae6d9c0a6f84f6eeb7cca7c
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=javabean-tester-2.12.0-tests.jar
+outputs.2.length=63414
+outputs.2.checksums.sha512=15565d9038b312494e54132ccfd94cb0a6d255eb71738be7a514faf26ec436e79538b895da2bded0128add3feca57f9c8c8716171679a7744c196aea336def89
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=javabean-tester-2.12.0-sources.jar
+outputs.3.length=32410
+outputs.3.checksums.sha512=5237d75fb6949d0589a88f39cbfb575fbcf3c44f255dbd5907b8361c9bf1be30f70e79a49d893502779513d989d9897995e945de361855c809a7bda1f863a962
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=javabean-tester-2.12.0-test-sources.jar
+outputs.4.length=27197
+outputs.4.checksums.sha512=b77f611249092c0f9178b442862bfc9e5d0ce4eb547f3a4cf5344c524a3f479c1f2b2afbd5616d33f804c0ab7f5fde1c482d69eebcae83d91f5bd5032f4e9e4d
