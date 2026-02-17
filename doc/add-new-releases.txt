@@ -1,15 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.5.31.buildspec:1.5.32
-content/ch/qos/logback/access/access-2.0.11.buildspec:2.0.12
-content/com/github/hazendaz/7zip/7zip-25.01.buildspec:26.00
-content/com/github/hazendaz/javabean-tester/javabean-tester-2.11.2.buildspec:2.12.0
+content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.6.0.buildspec:3.7.0
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
-content/io/airlift/airbase/airbase-353.buildspec:354
-content/io/avaje/http/avaje-http-3.8-RC1.buildspec:3.8-RC2
-content/io/github/cbarlin/aru/aru-0.7.3.buildspec:0.8.0
-content/io/wcm/io.wcm.handler/media/wcm-media-2.6.2.buildspec:2.7.0
-content/nl/basjes/parse/useragent/yauaa/yauaa-8.0.0.buildspec:8.1.0
-content/org/apache/sling/org.apache.sling.testing.jcr-mock/org.apache.sling.testing.jcr-mock-1.7.0.buildspec:1.8.0
-content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-4.0.2.buildspec:4.0.4
-content/org/eclipse/ee4j/project/project-2.0.0-M1.buildspec:2.0.0
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.2.buildspec:1.4.3

@@ -24,6 +24,7 @@ rebuilding **2 releases** of org.apache.commons:commons-fileupload2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0-M5](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M5/pom) | | | |
 | [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M4/pom) | [mvn jdk21](commons-fileupload2-2.0.0-M4.buildspec) | [result](commons-fileupload2-2.0.0-M4.buildinfo): [38 :white_check_mark:  4 :warning:](commons-fileupload2-2.0.0-M4.buildcompare) | - | 682K |
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M3/pom) | [mvn jdk21](commons-fileupload2-2.0.0-M3.buildspec) | [result](commons-fileupload2-2.0.0-M3.buildinfo): [37 :white_check_mark:  5 :warning:](commons-fileupload2-2.0.0-M3.buildcompare) | - | 716K |
 

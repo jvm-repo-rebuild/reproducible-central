@@ -14,6 +14,8 @@ rebuilding **5 releases** of io.cucumber:compatibility-kit:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [29.1.3](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.3/pom) | | | |
+| [29.1.2](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.2/pom) | | | |
 | [29.1.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.1/pom) | | | |
 | [29.1.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.0/pom) | | | |
 | [29.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.0.0/pom) | | | |
