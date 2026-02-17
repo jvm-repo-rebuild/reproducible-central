@@ -1,0 +1,31 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=nl.basjes.parse.useragent
+artifactId=yauaa
+version=8.1.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/nielsbasjes/yauaa.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.12
+
+# All LTS JDK versions and JDK-25 is the default (used to start Maven with)
+jdk=25
+toolchains="17|21|25"
+umask=0002
+timezone=UTC
+newline=lf
+# crlf for Windows, lf for Unix
+
+# Rebuild command
+command='mvn clean verify -PskipQuality -Dbuildinfo.skipModules=*/yauaa-devtools*,*/yauaa-log2test,*/yauaa-benchmark,*/yauaa-documentation,*/yauaa-example*,*/yauaa-nifi-processors,*/yauaa-elastic*'
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/yauaa-parent-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=yauaa-parent-${version}.diffoscope
+issue=
