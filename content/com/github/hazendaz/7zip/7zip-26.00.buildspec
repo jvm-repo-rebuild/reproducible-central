@@ -1,0 +1,18 @@
+groupId=com.github.hazendaz.7zip
+artifactId=7zip
+version=26.00
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/hazendaz/7-zip.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.12
+jdk=25
+newline=crlf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dlicense.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
