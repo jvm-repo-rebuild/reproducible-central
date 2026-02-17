@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 945 modules:</summary>
+<details><summary>This project defines 949 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -301,6 +301,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-email-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-email-bundle/overview)
 * [org.apache.nifi:nifi-email-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-email-nar/overview)
 * [org.apache.nifi:nifi-email-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-email-processors/overview)
+* [org.apache.nifi:nifi-embedded-database-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-embedded-database-service/overview)
 * [org.apache.nifi:nifi-enrich-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-enrich-bundle/overview)
 * [org.apache.nifi:nifi-enrich-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-enrich-nar/overview)
 * [org.apache.nifi:nifi-enrich-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-enrich-processors/overview)
@@ -867,6 +868,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-system-test-authorizer](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-authorizer/overview)
 * [org.apache.nifi:nifi-system-test-authorizer-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-authorizer-bundle/overview)
 * [org.apache.nifi:nifi-system-test-authorizer-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-authorizer-nar/overview)
+* [org.apache.nifi:nifi-system-test-component-metric-reporter](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter/overview)
+* [org.apache.nifi:nifi-system-test-component-metric-reporter-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter-bundle/overview)
+* [org.apache.nifi:nifi-system-test-component-metric-reporter-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter-nar/overview)
 * [org.apache.nifi:nifi-system-test-extensions](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions/overview)
 * [org.apache.nifi:nifi-system-test-extensions-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions-bundle/overview)
 * [org.apache.nifi:nifi-system-test-extensions-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions-nar/overview)
@@ -956,14 +960,14 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **34 releases** of org.apache.nifi:nifi:
+rebuilding **35 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 34 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 35 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.8.0/pom) | | | |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.8.0/pom) | [mvn jdk21 osx aarm64](nifi-2.8.0.buildspec) | [result](nifi-2.8.0.buildinfo): [1746 :white_check_mark:  24 :warning:](nifi-2.8.0.buildcompare) | 6 :rotating_light: 18 :no_entry_sign: | 1.6G |
 | [2.7.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.2/pom) | [mvn jdk21](nifi-2.7.2.buildspec) | [result](nifi-2.7.2.buildinfo): [1767 :white_check_mark:  11 :warning:](nifi-2.7.2.buildcompare) [:mag:](nifi-2.7.2.diffoscope) | 6 :rotating_light: 5 :no_entry_sign: | 1.6G |
 | [2.7.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.1/pom) | [mvn jdk21](nifi-2.7.1.buildspec) | [result](nifi-2.7.1.buildinfo): [1769 :white_check_mark:  9 :warning:](nifi-2.7.1.buildcompare) | 6 :rotating_light: 3 :no_entry_sign: | 1.6G |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.0/pom) | [mvn jdk21 osx aarm64](nifi-2.7.0.buildspec) | [result](nifi-2.7.0.buildinfo): [1757 :white_check_mark:  21 :warning:](nifi-2.7.0.buildcompare) | 15 :rotating_light: 6 :no_entry_sign: | 1.6G |
