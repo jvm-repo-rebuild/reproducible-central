@@ -1,0 +1,7 @@
+version=26.00
+ok=4
+ko=0
+ignored=0
+okFiles="7zip-26.00.pom 7zip-26.00-cyclonedx.xml 7zip-26.00-cyclonedx.json 7zip-26.00-installer.tar.gz"
+koFiles=""
+ignoredFiles=""
