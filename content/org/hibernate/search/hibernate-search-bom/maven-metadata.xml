@@ -26,6 +26,7 @@
       <version>7.2.3.Final</version>
       <version>7.2.4.Final</version>
       <version>7.2.5.Final</version>
+      <version>7.2.6.Final</version>
       <version>8.0.0.Alpha1</version>
       <version>8.0.0.Alpha2</version>
       <version>8.0.0.Alpha3</version>
@@ -38,11 +39,13 @@
       <version>8.1.0.Final</version>
       <version>8.1.1.Final</version>
       <version>8.1.2.Final</version>
+      <version>8.1.3.Final</version>
       <version>8.2.0.CR1</version>
       <version>8.2.0.Final</version>
       <version>8.2.1.Final</version>
+      <version>8.2.2.Final</version>
       <version>8.3.0.CR1</version>
     </versions>
-    <lastUpdated>20260205222528</lastUpdated>
+    <lastUpdated>20260218155521</lastUpdated>
   </versioning>
 </metadata>

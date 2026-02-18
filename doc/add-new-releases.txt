@@ -1,5 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.6.0.buildspec:3.7.0
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.2.buildspec:1.4.3
+content/eu/maveniverse/maven/njord/njord-0.9.3.buildspec:0.9.4
+content/io/cucumber/pretty-formatter/pretty-formatter-3.0.0.buildspec:3.1.0
+content/io/cucumber/tag-expressions/tag-expressions-9.0.0.buildspec:9.1.0
+content/org/apache/activemq/activemq-6.2.0.buildspec:6.2.1
