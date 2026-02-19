@@ -18,6 +18,6 @@ javaVendor="Eclipse Adoptium"
 command="mvn -Djava.version='$javaVersion' -Djava.vendor='$javaVendor' -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dformat.skip -Ddevelocity.cache.local.enabled=false -Ddevelocity.cache.remote.storeEnabled=false -Dbuildinfo.ignore='*/quarkus-documentation-*.zip,*/quarkus-documentation-*.tar.gz'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
-PR_merge_max_ko=1
+PR_merge_max_ko=2 # quarkus-ide-launcher.jar and quarkus-cli-runner.jar

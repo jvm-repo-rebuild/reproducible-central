@@ -1,0 +1,434 @@
+1 / 2 target/reference/io.quarkus/quarkus-ide-launcher-3.31.3.jar core/launcher/target/quarkus-ide-launcher-3.31.3.jar
+--- target/reference/io.quarkus/quarkus-ide-launcher-3.31.3.jar
++++ core/launcher/target/quarkus-ide-launcher-3.31.3.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 15100885 bytes, number of entries: 10484
+│ +Zip file size: 15121626 bytes, number of entries: 10484
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-11 09:48 META-INF/
+│  -rw-r--r--  2.0 unx      578 b- defN 26-Feb-11 09:48 META-INF/MANIFEST.MF
+│ @@ -718,24 +718,24 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-11 09:48 META-INF/maven/io.quarkus/quarkus-ide-launcher/
+│  -rw-r--r--  2.0 unx    11360 b- defN 26-Feb-11 09:48 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      271 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/DEPENDENCIES.ide-launcher-res
+│ --rw-r--r--  2.0 unx      219 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/INDEX.LIST.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     1216 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/DEPENDENCIES.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      208 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/INDEX.LIST.ide-launcher-res
+│  -rw-r--r--  2.0 unx    11358 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/LICENSE.ide-launcher-res
+│  -rw-r--r--  2.0 unx    35084 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/LICENSE.md.ide-launcher-res
+│ --rw-r--r--  2.0 unx     1178 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/LICENSE.txt.ide-launcher-res
+│ --rw-r--r--  2.0 unx      339 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/MANIFEST.MF.ide-launcher-res
+│ --rw-r--r--  2.0 unx      176 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/NOTICE.ide-launcher-res
+│ --rw-r--r--  2.0 unx     3337 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/NOTICE.md.ide-launcher-res
+│ --rw-r--r--  2.0 unx      174 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/NOTICE.txt.ide-launcher-res
+│ --rw-r--r--  2.0 unx     4809 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/jandex.idx.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    11359 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/LICENSE.txt.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    11522 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/MANIFEST.MF.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      194 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/NOTICE.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     2139 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/NOTICE.md.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      173 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/NOTICE.txt.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    43346 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/jandex.idx.ide-launcher-res
+│  -rw-r--r--  2.0 unx       60 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/maven/com.google.code.gson/gson/pom.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx    13490 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/maven/com.google.code.gson/gson/pom.xml.ide-launcher-res
+│ @@ -877,15 +877,15 @@
+│  -rw-r--r--  2.0 unx     1290 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/maven/slf4j-configuration.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx     6129 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/plexus/artifact-handlers.xml.ide-launcher-res
+│ --rw-r--r--  2.0 unx    63096 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/plexus/components.xml.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      499 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/plexus/components.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx    11324 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/plexus/default-bindings.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1248 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/proguard/base.pro.ide-launcher-res
+│ @@ -896,15 +896,15 @@
+│  -rw-r--r--  2.0 unx     1450 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/versions/11/org/codehaus/plexus/util/BaseFileUtils.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      145 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/versions/9/OSGI-INF/MANIFEST.MF.ide-launcher-res
+│ --rw-r--r--  2.0 unx      334 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/versions/9/module-info.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      350 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/versions/9/module-info.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      942 b- defN 26-Feb-11 09:48 META-INF/ide-deps/META-INF/versions/9/org/codehaus/plexus/util/BaseIOUtil.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      586 b- defN 26-Feb-11 09:48 META-INF/ide-deps/com/google/common/annotations/Beta.class.ide-launcher-res
+│ @@ -4072,15 +4072,15 @@
+│  -rw-r--r--  2.0 unx     1408 b- defN 26-Feb-11 09:48 META-INF/ide-deps/licenses/javolution.license.TXT.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1914 b- defN 26-Feb-11 09:48 META-INF/ide-deps/licenses/thoughtworks.TXT.ide-launcher-res
+│ --rw-r--r--  2.0 unx      334 b- defN 26-Feb-11 09:48 META-INF/ide-deps/module-info.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      367 b- defN 26-Feb-11 09:48 META-INF/ide-deps/module-info.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx   245071 b- defN 26-Feb-11 09:48 META-INF/ide-deps/mozilla/public-suffix-list.txt.ide-launcher-res
+│  -rw-r--r--  2.0 unx      113 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/aopalliance/aop/Advice.class.ide-launcher-res
+│ @@ -6874,36 +6874,36 @@
+│  -rw-r--r--  2.0 unx      781 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/reflection/ReflectorException.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      635 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/CompactXMLWriter.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     7904 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/PrettyPrintXMLWriter.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     7921 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/PrettyPrintXMLWriter.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     2840 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/SerializerXMLWriter.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     3211 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/StringUtils.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      309 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XMLWriter.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx    12178 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlReader.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    12356 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlReader.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1704 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlReaderException.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     1683 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlStreamReader.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     1895 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlStreamReader.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      936 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlStreamReaderException.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     3289 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlStreamWriter.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     6030 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlUtil.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     4734 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlWriterUtil.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     5946 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlUtil.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     4738 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/XmlWriterUtil.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      367 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3Dom$ChildrenTracking.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx    11304 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3Dom.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    12316 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3Dom.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      360 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3DomBuilder$InputLocationBuilder.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     5701 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3DomBuilder.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     5518 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3DomUtils.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     4666 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3DomBuilder.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     2622 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3DomUtils.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     2294 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/Xpp3DomWriter.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx    11732 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/EntityReplacementMap.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx    51176 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/MXParser.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx    19311 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/MXSerializer.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    11862 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/EntityReplacementMap.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    50873 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/MXParser.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    19245 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/MXSerializer.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     2869 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/XmlPullParser.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     2440 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/XmlPullParserException.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     2444 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/XmlPullParserException.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1728 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/codehaus/plexus/util/xml/pull/XmlSerializer.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     4292 b- defN 26-Feb-11 09:48 META-INF/ide-deps/org/eclipse/aether/AbstractForwardingRepositorySystemSession.class.ide-launcher-res
+│ @@ -10479,8 +10479,8 @@
+│  -rw-r--r--  2.0 unx     4996 b- defN 26-Feb-11 09:48 META-INF/maven/io.quarkus/quarkus-ide-launcher/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 26-Feb-11 09:48 META-INF/maven/io.quarkus/quarkus-ide-launcher/pom.properties
+│ -10484 files, 31775052 bytes uncompressed, 12375265 bytes compressed:  61.1%
+│ +10484 files, 31769331 bytes uncompressed, 12396006 bytes compressed:  61.0%
+├── META-INF/ide-deps/META-INF/DEPENDENCIES.ide-launcher-res
+│ @@ -1,11 +1,29 @@
+│  // ------------------------------------------------------------------
+│  // Transitive dependencies of this project determined from the
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│ -Maven Builder Support
+│ +Maven Artifact Resolver Connector Basic
+│ +
+│ +
+│ +From: 'QOS.ch' (http://www.qos.ch)
+│ +
+│ +  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+│ +    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│ +
+│ +
+│ +From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +
+│ +  - Maven Artifact Resolver API (https://maven.apache.org/resolver/maven-resolver-api/) org.apache.maven.resolver:maven-resolver-api:jar:1.9.25
+│ +    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│ +  - Maven Artifact Resolver SPI (https://maven.apache.org/resolver/maven-resolver-spi/) org.apache.maven.resolver:maven-resolver-spi:jar:1.9.25
+│ +    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│ +  - Maven Artifact Resolver Utilities (https://maven.apache.org/resolver/maven-resolver-util/) org.apache.maven.resolver:maven-resolver-util:jar:1.9.25
+│ +    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+├── META-INF/ide-deps/META-INF/INDEX.LIST.ide-launcher-res
+│ @@ -1,12 +1,12 @@
+│  JarIndex-Version: 1.0
+│  
+│ -slf4j-jboss-logmanager-2.0.2.Final.jar
+│ +jboss-logging-3.6.2.Final.jar
+│  META-INF
+│  META-INF/maven
+│ -META-INF/maven/org.jboss.slf4j
+│ -META-INF/maven/org.jboss.slf4j/slf4j-jboss-logmanager
+│ -META-INF/services
+│ +META-INF/maven/org.jboss.logging
+│ +META-INF/maven/org.jboss.logging/jboss-logging
+│  org
+│ -org/slf4j
+│ -org/slf4j/impl
+│ +org/jboss
+│ +org/jboss/logging
+│ +module-info.class
+├── META-INF/ide-deps/META-INF/LICENSE.txt.ide-launcher-res
+│ @@ -1,24 +1,202 @@
+│ -Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)
+│ -All rights reserved.
+│ -
+│ -Permission is hereby granted, free  of charge, to any person obtaining
+│ -a  copy  of this  software  and  associated  documentation files  (the
+│ -"Software"), to  deal in  the Software without  restriction, including
+│ -without limitation  the rights to  use, copy, modify,  merge, publish,
+│ -distribute,  sublicense, and/or sell  copies of  the Software,  and to
+│ -permit persons to whom the Software  is furnished to do so, subject to
+│ -the following conditions:
+│ -
+│ -The  above  copyright  notice  and  this permission  notice  shall  be
+│ -included in all copies or substantial portions of the Software.
+│ -
+│ -THE  SOFTWARE IS  PROVIDED  "AS  IS", WITHOUT  WARRANTY  OF ANY  KIND,
+│ -EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+│ -MERCHANTABILITY,    FITNESS    FOR    A   PARTICULAR    PURPOSE    AND
+│ -NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+│ -LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+│ -OF CONTRACT, TORT OR OTHERWISE,  ARISING FROM, OUT OF OR IN CONNECTION
+│ -WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+│ -
+│ -
+│ -
+│ +                                 Apache License
+│ +                           Version 2.0, January 2004
+│ +                        http://www.apache.org/licenses/
+│ +
+│ +   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+│ +
+...
+│ +   See the License for the specific language governing permissions and
+│ +   limitations under the License.
+│ +
+├── META-INF/ide-deps/META-INF/MANIFEST.MF.ide-launcher-res
+│ @@ -1,10 +1,167 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.4.2
+│  Build-Jdk-Spec: 21
+│ -Specification-Title: Maven Builder Support
+│ -Specification-Version: 3.9
+│ +Specification-Title: Maven Artifact Resolver Connector Basic
+│ +Specification-Version: 1.9
+│  Specification-Vendor: The Apache Software Foundation
+│ -Implementation-Title: Maven Builder Support
+│ -Implementation-Version: 3.9.12
+│ +Implementation-Title: Maven Artifact Resolver Connector Basic
+│ +Implementation-Version: 1.9.25
+│  Implementation-Vendor: The Apache Software Foundation
+│ +Automatic-Module-Name: org.apache.maven.resolver.connector.basic
+│ +Bundle-Description: A repository connector implementation for repositori
+│ + es using URI-based layouts.
+│ +Bundle-Developers: hboutemy;email="hboutemy@apache.org";name="Hervé Bou
+│ + temy";organization=ASF;roles="PMC Chair";timezone="Europe/Paris",aherit
+│ + ier;email="aheritier@apache.org";name="Arnaud Héritier";roles="PMC Mem
+...
+├── META-INF/ide-deps/META-INF/NOTICE.ide-launcher-res
+│ @@ -1,6 +1,6 @@
+│ -Maven Builder Support
+│ -Copyright 2001-2025 The Apache Software Foundation
+│ +Maven Artifact Resolver Connector Basic
+│ +Copyright 2010-2025 The Apache Software Foundation
+│  
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+...
+├── META-INF/ide-deps/META-INF/jandex.idx.ide-launcher-res
+... jandex.idx known to not be reproducible
+├── META-INF/ide-deps/META-INF/plexus/components.xml.ide-launcher-res
+│ ├── META-INF/ide-deps/META-INF/plexus/components.xml.ide-launcher-res
+│ │ @@ -1,1446 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <component-set>
+│ │    <components>
+│ │      <component>
+│ │ -      <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+│ │ -      <role-hint>pom</role-hint>
+│ │ -      <implementation>org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping</implementation>
+...
+│ │ -    <component>
+│ │ -      <role>org.apache.maven.toolchain.ToolchainsBuilder</role>
+│ │ -      <role-hint>default</role-hint>
+│ │ -      <implementation>org.apache.maven.toolchain.DefaultToolchainsBuilder</implementation>
+│ │ -      <description/>
+│ │ +      <role>org.apache.maven.wagon.Wagon</role>
+│ │ +      <role-hint>file</role-hint>
+│ │ +      <implementation>org.apache.maven.wagon.providers.file.FileWagon</implementation>
+│ │ +      <instantiation-strategy>per-lookup</instantiation-strategy>
+│ │ +      <description>Wagon Provider for Local File System</description>
+│ │        <isolated-realm>false</isolated-realm>
+│ │ -      <requirements>
+│ │ -        <requirement>
+│ │ -          <role>org.codehaus.plexus.logging.Logger</role>
+│ │ -          <field-name>logger</field-name>
+│ │ -        </requirement>
+│ │ -      </requirements>
+│ │      </component>
+│ │    </components>
+│ │  </component-set>
+├── META-INF/ide-deps/META-INF/sisu/javax.inject.Named.ide-launcher-res
+│┄ Ordering differences only
+│ @@ -1,7 +1,94 @@
+│ +org.eclipse.aether.connector.basic.BasicRepositoryConnectorFactory
+│ +org.apache.maven.repository.internal.DefaultArtifactDescriptorReader
+...
+│ -org.eclipse.aether.transport.wagon.WagonTransporterFactory
+│ -org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher
+├── META-INF/ide-deps/META-INF/versions/9/module-info.class.ide-launcher-res
+│┄ 'procyon' not available in path. Falling back to binary comparison. Installing the 'procyon-decompiler' package may produce better output.
+│...
+
+2 / 2 target/reference/io.quarkus/quarkus-cli-3.31.3-runner.jar devtools/cli/target/quarkus-cli-3.31.3-runner.jar
+--- target/reference/io.quarkus/quarkus-cli-3.31.3-runner.jar
++++ devtools/cli/target/quarkus-cli-3.31.3-runner.jar
+│┄ 'target/reference/io.quarkus/quarkus-cli-3.31.3-runner.jar' has 1 duplicate entries
+│┄ 'devtools/cli/target/quarkus-cli-3.31.3-runner.jar' has 1 duplicate entries
+├── zipinfo {}
+│ @@ -19034,20 +19034,20 @@
+│  -rw-r--r--  2.0 unx    25898 bx defN 26-Feb-11 09:48 META-INF/maven/org.jboss.logging/jboss-logging/pom.xml
+│  -rw-r--r--  2.0 unx     3107 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/DefaultPicocliCommandLineFactory.class
+│ +-rw-r--r--  2.0 unx     6192 bx defN 26-Feb-11 09:48 io/quarkus/cli/BuildReport.class
+│  -rw-r--r--  2.0 unx     2918 bx defN 26-Feb-11 09:48 io/netty/channel/ChannelHandlerAdapter.class
+│  -rw-r--r--  2.0 unx     9469 bx defN 26-Feb-11 09:48 io/netty/channel/DefaultChannelId.class
+│  -rw-r--r--  2.0 unx     4322 bx defN 26-Feb-11 09:48 io/netty/channel/ChannelInitializer.class
+│  -rw-r--r--  2.0 unx     2469 bx defN 26-Feb-11 09:48 io/netty/util/internal/CleanerJava9.class
+│ --rw-r--r--  2.0 unx     6192 bx defN 26-Feb-11 09:48 io/quarkus/cli/BuildReport.class
+│ --rw-r--r--  2.0 unx     2988 bx defN 26-Feb-11 09:48 io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│ +-rw-r--r--  2.0 unx     2990 bx defN 26-Feb-11 09:48 io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│  -rw-r--r--  2.0 unx    31269 bx defN 26-Feb-11 09:48 io/quarkus/runtime/generated/Config.class
+│  -rw-r--r--  2.0 unx     1943 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/debug/QuteDebugConfig$$CMImpl.class
+│ @@ -19085,93 +19085,93 @@
+│  -rw-r--r--  2.0 unx     1267 bx defN 26-Feb-11 09:48 io/quarkus/cli/BuildReport$_BuildItem_ValueResolver.class
+│  -rw-r--r--  2.0 unx     2841 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Extension_ValueResolver_fmtInstance_6f657fb2a556a9885d398f282d9ed1dab1b37921.class
+│ --rw-r--r--  2.0 unx     1577 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_getByIndex_657afe9a25009c92a9bdafe71a002284cc5c15d2.class
+│  -rw-r--r--  2.0 unx     2913 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_subtractFromLong_9c9ad703eaa32c6f532414cf5a53b74af8f4a460.class
+│ --rw-r--r--  2.0 unx     2898 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToLong_9c9ad703eaa32c6f532414cf5a53b74af8f4a460.class
+│ --rw-r--r--  2.0 unx     2937 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_subtractFromInt_7960693d39b2f712668a26c75b53fda89da3fb49.class
+│ +-rw-r--r--  2.0 unx     2922 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToInt_7960693d39b2f712668a26c75b53fda89da3fb49.class
+│  -rw-r--r--  2.0 unx     2794 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Extension_ValueResolver_plus_e66c3354160ead5dcfb550a04f31e523bc4c1d8a.class
+│ --rw-r--r--  2.0 unx     2908 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToInt_c4c2a444b875632d1f05e7e19edee263d5d3e57a.class
+│ --rw-r--r--  2.0 unx     1198 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/MapTemplateExtensions_Extension_ValueResolver_map_2916869ff3e33525b6b33460e43bcf5d56e2e69c.class
+│ +-rw-r--r--  2.0 unx     2937 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_subtractFromInt_7960693d39b2f712668a26c75b53fda89da3fb49.class
+│  -rw-r--r--  2.0 unx     2837 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Extension_ValueResolver_plus_6966d857ae4e63e2c007193192804f359f04d3e8.class
+│ --rw-r--r--  2.0 unx     2939 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_subtractFromLong_b00a071e584486616d898c53585494d0942de97d.class
+│ --rw-r--r--  2.0 unx     3044 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Extension_ValueResolver_fmtInstance_0e0c8527d491c736ae8021d28078331a20315a36.class
+│  -rw-r--r--  2.0 unx     2931 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/ObjectsTemplateExtensions_Extension_ValueResolver_eq_4ef3e9d546711498e5ea229da4d3b2ee7e77ce15.class
+│ +-rw-r--r--  2.0 unx     1577 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_getByIndex_657afe9a25009c92a9bdafe71a002284cc5c15d2.class
+│  -rw-r--r--  2.0 unx     2923 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_subtractFromInt_c4c2a444b875632d1f05e7e19edee263d5d3e57a.class
+│  -rw-r--r--  2.0 unx     2924 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToLong_b00a071e584486616d898c53585494d0942de97d.class
+│ --rw-r--r--  2.0 unx     2922 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToInt_7960693d39b2f712668a26c75b53fda89da3fb49.class
+│ +-rw-r--r--  2.0 unx     2898 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToLong_9c9ad703eaa32c6f532414cf5a53b74af8f4a460.class
+│ +-rw-r--r--  2.0 unx     2908 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_addToInt_c4c2a444b875632d1f05e7e19edee263d5d3e57a.class
+│ +-rw-r--r--  2.0 unx     2939 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_subtractFromLong_b00a071e584486616d898c53585494d0942de97d.class
+│ +-rw-r--r--  2.0 unx     3044 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Extension_ValueResolver_fmtInstance_0e0c8527d491c736ae8021d28078331a20315a36.class
+│ +-rw-r--r--  2.0 unx     1198 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/MapTemplateExtensions_Extension_ValueResolver_map_2916869ff3e33525b6b33460e43bcf5d56e2e69c.class
+│  -rw-r--r--  2.0 unx     1279 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_first_c79dcd7e0c0c2e87acbcdb6425088ca1593854ca.class
+│  -rw-r--r--  2.0 unx     2885 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_get_61a55da54cd4263e9dff1c28f2ed031026e30ccf.class
+│ +-rw-r--r--  2.0 unx     1277 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_last_c79dcd7e0c0c2e87acbcdb6425088ca1593854ca.class
+│ +-rw-r--r--  2.0 unx     1273 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_orEmpty_49cd7d5d995da0ed2a0b410e1718aafcfdfbec2b.class
+│ +-rw-r--r--  2.0 unx     1287 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_reversed_c79dcd7e0c0c2e87acbcdb6425088ca1593854ca.class
+│ +-rw-r--r--  2.0 unx     2885 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_take_61a55da54cd4263e9dff1c28f2ed031026e30ccf.class
+│ +-rw-r--r--  2.0 unx     2893 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_takeLast_61a55da54cd4263e9dff1c28f2ed031026e30ccf.class
+│ +-rw-r--r--  2.0 unx     2791 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/OrOperatorTemplateExtensions_Extension_ValueResolver_or_8f1638f5c0cac882965cb238c12ac4185e0c98f6.class
+│ +-rw-r--r--  2.0 unx     2868 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/MapTemplateExtensions_Extension_ValueResolver_containsKey_c312eb3fc6948f9b67e43528a7682ca853ccafa2.class
+│  -rw-r--r--  2.0 unx     5266 bx defN 26-Feb-11 09:48 io/quarkus/arc/setup/Default_ComponentsProvider_addBeans0.class
+│  -rw-r--r--  2.0 unx     1437 bx defN 26-Feb-11 09:48 io/quarkus/arc/setup/Default_ComponentsProvider_addObservers0.class
+│  -rw-r--r--  2.0 unx      470 bx defN 26-Feb-11 09:48 io/quarkus/arc/setup/Default_ComponentsProvider$0.class
+│  -rw-r--r--  2.0 unx      466 bx defN 26-Feb-11 09:48 io/quarkus/arc/setup/Default_ComponentsProvider$1.class
+│  -rw-r--r--  2.0 unx     2868 bx defN 26-Feb-11 09:48 io/quarkus/arc/setup/Default_ComponentsProvider.class
+│ +-rw-r--r--  2.0 unx     4253 bx defN 26-Feb-11 09:48 io/quarkus/qute/i18n/MessageTemplateLocator_Bean.class
+│ +-rw-r--r--  2.0 unx     2674 bx defN 26-Feb-11 09:48 io/quarkus/arc/impl/DefaultAsyncObserverExceptionHandler_Bean.class
+│ +-rw-r--r--  2.0 unx     4886 bx defN 26-Feb-11 09:48 io/quarkus/jackson/runtime/ConfigurationCustomizer_Bean.class
+│ +-rw-r--r--  2.0 unx     3229 bx defN 26-Feb-11 09:48 io/quarkus/cli/QuarkusCli_Bean.class
+│  -rw-r--r--  2.0 unx     4794 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/DefaultPicocliCommandLineFactory_Bean.class
+│ +-rw-r--r--  2.0 unx     2184 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/LaunchModeProducer_Bean.class
+│ +-rw-r--r--  2.0 unx     8358 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/EngineProducer_Bean.class
+│ +-rw-r--r--  2.0 unx     3989 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliRunner_Bean.class
+│ +-rw-r--r--  2.0 unx     2236 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/cache/MissingCacheConfigurator_Bean.class
+│  -rw-r--r--  2.0 unx     2519 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/ConfigStaticInitValues_Bean.class
+│  -rw-r--r--  2.0 unx     4405 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/TemplateProducer_Bean.class
+│ --rw-r--r--  2.0 unx     2674 bx defN 26-Feb-11 09:48 io/quarkus/arc/impl/DefaultAsyncObserverExceptionHandler_Bean.class
+│ --rw-r--r--  2.0 unx     2236 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/cache/MissingCacheConfigurator_Bean.class
+│ --rw-r--r--  2.0 unx     3989 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliRunner_Bean.class
+│ +-rw-r--r--  2.0 unx     2302 bx defN 26-Feb-11 09:48 io/quarkus/qute/i18n/MessageBundles_Bean.class
+│  -rw-r--r--  2.0 unx     4021 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/ContentTypes_Bean.class
+│  -rw-r--r--  2.0 unx     2416 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliCommandLineProducer_Bean.class
+│ --rw-r--r--  2.0 unx     2302 bx defN 26-Feb-11 09:48 io/quarkus/qute/i18n/MessageBundles_Bean.class
+│ --rw-r--r--  2.0 unx     3229 bx defN 26-Feb-11 09:48 io/quarkus/cli/QuarkusCli_Bean.class
+│ --rw-r--r--  2.0 unx     4886 bx defN 26-Feb-11 09:48 io/quarkus/jackson/runtime/ConfigurationCustomizer_Bean.class
+│ --rw-r--r--  2.0 unx     2184 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/LaunchModeProducer_Bean.class
+│  -rw-r--r--  2.0 unx     2415 bx defN 26-Feb-11 09:48 io/quarkus/cli/Main_Bean.class
+│ --rw-r--r--  2.0 unx     4253 bx defN 26-Feb-11 09:48 io/quarkus/qute/i18n/MessageTemplateLocator_Bean.class
+│ --rw-r--r--  2.0 unx     8358 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/EngineProducer_Bean.class
+│ --rw-r--r--  2.0 unx     3704 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/TemplateProducer_ProducerMethod_getTemplate_LyF4kCErkS3YZD6b0CByxjym6ss_Bean.class
+│ --rw-r--r--  2.0 unx     3416 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/LaunchModeProducer_ProducerMethod_mode_mROrQzyj6otAOV2ZW1VOaKeunQA_Bean.class
+│  -rw-r--r--  2.0 unx     3534 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/EngineProducer_ProducerMethod_getEngine_wpCsd7XdxyujxdlHymJgAOKveLw_Bean.class
+│ --rw-r--r--  2.0 unx     3284 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliCommandLineProducer_ProducerMethod_picocliFactory_Trcth8yjeePSy7zeNYVu2WLtbog_Bean.class
+│ --rw-r--r--  2.0 unx     3407 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/TemplateProducer_ProducerMethod_getDefaultTemplate_j6Bp4w1_EL9PLvdWZCIeuzbHjrY_Bean.class
+│  -rw-r--r--  2.0 unx     3436 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliCommandLineProducer_ProducerMethod_picocliCommandLine_khVRGvi_eaW5dhdY-YKZYLyj_sA_Bean.class
+│ +-rw-r--r--  2.0 unx     3416 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/LaunchModeProducer_ProducerMethod_mode_mROrQzyj6otAOV2ZW1VOaKeunQA_Bean.class
+│ +-rw-r--r--  2.0 unx     3407 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/TemplateProducer_ProducerMethod_getDefaultTemplate_j6Bp4w1_EL9PLvdWZCIeuzbHjrY_Bean.class
+│ +-rw-r--r--  2.0 unx     3704 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/TemplateProducer_ProducerMethod_getTemplate_LyF4kCErkS3YZD6b0CByxjym6ss_Bean.class
+│ +-rw-r--r--  2.0 unx     3284 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliCommandLineProducer_ProducerMethod_picocliFactory_Trcth8yjeePSy7zeNYVu2WLtbog_Bean.class
+│ +-rw-r--r--  2.0 unx     4227 bx defN 26-Feb-11 09:48 io/quarkus/arc/generator/Object_nGQSPoU0mrMYWLu586fbJU5BNwI_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4082 bx defN 26-Feb-11 09:48 io/quarkus/jackson/runtime/JacksonSupport_7CdlftOjU7bn-NS0rAbXVTF2YfA_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4131 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/QuteRecorder$QuteContext_OzSSXGfyttSZeVtD9RnrdQlzAK0_Synthetic_Bean.class
+│ --rw-r--r--  2.0 unx     4227 bx defN 26-Feb-11 09:48 io/quarkus/arc/generator/Object_nGQSPoU0mrMYWLu586fbJU5BNwI_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4283 bx defN 26-Feb-11 09:48 io/quarkus/registry/ValueRegistry_xCLCDU8snsCILE1gjeVwq51pNh8_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4597 bx defN 26-Feb-11 09:48 io/netty/channel/EventLoopGroup_kvHDo4zTYet60nqf5jJO26V0iuE_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4597 bx defN 26-Feb-11 09:48 io/netty/channel/EventLoopGroup_a3b9G5N0ykJYNK_I4Ykk8EyknTI_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4401 bx defN 26-Feb-11 09:48 io/quarkus/runtime/LocalesBuildTimeConfig_hgtjiRE_VbWZjt-phzFfB02a69U_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4441 bx defN 26-Feb-11 09:48 io/quarkus/jackson/runtime/JacksonBuildTimeConfig_dIOoVX2bXE8BFwBfo7Gn6HTF6sM_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4378 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/QuteConfig_vU_KdvSzEduBsR_LkN8dF6LgU_0_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4433 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliConfiguration_5pjiGQNqKHSnVAGqd2Azxof6LvY_Synthetic_Bean.class
+│  -rw-r--r--  2.0 unx     4406 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/QuteRuntimeConfig_a62PwRYL60-QJDWO-KNbuvZXEyk_Synthetic_Bean.class
+│ --rw-r--r--  2.0 unx     2024 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/cache/MissingCacheConfigurator_Observer_configureEngine_i4MMCm9DmaMARLvZLoEbpVgWV_E.class
+│ --rw-r--r--  2.0 unx     2353 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/ConfigStaticInitValues_Observer_onStart_fdhd3Q2CPu5KfpwUMYn5Ol6axJU.class
+│ --rw-r--r--  2.0 unx     2291 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/EngineProducer_Observer_onShutdown_ksJeSkT1-7z97OYV_zT2A7ZMp_Q.class
+│  -rw-r--r--  2.0 unx     2942 bx defN 26-Feb-11 09:48 io/quarkus/qute/i18n/MessageBundles_Observer_preloadMessageTemplates_Gj5mzElPoa3xppVdbVnt-9iyCX0.class
+│  -rw-r--r--  2.0 unx     2970 bx defN 26-Feb-11 09:48 io/quarkus/qute/i18n/MessageBundles_Observer_setupNamespaceResolvers_MY71VQNwNEEg1RjCiDvonxE-i2Y.class
+│ +-rw-r--r--  2.0 unx     2353 bx defN 26-Feb-11 09:48 io/quarkus/arc/runtime/ConfigStaticInitValues_Observer_onStart_fdhd3Q2CPu5KfpwUMYn5Ol6axJU.class
+│ +-rw-r--r--  2.0 unx     2291 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/EngineProducer_Observer_onShutdown_ksJeSkT1-7z97OYV_zT2A7ZMp_Q.class
+│ +-rw-r--r--  2.0 unx     2024 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/cache/MissingCacheConfigurator_Observer_configureEngine_i4MMCm9DmaMARLvZLoEbpVgWV_E.class
+│  -rw-r--r--  2.0 unx     1689 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/EngineProducer_Observer_Synthetic_qm_fNCtz8i4NDPW0VBqtlYwjBZo.class
+│  -rw-r--r--  2.0 unx     1706 bx defN 26-Feb-11 09:48 io/quarkus/registry/ValueRegistry_Observer_Synthetic_6RtMyXaDvLofYbpS_9V2L4ywF-c.class
+│  -rw-r--r--  2.0 unx     4669 bx defN 26-Feb-11 09:48 io/quarkus/arc/generator/Default_jakarta_enterprise_context_ApplicationScoped_ContextInstances.class
+│  -rw-r--r--  2.0 unx     1053 bx defN 26-Feb-11 09:48 io/quarkus/arc/generator/Default_jakarta_enterprise_context_RequestScoped_ContextInstances.class
+│  -rw-r--r--  2.0 unx     1574 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/DefaultPicocliCommandLineFactory_ClientProxy.class
+│  -rw-r--r--  2.0 unx     1909 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/PicocliCommandLineProducer_ClientProxy.class
+│  -rw-r--r--  2.0 unx     4358 bx defN 26-Feb-11 09:48 io/quarkus/qute/EngineProducer_ProducerMethod_getEngine_wpCsd7XdxyujxdlHymJgAOKveLw_ClientProxy.class
+│  -rw-r--r--  2.0 unx     2771 bx defN 26-Feb-11 09:48 io/quarkus/registry/ValueRegistry_xCLCDU8snsCILE1gjeVwq51pNh8_Synthetic_ClientProxy.class
+│  -rw-r--r--  2.0 unx      852 bx defN 26-Feb-11 09:48 io/quarkus/picocli/runtime/annotations/TopCommand_ArcAnnotationLiteral.class
+│  -rw-r--r--  2.0 unx      943 bx defN 26-Feb-11 09:48 io/quarkus/qute/Location_ArcAnnotationLiteral.class
+│  -rw-r--r--  2.0 unx      860 bx defN 26-Feb-11 09:48 io/quarkus/runtime/annotations/CommandLineArguments_ArcAnnotationLiteral.class
+│  -rw-r--r--  2.0 unx      728 bx defN 26-Feb-11 09:48 io/quarkus/arc/All_ArcAnnotationLiteral.class
+│  -rw-r--r--  2.0 unx      796 bx defN 26-Feb-11 09:48 io/quarkus/netty/BossEventLoopGroup_ArcAnnotationLiteral.class
+│  -rw-r--r--  2.0 unx      796 bx defN 26-Feb-11 09:48 io/quarkus/netty/MainEventLoopGroup_ArcAnnotationLiteral.class
+│ --rw-r--r--  2.0 unx     1277 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_last_c79dcd7e0c0c2e87acbcdb6425088ca1593854ca.class
+│ --rw-r--r--  2.0 unx     1273 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_orEmpty_49cd7d5d995da0ed2a0b410e1718aafcfdfbec2b.class
+│ --rw-r--r--  2.0 unx     1287 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_reversed_c79dcd7e0c0c2e87acbcdb6425088ca1593854ca.class
+│ --rw-r--r--  2.0 unx     2885 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_take_61a55da54cd4263e9dff1c28f2ed031026e30ccf.class
+│ --rw-r--r--  2.0 unx     2893 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/CollectionTemplateExtensions_Extension_ValueResolver_takeLast_61a55da54cd4263e9dff1c28f2ed031026e30ccf.class
+│ --rw-r--r--  2.0 unx     2791 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/OrOperatorTemplateExtensions_Extension_ValueResolver_or_8f1638f5c0cac882965cb238c12ac4185e0c98f6.class
+│ --rw-r--r--  2.0 unx     2868 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/MapTemplateExtensions_Extension_ValueResolver_containsKey_c312eb3fc6948f9b67e43528a7682ca853ccafa2.class
+│  -rw-r--r--  2.0 unx     2798 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/MapTemplateExtensions_Extension_ValueResolver_get_bc0571c57a00283edd7750dce31b35b7894dab35.class
+│  -rw-r--r--  2.0 unx     2817 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/NumberTemplateExtensions_Extension_ValueResolver_mod_bd066910099671b808afec3771a44518fddd2bc9.class
+│  -rw-r--r--  2.0 unx     2853 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Extension_ValueResolver_format_20fff29d757fefef0946b2d3432680c31e8cb1e1.class
+│  -rw-r--r--  2.0 unx     2906 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Extension_ValueResolver_format_9d2fa65ff1dc33288b60815fc775a809a8f911d2.class
+│  -rw-r--r--  2.0 unx     2959 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Extension_ValueResolver_format_751439945e2ab1b1668ce644124b107cc3b9867b.class
+│  -rw-r--r--  2.0 unx     3562 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Namespace_Extension_ValueResolver_714eea0f4c980736bde0065fe73f573487f08e3a_5.class
+│  -rw-r--r--  2.0 unx     1074 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/ConfigTemplateExtensions_Namespace_Extension_ValueResolver_dfba7aade0868074c2861c98e2a9a92f3178a51b_5.class
+│ @@ -19181,31 +19181,31 @@
+│  -rw-r--r--  2.0 unx     1105 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Namespace_Extension_ValueResolver_3442496b96dd01591a8cd44b1eec1368ab728aba_-1.class
+│  -rw-r--r--  2.0 unx     2699 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Namespace_Extension_ValueResolver_3442496b96dd01591a8cd44b1eec1368ab728aba_-2.class
+│  -rw-r--r--  2.0 unx     3129 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Namespace_Extension_ValueResolver_3442496b96dd01591a8cd44b1eec1368ab728aba_1.class
+│  -rw-r--r--  2.0 unx     3289 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Namespace_Extension_ValueResolver_3442496b96dd01591a8cd44b1eec1368ab728aba_2.class
+│  -rw-r--r--  2.0 unx     3368 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Namespace_Extension_ValueResolver_3442496b96dd01591a8cd44b1eec1368ab728aba_3.class
+│  -rw-r--r--  2.0 unx     1061 bx defN 26-Feb-11 09:48 io/quarkus/qute/runtime/extensions/StringTemplateExtensions_Namespace_Extension_ValueResolver_3442496b96dd01591a8cd44b1eec1368ab728aba_-10.class
+│  -rw-r--r--  2.0 unx      845 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/BlockingOperationControlBuildStep$blockingOP558072755.class
+│ --rw-r--r--  2.0 unx     1309 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/LoggingResourceProcessor$setupLoggingStaticInit2062061316.class
+│  -rw-r--r--  2.0 unx      764 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/NativeImageConfigBuildStep$build1000240510.class
+│ +-rw-r--r--  2.0 unx     1309 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/LoggingResourceProcessor$setupLoggingStaticInit2062061316.class
+│  -rw-r--r--  2.0 unx      950 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/JacksonProcessor$jacksonSupport1304410591.class
+│  -rw-r--r--  2.0 unx     1500 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/QuteProcessor$initialize1942259851.class
+│  -rw-r--r--  2.0 unx     1527 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/SyntheticBeansProcessor$initStatic1190120725.class
+│  -rw-r--r--  2.0 unx      859 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ConfigBuildStep$validateStaticInitConfigProperty682828288.class
+│  -rw-r--r--  2.0 unx     1083 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ArcProcessor$initializeContainer643029769.class
+│  -rw-r--r--  2.0 unx     1119 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ArcProcessor$notifyBeanContainerListeners1304312071.class
+│  -rw-r--r--  2.0 unx     7298 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/QuteProcessor$initializeGeneratedClasses1960914558.class
+│  -rw-r--r--  2.0 unx      975 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ConfigGenerationBuildStep$releaseConfigOnShutdown561040398.class
+│  -rw-r--r--  2.0 unx     1104 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ValueRegistryProcessor$valueRegistry295811999.class
+│ --rw-r--r--  2.0 unx      904 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/NettyProcessor$registerEventLoopBeans705363396.class
+│ --rw-r--r--  2.0 unx     2172 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ConfigGenerationBuildStep$reportDeprecatedMappingProperties145829896.class
+│  -rw-r--r--  2.0 unx     7026 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ConfigGenerationBuildStep$checkForBuildTimeConfigChange1532146938.class
+│ --rw-r--r--  2.0 unx     1507 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/BannerProcessor$recordBanner921118789.class
+│ +-rw-r--r--  2.0 unx      904 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/NettyProcessor$registerEventLoopBeans705363396.class
+│  -rw-r--r--  2.0 unx     1747 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ThreadPoolSetup$createExecutor2117483448.class
+│ +-rw-r--r--  2.0 unx     2172 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ConfigGenerationBuildStep$reportDeprecatedMappingProperties145829896.class
+│  -rw-r--r--  2.0 unx      896 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ArcProcessor$setupExecutor1831044820.class
+│ +-rw-r--r--  2.0 unx     1507 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/BannerProcessor$recordBanner921118789.class
+│  -rw-r--r--  2.0 unx      771 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/ConfigGenerationBuildStep$unknownConfigFiles604069353.class
+│  -rw-r--r--  2.0 unx      957 bx defN 26-Feb-11 09:48 io/quarkus/runner/recorded/JacksonProcessor$clearCachesOnShutdown1226024990.class
+│ @@ -19323,8 +19323,8 @@
+│  -rw-r--r--  2.0 unx       42 bx defN 26-Feb-11 09:48 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│  -rw-r--r--  2.0 unx     9687 bx defN 26-Feb-11 09:48 META-INF/sisu/javax.inject.Named
+│ -19328 files, 57585096 bytes uncompressed, 23124865 bytes compressed:  59.8%
+│ +19328 files, 57585098 bytes uncompressed, 23124865 bytes compressed:  59.8%
+...
