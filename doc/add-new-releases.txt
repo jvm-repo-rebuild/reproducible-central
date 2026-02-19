@@ -1,7 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/github/nbbrd/java-desktop-util/java-desktop-util-2.6.0.buildspec:2.6.1
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
-content/eu/maveniverse/maven/njord/njord-0.9.3.buildspec:0.9.4
-content/io/cucumber/pretty-formatter/pretty-formatter-3.0.0.buildspec:3.1.0
-content/io/cucumber/tag-expressions/tag-expressions-9.0.0.buildspec:9.1.0
-content/org/apache/activemq/activemq-6.2.0.buildspec:6.2.1
+content/land/oras/oras-java-sdk/oras-java-sdk-0.3.3.buildspec:0.4.0
+content/org/metricshub/ssh-java/ssh-java-1.0.03.buildspec:1.0.04

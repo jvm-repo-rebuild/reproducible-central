@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.metricshub:ssh-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.04](https://central.sonatype.com/artifact/org.metricshub/ssh-java/1.0.04/pom) | | | |
 | [1.0.03](https://central.sonatype.com/artifact/org.metricshub/ssh-java/1.0.03/pom) | [mvn jdk17](ssh-java-1.0.03.buildspec) | [result](ssh-java-1.0.03.buildinfo): [3 :white_check_mark: ](ssh-java-1.0.03.buildcompare) | | 32K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
