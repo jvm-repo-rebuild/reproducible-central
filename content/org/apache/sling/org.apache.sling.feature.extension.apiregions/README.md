@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-extension-apiregions.git](https://github.com/apache/sling-org-apache-sling-feature-extension-apiregions.git)
 
-rebuilding **10 releases** of org.apache.sling:org.apache.sling.feature.extension.apiregions:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.apache.sling:org.apache.sling.feature.extension.apiregions:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.1.2/pom) | | | |
+| [2.1.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.1.2/pom) | [mvn jdk21](org.apache.sling.feature.extension.apiregions-2.1.2.buildspec) | [result](org.apache.sling.feature.extension.apiregions-2.1.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.extension.apiregions-2.1.2.buildcompare) | | 490K |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.1.0/pom) | [mvn jdk17](org.apache.sling.feature.extension.apiregions-2.1.0.buildspec) | [result](org.apache.sling.feature.extension.apiregions-2.1.0.buildinfo): [2 :white_check_mark:  2 :warning:](org.apache.sling.feature.extension.apiregions-2.1.0.buildcompare) [:mag:](org.apache.sling.feature.extension.apiregions-2.1.0.diffoscope) | 2 :rotating_light: | 487K |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.0.0/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-2.0.0.buildspec) | [result](org.apache.sling.feature.extension.apiregions-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.extension.apiregions-2.0.0.buildcompare) | | 583K |
 | [1.6.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.4/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.4.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.4.buildcompare) | | 585K |
