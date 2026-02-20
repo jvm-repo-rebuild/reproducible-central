@@ -46,8 +46,8 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/overview)
 </details>
 
-rebuilding **58 releases** of org.apache.maven.resolver:maven-resolver:
-- **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **59 releases** of org.apache.maven.resolver:maven-resolver:
+- **54** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -78,7 +78,7 @@ rebuilding **58 releases** of org.apache.maven.resolver:maven-resolver:
 | [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-2/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-2.buildspec) | [result](maven-resolver-2.0.0-alpha-2.buildinfo): [109 :white_check_mark: ](maven-resolver-2.0.0-alpha-2.buildcompare) | | 13M |
 | [2.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-1/pom) | [mvn jdk17](maven-resolver-2.0.0-alpha-1.buildspec) | [result](maven-resolver-2.0.0-alpha-1.buildinfo): [99 :white_check_mark: ](maven-resolver-2.0.0-alpha-1.buildcompare) | | 13M |
 | [1.9.26](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.26/pom) | | | |
-| [1.9.25](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.25/pom) | | | |
+| [1.9.25](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.25/pom) | [mvn jdk21](maven-resolver-1.9.25.buildspec) | [result](maven-resolver-1.9.25.buildinfo): [75 :white_check_mark: ](maven-resolver-1.9.25.buildcompare) | | 13M |
 | [1.9.24](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.24/pom) | [mvn jdk21](maven-resolver-1.9.24.buildspec) | [result](maven-resolver-1.9.24.buildinfo): [75 :white_check_mark: ](maven-resolver-1.9.24.buildcompare) | | 13M |
 | [1.9.23](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.23/pom) | [mvn jdk21](maven-resolver-1.9.23.buildspec) | [result](maven-resolver-1.9.23.buildinfo): [75 :white_check_mark: ](maven-resolver-1.9.23.buildcompare) | | 13M |
 | [1.9.22](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.22/pom) | [mvn jdk21](maven-resolver-1.9.22.buildspec) | [result](maven-resolver-1.9.22.buildinfo): [75 :white_check_mark: ](maven-resolver-1.9.22.buildcompare) | | 13M |
