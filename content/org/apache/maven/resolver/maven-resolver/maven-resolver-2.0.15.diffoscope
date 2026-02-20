@@ -1,0 +1,33 @@
+# why???
+1 / 2 target/reference/org.apache.maven.resolver/maven-resolver-2.0.15-cyclonedx.xml target/bom.xml
+--- target/reference/org.apache.maven.resolver/maven-resolver-2.0.15-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/org.apache.maven.resolver/maven-resolver-2.0.15-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -3361,14 +3361,24 @@
+│      <component type="library" bom-ref="pkg:maven/org.apache.maven.resolver/maven-resolver-transport-jdk11@2.0.15?classifier=sources&amp;type=jar">
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.maven.resolver</group>
+│        <name>maven-resolver-transport-jdk11</name>
+│        <version>2.0.15</version>
+│        <description>Maven Artifact Transport JDK HTTP Client.</description>
+│        <scope>optional</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">85b1f601f3b2b56ea14889301d99528d</hash>
+│ +        <hash alg="SHA-1">6370b1681bdbe1b316f41d7c02d72404516c99ca</hash>
+│ +        <hash alg="SHA-256">e1b6ba4bb9b4203bb67c2befda330fe010d6fa60a72d896bdcb268b2266a3cba</hash>
+│ +        <hash alg="SHA-512">4a74eb02d0f0c627d84ffc5811596845d19e0ce909cd078d5b5d3c7808ee998b9b73871786a77163d01e74ded5af7c4bd6749a6e61cead89ecadcb9e1316c035</hash>
+│ +        <hash alg="SHA-384">9de1aaf8356fd8ab495b44e65161a18cbf4619d675594d387dc9dffc526a360449cf28adf1835483f015434f9374f513</hash>
+│ +        <hash alg="SHA3-384">4a430129439c475edd0c207a22d0a2c32c61ee5a65e427cc65f1a040e64814f14efb9872f019929e7c64926dfbca4bfe</hash>
+│ +        <hash alg="SHA3-256">06bcaf548a2b64aac79a9c2492d345473f6f1be2892c38bcc7026fbb0f97be04</hash>
+│ +        <hash alg="SHA3-512">7aab38db758f63da58409ae734be0856ebd334430f5822e97259bdcac2a8834de6515b1b2a1fe4ff814a2e5431ce929170b3eaf33c62f132c3d4061a704bb0d1</hash>
+│ +      </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.apache.maven.resolver/maven-resolver-transport-jdk11@2.0.15?classifier=sources&amp;type=jar</purl>
+
+2 / 2 target/reference/org.apache.maven.resolver/maven-resolver-2.0.15-cyclonedx.json target/bom.json
