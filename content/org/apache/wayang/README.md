@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/wayang/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/wayang/README.md)
 
-Source code: [https://github.com/apache/incubator-wayang.git](https://github.com/apache/incubator-wayang.git)
+Source code: [https://github.com/apache/wayang.git](https://github.com/apache/wayang.git)
 
 <details><summary>This project defines 44 modules:</summary>
 
@@ -55,13 +55,13 @@ Source code: [https://github.com/apache/incubator-wayang.git](https://github.com
 * [org.apache.wayang:wayang-utils-profile-db](https://central.sonatype.com/artifact/org.apache.wayang/wayang-utils-profile-db/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.wayang:wayang:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of org.apache.wayang:wayang:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.1](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.1.1/pom) | | | |
+| [1.1.1](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.1.1/pom) | [mvn jdk17](wayang-1.1.1.buildspec) | [result](wayang-1.1.1.buildinfo): [77 :white_check_mark: ](wayang-1.1.1.buildcompare) | | 14M |
 | [1.1.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.1.0/pom) | [mvn jdk17](wayang-1.1.0.buildspec) | [result](wayang-1.1.0.buildinfo): [77 :white_check_mark: ](wayang-1.1.0.buildcompare) | | 16M |
 | [1.0.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.0.0/pom) | [mvn jdk11](wayang-1.0.0.buildspec) | [result](wayang-1.0.0.buildinfo): [72 :white_check_mark:  2 :warning:](wayang-1.0.0.buildcompare) [:mag:](wayang-1.0.0.diffoscope) [:memo:](https://github.com/apache/incubator-wayang/pull/503) | - | 18M |
 | [0.7.1](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.1/pom) | [mvn jdk8](wayang-0.7.1.buildspec) | [result](wayang-0.7.1.buildinfo): [90 :white_check_mark: ](wayang-0.7.1.buildcompare) | | 14M |
