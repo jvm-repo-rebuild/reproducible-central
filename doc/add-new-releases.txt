@@ -1,8 +1,4 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/hibegin/zrlog-base/zrlog-base-3.2.125.buildspec:3.3.8
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.3.buildspec:1.4.4
-content/org/apache/wayang/wayang-1.1.0.buildspec:1.1.1
-content/org/apache/sling/feature-launcher-maven-plugin/feature-launcher-maven-plugin-1.0.2.buildspec:1.0.4
 content/org/apache/sling/slingfeature-maven-plugin/slingfeature-maven-plugin-1.9.2.buildspec:1.9.4
-content/org/webjars/font-awesome/font-awesome-7.1.0.buildspec:7.2.0
