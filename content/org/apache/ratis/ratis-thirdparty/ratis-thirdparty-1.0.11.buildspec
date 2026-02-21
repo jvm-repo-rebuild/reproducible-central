@@ -1,0 +1,17 @@
+groupId=org.apache.ratis
+artifactId=ratis-thirdparty
+display=${groupId}:${artifactId}
+version=1.0.11
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${version}-rc0
+
+tool=mvn-3.9.12
+jdk=8
+#jdkForceAzul=true # require a distribution that has backported from JDK SHA-3 algorithms
+newline=lf
+umask=077
+execBefore="chmod go-r misc/pom.xml"
+
+command="mvn -Papache-release -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
