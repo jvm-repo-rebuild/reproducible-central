@@ -23,8 +23,8 @@ Source code: [https://github.com/avaje/avaje-jex.git](https://github.com/avaje/a
 * [io.avaje:avaje-jex-websocket](https://central.sonatype.com/artifact/io.avaje/avaje-jex-websocket/overview)
 </details>
 
-rebuilding **41 releases** of io.avaje:avaje-jex-parent:
-- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **42 releases** of io.avaje:avaje-jex-parent:
+- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -32,7 +32,7 @@ rebuilding **41 releases** of io.avaje:avaje-jex-parent:
 | -- | --------- | ------ | ------ | -- |
 | [3.5-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.5-RC3/pom) | [mvn jdk25](avaje-jex-3.5-RC3.buildspec) | [result](avaje-jex-parent-3.5-RC3.buildinfo): [28 :white_check_mark: ](avaje-jex-parent-3.5-RC3.buildcompare) | | 403K |
 | [3.5-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.5-RC2/pom) | [mvn jdk25](avaje-jex-3.5-RC2.buildspec) | [result](avaje-jex-parent-3.5-RC2.buildinfo): [28 :white_check_mark: ](avaje-jex-parent-3.5-RC2.buildcompare) | | 402K |
-| [3.5-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.5-RC1/pom) | | | |
+| [3.5-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.5-RC1/pom) | [mvn jdk25](avaje-jex-3.5-RC1.buildspec) | [result](avaje-jex-parent-3.5-RC1.buildinfo): [28 :white_check_mark: ](avaje-jex-parent-3.5-RC1.buildcompare) | | 401K |
 | [3.4](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4/pom) | [mvn jdk25 w](avaje-jex-3.4.buildspec) | [result](avaje-jex-parent-3.4.buildinfo): [33 :white_check_mark:  1 :warning:](avaje-jex-parent-3.4.buildcompare) [:mag:](avaje-jex-parent-3.4.diffoscope) | 1 :rotating_light: | 472K |
 | [3.4-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4-RC4/pom) | [mvn jdk25 w](avaje-jex-3.4-RC4.buildspec) | [result](avaje-jex-parent-3.4-RC4.buildinfo): [28 :white_check_mark: ](avaje-jex-parent-3.4-RC4.buildcompare) | | 387K |
 | [3.4-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4-RC3/pom) | [mvn jdk25 w](avaje-jex-3.4-RC3.buildspec) | [result](avaje-jex-parent-3.4-RC3.buildinfo): [24 :white_check_mark:  4 :warning:](avaje-jex-parent-3.4-RC3.buildcompare) | 3 :rotating_light: 1 :no_entry_sign: | 386K |
