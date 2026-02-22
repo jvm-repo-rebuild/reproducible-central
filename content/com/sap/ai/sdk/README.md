@@ -19,21 +19,20 @@ Source code: [https://github.com/SAP/ai-sdk-java.git](https://github.com/SAP/ai-
 </details>
 
 rebuilding **8 releases** of com.sap.ai.sdk:sdk-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.16.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.16.0/pom) | [mvn jdk21](sdk-1.16.0.buildspec) | [result](sdk-parent-1.16.0.buildinfo): [19 :white_check_mark: ](sdk-parent-1.16.0.buildcompare) | | 4.8M |
-| [1.15.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.15.0/pom) | [mvn jdk21](sdk-1.15.0.buildspec) | [result](sdk-parent-1.15.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.15.0.buildcompare) | 5 :rotating_light: | 4.7M |
-| [1.14.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.14.0/pom) | [mvn jdk17](sdk-1.14.0.buildspec) | [result](sdk-parent-1.14.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.14.0.buildcompare) | 5 :rotating_light: | 4.6M |
-| [1.13.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.13.0/pom) | [mvn jdk17](sdk-1.13.0.buildspec) | [result](sdk-parent-1.13.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.13.0.buildcompare) | 5 :rotating_light: | 4.6M |
-| [1.12.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.12.0/pom) | [mvn jdk17](sdk-1.12.0.buildspec) | [result](sdk-parent-1.12.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.12.0.buildcompare) | 5 :rotating_light: | 4.5M |
-| [1.11.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.11.0/pom) | [mvn jdk17](sdk-1.11.0.buildspec) | [result](sdk-parent-1.11.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.11.0.buildcompare) | 5 :rotating_light: | 4.3M |
-| [1.10.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.10.0/pom) | [mvn jdk17](sdk-1.10.0.buildspec) | [result](sdk-parent-1.10.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.10.0.buildcompare) | 5 :rotating_light: | 3.9M |
+| [1.15.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.15.0/pom) | [mvn jdk21](sdk-1.15.0.buildspec) | [result](sdk-parent-1.15.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.15.0.buildcompare) | | 4.6M |
+| [1.14.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.14.0/pom) | [mvn jdk17](sdk-1.14.0.buildspec) | [result](sdk-parent-1.14.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.14.0.buildcompare) | | 4.6M |
+| [1.13.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.13.0/pom) | [mvn jdk17](sdk-1.13.0.buildspec) | [result](sdk-parent-1.13.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.13.0.buildcompare) | | 4.6M |
+| [1.12.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.12.0/pom) | [mvn jdk17](sdk-1.12.0.buildspec) | [result](sdk-parent-1.12.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.12.0.buildcompare) | | 4.5M |
+| [1.11.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.11.0/pom) | [mvn jdk17](sdk-1.11.0.buildspec) | [result](sdk-parent-1.11.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.11.0.buildcompare) | | 4.3M |
+| [1.10.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.10.0/pom) | [mvn jdk17](sdk-1.10.0.buildspec) | [result](sdk-parent-1.10.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.10.0.buildcompare) | | 3.9M |
 | [1.9.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.9.0/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.8.0/pom) | | | |
-| [1.7.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.7.0/pom) | [mvn jdk17](sdk-1.7.0.buildspec) | [result](sdk-parent-1.7.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.7.0.buildcompare) | 5 :rotating_light: | 3.3M |
+| [1.7.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.7.0/pom) | [mvn jdk17](sdk-1.7.0.buildspec) | [result](sdk-parent-1.7.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.7.0.buildcompare) | | 3.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

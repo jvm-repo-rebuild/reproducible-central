@@ -11,7 +11,8 @@ jdk=17
 newline=lf
 #umask=022
 
-command="mvn -Drelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip -Dbuildinfo.detect.skip=false"
+# double execution to emulate gh download asset https://github.com/SAP/ai-sdk-java/blob/main/.github/workflows/perform-release.yaml#L97
+command="SHELL mvn clean package -DskipTests -Dspotless.skip && mvn -Drelease package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip -Dbuildinfo.detect.skip=false"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope

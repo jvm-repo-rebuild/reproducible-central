@@ -15,8 +15,11 @@ build-tool=mvn
 
 # effective build environment information
 java.version=17.0.16
-java.vendor=Ubuntu
+java.vendor=Azul Systems, Inc.
 os.name=Linux
+os.version=6.8.0-94-generic
+os.arch=amd64
+line.separator=\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.9.11
@@ -45,8 +48,8 @@ outputs.1.1.checksums.sha512=8875700b8a1d2fbe0feea79a5443961d62a0580f445f8c7348f
 
 outputs.1.2.groupId=com.sap.ai.sdk
 outputs.1.2.filename=core-1.7.0-sources.jar
-outputs.1.2.length=610950
-outputs.1.2.checksums.sha512=6271f2ab7b521ef10cbe189de30b0920d04e7974f88d70f88eb4f3142c3e855b9613b38dad94ea26b16774d855d9cc417a2ea7908c8805c0632e9311ad77e661
+outputs.1.2.length=608735
+outputs.1.2.checksums.sha512=05a11234a5dd28a82bc1b4131c2c026e11a3491930774e436ac27caf9b060446c30394aab9e77991c78f9e66f77a6fcb11dfcfc827e90b85ee70668da41d4a89
 
 outputs.2.coordinates=com.sap.ai.sdk:orchestration
 
@@ -62,8 +65,8 @@ outputs.2.1.checksums.sha512=cbd722eff066d8c67f5aae9058ba548cd0ec77530bf1b032862
 
 outputs.2.2.groupId=com.sap.ai.sdk
 outputs.2.2.filename=orchestration-1.7.0-sources.jar
-outputs.2.2.length=203223
-outputs.2.2.checksums.sha512=719af7c1c2b70226ecb7efe2de4ab25d34ba411b98ab77a2b9768da8b2f28d63d36566c515ff5dfb057dbbaee1f43fd65087e61c01f7833da83140da0d190459
+outputs.2.2.length=200235
+outputs.2.2.checksums.sha512=42a3afdcff4f9f529d4e42bf58c678ae156d7bdfe2f16ef79c5e79c68f761b72e7130e5cef9b927b8c802a5935eb17e8a9f7c3407b52c19bf784affc6b4f7539
 
 outputs.3.coordinates=com.sap.ai.sdk:document-grounding
 
@@ -79,8 +82,8 @@ outputs.3.1.checksums.sha512=21393da25fbd3f6d6e9ac6fdc718ea58edce37549f24cb05a00
 
 outputs.3.2.groupId=com.sap.ai.sdk
 outputs.3.2.filename=document-grounding-1.7.0-sources.jar
-outputs.3.2.length=136119
-outputs.3.2.checksums.sha512=05db3b3f3fb775d1083a95a7fed813dd2b602d494dd99e05503eef84d4c76274365aa880d8f2da0ab9725e76b3a2102a98723df12c2f7d60459573754224241b
+outputs.3.2.length=133846
+outputs.3.2.checksums.sha512=4b4d30b6f4a4b62c68824d3d86fa3d2498a0e057da97074c28d3810ceac72fdf5b34500afff6c3d71ed5ac33497b1f3b070805302d8ad6c10199f196c61c8184
 
 outputs.4.coordinates=com.sap.ai.sdk:prompt-registry
 
@@ -96,8 +99,8 @@ outputs.4.1.checksums.sha512=7ada50390caf77b9cd31ceeb3daf51272be2f84814031d725e7
 
 outputs.4.2.groupId=com.sap.ai.sdk
 outputs.4.2.filename=prompt-registry-1.7.0-sources.jar
-outputs.4.2.length=66843
-outputs.4.2.checksums.sha512=e05bc584a7d1be3b278e2d2962a8c9c85138cef7303af888424591b2802ab60b3d889df87dba1a33f2bea7dea5f5fce35619edfc22b205fd95fc3c97ee48730d
+outputs.4.2.length=64570
+outputs.4.2.checksums.sha512=01c959953ec5b0843a3bcc0a444506318e013c7415fa13963ccf0cde3281c92a2434034bdd5d877f799ea2cb6c5354659fd32b255e94c100877606507ad33595
 
 outputs.5.coordinates=com.sap.ai.sdk.foundationmodels:openai
 
@@ -113,5 +116,5 @@ outputs.5.1.checksums.sha512=f9cd43f18d919f829340a629dc66eb9ff0572a3ed4723f91d8e
 
 outputs.5.2.groupId=com.sap.ai.sdk.foundationmodels
 outputs.5.2.filename=openai-1.7.0-sources.jar
-outputs.5.2.length=227990
-outputs.5.2.checksums.sha512=679ade1407d0fa9b75ce602c6dc8ec03bf8a58b241ef497e35c560541c9292e0cf3fe9dcbaf47747e7f0a06e67a57a09bcf82a20f6a22d047b6ffb532ee34525
+outputs.5.2.length=225072
+outputs.5.2.checksums.sha512=a31145d1e24316f713d8344efd89c7e9a5d002fc2d9e649b5db7cea0b04081652ebc8f11c96e7f533096c32a378855b92e0feec47b1162e0bb0b3a20fa3015ea
