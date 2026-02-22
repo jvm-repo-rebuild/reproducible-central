@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/avaje/avaje-http.git](https://github.com/avaje/avaje-http.git)
 
-<details><summary>This project defines 18 modules:</summary>
+<details><summary>This project defines 20 modules:</summary>
 
 * [io.avaje:avaje-htmx-api](https://central.sonatype.com/artifact/io.avaje/avaje-htmx-api/overview)
 * [io.avaje:avaje-htmx-nima](https://central.sonatype.com/artifact/io.avaje/avaje-htmx-nima/overview)
 * [io.avaje:avaje-htmx-nima-jstache](https://central.sonatype.com/artifact/io.avaje/avaje-htmx-nima-jstache/overview)
 * [io.avaje:avaje-http-api](https://central.sonatype.com/artifact/io.avaje/avaje-http-api/overview)
 * [io.avaje:avaje-http-api-javalin](https://central.sonatype.com/artifact/io.avaje/avaje-http-api-javalin/overview)
+* [io.avaje:avaje-http-api-vertx](https://central.sonatype.com/artifact/io.avaje/avaje-http-api-vertx/overview)
 * [io.avaje:avaje-http-client](https://central.sonatype.com/artifact/io.avaje/avaje-http-client/overview)
 * [io.avaje:avaje-http-client-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-client-generator/overview)
 * [io.avaje:avaje-http-client-gson](https://central.sonatype.com/artifact/io.avaje/avaje-http-client-gson/overview)
@@ -26,17 +27,18 @@ Source code: [https://github.com/avaje/avaje-http.git](https://github.com/avaje/
 * [io.avaje:avaje-http-jex-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-jex-generator/overview)
 * [io.avaje:avaje-http-parent](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/overview)
 * [io.avaje:avaje-http-sigma-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-sigma-generator/overview)
+* [io.avaje:avaje-http-vertx-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-vertx-generator/overview)
 * [io.avaje:openapi-maven-plugin](https://central.sonatype.com/artifact/io.avaje/openapi-maven-plugin/overview)
 </details>
 
-rebuilding **39 releases** of io.avaje:avaje-http-parent:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **40 releases** of io.avaje:avaje-http-parent:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 15, 0 had all their differences removed :recycle:, 15 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.8-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.8-RC3/pom) | | | |
+| [3.8-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.8-RC3/pom) | [mvn jdk25](avaje-http-3.8-RC3.buildspec) | [result](avaje-http-parent-3.8-RC3.buildinfo): [58 :white_check_mark: ](avaje-http-parent-3.8-RC3.buildcompare) | | 5.3M |
 | [3.8-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.8-RC2/pom) | [mvn jdk25](avaje-http-3.8-RC2.buildspec) | [result](avaje-http-parent-3.8-RC2.buildinfo): [51 :white_check_mark:  1 :warning:](avaje-http-parent-3.8-RC2.buildcompare) | 1 :rotating_light: | 4.6M |
 | [3.8-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.8-RC1/pom) | [mvn jdk25](avaje-http-3.8-RC1.buildspec) | [result](avaje-http-parent-3.8-RC1.buildinfo): [49 :white_check_mark: ](avaje-http-parent-3.8-RC1.buildcompare) | | 4.5M |
 | [3.7](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.7/pom) | [mvn jdk25 w](avaje-http-3.7.buildspec) | [result](avaje-http-parent-3.7.buildinfo): [47 :white_check_mark:  2 :warning:](avaje-http-parent-3.7.buildcompare) [:mag:](avaje-http-parent-3.7.diffoscope) [:memo:](https://github.com/avaje/avaje-spi-service/issues/78) | 2 :rotating_light: | 4.4M |
