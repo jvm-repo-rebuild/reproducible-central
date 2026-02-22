@@ -1,0 +1,9 @@
+version=1.16.0
+ok=19
+ko=0
+ignored=0
+okFiles="sdk-parent-1.16.0.pom core-1.16.0.pom core-1.16.0.jar core-1.16.0-sources.jar orchestration-1.16.0.pom orchestration-1.16.0.jar orchestration-1.16.0-sources.jar document-grounding-1.16.0.pom document-grounding-1.16.0.jar document-grounding-1.16.0-sources.jar prompt-registry-1.16.0.pom prompt-registry-1.16.0.jar prompt-registry-1.16.0-sources.jar openai-1.16.0.pom openai-1.16.0.jar openai-1.16.0-sources.jar sap-rpt-1.16.0.pom sap-rpt-1.16.0.jar sap-rpt-1.16.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
