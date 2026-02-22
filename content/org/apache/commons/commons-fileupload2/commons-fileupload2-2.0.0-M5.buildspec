@@ -11,7 +11,7 @@ jdk=17
 newline=lf
 #umask=022
 
-command="mvn clean verify -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.*'"
+command="mvn -Prelease -Dcommons.release.dryRun=true clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.*'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope

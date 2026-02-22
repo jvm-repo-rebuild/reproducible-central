@@ -18,13 +18,13 @@ Source code: [https://github.com/apache/commons-fileupload.git](https://github.c
 * [org.apache.commons:commons-fileupload2-portlet](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2-portlet/overview)
 </details>
 
-rebuilding **2 releases** of org.apache.commons:commons-fileupload2:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of org.apache.commons:commons-fileupload2:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0-M5](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M5/pom) | | | |
+| [2.0.0-M5](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M5/pom) | [mvn jdk17](commons-fileupload2-2.0.0-M5.buildspec) | [result](commons-fileupload2-2.0.0-M5.buildinfo): [42 :white_check_mark: ](commons-fileupload2-2.0.0-M5.buildcompare) | | 1004K |
 | [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M4/pom) | [mvn jdk21](commons-fileupload2-2.0.0-M4.buildspec) | [result](commons-fileupload2-2.0.0-M4.buildinfo): [38 :white_check_mark:  4 :warning:](commons-fileupload2-2.0.0-M4.buildcompare) | - | 682K |
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.commons/commons-fileupload2/2.0.0-M3/pom) | [mvn jdk21](commons-fileupload2-2.0.0-M3.buildspec) | [result](commons-fileupload2-2.0.0-M3.buildinfo): [37 :white_check_mark:  5 :warning:](commons-fileupload2-2.0.0-M3.buildcompare) | - | 716K |
 
