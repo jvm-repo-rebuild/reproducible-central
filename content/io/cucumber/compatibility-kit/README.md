@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/cucumber/compatibility-kit.git](https://github.com/cucumber/compatibility-kit.git)
 
-rebuilding **5 releases** of io.cucumber:compatibility-kit:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of io.cucumber:compatibility-kit:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [29.1.3](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.3/pom) | | | |
+| [29.1.3](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.3/pom) | [mvn jdk21](compatibility-kit-29.1.3.buildspec) | [result](compatibility-kit-29.1.3.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.1.3.buildcompare) | | 306K |
 | [29.1.2](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.2/pom) | | | |
 | [29.1.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.1/pom) | | | |
 | [29.1.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.0/pom) | | | |
