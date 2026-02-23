@@ -23,6 +23,7 @@ rebuilding **16 releases** of tools.jackson.dataformat:jackson-dataformats-binar
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.0/pom) | | | |
 | [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.0-rc1/pom) | [mvn jdk17](jackson-dataformats-binary-3.1.0-rc1.buildspec) | [result](jackson-dataformats-binary-3.1.0-rc1.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.1.0-rc1.buildcompare) | | 1.2M |
 | [3.0.4](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.4/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.4.buildspec) | [result](jackson-dataformats-binary-3.0.4.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-3.0.4.buildcompare) | | 1019K |
 | [3.0.3](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.3/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.3.buildspec) | [result](jackson-dataformats-binary-3.0.3.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-3.0.3.buildcompare) | | 1019K |
