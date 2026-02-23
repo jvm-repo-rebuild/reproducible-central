@@ -1,0 +1,9 @@
+version=2.21.1
+ok=21
+ko=0
+ignored=4
+okFiles="jackson-datatypes-collections-2.21.1.pom jackson-datatype-guava-2.21.1.pom jackson-datatype-guava-2.21.1.jar jackson-datatype-guava-2.21.1-sources.jar jackson-datatype-guava-2.21.1-sbom-cyclonedx.xml jackson-datatype-guava-2.21.1-sbom-cyclonedx.json jackson-datatype-hppc-2.21.1.pom jackson-datatype-hppc-2.21.1.jar jackson-datatype-hppc-2.21.1-sources.jar jackson-datatype-hppc-2.21.1-sbom-cyclonedx.xml jackson-datatype-hppc-2.21.1-sbom-cyclonedx.json jackson-datatype-pcollections-2.21.1.pom jackson-datatype-pcollections-2.21.1.jar jackson-datatype-pcollections-2.21.1-sources.jar jackson-datatype-pcollections-2.21.1-sbom-cyclonedx.xml jackson-datatype-pcollections-2.21.1-sbom-cyclonedx.json jackson-datatype-eclipse-collections-2.21.1.pom jackson-datatype-eclipse-collections-2.21.1.jar jackson-datatype-eclipse-collections-2.21.1-sources.jar jackson-datatype-eclipse-collections-2.21.1-sbom-cyclonedx.xml jackson-datatype-eclipse-collections-2.21.1-sbom-cyclonedx.json"
+koFiles=""
+ignoredFiles="jackson-datatype-guava-2.21.1.module jackson-datatype-hppc-2.21.1.module jackson-datatype-pcollections-2.21.1.module jackson-datatype-eclipse-collections-2.21.1.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
