@@ -1,0 +1,9 @@
+version=0.4.1
+ok=10
+ko=0
+ignored=0
+okFiles="domtrip-0.4.1.pom domtrip-core-0.4.1.pom domtrip-core-0.4.1.jar domtrip-core-0.4.1-sources.jar domtrip-maven-0.4.1.pom domtrip-maven-0.4.1.jar domtrip-maven-0.4.1-sources.jar domtrip-website-0.4.1.pom domtrip-website-0.4.1.jar domtrip-website-0.4.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
