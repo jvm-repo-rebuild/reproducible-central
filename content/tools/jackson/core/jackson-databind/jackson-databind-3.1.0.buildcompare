@@ -1,0 +1,9 @@
+version=3.1.0
+ok=5
+ko=0
+ignored=1
+okFiles="jackson-databind-3.1.0.pom jackson-databind-3.1.0.jar jackson-databind-3.1.0-sources.jar jackson-databind-3.1.0-sbom-cyclonedx.xml jackson-databind-3.1.0-sbom-cyclonedx.json"
+koFiles=""
+ignoredFiles="jackson-databind-3.1.0.module"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
