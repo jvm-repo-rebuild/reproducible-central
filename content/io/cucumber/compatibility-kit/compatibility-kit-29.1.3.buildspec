@@ -15,4 +15,3 @@ command="mvn -f java -Psign-source-javadoc clean package -DskipTests -Dmaven.jav
 buildinfo=java/target/${artifactId}-${version}.buildinfo
 
 issue=
-PR_merge_max_ko=2
