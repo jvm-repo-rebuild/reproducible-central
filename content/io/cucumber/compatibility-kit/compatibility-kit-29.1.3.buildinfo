@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Compatibility Kit
+group-id=io.cucumber
+artifact-id=compatibility-kit
+version=29.1.3
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/compatibility-kit.git
+source.scm.tag=v29.1.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=compatibility-kit-29.1.3.pom
+outputs.0.length=3530
+outputs.0.checksums.sha512=bfa0beb31d66a574e34b54a0f9092ea7d76a5f7c98b65f96416e086d948db2f8ac80061e615ed8ad18537234959e89972c60084ccb24131dd15e34b9c20360e0
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=compatibility-kit-29.1.3.jar
+outputs.1.length=164111
+outputs.1.checksums.sha512=aa880b760e656919701a78599051594570e18ef4bf0f7a7954e4bb539713fd8a9cde865a38e44f264f314f82c27066c31b02c5add2734c2f8fb4325dfbbda8cd
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=compatibility-kit-29.1.3-sources.jar
+outputs.2.length=145220
+outputs.2.checksums.sha512=29b7b9e777ce4df15753a0ebd2821b25c432bee6e812c94855f6d4a68258e0fd1b230d482b53f2a3c7986b70a94447f680a7278b02ee6bbe3cd62deb81598ec3
