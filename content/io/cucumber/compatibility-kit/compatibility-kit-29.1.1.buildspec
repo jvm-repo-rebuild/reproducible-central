@@ -1,0 +1,18 @@
+groupId=io.cucumber
+artifactId=compatibility-kit
+display=${groupId}:${artifactId}
+version=29.1.1
+
+gitRepo=https://github.com/cucumber/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.12
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -f java -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+
+issue=
+PR_merge_max_ko=2
