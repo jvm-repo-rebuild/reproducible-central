@@ -1,0 +1,9 @@
+version=2.21.1
+ok=5
+ko=0
+ignored=1
+okFiles="jackson-dataformat-xml-2.21.1.pom jackson-dataformat-xml-2.21.1.jar jackson-dataformat-xml-2.21.1-sources.jar jackson-dataformat-xml-2.21.1-sbom-cyclonedx.xml jackson-dataformat-xml-2.21.1-sbom-cyclonedx.json"
+koFiles=""
+ignoredFiles="jackson-dataformat-xml-2.21.1.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
