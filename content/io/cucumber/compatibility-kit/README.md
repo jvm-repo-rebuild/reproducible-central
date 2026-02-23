@@ -10,7 +10,7 @@ Source code: [https://github.com/cucumber/compatibility-kit.git](https://github.
 rebuilding **13 releases** of io.cucumber:compatibility-kit:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+  - running [stabilize](doc/stabilize.md) on 9, 0 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -23,7 +23,7 @@ rebuilding **13 releases** of io.cucumber:compatibility-kit:
 | [28.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/28.0.0/pom) | [mvn jdk21](compatibility-kit-28.0.0.buildspec) | [result](compatibility-kit-28.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-28.0.0.buildcompare) | 2 :no_entry_sign: | 13K |
 | [27.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/27.0.0/pom) | [mvn jdk17](compatibility-kit-27.0.0.buildspec) | [result](compatibility-kit-27.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-27.0.0.buildcompare) | 2 :no_entry_sign: | 11K |
 | [26.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/26.0.0/pom) | [mvn jdk17](compatibility-kit-26.0.0.buildspec) | [result](compatibility-kit-26.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-26.0.0.buildcompare) | 2 :no_entry_sign: | 11K |
-| [25.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/25.0.0/pom) | [mvn jdk17](compatibility-kit-25.0.0.buildspec) | :x: | |
+| [25.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/25.0.0/pom) | [mvn jdk17](compatibility-kit-25.0.0.buildspec) | [result](compatibility-kit-25.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-25.0.0.buildcompare) | 2 :no_entry_sign: | 11K |
 | [24.0.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/24.0.1/pom) | [mvn jdk17](compatibility-kit-24.0.1.buildspec) | [result](compatibility-kit-24.0.1.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-24.0.1.buildcompare) | 2 :no_entry_sign: | 11K |
 | [24.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/24.0.0/pom) | [mvn jdk17](compatibility-kit-24.0.0.buildspec) | [result](compatibility-kit-24.0.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-24.0.0.buildcompare) | 2 :no_entry_sign: | 11K |
 | [23.2.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/23.2.0/pom) | [mvn jdk11](compatibility-kit-23.2.0.buildspec) | [result](compatibility-kit-23.2.0.buildinfo): [1 :white_check_mark:  2 :warning:](compatibility-kit-23.2.0.buildcompare) | 2 :no_entry_sign: | 11K |
