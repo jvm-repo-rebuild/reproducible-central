@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Pipes
+group-id=org.apache.sling
+artifact-id=org.apache.sling.pipes
+version=4.5.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-pipes.git
+source.scm.tag=org.apache.sling.pipes-4.5.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.pipes-4.5.2.pom
+outputs.0.length=14013
+outputs.0.checksums.sha512=27dbc690c8ec25fdd79b9b1c79a688c44e464fcad22e8aef6b6da0dfb46e6b12351c436394bba556be430fd305bc9fae2f0a1af6d18ea25ed95bb9e68c25ab14
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.pipes-4.5.2.jar
+outputs.1.length=557432
+outputs.1.checksums.sha512=3bc8c012070bdf91045b5dadbdb1bd94de287509037f3f3b9d4df61c787c4d449b768938208ab6b390225a88b0329f9a9d0caef3d4d7ea11a8d946489b92c350
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.pipes-4.5.2-source-release.zip
+outputs.2.length=233855
+outputs.2.checksums.sha512=5d83612463538ff4cab3e4ba97b8c0dccd1464f618625d23498adc06338f4f39d770d5b2a1f799e27560dcd81f2afd64dd3d802b4147081dc29cbd9065a8fe57
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.pipes-4.5.2-sources.jar
+outputs.3.length=122429
+outputs.3.checksums.sha512=87bf26d22a7a6d2c3441c9a3e399395ce94872bac1270fa620f4d95875557bf280900199002d98cfe862b1faef695551c2714fb7459b89a61a43dfa6d9c7a11b
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.pipes-4.5.2-sources.jar
+outputs.4.length=122429
+outputs.4.checksums.sha512=87bf26d22a7a6d2c3441c9a3e399395ce94872bac1270fa620f4d95875557bf280900199002d98cfe862b1faef695551c2714fb7459b89a61a43dfa6d9c7a11b
