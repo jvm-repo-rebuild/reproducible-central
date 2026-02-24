@@ -13,6 +13,7 @@ rebuilding **16 releases** of tools.jackson.dataformat:jackson-dataformat-xml:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-xml/3.1.0/pom) | | | |
 | [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-xml/3.1.0-rc1/pom) | [mvn jdk17](jackson-dataformat-xml-3.1.0-rc1.buildspec) | [result](jackson-dataformat-xml-3.1.0-rc1.buildinfo): [5 :white_check_mark: ](jackson-dataformat-xml-3.1.0-rc1.buildcompare) | | 268K |
 | [3.0.4](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-xml/3.0.4/pom) | [mvn jdk17](jackson-dataformat-xml-3.0.4.buildspec) | [result](jackson-dataformat-xml-3.0.4.buildinfo): [3 :white_check_mark: ](jackson-dataformat-xml-3.0.4.buildcompare) | | 233K |
 | [3.0.3](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-xml/3.0.3/pom) | [mvn jdk17](jackson-dataformat-xml-3.0.3.buildspec) | [result](jackson-dataformat-xml-3.0.3.buildinfo): [3 :white_check_mark: ](jackson-dataformat-xml-3.0.3.buildcompare) | | 233K |

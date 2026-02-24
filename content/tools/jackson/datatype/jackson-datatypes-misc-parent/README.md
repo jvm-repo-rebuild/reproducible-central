@@ -25,6 +25,7 @@ rebuilding **16 releases** of tools.jackson.datatype:jackson-datatypes-misc-pare
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-misc-parent/3.1.0/pom) | | | |
 | [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-misc-parent/3.1.0-rc1/pom) | [mvn jdk17](jackson-datatypes-misc-parent-3.1.0-rc1.buildspec) | [result](jackson-datatypes-misc-parent-3.1.0-rc1.buildinfo): [36 :white_check_mark: ](jackson-datatypes-misc-parent-3.1.0-rc1.buildcompare) | | 490K |
 | [3.0.4](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-misc-parent/3.0.4/pom) | [mvn jdk17](jackson-datatypes-misc-parent-3.0.4.buildspec) | [result](jackson-datatypes-misc-parent-3.0.4.buildinfo): [22 :white_check_mark: ](jackson-datatypes-misc-parent-3.0.4.buildcompare) | | 213K |
 | [3.0.3](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-misc-parent/3.0.3/pom) | [mvn jdk17](jackson-datatypes-misc-parent-3.0.3.buildspec) | [result](jackson-datatypes-misc-parent-3.0.3.buildinfo): [22 :white_check_mark: ](jackson-datatypes-misc-parent-3.0.3.buildcompare) | | 213K |

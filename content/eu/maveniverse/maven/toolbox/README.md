@@ -23,6 +23,7 @@ rebuilding **100 releases** of eu.maveniverse.maven.toolbox:toolbox:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.15.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.4/pom) | | | |
 | [0.15.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.3/pom) | [mvn jdk21](toolbox-0.15.3.buildspec) | [result](toolbox-0.15.3.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.3.buildcompare) | 1 :rotating_light: | 52M |
 | [0.15.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.2/pom) | [mvn jdk21](toolbox-0.15.2.buildspec) | [result](toolbox-0.15.2.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.2.buildcompare) | 1 :rotating_light: | 52M |
 | [0.15.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.1/pom) | [mvn jdk21](toolbox-0.15.1.buildspec) | [result](toolbox-0.15.1.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.1.buildcompare) | 1 :rotating_light: | 51M |

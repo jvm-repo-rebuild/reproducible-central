@@ -13,6 +13,7 @@ rebuilding **4 releases** of io.wcm:io.wcm.wcm.parsys:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.7.6/pom) | | | |
 | [1.7.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.7.4/pom) | | | |
 | [1.7.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.7.2/pom) | | | |
 | [1.7.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.7.0/pom) | | | |
