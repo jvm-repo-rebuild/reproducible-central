@@ -1,0 +1,9 @@
+version=1.8
+ok=29
+ko=0
+ignored=0
+okFiles="apache-resource-bundles-1.8.pom apache-resource-bundles-1.8-source-release.zip apache-resource-bundles-1.8-cyclonedx.xml apache-resource-bundles-1.8-cyclonedx.json apache-jar-resource-bundle-1.8.pom apache-jar-resource-bundle-1.8.jar apache-jar-resource-bundle-1.8-sources.jar apache-jar-resource-bundle-1.8-cyclonedx.xml apache-jar-resource-bundle-1.8-cyclonedx.json apache-jar-txt-resource-bundle-1.8.pom apache-jar-txt-resource-bundle-1.8.jar apache-jar-txt-resource-bundle-1.8-sources.jar apache-jar-txt-resource-bundle-1.8-cyclonedx.xml apache-jar-txt-resource-bundle-1.8-cyclonedx.json apache-incubator-disclaimer-resource-bundle-1.8.pom apache-incubator-disclaimer-resource-bundle-1.8.jar apache-incubator-disclaimer-resource-bundle-1.8-sources.jar apache-incubator-disclaimer-resource-bundle-1.8-cyclonedx.xml apache-incubator-disclaimer-resource-bundle-1.8-cyclonedx.json apache-source-release-assembly-descriptor-1.8.pom apache-source-release-assembly-descriptor-1.8.jar apache-source-release-assembly-descriptor-1.8-sources.jar apache-source-release-assembly-descriptor-1.8-cyclonedx.xml apache-source-release-assembly-descriptor-1.8-cyclonedx.json apache-license-header-resource-bundle-1.8.pom apache-license-header-resource-bundle-1.8.jar apache-license-header-resource-bundle-1.8-sources.jar apache-license-header-resource-bundle-1.8-cyclonedx.xml apache-license-header-resource-bundle-1.8-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
