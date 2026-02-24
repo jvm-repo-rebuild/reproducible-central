@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Commons
+group-id=io.wcm
+artifact-id=io.wcm.wcm.commons
+version=1.11.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.wcm.commons.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.wcm.commons-1.11.4.pom
+outputs.0.length=5636
+outputs.0.checksums.sha512=7692eca1b361e4283df99f7e778e980b1b79aed55722e9ada51d6b3e18c4a74b9b92696a15d93fba4d353908d25a86e4fd2a425d35a821a1ecb7dd7c8606430a
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.wcm.commons-1.11.4.jar
+outputs.1.length=66101
+outputs.1.checksums.sha512=b7d4d7a1bb515136ab14356e10a456ca5546050f263d41c37938b4adde776be035f0c186019f84c94eba3b3dff3a70f24380a3fb145cab2d117847635edf4364
+
+outputs.2.groupId=io.wcm
+outputs.2.filename=io.wcm.wcm.commons-1.11.4-sources.jar
+outputs.2.length=59793
+outputs.2.checksums.sha512=43f715ec3f1fe1b89ff74f10217776fe0929a5a890ff4f4e79b362d6f72fe80f329750ec69ac41c2a97fd820aaf6477614a0a0928fd0ebb99bb63100b33fb6bb
