@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-pipes.git](https://github.com/apache/sling-org-apache-sling-pipes.git)
 
-rebuilding **5 releases** of org.apache.sling:org.apache.sling.pipes:
+rebuilding **6 releases** of org.apache.sling:org.apache.sling.pipes:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.pipes/4.5.2/pom) | | | |
+| [4.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.pipes/4.5.2/pom) | [mvn jdk11 w](org.apache.sling.pipes-4.5.2.buildspec) | [result](org.apache.sling.pipes-4.5.2.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.pipes-4.5.2.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-pipes/pull/20) | 1 :rotating_light: | 1.1M |
 | [4.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.pipes/4.5.0/pom) | [mvn jdk8](org.apache.sling.pipes-4.5.0.buildspec) | [result](org.apache.sling.pipes-4.5.0.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.pipes-4.5.0.buildcompare) [:mag:](org.apache.sling.pipes-4.5.0.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-pipes/pull/20) | - | 1.1M |
 | [4.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.pipes/4.4.2/pom) | [mvn jdk8](org.apache.sling.pipes-4.4.2.buildspec) | [result](org.apache.sling.pipes-4.4.2.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.pipes-4.4.2.buildcompare) [:mag:](org.apache.sling.pipes-4.4.2.diffoscope) [:memo:](https://issues.apache.org/jira/browse/SM-5021) | - | 1022K |
 | [4.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.pipes/4.4.0/pom) | [mvn jdk8](org.apache.sling.pipes-4.4.0.buildspec) | [result](org.apache.sling.pipes-4.4.0.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.pipes-4.4.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/SM-5021) | - | 1021K |
