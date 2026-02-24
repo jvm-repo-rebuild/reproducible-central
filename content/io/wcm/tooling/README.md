@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.parent_toplevel.git](https://github.com/wcm-io/io.wcm.parent_toplevel.git)
 
-rebuilding **26 releases** of io.wcm:io.wcm.parent_toplevel:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of io.wcm:io.wcm.parent_toplevel:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.7.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.7.0/pom) | | | |
+| [2.7.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.7.0/pom) | [mvn jdk17](wcm-parent_toplevel-2.7.0.buildspec) | [result](io.wcm.parent_toplevel-2.7.0.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.7.0.buildcompare) | | 23K |
 | [2.6.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.6.2/pom) | [mvn jdk17](wcm-parent_toplevel-2.6.2.buildspec) | [result](io.wcm.parent_toplevel-2.6.2.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.6.2.buildcompare) | | 23K |
 | [2.6.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.6.0/pom) | [mvn jdk17](wcm-parent_toplevel-2.6.0.buildspec) | [result](io.wcm.parent_toplevel-2.6.0.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.6.0.buildcompare) | | 23K |
 | [2.5.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.5.2/pom) | [mvn jdk11](wcm-parent_toplevel-2.5.2.buildspec) | [result](io.wcm.parent_toplevel-2.5.2.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.5.2.buildcompare) | | 23K |
