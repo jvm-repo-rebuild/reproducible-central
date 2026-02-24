@@ -1,0 +1,9 @@
+version=2.18.6
+ok=16
+ko=0
+ignored=5
+okFiles="jackson-datatypes-misc-parent-2.18.6.pom jackson-datatype-joda-money-2.18.6.pom jackson-datatype-joda-money-2.18.6.jar jackson-datatype-joda-money-2.18.6-sources.jar jackson-datatype-json-org-2.18.6.pom jackson-datatype-json-org-2.18.6.jar jackson-datatype-json-org-2.18.6-sources.jar jackson-datatype-jsr353-2.18.6.pom jackson-datatype-jsr353-2.18.6.jar jackson-datatype-jsr353-2.18.6-sources.jar jackson-datatype-jakarta-jsonp-2.18.6.pom jackson-datatype-jakarta-jsonp-2.18.6.jar jackson-datatype-jakarta-jsonp-2.18.6-sources.jar jackson-datatype-jakarta-mail-2.18.6.pom jackson-datatype-jakarta-mail-2.18.6.jar jackson-datatype-jakarta-mail-2.18.6-sources.jar"
+koFiles=""
+ignoredFiles="jackson-datatype-joda-money-2.18.6.module jackson-datatype-json-org-2.18.6.module jackson-datatype-jsr353-2.18.6.module jackson-datatype-jakarta-jsonp-2.18.6.module jackson-datatype-jakarta-mail-2.18.6.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
