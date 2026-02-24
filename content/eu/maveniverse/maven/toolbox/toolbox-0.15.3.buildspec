@@ -1,0 +1,19 @@
+groupId=eu.maveniverse.maven.toolbox
+artifactId=toolbox
+display=eu.maveniverse.maven.*:${artifactId}
+version=0.15.3
+
+gitRepo=https://github.com/maveniverse/toolbox.git
+gitTag=release-${version}
+
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pmaveniverse-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
+PR_merge_max_ko=1 # known Quarkus generated classes
