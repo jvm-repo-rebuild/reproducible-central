@@ -1,0 +1,9 @@
+version=2.18.6
+ok=19
+ko=0
+ignored=5
+okFiles="jackson-jr-parent-2.18.6.pom jackson-jr-objects-2.18.6.pom jackson-jr-objects-2.18.6.jar jackson-jr-objects-2.18.6-sources.jar jackson-jr-retrofit2-2.18.6.pom jackson-jr-retrofit2-2.18.6.jar jackson-jr-retrofit2-2.18.6-sources.jar jackson-jr-stree-2.18.6.pom jackson-jr-stree-2.18.6.jar jackson-jr-stree-2.18.6-sources.jar jackson-jr-annotation-support-2.18.6.pom jackson-jr-annotation-support-2.18.6.jar jackson-jr-annotation-support-2.18.6-sources.jar jackson-jr-extension-javatime-2.18.6.pom jackson-jr-extension-javatime-2.18.6.jar jackson-jr-extension-javatime-2.18.6-sources.jar jackson-jr-all-2.18.6.pom jackson-jr-all-2.18.6.jar jackson-jr-all-2.18.6-sources.jar"
+koFiles=""
+ignoredFiles="jackson-jr-objects-2.18.6.module jackson-jr-retrofit2-2.18.6.module jackson-jr-stree-2.18.6.module jackson-jr-annotation-support-2.18.6.module jackson-jr-extension-javatime-2.18.6.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
