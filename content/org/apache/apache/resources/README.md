@@ -17,14 +17,14 @@ Source code: [https://github.com/apache/maven-apache-resources.git](https://gith
 * [org.apache.apache.resources:apache-source-release-assembly-descriptor](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-source-release-assembly-descriptor/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.apache.resources:apache-resource-bundles:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.apache.apache.resources:apache-resource-bundles:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.8](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/1.8/pom) | | | |
+| [1.8](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/1.8/pom) | [mvn jdk21](apache-resource-bundles-1.8.buildspec) | [result](apache-resource-bundles-1.8.buildinfo): [29 :white_check_mark: ](apache-resource-bundles-1.8.buildcompare) | | 455K |
 | [1.7](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/1.7/pom) | [mvn jdk11](apache-resource-bundles-1.7.buildspec) | [result](apache-resource-bundles-1.7.buildinfo): [28 :white_check_mark:  1 :warning:](apache-resource-bundles-1.7.buildcompare) [:memo:](https://github.com/apache/maven-apache-parent/pull/288/files) | 1 :rotating_light: | 454K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
