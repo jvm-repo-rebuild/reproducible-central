@@ -1,0 +1,86 @@
+# generated content does not come from Git https://github.com/avaje/avaje-prisms/blame/main/prism-core/src/main/java/io/avaje/prism/internal/UtilWriter.java#L223
+1 / 2 target/reference/io.avaje/avaje-validator-generator-2.17-RC1.jar validator-generator/target/avaje-validator-generator-2.17-RC1.jar
+2 / 2 target/reference/io.avaje/avaje-validator-generator-2.17-RC1-sources.jar validator-generator/target/avaje-validator-generator-2.17-RC1-sources.jar
+--- target/reference/io.avaje/avaje-validator-generator-2.17-RC1-sources.jar
++++ validator-generator/target/avaje-validator-generator-2.17-RC1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 116891 bytes, number of entries: 74
+│ +Zip file size: 116819 bytes, number of entries: 74
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Feb-23 15:52 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Feb-23 15:52 META-INF/MANIFEST.MF
+│ @@ -60,17 +60,17 @@
+│  -rw-r--r--  2.0 unx     6248 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/NullUnmarkedPrism.java
+│  -rw-r--r--  2.0 unx     7004 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/PathPrism.java
+│ --rw-r--r--  2.0 unx     7234 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/ProcessorUtils.java
+│ +-rw-r--r--  2.0 unx     7222 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/ProcessorUtils.java
+│  -rw-r--r--  2.0 unx    18849 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/SubTemplateRenderer.java
+│ --rw-r--r--  2.0 unx    11692 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/TypeMirrorVisitor.java
+│ +-rw-r--r--  2.0 unx    11466 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/TypeMirrorVisitor.java
+│  -rw-r--r--  2.0 unx     4107 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/UType.java
+│  -rw-r--r--  2.0 unx    10588 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/ValidFactoryPrism.java
+│  -rw-r--r--  2.0 unx     7977 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/ValidMethodPrism.java
+│  -rw-r--r--  2.0 unx     8445 b- defN 26-Feb-23 15:52 io/avaje/validation/generator/ValidSubTypesPrism.java
+│  -rw-r--r--  2.0 unx     3115 b- defN 26-Feb-23 15:52 META-INF/maven/io.avaje/avaje-validator-generator/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 26-Feb-23 15:52 META-INF/maven/io.avaje/avaje-validator-generator/pom.properties
+│ -74 files, 441527 bytes uncompressed, 104409 bytes compressed:  76.4%
+│ +74 files, 441289 bytes uncompressed, 104337 bytes compressed:  76.4%
+├── io/avaje/validation/generator/ProcessorUtils.java
+│ @@ -204,15 +204,14 @@
+│    /**
+│     * Get the enclosed type from a nested class, or return the type itself if not nested. (i.e.
+│     * {@code io.package.Top.Nested} will become {@code io.package.Top})
+│     *
+│     * @param fqn fully qualified type to extract
+│     * @return sanitized import statement
+│     */
+│ -@Deprecated
+│    public static String extractEnclosingFQN(String fqn) {
+│      int p = fqn.lastIndexOf('.');
+│      if (p == -1) {
+│        return fqn;
+│      }
+│      final StringBuilder result = new StringBuilder();
+│      var foundClass = false;
+├── io/avaje/validation/generator/TypeMirrorVisitor.java
+│ @@ -198,15 +198,15 @@
+│  
+│    @Override
+│    public StringBuilder visitDeclared(DeclaredType t, StringBuilder p) {
+│      typeMirror = t;
+│      kind = t.getKind();
+│      final String fqn = fullyQualifiedName(t, includeAnnotations);
+│      var trimmed = fullyQualifiedName(t, false);
+│ -    allTypes.add(extractEnclosingFQN(t));
+│ +    allTypes.add(ProcessorUtils.extractEnclosingFQN(trimmed));
+│  
+│      if (this.mainType == null) {
+│        mainType = trimmed;
+│      }
+│      p.append(fqn);
+│      final var tas = t.getTypeArguments();
+│      if (!tas.isEmpty()) {
+│ @@ -220,22 +220,14 @@
+│          first = false;
+│        }
+│        p.append(">");
+│      }
+│      return p;
+│    }
+│  
+│ -  private String extractEnclosingFQN(TypeMirror t) {
+│ -
+│ -    var e = APContext.asTypeElement(t);
+│ -
+│ -    return e.getNestingKind().isNested()
+│ -        ? extractEnclosingFQN(e.getEnclosingElement().asType())
+│ -        : e.getQualifiedName().toString();
+│ -  }
+│    String fullyQualifiedName(DeclaredType t, boolean includeAnnotations) {
+│      final TypeElement element = (TypeElement) t.asElement();
+│      final var directAnnotations = t.getAnnotationMirrors();
+│  
+│      if (directAnnotations.isEmpty() || !includeAnnotations) {
+│        return element.getQualifiedName().toString();
+│      }
+
