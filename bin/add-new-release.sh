@@ -60,8 +60,9 @@ then
     timestamp="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Scm-Revision | cut -d ' ' -f 4 | sed -e 's/\r//')"
     sed -e "s/^buildNumber=.*/buildNumber=${buildNumber}/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
     sed -e "s/^timestamp=.*/timestamp=${timestamp}/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
-    echo "io.wcm timestamp=${timestamp}"
-    echo "io.wcm buildNumber=${buildNumber}"
+    echo "updated io.wcm data extracted from META-INF/MANIFEST.MF Scm-Revision"
+    echo "  timestamp=${timestamp}"
+    echo "  buildNumber=${buildNumber}"
   fi
 
   echo
@@ -124,7 +125,7 @@ then
   echo "commenting out diffoscope entry"
   sed -e "s/^diffoscope=/#diffoscope=/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
 fi
-echo -n -e "\033[0;31m" ; grep -A2 "# extracted from:" ${nextBuildspec} ; echo -n -e "\033[0m" # display hint on extracting data from jar to inject into buildspec
+echo -n -e "\033[0;31m" ; grep -A2 "# extracted from:" ${nextBuildspec} | sed -e "s/\$version/${nextVersion}/g" ; echo -n -e "\033[0m" # display hint on extracting data from jar to inject into buildspec
 
 if [ "$CI" = true ]
 then
