@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/avaje/avaje-logback-encoder.git](https://github.com/avaje/avaje-logback-encoder.git)
 
-rebuilding **15 releases** of io.avaje:avaje-logback-encoder:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of io.avaje:avaje-logback-encoder:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/1.1/pom) | | | |
+| [1.1](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/1.1/pom) | [mvn jdk25](avaje-logback-encoder-1.1.buildspec) | [result](avaje-logback-encoder-1.1.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-1.1.buildcompare) | | 56K |
 | [1.0-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/1.0-java8/pom) | [mvn jdk21](avaje-logback-encoder-1.0-java8.buildspec) | [result](avaje-logback-encoder-1.0-java8.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-1.0-java8.buildcompare) | | 55K |
 | [1.0](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/1.0/pom) | [mvn jdk21](avaje-logback-encoder-1.0.buildspec) | [result](avaje-logback-encoder-1.0.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-1.0.buildcompare) | | 56K |
 | [0.13](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.13/pom) | [mvn jdk21](avaje-logback-encoder-0.13.buildspec) | [result](avaje-logback-encoder-0.13.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.13.buildcompare) | | 56K |
