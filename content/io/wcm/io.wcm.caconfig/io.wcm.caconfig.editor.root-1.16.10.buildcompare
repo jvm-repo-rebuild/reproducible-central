@@ -1,0 +1,18 @@
+version=1.16.10
+ok=3
+ko=3
+ignored=0
+okFiles="io.wcm.caconfig.editor.parent-1.16.10.pom io.wcm.caconfig.editor-1.16.10.pom io.wcm.caconfig.editor.package-1.16.10.pom"
+koFiles="io.wcm.caconfig.editor-1.16.10.jar io.wcm.caconfig.editor-1.16.10-sources.jar io.wcm.caconfig.editor.package-1.16.10.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor-1.16.10.jar bundle/target/io.wcm.caconfig.editor-1.16.10.jar
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor-1.16.10-sources.jar bundle/target/io.wcm.caconfig.editor-1.16.10-sources.jar
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor.package-1.16.10.zip package/target/io.wcm.caconfig.editor.package-1.16.10.zip
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="io.wcm.caconfig.editor-1.16.10.jar.stabilized io.wcm.caconfig.editor-1.16.10-sources.jar.stabilized io.wcm.caconfig.editor.package-1.16.10.zip.stabilized"
+stabilize_ignoredFiles=""
