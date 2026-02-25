@@ -18,13 +18,13 @@ Source code: [https://github.com/telicent-oss/rdf-abac](https://github.com/telic
 * [io.telicent.jena:rdf-abac-fuseki-server](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki-server/overview)
 </details>
 
-rebuilding **23 releases** of io.telicent.jena:rdf-abac:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **24 releases** of io.telicent.jena:rdf-abac:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/2.0.0/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/2.0.0/pom) | [mvn jdk21](rdf-abac-2.0.0.buildspec) | [result](rdf-abac-2.0.0.buildinfo): [24 :white_check_mark: ](rdf-abac-2.0.0.buildcompare) | | 110M |
 | [1.1.4](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.1.4/pom) | [mvn jdk17](rdf-abac-1.1.4.buildspec) | [result](rdf-abac-1.1.4.buildinfo): [24 :white_check_mark: ](rdf-abac-1.1.4.buildcompare) | | 110M |
 | [1.1.3](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.1.3/pom) | [mvn jdk17](rdf-abac-1.1.3.buildspec) | [result](rdf-abac-1.1.3.buildinfo): [24 :white_check_mark: ](rdf-abac-1.1.3.buildcompare) | | 109M |
 | [1.1.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.1.2/pom) | [mvn jdk17](rdf-abac-1.1.2.buildspec) | [result](rdf-abac-1.1.2.buildinfo): [24 :white_check_mark: ](rdf-abac-1.1.2.buildcompare) | | 109M |
