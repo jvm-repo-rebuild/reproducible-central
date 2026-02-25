@@ -1,0 +1,21 @@
+groupId=io.wcm
+artifactId=io.wcm.caconfig.editor.root
+display=${groupId}:*.caconfig.editor
+version=1.16.10
+
+gitRepo=https://github.com/wcm-io/io.wcm.caconfig.editor.git
+gitTag=${version}
+
+tool=mvn-3.9.12
+jdk=21
+newline=crlf
+newlineGit=lf
+
+command="mvn -Pio.wcm package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip"
+execBefore="mvn clean"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
+PR_merge_max_ko=3 # known non-reproducible SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js

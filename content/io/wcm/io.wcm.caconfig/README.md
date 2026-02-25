@@ -14,14 +14,14 @@ Source code: [https://github.com/wcm-io/io.wcm.caconfig.editor.git](https://gith
 * [io.wcm:io.wcm.caconfig.editor.parent](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/overview)
 </details>
 
-rebuilding **11 releases** of io.wcm:io.wcm.caconfig.editor.parent:
+rebuilding **12 releases** of io.wcm:io.wcm.caconfig.editor.parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.16.10](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.16.10/pom) | | | |
+| [1.16.10](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.10/pom) | [mvn jdk21 w](wcm-caconfig-editor-1.16.10.buildspec) | [result](io.wcm.caconfig.editor.root-1.16.10.buildinfo): [3 :white_check_mark:  3 :warning:](io.wcm.caconfig.editor.root-1.16.10.buildcompare) | 3 :rotating_light: | 603K |
 | [1.16.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.8/pom) | [mvn jdk21 w](wcm-caconfig-editor-1.16.8.buildspec) | [result](io.wcm.caconfig.editor.root-1.16.8.buildinfo): [3 :white_check_mark:  3 :warning:](io.wcm.caconfig.editor.root-1.16.8.buildcompare) | 3 :rotating_light: | 603K |
 | [1.16.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.6/pom) | [mvn jdk17 w](wcm-caconfig-editor-1.16.6.buildspec) | [result](io.wcm.caconfig.editor.root-1.16.6.buildinfo): [3 :white_check_mark:  5 :warning:](io.wcm.caconfig.editor.root-1.16.6.buildcompare) | - | 901K |
 | [1.16.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.4/pom) | [mvn jdk17 w](wcm-caconfig-editor-1.16.4.buildspec) | [result](io.wcm.caconfig.editor.root-1.16.4.buildinfo): [3 :white_check_mark:  5 :warning:](io.wcm.caconfig.editor.root-1.16.4.buildcompare) [:mag:](io.wcm.caconfig.editor.root-1.16.4.diffoscope) | - | 916K |
