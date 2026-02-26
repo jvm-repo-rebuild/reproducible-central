@@ -19,3 +19,4 @@ timestamp=2024-03-13T10:44:30+01:00
 
 command="mvn -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
 buildinfo=target/${artifactId}-${version}.buildinfo
+diffoscope=${artifactId}-${version}.diffoscope
