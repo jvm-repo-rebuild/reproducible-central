@@ -7,10 +7,10 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.wcm.parsys.git](https://github.com/wcm-io/io.wcm.wcm.parsys.git)
 
-rebuilding **9 releases** of io.wcm:io.wcm.wcm.parsys:
+rebuilding **10 releases** of io.wcm:io.wcm.wcm.parsys:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -19,7 +19,7 @@ rebuilding **9 releases** of io.wcm:io.wcm.wcm.parsys:
 | [1.7.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.7.2/pom) | [mvn jdk11 w](wcm-parsys-1.7.2.buildspec) | [result](io.wcm.wcm.parsys-1.7.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.parsys-1.7.2.buildcompare) | 1 :recycle: 1 :rotating_light: | 136K |
 | [1.7.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.7.0/pom) | [mvn jdk11 w](wcm-parsys-1.7.0.buildspec) | [result](io.wcm.wcm.parsys-1.7.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.parsys-1.7.0.buildcompare) | 1 :recycle: 1 :rotating_light: | 135K |
 | [1.6.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.8/pom) | [mvn jdk11 w](wcm-parsys-1.6.8.buildspec) | [result](io.wcm.wcm.parsys-1.6.8.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.parsys-1.6.8.buildcompare) | 1 :recycle: 1 :rotating_light: | 135K |
-| [1.6.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.6/pom) | | | |
+| [1.6.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.6/pom) | [mvn jdk11 w](wcm-parsys-1.6.6.buildspec) | [result](io.wcm.wcm.parsys-1.6.6.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.parsys-1.6.6.buildcompare) | 1 :recycle: 1 :rotating_light: | 135K |
 | [1.6.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.4/pom) | [mvn jdk11 w](wcm-parsys-1.6.4.buildspec) | [result](io.wcm.wcm.parsys-1.6.4.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.parsys-1.6.4.buildcompare) | - | 136K |
 | [1.6.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.2/pom) | [mvn jdk11 w](wcm-parsys-1.6.2.buildspec) | [result](io.wcm.wcm.parsys-1.6.2.buildinfo): [3 :white_check_mark: ](io.wcm.wcm.parsys-1.6.2.buildcompare) | | 85K |
 | [1.6.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.0/pom) | [mvn jdk11 w](wcm-parsys-1.6.0.buildspec) | [result](io.wcm.wcm.parsys-1.6.0.buildinfo): [3 :white_check_mark: ](io.wcm.wcm.parsys-1.6.0.buildcompare) | | 85K |
