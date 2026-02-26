@@ -1,9 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/oss-parent/oss-parent-76.buildspec:77
 content/com/fasterxml/jackson/databind/jackson-databind-2.21.0.buildspec:2.21.1
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/io/avaje/logback-encoder/avaje-logback-encoder-1.0-java8.buildspec:1.1
-content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.13.0.buildspec:0.13.2
-content/io/telicent/jena/rdf-abac/rdf-abac-1.1.4.buildspec:2.0.0
+content/de/gematik/pki/gemLibPki/gemLibPki-3.4.0.buildspec:4.0.2
+content/eu/maveniverse/maven/domtrip/domtrip-0.4.1.buildspec:0.5.0
 content/io/wcm/io.wcm.handler/media/wcm-media-2.7.0.buildspec:2.8.0
+content/org/apache/commons/parent/commons-parent-96.buildspec:97
