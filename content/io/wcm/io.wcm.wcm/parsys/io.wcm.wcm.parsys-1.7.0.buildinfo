@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Parsys
+group-id=io.wcm
+artifact-id=io.wcm.wcm.parsys
+version=1.7.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.wcm.parsys.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.wcm.parsys-1.7.0.pom
+outputs.0.length=6215
+outputs.0.checksums.sha512=9cfd65a8a496fc0871df6e9e4f40aca7c3d6760800c65fcceba3486fdf7018550d039e254d24bba5cf0d6ee119c7d4a3969d3da334188f017e7b246783cf61f6
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.wcm.parsys-1.7.0.jar
+outputs.1.length=45199
+outputs.1.checksums.sha512=29e47d768f9b219d77c043bf98cf44602462b923a6c9ead9a4734b79b493d07f1d5242d1435dd50a0833ef0e8f51728d764ffae646109b73c0a373d5b59274b4
+
+outputs.2.groupId=io.wcm
+outputs.2.filename=io.wcm.wcm.parsys-1.7.0-sources.jar
+outputs.2.length=35275
+outputs.2.checksums.sha512=8c4e237725d3f3c0642412e40424a13cd2286ef25f98d760b69914b8a5d947ff973a6acc0d3342352ab5acfeeaee96da2ca4838d1897890a0b54062d69bb005f
+
+outputs.3.groupId=io.wcm
+outputs.3.filename=io.wcm.wcm.parsys-1.7.0-content.zip
+outputs.3.length=14238
+outputs.3.checksums.sha512=7430bcf804a0465687dadd241db0d9cebd2202fb8f4934ed218fcacce514ac5a7d5ccad79d40e28a4239b90855752831aa617bf74eefa0790d46080cc7d2620d
+
+outputs.4.groupId=io.wcm
+outputs.4.filename=io.wcm.wcm.parsys-1.7.0-bundle.jar
+outputs.4.length=37138
+outputs.4.checksums.sha512=06417772d0d47a410f2fbea4b3d3bf583e035a952afa7093b870ce327d0095e62f5cb3e9ab11dd9a50bb63f67bc2fe561db21e2fc740ebe1b88395f55797051c
