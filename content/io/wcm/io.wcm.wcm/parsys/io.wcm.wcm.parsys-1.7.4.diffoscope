@@ -1,0 +1,60 @@
+1 / 2 target/reference/io.wcm/io.wcm.wcm.parsys-1.7.4-content.zip target/io.wcm.wcm.parsys-1.7.4-content.zip
+--- target/reference/io.wcm/io.wcm.wcm.parsys-1.7.4-content.zip
++++ target/io.wcm.wcm.parsys-1.7.4-content.zip
+├── zipinfo {}
+│ @@ -1,44 +1,44 @@
+│ -Zip file size: 17376 bytes, number of entries: 42
+│ --rw----     2.0 fat        0 bl defN 24-Mar-13 10:44 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Mar-13 10:44 META-INF/vault/
+...
+│ --rw----     2.0 fat      844 bl defN 24-Mar-13 10:44 jcr_root/apps/wcm-io/wcm/parsys/components/parsysEditbar/newpar/.content.xml
+│ --rw----     2.0 fat      979 bl defN 24-Mar-13 10:44 jcr_root/apps/wcm-io/wcm/parsys/components/parsysEditbar/.content.xml
+│ -42 files, 20236 bytes uncompressed, 9148 bytes compressed:  54.8%
+│ +Zip file size: 17377 bytes, number of entries: 42
+│ +-rw----     2.0 fat        0 bl defN 26-Feb-25 06:36 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 26-Feb-25 06:36 META-INF/vault/
+│ +-rw----     2.0 fat     3167 bl defN 26-Feb-25 06:36 META-INF/vault/config.xml
+...
+│ +-rw----     2.0 fat      844 bl defN 26-Feb-25 06:36 jcr_root/apps/wcm-io/wcm/parsys/components/parsysEditbar/newpar/.content.xml
+│ +-rw----     2.0 fat      979 bl defN 26-Feb-25 06:36 jcr_root/apps/wcm-io/wcm/parsys/components/parsysEditbar/.content.xml
+│ +42 files, 20236 bytes uncompressed, 9149 bytes compressed:  54.8%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2024-03-13T10:44:36.870+01:00</entry>
+│ │ +  <entry key="created">2026-02-25T06:36:42.497+01:00</entry>
+│ │    <entry key="name">io.wcm.wcm.parsys-content</entry>
+│ │    <entry key="version">1.7.4</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm/io.wcm.wcm.parsys-1.7.4-bundle.jar target/io.wcm.wcm.parsys-1.7.4-bundle.jar
+--- target/reference/io.wcm/io.wcm.wcm.parsys-1.7.4-bundle.jar
++++ target/io.wcm.wcm.parsys-1.7.4-bundle.jar
+├── zipinfo {}
+│ @@ -1,42 +1,42 @@
+│  Zip file size: 37420 bytes, number of entries: 40
+│ --rw----     2.0 fat        0 bl defN 24-Mar-13 10:44 META-INF/
+│ --rw----     2.0 fat     4223 bl defN 24-Mar-13 10:44 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat     6376 bl defN 24-Mar-13 10:44 META-INF/maven/io.wcm/io.wcm.wcm.parsys/pom.xml
+│ --rw----     2.0 fat       61 bl defN 24-Mar-13 10:44 META-INF/maven/io.wcm/io.wcm.wcm.parsys/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 26-Feb-25 06:36 META-INF/
+│ +-rw----     2.0 fat     4223 bl defN 26-Feb-25 06:36 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat     6376 bl defN 26-Feb-25 06:36 META-INF/maven/io.wcm/io.wcm.wcm.parsys/pom.xml
+│ +-rw----     2.0 fat       61 bl defN 26-Feb-25 06:36 META-INF/maven/io.wcm/io.wcm.wcm.parsys/pom.properties
+│  40 files, 74301 bytes uncompressed, 30164 bytes compressed:  59.4%
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Zip archive data, made by v2.0, extract using at least v2.0, last modified Mar 13 2024 10:44:36, uncompressed size 0, method=deflate
+│ +Zip archive data, made by v2.0, extract using at least v2.0, last modified Feb 25 2026 06:36:42, uncompressed size 0, method=deflate
+
