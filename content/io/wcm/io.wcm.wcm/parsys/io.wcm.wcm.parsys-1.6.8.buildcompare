@@ -1,0 +1,17 @@
+version=1.6.8
+ok=3
+ko=2
+ignored=0
+okFiles="io.wcm.wcm.parsys-1.6.8.pom io.wcm.wcm.parsys-1.6.8.jar io.wcm.wcm.parsys-1.6.8-sources.jar"
+koFiles="io.wcm.wcm.parsys-1.6.8-content.zip io.wcm.wcm.parsys-1.6.8-bundle.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm/io.wcm.wcm.parsys-1.6.8-content.zip target/io.wcm.wcm.parsys-1.6.8-content.zip
+# diffoscope target/reference/io.wcm/io.wcm.wcm.parsys-1.6.8-bundle.jar target/io.wcm.wcm.parsys-1.6.8-bundle.jar
+stabilize_ok=1
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles="io.wcm.wcm.parsys-1.6.8-bundle.jar.stabilized"
+stabilize_koFiles="io.wcm.wcm.parsys-1.6.8-content.zip.stabilized"
+stabilize_ignoredFiles=""
