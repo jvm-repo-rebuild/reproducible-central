@@ -1,0 +1,16 @@
+version=0.13.1
+ok=2
+ko=1
+ignored=0
+okFiles="junit-xml-formatter-0.13.1.pom junit-xml-formatter-0.13.1-sources.jar"
+koFiles="junit-xml-formatter-0.13.1.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.cucumber/junit-xml-formatter-0.13.1.jar target/junit-xml-formatter-0.13.1.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="junit-xml-formatter-0.13.1.jar"
