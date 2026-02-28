@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/spotify/github-java-client.git](https://github.com/spotify/github-java-client.git)
 
-rebuilding **68 releases** of com.spotify:github-client:
-- **67** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **69 releases** of com.spotify:github-client:
+- **68** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.5.8](https://central.sonatype.com/artifact/com.spotify/github-client/0.5.8/pom) | [mvn jdk11](github-client-0.5.8.buildspec) | [result](github-client-0.5.8.buildinfo): [3 :white_check_mark: ](github-client-0.5.8.buildcompare) | | 2.0M |
-| [0.5.7](https://central.sonatype.com/artifact/com.spotify/github-client/0.5.7/pom) | | | |
+| [0.5.7](https://central.sonatype.com/artifact/com.spotify/github-client/0.5.7/pom) | [mvn jdk11](github-client-0.5.7.buildspec) | [result](github-client-0.5.7.buildinfo): [3 :white_check_mark: ](github-client-0.5.7.buildcompare) | | 2.0M |
 | [0.5.6](https://central.sonatype.com/artifact/com.spotify/github-client/0.5.6/pom) | [mvn jdk11](github-client-0.5.6.buildspec) | [result](github-client-0.5.6.buildinfo): [3 :white_check_mark: ](github-client-0.5.6.buildcompare) | | 2.0M |
 | [0.5.5](https://central.sonatype.com/artifact/com.spotify/github-client/0.5.5/pom) | [mvn jdk11](github-client-0.5.5.buildspec) | [result](github-client-0.5.5.buildinfo): [3 :white_check_mark: ](github-client-0.5.5.buildcompare) | | 2.0M |
 | [0.5.4](https://central.sonatype.com/artifact/com.spotify/github-client/0.5.4/pom) | [mvn jdk11](github-client-0.5.4.buildspec) | [result](github-client-0.5.4.buildinfo): [3 :white_check_mark: ](github-client-0.5.4.buildcompare) | | 1.9M |
