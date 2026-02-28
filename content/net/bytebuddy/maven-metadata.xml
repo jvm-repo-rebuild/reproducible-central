@@ -3,8 +3,8 @@
   <groupId>net.bytebuddy</groupId>
   <artifactId>byte-buddy-parent</artifactId>
   <versioning>
-    <latest>1.18.5</latest>
-    <release>1.18.5</release>
+    <latest>1.18.6-jdk6-jdk5</latest>
+    <release>1.18.6-jdk6-jdk5</release>
     <versions>
       <version>0.1</version>
       <version>0.2</version>
@@ -315,7 +315,9 @@
       <version>1.18.3</version>
       <version>1.18.4</version>
       <version>1.18.5</version>
+      <version>1.18.6-jdk5</version>
+      <version>1.18.6-jdk6-jdk5</version>
     </versions>
-    <lastUpdated>20260214074117</lastUpdated>
+    <lastUpdated>20260228003917</lastUpdated>
   </versioning>
 </metadata>

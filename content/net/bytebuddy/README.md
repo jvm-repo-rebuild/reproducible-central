@@ -25,6 +25,8 @@ rebuilding **59 releases** of net.bytebuddy:byte-buddy-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.18.6-jdk6-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.6-jdk6-jdk5/pom) | | | |
+| [1.18.6-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.6-jdk5/pom) | | | |
 | [1.18.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.5/pom) | [mvn jdk8](byte-buddy-1.18.5.buildspec) | [result](byte-buddy-parent-1.18.5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.5.buildcompare) | | 36M |
 | [1.18.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.4/pom) | [mvn jdk8](byte-buddy-1.18.4.buildspec) | [result](byte-buddy-parent-1.18.4.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.4.buildcompare) | | 36M |
 | [1.18.3](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.3/pom) | [mvn jdk8](byte-buddy-1.18.3.buildspec) | [result](byte-buddy-parent-1.18.3.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.3.buildcompare) | | 36M |

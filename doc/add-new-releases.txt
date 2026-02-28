@@ -2,14 +2,12 @@
 # see bin/create-new-release-PRs.sh
 content/com/fasterxml/jackson/databind/jackson-databind-2.21.0.buildspec:2.21.1
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/com/spotify/github-client/github-client-0.5.6.buildspec:0.5.8
+content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.28.buildspec:0.29
 content/io/cucumber/messages/messages-32.0.1.buildspec:32.1.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.0.buildspec:0.93.1
-content/io/wcm/io.wcm.handler/media/wcm-media-2.7.0.buildspec:2.8.0
-content/net/sourceforge/pmd/pmd-7.21.0.buildspec:7.22.0
-content/org/apache/felix/maven-bundle-plugin/maven-bundle-plugin-6.0.0.buildspec:6.0.2
+content/net/bytebuddy/byte-buddy-1.18.5.buildspec:1.18.6-jdk6-jdk5
 content/org/apache/jackrabbit/filevault/jackrabbit-filevault-4.1.4.buildspec:4.2.0
 content/org/apache/nifi/nifi-nar-maven-plugin/nifi-nar-maven-plugin-2.2.0.buildspec:2.3.0
-content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-3.0.0.buildspec:3.0.2
-content/org/infinispan/protostream/protostream-6.0.4.buildspec:6.0.5
-content/org/kordamp/pomchecker/pomchecker-1.14.0.buildspec:1.15.0
+content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-2.0.0.buildspec:2.0.2
+content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-3.0.0.buildspec:3.0.2
+content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-3.0.0.buildspec:3.0.2
+content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-3.0.4.buildspec:3.0.6
