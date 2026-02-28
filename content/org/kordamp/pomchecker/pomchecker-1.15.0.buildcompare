@@ -1,0 +1,9 @@
+version=1.15.0
+ok=17
+ko=0
+ignored=0
+okFiles="pomchecker-1.15.0.pom pomchecker-core-1.15.0.pom pomchecker-core-1.15.0.jar pomchecker-core-1.15.0-sources.jar pomchecker-cli-1.15.0.pom pomchecker-cli-1.15.0.jar pomchecker-cli-1.15.0-sources.jar pomchecker-cli-1.15.0-all.jar pomchecker-toolprovider-1.15.0.pom pomchecker-toolprovider-1.15.0.jar pomchecker-toolprovider-1.15.0-sources.jar pomchecker-enforcer-rules-1.15.0.pom pomchecker-enforcer-rules-1.15.0.jar pomchecker-enforcer-rules-1.15.0-sources.jar pomchecker-maven-plugin-1.15.0.pom pomchecker-maven-plugin-1.15.0.jar pomchecker-maven-plugin-1.15.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
