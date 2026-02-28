@@ -16,13 +16,13 @@ Source code: [https://github.com/Telicent-oss/smart-cache-graph](https://github.
 * [io.telicent.smart-caches.graph:scg-system](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-system/overview)
 </details>
 
-rebuilding **60 releases** of io.telicent.smart-caches.graph:scg-base:
-- **60** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **61 releases** of io.telicent.smart-caches.graph:scg-base:
+- **61** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.93.1](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.93.1/pom) | | | |
+| [0.93.1](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.93.1/pom) | [mvn jdk21](scg-base-0.93.1.buildspec) | [result](scg-base-0.93.1.buildinfo): [23 :white_check_mark: ](scg-base-0.93.1.buildcompare) | | 144M |
 | [0.93.0](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.93.0/pom) | [mvn jdk21](scg-base-0.93.0.buildspec) | [result](scg-base-0.93.0.buildinfo): [23 :white_check_mark: ](scg-base-0.93.0.buildcompare) | | 143M |
 | [0.92.5](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.92.5/pom) | [mvn jdk21](scg-base-0.92.5.buildspec) | [result](scg-base-0.92.5.buildinfo): [23 :white_check_mark: ](scg-base-0.92.5.buildcompare) | | 143M |
 | [0.92.4](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.92.4/pom) | [mvn jdk21](scg-base-0.92.4.buildspec) | [result](scg-base-0.92.4.buildinfo): [23 :white_check_mark: ](scg-base-0.92.4.buildcompare) | | 143M |
