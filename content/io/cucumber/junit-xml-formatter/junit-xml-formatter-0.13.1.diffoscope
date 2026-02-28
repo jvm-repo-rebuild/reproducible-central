@@ -1,0 +1,56 @@
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>messages</artifactId>
+            <version>[32.0.0,33.0.0)</version>
+        </dependency>
+
+1 / 1 target/reference/io.cucumber/junit-xml-formatter-0.13.1.jar target/junit-xml-formatter-0.13.1.jar
+--- target/reference/io.cucumber/junit-xml-formatter-0.13.1.jar
++++ target/junit-xml-formatter-0.13.1.jar
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -  SHA-256 checksum 188ed16294a5bfd288d920e67fc3fc47564523fea12ab0acf9777b2519ac8270
+│ │ +  SHA-256 checksum 0905bdfd830cf2ed89a8f989382bacfe45700e578a2c9690507eaa1d0ed898d2
+│ │    Compiled from "module-info.java"
+│ │  module io.cucumber.junitxmlformatter@0.13.1
+│ │    minor version: 0
+│ │    major version: 61
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #1                          // "module-info"
+│ │    super_class: #0
+│ │ @@ -20,15 +20,15 @@
+│ │    #10 = Utf8               java.base
+│ │    #11 = Module             #12            // "org.jspecify"
+│ │    #12 = Utf8               org.jspecify
+│ │    #13 = Module             #14            // "java.xml"
+│ │    #14 = Utf8               java.xml
+│ │    #15 = Module             #16            // "io.cucumber.messages"
+│ │    #16 = Utf8               io.cucumber.messages
+│ │ -  #17 = Utf8               32.0.1
+│ │ +  #17 = Utf8               32.1.0
+│ │    #18 = Module             #19            // "io.cucumber.query"
+│ │    #19 = Utf8               io.cucumber.query
+│ │    #20 = Utf8               15.0.1
+│ │    #21 = Package            #22            // io/cucumber/junitxmlformatter
+│ │    #22 = Utf8               io/cucumber/junitxmlformatter
+│ │    #23 = Utf8               ModulePackages
+│ │  {
+│ │ @@ -41,15 +41,15 @@
+│ │      #9,8000                                 // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #11,0                                   // "org.jspecify"
+│ │      #0
+│ │      #13,0                                   // "java.xml"
+│ │      #0
+│ │      #15,20                                  // "io.cucumber.messages" ACC_TRANSITIVE
+│ │ -    #17                                     // 32.0.1
+│ │ +    #17                                     // 32.1.0
+│ │      #18,0                                   // "io.cucumber.query"
+│ │      #20                                     // 15.0.1
+│ │    1                                       // exports
+│ │      #21,0                                   // io/cucumber/junitxmlformatter
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    0                                       // provides
+
