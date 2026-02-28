@@ -1,0 +1,19 @@
+groupId=org.apache.felix
+artifactId=maven-bundle-plugin
+display=${groupId}:${artifactId}
+version=6.0.2
+
+gitRepo=https://github.com/apache/felix-dev.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=crlf
+umask=022
+
+root=tools/maven-bundle-plugin
+command="mvn -f ${root} -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${root}/target/${artifactId}-${version}.buildinfo
+execBefore="chmod a-x ${root}/upgrade_local_poms.sh" # execute flag does not exist on Windows...
+
+issue=
