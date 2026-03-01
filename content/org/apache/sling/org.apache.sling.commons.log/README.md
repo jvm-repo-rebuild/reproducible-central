@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.commons.log:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.log/6.0.4/pom) | | | |
 | [6.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.log/6.0.2/pom) | [mvn jdk17](org.apache.sling.commons.log-6.0.2.buildspec) | [result](org.apache.sling.commons.log-6.0.2.buildinfo): [5 :white_check_mark: ](org.apache.sling.commons.log-6.0.2.buildcompare) | | 1.7M |
 | [6.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.log/6.0.0/pom) | [mvn jdk21 w](org.apache.sling.commons.log-6.0.0.buildspec) | [result](org.apache.sling.commons.log-6.0.0.buildinfo): [4 :white_check_mark:  1 :warning:](org.apache.sling.commons.log-6.0.0.buildcompare) | - | 1.7M |
 | [5.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.log/5.5.0/pom) | [mvn jdk17](org.apache.sling.commons.log-5.5.0.buildspec) | [result](org.apache.sling.commons.log-5.5.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.commons.log-5.5.0.buildcompare) | | 1.1M |
