@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-scripting-core.git](https://github.com/apache/sling-org-apache-sling-scripting-core.git)
 
-rebuilding **6 releases** of org.apache.sling:org.apache.sling.scripting.core:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.apache.sling:org.apache.sling.scripting.core:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.core/3.0.2/pom) | | | |
+| [3.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.core/3.0.2/pom) | [mvn jdk21 w](org.apache.sling.scripting.core-3.0.2.buildspec) | [result](org.apache.sling.scripting.core-3.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.core-3.0.2.buildcompare) | | 407K |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.core/3.0.0/pom) | [mvn jdk17](org.apache.sling.scripting.core-3.0.0.buildspec) | [result](org.apache.sling.scripting.core-3.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.core-3.0.0.buildcompare) | | 402K |
 | [2.4.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.10/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.10.buildspec) | [result](org.apache.sling.scripting.core-2.4.10.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.10.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.10.diffoscope) [:memo:](https://issues.apache.org/jira/browse/SLING-12422) | 1 :rotating_light: | 457K |
 | [2.4.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.8/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.8.buildspec) | [result](org.apache.sling.scripting.core-2.4.8.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.8.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.8.diffoscope) | 1 :rotating_light: | 454K |
