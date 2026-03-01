@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log
+version=6.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log.git
+source.scm.tag=org.apache.sling.commons.log-6.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.log-6.0.4.pom
+outputs.0.length=16318
+outputs.0.checksums.sha512=79e51ab8efae8f1c9848b92345746970673526f340395c76b04a24ccb1a69c99786ef82ea6e5cadea79f6d5b82ae1d9b2ef3ef268c1aadffc79842b92e45536f
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.log-6.0.4.jar
+outputs.1.length=154794
+outputs.1.checksums.sha512=430ece8ee4ae593da44778a240eaf160aa442cb8d3b318f48e93824f9c4863cf3cd20ad7a3539a408872d1da94b6a057bf2b4bc64f2014a2b4665453e68bab7a
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.log-6.0.4-source-release.zip
+outputs.2.length=299525
+outputs.2.checksums.sha512=afe97de8a889395065a0475206ce02a92ac88142eae3c45cf2b78d3d7bec4b0f3ece8f64290e9044b9939df325aa1067b904bdc7702cb3b61fa9093516ad1191
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.log-6.0.4-sources.jar
+outputs.3.length=122981
+outputs.3.checksums.sha512=b774deaebb1be2c5039c5b5d9c23ecd2da316b16ee0989735fd28750ace159959401ebe2f3ef82ca301b433c50c3c815e5786114239c6889e84ee8061e4788d0
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.log-6.0.4-all.jar
+outputs.4.length=1158128
+outputs.4.checksums.sha512=eb8dbc45dace1af19324a433249cc60e394293e0113570b78fba9b2bdda6180289381f209038796aaabc10f2a358db06acfdb9654494001b3d4f8a02d5df4a49
