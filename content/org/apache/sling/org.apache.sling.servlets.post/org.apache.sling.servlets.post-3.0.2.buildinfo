@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets POST
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.post
+version=3.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-post.git
+source.scm.tag=org.apache.sling.servlets.post-3.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.post-3.0.2.pom
+outputs.0.length=12533
+outputs.0.checksums.sha512=c48902f7a6f660a8362a6cd4058c9324991b0f571efc1fb73ba52718bf35df2a3dadbda3a009823f8ec0e64aa3aff768b51fde2c6a8d11f709468a0fc5d5d5b5
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.post-3.0.2.jar
+outputs.1.length=213202
+outputs.1.checksums.sha512=4c72cf2b9321d71d04383dac196de206f8a531c706127426e15c72aeadbea33d4d4f13b7c64d1048775fb7a8cea9e256c618e244e5d70fed43f0787e68ba5f5d
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.post-3.0.2-source-release.zip
+outputs.2.length=229335
+outputs.2.checksums.sha512=34b224e964a3682f5cbbc8928c71b20bb87bca4134321a65992e2621957d2e223b7184728fc6cc29acb8d273d99aca46b776bbca4ebcfd8ff54cd2b815211a2c
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.post-3.0.2-sources.jar
+outputs.3.length=171471
+outputs.3.checksums.sha512=0116f3089a925385092489954994440734e9731f34c565bb91ad57ad391ed46da797e920e109e3816f5ea546ed5b98fe5889202be7446f9c402bc5ef238964f3

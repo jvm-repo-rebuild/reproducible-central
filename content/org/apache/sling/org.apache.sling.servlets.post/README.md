@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-servlets-post.git](https://github.com/apache/sling-org-apache-sling-servlets-post.git)
 
-rebuilding **4 releases** of org.apache.sling:org.apache.sling.servlets.post:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.apache.sling:org.apache.sling.servlets.post:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.post/3.0.2/pom) | | | |
+| [3.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.post/3.0.2/pom) | [mvn jdk21 w](org.apache.sling.servlets.post-3.0.2.buildspec) | [result](org.apache.sling.servlets.post-3.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.servlets.post-3.0.2.buildcompare) | | 612K |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.post/3.0.0/pom) | [mvn jdk17](org.apache.sling.servlets.post-3.0.0.buildspec) | [result](org.apache.sling.servlets.post-3.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.servlets.post-3.0.0.buildcompare) | | 600K |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.post/2.6.0/pom) | [mvn jdk11](org.apache.sling.servlets.post-2.6.0.buildspec) | [result](org.apache.sling.servlets.post-2.6.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.servlets.post-2.6.0.buildcompare) | | 664K |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.post/2.5.0/pom) | [mvn jdk11](org.apache.sling.servlets.post-2.5.0.buildspec) | [result](org.apache.sling.servlets.post-2.5.0.buildinfo): [2 :white_check_mark:  2 :warning:](org.apache.sling.servlets.post-2.5.0.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-post/pull/17) | - | 800K |
