@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Models Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.models.impl
+version=2.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-models-impl.git
+source.scm.tag=org.apache.sling.models.impl-2.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.models.impl-2.0.2.pom
+outputs.0.length=27566
+outputs.0.checksums.sha512=d46a46d4d8f85c12304b4339be474c99dbe747f6cdca291dcebbbe3d7059e4680f78135dc5601e828284eb626c197ba9de7681fd7c8c58438f78c810d71bd2a2
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.models.impl-2.0.2.jar
+outputs.1.length=150831
+outputs.1.checksums.sha512=0b25927d6f5cc7ba2a66b226712a08c4de0a11fdbf73e753d84b4dc6c93c628787e64ee1904661410ea47f6fb447c4a3c55d80d6f9a5a23b7a10d1fb1c7154f3
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.models.impl-2.0.2-source-release.zip
+outputs.2.length=403278
+outputs.2.checksums.sha512=fa843fe1208add67e8afbd92d13f29a95010af11531347c6fb331f138e1aefd6a7ad7bc18aea016cc76be844f19b25f2c34d6d3fd569faa10ac903e9c58d7f8b
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.models.impl-2.0.2-tests.jar
+outputs.3.length=345830
+outputs.3.checksums.sha512=2783abd409b6c2abc659b86cda4ca37abf929960d548b1e11e981f98a94936d54fe76da87817790efa42b07e58b61a8575fa8f8aec6cd8273ef1817d35219549
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.models.impl-2.0.2-sources.jar
+outputs.4.length=96979
+outputs.4.checksums.sha512=0c1881a14085ebe8ba5b09722e77cd48c0464afad69fa92c99b70e8b0b8a75b813dcb4c566d3571baf2c0adf4357bfd47fb18f5fa654268337a07784cb469f15
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.models.impl-2.0.2-it-testbundle.jar
+outputs.5.length=43115
+outputs.5.checksums.sha512=4238ad935be590da122880a19b6da8e41f10854163f46d210eadea0233ce55c36cbbff239593a4f0eab1650b12a0b333822b0e46d1dd939f59ee668ca967297d
