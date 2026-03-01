@@ -1,0 +1,16 @@
+version=2.0.2
+ok=5
+ko=1
+ignored=0
+okFiles="org.apache.sling.models.impl-2.0.2.pom org.apache.sling.models.impl-2.0.2.jar org.apache.sling.models.impl-2.0.2-source-release.zip org.apache.sling.models.impl-2.0.2-tests.jar org.apache.sling.models.impl-2.0.2-sources.jar"
+koFiles="org.apache.sling.models.impl-2.0.2-it-testbundle.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.models.impl-2.0.2-it-testbundle.jar target/it-testbundle.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="org.apache.sling.models.impl-2.0.2-it-testbundle.jar"
