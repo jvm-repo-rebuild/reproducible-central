@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting Core
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.core
+version=3.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-core.git
+source.scm.tag=org.apache.sling.scripting.core-3.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.core-3.0.2.pom
+outputs.0.length=14588
+outputs.0.checksums.sha512=328cbec432d310e88bfe46e2aa9c836e794f016567c3ef59343e6bae181ef275b9d31eeb733db4a15e811367e2ee08a28c2ea16bf4bf311edd84fd68c9854a7e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.core-3.0.2.jar
+outputs.1.length=156180
+outputs.1.checksums.sha512=60f8a1a5f495e95f719de7bf364f245d3952b54614a904c64d18116a4dd79022e318fdc86225441d9ba433d13138a869646b5ded65ceed7510788eafa226ec97
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.core-3.0.2-source-release.zip
+outputs.2.length=153977
+outputs.2.checksums.sha512=b33b432f9b2b58d8f88190c453a9f478b06630cca243670ea1e0c8861d75395c7afeb4e6ae4aa0f15cf277dccd256da082e62d37ef666d545e190f4fe9bd6c84
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.core-3.0.2-sources.jar
+outputs.3.length=91904
+outputs.3.checksums.sha512=e418fafeb90481d0836337cd7166f96e9f54c953cd0a62130a6e414f40f54008d0f79712e941c41ee1055a0b511c19512cd477b64c391cf69a21119486242947
