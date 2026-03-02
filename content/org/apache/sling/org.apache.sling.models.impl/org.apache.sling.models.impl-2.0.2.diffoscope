@@ -1,0 +1,191 @@
+1 / 1 target/reference/org.apache.sling/org.apache.sling.models.impl-2.0.2-it-testbundle.jar target/it-testbundle.jar
+--- target/reference/org.apache.sling/org.apache.sling.models.impl-2.0.2-it-testbundle.jar
++++ target/it-testbundle.jar
+├── zipinfo {}
+│ @@ -1,83 +1,83 @@
+│ -Zip file size: 43118 bytes, number of entries: 81
+│ --rw----     2.0 fat        0 bX defN 26-Feb-24 10:58 META-INF/
+│ --rw----     2.0 fat     6630 bl defN 26-Feb-24 10:58 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat       39 bl defN 26-Feb-24 10:58 META-INF/LICENSE
+│ --rw----     2.0 fat       39 bl defN 26-Feb-24 10:58 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 OSGI-INF/
+│ --rw----     2.0 fat      417 bl defN 26-Feb-24 10:58 OSGI-INF/org.apache.sling.models.it.testbundle.implpicker.CustomLastImplementationPicker.xml
+│ --rw----     2.0 fat      467 bl defN 26-Feb-24 10:58 OSGI-INF/org.apache.sling.models.it.testbundle.services.AnotherTestBindingsValuesProvider.xml
+│ --rw----     2.0 fat      433 bl defN 26-Feb-24 10:58 OSGI-INF/org.apache.sling.models.it.testbundle.services.TestBindingsValuesProvider.xml
+│ --rw----     2.0 fat      510 bl defN 26-Feb-24 10:58 OSGI-INF/org.apache.sling.models.it.testbundle.services.TestResourceDecorator.xml
+│ --rw----     2.0 fat      468 bl defN 26-Feb-24 10:58 OSGI-INF/org.apache.sling.models.it.testbundle.servlets.PathBoundJakartaServlet.xml
+│ --rw----     2.0 fat      444 bl defN 26-Feb-24 10:58 OSGI-INF/org.apache.sling.models.it.testbundle.servlets.PathBoundServlet.xml
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/request/
+│ --rw----     2.0 fat     1130 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/request/DelegateBaseModel.class
+│ --rw----     2.0 fat     1249 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/request/DelegateExtendedModel.class
+│ --rw----     2.0 fat      230 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/request/DelegateInterface.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/resource/
+│ --rw----     2.0 fat     1047 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/resource/DelegateBaseModel.class
+│ --rw----     2.0 fat     1247 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/resource/DelegateExtendedModel.class
+│ --rw----     2.0 fat      231 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/resource/DelegateInterface.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/
+│ --rw----     2.0 fat      150 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/A.class
+│ --rw----     2.0 fat      228 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/A1.class
+│ --rw----     2.0 fat      150 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/B.class
+│ --rw----     2.0 fat      228 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/B1.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/
+│ --rw----     2.0 fat     1213 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/A1Impl.class
+│ --rw----     2.0 fat     1102 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/AImpl.class
+│ --rw----     2.0 fat     1129 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/B1Impl.class
+│ --rw----     2.0 fat      832 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/BImpl.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/implpicker/
+│ --rw----     2.0 fat     1740 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/implpicker/CustomLastImplementationPicker.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/
+│ --rw----     2.0 fat     1612 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/ConstructorInjectionTestModel.class
+│ --rw----     2.0 fat     1467 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/FieldInjectionTestModel.class
+│ --rw----     2.0 fat      675 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/InterfaceInjectionTestModel.class
+│ --rw----     2.0 fat      251 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/JakartaRequestSelfModel.class
+│ --rw----     2.0 fat      954 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/JakartaRequestSelfModelImpl.class
+│ --rw----     2.0 fat      671 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/ModelWithOptionalImport.class
+│ --rw----     2.0 fat      230 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/RequestSelfModel.class
+│ --rw----     2.0 fat      912 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/RequestSelfModelImpl.class
+│ --rw----     2.0 fat      715 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/SelfModel.class
+│ --rw----     2.0 fat     1898 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/ServiceInjectionTestModel.class
+│ --rw----     2.0 fat      800 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/SlingPropertyAnnotationTestModel.class
+│ --rw----     2.0 fat      612 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/SourceObject.class
+│ --rw----     2.0 fat      772 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/ViaModel.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/
+│ --rw----     2.0 fat     1287 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/ExtendsClassPropertyModel.class
+│ --rw----     2.0 fat     1364 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/ImplementsInterfacePropertyModel.class
+│ --rw----     2.0 fat     1367 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/ImplementsInterfacePropertyModel2.class
+│ --rw----     2.0 fat     1392 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/InvalidImplementsInterfacePropertyModel.class
+│ --rw----     2.0 fat      245 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/InvalidSampleServiceInterface.class
+│ --rw----     2.0 fat      231 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/SampleServiceInterface.class
+│ --rw----     2.0 fat     1015 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/models/implextend/SimplePropertyModel.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtbound/
+│ --rw----     2.0 fat     1109 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtbound/BaseComponent.class
+│ --rw----     2.0 fat     1124 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtbound/ExtendedComponent.class
+│ --rw----     2.0 fat      579 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtbound/FromRequestComponent.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtboundpicker/
+│ --rw----     2.0 fat      834 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtboundpicker/BaseComponent.class
+│ --rw----     2.0 fat      835 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtboundpicker/SubRTComponent.class
+│ --rw----     2.0 fat      207 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/rtboundpicker/TestComponent.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/
+│ --rw----     2.0 fat     1008 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/AnotherTestBindingsValuesProvider.class
+│ --rw----     2.0 fat      181 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/SimpleService.class
+│ --rw----     2.0 fat      619 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/SimpleServiceWithCustomRanking.class
+│ --rw----     2.0 fat      964 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/TestBindingsValuesProvider.class
+│ --rw----     2.0 fat     1734 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/TestResourceDecorator$1.class
+│ --rw----     2.0 fat     2378 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/services/TestResourceDecorator.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/servlets/
+│ --rw----     2.0 fat     1719 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/servlets/PathBoundJakartaServlet.class
+│ --rw----     2.0 fat     1623 bl defN 26-Feb-24 10:58 org/apache/sling/models/it/testbundle/servlets/PathBoundServlet.class
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/servlets/
+│ --rw----     2.0 fat        0 bl defN 26-Feb-24 10:58 org/apache/sling/servlets/annotations/
+│ --rw----     2.0 fat      339 bl defN 26-Feb-24 10:58 org/apache/sling/servlets/annotations/SlingServletPaths.class
+│ -81 files, 55076 bytes uncompressed, 25096 bytes compressed:  54.4%
+│ +Zip file size: 43114 bytes, number of entries: 81
+│ +-rw----     2.0 fat        0 bX defN 26-Mar-02 17:35 META-INF/
+│ +-rw----     2.0 fat     6618 bl defN 26-Mar-02 17:35 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat       39 bl defN 26-Mar-02 17:35 META-INF/LICENSE
+│ +-rw----     2.0 fat       39 bl defN 26-Mar-02 17:35 META-INF/NOTICE
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 OSGI-INF/
+│ +-rw----     2.0 fat      417 bl defN 26-Mar-02 17:35 OSGI-INF/org.apache.sling.models.it.testbundle.implpicker.CustomLastImplementationPicker.xml
+│ +-rw----     2.0 fat      467 bl defN 26-Mar-02 17:35 OSGI-INF/org.apache.sling.models.it.testbundle.services.AnotherTestBindingsValuesProvider.xml
+│ +-rw----     2.0 fat      433 bl defN 26-Mar-02 17:35 OSGI-INF/org.apache.sling.models.it.testbundle.services.TestBindingsValuesProvider.xml
+│ +-rw----     2.0 fat      510 bl defN 26-Mar-02 17:35 OSGI-INF/org.apache.sling.models.it.testbundle.services.TestResourceDecorator.xml
+│ +-rw----     2.0 fat      468 bl defN 26-Mar-02 17:35 OSGI-INF/org.apache.sling.models.it.testbundle.servlets.PathBoundJakartaServlet.xml
+│ +-rw----     2.0 fat      444 bl defN 26-Mar-02 17:35 OSGI-INF/org.apache.sling.models.it.testbundle.servlets.PathBoundServlet.xml
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/request/
+│ +-rw----     2.0 fat     1130 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/request/DelegateBaseModel.class
+│ +-rw----     2.0 fat     1249 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/request/DelegateExtendedModel.class
+│ +-rw----     2.0 fat      230 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/request/DelegateInterface.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/resource/
+│ +-rw----     2.0 fat     1047 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/resource/DelegateBaseModel.class
+│ +-rw----     2.0 fat     1247 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/resource/DelegateExtendedModel.class
+│ +-rw----     2.0 fat      231 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/resource/DelegateInterface.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/
+│ +-rw----     2.0 fat      150 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/A.class
+│ +-rw----     2.0 fat      228 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/A1.class
+│ +-rw----     2.0 fat      150 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/B.class
+│ +-rw----     2.0 fat      228 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/B1.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/
+│ +-rw----     2.0 fat     1213 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/A1Impl.class
+│ +-rw----     2.0 fat     1102 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/AImpl.class
+│ +-rw----     2.0 fat     1129 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/B1Impl.class
+│ +-rw----     2.0 fat      832 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/delegate/viaoriginalresource/models/BImpl.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/implpicker/
+│ +-rw----     2.0 fat     1740 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/implpicker/CustomLastImplementationPicker.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/
+│ +-rw----     2.0 fat     1612 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/ConstructorInjectionTestModel.class
+│ +-rw----     2.0 fat     1467 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/FieldInjectionTestModel.class
+│ +-rw----     2.0 fat      675 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/InterfaceInjectionTestModel.class
+│ +-rw----     2.0 fat      251 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/JakartaRequestSelfModel.class
+│ +-rw----     2.0 fat      954 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/JakartaRequestSelfModelImpl.class
+│ +-rw----     2.0 fat      671 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/ModelWithOptionalImport.class
+│ +-rw----     2.0 fat      230 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/RequestSelfModel.class
+│ +-rw----     2.0 fat      912 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/RequestSelfModelImpl.class
+│ +-rw----     2.0 fat      715 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/SelfModel.class
+│ +-rw----     2.0 fat     1898 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/ServiceInjectionTestModel.class
+│ +-rw----     2.0 fat      800 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/SlingPropertyAnnotationTestModel.class
+│ +-rw----     2.0 fat      612 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/SourceObject.class
+│ +-rw----     2.0 fat      772 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/ViaModel.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/
+│ +-rw----     2.0 fat     1287 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/ExtendsClassPropertyModel.class
+│ +-rw----     2.0 fat     1364 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/ImplementsInterfacePropertyModel.class
+│ +-rw----     2.0 fat     1367 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/ImplementsInterfacePropertyModel2.class
+│ +-rw----     2.0 fat     1392 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/InvalidImplementsInterfacePropertyModel.class
+│ +-rw----     2.0 fat      245 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/InvalidSampleServiceInterface.class
+│ +-rw----     2.0 fat      231 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/SampleServiceInterface.class
+│ +-rw----     2.0 fat     1015 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/models/implextend/SimplePropertyModel.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtbound/
+│ +-rw----     2.0 fat     1109 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtbound/BaseComponent.class
+│ +-rw----     2.0 fat     1124 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtbound/ExtendedComponent.class
+│ +-rw----     2.0 fat      579 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtbound/FromRequestComponent.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtboundpicker/
+│ +-rw----     2.0 fat      834 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtboundpicker/BaseComponent.class
+│ +-rw----     2.0 fat      835 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtboundpicker/SubRTComponent.class
+│ +-rw----     2.0 fat      207 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/rtboundpicker/TestComponent.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/
+│ +-rw----     2.0 fat     1008 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/AnotherTestBindingsValuesProvider.class
+│ +-rw----     2.0 fat      181 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/SimpleService.class
+│ +-rw----     2.0 fat      619 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/SimpleServiceWithCustomRanking.class
+│ +-rw----     2.0 fat      964 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/TestBindingsValuesProvider.class
+│ +-rw----     2.0 fat     1734 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/TestResourceDecorator$1.class
+│ +-rw----     2.0 fat     2378 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/services/TestResourceDecorator.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/servlets/
+│ +-rw----     2.0 fat     1719 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/servlets/PathBoundJakartaServlet.class
+│ +-rw----     2.0 fat     1623 bl defN 26-Mar-02 17:35 org/apache/sling/models/it/testbundle/servlets/PathBoundServlet.class
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/servlets/
+│ +-rw----     2.0 fat        0 bl defN 26-Mar-02 17:35 org/apache/sling/servlets/annotations/
+│ +-rw----     2.0 fat      339 bl defN 26-Mar-02 17:35 org/apache/sling/servlets/annotations/SlingServletPaths.class
+│ +81 files, 55064 bytes uncompressed, 25092 bytes compressed:  54.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,14 +1,14 @@
+│  Manifest-Version: 1.0
+│ -Bnd-LastModified: 1771930707532
+│ +Bnd-LastModified: 1772472954342
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Apache Sling Models Implementation - IT Test Bundle
+│ -Bundle-SymbolicName: TinyBundle-87579aad-ef51-4fc8-b170-b91d4e07468e
+│ +Bundle-SymbolicName: TinyBundle-be37b619-c605-4433-b602-8d03c1a027d9
+│  Bundle-Version: 1.0.0.SNAPSHOT
+│ -Created-By: 21.0.9 (Oracle Corporation)
+│ +Created-By: 21.0.5 (Ubuntu)
+│  Export-Package: org.apache.sling.models.it.testbundle.delegate.request
+│   ;uses:="org.apache.sling.api,org.apache.sling.models.annotations";ver
+│   sion="1.0.0.SNAPSHOT",org.apache.sling.models.it.testbundle.delegate.
+│   resource;uses:="org.apache.sling.api.resource,org.apache.sling.models
+│   .annotations";version="1.0.0.SNAPSHOT",org.apache.sling.models.it.tes
+│   tbundle.delegate.viaoriginalresource;version="1.0.0.SNAPSHOT",org.apa
+│   che.sling.models.it.testbundle.delegate.viaoriginalresource.models;us
+
