@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-models-impl.git](https://github.com/apache/sling-org-apache-sling-models-impl.git)
 
-rebuilding **12 releases** of org.apache.sling:org.apache.sling.models.impl:
+rebuilding **13 releases** of org.apache.sling:org.apache.sling.models.impl:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/2.0.2/pom) | | | |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/2.0.2/pom) | [mvn jdk21 w](org.apache.sling.models.impl-2.0.2.buildspec) | [result](org.apache.sling.models.impl-2.0.2.buildinfo): [5 :white_check_mark:  1 :warning:](org.apache.sling.models.impl-2.0.2.buildcompare) | 1 :no_entry_sign: | 1.1M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/2.0.0/pom) | [mvn jdk17](org.apache.sling.models.impl-2.0.0.buildspec) | [result](org.apache.sling.models.impl-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.models.impl-2.0.0.buildcompare) | | 541K |
 | [1.7.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/1.7.8/pom) | [mvn jdk17 w](org.apache.sling.models.impl-1.7.8.buildspec) | [result](org.apache.sling.models.impl-1.7.8.buildinfo): [2 :white_check_mark:  2 :warning:](org.apache.sling.models.impl-1.7.8.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/62) | - | 514K |
 | [1.7.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/1.7.6/pom) | [mvn jdk21 w](org.apache.sling.models.impl-1.7.6.buildspec) | [result](org.apache.sling.models.impl-1.7.6.buildinfo): [2 :white_check_mark:  2 :warning:](org.apache.sling.models.impl-1.7.6.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/62) | - | 512K |
