@@ -14,6 +14,7 @@ rebuilding **6 releases** of at/yawk/lz4:lz4-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.10.4](https://central.sonatype.com/artifact/at.yawk.lz4/lz4-java/1.10.4/pom) | | | |
 | [1.10.3](https://central.sonatype.com/artifact/at/yawk/lz4/lz4-java/1.10.3/pom) | [mvn jdk21](lz4-java-1.10.3.buildspec) | [result](lz4-java-1.10.3.buildinfo): [3 :white_check_mark: ](lz4-java-1.10.3.buildcompare) | | 1.1M |
 | [1.10.2](https://central.sonatype.com/artifact/at/yawk/lz4/lz4-java/1.10.2/pom) | [mvn jdk21](lz4-java-1.10.2.buildspec) | [result](lz4-java-1.10.2.buildinfo): [3 :white_check_mark: ](lz4-java-1.10.2.buildcompare) | | 1.1M |
 | [1.10.1](https://central.sonatype.com/artifact/at/yawk/lz4/lz4-java/1.10.1/pom) | [mvn jdk21](lz4-java-1.10.1.buildspec) | [result](lz4-java-1.10.1.buildinfo): [2 :white_check_mark:  1 :warning:](lz4-java-1.10.1.buildcompare) [:mag:](lz4-java-1.10.1.diffoscope) [:memo:](https://github.com/yawkat/lz4-java/pull/15) | 1 :rotating_light: | 1.1M |
