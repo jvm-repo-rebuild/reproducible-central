@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model API Regions Extension
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.extension.apiregions
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-extension-apiregions.git
+source.scm.tag=org.apache.sling.feature.extension.apiregions-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.extension.apiregions-2.2.0.pom
+outputs.0.length=5193
+outputs.0.checksums.sha512=e583e1128ed510ace3700f95cdd78800e545fa1c636d8cb8c258ff3a11a3d8a93bc8e7a47a169fcff150b3b9defb21eecbc4df30ef8ac026aeb7de3f1b0c9529
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.extension.apiregions-2.2.0.jar
+outputs.1.length=152862
+outputs.1.checksums.sha512=5c663c70bf3b89e7f92342ad8be0a540f490027e421254dc021ab6e0d3a36e6b2055fe51392483b155295a626d7e207f21db60d33ed8cd6afb3add840743b5ff
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.extension.apiregions-2.2.0-source-release.zip
+outputs.2.length=232429
+outputs.2.checksums.sha512=59b6dd25ccbfbccb1d602085049ecde992c2f2c83b9a365ad794eeb50b1ba8a7a2254e04de4542a6979e7a15046c7a6bbb47982432d2f3d83c12c7355c78176d
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.extension.apiregions-2.2.0-sources.jar
+outputs.3.length=113548
+outputs.3.checksums.sha512=bfecc66db05de344a1271c5944ea2974ffc9c92588fced370b07c3226d35bb492048e571cd157f6a609445c3c86ee2a50ca8531aad9092001d905f6c4c3b3741
