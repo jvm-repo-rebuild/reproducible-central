@@ -1,0 +1,76 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=java-design
+group-id=com.github.nbbrd.java-design-util
+artifact-id=java-design-parent
+version=1.9.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/nbbrd/java-design-util.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=java-design-bom
+
+# aggregated output
+
+outputs.0.coordinates=com.github.nbbrd.java-design-util:java-design-parent
+
+outputs.0.0.groupId=com.github.nbbrd.java-design-util
+outputs.0.0.filename=java-design-parent-1.9.0.pom
+outputs.0.0.length=27509
+outputs.0.0.checksums.sha512=35b5a12e7c2424a15a8f0371fbc73fa33c097c31211ae3286a7785589322fc6642eca2220e25de42a917914dda5127c3ff9926864f9f8eb8949449988fabd697
+
+outputs.1.coordinates=com.github.nbbrd.java-design-util:java-design-annotation
+
+outputs.1.0.groupId=com.github.nbbrd.java-design-util
+outputs.1.0.filename=java-design-annotation-1.9.0.pom
+outputs.1.0.length=1648
+outputs.1.0.checksums.sha512=523b294bc5d3ab5bef510a0fb28c7596b68aaa366a650c0774a0ede953c18e0ddee114718eaff7023ce19e3cd5c513f09150c0aa97da85af68b4d0d0d20d6c3b
+
+outputs.1.1.groupId=com.github.nbbrd.java-design-util
+outputs.1.1.filename=java-design-annotation-1.9.0.jar
+outputs.1.1.length=18004
+outputs.1.1.checksums.sha512=28a6d6136f0d4c7f20db80787e0bbe2c00a95f476bf9d3c75eab6df0ffa7a048c24bd8e4d39b96f31fc09e872b26fcc145d946e4edb3b4c851a0a0b4ba68453b
+
+outputs.1.2.groupId=com.github.nbbrd.java-design-util
+outputs.1.2.filename=java-design-annotation-1.9.0-sources.jar
+outputs.1.2.length=29871
+outputs.1.2.checksums.sha512=0811871e0ff9c7bf2aaae83cbd833055a271f9a14f1c8efff8be52a71849031f68058d7b97c38b6c3aa7c213fb27574c3e390d562bb472c3ca79c95968493cd9
+
+outputs.2.coordinates=com.github.nbbrd.java-design-util:java-design-processor
+
+outputs.2.0.groupId=com.github.nbbrd.java-design-util
+outputs.2.0.filename=java-design-processor-1.9.0.pom
+outputs.2.0.length=6860
+outputs.2.0.checksums.sha512=c79d41b5d497a8588a9def9b025daaabecac43578c5b3eaf2cd14f9ed4816412eb3abe19d5db6cebf3afefdeeb0c487ed2f34cd5936e2cfe90c6a80938c9ad7f
+
+outputs.2.1.groupId=com.github.nbbrd.java-design-util
+outputs.2.1.filename=java-design-processor-1.9.0.jar
+outputs.2.1.length=158994
+outputs.2.1.checksums.sha512=35677d331fd2338de2dfaca6d21d9bf83b33e4169e446a87421b7c0f34a27fead5d34d9e96ee2819fd79a1ce955e7024b13069a2bd4b6f427fd3b6aebd6cc687
+
+outputs.2.2.groupId=com.github.nbbrd.java-design-util
+outputs.2.2.filename=java-design-processor-1.9.0-sources.jar
+outputs.2.2.length=22777
+outputs.2.2.checksums.sha512=96c53ea26ce51f46f613fa673eb04051db5112314652c6833e433741f8560204924ea758cd8579dcd39a6ea354a6aeb9e532bcb940d747a34d598046385f9882
+
+outputs.3.coordinates=com.github.nbbrd.java-design-util:java-design-bom
+
+outputs.3.0.groupId=com.github.nbbrd.java-design-util
+outputs.3.0.filename=java-design-bom-1.9.0.pom
+outputs.3.0.length=2411
+outputs.3.0.checksums.sha512=daeaec7cff6de774beb66fe3956b550d60888882da785963b9beab32476829459c2ddca6ec24d7c0631d1d54f019142c223acd123d1c2b77ab97cecc7b653ab6
