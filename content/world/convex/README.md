@@ -7,29 +7,32 @@
 
 Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Convex-Dev/convex.git)
 
-<details><summary>This project defines 11 modules:</summary>
+<details><summary>This project defines 14 modules:</summary>
 
 * [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/overview)
 * [world.convex:convex-benchmarks](https://central.sonatype.com/artifact/world.convex/convex-benchmarks/overview)
 * [world.convex:convex-cli](https://central.sonatype.com/artifact/world.convex/convex-cli/overview)
 * [world.convex:convex-core](https://central.sonatype.com/artifact/world.convex/convex-core/overview)
+* [world.convex:convex-db](https://central.sonatype.com/artifact/world.convex/convex-db/overview)
+* [world.convex:convex-dlfs](https://central.sonatype.com/artifact/world.convex/convex-dlfs/overview)
 * [world.convex:convex-gui](https://central.sonatype.com/artifact/world.convex/convex-gui/overview)
 * [world.convex:convex-integration](https://central.sonatype.com/artifact/world.convex/convex-integration/overview)
 * [world.convex:convex-java](https://central.sonatype.com/artifact/world.convex/convex-java/overview)
 * [world.convex:convex-observer](https://central.sonatype.com/artifact/world.convex/convex-observer/overview)
 * [world.convex:convex-peer](https://central.sonatype.com/artifact/world.convex/convex-peer/overview)
 * [world.convex:convex-restapi](https://central.sonatype.com/artifact/world.convex/convex-restapi/overview)
+* [world.convex:convex-social](https://central.sonatype.com/artifact/world.convex/convex-social/overview)
 * [world.convex:convex-sodium](https://central.sonatype.com/artifact/world.convex/convex-sodium/overview)
 </details>
 
-rebuilding **22 releases** of world.convex:convex:
+rebuilding **23 releases** of world.convex:convex:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.8.3](https://central.sonatype.com/artifact/world.convex/convex/0.8.3/pom) | | | |
+| [0.8.3](https://central.sonatype.com/artifact/world.convex/convex/0.8.3/pom) | [mvn jdk25 w](convex-0.8.3.buildspec) | [result](convex-0.8.3.buildinfo): [36 :white_check_mark:  1 :warning:](convex-0.8.3.buildcompare) | 1 :rotating_light: | 13M |
 | [0.8.2](https://central.sonatype.com/artifact/world.convex/convex/0.8.2/pom) | [mvn jdk25 w](convex-0.8.2.buildspec) | [result](convex-0.8.2.buildinfo): [19 :white_check_mark:  9 :warning:](convex-0.8.2.buildcompare) [:mag:](convex-0.8.2.diffoscope) | 9 :rotating_light: | 12M |
 | [0.8.1](https://central.sonatype.com/artifact/world.convex/convex/0.8.1/pom) | [mvn jdk21 w](convex-0.8.1.buildspec) | [result](convex-0.8.1.buildinfo): [21 :white_check_mark: ](convex-0.8.1.buildcompare) | | 6.0M |
 | [0.8.0](https://central.sonatype.com/artifact/world.convex/convex/0.8.0/pom) | [mvn jdk21 w](convex-0.8.0.buildspec) | [result](convex-0.8.0.buildinfo): [21 :white_check_mark: ](convex-0.8.0.buildcompare) | | 6.0M |
