@@ -1,0 +1,16 @@
+version=0.8.3
+ok=36
+ko=1
+ignored=0
+okFiles="convex-0.8.3.pom convex-core-0.8.3.pom convex-core-0.8.3.jar convex-core-0.8.3-sources.jar convex-peer-0.8.3.pom convex-peer-0.8.3.jar convex-peer-0.8.3-sources.jar convex-java-0.8.3.pom convex-java-0.8.3.jar convex-java-0.8.3-sources.jar convex-restapi-0.8.3.pom convex-restapi-0.8.3.jar convex-restapi-0.8.3-sources.jar convex-dlfs-0.8.3.pom convex-dlfs-0.8.3.jar convex-dlfs-0.8.3-sources.jar convex-observer-0.8.3.pom convex-observer-0.8.3.jar convex-observer-0.8.3-sources.jar convex-gui-0.8.3.pom convex-gui-0.8.3.jar convex-gui-0.8.3-sources.jar convex-cli-0.8.3.pom convex-cli-0.8.3.jar convex-cli-0.8.3-sources.jar convex-db-0.8.3.pom convex-db-0.8.3.jar convex-benchmarks-0.8.3.pom convex-benchmarks-0.8.3.jar convex-benchmarks-0.8.3-sources.jar convex-social-0.8.3.pom convex-social-0.8.3.jar convex-social-0.8.3-sources.jar convex-integration-0.8.3.pom convex-integration-0.8.3.jar convex-integration-0.8.3-sources.jar"
+koFiles="convex-db-0.8.3-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/world.convex/convex-db-0.8.3-sources.jar convex-db/target/convex-db-0.8.3-sources.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="convex-db-0.8.3-sources.jar.stabilized"
+stabilize_ignoredFiles=""
