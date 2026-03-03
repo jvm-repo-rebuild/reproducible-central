@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jooby-project/jooby.git](https://github.com/jooby-project/jooby.git)
 
-<details><summary>This project defines 69 modules:</summary>
+<details><summary>This project defines 70 modules:</summary>
 
 * [io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/overview)
 * [io.jooby:jooby-apt](https://central.sonatype.com/artifact/io.jooby/jooby-apt/overview)
@@ -39,6 +39,7 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:jooby-hibernate-validator](https://central.sonatype.com/artifact/io.jooby/jooby-hibernate-validator/overview)
 * [io.jooby:jooby-hikari](https://central.sonatype.com/artifact/io.jooby/jooby-hikari/overview)
 * [io.jooby:jooby-jackson](https://central.sonatype.com/artifact/io.jooby/jooby-jackson/overview)
+* [io.jooby:jooby-jackson3](https://central.sonatype.com/artifact/io.jooby/jooby-jackson3/overview)
 * [io.jooby:jooby-jasypt](https://central.sonatype.com/artifact/io.jooby/jooby-jasypt/overview)
 * [io.jooby:jooby-jdbi](https://central.sonatype.com/artifact/io.jooby/jooby-jdbi/overview)
 * [io.jooby:jooby-jetty](https://central.sonatype.com/artifact/io.jooby/jooby-jetty/overview)
@@ -80,14 +81,14 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **72 releases** of io.jooby:jooby:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **73 releases** of io.jooby:jooby:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 52 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.16](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.16/pom) | | | |
+| [4.0.16](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.16/pom) | [mvn jdk21](jooby-4.0.16.buildspec) | [result](jooby-project-4.0.16.buildinfo): [189 :white_check_mark: ](jooby-project-4.0.16.buildcompare) | | 14M |
 | [4.0.15](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.15/pom) | [mvn jdk21](jooby-4.0.15.buildspec) | [result](jooby-project-4.0.15.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.15.buildcompare) | | 14M |
 | [4.0.14](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.14/pom) | [mvn jdk21](jooby-4.0.14.buildspec) | [result](jooby-project-4.0.14.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.14.buildcompare) | | 14M |
 | [4.0.13](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.13/pom) | [mvn jdk21](jooby-4.0.13.buildspec) | [result](jooby-project-4.0.13.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.13.buildcompare) | | 14M |
