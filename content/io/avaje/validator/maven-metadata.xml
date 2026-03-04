@@ -3,8 +3,8 @@
   <groupId>io.avaje</groupId>
   <artifactId>avaje-validator-parent</artifactId>
   <versioning>
-    <latest>2.17-RC1</latest>
-    <release>2.17-RC1</release>
+    <latest>2.17</latest>
+    <release>2.17</release>
     <versions>
       <version>0.9</version>
       <version>0.10</version>
@@ -64,7 +64,8 @@
       <version>2.16-RC2</version>
       <version>2.16</version>
       <version>2.17-RC1</version>
+      <version>2.17</version>
     </versions>
-    <lastUpdated>20260223160756</lastUpdated>
+    <lastUpdated>20260304051722</lastUpdated>
   </versioning>
 </metadata>
