@@ -116,6 +116,7 @@ rebuilding **36 releases** of dev.langchain4j:langchain4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.12.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.1/pom) | | | |
 | [1.11.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.0/pom) | [mvn jdk25](langchain4j-1.11.0.buildspec) | [result](langchain4j-aggregator-1.11.0.buildinfo): [280 :white_check_mark: ](langchain4j-aggregator-1.11.0.buildcompare) | | 469M |
 | [1.10.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.10.0/pom) | [mvn jdk25](langchain4j-1.10.0.buildspec) | [result](langchain4j-aggregator-1.10.0.buildinfo): [277 :white_check_mark: ](langchain4j-aggregator-1.10.0.buildcompare) | | 468M |
 | [1.9.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.9.1/pom) | [mvn jdk25](langchain4j-1.9.1.buildspec) | [result](langchain4j-aggregator-1.9.1.buildinfo): [244 :white_check_mark: ](langchain4j-aggregator-1.9.1.buildcompare) | | 6.9M |
