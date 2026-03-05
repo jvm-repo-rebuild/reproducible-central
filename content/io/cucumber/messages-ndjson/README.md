@@ -7,15 +7,15 @@
 
 Source code: [https://github.com/cucumber/messages-ndjson.git](https://github.com/cucumber/messages-ndjson.git)
 
-rebuilding **6 releases** of io.cucumber:messages-ndjson:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of io.cucumber:messages-ndjson:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.4.1](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.4.1/pom) | [mvn jdk21](messages-ndjson-0.4.1.buildspec) | [result](messages-ndjson-0.4.1.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.4.1.buildcompare) | | 2.5M |
 | [0.4.0](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.4.0/pom) | [mvn jdk21](messages-ndjson-0.4.0.buildspec) | [result](messages-ndjson-0.4.0.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.4.0.buildcompare) | | 2.5M |
-| [0.3.2](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.3.2/pom) | | | |
+| [0.3.2](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.3.2/pom) | [mvn jdk17](messages-ndjson-0.3.2.buildspec) | [result](messages-ndjson-0.3.2.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.3.2.buildcompare) | | 2.5M |
 | [0.3.1](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.3.1/pom) | [mvn jdk17](messages-ndjson-0.3.1.buildspec) | [result](messages-ndjson-0.3.1.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.3.1.buildcompare) | | 2.5M |
 | [0.3.0](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.3.0/pom) | [mvn jdk17](messages-ndjson-0.3.0.buildspec) | [result](messages-ndjson-0.3.0.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.3.0.buildcompare) | | 2.4M |
 | [0.2.0](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.2.0/pom) | [mvn jdk17](messages-ndjson-0.2.0.buildspec) | [result](messages-ndjson-0.2.0.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.2.0.buildcompare) | | 2.4M |
