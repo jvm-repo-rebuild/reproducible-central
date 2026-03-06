@@ -3,13 +3,10 @@
 content/at/yawk/lz4/lz4-java/lz4-java-1.10.3.buildspec:1.10.4
 content/com/fasterxml/jackson/databind/jackson-databind-2.21.0.buildspec:2.21.1
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/dev/langchain4j/langchain4j-1.11.0.buildspec:1.12.1
-content/eu/maveniverse/maven/domtrip/domtrip-0.5.0.buildspec:0.6.0
-content/io/airlift/airbase/airbase-357.buildspec:359
+content/dev/langchain4j/langchain4j-1.11.0.buildspec:1.12.2
 content/io/avaje/http/avaje-http-3.8-RC3.buildspec:3.8-RC4
 content/io/avaje/inject/avaje-inject-12.4-javax.buildspec:12.5-RC1
-content/io/avaje/jex/avaje-jex-3.5-RC6.buildspec:3.5-RC7
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.14.1.buildspec:5.14.2
 content/land/oras/oras-java-sdk/oras-java-sdk-0.4.1.buildspec:0.4.2
 content/net/bytebuddy/byte-buddy-1.18.5.buildspec:1.18.7-jdk5
 content/org/apache/maven/plugins/maven-shade-plugin/maven-shade-plugin-3.6.1.buildspec:3.6.2
+content/org/metricshub/community-connectors/community-connectors-1.0.18.buildspec:1.0.19
