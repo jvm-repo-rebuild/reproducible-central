@@ -4,7 +4,7 @@ display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
 version=12.1-javax
 
 gitRepo=https://github.com/avaje/avaje-inject.git
-gitTag=$(echo "${version}" | cut -d '-' -f 1)
+gitTag=$(echo "${version}" | cut -d '-' -f 1) # drop -javax suffix for Git tag
 
 tool=mvn
 jdk=21
