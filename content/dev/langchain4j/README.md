@@ -116,13 +116,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **37 releases** of dev.langchain4j:langchain4j:
-- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **38 releases** of dev.langchain4j:langchain4j:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.12.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.2/pom) | | | |
+| [1.12.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.2/pom) | [mvn jdk25](langchain4j-1.12.2.buildspec) | [result](langchain4j-aggregator-1.12.2.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.2.buildcompare) | | 469M |
 | [1.12.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.1/pom) | [mvn jdk25](langchain4j-1.12.1.buildspec) | [result](langchain4j-aggregator-1.12.1.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.1.buildcompare) | | 469M |
 | [1.11.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.0/pom) | [mvn jdk25](langchain4j-1.11.0.buildspec) | [result](langchain4j-aggregator-1.11.0.buildinfo): [280 :white_check_mark: ](langchain4j-aggregator-1.11.0.buildcompare) | | 469M |
 | [1.10.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.10.0/pom) | [mvn jdk25](langchain4j-1.10.0.buildspec) | [result](langchain4j-aggregator-1.10.0.buildinfo): [277 :white_check_mark: ](langchain4j-aggregator-1.10.0.buildcompare) | | 468M |
