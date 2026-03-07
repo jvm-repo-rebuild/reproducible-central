@@ -20,6 +20,7 @@ rebuilding **8 releases** of org.hibernate.models:hibernate-models:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.1.0/pom) | | | |
 | [1.0.1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.1/pom) | [gradle jdk21](hibernate-models-1.0.1.buildspec) | [result](hibernate-models-1.0.1.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.1.buildcompare) | | 553K |
 | [1.0.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0/pom) | [gradle jdk21](hibernate-models-1.0.0.buildspec) | [result](hibernate-models-1.0.0.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.0.buildcompare) | | 552K |
 | [1.0.0.CR3](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0.CR3/pom) | [gradle jdk21](hibernate-models-1.0.0.CR3.buildspec) | [result](hibernate-models-1.0.0.CR3.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.0.CR3.buildcompare) | | 552K |

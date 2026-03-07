@@ -13,6 +13,7 @@ rebuilding **49 releases** of com.github.hazendaz.git:github-desktop:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.5](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.5.5/pom) | | | |
 | [3.5.4](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.5.4/pom) | [mvn jdk21 w](github-desktop-3.5.4.buildspec) | [result](github-desktop-3.5.4.buildinfo): [4 :white_check_mark: ](github-desktop-3.5.4.buildcompare) | | 173M |
 | [3.5.3](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.5.3/pom) | [mvn jdk21 w](github-desktop-3.5.3.buildspec) | [result](github-desktop-3.5.3.buildinfo): [4 :white_check_mark: ](github-desktop-3.5.3.buildcompare) | | 173M |
 | [3.5.2](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.5.2/pom) | [mvn jdk21 w](github-desktop-3.5.2.buildspec) | [result](github-desktop-3.5.2.buildinfo): [4 :white_check_mark: ](github-desktop-3.5.2.buildcompare) | | 169M |
