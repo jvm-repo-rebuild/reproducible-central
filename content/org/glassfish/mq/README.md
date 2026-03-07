@@ -52,14 +52,14 @@ Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/ecl
 * [org.glassfish.mq:project](https://central.sonatype.com/artifact/org.glassfish.mq/project/overview)
 </details>
 
-rebuilding **1 releases** of org.glassfish.mq:project:
+rebuilding **2 releases** of org.glassfish.mq:project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.8.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.8.0/pom) | | | |
+| [6.8.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.8.0/pom) | [mvn jdk25](openmq-6.8.0.buildspec) | [result](project-6.8.0.buildinfo): [41 :white_check_mark:  32 :warning:](project-6.8.0.buildcompare) | 1 :recycle: 31 :rotating_light: | 32M |
 | [6.7.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.7.0/pom) | [mvn jdk21](openmq-6.7.0.buildspec) | [result](project-6.7.0.buildinfo): [41 :white_check_mark:  32 :warning:](project-6.7.0.buildcompare) | 1 :recycle: 31 :rotating_light: | 29M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
