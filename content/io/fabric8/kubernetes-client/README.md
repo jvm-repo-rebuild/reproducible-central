@@ -205,14 +205,14 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **50 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **51 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 50 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 51 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.6.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.6.1/pom) | | | |
+| [7.6.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.6.1/pom) | [mvn jdk11](kubernetes-client-7.6.1.buildspec) | [result](kubernetes-client-project-7.6.1.buildinfo): [308 :white_check_mark:  2 :warning:](kubernetes-client-project-7.6.1.buildcompare) | 2 :rotating_light: | 233M |
 | [7.6.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.6.0/pom) | [mvn jdk11](kubernetes-client-7.6.0.buildspec) | [result](kubernetes-client-project-7.6.0.buildinfo): [308 :white_check_mark:  2 :warning:](kubernetes-client-project-7.6.0.buildcompare) | 2 :rotating_light: | 233M |
 | [7.5.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.5.2/pom) | [mvn jdk11](kubernetes-client-7.5.2.buildspec) | [result](kubernetes-client-project-7.5.2.buildinfo): [307 :white_check_mark:  2 :warning:](kubernetes-client-project-7.5.2.buildcompare) | 2 :rotating_light: | 233M |
 | [7.5.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.5.1/pom) | [mvn jdk11](kubernetes-client-7.5.1.buildspec) | [result](kubernetes-client-project-7.5.1.buildinfo): [307 :white_check_mark:  2 :warning:](kubernetes-client-project-7.5.1.buildcompare) [:mag:](kubernetes-client-project-7.5.1.diffoscope) | 2 :rotating_light: | 233M |
