@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 99 modules:</summary>
+<details><summary>This project defines 105 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
 * [dev.langchain4j:langchain4j-agentic-a2a](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic-a2a/overview)
+* [dev.langchain4j:langchain4j-agentic-mcp](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic-mcp/overview)
 * [dev.langchain4j:langchain4j-agentic-patterns](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic-patterns/overview)
 * [dev.langchain4j:langchain4j-anthropic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-anthropic/overview)
 * [dev.langchain4j:langchain4j-azure-ai-search](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-azure-ai-search/overview)
@@ -58,11 +59,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-embeddings-bge-small-zh-v15-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-zh-v15-q/overview)
 * [dev.langchain4j:langchain4j-embeddings-e5-small-v2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-e5-small-v2/overview)
 * [dev.langchain4j:langchain4j-embeddings-e5-small-v2-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-e5-small-v2-q/overview)
+* [dev.langchain4j:langchain4j-experimental-skills-shell](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-skills-shell/overview)
 * [dev.langchain4j:langchain4j-experimental-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-sql/overview)
 * [dev.langchain4j:langchain4j-github-models](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-github-models/overview)
 * [dev.langchain4j:langchain4j-google-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-google-ai-gemini/overview)
 * [dev.langchain4j:langchain4j-gpu-llama3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-gpu-llama3/overview)
 * [dev.langchain4j:langchain4j-guardrails](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-guardrails/overview)
+* [dev.langchain4j:langchain4j-hibernate](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-hibernate/overview)
 * [dev.langchain4j:langchain4j-http-client](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client/overview)
 * [dev.langchain4j:langchain4j-http-client-apache](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client-apache/overview)
 * [dev.langchain4j:langchain4j-http-client-jdk](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client-jdk/overview)
@@ -75,11 +78,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-mariadb](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mariadb/overview)
 * [dev.langchain4j:langchain4j-mcp](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mcp/overview)
 * [dev.langchain4j:langchain4j-mcp-docker](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mcp-docker/overview)
+* [dev.langchain4j:langchain4j-micrometer-metrics](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-micrometer-metrics/overview)
 * [dev.langchain4j:langchain4j-milvus](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-milvus/overview)
 * [dev.langchain4j:langchain4j-mistral-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mistral-ai/overview)
 * [dev.langchain4j:langchain4j-mongodb-atlas](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mongodb-atlas/overview)
 * [dev.langchain4j:langchain4j-neo4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-neo4j/overview)
 * [dev.langchain4j:langchain4j-nomic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-nomic/overview)
+* [dev.langchain4j:langchain4j-observation](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-observation/overview)
 * [dev.langchain4j:langchain4j-ollama](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-ollama/overview)
 * [dev.langchain4j:langchain4j-onnx-scoring](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-onnx-scoring/overview)
 * [dev.langchain4j:langchain4j-open-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-open-ai/overview)
@@ -93,6 +98,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-qdrant](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qdrant/overview)
 * [dev.langchain4j:langchain4j-qianfan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qianfan/overview)
 * [dev.langchain4j:langchain4j-redis](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-redis/overview)
+* [dev.langchain4j:langchain4j-skills](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-skills/overview)
 * [dev.langchain4j:langchain4j-tablestore](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-tablestore/overview)
 * [dev.langchain4j:langchain4j-test](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-test/overview)
 * [dev.langchain4j:langchain4j-vearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vearch/overview)
@@ -110,14 +116,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **36 releases** of dev.langchain4j:langchain4j:
-- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **37 releases** of dev.langchain4j:langchain4j:
+- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.12.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.2/pom) | | | |
-| [1.12.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.1/pom) | | | |
+| [1.12.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.1/pom) | [mvn jdk25](langchain4j-1.12.1.buildspec) | [result](langchain4j-aggregator-1.12.1.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.1.buildcompare) | | 469M |
 | [1.11.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.0/pom) | [mvn jdk25](langchain4j-1.11.0.buildspec) | [result](langchain4j-aggregator-1.11.0.buildinfo): [280 :white_check_mark: ](langchain4j-aggregator-1.11.0.buildcompare) | | 469M |
 | [1.10.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.10.0/pom) | [mvn jdk25](langchain4j-1.10.0.buildspec) | [result](langchain4j-aggregator-1.10.0.buildinfo): [277 :white_check_mark: ](langchain4j-aggregator-1.10.0.buildcompare) | | 468M |
 | [1.9.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.9.1/pom) | [mvn jdk25](langchain4j-1.9.1.buildspec) | [result](langchain4j-aggregator-1.9.1.buildinfo): [244 :white_check_mark: ](langchain4j-aggregator-1.9.1.buildcompare) | | 6.9M |
