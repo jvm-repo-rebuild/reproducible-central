@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jackson-databind
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-databind
+version=2.21.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-databind.git
+source.scm.tag=jackson-databind-2.21.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_482
+java.vendor=Private Build
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-databind-2.21.1.pom
+outputs.0.length=23020
+outputs.0.checksums.sha512=755923ae7dc642bda1b79e60b2fb9c4bd259c705f6d1d0027e0830f12990161ae6137ad99772c03a93a569ef303ded45a826d70c4496eef83671450455576dd9
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-databind-2.21.1.jar
+outputs.1.length=1701769
+outputs.1.checksums.sha512=837a94e20474d0ad3630663c0112e982914e5cfa3bbf397b8c31d00b68d7fc8e4514458b75dd39cf74edda7e33339504fa845864476786e94812bd36a5a428ee
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-databind-2.21.1-sbom-cyclonedx.xml
+outputs.2.length=6628
+outputs.2.checksums.sha512=09d1cda715992d97ffb4d763890e60fd5c31b5cf3bb29e8e672f2c8b187789f415b7c5f781567ca41144e056f7d5f4d757610f748eafa97f261be6193f2fd0a3
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-databind-2.21.1-sbom-cyclonedx.json
+outputs.3.length=7127
+outputs.3.checksums.sha512=5444109d7d134ede4a135da3c5ffaaa6dc5b54519a8538253077910dd10f843656d7a704a4ce54c7a40b02f8def49b0ef0482939c37cfb4053d95fdacab522d4
+
+outputs.4.groupId=com.fasterxml.jackson.core
+outputs.4.filename=jackson-databind-2.21.1-sources.jar
+outputs.4.length=1251280
+outputs.4.checksums.sha512=0f0e9cb86dbc119b2bbf2946be2b83464055ded24b1167f8b6abf348092c5b731831ec4584d1e7391047f01a4da2175ee4767f2655b04d1815939556ae199de3
+# ignored jackson-databind-2.21.1.module
