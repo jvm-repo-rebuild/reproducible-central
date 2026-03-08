@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.maven-boms:maven-boms
+group-id=eu.maveniverse.maven.maven-boms
+artifact-id=maven-boms
+version=3.9.13-01
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-boms.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.maven-boms:maven-boms
+
+outputs.0.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.0.0.filename=maven-boms-3.9.13-01.pom
+outputs.0.0.length=2490
+outputs.0.0.checksums.sha512=4ab378864325f1b581480e9c0fe43a6e2abf1b53fe1c9e640d0962ece9649ec1820fd323a66187c75b7eaf57358253fae1728771ed00501d1c900acfc2f1d3dc
+
+outputs.1.coordinates=eu.maveniverse.maven.maven-boms:skinny
+
+outputs.1.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.1.0.filename=skinny-3.9.13-01.pom
+outputs.1.0.length=3758
+outputs.1.0.checksums.sha512=0c005c5d33f88c35fb5d0ad3a9e050a41096dff7caa8369a0bb176582a766b863259f66afeaa8b8c93f4a38885bf236eee6c224cf5bcbe715db8e0687a1edaf9
+
+outputs.2.coordinates=eu.maveniverse.maven.maven-boms:fat
+
+outputs.2.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.2.0.filename=fat-3.9.13-01.pom
+outputs.2.0.length=15293
+outputs.2.0.checksums.sha512=860c2ef225bfe03417065507391899fabb16c97cac8cbe88724b5d73858449a0cf0349badf0ec37c4d5d8be8654f466763c9445b0f2a13686926a2bf9e78785a
+
+outputs.3.coordinates=eu.maveniverse.maven.maven-boms:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.3.0.filename=plugin-3.9.13-01.pom
+outputs.3.0.length=6078
+outputs.3.0.checksums.sha512=0c306b8489c8fc90317a8bd5e7db06266b45c53e257b2fe1a361cea89b029c3e7ff06015c9bff705d35c451c6fabcc76a4f457cef6c5e4dc208226f9584d702b
