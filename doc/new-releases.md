@@ -8,7 +8,6 @@ New Releases of Previously Rebuilt Projects Status Report
 - unexpected `diffoscope` in buildspec:
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/io/avaje/validator/avaje-validator-2.17.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 - `diffoscope` in buildspec points to missing file:
@@ -23,12 +22,11 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260308133112 --> [maven-boms](../content/eu/maveniverse/maven/maven-boms/README.md) | [3.9.12-01](../content/eu/maveniverse/maven/maven-boms/maven-boms-3.9.12-01.buildspec) :white_check_mark: | [3.9.13-01](../content/eu/maveniverse/maven/maven-boms/maven-boms-3.9.13-01.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/maven-boms/maven-boms-3.9.12-01.buildspec 3.9.13-01` |
-| <!-- 20260308123652 --> [commons-logging](../content/org/apache/commons/commons-logging/commons-logging/README.md) | [1.3.5](../content/org/apache/commons/commons-logging/commons-logging/commons-logging-1.3.5.buildspec) :white_check_mark: | [1.3.6](../content/org/apache/commons/commons-logging/commons-logging/commons-logging-1.3.6.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-logging/commons-logging/commons-logging-1.3.5.buildspec 1.3.6` |
-| <!-- 20260308012317 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.14.2](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.14.2.buildspec) :white_check_mark: | [5.14.3-beta-1](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.14.3-beta-1.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.14.2.buildspec 5.14.3-beta-1` |
-| <!-- 20260308005146 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.60.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.60.0.buildspec) :white_check_mark: | [1.60.1](../content/io/opentelemetry/java/opentelemetry-sdk-1.60.1.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.60.0.buildspec 1.60.1` |
-| <!-- 20260307212913 --> [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | [0.5.4](../content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.4.buildspec) :white_check_mark: | [0.5.5](../content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.5.buildspec) | `bin/add-new-release.sh content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.4.buildspec 0.5.5` |
-| <!-- 20260302174123 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.10.3](../content/at/yawk/lz4/lz4-java/lz4-java-1.10.3.buildspec) :white_check_mark: | [1.10.4](../content/at/yawk/lz4/lz4-java/lz4-java-1.10.4.buildspec) | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.10.3.buildspec 1.10.4` |
+| <!-- 20260309124718 --> [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | [0.4.2](../content/land/oras/oras-java-sdk/oras-java-sdk-0.4.2.buildspec) :white_check_mark: | [0.5.0](../content/land/oras/oras-java-sdk/oras-java-sdk-0.5.0.buildspec) | `bin/add-new-release.sh content/land/oras/oras-java-sdk/oras-java-sdk-0.4.2.buildspec 0.5.0` |
+| <!-- 20260309123437 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.93.3](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.3.buildspec) :white_check_mark: | [0.93.4](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.4.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.3.buildspec 0.93.4` |
+| <!-- 20260309120717 --> [nifi-api](../content/org/apache/nifi/nifi-api/README.md) | [2.6.0](../content/org/apache/nifi/nifi-api/nifi-api-2.6.0.buildspec) :white_check_mark: | [2.7.0](../content/org/apache/nifi/nifi-api/nifi-api-2.7.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi-api/nifi-api-2.6.0.buildspec 2.7.0` |
+| <!-- 20260309102515 --> [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | [2.0.0](../content/io/telicent/jena/rdf-abac/rdf-abac-2.0.0.buildspec) :white_check_mark: | [2.0.1](../content/io/telicent/jena/rdf-abac/rdf-abac-2.0.1.buildspec) | `bin/add-new-release.sh content/io/telicent/jena/rdf-abac/rdf-abac-2.0.0.buildspec 2.0.1` |
+| <!-- 20260309093844 --> [airbase](../content/io/airlift/airbase/README.md) | [359](../content/io/airlift/airbase/airbase-359.buildspec) :white_check_mark: | [360](../content/io/airlift/airbase/airbase-360.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-359.buildspec 360` |
 | <!-- 20260302085722 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.8-RC3](../content/io/avaje/http/avaje-http-3.8-RC3.buildspec) :white_check_mark: | [3.8-RC4](../content/io/avaje/http/avaje-http-3.8-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.8-RC3.buildspec 3.8-RC4` |
 | <!-- 20260301214143 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.5](../content/net/bytebuddy/byte-buddy-1.18.5.buildspec) :white_check_mark: | [1.18.7-jdk5](../content/net/bytebuddy/byte-buddy-1.18.7-jdk5.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.5.buildspec 1.18.7-jdk5` |
 | <!-- 20260301214143 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.5](../content/net/bytebuddy/byte-buddy-1.18.5.buildspec) :white_check_mark: | 1.18.7 1.18.6-jdk6-jdk5 1.18.6-jdk5  | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.5.buildspec ...` |
@@ -41,8 +39,8 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20251031142424 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-jlink-plugin](../content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | [3.2.0](../content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.2.0.buildspec) :white_check_mark: | [3.3.0](../content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.2.0.buildspec 3.3.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
-| <!-- 20250117094427 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | [13](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec) :warning: | [14](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-14.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec 14 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 New Release of non-Reproducible Previous
@@ -51,13 +49,12 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260309200720 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | [4.0.0-M3](../content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec) :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) | [4.0.0-M4](../content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec) | `bin/add-new-release.sh content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec 4.0.0-M4` |
+| <!-- 20260309133844 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | [13](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec) :warning: | [14](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-14.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec 14` |
+| <!-- 20260309064933 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.8](../content/com/taobao/arthas/arthas-4.1.8.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.8` |
 | <!-- 20260307174517 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.12](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.12.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.12` |
-| <!-- 20260307162319 --> [bundlebee](../content/io/yupiik/bundlebee/README.md) | [1.0.31](../content/io/yupiik/bundlebee/bundlebee-1.0.31.buildspec) :warning: | [1.0.32](../content/io/yupiik/bundlebee/bundlebee-1.0.32.buildspec) | `bin/add-new-release.sh content/io/yupiik/bundlebee/bundlebee-1.0.31.buildspec 1.0.32` |
 | <!-- 20260305212234 --> [parent](../content/org/apache/zookeeper/README.md) | [3.9.4](../content/org/apache/zookeeper/zookeeper-3.9.4.buildspec) :warning: | [3.9.5](../content/org/apache/zookeeper/zookeeper-3.9.5.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.4.buildspec 3.9.5` |
 | <!-- 20260305180727 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.121.6](../content/org/finos/legend/engine/legend-engine-4.121.6.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.121.6` |
-| <!-- 20260305083120 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.7](../content/com/taobao/arthas/arthas-4.1.7.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.7` |
-| <!-- 20260303170726 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [1.90.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.90.0.buildspec) :warning: | [1.92.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.92.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-1.90.0.buildspec 1.92.0` |
-| <!-- 20260303145927 --> [testng-xml-formatter](../content/io/cucumber/testng-xml-formatter/README.md) | [0.8.0](../content/io/cucumber/testng-xml-formatter/testng-xml-formatter-0.8.0.buildspec) :warning: | [0.8.1](../content/io/cucumber/testng-xml-formatter/testng-xml-formatter-0.8.1.buildspec) | `bin/add-new-release.sh content/io/cucumber/testng-xml-formatter/testng-xml-formatter-0.8.0.buildspec 0.8.1` |
 | <!-- 20260227155718 --> [shiro-root](../content/org/apache/shiro/README.md) | [2.1.0](../content/org/apache/shiro/shiro-2.1.0.buildspec) :warning: | [3.0.0-alpha-1](../content/org/apache/shiro/shiro-3.0.0-alpha-1.buildspec) | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.1.0.buildspec 3.0.0-alpha-1` |
 | <!-- 20260227125509 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.32.0](../content/org/webjars/swagger-ui/swagger-ui-5.32.0.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.32.0` |
 | <!-- 20260217122732 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.18.0](../content/org/apache/camel/camel/camel-4.18.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.18.0` |
@@ -76,6 +73,7 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260307162319 --> [bundlebee](../content/io/yupiik/bundlebee/README.md) | 1.0.32 :warning: |
 | <!-- 20260306231246 --> [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 1.1.0 :warning: |
 | <!-- 20260306103720 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.7.1 :warning: |
 | <!-- 20260305122410 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.6.1 :warning: |
@@ -203,7 +201,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20250213085016 --> [apache-ignite](../content/org/apache/ignite/README.md) | 2.17.0 :warning: |
 | <!-- 20250203233329 --> [axiom](../content/org/apache/ws/commons/axiom/README.md) | 2.0.0 :warning: |
 | <!-- 20250201215052 --> [ftpserver-parent](../content/org/apache/mina/ftpserver/README.md) | 1.2.1 :warning: |
-| <!-- 20250117094427 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 13 :warning: |
 | <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
 | <!-- 20241215170740 --> [reload4j](../content/ch/qos/reload4j/README.md) | 1.2.26 :warning: |
@@ -217,7 +214,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20240812093803 --> [commons-numbers-parent](../content/org/apache/commons/numbers/README.md) | 1.2 :warning: |
 | <!-- 20240728141824 --> [object-size](../content/com/github/marschall/object-size/README.md) | 1.0.0 :warning: |
 | <!-- 20240715085906 --> [commons-rng-parent](../content/org/apache/commons/rng/README.md) | 1.6 :warning: |
-| <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 4.0.0-M3 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) |
 | <!-- 20240627192818 --> [commons-email2-parent](../content/org/apache/commons/email2/README.md) | 2.0.0-M1 :warning: |
 | <!-- 20240609233725 --> [javacan](../content/tel/schich/javacan/README.md) | 3.4.0 :x: |
 | <!-- 20240603092651 --> [commons-jcs3](../content/org/apache/commons/commons-jcs3/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/commons-jcs/commit/61661616d8cb586bc41c0bea5cd3a206ba0ec94d) |
