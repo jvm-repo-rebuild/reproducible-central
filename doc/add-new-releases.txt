@@ -1,10 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/io/airlift/airbase/airbase-359.buildspec:360
+content/com/github/nbbrd/heylogs/heylogs-0.14.1.buildspec:0.15.0
+content/io/jooby/jooby-4.0.16.buildspec:4.0.17
+content/io/airlift/airbase/airbase-360.buildspec:361
 content/io/avaje/http/avaje-http-3.8-RC3.buildspec:3.8-RC4
-content/io/telicent/jena/rdf-abac/rdf-abac-2.0.0.buildspec:2.0.1
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.3.buildspec:0.93.4
-content/land/oras/oras-java-sdk/oras-java-sdk-0.4.2.buildspec:0.5.0
 content/net/bytebuddy/byte-buddy-1.18.5.buildspec:1.18.7-jdk5
-content/org/apache/nifi/nifi-api/nifi-api-2.6.0.buildspec:2.7.0

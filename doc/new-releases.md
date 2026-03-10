@@ -22,11 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260309124718 --> [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | [0.4.2](../content/land/oras/oras-java-sdk/oras-java-sdk-0.4.2.buildspec) :white_check_mark: | [0.5.0](../content/land/oras/oras-java-sdk/oras-java-sdk-0.5.0.buildspec) | `bin/add-new-release.sh content/land/oras/oras-java-sdk/oras-java-sdk-0.4.2.buildspec 0.5.0` |
-| <!-- 20260309123437 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.93.3](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.3.buildspec) :white_check_mark: | [0.93.4](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.4.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.93.3.buildspec 0.93.4` |
-| <!-- 20260309120717 --> [nifi-api](../content/org/apache/nifi/nifi-api/README.md) | [2.6.0](../content/org/apache/nifi/nifi-api/nifi-api-2.6.0.buildspec) :white_check_mark: | [2.7.0](../content/org/apache/nifi/nifi-api/nifi-api-2.7.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi-api/nifi-api-2.6.0.buildspec 2.7.0` |
-| <!-- 20260309102515 --> [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | [2.0.0](../content/io/telicent/jena/rdf-abac/rdf-abac-2.0.0.buildspec) :white_check_mark: | [2.0.1](../content/io/telicent/jena/rdf-abac/rdf-abac-2.0.1.buildspec) | `bin/add-new-release.sh content/io/telicent/jena/rdf-abac/rdf-abac-2.0.0.buildspec 2.0.1` |
-| <!-- 20260309093844 --> [airbase](../content/io/airlift/airbase/README.md) | [359](../content/io/airlift/airbase/airbase-359.buildspec) :white_check_mark: | [360](../content/io/airlift/airbase/airbase-360.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-359.buildspec 360` |
+| <!-- 20260310183542 --> [jooby](../content/io/jooby/README.md) | [4.0.16](../content/io/jooby/jooby-4.0.16.buildspec) :white_check_mark: | [4.0.17](../content/io/jooby/jooby-4.0.17.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-4.0.16.buildspec 4.0.17` |
+| <!-- 20260310183542 --> [jooby](../content/io/jooby/README.md) | [4.0.16](../content/io/jooby/jooby-4.0.16.buildspec) :white_check_mark: | 3.11.7  | `bin/add-new-release.sh content/io/jooby/jooby-4.0.16.buildspec ...` |
+| <!-- 20260310180117 --> [airbase](../content/io/airlift/airbase/README.md) | [360](../content/io/airlift/airbase/airbase-360.buildspec) :white_check_mark: | [361](../content/io/airlift/airbase/airbase-361.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-360.buildspec 361` |
+| <!-- 20260310125805 --> [heylogs-parent](../content/com/github/nbbrd/heylogs/README.md) | [0.14.1](../content/com/github/nbbrd/heylogs/heylogs-0.14.1.buildspec) :white_check_mark: | [0.15.0](../content/com/github/nbbrd/heylogs/heylogs-0.15.0.buildspec) | `bin/add-new-release.sh content/com/github/nbbrd/heylogs/heylogs-0.14.1.buildspec 0.15.0` |
 | <!-- 20260302085722 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.8-RC3](../content/io/avaje/http/avaje-http-3.8-RC3.buildspec) :white_check_mark: | [3.8-RC4](../content/io/avaje/http/avaje-http-3.8-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.8-RC3.buildspec 3.8-RC4` |
 | <!-- 20260301214143 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.5](../content/net/bytebuddy/byte-buddy-1.18.5.buildspec) :white_check_mark: | [1.18.7-jdk5](../content/net/bytebuddy/byte-buddy-1.18.7-jdk5.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.5.buildspec 1.18.7-jdk5` |
 | <!-- 20260301214143 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.5](../content/net/bytebuddy/byte-buddy-1.18.5.buildspec) :white_check_mark: | 1.18.7 1.18.6-jdk6-jdk5 1.18.6-jdk5  | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.5.buildspec ...` |
@@ -49,8 +48,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260309200720 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | [4.0.0-M3](../content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec) :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) | [4.0.0-M4](../content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec) | `bin/add-new-release.sh content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec 4.0.0-M4` |
-| <!-- 20260309133844 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | [13](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec) :warning: | [14](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-14.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec 14` |
+| <!-- 20260310210121 --> [jline](../content/org/jline/README.md) | [4.0.0](../content/org/jline/jline-4.0.0.buildspec) :warning: | [4.0.3](../content/org/jline/jline-4.0.3.buildspec) | `bin/add-new-release.sh content/org/jline/jline-4.0.0.buildspec 4.0.3` |
 | <!-- 20260309064933 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.8](../content/com/taobao/arthas/arthas-4.1.8.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.8` |
 | <!-- 20260307174517 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.12](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.12.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.12` |
 | <!-- 20260305212234 --> [parent](../content/org/apache/zookeeper/README.md) | [3.9.4](../content/org/apache/zookeeper/zookeeper-3.9.4.buildspec) :warning: | [3.9.5](../content/org/apache/zookeeper/zookeeper-3.9.5.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.4.buildspec 3.9.5` |
@@ -73,13 +71,13 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260310105400 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.6.1 :warning: |
+| <!-- 20260309133844 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 14 :warning: |
 | <!-- 20260307162319 --> [bundlebee](../content/io/yupiik/bundlebee/README.md) | 1.0.32 :warning: |
 | <!-- 20260306231246 --> [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 1.1.0 :warning: |
 | <!-- 20260306103720 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.7.1 :warning: |
-| <!-- 20260305122410 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.6.1 :warning: |
 | <!-- 20260304153717 --> [quarkus-project](../content/io/quarkus/README.md) | 3.32.2 :warning: |
 | <!-- 20260304124538 --> [project](../content/org/glassfish/mq/README.md) | 6.8.0 :warning: |
-| <!-- 20260303152253 --> [jline](../content/org/jline/README.md) | 4.0.0 :warning: |
 | <!-- 20260302154005 --> [orc](../content/org/apache/orc/README.md) | 2.3.0 :warning: |
 | <!-- 20260302125405 --> [convex](../content/world/convex/README.md) | 0.8.3 :warning: |
 | <!-- 20260228173809 --> [jreleaser](../content/org/jreleaser/README.md) | 1.23.0 :warning: |
