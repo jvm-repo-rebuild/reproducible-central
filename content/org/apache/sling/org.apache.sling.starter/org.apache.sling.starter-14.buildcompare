@@ -1,0 +1,18 @@
+version=14
+ok=30
+ko=3
+ignored=0
+okFiles="org.apache.sling.starter-14.pom org.apache.sling.starter-14.jar org.apache.sling.starter-14-composum.slingosgifeature org.apache.sling.starter-14-htl_repl.slingosgifeature org.apache.sling.starter-14-slingshot.slingosgifeature org.apache.sling.starter-14-starter.slingosgifeature org.apache.sling.starter-14-base.slingosgifeature org.apache.sling.starter-14-boot.slingosgifeature org.apache.sling.starter-14-caconfig.slingosgifeature org.apache.sling.starter-14-discovery.slingosgifeature org.apache.sling.starter-14-docker.slingosgifeature org.apache.sling.starter-14-event.slingosgifeature org.apache.sling.starter-14-groovy.slingosgifeature org.apache.sling.starter-14-healthcheck.slingosgifeature org.apache.sling.starter-14-maintenance.slingosgifeature org.apache.sling.starter-14-models-jacksonexporter.slingosgifeature org.apache.sling.starter-14-oak_base.slingosgifeature org.apache.sling.starter-14-oak_persistence_mongods.slingosgifeature org.apache.sling.starter-14-oak_persistence_sns.slingosgifeature org.apache.sling.starter-14-scripting.slingosgifeature org.apache.sling.starter-14-junit.slingosgifeature org.apache.sling.starter-14-test-content.slingosgifeature org.apache.sling.starter-14-validation.slingosgifeature org.apache.sling.starter-14-webconsole.slingosgifeature org.apache.sling.starter-14-nosample_base.slingosgifeature org.apache.sling.starter-14-oak_mongo.slingosgifeature org.apache.sling.starter-14-oak_tar.slingosgifeature org.apache.sling.starter-14-oak_tar_test.slingosgifeature org.apache.sling.starter-14-source-release.zip org.apache.sling.starter-14-sources.jar"
+koFiles="org.apache.sling.starter-14-oak_tar_far.far org.apache.sling.starter-14-oak_mongo_far.far org.apache.sling.starter-14.xml.gz"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-14-oak_tar_far.far target/org.apache.sling.starter-14-oak_tar_far.far
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-14-oak_mongo_far.far target/org.apache.sling.starter-14-oak_mongo_far.far
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-14.xml.gz target/index.xml.gz
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=3
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="org.apache.sling.starter-14-oak_tar_far.far org.apache.sling.starter-14-oak_mongo_far.far org.apache.sling.starter-14.xml.gz"
