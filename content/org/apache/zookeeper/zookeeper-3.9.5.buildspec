@@ -1,0 +1,24 @@
+groupId=org.apache.zookeeper
+artifactId=zookeeper
+version=3.9.5
+
+display=${groupId}:zookeeper
+
+gitRepo=https://github.com/apache/zookeeper.git
+gitTag=release-${version}
+
+tool=mvn-3.9.12
+jdk=11
+newline=lf
+umask=022
+
+# extracted from: wget -q https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper-jute/$version/zookeeper-jute-$version-osgi.jar ; unzip -q -c zookeeper-jute-$version-osgi.jar META-INF/MANIFEST.MF | grep 'Created-By'
+javaVersion="11.0.14.1 (Oracle Corporation)"
+# extracted from:   
+buildTime="2026-02-11 20:18 UTC"
+
+command="mvn -Papache-release,fatjar clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip -Djava.version='${javaVersion}' -Dbuild.time='${buildTime}'"
+buildinfo=target/parent-${version}.buildinfo
+
+#diffoscope=parent-${version}.diffoscope
+issue=

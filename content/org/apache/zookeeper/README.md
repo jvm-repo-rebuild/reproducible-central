@@ -1,9 +1,9 @@
-[org.apache.zookeeper:parent](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/versions) RB check
+[org.apache.zookeeper:zookeeper](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.zookeeper:parent](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/zookeeper/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/zookeeper/README.md)
+## Project: [org.apache.zookeeper:zookeeper](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/zookeeper/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/zookeeper/README.md)
 
 Source code: [https://github.com/apache/zookeeper.git](https://github.com/apache/zookeeper.git)
 
@@ -19,14 +19,14 @@ Source code: [https://github.com/apache/zookeeper.git](https://github.com/apache
 * [org.apache.zookeeper:zookeeper-prometheus-metrics](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-prometheus-metrics/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.zookeeper:parent:
+rebuilding **7 releases** of org.apache.zookeeper:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.9.5](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.5/pom) | | | |
+| [3.9.5](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.5/pom) | [mvn jdk11](zookeeper-3.9.5.buildspec) | [result](parent-3.9.5.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.5.buildcompare) | 2 :recycle: 1 :rotating_light: | 17M |
 | [3.9.4](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.4/pom) | [mvn jdk11](zookeeper-3.9.4.buildspec) | [result](parent-3.9.4.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.4.buildcompare) | 1 :recycle: 4 :rotating_light: | 17M |
 | [3.9.3](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.3/pom) | [mvn jdk11](zookeeper-3.9.3.buildspec) | [result](parent-3.9.3.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.3.buildcompare) [:mag:](parent-3.9.3.diffoscope) | - | 17M |
 | [3.9.2](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.2/pom) | [mvn jdk11](zookeeper-3.9.2.buildspec) | [result](parent-3.9.2.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.2.buildcompare) [:mag:](parent-3.9.2.diffoscope) | - | 17M |
