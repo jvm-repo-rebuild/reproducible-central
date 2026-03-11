@@ -22,10 +22,7 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260310183542 --> [jooby](../content/io/jooby/README.md) | [4.0.16](../content/io/jooby/jooby-4.0.16.buildspec) :white_check_mark: | [4.0.17](../content/io/jooby/jooby-4.0.17.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-4.0.16.buildspec 4.0.17` |
-| <!-- 20260310183542 --> [jooby](../content/io/jooby/README.md) | [4.0.16](../content/io/jooby/jooby-4.0.16.buildspec) :white_check_mark: | 3.11.7  | `bin/add-new-release.sh content/io/jooby/jooby-4.0.16.buildspec ...` |
-| <!-- 20260310180117 --> [airbase](../content/io/airlift/airbase/README.md) | [360](../content/io/airlift/airbase/airbase-360.buildspec) :white_check_mark: | [361](../content/io/airlift/airbase/airbase-361.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-360.buildspec 361` |
-| <!-- 20260310125805 --> [heylogs-parent](../content/com/github/nbbrd/heylogs/README.md) | [0.14.1](../content/com/github/nbbrd/heylogs/heylogs-0.14.1.buildspec) :white_check_mark: | [0.15.0](../content/com/github/nbbrd/heylogs/heylogs-0.15.0.buildspec) | `bin/add-new-release.sh content/com/github/nbbrd/heylogs/heylogs-0.14.1.buildspec 0.15.0` |
+| <!-- 20260310221743 --> [airbase](../content/io/airlift/airbase/README.md) | [361](../content/io/airlift/airbase/airbase-361.buildspec) :white_check_mark: | [362](../content/io/airlift/airbase/airbase-362.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-361.buildspec 362` |
 | <!-- 20260302085722 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.8-RC3](../content/io/avaje/http/avaje-http-3.8-RC3.buildspec) :white_check_mark: | [3.8-RC4](../content/io/avaje/http/avaje-http-3.8-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.8-RC3.buildspec 3.8-RC4` |
 | <!-- 20260301214143 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.5](../content/net/bytebuddy/byte-buddy-1.18.5.buildspec) :white_check_mark: | [1.18.7-jdk5](../content/net/bytebuddy/byte-buddy-1.18.7-jdk5.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.5.buildspec 1.18.7-jdk5` |
 | <!-- 20260301214143 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.5](../content/net/bytebuddy/byte-buddy-1.18.5.buildspec) :white_check_mark: | 1.18.7 1.18.6-jdk6-jdk5 1.18.6-jdk5  | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.5.buildspec ...` |
@@ -38,6 +35,7 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20251118021750 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | [3.5.4](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.4.buildspec) :white_check_mark: | [3.5.6](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.6.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.4.buildspec 3.5.6 staging` |
 | <!-- 20251031142424 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-jlink-plugin](../content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | [3.2.0](../content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.2.0.buildspec) :white_check_mark: | [3.3.0](../content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.2.0.buildspec 3.3.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -48,7 +46,10 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260310210121 --> [jline](../content/org/jline/README.md) | [4.0.0](../content/org/jline/jline-4.0.0.buildspec) :warning: | [4.0.3](../content/org/jline/jline-4.0.3.buildspec) | `bin/add-new-release.sh content/org/jline/jline-4.0.0.buildspec 4.0.3` |
+| <!-- 20260311211200 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.22.0](../content/org/mockito/mockito-core/mockito-5.22.0.buildspec) :warning: | [5.23.0](../content/org/mockito/mockito-core/mockito-5.23.0.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.22.0.buildspec 5.23.0` |
+| <!-- 20260311162400 --> [quarkus-project](../content/io/quarkus/README.md) | [3.32.2](../content/io/quarkus/quarkus-3.32.2.buildspec) :warning: | [3.33.0.CR1](../content/io/quarkus/quarkus-3.33.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.32.2.buildspec 3.33.0.CR1` |
+| <!-- 20260311123555 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.30](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.30.buildspec) :warning: | [1.9.32](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.32.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.30.buildspec 1.9.32` |
+| <!-- 20260311074203 --> [jline](../content/org/jline/README.md) | [4.0.0](../content/org/jline/jline-4.0.0.buildspec) :warning: | [4.0.4](../content/org/jline/jline-4.0.4.buildspec) | `bin/add-new-release.sh content/org/jline/jline-4.0.0.buildspec 4.0.4` |
 | <!-- 20260309064933 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.8](../content/com/taobao/arthas/arthas-4.1.8.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.8` |
 | <!-- 20260307174517 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.12](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.12.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.12` |
 | <!-- 20260305212234 --> [parent](../content/org/apache/zookeeper/README.md) | [3.9.4](../content/org/apache/zookeeper/zookeeper-3.9.4.buildspec) :warning: | [3.9.5](../content/org/apache/zookeeper/zookeeper-3.9.5.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.4.buildspec 3.9.5` |
@@ -76,14 +77,11 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260307162319 --> [bundlebee](../content/io/yupiik/bundlebee/README.md) | 1.0.32 :warning: |
 | <!-- 20260306231246 --> [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 1.1.0 :warning: |
 | <!-- 20260306103720 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.7.1 :warning: |
-| <!-- 20260304153717 --> [quarkus-project](../content/io/quarkus/README.md) | 3.32.2 :warning: |
 | <!-- 20260304124538 --> [project](../content/org/glassfish/mq/README.md) | 6.8.0 :warning: |
 | <!-- 20260302154005 --> [orc](../content/org/apache/orc/README.md) | 2.3.0 :warning: |
 | <!-- 20260302125405 --> [convex](../content/world/convex/README.md) | 0.8.3 :warning: |
 | <!-- 20260228173809 --> [jreleaser](../content/org/jreleaser/README.md) | 1.23.0 :warning: |
 | <!-- 20260228122655 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 2.0.2 :warning: |
-| <!-- 20260227103330 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.30 :warning: |
-| <!-- 20260227095726 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.22.0 :warning: |
 | <!-- 20260224122924 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 0.15.4 :warning: |
 | <!-- 20260224100331 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.16.10 :warning: |
 | <!-- 20260223124650 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.16 :warning: |
