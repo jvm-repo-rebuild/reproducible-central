@@ -1,0 +1,35 @@
+version=3.30.7
+ok=63
+ko=20
+ignored=0
+okFiles="jline-parent-3.30.7.pom jline-parent-3.30.7-build.pom jline-native-3.30.7-build.pom jline-native-3.30.7.jar jline-native-3.30.7-sources.jar jline-terminal-3.30.7-build.pom jline-terminal-3.30.7.jar jline-terminal-3.30.7-sources.jar jline-terminal-ffm-3.30.7-build.pom jline-terminal-ffm-3.30.7.jar jline-terminal-ffm-3.30.7-sources.jar jline-terminal-jna-3.30.7-build.pom jline-terminal-jna-3.30.7.jar jline-terminal-jna-3.30.7-sources.jar jline-terminal-jansi-3.30.7-build.pom jline-terminal-jansi-3.30.7.jar jline-terminal-jansi-3.30.7-sources.jar jline-terminal-jni-3.30.7-build.pom jline-terminal-jni-3.30.7.jar jline-terminal-jni-3.30.7-sources.jar jline-reader-3.30.7-build.pom jline-reader-3.30.7.jar jline-reader-3.30.7-sources.jar jline-style-3.30.7-build.pom jline-style-3.30.7.jar jline-style-3.30.7-sources.jar jline-builtins-3.30.7-build.pom jline-builtins-3.30.7.jar jline-builtins-3.30.7-sources.jar jline-console-ui-3.30.7-build.pom jline-console-ui-3.30.7.jar jline-console-ui-3.30.7-sources.jar jline-console-3.30.7-build.pom jline-console-3.30.7.jar jline-console-3.30.7-sources.jar jline-groovy-3.30.7-build.pom jline-groovy-3.30.7.jar jline-groovy-3.30.7-sources.jar jline-remote-ssh-3.30.7-build.pom jline-remote-ssh-3.30.7.jar jline-remote-ssh-3.30.7-sources.jar jline-remote-telnet-3.30.7-build.pom jline-remote-telnet-3.30.7.jar jline-remote-telnet-3.30.7-sources.jar jline-curses-3.30.7-build.pom jline-curses-3.30.7.jar jline-curses-3.30.7-sources.jar jline-demo-3.30.7-build.pom jline-demo-3.30.7.jar jline-demo-3.30.7-sources.jar jline-graal-3.30.7-build.pom jline-graal-3.30.7.jar jline-graal-3.30.7-sources.jar jansi-core-3.30.7-build.pom jansi-core-3.30.7.jar jansi-core-3.30.7-sources.jar jline-3.30.7-build.pom jline-3.30.7.jar jline-3.30.7-jdk8.jar jline-3.30.7-sources.jar jansi-3.30.7-build.pom jansi-3.30.7.jar jansi-3.30.7-sources.jar"
+koFiles="jline-native-3.30.7.pom jline-terminal-3.30.7.pom jline-terminal-ffm-3.30.7.pom jline-terminal-jna-3.30.7.pom jline-terminal-jansi-3.30.7.pom jline-terminal-jni-3.30.7.pom jline-reader-3.30.7.pom jline-style-3.30.7.pom jline-builtins-3.30.7.pom jline-console-ui-3.30.7.pom jline-console-3.30.7.pom jline-groovy-3.30.7.pom jline-remote-ssh-3.30.7.pom jline-remote-telnet-3.30.7.pom jline-curses-3.30.7.pom jline-demo-3.30.7.pom jline-graal-3.30.7.pom jansi-core-3.30.7.pom jline-3.30.7.pom jansi-3.30.7.pom"
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jline/jline-native-3.30.7.pom native/target/consumer-9520701271853664848.pom
+# diffoscope target/reference/org.jline/jline-terminal-3.30.7.pom terminal/target/consumer-9214021834253421234.pom
+# diffoscope target/reference/org.jline/jline-terminal-ffm-3.30.7.pom terminal-ffm/target/consumer-6000248038641171343.pom
+# diffoscope target/reference/org.jline/jline-terminal-jna-3.30.7.pom terminal-jna/target/consumer-3680597054070236022.pom
+# diffoscope target/reference/org.jline/jline-terminal-jansi-3.30.7.pom terminal-jansi/target/consumer-2806298777724247486.pom
+# diffoscope target/reference/org.jline/jline-terminal-jni-3.30.7.pom terminal-jni/target/consumer-7921864012361824525.pom
+# diffoscope target/reference/org.jline/jline-reader-3.30.7.pom reader/target/consumer-13664170836577801685.pom
+# diffoscope target/reference/org.jline/jline-style-3.30.7.pom style/target/consumer-12625286488484691118.pom
+# diffoscope target/reference/org.jline/jline-builtins-3.30.7.pom builtins/target/consumer-11443374901800648797.pom
+# diffoscope target/reference/org.jline/jline-console-ui-3.30.7.pom console-ui/target/consumer-14080094744808614432.pom
+# diffoscope target/reference/org.jline/jline-console-3.30.7.pom console/target/consumer-2059408668980645502.pom
+# diffoscope target/reference/org.jline/jline-groovy-3.30.7.pom groovy/target/consumer-4803656435746733503.pom
+# diffoscope target/reference/org.jline/jline-remote-ssh-3.30.7.pom remote-ssh/target/consumer-16384027746760122657.pom
+# diffoscope target/reference/org.jline/jline-remote-telnet-3.30.7.pom remote-telnet/target/consumer-3793137770037289482.pom
+# diffoscope target/reference/org.jline/jline-curses-3.30.7.pom curses/target/consumer-16552929304005772579.pom
+# diffoscope target/reference/org.jline/jline-demo-3.30.7.pom demo/target/consumer-3371396104045960181.pom
+# diffoscope target/reference/org.jline/jline-graal-3.30.7.pom graal/target/consumer-7708996166008200426.pom
+# diffoscope target/reference/org.jline/jansi-core-3.30.7.pom jansi-core/target/consumer-6954874391036375108.pom
+# diffoscope target/reference/org.jline/jline-3.30.7.pom jline/target/consumer-12899501836076241375.pom
+# diffoscope target/reference/org.jline/jansi-3.30.7.pom jansi/target/consumer-11642756777478393505.pom
+stabilize_ok=0
+stabilize_ko=20
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="jline-native-3.30.7.pom.stabilized jline-terminal-3.30.7.pom.stabilized jline-terminal-ffm-3.30.7.pom.stabilized jline-terminal-jna-3.30.7.pom.stabilized jline-terminal-jansi-3.30.7.pom.stabilized jline-terminal-jni-3.30.7.pom.stabilized jline-reader-3.30.7.pom.stabilized jline-style-3.30.7.pom.stabilized jline-builtins-3.30.7.pom.stabilized jline-console-ui-3.30.7.pom.stabilized jline-console-3.30.7.pom.stabilized jline-groovy-3.30.7.pom.stabilized jline-remote-ssh-3.30.7.pom.stabilized jline-remote-telnet-3.30.7.pom.stabilized jline-curses-3.30.7.pom.stabilized jline-demo-3.30.7.pom.stabilized jline-graal-3.30.7.pom.stabilized jansi-core-3.30.7.pom.stabilized jline-3.30.7.pom.stabilized jansi-3.30.7.pom.stabilized"
+stabilize_ignoredFiles=""
