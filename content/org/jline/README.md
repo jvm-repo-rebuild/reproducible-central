@@ -35,8 +35,8 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **24 releases** of org.jline:jline:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of org.jline:jline:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
@@ -45,7 +45,7 @@ rebuilding **24 releases** of org.jline:jline:
 | [4.0.3](https://central.sonatype.com/artifact/org.jline/jline/4.0.3/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.jline/jline/4.0.2/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.jline/jline/4.0.0/pom) | [mvn jdk22](jline-4.0.0.buildspec) | [result](jline-parent-4.0.0.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.0.buildcompare) | 41 :recycle: | 8.9M |
-| [3.30.8](https://central.sonatype.com/artifact/org.jline/jline/3.30.8/pom) | | | |
+| [3.30.8](https://central.sonatype.com/artifact/org.jline/jline/3.30.8/pom) | [mvn jdk22](jline-3.30.8.buildspec) | [result](jline-parent-3.30.8.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.8.buildcompare) | | 8.2M |
 | [3.30.7](https://central.sonatype.com/artifact/org.jline/jline/3.30.7/pom) | | | |
 | [3.30.6](https://central.sonatype.com/artifact/org.jline/jline/3.30.6/pom) | [mvn jdk25](jline-3.30.6.buildspec) | [result](jline-parent-3.30.6.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.6.buildcompare) | | 8.1M |
 | [3.30.5](https://central.sonatype.com/artifact/org.jline/jline/3.30.5/pom) | [mvn jdk22](jline-3.30.5.buildspec) | [result](jline-parent-3.30.5.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.5.buildcompare) | | 8.1M |
