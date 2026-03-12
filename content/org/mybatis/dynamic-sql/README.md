@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.mybatis.dynamic-sql:mybatis-dynamic-sql:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/2.0.0/pom) | | | |
 | [1.5.2](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.5.2/pom) | [mvn jdk21](mybatis-dynamic-sql-1.5.2.buildspec) | [result](mybatis-dynamic-sql-1.5.2.buildinfo): [3 :white_check_mark: ](mybatis-dynamic-sql-1.5.2.buildcompare) | | 979K |
 | [1.5.1](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.5.1/pom) | [mvn jdk21](mybatis-dynamic-sql-1.5.1.buildspec) | [result](mybatis-dynamic-sql-1.5.1.buildinfo): [3 :white_check_mark: ](mybatis-dynamic-sql-1.5.1.buildcompare) | | 1.0M |
 | [1.5.0](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.5.0/pom) | [mvn jdk17](mybatis-dynamic-sql-1.5.0.buildspec) | [result](mybatis-dynamic-sql-1.5.0.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-dynamic-sql-1.5.0.buildcompare) | - | 922K |

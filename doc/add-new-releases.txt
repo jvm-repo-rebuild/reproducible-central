@@ -1,6 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/io/airlift/airbase/airbase-361.buildspec:362
-content/io/avaje/http/avaje-http-3.8-RC3.buildspec:3.8-RC4
-content/net/bytebuddy/byte-buddy-1.18.5.buildspec:1.18.7-jdk5
+content/eu/maveniverse/maven/maven-boms/maven-boms-3.9.13-01.buildspec:3.9.14-01
+content/io/github/cbarlin/aru/aru-0.8.1.buildspec:0.8.2
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.6.buildspec:5.0.0-M1
+content/org/apache/maven/plugins/maven-jlink-plugin/maven-jlink-plugin-3.2.0.buildspec:3.3.0
+content/org/mybatis/dynamic-sql/mybatis-dynamic-sql-1.5.2.buildspec:2.0.0
+content/org/spdx/spdx-java-core/spdx-java-core-1.0.2.buildspec:1.0.3

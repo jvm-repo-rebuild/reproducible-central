@@ -3,14 +3,15 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-jlink-plugin</artifactId>
   <versioning>
-    <latest>3.2.0</latest>
-    <release>3.2.0</release>
+    <latest>3.3.0</latest>
+    <release>3.3.0</release>
     <versions>
       <version>3.0.0-alpha-1</version>
       <version>3.0.0</version>
       <version>3.1.0</version>
       <version>3.2.0</version>
+      <version>3.3.0</version>
     </versions>
-    <lastUpdated>20251031142424</lastUpdated>
+    <lastUpdated>20260312203615</lastUpdated>
   </versioning>
 </metadata>
