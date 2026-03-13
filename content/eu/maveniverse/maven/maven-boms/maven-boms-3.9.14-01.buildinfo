@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.maven-boms:maven-boms
+group-id=eu.maveniverse.maven.maven-boms
+artifact-id=maven-boms
+version=3.9.14-01
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-boms.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.maven-boms:maven-boms
+
+outputs.0.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.0.0.filename=maven-boms-3.9.14-01.pom
+outputs.0.0.length=2490
+outputs.0.0.checksums.sha512=6d777f57b912a393750e33a99c121817462f4973b76efb4702c7484a2f21f28799a219f42b4a0d008bda7ffb4f1d4e6a5b397fac00b36b8dec8b2f9d1ec94efc
+
+outputs.1.coordinates=eu.maveniverse.maven.maven-boms:skinny
+
+outputs.1.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.1.0.filename=skinny-3.9.14-01.pom
+outputs.1.0.length=3758
+outputs.1.0.checksums.sha512=e50cd1f21db72cf19e7b87ae2460b00084c32fe2e056c70226bc6ba70c4eca57c54a9e707512af415e921145d6467ad0b802ba5093078942965d6d58354af205
+
+outputs.2.coordinates=eu.maveniverse.maven.maven-boms:fat
+
+outputs.2.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.2.0.filename=fat-3.9.14-01.pom
+outputs.2.0.length=13981
+outputs.2.0.checksums.sha512=b14115a6912acd49bfa3c581a6359c69540db9917d73a36e1fc158eed7da83929da9a9e701e5160de0011696ecfcb7d3b4f277a098e23308ccf8b41eb30f5c9d
+
+outputs.3.coordinates=eu.maveniverse.maven.maven-boms:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.3.0.filename=plugin-3.9.14-01.pom
+outputs.3.0.length=6078
+outputs.3.0.checksums.sha512=b259b67b41cfa7a36ebd7c819394564c35bd6500f1f8946d280900655b445442c4571d7d9ba8d2789407c0cd30f7a44dbfd3888d32513942207dffd97e558036
