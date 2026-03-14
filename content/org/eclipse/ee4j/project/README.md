@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.eclipse.ee4j:project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/org.eclipse.ee4j/project/2.0.2/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/org.eclipse.ee4j/project/2.0.1/pom) | [mvn jdk21](project-2.0.1.buildspec) | [result](project-2.0.1.buildinfo): [1 :white_check_mark: ](project-2.0.1.buildcompare) | | 27K |
 | [2.0.0](https://central.sonatype.com/artifact/org.eclipse.ee4j/project/2.0.0/pom) | [mvn jdk21](project-2.0.0.buildspec) | [result](project-2.0.0.buildinfo): [1 :white_check_mark: ](project-2.0.0.buildcompare) | | 26K |
 | [2.0.0-M1](https://central.sonatype.com/artifact/org.eclipse.ee4j/project/2.0.0-M1/pom) | [mvn jdk21](project-2.0.0-M1.buildspec) | [result](project-2.0.0-M1.buildinfo): [1 :white_check_mark: ](project-2.0.0-M1.buildcompare) | | 15K |
