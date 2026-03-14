@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mojohaus/mojo-parent.git](https://github.com/mojohaus/mojo-parent.git)
 
-rebuilding **36 releases** of org.codehaus.mojo:mojo-parent:
-- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **37 releases** of org.codehaus.mojo:mojo-parent:
+- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [96](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/96/pom) | | | |
+| [96](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/96/pom) | [mvn jdk25](mojo-parent-96.buildspec) | [result](mojo-parent-96.buildinfo): [4 :white_check_mark: ](mojo-parent-96.buildcompare) | | 57K |
 | [95](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/95/pom) | [mvn jdk25](mojo-parent-95.buildspec) | [result](mojo-parent-95.buildinfo): [4 :white_check_mark: ](mojo-parent-95.buildcompare) | | 57K |
 | [94](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/94/pom) | [mvn jdk21](mojo-parent-94.buildspec) | [result](mojo-parent-94.buildinfo): [4 :white_check_mark: ](mojo-parent-94.buildcompare) | | 58K |
 | [93](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/93/pom) | [mvn jdk21](mojo-parent-93.buildspec) | [result](mojo-parent-93.buildinfo): [4 :white_check_mark: ](mojo-parent-93.buildcompare) | | 58K |
