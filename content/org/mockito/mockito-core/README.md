@@ -19,14 +19,14 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 * [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/overview)
 </details>
 
-rebuilding **39 releases** of org.mockito:mockito-core:
+rebuilding **40 releases** of org.mockito:mockito-core:
 - **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 4, 4 had all their differences removed :recycle:
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 5, 4 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.23.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.23.0/pom) | | | |
+| [5.23.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.23.0/pom) | [gradle jdk21](mockito-5.23.0.buildspec) | [result](mockito-core-5.23.0.buildinfo): [12 :white_check_mark:  4 :warning:](mockito-core-5.23.0.buildcompare) | 3 :recycle: 1 :rotating_light: | 1.3M |
 | [5.22.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.22.0/pom) | [gradle jdk21](mockito-5.22.0.buildspec) | [result](mockito-core-5.22.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.22.0.buildcompare) | 3 :recycle: | 1.3M |
 | [5.21.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.21.0/pom) | [gradle jdk21](mockito-5.21.0.buildspec) | [result](mockito-core-5.21.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.21.0.buildcompare) | 3 :recycle: | 1.3M |
 | [5.20.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.20.0/pom) | [gradle jdk21](mockito-5.20.0.buildspec) | [result](mockito-core-5.20.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.20.0.buildcompare) | 3 :recycle: | 1.3M |
