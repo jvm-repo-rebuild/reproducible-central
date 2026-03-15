@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1101 modules:</summary>
+<details><summary>This project defines 1102 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -573,6 +573,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-minikube-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-minikube-parent/overview)
 * [io.quarkus:quarkus-mongodb-client](https://central.sonatype.com/artifact/io.quarkus/quarkus-mongodb-client/overview)
 * [io.quarkus:quarkus-mongodb-client-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-mongodb-client-deployment/overview)
+* [io.quarkus:quarkus-mongodb-client-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-mongodb-client-deployment-spi/overview)
 * [io.quarkus:quarkus-mongodb-client-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-mongodb-client-parent/overview)
 * [io.quarkus:quarkus-mongodb-panache](https://central.sonatype.com/artifact/io.quarkus/quarkus-mongodb-panache/overview)
 * [io.quarkus:quarkus-mongodb-panache-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-mongodb-panache-common/overview)
@@ -1112,14 +1113,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **157 releases** of io.quarkus:quarkus-project:
+rebuilding **158 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 157 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 68, 0 had all their differences removed :recycle:, 68 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 158 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 69, 0 had all their differences removed :recycle:, 69 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.34.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.34.0.CR1/pom) | | | |
+| [3.34.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.34.0.CR1/pom) | [mvn jdk21](quarkus-3.34.0.CR1.buildspec) | [result](quarkus-project-3.34.0.CR1.buildinfo): [2383 :white_check_mark:  1 :warning:](quarkus-project-3.34.0.CR1.buildcompare) | 1 :rotating_light: | 138M |
 | [3.33.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.33.0.CR1/pom) | [mvn jdk21](quarkus-3.33.0.CR1.buildspec) | [result](quarkus-project-3.33.0.CR1.buildinfo): [2380 :white_check_mark:  1 :warning:](quarkus-project-3.33.0.CR1.buildcompare) | 1 :rotating_light: | 137M |
 | [3.32.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.32.3/pom) | [mvn jdk21](quarkus-3.32.3.buildspec) | [result](quarkus-project-3.32.3.buildinfo): [2380 :white_check_mark:  1 :warning:](quarkus-project-3.32.3.buildcompare) | 1 :rotating_light: | 137M |
 | [3.32.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.32.2/pom) | [mvn jdk21](quarkus-3.32.2.buildspec) | [result](quarkus-project-3.32.2.buildinfo): [2380 :white_check_mark:  1 :warning:](quarkus-project-3.32.2.buildcompare) | 1 :rotating_light: | 137M |
