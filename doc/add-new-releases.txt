@@ -1,9 +1,4 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/io/github/cbarlin/aru/aru-0.8.2.buildspec:0.8.3
-content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.22.buildspec:5.3.24
-content/org/codehaus/mojo/extra-enforcer-rules/extra-enforcer-rules-1.11.0.buildspec:1.12.0
-content/org/codehaus/mojo/mojo-parent/mojo-parent-95.buildspec:96
-content/org/eclipse/ee4j/project/project-2.0.1.buildspec:2.0.2
-content/org/spdx/java-spdx-library/java-spdx-library-2.0.2.buildspec:2.0.3
+content/land/oras/oras-java-sdk/oras-java-sdk-0.5.0.buildspec:0.5.1
