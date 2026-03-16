@@ -1,4 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
+content/io/jooby/jooby-4.0.17.buildspec:4.1.0
+content/io/airlift/airbase/airbase-362.buildspec:363
+content/io/avaje/inject/avaje-inject-12.5-RC1.buildspec:12.5-RC2
 content/land/oras/oras-java-sdk/oras-java-sdk-0.5.0.buildspec:0.5.1
+content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.4.buildspec:3.5.6
