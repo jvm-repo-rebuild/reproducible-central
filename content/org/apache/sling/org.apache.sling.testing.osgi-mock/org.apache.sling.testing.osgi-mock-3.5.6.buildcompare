@@ -1,0 +1,35 @@
+version=3.5.6
+ok=1
+ko=20
+ignored=0
+okFiles="org.apache.sling.testing.osgi-mock.core-3.5.6.pom"
+koFiles="org.apache.sling.testing.osgi-mock.parent-3.5.6.pom org.apache.sling.testing.osgi-mock.parent-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.test-services-3.5.6.pom org.apache.sling.testing.osgi-mock.test-services-3.5.6.jar org.apache.sling.testing.osgi-mock.test-services-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.test-services-3.5.6-sources.jar org.apache.sling.testing.osgi-mock.core-3.5.6.jar org.apache.sling.testing.osgi-mock.core-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.core-3.5.6-sources.jar org.apache.sling.testing.osgi-mock.core-3.5.6-tests.jar org.apache.sling.testing.osgi-mock.junit4-3.5.6.pom org.apache.sling.testing.osgi-mock.junit4-3.5.6.jar org.apache.sling.testing.osgi-mock.junit4-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.junit4-3.5.6-sources.jar org.apache.sling.testing.osgi-mock.junit5-3.5.6.pom org.apache.sling.testing.osgi-mock.junit5-3.5.6.jar org.apache.sling.testing.osgi-mock.junit5-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.junit5-3.5.6-sources.jar org.apache.sling.testing.osgi-mock-3.5.6.pom org.apache.sling.testing.osgi-mock-3.5.6-source-release.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.parent-3.5.6.pom parent/pom.xml
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.parent-3.5.6-source-release.zip parent/target/org.apache.sling.testing.osgi-mock.parent-3.5.6-source-release.zip
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services-3.5.6.pom test-services/pom.xml
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services-3.5.6.jar test-services/target/org.apache.sling.testing.osgi-mock.test-services-3.5.6.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services-3.5.6-source-release.zip test-services/target/org.apache.sling.testing.osgi-mock.test-services-3.5.6-source-release.zip
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services-3.5.6-sources.jar test-services/target/org.apache.sling.testing.osgi-mock.test-services-3.5.6-sources.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.core-3.5.6.jar core/target/org.apache.sling.testing.osgi-mock.core-3.5.6.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.core-3.5.6-source-release.zip core/target/org.apache.sling.testing.osgi-mock.core-3.5.6-source-release.zip
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.core-3.5.6-sources.jar core/target/org.apache.sling.testing.osgi-mock.core-3.5.6-sources.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.core-3.5.6-tests.jar core/target/org.apache.sling.testing.osgi-mock.core-3.5.6-tests.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4-3.5.6.pom junit4/pom.xml
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4-3.5.6.jar junit4/target/org.apache.sling.testing.osgi-mock.junit4-3.5.6.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4-3.5.6-source-release.zip junit4/target/org.apache.sling.testing.osgi-mock.junit4-3.5.6-source-release.zip
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4-3.5.6-sources.jar junit4/target/org.apache.sling.testing.osgi-mock.junit4-3.5.6-sources.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5-3.5.6.pom junit5/pom.xml
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5-3.5.6.jar junit5/target/org.apache.sling.testing.osgi-mock.junit5-3.5.6.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5-3.5.6-source-release.zip junit5/target/org.apache.sling.testing.osgi-mock.junit5-3.5.6-source-release.zip
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5-3.5.6-sources.jar junit5/target/org.apache.sling.testing.osgi-mock.junit5-3.5.6-sources.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock-3.5.6.pom relocate/pom.xml
+# diffoscope target/reference/org.apache.sling/org.apache.sling.testing.osgi-mock-3.5.6-source-release.zip relocate/target/org.apache.sling.testing.osgi-mock-3.5.6-source-release.zip
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=20
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="org.apache.sling.testing.osgi-mock.parent-3.5.6.pom org.apache.sling.testing.osgi-mock.parent-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.test-services-3.5.6.pom org.apache.sling.testing.osgi-mock.test-services-3.5.6.jar org.apache.sling.testing.osgi-mock.test-services-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.test-services-3.5.6-sources.jar org.apache.sling.testing.osgi-mock.core-3.5.6.jar org.apache.sling.testing.osgi-mock.core-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.core-3.5.6-sources.jar org.apache.sling.testing.osgi-mock.core-3.5.6-tests.jar org.apache.sling.testing.osgi-mock.junit4-3.5.6.pom org.apache.sling.testing.osgi-mock.junit4-3.5.6.jar org.apache.sling.testing.osgi-mock.junit4-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.junit4-3.5.6-sources.jar org.apache.sling.testing.osgi-mock.junit5-3.5.6.pom org.apache.sling.testing.osgi-mock.junit5-3.5.6.jar org.apache.sling.testing.osgi-mock.junit5-3.5.6-source-release.zip org.apache.sling.testing.osgi-mock.junit5-3.5.6-sources.jar org.apache.sling.testing.osgi-mock-3.5.6.pom org.apache.sling.testing.osgi-mock-3.5.6-source-release.zip"

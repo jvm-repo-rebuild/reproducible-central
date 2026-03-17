@@ -8,7 +8,7 @@ gitTag=${artifactId}.reactor-${version}
 
 tool=mvn-3.9.11
 jdk=21
-newline=lf
+newline=crlf
 umask=022
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip"
