@@ -22,7 +22,8 @@ rebuilding **2 releases** of ch.qos.logback.db:logback-parent-db:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.11.1](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.2.11.1/pom) | [mvn jdk8 w](logback-db-1.2.11.1.buildspec) | [result](logback-parent-db-1.2.11.1.buildinfo): [4 :white_check_mark:  11 :warning:](logback-parent-db-1.2.11.1.buildcompare) [:mag:](logback-parent-db-1.2.11.1.diffoscope) [:memo:](https://github.com/qos-ch/logback-db/pull/2) | - | 203K |
+| [1.5.32](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.5.32/pom) | | | |
 | [1.2.11](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.2.11/pom) | [mvn jdk8 w](logback-db-1.2.11.buildspec) | [result](logback-parent-db-1.2.11.buildinfo): [4 :white_check_mark:  11 :warning:](logback-parent-db-1.2.11.buildcompare) [:memo:](https://github.com/qos-ch/logback-db/pull/2) | - | 203K |
+| [1.2.11.1](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.2.11.1/pom) | [mvn jdk8 w](logback-db-1.2.11.1.buildspec) | [result](logback-parent-db-1.2.11.1.buildinfo): [4 :white_check_mark:  11 :warning:](logback-parent-db-1.2.11.1.buildcompare) [:mag:](logback-parent-db-1.2.11.1.diffoscope) [:memo:](https://github.com/qos-ch/logback-db/pull/2) | - | 203K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
