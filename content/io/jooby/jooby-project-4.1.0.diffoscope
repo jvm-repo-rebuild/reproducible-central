@@ -1,0 +1,63 @@
+1 / 2 target/reference/io.jooby/jooby-cli-4.1.0.jar modules/jooby-cli/target/jooby-cli-4.1.0.jar
+--- target/reference/io.jooby/jooby-cli-4.1.0.jar
++++ modules/jooby-cli/target/jooby-cli-4.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 90898 bytes, number of entries: 60
+│ +Zip file size: 90915 bytes, number of entries: 60
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-16 14:41 META-INF/
+│  -rw-r--r--  2.0 unx      260 b- defN 26-Mar-16 14:41 META-INF/MANIFEST.MF
+│ @@ -41,22 +41,22 @@
+│  -rw-r--r--  2.0 unx     7140 b- defN 26-Mar-16 14:41 cli/pom.xml.hbs
+│  -rw-r--r--  2.0 unx     1187 b- defN 26-Mar-16 14:41 cli/src/etc/stork/stork.yml
+│ --rw-r--r--  2.0 unx     2909 b- defN 26-Mar-16 14:41 dependencies.properties
+│ +-rw-r--r--  2.0 unx     2943 b- defN 26-Mar-16 14:41 dependencies.properties
+│  -rw-r--r--  2.0 unx     8451 b- defN 26-Mar-16 14:41 io/jooby/cli/Cli.class
+│  -rw-r--r--  2.0 unx     1393 b- defN 26-Mar-16 14:41 io/jooby/cli/CliContext.class
+│  -rw-r--r--  2.0 unx     1080 b- defN 26-Mar-16 14:41 io/jooby/cli/Cmd.class
+│  -rw-r--r--  2.0 unx    13797 b- defN 26-Mar-16 14:41 io/jooby/cli/CreateCmd.class
+│  -rw-r--r--  2.0 unx      820 b- defN 26-Mar-16 14:41 io/jooby/cli/ExitCmd.class
+│  -rw-r--r--  2.0 unx     3231 b- defN 26-Mar-16 14:41 io/jooby/cli/SetCmd.class
+│  -rw-r--r--  2.0 unx     3847 b- defN 26-Mar-16 14:41 io/jooby/cli/Version.class
+│  -rw-r--r--  2.0 unx    10028 b- defN 26-Mar-16 14:41 io/jooby/internal/cli/CommandContextImpl.class
+│  -rw-r--r--  2.0 unx     1556 b- defN 26-Mar-16 14:41 io/jooby/internal/cli/Dependency.class
+│  -rw-r--r--  2.0 unx     2236 b- defN 26-Mar-16 14:41 io/jooby/internal/cli/JLineCompleter.class
+│  -rw-r--r--  2.0 unx      378 b- defN 26-Mar-16 14:41 logback.xml
+│  -rw-r--r--  2.0 unx     6421 b- defN 26-Mar-16 14:41 META-INF/maven/io.jooby/jooby-cli/pom.xml
+│  -rw-r--r--  2.0 unx       52 b- defN 26-Mar-16 14:41 META-INF/maven/io.jooby/jooby-cli/pom.properties
+│ -60 files, 137415 bytes uncompressed, 83346 bytes compressed:  39.3%
+│ +60 files, 137449 bytes uncompressed, 83363 bytes compressed:  39.3%
+├── dependencies.properties
+│ @@ -82,14 +82,15 @@
+│  mockito.version=5.23.0
+│  moditec.version=1.3.0.Final
+│  mojo-executor.version=2.3.1
+│  netty.version=4.2.10.Final
+│  node.version=v22.20.0
+│  npm.version=10.9.3
+│  okhttp.version=5.3.2
+│ +os.detected.release.version=22.04
+│  pac4j.version=6.3.3
+│  pebble.version=4.1.1
+│  picocli.version=4.7.7
+│  plexus-utils.version=4.0.2
+│  quartz.version=2.5.2
+│  redoc.version=2.0.0-rc.20
+│  rest-assured.version=6.0.0
+
+2 / 2 target/reference/io.jooby/jooby-cli-4.1.0.zip modules/jooby-cli/target/jooby-cli-4.1.0.zip
+--- target/reference/io.jooby/jooby-cli-4.1.0.zip
++++ modules/jooby-cli/target/jooby-cli-4.1.0.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 8595920 bytes, number of entries: 25
+│ +Zip file size: 8595939 bytes, number of entries: 25
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-16 14:41 bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-16 14:41 lib/
+│ @@ -19,9 +19,9 @@
+│  -rw-r--r--  2.0 unx    94643 b- defN 26-Mar-16 14:41 lib/asm-util-9.9.1.jar
+│  -rw-r--r--  2.0 unx    74687 b- defN 26-Mar-16 14:41 lib/jline-terminal-jna-3.30.8.jar
+│ --rw-r--r--  2.0 unx    90898 b- defN 26-Mar-16 14:41 lib/jooby-cli-4.1.0.jar
+│ -25 files, 9210002 bytes uncompressed, 8592904 bytes compressed:  6.7%
+│ +-rw-r--r--  2.0 unx    90915 b- defN 26-Mar-16 14:41 lib/jooby-cli-4.1.0.jar
+│ +25 files, 9210019 bytes uncompressed, 8592923 bytes compressed:  6.7%
