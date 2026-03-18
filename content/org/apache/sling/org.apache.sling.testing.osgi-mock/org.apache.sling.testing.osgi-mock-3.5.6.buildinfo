@@ -19,7 +19,7 @@ java.vendor=Ubuntu
 os.name=Linux
 os.version=6.14.0-1017-azure
 os.arch=amd64
-line.separator=\n
+line.separator=\r\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.9.11
@@ -31,35 +31,35 @@ outputs.0.coordinates=org.apache.sling:org.apache.sling.testing.osgi-mock.parent
 
 outputs.0.0.groupId=org.apache.sling
 outputs.0.0.filename=org.apache.sling.testing.osgi-mock.parent-3.5.6.pom
-outputs.0.0.length=6331
-outputs.0.0.checksums.sha512=d704662837036486176e32da7d4040a0ffbe1500403647fe308212840be41c27b1d9643ecc5f1813f3a6ac9b0033bb476a711e2ac4e8c59e312e22943ef4c5a9
+outputs.0.0.length=6499
+outputs.0.0.checksums.sha512=146b8216e4938a94c0c8ec39dbbd9b8252afe54082937bf705c81b5e1f203071a44d5a318e15dc8914a0fb21c72275d5df546583ec5f7dfe3f8012cf2c34dde3
 
 outputs.0.1.groupId=org.apache.sling
 outputs.0.1.filename=org.apache.sling.testing.osgi-mock.parent-3.5.6-source-release.zip
-outputs.0.1.length=6766
-outputs.0.1.checksums.sha512=012e7c8d828accfc25df438ca80ccff0c97832666039f2bb4f90e8cdce281a1f9c40b79f6aab6f87f724b8715c6789ef64580548b2cc9eba86d2e3a182c68c26
+outputs.0.1.length=6777
+outputs.0.1.checksums.sha512=fc59aa34b9ab41d1551e9b1c41a3e771c233201631f739b8928818ea503ffe8eb70467b959f59dcf30c3652a6ae64a2fe415081a0518ea8a8c56d3c93875fe2e
 
 outputs.1.coordinates=org.apache.sling:org.apache.sling.testing.osgi-mock.test-services
 
 outputs.1.0.groupId=org.apache.sling
 outputs.1.0.filename=org.apache.sling.testing.osgi-mock.test-services-3.5.6.pom
-outputs.1.0.length=2784
-outputs.1.0.checksums.sha512=0e21f8f23709020a6f0c3bee56efbf81cf32bc13bddafd827e4db75e2afd904c64707cfd8e8db2b874e6798b583b2145119f5ea5e4f736a41392f47d23345e7c
+outputs.1.0.length=2855
+outputs.1.0.checksums.sha512=0854ad6aed9af6f071aad5a80c7c2a09de1d8dd337ff2ffc215326fd06abade17365c85dd490aa619f14fdc638046d9160e747ba1dbe9c2c699f7a138c3aa192
 
 outputs.1.1.groupId=org.apache.sling
 outputs.1.1.filename=org.apache.sling.testing.osgi-mock.test-services-3.5.6.jar
-outputs.1.1.length=88419
-outputs.1.1.checksums.sha512=e80c0a032a5cfbd849543f3b55f1c264fc2fa7585c61b2ee0d37620f0713eca9f2ed96587226d67051c99d71d2a3522036aac65dc342c15640849eb0b561adca
+outputs.1.1.length=88431
+outputs.1.1.checksums.sha512=397517835ea7597f39039001c554efab20606375f5e26b91ead916f6c208eb31e68d4b40bc7ea14d1171647d572e7400e92612cc9107a3cbb7d31d87b977b4fe
 
 outputs.1.2.groupId=org.apache.sling
 outputs.1.2.filename=org.apache.sling.testing.osgi-mock.test-services-3.5.6-source-release.zip
-outputs.1.2.length=78143
-outputs.1.2.checksums.sha512=efc1f6f7cefa65851e75ff9c824d800b254ba9ab1a890abd5159639e3902d5b0e36e9e8a87f5dce299acb40985538724efc8688e3e764c5f4989dbef4733e0c3
+outputs.1.2.length=78662
+outputs.1.2.checksums.sha512=fa44cddf02083248c78aacda885faf5cc90e1f7a48b9491865fa1c9c13b562dc6739814c89ee9e114f92646d353750abed88cbc6c4800c9203017ab8455836f4
 
 outputs.1.3.groupId=org.apache.sling
 outputs.1.3.filename=org.apache.sling.testing.osgi-mock.test-services-3.5.6-sources.jar
-outputs.1.3.length=68817
-outputs.1.3.checksums.sha512=1c7175315cbf6615b9b9add70935d4dd7c02e95a99cf7dd030778747846c94c0e540d22392b45dc4734f2de9dd0b5bd354a8739a54629c50f968e58ee237f982
+outputs.1.3.length=69339
+outputs.1.3.checksums.sha512=b4bb487f6bee9ff8bded800e9f4b1ca271c62d8f770e66bfde288c2613d43befc7cebd5bafd1d3e0e45e6dee30efc7efab8f8ebbc9bb56f6fcb01befcb64b281
 
 outputs.2.coordinates=org.apache.sling:org.apache.sling.testing.osgi-mock.core
 
@@ -70,76 +70,76 @@ outputs.2.0.checksums.sha512=a17c13fc530c4680052605e5de23a119788e63a77140a9e6d02
 
 outputs.2.1.groupId=org.apache.sling
 outputs.2.1.filename=org.apache.sling.testing.osgi-mock.core-3.5.6.jar
-outputs.2.1.length=587884
-outputs.2.1.checksums.sha512=a82638c0547b738fd9134f8238f4483c471041ffddeddd579d079a8f34c7bc5b71cd309b741dbbba8a9bb7f2cc2387d519a4f557b1d56a525f437a8804533859
+outputs.2.1.length=587904
+outputs.2.1.checksums.sha512=d010b2f5c4cc511df0d982ef37e169d5fb54486ab233937dbeb6dcf3049277f5067ac32a8e970010860bc3a617d7f99eeaa790f70881fbcb2c700584cb886c36
 
 outputs.2.2.groupId=org.apache.sling
 outputs.2.2.filename=org.apache.sling.testing.osgi-mock.core-3.5.6-source-release.zip
-outputs.2.2.length=169451
-outputs.2.2.checksums.sha512=70780a2dba4212367979635c33c70da5140dcc96cce5b6b6c7f0f44a179282a6beee1cc7401e0843de002fc0c34bade03bd8dd8daa8805e1a90c7c2a9bcebc62
+outputs.2.2.length=170422
+outputs.2.2.checksums.sha512=18e62f47edec64d2d59853af8ba922bccf2afe8d4a123a13402374baeeeabfe58235cbd0cdbf32660efe5eec25d67a90e00ba6acd91864dab97dc7c66c7870ac
 
 outputs.2.3.groupId=org.apache.sling
 outputs.2.3.filename=org.apache.sling.testing.osgi-mock.core-3.5.6-sources.jar
-outputs.2.3.length=409777
-outputs.2.3.checksums.sha512=92ac56808f0bc409780f7bb14172dafe8d01d1485cf123e85fb282e686fcfa3bd26950bf678d17e770ee74f55f39ebdcb332ea2dae75e01247623944f34c0d9d
+outputs.2.3.length=410340
+outputs.2.3.checksums.sha512=754a4f0a43a23e40289b93496c051310ad189061f5c246045cbb95cfb821b35785677d92c2f7e534fcfa2912029621d8199ed15b4c325e1689aa6b90ed0cd201
 
 outputs.2.4.groupId=org.apache.sling
 outputs.2.4.filename=org.apache.sling.testing.osgi-mock.core-3.5.6-tests.jar
-outputs.2.4.length=149393
-outputs.2.4.checksums.sha512=2d43d1d720fc89ac7c3d941262741f3cff55a63142f385d1c50b8db87880bdafc0032a3b948f1ebdb02d1038c1deee85edf176d636f97265b182ed7fc421324f
+outputs.2.4.length=149424
+outputs.2.4.checksums.sha512=8ba7ff5988ad0d8b39b2f671e918f52f81dc3fe55c3d6f55d967122dc86b3a36643858584f1880fb7c1c39f859fa0f03522d0109cbbe26f8a8598ea329b3907a
 
 outputs.3.coordinates=org.apache.sling:org.apache.sling.testing.osgi-mock.junit4
 
 outputs.3.0.groupId=org.apache.sling
 outputs.3.0.filename=org.apache.sling.testing.osgi-mock.junit4-3.5.6.pom
-outputs.3.0.length=2943
-outputs.3.0.checksums.sha512=2084050bce68585ce20739ae6c7636dff4c9ab3bc3b99b883f4b2465b183d5a1a38f019e9128a8d5974dd231224fc6316a5e62f813e4c2ff7f5b8528e30f4dbc
+outputs.3.0.length=3027
+outputs.3.0.checksums.sha512=892f4e8dbe608c975facfe6219c3e12a98580d41d7e8d5e9132eb3810b7f62480b32ac202b93a83e7752a3e1c8a04f887c404a892c5d5e3b4951a6466312117c
 
 outputs.3.1.groupId=org.apache.sling
 outputs.3.1.filename=org.apache.sling.testing.osgi-mock.junit4-3.5.6.jar
-outputs.3.1.length=18661
-outputs.3.1.checksums.sha512=120258269fe349c1d75a3e7172f87a88741cdcb79fcff1422734c91f373bf95166fdabcd9905ba03610354c7e5262f66d62cd1f6c829215b8bd389471148d134
+outputs.3.1.length=18675
+outputs.3.1.checksums.sha512=be1112eda99ec743b5ea21a1bb87fb420a11f00b21f5db3560362ebb4bf6e812021f7dfb2896849e1352ffbf36320d506b6c50e3dbda5d6c73ee6ea904e4a28e
 
 outputs.3.2.groupId=org.apache.sling
 outputs.3.2.filename=org.apache.sling.testing.osgi-mock.junit4-3.5.6-source-release.zip
-outputs.3.2.length=21523
-outputs.3.2.checksums.sha512=af8d008b63970d78d82f7032a5551828cf6ea22908340cb2ce3bf21b36e5cbd9f1ec61296c9ca3e8f125f66d827ae175ff3027f2adeb9b26c7d455a52db5541f
+outputs.3.2.length=21609
+outputs.3.2.checksums.sha512=173eb371d0a25861ef8db15f19dc07f8aee244136c093e783c84372434ea1a3f058b474f0724c30231d69dfc8cc2d2708b147629e31999e3ec8781bfacd8a10c
 
 outputs.3.3.groupId=org.apache.sling
 outputs.3.3.filename=org.apache.sling.testing.osgi-mock.junit4-3.5.6-sources.jar
-outputs.3.3.length=15259
-outputs.3.3.checksums.sha512=047f64d16646671c3f9f2c3cfe6ff75928833bb3e545a7c7e958ba1e68ac57e0c4caeff36860646988cdd6ce5ae58c165a78a22a943a9a6ae1eea34ec36e5c3f
+outputs.3.3.length=15329
+outputs.3.3.checksums.sha512=0d002f94cdfbd125344ab54cf1beb7a8ef88ed3a646c1d7b18605efb0e01a0d787ead68d17f665dcbcce9ef14e991e1bf3b871b349d3ad274ddf0f69c0614ab7
 
 outputs.4.coordinates=org.apache.sling:org.apache.sling.testing.osgi-mock.junit5
 
 outputs.4.0.groupId=org.apache.sling
 outputs.4.0.filename=org.apache.sling.testing.osgi-mock.junit5-3.5.6.pom
-outputs.4.0.length=3687
-outputs.4.0.checksums.sha512=4c118cfb2145f12c39aa8d216cf5ead79f730c9a56c9a936d95d71c0c56e24d7a6fc7471e7d913988ecd028b89dda570f42b90843c6b94b8240999fb12608712
+outputs.4.0.length=3793
+outputs.4.0.checksums.sha512=45e7804993804362ea45eebcf6ce1b569572373ff0504d99fda047165e47a00f38e8b3590f5ccd990c8a39f17daf9eb478a18f589882dba315f9152e5ac173f3
 
 outputs.4.1.groupId=org.apache.sling
 outputs.4.1.filename=org.apache.sling.testing.osgi-mock.junit5-3.5.6.jar
-outputs.4.1.length=28225
-outputs.4.1.checksums.sha512=ca969d63cae423e6fd7a420be9c36a9317cb54ec66c25ac9a79c06950d5c9697f5d3ddd54237f42678f8a79f54bd0187bf2f0c7bf79f7ec3fd1afb5fed554b24
+outputs.4.1.length=28238
+outputs.4.1.checksums.sha512=f3746491fa5e319f4bd0d3a27810b7a302a92d4ac9c23a7224016f4fe06515655a5194ba869bc575a8033c4b727f9b60a83d75a29c7f56d37c4fbf7f3028fd40
 
 outputs.4.2.groupId=org.apache.sling
 outputs.4.2.filename=org.apache.sling.testing.osgi-mock.junit5-3.5.6-source-release.zip
-outputs.4.2.length=41590
-outputs.4.2.checksums.sha512=4c786c42323f57e2b393b3b599f0c0c70aaa68a689226f9ac1e6f38195e0e43bd58c42688749617e66fc5c925154fbd903f1673c53e4289470bb7c9e9121c256
+outputs.4.2.length=41813
+outputs.4.2.checksums.sha512=2c29eea4a735e8df1ed81c02b2194df6918dc99a22cc382a877c71739523dc8810595dcde1885fec5c3cd769b09a1e341f5ee4649c8519d987fc13765e9a4288
 
 outputs.4.3.groupId=org.apache.sling
 outputs.4.3.filename=org.apache.sling.testing.osgi-mock.junit5-3.5.6-sources.jar
-outputs.4.3.length=24361
-outputs.4.3.checksums.sha512=76a3c750870ac3ac54f102d8a883d91dea412792d621508f2209439fcffdc7076a9478548189f9147d93d154073e07358fa90ce833a5542dbe1c02c4ed938d97
+outputs.4.3.length=24489
+outputs.4.3.checksums.sha512=2c11e7f44be23d0fd676e8f059bff418a26fb4c2e35fe27e9bb4dc3fed327b5a6557aa7ba85a7119416f7d7ec7fb76e2b6a78b8e98bfff13f8b39df5063e7a9c
 
 outputs.5.coordinates=org.apache.sling:org.apache.sling.testing.osgi-mock
 
 outputs.5.0.groupId=org.apache.sling
 outputs.5.0.filename=org.apache.sling.testing.osgi-mock-3.5.6.pom
-outputs.5.0.length=1763
-outputs.5.0.checksums.sha512=bcc4cf4bdf228599c287dcb8e09be187855c3fcd5ae7867675e908850c2b8bbd07456111549ad3026be5459ffe65410995fef9ab0f9f13eede99434c5563f046
+outputs.5.0.length=1805
+outputs.5.0.checksums.sha512=c8ee74ecc8b4f55ea8285d974fcdf15e773d7d86c42042d8950c066979785e8f5384c92c178fe541ec02bb1cf67597659600061e872b40dc82a7f86173964fc9
 
 outputs.5.1.groupId=org.apache.sling
 outputs.5.1.filename=org.apache.sling.testing.osgi-mock-3.5.6-source-release.zip
-outputs.5.1.length=5955
-outputs.5.1.checksums.sha512=923fccac41807520ea442f414c8647ffcd0b7631f70b97df952958394bf6e45d289375077ffbdb3b7717f6af9b77fdb3fb11d86f3625206dfe88bf252f9f5599
+outputs.5.1.length=5964
+outputs.5.1.checksums.sha512=09b84a74c037609200dda91866836eef835b3230e62cf27822d3d716dbf05cf21806f4cf92d430131fb6e0811712b85a02147a2f16e7d7074e6d9378aa7f84c0
