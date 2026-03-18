@@ -1,7 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/flowlogix/flowlogix-11.1.buildspec:11.1.1
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.0.buildspec:2.21.1
-content/io/jooby/jooby-4.0.17.buildspec:4.1.0
-content/io/avaje/inject/avaje-inject-12.5-RC2.buildspec:12.5-RC3
+content/com/github/nbbrd/java-io-util/java-io-parent-0.0.35.buildspec:0.0.36
+content/io/avaje/inject/avaje-inject-12.5-RC3.buildspec:12.5-RC4
 content/land/oras/oras-java-sdk/oras-java-sdk-0.5.0.buildspec:0.5.1
-content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.4.buildspec:3.5.6
+content/org/apache/commons/net/commons-net-3.12.0.buildspec:3.13.0

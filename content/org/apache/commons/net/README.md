@@ -13,6 +13,7 @@ rebuilding **5 releases** of commons-net:commons-net:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.13.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.13.0/pom) | | | |
 | [3.12.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.12.0/pom) | [mvn jdk21](commons-net-3.12.0.buildspec) | [result](commons-net-3.12.0.buildinfo): [7 :white_check_mark: ](commons-net-3.12.0.buildcompare) | | 1.5M |
 | [3.11.1](https://central.sonatype.com/artifact/commons-net/commons-net/3.11.1/pom) | [mvn jdk21](commons-net-3.11.1.buildspec) | [result](commons-net-3.11.1.buildinfo): [7 :white_check_mark: ](commons-net-3.11.1.buildcompare) | | 1.4M |
 | [3.11.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.11.0/pom) | [mvn jdk17](commons-net-3.11.0.buildspec) | [result](commons-net-3.11.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-net-3.11.0.buildcompare) [:mag:](commons-net-3.11.0.diffoscope) [:memo:](https://github.com/apache/commons-net/pull/259) | - | 1.4M |
