@@ -10,10 +10,11 @@ Source code: [https://github.com/apache/commons-net.git](https://github.com/apac
 rebuilding **6 releases** of commons-net:commons-net:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.13.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.13.0/pom) | [mvn jdk21](commons-net-3.13.0.buildspec) | :x: | |
+| [3.13.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.13.0/pom) | [mvn jdk21](commons-net-3.13.0.buildspec) | [result](commons-net-3.13.0.buildinfo): [6 :white_check_mark:  1 :warning:](commons-net-3.13.0.buildcompare) [:mag:](commons-net-3.13.0.diffoscope) | 1 :rotating_light: | 1.5M |
 | [3.12.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.12.0/pom) | [mvn jdk21](commons-net-3.12.0.buildspec) | [result](commons-net-3.12.0.buildinfo): [7 :white_check_mark: ](commons-net-3.12.0.buildcompare) | | 1.5M |
 | [3.11.1](https://central.sonatype.com/artifact/commons-net/commons-net/3.11.1/pom) | [mvn jdk21](commons-net-3.11.1.buildspec) | [result](commons-net-3.11.1.buildinfo): [7 :white_check_mark: ](commons-net-3.11.1.buildcompare) | | 1.4M |
 | [3.11.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.11.0/pom) | [mvn jdk17](commons-net-3.11.0.buildspec) | [result](commons-net-3.11.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-net-3.11.0.buildcompare) [:mag:](commons-net-3.11.0.diffoscope) [:memo:](https://github.com/apache/commons-net/pull/259) | - | 1.4M |

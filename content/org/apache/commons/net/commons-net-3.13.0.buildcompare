@@ -1,0 +1,16 @@
+version=3.13.0
+ok=6
+ko=1
+ignored=1
+okFiles="commons-net-3.13.0.pom commons-net-3.13.0.jar commons-net-3.13.0-tests.jar commons-net-3.13.0-sources.jar commons-net-3.13.0-ftp.jar commons-net-3.13.0-examples.jar"
+koFiles="commons-net-3.13.0-test-sources.jar"
+ignoredFiles="commons-net-3.13.0.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-net/commons-net-3.13.0-test-sources.jar target/commons-net-3.13.0-test-sources.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="commons-net-3.13.0-test-sources.jar.stabilized"
+stabilize_ignoredFiles=""
