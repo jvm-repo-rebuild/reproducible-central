@@ -1,0 +1,22 @@
+# not clean Git workspace for release manager
+1 / 1 target/reference/commons-net/commons-net-3.13.0-test-sources.jar target/commons-net-3.13.0-test-sources.jar
+--- target/reference/commons-net/commons-net-3.13.0-test-sources.jar
++++ target/commons-net-3.13.0-test-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 189622 bytes, number of entries: 138
+│ +Zip file size: 189304 bytes, number of entries: 136
+│  -rw-r--r--  2.0 unx      317 b- defN 26-Mar-15 14:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 META-INF/
+│ @@ -20,16 +20,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 org/apache/commons/net/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 org/apache/commons/net/whois/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 org/apache/commons/net/filezillaserver/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 org/apache/commons/net/filezillaserver/conf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 org/apache/commons/net/ftpsserver/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-15 14:12 org/apache/commons/net/test-data/
+│ @@ -133,8 +131,8 @@
+│  -rw-r--r--  2.0 unx    26408 b- defN 26-Mar-15 14:12 META-INF/maven/commons-net/commons-net/pom.xml
+│  -rw-r--r--  2.0 unx       58 b- defN 26-Mar-15 14:12 META-INF/maven/commons-net/commons-net/pom.properties
+│ -138 files, 627097 bytes uncompressed, 166220 bytes compressed:  73.5%
+│ +136 files, 627097 bytes uncompressed, 166220 bytes compressed:  73.5%
