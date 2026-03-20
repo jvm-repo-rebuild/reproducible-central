@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=maven-turbo-builder
+group-id=com.github.seregamorph
+artifact-id=maven-turbo-builder
+version=0.14
+
+# source information
+source.scm.uri=scm:git:git@github.com:maven-turbo-reactor/maven-turbo-builder.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.seregamorph
+outputs.0.filename=maven-turbo-builder-0.14.pom
+outputs.0.length=2087
+outputs.0.checksums.sha512=3fa057e88c2698e9435d7d0909722763f492474036f6f420f5ed5731d5b72c9646dc281e54db1e1b99663d1f46823113292eed14b62915ee3d11d72c1632f893
+
+outputs.1.groupId=com.github.seregamorph
+outputs.1.filename=maven-turbo-builder-0.14.jar
+outputs.1.length=30036
+outputs.1.checksums.sha512=95113fcf7754acdb84da5d332e83d69afc822b95c7fbae127fca05dda5877741735ee2458c22cc233704cf0fbbe49c4188563083c850a5f3d198913ad79af984
+
+outputs.2.groupId=com.github.seregamorph
+outputs.2.filename=maven-turbo-builder-0.14-sources.jar
+outputs.2.length=15959
+outputs.2.checksums.sha512=612fd73c3753c022164a787cc4713b702d128488b35439324612d4198866c6a0962df210355d2ad48b28985a9df45e5e227cdc3c5355b60ff133166f9b2ac47a
