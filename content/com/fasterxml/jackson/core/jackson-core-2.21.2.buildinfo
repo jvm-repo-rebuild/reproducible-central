@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-core
+version=2.21.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-core.git
+source.scm.tag=jackson-core-2.21.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_482
+java.vendor=Private Build
+os.name=Linux
+os.version=6.14.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-core-2.21.2.pom
+outputs.0.length=10034
+outputs.0.checksums.sha512=21ff09d209cab2f5efc0b67a968f0b07412014ab10a6cc82e6963d5017243ce68078292914b4507dd5dade9592f63f5bbf01dca179784c34e647df853b260015
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-core-2.21.2.jar
+outputs.1.length=595531
+outputs.1.checksums.sha512=31a16a40b2e1a1a9467a66c93884c034527fb5af641a79bd6a563d4c3aaa0cfc8d8250f930d13c7fd70c18db579940ec54a49538c5a2e0fb9780c575808000ff
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-core-2.21.2-sbom-cyclonedx.xml
+outputs.2.length=4377
+outputs.2.checksums.sha512=c3356e76fb9f3697ab966ba0f9f04b20bf23f96a7844a1ab869978dfd6ec34d91a2e103aa37593e4e231c1d7e63e88b2e91262274d276406a684f38a5cd99ae4
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-core-2.21.2-sbom-cyclonedx.json
+outputs.3.length=4737
+outputs.3.checksums.sha512=48bd8dacb88bcff56ec23b7aedb1a65b6dc0fac66ef0414464ad93fa0aa3b380eee402363cce1edae0ac5e0594dbb802cbe69eeba079db5130545a65cb92c2ea
+
+outputs.4.groupId=com.fasterxml.jackson.core
+outputs.4.filename=jackson-core-2.21.2.module
+outputs.4.length=2426
+outputs.4.checksums.sha512=85588227378c5fd5b65cb2408e7ee1cb85f91e84e1377340a1ad8990a82cd8d54dd1b6648a1f34f0b7c54df1eaf2e6b1536ab624a0756a03d83a8673fc16259c
+
+outputs.5.groupId=com.fasterxml.jackson.core
+outputs.5.filename=jackson-core-2.21.2-sources.jar
+outputs.5.length=497977
+outputs.5.checksums.sha512=b2335c79b1d177b9733ae319441e5e9e45dbf3a99b40c736120649fcb7587ac540ceec8bdf07e1c2664a2567394a54ae36d6abdedf736fe80b6c8f55a9945daa
