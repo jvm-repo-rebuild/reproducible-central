@@ -19,14 +19,14 @@ Source code: [https://github.com/apache/creadur-rat.git](https://github.com/apac
 * [org.apache.rat:apache-rat-tools](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-tools/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.rat:apache-rat-project:
+rebuilding **6 releases** of org.apache.rat:apache-rat-project:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.18](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.18/pom) | | | |
+| [0.18](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.18/pom) | [mvn jdk25](apache-rat-0.18.buildspec) | [result](apache-rat-project-0.18.buildinfo): [7 :white_check_mark:  18 :warning:](apache-rat-project-0.18.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RAT-536) | 8 :recycle: 6 :rotating_light: 4 :no_entry_sign: | 73M |
 | [0.17](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.17/pom) | [mvn jdk16](apache-rat-0.17.buildspec) | [result](apache-rat-project-0.17.buildinfo): [7 :white_check_mark:  18 :warning:](apache-rat-project-0.17.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RAT-536) | 8 :recycle: 6 :rotating_light: 4 :no_entry_sign: | 73M |
 | [0.16.1](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16.1/pom) | [mvn jdk16](apache-rat-0.16.1.buildspec) | [result](apache-rat-project-0.16.1.buildinfo): [20 :white_check_mark: ](apache-rat-project-0.16.1.buildcompare) | | 22M |
 | [0.16](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16/pom) | [mvn jdk16](apache-rat-0.16.buildspec) | [result](apache-rat-project-0.16.buildinfo): [23 :white_check_mark: ](apache-rat-project-0.16.buildcompare) | | 17M |
