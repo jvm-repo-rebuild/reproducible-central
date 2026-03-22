@@ -22,8 +22,9 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260321194915 --> [jdbi3-root](../content/org/jdbi/README.md) | [3.51.0](../content/org/jdbi/jdbi3-root-3.51.0.buildspec) :white_check_mark: | [3.52.0](../content/org/jdbi/jdbi3-root-3.52.0.buildspec) | `bin/add-new-release.sh content/org/jdbi/jdbi3-root-3.51.0.buildspec 3.52.0` |
-| <!-- 20260320140915 --> [bom-newest](../content/com/intellectualsites/bom/bom-newest/README.md) | [1.55](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.55.buildspec) :white_check_mark: | [1.56](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.56.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/bom/bom-newest/bom-newest-1.55.buildspec 1.56` |
+| <!-- 20260322193717 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.3.24](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.24.buildspec) :white_check_mark: | [5.3.25](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.25.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.24.buildspec 5.3.25` |
+| <!-- 20260322015030 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.3.0.Final](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.3.0.Final.buildspec) :white_check_mark: | 4.2.7.Final 4.1.13.Final 3.3.1.Final 3.2.7.Final 3.1.15.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.3.0.Final.buildspec ...` |
+| <!-- 20260322002723 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | [8.0.0.Alpha1](../content/org/hibernate/orm/hibernate-core/hibernate-core-8.0.0.Alpha1.buildspec) :white_check_mark: | 7.1.20.Final  | `bin/add-new-release.sh content/org/hibernate/orm/hibernate-core/hibernate-core-8.0.0.Alpha1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 Apache Release Candidate in Staging https://repository.apache.org
