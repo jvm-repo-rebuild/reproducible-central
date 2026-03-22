@@ -1,0 +1,14 @@
+name=com.intellectualsites.bom:bom-newest
+group-id=com.intellectualsites.bom
+artifact-id=bom-newest
+
+build-tool=gradle
+java.version=17
+os.name=lf
+
+outputs.1.coordinates=com.intellectualsites.bom:bom-newest
+
+outputs.1.0.filename=bom-newest-1.56.pom
+outputs.1.0.length=4949
+outputs.1.0.checksums.sha512=f793fdf6f2b95062ea70297dda2983d6cb746f62a10e2eff36c104ef6dd4a7f77478056a0504d0993e921a0ed86f4cbc1736d2f4dff8654da26fe837574ad616
+
