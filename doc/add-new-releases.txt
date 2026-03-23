@@ -1,3 +1,4 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.24.buildspec:5.3.25
+content/io/airlift/airbase/airbase-363.buildspec:364
+content/io/avaje/inject/avaje-inject-12.5-RC5.buildspec:12.5-RC6

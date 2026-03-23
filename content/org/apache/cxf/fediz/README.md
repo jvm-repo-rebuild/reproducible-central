@@ -66,6 +66,7 @@ rebuilding **5 releases** of org.apache.cxf.fediz:fediz:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7.2](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.2/pom) | | | |
 | [1.7.1](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.1/pom) | [mvn jdk11](fediz-1.7.1.buildspec) | [result](fediz-1.7.1.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.7.1.buildcompare) | - | 700M |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.0/pom) | [mvn jdk11](fediz-1.7.0.buildspec) | [result](fediz-1.7.0.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.7.0.buildcompare) | - | 699M |
 | [1.6.2](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.2/pom) | [mvn jdk8](fediz-1.6.2.buildspec) | [result](fediz-1.6.2.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.6.2.buildcompare) | - | 685M |
