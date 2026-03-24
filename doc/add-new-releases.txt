@@ -1,4 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-363.buildspec:364
-content/io/avaje/inject/avaje-inject-12.5-RC5.buildspec:12.5-RC6
+content/io/airlift/airbase/airbase-364.buildspec:365
+content/org/apache/activemq/activemq-6.2.1.buildspec:6.2.2
+content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
