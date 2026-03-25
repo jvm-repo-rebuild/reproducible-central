@@ -3,8 +3,8 @@
   <groupId>eu.maveniverse.maven.nisse</groupId>
   <artifactId>nisse</artifactId>
   <versioning>
-    <latest>0.7.0</latest>
-    <release>0.7.0</release>
+    <latest>0.8.0</latest>
+    <release>0.8.0</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -29,7 +29,8 @@
       <version>0.6.2</version>
       <version>0.6.3</version>
       <version>0.7.0</version>
+      <version>0.8.0</version>
     </versions>
-    <lastUpdated>20251219134528</lastUpdated>
+    <lastUpdated>20260325200756</lastUpdated>
   </versioning>
 </metadata>

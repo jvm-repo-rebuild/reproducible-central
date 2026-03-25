@@ -1,5 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-364.buildspec:365
-content/org/apache/activemq/activemq-6.2.1.buildspec:6.2.2
+content/biz/aQute/bnd/plugins/bnd-plugins-7.2.1.buildspec:7.2.3
+content/eu/maveniverse/maven/nisse/nisse-0.7.0.buildspec:0.8.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
+content/org/metricshub/jflat/jflat-1.0.02.buildspec:1.1.00

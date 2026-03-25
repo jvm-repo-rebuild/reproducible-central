@@ -3,11 +3,12 @@
   <groupId>org.metricshub</groupId>
   <artifactId>jflat</artifactId>
   <versioning>
-    <latest>1.0.02</latest>
-    <release>1.0.02</release>
+    <latest>1.1.00</latest>
+    <release>1.1.00</release>
     <versions>
       <version>1.0.02</version>
+      <version>1.1.00</version>
     </versions>
-    <lastUpdated>20250403124416</lastUpdated>
+    <lastUpdated>20260325104153</lastUpdated>
   </versioning>
 </metadata>
