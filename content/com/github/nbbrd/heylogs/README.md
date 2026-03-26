@@ -24,14 +24,14 @@ Source code: [https://github.com/nbbrd/heylogs.git](https://github.com/nbbrd/hey
 * [com.github.nbbrd.heylogs:heylogs-parent](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/overview)
 </details>
 
-rebuilding **13 releases** of com.github.nbbrd.heylogs:heylogs-parent:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of com.github.nbbrd.heylogs:heylogs-parent:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.16.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.1/pom) | [mvn jdk21](heylogs-0.16.1.buildspec) | [result](heylogs-parent-0.16.1.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.16.1.buildcompare) | | 3.8M |
-| [0.16.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.0/pom) | | | |
+| [0.16.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.0/pom) | [mvn jdk21](heylogs-0.16.0.buildspec) | [result](heylogs-parent-0.16.0.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.16.0.buildcompare) | | 3.8M |
 | [0.15.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.15.0/pom) | [mvn jdk21](heylogs-0.15.0.buildspec) | [result](heylogs-parent-0.15.0.buildinfo): [34 :white_check_mark: ](heylogs-parent-0.15.0.buildcompare) | | 3.3M |
 | [0.14.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.14.1/pom) | [mvn jdk21](heylogs-0.14.1.buildspec) | [result](heylogs-parent-0.14.1.buildinfo): [31 :white_check_mark: ](heylogs-parent-0.14.1.buildcompare) | | 3.3M |
 | [0.14.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.14.0/pom) | [mvn jdk21](heylogs-0.14.0.buildspec) | [result](heylogs-parent-0.14.0.buildinfo): [31 :white_check_mark: ](heylogs-parent-0.14.0.buildcompare) | | 3.3M |
