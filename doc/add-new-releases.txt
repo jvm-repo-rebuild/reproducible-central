@@ -1,6 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/biz/aQute/bnd/plugins/bnd-plugins-7.2.1.buildspec:7.2.3
-content/eu/maveniverse/maven/nisse/nisse-0.7.0.buildspec:0.8.0
+content/com/github/nbbrd/heylogs/heylogs-0.15.0.buildspec:0.16.1
+content/eu/europa/ted/eforms/eforms-core-java/eforms-core-java-1.5.0.buildspec:1.6.0
+content/eu/europa/ted/eforms/eforms-sdk/eforms-sdk-2.0.0-alpha.1.buildspec:2.0.0-alpha.2
+content/eu/maveniverse/maven/nisse/nisse-0.8.0.buildspec:0.8.1
+content/io/avaje/inject/avaje-inject-12.5-RC6.buildspec:12.5-RC7
+content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.29.buildspec:0.0.30
+content/io/telicent/jena/jena-kafka/jena-kafka-3.0.0.buildspec:3.0.1
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
-content/org/metricshub/jflat/jflat-1.0.02.buildspec:1.1.00

@@ -80,6 +80,7 @@ rebuilding **44 releases** of org.webjars:swagger-ui:
 | [5.0.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.0.0/pom) | [mvn jdk8](swagger-ui-5.0.0.buildspec) | [result](swagger-ui-5.0.0.buildinfo): [2 :white_check_mark: ](swagger-ui-5.0.0.buildcompare) | | 4.1M |
 | [4.19.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/4.19.1/pom) | [mvn jdk8](swagger-ui-4.19.1.buildspec) | [result](swagger-ui-4.19.1.buildinfo): [2 :white_check_mark: ](swagger-ui-4.19.1.buildcompare) | | 3.5M |
 | [4.19.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/4.19.0/pom) | [mvn jdk19](swagger-ui-4.19.0.buildspec) | [result](swagger-ui-4.19.0.buildinfo): [2 :white_check_mark: ](swagger-ui-4.19.0.buildcompare) | | 3.5M |
+| [4.18.3](https://central.sonatype.com/artifact/org.webjars/swagger-ui/4.18.3/pom) | | | |
 | [4.18.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/4.18.2/pom) | [mvn jdk8](swagger-ui-4.18.2.buildspec) | [result](swagger-ui-4.18.2.buildinfo): [2 :white_check_mark: ](swagger-ui-4.18.2.buildcompare) | | 3.5M |
 | [4.18.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/4.18.1/pom) | [mvn jdk8](swagger-ui-4.18.1.buildspec) | [result](swagger-ui-4.18.1.buildinfo): [2 :white_check_mark: ](swagger-ui-4.18.1.buildcompare) | | 3.5M |
 | [4.18.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/4.18.0/pom) | [mvn jdk8](swagger-ui-4.18.0.buildspec) | [result](swagger-ui-4.18.0.buildinfo): [2 :white_check_mark: ](swagger-ui-4.18.0.buildcompare) | | 3.5M |
