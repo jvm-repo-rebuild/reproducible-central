@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/nbbrd/heylogs.git](https://github.com/nbbrd/heylogs.git)
 
-<details><summary>This project defines 12 modules:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
 * [com.github.nbbrd.heylogs:heylogs-api](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-api/overview)
 * [com.github.nbbrd.heylogs:heylogs-bom](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-bom/overview)
@@ -17,19 +17,20 @@ Source code: [https://github.com/nbbrd/heylogs.git](https://github.com/nbbrd/hey
 * [com.github.nbbrd.heylogs:heylogs-ext-forgejo](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-ext-forgejo/overview)
 * [com.github.nbbrd.heylogs:heylogs-ext-github](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-ext-github/overview)
 * [com.github.nbbrd.heylogs:heylogs-ext-gitlab](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-ext-gitlab/overview)
+* [com.github.nbbrd.heylogs:heylogs-ext-http](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-ext-http/overview)
 * [com.github.nbbrd.heylogs:heylogs-ext-json](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-ext-json/overview)
 * [com.github.nbbrd.heylogs:heylogs-ext-semver](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-ext-semver/overview)
 * [com.github.nbbrd.heylogs:heylogs-maven-plugin](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-maven-plugin/overview)
 * [com.github.nbbrd.heylogs:heylogs-parent](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/overview)
 </details>
 
-rebuilding **12 releases** of com.github.nbbrd.heylogs:heylogs-parent:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of com.github.nbbrd.heylogs:heylogs-parent:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.16.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.1/pom) | | | |
+| [0.16.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.1/pom) | [mvn jdk21](heylogs-0.16.1.buildspec) | [result](heylogs-parent-0.16.1.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.16.1.buildcompare) | | 3.8M |
 | [0.16.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.0/pom) | | | |
 | [0.15.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.15.0/pom) | [mvn jdk21](heylogs-0.15.0.buildspec) | [result](heylogs-parent-0.15.0.buildinfo): [34 :white_check_mark: ](heylogs-parent-0.15.0.buildcompare) | | 3.3M |
 | [0.14.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.14.1/pom) | [mvn jdk21](heylogs-0.14.1.buildspec) | [result](heylogs-parent-0.14.1.buildinfo): [31 :white_check_mark: ](heylogs-parent-0.14.1.buildcompare) | | 3.3M |
