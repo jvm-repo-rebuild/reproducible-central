@@ -1,0 +1,20 @@
+1 / 1 target/reference/eu.europa.ted.eforms/eforms-core-java-1.6.0.jar target/eforms-core-java-1.6.0.jar
+--- target/reference/eu.europa.ted.eforms/eforms-core-java-1.6.0.jar
++++ target/eforms-core-java-1.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 218674 bytes, number of entries: 152
+│ +Zip file size: 218372 bytes, number of entries: 151
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-30 08:40 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Jul-30 08:40 META-INF/MANIFEST.MF
+│ @@ -28,15 +28,14 @@
+│  -rw-r--r--  2.0 unx    10960 b- defN 25-Jul-30 08:40 eu/europa/ted/eforms/sdk/component/SdkComponentFactory.class
+│  -rw-r--r--  2.0 unx     1841 b- defN 25-Jul-30 08:40 eu/europa/ted/eforms/sdk/component/SdkComponentType.class
+│ --rw-r--r--  2.0 unx      140 b- defN 25-Jul-30 08:40 eu/europa/ted/eforms/sdk/component/package-info.class
+│  -rw-r--r--  2.0 unx     1130 b- defN 25-Jul-30 08:40 eu/europa/ted/eforms/sdk/domain/codelist/CodelistForIndex.class
+│  -rw-r--r--  2.0 unx      777 b- defN 25-Jul-30 08:40 eu/europa/ted/eforms/sdk/domain/codelist/CodelistsIndex.class
+│ @@ -147,8 +146,8 @@
+│  -rw-r--r--  2.0 unx    19177 b- defN 25-Jul-30 08:40 META-INF/maven/eu.europa.ted.eforms/eforms-core-java/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 25-Jul-30 08:40 META-INF/maven/eu.europa.ted.eforms/eforms-core-java/pom.properties
+│ -152 files, 523000 bytes uncompressed, 190504 bytes compressed:  63.6%
+│ +151 files, 522860 bytes uncompressed, 190384 bytes compressed:  63.6%
