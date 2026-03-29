@@ -1,0 +1,39 @@
+version=2.0.1
+ok=12
+ko=26
+ignored=0
+okFiles="com.io7m.xstructural-2.0.1.pom com.io7m.xstructural-2.0.1-cyclonedx.xml com.io7m.xstructural.api-2.0.1.pom com.io7m.xstructural.api-2.0.1-cyclonedx.xml com.io7m.xstructural.xml_resources-2.0.1.pom com.io7m.xstructural.xml_resources-2.0.1-cyclonedx.xml com.io7m.xstructural.vanilla-2.0.1.pom com.io7m.xstructural.cmdline-2.0.1.pom com.io7m.xstructural.maven_plugin-2.0.1.pom com.io7m.xstructural.maven_plugin-2.0.1.jar com.io7m.xstructural.documentation-2.0.1.pom com.io7m.xstructural.tests-2.0.1.pom"
+koFiles="com.io7m.xstructural.api-2.0.1.jar com.io7m.xstructural.api-2.0.1-sources.jar com.io7m.xstructural.api-2.0.1-tests.jar com.io7m.xstructural.xml_resources-2.0.1.jar com.io7m.xstructural.xml_resources-2.0.1-sources.jar com.io7m.xstructural.xml_resources-2.0.1-tests.jar com.io7m.xstructural.vanilla-2.0.1.jar com.io7m.xstructural.vanilla-2.0.1-sources.jar com.io7m.xstructural.vanilla-2.0.1-cyclonedx.xml com.io7m.xstructural.vanilla-2.0.1-tests.jar com.io7m.xstructural.cmdline-2.0.1.jar com.io7m.xstructural.cmdline-2.0.1-sources.jar com.io7m.xstructural.cmdline-2.0.1-main.jar com.io7m.xstructural.cmdline-2.0.1-cyclonedx.xml com.io7m.xstructural.cmdline-2.0.1-tests.jar com.io7m.xstructural.maven_plugin-2.0.1-sources.jar com.io7m.xstructural.maven_plugin-2.0.1-cyclonedx.xml com.io7m.xstructural.maven_plugin-2.0.1-tests.jar com.io7m.xstructural.documentation-2.0.1.jar com.io7m.xstructural.documentation-2.0.1-sources.jar com.io7m.xstructural.documentation-2.0.1-cyclonedx.xml com.io7m.xstructural.documentation-2.0.1-tests.jar com.io7m.xstructural.tests-2.0.1.jar com.io7m.xstructural.tests-2.0.1-sources.jar com.io7m.xstructural.tests-2.0.1-cyclonedx.xml com.io7m.xstructural.tests-2.0.1-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.api-2.0.1.jar com.io7m.xstructural.api/target/com.io7m.xstructural.api-2.0.1.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.api-2.0.1-sources.jar com.io7m.xstructural.api/target/com.io7m.xstructural.api-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.api-2.0.1-tests.jar com.io7m.xstructural.api/target/com.io7m.xstructural.api-2.0.1-tests.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.xml_resources-2.0.1.jar com.io7m.xstructural.xml_resources/target/com.io7m.xstructural.xml_resources-2.0.1.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.xml_resources-2.0.1-sources.jar com.io7m.xstructural.xml_resources/target/com.io7m.xstructural.xml_resources-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.xml_resources-2.0.1-tests.jar com.io7m.xstructural.xml_resources/target/com.io7m.xstructural.xml_resources-2.0.1-tests.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.vanilla-2.0.1.jar com.io7m.xstructural.vanilla/target/com.io7m.xstructural.vanilla-2.0.1.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.vanilla-2.0.1-sources.jar com.io7m.xstructural.vanilla/target/com.io7m.xstructural.vanilla-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.vanilla-2.0.1-cyclonedx.xml com.io7m.xstructural.vanilla/target/bom.xml
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.vanilla-2.0.1-tests.jar com.io7m.xstructural.vanilla/target/com.io7m.xstructural.vanilla-2.0.1-tests.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.cmdline-2.0.1.jar com.io7m.xstructural.cmdline/target/com.io7m.xstructural.cmdline-2.0.1.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.cmdline-2.0.1-sources.jar com.io7m.xstructural.cmdline/target/com.io7m.xstructural.cmdline-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.cmdline-2.0.1-main.jar com.io7m.xstructural.cmdline/target/com.io7m.xstructural.cmdline-2.0.1-main.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.cmdline-2.0.1-cyclonedx.xml com.io7m.xstructural.cmdline/target/bom.xml
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.cmdline-2.0.1-tests.jar com.io7m.xstructural.cmdline/target/com.io7m.xstructural.cmdline-2.0.1-tests.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.maven_plugin-2.0.1-sources.jar com.io7m.xstructural.maven_plugin/target/com.io7m.xstructural.maven_plugin-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.maven_plugin-2.0.1-cyclonedx.xml com.io7m.xstructural.maven_plugin/target/bom.xml
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.maven_plugin-2.0.1-tests.jar com.io7m.xstructural.maven_plugin/target/com.io7m.xstructural.maven_plugin-2.0.1-tests.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.documentation-2.0.1.jar com.io7m.xstructural.documentation/target/com.io7m.xstructural.documentation-2.0.1.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.documentation-2.0.1-sources.jar com.io7m.xstructural.documentation/target/com.io7m.xstructural.documentation-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.documentation-2.0.1-cyclonedx.xml com.io7m.xstructural.documentation/target/bom.xml
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.documentation-2.0.1-tests.jar com.io7m.xstructural.documentation/target/com.io7m.xstructural.documentation-2.0.1-tests.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.tests-2.0.1.jar com.io7m.xstructural.tests/target/com.io7m.xstructural.tests-2.0.1.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.tests-2.0.1-sources.jar com.io7m.xstructural.tests/target/com.io7m.xstructural.tests-2.0.1-sources.jar
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.tests-2.0.1-cyclonedx.xml com.io7m.xstructural.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.xstructural/com.io7m.xstructural.tests-2.0.1-tests.jar com.io7m.xstructural.tests/target/com.io7m.xstructural.tests-2.0.1-tests.jar
+stabilize_ok=15
+stabilize_ko=6
+stabilize_ignored=5
+stabilize_okFiles="com.io7m.xstructural.api-2.0.1-sources.jar.stabilized com.io7m.xstructural.api-2.0.1-tests.jar.stabilized com.io7m.xstructural.xml_resources-2.0.1-sources.jar.stabilized com.io7m.xstructural.xml_resources-2.0.1-tests.jar.stabilized com.io7m.xstructural.vanilla-2.0.1-sources.jar.stabilized com.io7m.xstructural.vanilla-2.0.1-tests.jar.stabilized com.io7m.xstructural.cmdline-2.0.1-sources.jar.stabilized com.io7m.xstructural.cmdline-2.0.1-tests.jar.stabilized com.io7m.xstructural.maven_plugin-2.0.1-sources.jar.stabilized com.io7m.xstructural.maven_plugin-2.0.1-tests.jar.stabilized com.io7m.xstructural.documentation-2.0.1.jar.stabilized com.io7m.xstructural.documentation-2.0.1-sources.jar.stabilized com.io7m.xstructural.documentation-2.0.1-tests.jar.stabilized com.io7m.xstructural.tests-2.0.1-sources.jar.stabilized com.io7m.xstructural.tests-2.0.1-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.xstructural.api-2.0.1.jar.stabilized com.io7m.xstructural.xml_resources-2.0.1.jar.stabilized com.io7m.xstructural.vanilla-2.0.1.jar.stabilized com.io7m.xstructural.cmdline-2.0.1.jar.stabilized com.io7m.xstructural.cmdline-2.0.1-main.jar.stabilized com.io7m.xstructural.tests-2.0.1.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.xstructural.vanilla-2.0.1-cyclonedx.xml com.io7m.xstructural.cmdline-2.0.1-cyclonedx.xml com.io7m.xstructural.maven_plugin-2.0.1-cyclonedx.xml com.io7m.xstructural.documentation-2.0.1-cyclonedx.xml com.io7m.xstructural.tests-2.0.1-cyclonedx.xml"
