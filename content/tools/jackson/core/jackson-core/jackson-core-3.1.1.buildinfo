@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=tools.jackson.core
+artifact-id=jackson-core
+version=3.1.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/FasterXML/jackson-core.git
+source.scm.tag=jackson-core-3.1.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1008-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-core-3.1.1.pom
+outputs.0.length=11443
+outputs.0.checksums.sha512=29335383a542ccdc245980e5cc203cb0d77c7d4b695234cf4c10c57b421e02f377f28a1e6fe57c54e7c0d4485a2dd892edda6d51805722054b91b341b1108baa
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-core-3.1.1.jar
+outputs.1.length=600613
+outputs.1.checksums.sha512=2dbf82f140428312b8ac9e8b3b2e74843f6923d7cef563161dbfe4ea93fd52cdc4943347e0ab7f6e3ec419e933fe3ea724a5a45ac3ba7fe696f85f104779cb20
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-core-3.1.1-sbom-cyclonedx.xml
+outputs.2.length=5150
+outputs.2.checksums.sha512=a188a2d9ac98b96e5e4b3bcd1f3040a81f0740b813733de36055137b34d8095546e54ad530e9d20086b1a388a9dfd9894dc3c319d7346c8258288718cb7f2d19
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-core-3.1.1-sbom-cyclonedx.json
+outputs.3.length=5780
+outputs.3.checksums.sha512=22c64cd66457b90f7718fbe00b3efad7e8d7e4318c139509e8355ef3349eaa0fae001635fe4867d2a55bc4b4241e914fee5bf509d34854c8af4a98874b3cfbb6
+
+outputs.4.groupId=tools.jackson.core
+outputs.4.filename=jackson-core-3.1.1.module
+outputs.4.length=2395
+outputs.4.checksums.sha512=2ff96a4f385326429825f4e6b6f5c5cdde3671dc16ff1688f7da80de2b186432156ad8e494b8b68de637373cb4cefe45fb9daf6e75d16e7bb07b0616b83c5e0e
+
+outputs.5.groupId=tools.jackson.core
+outputs.5.filename=jackson-core-3.1.1-sources.jar
+outputs.5.length=486441
+outputs.5.checksums.sha512=51f9db32753da3a652471cc9b9dd5b4f1b071397bbdde44aedadb2d0e4d6b0a3e7d2cdc18867b574e7411e0879d4d8329b820c14ae6ccdb315358c9b720e8d8e
