@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/fusesource/jansi.git](https://github.com/fusesource/jansi.git)
 
-rebuilding **10 releases** of org.fusesource.jansi:jansi:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.fusesource.jansi:jansi:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.4.3](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.3/pom) | | | |
+| [2.4.3](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.3/pom) | [mvn jdk21](jansi-2.4.3.buildspec) | [result](jansi-2.4.3.buildinfo): [3 :white_check_mark: ](jansi-2.4.3.buildcompare) | | 486K |
 | [2.4.2](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.2/pom) | [mvn jdk11](jansi-2.4.2.buildspec) | [result](jansi-2.4.2.buildinfo): [2 :white_check_mark:  1 :warning:](jansi-2.4.2.buildcompare) [:memo:](https://github.com/fusesource/jansi/pull/303) | - | 484K |
 | [2.4.1](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.1/pom) | [mvn jdk11](jansi-2.4.1.buildspec) | [result](jansi-2.4.1.buildinfo): [2 :white_check_mark:  1 :warning:](jansi-2.4.1.buildcompare) [:mag:](jansi-2.4.1.diffoscope) [:memo:](https://github.com/fusesource/jansi/pull/303) | - | 485K |
 | [2.4.0](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.0/pom) | [mvn jdk11](jansi-2.4.0.buildspec) | [result](jansi-2.4.0.buildinfo): [3 :white_check_mark: ](jansi-2.4.0.buildcompare) | | 413K |

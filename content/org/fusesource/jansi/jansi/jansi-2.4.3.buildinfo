@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jansi
+group-id=org.fusesource.jansi
+artifact-id=jansi
+version=2.4.3
+
+# source information
+source.scm.uri=scm:git:git://github.com/fusesource/jansi.git
+source.scm.tag=jansi-2.4.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1008-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.fusesource.jansi
+outputs.0.filename=jansi-2.4.3.pom
+outputs.0.length=17496
+outputs.0.checksums.sha512=27b8932079fa1541bf00c0394492e1017519076e300c272d97618dea891119f9b7dc51d02d3777066c7a0497fb4904749753510f5ed7b3f31e78e0de962d5058
+
+outputs.1.groupId=org.fusesource.jansi
+outputs.1.filename=jansi-2.4.3.jar
+outputs.1.length=258321
+outputs.1.checksums.sha512=4f4f1f39de3226a8f6ca177ebc09b3d2c58c1d73b8ddbabcec79db902f7ac1ddca69cea153bf313c3aae09e2067f7647288000c3610679dffe4eaf974b4189a9
+
+outputs.2.groupId=org.fusesource.jansi
+outputs.2.filename=jansi-2.4.3-sources.jar
+outputs.2.length=221300
+outputs.2.checksums.sha512=4baf51364e66efafa22077e1b2ee06543fe3f7199bb63ca1a66515b5acf3221201717e117f1fac3b6ab6bbedad04d1a928b230dad380056684ab586305949dca
