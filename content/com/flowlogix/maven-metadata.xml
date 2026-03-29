@@ -3,8 +3,8 @@
   <groupId>com.flowlogix</groupId>
   <artifactId>flowlogix</artifactId>
   <versioning>
-    <latest>11.1.1</latest>
-    <release>11.1.1</release>
+    <latest>11.2</latest>
+    <release>11.2</release>
     <versions>
       <version>0.8.6</version>
       <version>0.8.7</version>
@@ -169,7 +169,8 @@
       <version>11</version>
       <version>11.1</version>
       <version>11.1.1</version>
+      <version>11.2</version>
     </versions>
-    <lastUpdated>20260318004522</lastUpdated>
+    <lastUpdated>20260328230314</lastUpdated>
   </versioning>
 </metadata>
