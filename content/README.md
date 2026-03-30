@@ -22,7 +22,7 @@ Reproducible Builds for Maven Central Repository
 | ch.qos.logback.access | [logback-access](../content/ch/qos/logback/access/README.md) | 13 | 13 :white_check_mark: |
 | ch.qos.logback.db | [logback-db](../content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
 | ch.vorburger.mariaDB4j | [mariaDB4j](../content/ch/vorburger/mariaDB4j/README.md) | 4 | 4 :white_check_mark: |
-| com.flowlogix | [flowlogix](../content/com/flowlogix/README.md) | 36 | 25 :white_check_mark: / 11 :warning: |
+| com.flowlogix | [flowlogix](../content/com/flowlogix/README.md) | 37 | 26 :white_check_mark: / 11 :warning: |
 | com.adobe.acs | [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 12 | 12 :warning: |
 | com.cognite.units | [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 25 | 17 :white_check_mark: / 8 :warning: |
 | com.corgibytes | [mrm](../content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
@@ -51,7 +51,7 @@ Reproducible Builds for Maven Central Repository
 | com.github.adangel.liquibase.ext | [liquibase-percona](../content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
 | com.github.ben-manes.caffeine | [caffeine](../content/com/github/ben-manes/caffeine/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | com.github.hazendaz.7zip | [7zip](../content/com/github/hazendaz/7zip/README.md) | 9 | 9 :white_check_mark: |
-| com.github.hazendaz | [base-parent](../content/com/github/hazendaz/base-parent/README.md) | 26 | 26 :white_check_mark: |
+| com.github.hazendaz | [base-parent](../content/com/github/hazendaz/base-parent/README.md) | 27 | 27 :white_check_mark: |
 | com.github.hazendaz.* | [catch-exception](../content/com/github/hazendaz/catch-exception/README.md) | 5 | 5 :white_check_mark: |
 | com.github.hazendaz | [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | 25 | 22 :white_check_mark: / 3 :warning: |
 | | [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 15 | 15 :warning: |
@@ -215,7 +215,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.verona](../content/com/io7m/verona/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [*.wendover](../content/com/io7m/wendover/README.md) | 6 | 6 :white_check_mark: |
 | | [*.xoanon](../content/com/io7m/xoanon/README.md) | 7 | 7 :white_check_mark: |
-| | [*.xstructural](../content/com/io7m/xstructural/README.md) | 8 | 8 :white_check_mark: |
+| | [*.xstructural](../content/com/io7m/xstructural/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | | [*.zelador](../content/com/io7m/zelador/README.md) | 2 | 2 :white_check_mark: |
 | com.newmediaworks | [nmw-oss-parent](../content/com/newmediaworks/nmw-oss-parent/README.md) | 10 | 10 :white_check_mark: |
 | com.ongres | [scram](../content/com/ongres/scram/README.md) | 2 | 2 :white_check_mark: |
@@ -542,7 +542,7 @@ Reproducible Builds for Maven Central Repository
 | | [karaf](../content/org/apache/karaf/karaf/README.md) | 12 | 12 :warning: |
 | org.apache.karaf.minho | [minho](../content/org/apache/karaf/minho/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.logging | [logging-parent](../content/org/apache/logging/parent/README.md) | 20 | 19 :white_check_mark: / 1 :warning: |
-| org.apache.logging.log4j | [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 23 | 14 :white_check_mark: / 9 :warning: |
+| org.apache.logging.log4j | [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 24 | 15 :white_check_mark: / 9 :warning: |
 | | [log4j-jmx-gui](../content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :white_check_mark: |
 | | [log4j-tools-bom](../content/org/apache/logging/log4j/tools/README.md) | 9 | 9 :white_check_mark: |
 | | [log4j-transform-bom](../content/org/apache/logging/log4j/transform/README.md) | 2 | 2 :white_check_mark: |
@@ -969,7 +969,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 23 | 3 :white_check_mark: / 20 :warning: |
-| **Count:** | **955** | **10522** | **7697** :white_check_mark:<br>**2825** :warning: |
+| **Count:** | **955** | **10526** | **7700** :white_check_mark:<br>**2826** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1060,7 +1060,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.12   8
      18 mvn-3.9.12  11
      25 mvn-3.9.12  17
-     99 mvn-3.9.12  21
+    100 mvn-3.9.12  21
      26 mvn-3.9.12  25
       1 mvn-3.9.13  17
       1 mvn-3.9.13  25
@@ -1092,7 +1092,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-    196 mvn-3.9.3  21
+    197 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       8 mvn-3.9.3  22
      11 mvn-3.9.3  25
@@ -1126,7 +1126,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      18 mvn-3.9.8   8
      31 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    256 mvn-3.9.8  17
+    257 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
     102 mvn-3.9.8  21
      47 mvn-3.9.8  22
@@ -1167,7 +1167,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-4.0.0-rc-4  24
      10 mvn-4.0.0-rc-4  25
       1 mvn-4.0.0-rc-5  22
-      3 mvn-4.0.0-rc-5  25
+      4 mvn-4.0.0-rc-5  25
       2 sbt         8
 ```
 <!-- END GENERATED STATS -->

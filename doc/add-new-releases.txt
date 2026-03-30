@@ -1,6 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/flowlogix/flowlogix-11.1.1.buildspec:11.2
-content/com/github/hazendaz/base-parent/base-parent-57.buildspec:58
-content/com/io7m/xstructural/com.io7m.xstructural-1.9.0.buildspec:2.0.1
+content/io/airlift/airbase/airbase-365.buildspec:366
+content/org/apache/activemq/activemq-6.2.2.buildspec:6.2.3
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
+content/org/metricshub/community-connectors/community-connectors-1.0.19.buildspec:1.0.20
