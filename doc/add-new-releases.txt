@@ -1,6 +1,4 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-365.buildspec:366
-content/org/apache/activemq/activemq-6.2.2.buildspec:6.2.3
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.14.3-beta-1.buildspec:5.15.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
-content/org/metricshub/community-connectors/community-connectors-1.0.19.buildspec:1.0.20
