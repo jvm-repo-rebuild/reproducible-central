@@ -1,4 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.14.3-beta-1.buildspec:5.15.0
+content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-0.14.buildspec:1.0
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.7.buildspec:0.13.0
+content/io/avaje/jsonb/avaje-jsonb-3.12-RC1.buildspec:3.12-RC2
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0

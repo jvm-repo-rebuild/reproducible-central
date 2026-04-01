@@ -22,6 +22,7 @@ rebuilding **11 releases** of com.github.seregamorph:maven-turbo-builder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/1.0/pom) | | | |
 | [0.14](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.14/pom) | [mvn jdk17](maven-turbo-builder-0.14.buildspec) | [result](maven-turbo-builder-0.14.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.14.buildcompare) | | 47K |
 | [0.13](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.13/pom) | [mvn jdk17](maven-turbo-builder-0.13.buildspec) | [result](maven-turbo-builder-0.13.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.13.buildcompare) | | 47K |
 | [0.12](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.12/pom) | [mvn jdk17](maven-turbo-builder-0.12.buildspec) | [result](maven-turbo-builder-0.12.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.12.buildcompare) | | 46K |

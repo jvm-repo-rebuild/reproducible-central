@@ -130,6 +130,8 @@
       <version>3.2.5.Final</version>
       <version>3.2.6.Final</version>
       <version>3.2.7.Final</version>
+      <version>3.2.8.Final</version>
+      <version>3.2.9.Final</version>
       <version>3.3.0.CR1</version>
       <version>3.3.0.Final</version>
       <version>3.3.1.Final</version>
@@ -160,9 +162,11 @@
       <version>4.2.5.Final</version>
       <version>4.2.6.Final</version>
       <version>4.2.7.Final</version>
+      <version>4.2.8.Final</version>
+      <version>4.2.9.Final</version>
       <version>4.3.0.CR1</version>
       <version>4.3.0.Final</version>
     </versions>
-    <lastUpdated>20260322015030</lastUpdated>
+    <lastUpdated>20260401171320</lastUpdated>
   </versioning>
 </metadata>
