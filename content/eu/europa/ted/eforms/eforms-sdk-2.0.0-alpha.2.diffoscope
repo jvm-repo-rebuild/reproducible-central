@@ -1,0 +1,26 @@
+1 / 1 target/reference/eu.europa.ted.eforms/eforms-sdk-2.0.0-alpha.2.jar target/eforms-sdk-2.0.0-alpha.2.jar
+--- target/reference/eu.europa.ted.eforms/eforms-sdk-2.0.0-alpha.2.jar
++++ target/eforms-sdk-2.0.0-alpha.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 20106828 bytes, number of entries: 1376
+│ +Zip file size: 20106823 bytes, number of entries: 1376
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-18 08:05 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Feb-18 08:05 META-INF/MANIFEST.MF
+│ @@ -29,15 +29,15 @@
+│  -rw-r--r--  2.0 unx    18657 b- defN 25-Feb-18 08:05 eforms-sdk/LICENSE
+│  -rw-r--r--  2.0 unx     1100 b- defN 25-Feb-18 08:05 eforms-sdk/README.md
+│ --rw-r--r--  2.0 unx       18 b- defN 25-Feb-18 08:05 eforms-sdk/VERSION
+│ +-rw-r--r--  2.0 unx       13 b- defN 25-Feb-18 08:05 eforms-sdk/VERSION
+│  -rw-r--r--  2.0 unx      589 b- defN 25-Feb-18 08:05 eforms-sdk/codelists/README.md
+│  -rw-r--r--  2.0 unx    20524 b- defN 25-Feb-18 08:05 eforms-sdk/codelists/accessibility.gc
+│ @@ -1371,8 +1371,8 @@
+│  -rw-r--r--  2.0 unx     8771 b- defN 25-Feb-18 08:05 META-INF/maven/eu.europa.ted.eforms/eforms-sdk/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 25-Feb-18 08:05 META-INF/maven/eu.europa.ted.eforms/eforms-sdk/pom.properties
+│ -1376 files, 178185228 bytes uncompressed, 19873046 bytes compressed:  88.8%
+│ +1376 files, 178185223 bytes uncompressed, 19873041 bytes compressed:  88.8%
+├── eforms-sdk/VERSION
+│ @@ -1 +1 @@
+│ -${project.version}
+│ +2.0.0-alpha.2
+
