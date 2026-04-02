@@ -42,6 +42,7 @@ rebuilding **25 releases** of org.jline:jline:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.10](https://central.sonatype.com/artifact/org.jline/jline/4.0.10/pom) | | | |
 | [4.0.9](https://central.sonatype.com/artifact/org.jline/jline/4.0.9/pom) | | | |
 | [4.0.8](https://central.sonatype.com/artifact/org.jline/jline/4.0.8/pom) | | | |
 | [4.0.7](https://central.sonatype.com/artifact/org.jline/jline/4.0.7/pom) | | | |

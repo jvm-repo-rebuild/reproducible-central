@@ -1,6 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-0.14.buildspec:1.0
 content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.7.buildspec:0.13.0
-content/io/avaje/jsonb/avaje-jsonb-3.12-RC1.buildspec:3.12-RC2
+content/eu/maveniverse/maven/mase/mase/mase-1.0.2.buildspec:1.1.0
+content/io/airlift/airbase/airbase-366.buildspec:367
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.7.buildspec:12.1.8
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
