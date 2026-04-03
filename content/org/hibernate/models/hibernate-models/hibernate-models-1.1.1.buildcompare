@@ -1,0 +1,12 @@
+version=1.1.1
+ok=8
+ko=1
+okFiles="hibernate-models-bytebuddy-1.1.1-sources.jar hibernate-models-bytebuddy-1.1.1.jar hibernate-models-bytebuddy-1.1.1.pom hibernate-models-jandex-1.1.1-sources.jar hibernate-models-jandex-1.1.1.jar hibernate-models-jandex-1.1.1.pom hibernate-models-1.1.1-sources.jar hibernate-models-1.1.1.pom"
+koFiles="hibernate-models-1.1.1.jar"
+# diffoscope central/org/hibernate/models/hibernate-models/1.1.1/hibernate-models-1.1.1.jar repository/org/hibernate/models/hibernate-models/1.1.1/hibernate-models-1.1.1.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="hibernate-models-1.1.1.jar.stabilized"
+stabilize_ignoredFiles=""
