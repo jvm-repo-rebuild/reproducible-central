@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/domtrip.git](https://github.com/mav
 * [eu.maveniverse.maven.domtrip:domtrip-website](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-website/overview)
 </details>
 
-rebuilding **7 releases** of eu.maveniverse.maven.domtrip:domtrip:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of eu.maveniverse.maven.domtrip:domtrip:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.0.0/pom) | | | |
+| [1.0.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.0.0/pom) | [mvn jdk21](domtrip-1.0.0.buildspec) | [result](domtrip-1.0.0.buildinfo): [10 :white_check_mark: ](domtrip-1.0.0.buildcompare) | | 299K |
 | [0.6.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.6.0/pom) | [mvn jdk21](domtrip-0.6.0.buildspec) | [result](domtrip-0.6.0.buildinfo): [10 :white_check_mark: ](domtrip-0.6.0.buildcompare) | | 295K |
 | [0.5.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.5.0/pom) | [mvn jdk21](domtrip-0.5.0.buildspec) | [result](domtrip-0.5.0.buildinfo): [10 :white_check_mark: ](domtrip-0.5.0.buildcompare) | | 294K |
 | [0.4.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.4.1/pom) | [mvn jdk21](domtrip-0.4.1.buildspec) | [result](domtrip-0.4.1.buildinfo): [10 :white_check_mark: ](domtrip-0.4.1.buildcompare) | | 295K |
