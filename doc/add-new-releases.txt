@@ -1,9 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/flowlogix/flowlogix-11.2.buildspec:11.2.1
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.5.5.buildspec:3.5.7
+content/com/io7m/primogenitor/com.io7m.primogenitor-9.1.0.buildspec:9.2.0
 content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.7.buildspec:0.13.0
-content/eu/maveniverse/maven/domtrip/domtrip-0.6.0.buildspec:1.0.0
-content/eu/maveniverse/maven/nisse/nisse-0.8.1.buildspec:0.8.2
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.15.0.buildspec:5.15.1-beta-1
 content/org/codehaus/plexus/plexus-classworlds/plexus-classworlds-2.9.0.buildspec:2.10.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
