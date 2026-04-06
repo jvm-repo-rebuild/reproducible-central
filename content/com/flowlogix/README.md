@@ -24,6 +24,8 @@ rebuilding **38 releases** of com.flowlogix:flowlogix:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [11.2.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2.3/pom) | | | |
+| [11.2.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2.2/pom) | | | |
 | [11.2.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2.1/pom) | [mvn jdk25](flowlogix-11.2.1.buildspec) | [result](flowlogix-11.2.1.buildinfo): [14 :white_check_mark: ](flowlogix-11.2.1.buildcompare) | | 865K |
 | [11.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2/pom) | [mvn jdk25](flowlogix-11.2.buildspec) | [result](flowlogix-11.2.buildinfo): [14 :white_check_mark: ](flowlogix-11.2.buildcompare) | | 865K |
 | [11.1.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.1.1/pom) | [mvn jdk25](flowlogix-11.1.1.buildspec) | [result](flowlogix-11.1.1.buildinfo): [14 :white_check_mark: ](flowlogix-11.1.1.buildcompare) | | 831K |
