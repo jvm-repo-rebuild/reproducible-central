@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/hibernate/hibernate-reactive.git](https://github.com/hibernate/hibernate-reactive.git)
 
-rebuilding **81 releases** of org.hibernate.reactive:hibernate-reactive-core:
-- **81** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **82 releases** of org.hibernate.reactive:hibernate-reactive-core:
+- **82** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -63,7 +63,7 @@ rebuilding **81 releases** of org.hibernate.reactive:hibernate-reactive-core:
 | [3.2.0.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.2.0.Final/pom) | [gradle jdk17](hibernate-reactive-3.2.0.Final.buildspec) | [result](hibernate-reactive-core-3.2.0.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.2.0.Final.buildcompare) | | 2.0M |
 | [3.2.0.CR2](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.2.0.CR2/pom) | [gradle jdk17](hibernate-reactive-3.2.0.CR2.buildspec) | [result](hibernate-reactive-core-3.2.0.CR2.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.2.0.CR2.buildcompare) | | 2.0M |
 | [3.2.0.CR1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.2.0.CR1/pom) | [gradle jdk17](hibernate-reactive-3.2.0.CR1.buildspec) | [result](hibernate-reactive-core-3.2.0.CR1.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.2.0.CR1.buildcompare) | | 2.1M |
-| [3.1.16.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.1.16.Final/pom) | | | |
+| [3.1.16.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.1.16.Final/pom) | [gradle jdk17](hibernate-reactive-3.1.16.Final.buildspec) | [result](hibernate-reactive-core-3.1.16.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.1.16.Final.buildcompare) | | 2.0M |
 | [3.1.15.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.1.15.Final/pom) | [gradle jdk17](hibernate-reactive-3.1.15.Final.buildspec) | [result](hibernate-reactive-core-3.1.15.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.1.15.Final.buildcompare) | | 2.0M |
 | [3.1.14.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.1.14.Final/pom) | [gradle jdk17](hibernate-reactive-3.1.14.Final.buildspec) | [result](hibernate-reactive-core-3.1.14.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.1.14.Final.buildcompare) | | 2.0M |
 | [3.1.13.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.1.13.Final/pom) | [gradle jdk17](hibernate-reactive-3.1.13.Final.buildspec) | [result](hibernate-reactive-core-3.1.13.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.1.13.Final.buildcompare) | | 2.0M |
