@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/nifi-api.git](https://github.com/apache/nifi-api.git)
 
-rebuilding **8 releases** of org.apache.nifi:nifi-api:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.apache.nifi:nifi-api:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.8.0/pom) | | | |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.8.0/pom) | [mvn jdk21](nifi-api-2.8.0.buildspec) | [result](nifi-api-2.8.0.buildinfo): [4 :white_check_mark: ](nifi-api-2.8.0.buildcompare) | | 1.5M |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.7.0/pom) | [mvn jdk21](nifi-api-2.7.0.buildspec) | [result](nifi-api-2.7.0.buildinfo): [4 :white_check_mark: ](nifi-api-2.7.0.buildcompare) | | 1.5M |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.6.0/pom) | [mvn jdk21](nifi-api-2.6.0.buildspec) | [result](nifi-api-2.6.0.buildinfo): [4 :white_check_mark: ](nifi-api-2.6.0.buildcompare) | | 1.2M |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.5.0/pom) | [mvn jdk21](nifi-api-2.5.0.buildspec) | [result](nifi-api-2.5.0.buildinfo): [4 :white_check_mark: ](nifi-api-2.5.0.buildcompare) | | 1.2M |
