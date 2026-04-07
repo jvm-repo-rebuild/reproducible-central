@@ -1,0 +1,56 @@
+version=4.0.10
+ok=21
+ko=41
+ignored=0
+okFiles="jline-parent-4.0.10.pom jline-native-4.0.10.pom jline-terminal-4.0.10.pom jline-terminal-ffm-4.0.10.pom jline-terminal-jni-4.0.10.pom jline-reader-4.0.10.pom jline-shell-4.0.10.pom jline-style-4.0.10.pom jline-builtins-4.0.10.pom jline-console-ui-4.0.10.pom jline-prompt-4.0.10.pom jline-console-4.0.10.pom jline-picocli-4.0.10.pom jline-groovy-4.0.10.pom jline-remote-ssh-4.0.10.pom jline-remote-telnet-4.0.10.pom jline-demo-4.0.10.pom jline-graal-4.0.10.pom jansi-core-4.0.10.pom jline-4.0.10.pom jansi-4.0.10.pom"
+koFiles="jline-native-4.0.10.jar jline-native-4.0.10-sources.jar jline-terminal-4.0.10.jar jline-terminal-4.0.10-sources.jar jline-terminal-ffm-4.0.10.jar jline-terminal-ffm-4.0.10-sources.jar jline-terminal-jni-4.0.10.jar jline-terminal-jni-4.0.10-sources.jar jline-reader-4.0.10.jar jline-reader-4.0.10-sources.jar jline-shell-4.0.10.jar jline-shell-4.0.10-sources.jar jline-style-4.0.10.jar jline-style-4.0.10-sources.jar jline-builtins-4.0.10.jar jline-builtins-4.0.10-sources.jar jline-console-ui-4.0.10.jar jline-console-ui-4.0.10-sources.jar jline-prompt-4.0.10.jar jline-prompt-4.0.10-sources.jar jline-console-4.0.10.jar jline-console-4.0.10-sources.jar jline-picocli-4.0.10.jar jline-picocli-4.0.10-sources.jar jline-groovy-4.0.10.jar jline-groovy-4.0.10-sources.jar jline-remote-ssh-4.0.10.jar jline-remote-ssh-4.0.10-sources.jar jline-remote-telnet-4.0.10.jar jline-remote-telnet-4.0.10-sources.jar jline-demo-4.0.10.jar jline-demo-4.0.10-sources.jar jline-graal-4.0.10.jar jline-graal-4.0.10-sources.jar jansi-core-4.0.10.jar jansi-core-4.0.10-sources.jar jline-4.0.10.jar jline-4.0.10-jdk11.jar jline-4.0.10-sources.jar jansi-4.0.10.jar jansi-4.0.10-sources.jar"
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jline/jline-native-4.0.10.jar native/target/jline-native-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-native-4.0.10-sources.jar native/target/jline-native-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-terminal-4.0.10.jar terminal/target/jline-terminal-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-terminal-4.0.10-sources.jar terminal/target/jline-terminal-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-terminal-ffm-4.0.10.jar terminal-ffm/target/jline-terminal-ffm-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-terminal-ffm-4.0.10-sources.jar terminal-ffm/target/jline-terminal-ffm-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-terminal-jni-4.0.10.jar terminal-jni/target/jline-terminal-jni-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-terminal-jni-4.0.10-sources.jar terminal-jni/target/jline-terminal-jni-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-reader-4.0.10.jar reader/target/jline-reader-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-reader-4.0.10-sources.jar reader/target/jline-reader-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-shell-4.0.10.jar shell/target/jline-shell-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-shell-4.0.10-sources.jar shell/target/jline-shell-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-style-4.0.10.jar style/target/jline-style-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-style-4.0.10-sources.jar style/target/jline-style-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-builtins-4.0.10.jar builtins/target/jline-builtins-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-builtins-4.0.10-sources.jar builtins/target/jline-builtins-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-console-ui-4.0.10.jar console-ui/target/jline-console-ui-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-console-ui-4.0.10-sources.jar console-ui/target/jline-console-ui-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-prompt-4.0.10.jar prompt/target/jline-prompt-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-prompt-4.0.10-sources.jar prompt/target/jline-prompt-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-console-4.0.10.jar console/target/jline-console-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-console-4.0.10-sources.jar console/target/jline-console-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-picocli-4.0.10.jar picocli/target/jline-picocli-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-picocli-4.0.10-sources.jar picocli/target/jline-picocli-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-groovy-4.0.10.jar groovy/target/jline-groovy-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-groovy-4.0.10-sources.jar groovy/target/jline-groovy-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-remote-ssh-4.0.10.jar remote-ssh/target/jline-remote-ssh-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-remote-ssh-4.0.10-sources.jar remote-ssh/target/jline-remote-ssh-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-remote-telnet-4.0.10.jar remote-telnet/target/jline-remote-telnet-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-remote-telnet-4.0.10-sources.jar remote-telnet/target/jline-remote-telnet-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-demo-4.0.10.jar demo/target/jline-demo-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-demo-4.0.10-sources.jar demo/target/jline-demo-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-graal-4.0.10.jar graal/target/jline-graal-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-graal-4.0.10-sources.jar graal/target/jline-graal-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jansi-core-4.0.10.jar jansi-core/target/jansi-core-4.0.10.jar
+# diffoscope target/reference/org.jline/jansi-core-4.0.10-sources.jar jansi-core/target/jansi-core-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jline-4.0.10.jar jline/target/jline-4.0.10.jar
+# diffoscope target/reference/org.jline/jline-4.0.10-jdk11.jar jline/target/jline-4.0.10-jdk11.jar
+# diffoscope target/reference/org.jline/jline-4.0.10-sources.jar jline/target/jline-4.0.10-sources.jar
+# diffoscope target/reference/org.jline/jansi-4.0.10.jar jansi/target/jansi-4.0.10.jar
+# diffoscope target/reference/org.jline/jansi-4.0.10-sources.jar jansi/target/jansi-4.0.10-sources.jar
+stabilize_ok=41
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="jline-native-4.0.10.jar.stabilized jline-native-4.0.10-sources.jar.stabilized jline-terminal-4.0.10.jar.stabilized jline-terminal-4.0.10-sources.jar.stabilized jline-terminal-ffm-4.0.10.jar.stabilized jline-terminal-ffm-4.0.10-sources.jar.stabilized jline-terminal-jni-4.0.10.jar.stabilized jline-terminal-jni-4.0.10-sources.jar.stabilized jline-reader-4.0.10.jar.stabilized jline-reader-4.0.10-sources.jar.stabilized jline-shell-4.0.10.jar.stabilized jline-shell-4.0.10-sources.jar.stabilized jline-style-4.0.10.jar.stabilized jline-style-4.0.10-sources.jar.stabilized jline-builtins-4.0.10.jar.stabilized jline-builtins-4.0.10-sources.jar.stabilized jline-console-ui-4.0.10.jar.stabilized jline-console-ui-4.0.10-sources.jar.stabilized jline-prompt-4.0.10.jar.stabilized jline-prompt-4.0.10-sources.jar.stabilized jline-console-4.0.10.jar.stabilized jline-console-4.0.10-sources.jar.stabilized jline-picocli-4.0.10.jar.stabilized jline-picocli-4.0.10-sources.jar.stabilized jline-groovy-4.0.10.jar.stabilized jline-groovy-4.0.10-sources.jar.stabilized jline-remote-ssh-4.0.10.jar.stabilized jline-remote-ssh-4.0.10-sources.jar.stabilized jline-remote-telnet-4.0.10.jar.stabilized jline-remote-telnet-4.0.10-sources.jar.stabilized jline-demo-4.0.10.jar.stabilized jline-demo-4.0.10-sources.jar.stabilized jline-graal-4.0.10.jar.stabilized jline-graal-4.0.10-sources.jar.stabilized jansi-core-4.0.10.jar.stabilized jansi-core-4.0.10-sources.jar.stabilized jline-4.0.10.jar.stabilized jline-4.0.10-jdk11.jar.stabilized jline-4.0.10-sources.jar.stabilized jansi-4.0.10.jar.stabilized jansi-4.0.10-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
