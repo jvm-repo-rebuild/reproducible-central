@@ -1,10 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/flowlogix/flowlogix-11.2.1.buildspec:11.2.3
-content/com/hibegin/zrlog-base/zrlog-base-3.3.8.buildspec:3.3.9
-content/com/io7m/primogenitor/com.io7m.primogenitor-9.1.0.buildspec:9.2.0
-content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.7.buildspec:0.13.0
-content/io/takari/maven/plugins/takari-lifecycle-plugin/takari-lifecycle-plugin-2.3.2.buildspec:2.3.3
-content/org/apache/sshd/sshd-3.0.0-M2.buildspec:3.0.0-M3
-content/org/apache/nifi/nifi-api/nifi-api-2.7.0.buildspec:2.8.0
+content/com/github/nbbrd/heylogs/heylogs-0.16.1.buildspec:0.17.0
+content/io/avaje/inject/avaje-inject-12.5-RC7.buildspec:12.5-javax
+content/io/avaje/jex/avaje-jex-3.5-RC8.buildspec:3.5
+content/io/avaje/jsonb/avaje-jsonb-3.12-RC2.buildspec:3.12
+content/org/apache/commons/parent/commons-parent-97.buildspec:98
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
