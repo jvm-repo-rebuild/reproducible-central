@@ -1,10 +1,10 @@
 groupId=net.bytebuddy
 artifactId=byte-buddy-parent
 display=${groupId}:byte-buddy
-version=1.18.8
+version=1.18.8-jdk5
 
 gitRepo=https://github.com/raphw/byte-buddy.git
-gitTag=byte-buddy-${version}
+gitTag=byte-buddy-1.18.8
 
 tool=mvn-3.9.12
 jdk=8
