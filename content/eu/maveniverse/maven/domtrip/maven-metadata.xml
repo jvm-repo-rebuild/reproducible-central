@@ -3,8 +3,8 @@
   <groupId>eu.maveniverse.maven.domtrip</groupId>
   <artifactId>domtrip</artifactId>
   <versioning>
-    <latest>1.0.0</latest>
-    <release>1.0.0</release>
+    <latest>1.1.0</latest>
+    <release>1.1.0</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -14,7 +14,8 @@
       <version>0.5.0</version>
       <version>0.6.0</version>
       <version>1.0.0</version>
+      <version>1.1.0</version>
     </versions>
-    <lastUpdated>20260403120515</lastUpdated>
+    <lastUpdated>20260408175525</lastUpdated>
   </versioning>
 </metadata>

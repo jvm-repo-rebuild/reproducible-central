@@ -1,8 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/nbbrd/heylogs/heylogs-0.16.1.buildspec:0.17.0
-content/io/avaje/inject/avaje-inject-12.5-RC7.buildspec:12.5-javax
-content/io/avaje/jex/avaje-jex-3.5-RC8.buildspec:3.5
-content/io/avaje/jsonb/avaje-jsonb-3.12-RC2.buildspec:3.12
-content/org/apache/commons/parent/commons-parent-97.buildspec:98
+content/com/github/nbbrd/heylogs/heylogs-0.17.0.buildspec:0.17.1
+content/eu/maveniverse/maven/bom-builder/bom-builder-1.3.2.buildspec:1.3.3
+content/eu/maveniverse/maven/domtrip/domtrip-1.0.0.buildspec:1.1.0
+content/eu/maveniverse/maven/mimir/mimir-0.11.2.buildspec:0.11.3
+content/eu/maveniverse/maven/nisse/nisse-0.8.2.buildspec:0.8.3
+content/eu/maveniverse/maven/njord/njord-0.9.4.buildspec:0.9.5
+content/org/apache/commons/configuration2/commons-configuration2-2.13.0.buildspec:2.14.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
