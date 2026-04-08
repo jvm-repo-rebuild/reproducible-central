@@ -24,13 +24,13 @@ Source code: [https://github.com/nbbrd/heylogs.git](https://github.com/nbbrd/hey
 * [com.github.nbbrd.heylogs:heylogs-parent](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/overview)
 </details>
 
-rebuilding **15 releases** of com.github.nbbrd.heylogs:heylogs-parent:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of com.github.nbbrd.heylogs:heylogs-parent:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.17.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.17.1/pom) | | | |
+| [0.17.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.17.1/pom) | [mvn jdk21](heylogs-0.17.1.buildspec) | [result](heylogs-parent-0.17.1.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.17.1.buildcompare) | | 3.9M |
 | [0.17.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.17.0/pom) | [mvn jdk21](heylogs-0.17.0.buildspec) | [result](heylogs-parent-0.17.0.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.17.0.buildcompare) | | 3.9M |
 | [0.16.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.1/pom) | [mvn jdk21](heylogs-0.16.1.buildspec) | [result](heylogs-parent-0.16.1.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.16.1.buildcompare) | | 3.8M |
 | [0.16.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.16.0/pom) | [mvn jdk21](heylogs-0.16.0.buildspec) | [result](heylogs-parent-0.16.0.buildinfo): [37 :white_check_mark: ](heylogs-parent-0.16.0.buildcompare) | | 3.8M |
