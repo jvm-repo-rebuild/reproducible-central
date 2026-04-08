@@ -1,0 +1,7 @@
+version=98
+ok=4
+ko=0
+ignored=1
+okFiles="commons-parent-98.pom commons-parent-98-cyclonedx.xml commons-parent-98-cyclonedx.json commons-parent-98-site.xml"
+koFiles=""
+ignoredFiles="commons-parent-98.spdx.json"
