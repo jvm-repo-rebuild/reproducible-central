@@ -1,0 +1,19 @@
+1 /        1 target/reference/org.mybatis.generator/mybatis-generator-core-2.0.0-bundle.zip mybatis-generator-core/target/mybatis-generator-core-2.0.0-bundle.zip
+--- target/reference/org.mybatis.generator/mybatis-generator-core-2.0.0-bundle.zip
++++ mybatis-generator-core/target/mybatis-generator-core-2.0.0-bundle.zip
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 4089976 bytes, number of entries: 9
+│ +Zip file size: 4081748 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-08 14:58 mybatis-generator-core-2.0.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-08 14:58 mybatis-generator-core-2.0.0/lib/
+│  -rw-r--r--  2.0 unx    11357 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/LICENSE
+│  -rw-r--r--  2.0 unx      627 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/LICENSE_HEADER
+│  -rw-r--r--  2.0 unx      199 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/NOTICE
+│  -rw-r--r--  2.0 unx      822 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/README.md
+│ --rw-r--r--  2.0 unx  3170396 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/lib/mybatis-generator-core-2.0.0-javadoc.jar
+│ +-rw-r--r--  2.0 unx  3161880 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/lib/mybatis-generator-core-2.0.0-javadoc.jar
+│  -rw-r--r--  2.0 unx   549362 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/lib/mybatis-generator-core-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   910236 b- defN 26-Apr-08 14:58 mybatis-generator-core-2.0.0/lib/mybatis-generator-core-2.0.0.jar
+│ -9 files, 4642999 bytes uncompressed, 4088420 bytes compressed:  11.9%
+│ +9 files, 4634483 bytes uncompressed, 4080192 bytes compressed:  12.0%
