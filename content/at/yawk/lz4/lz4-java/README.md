@@ -14,6 +14,7 @@ rebuilding **7 releases** of at/yawk/lz4:lz4-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.11.0](https://central.sonatype.com/artifact/at.yawk.lz4/lz4-java/1.11.0/pom) | | | |
 | [1.10.4](https://central.sonatype.com/artifact/at/yawk/lz4/lz4-java/1.10.4/pom) | [mvn jdk21](lz4-java-1.10.4.buildspec) | [result](lz4-java-1.10.4.buildinfo): [3 :white_check_mark: ](lz4-java-1.10.4.buildcompare) | | 916K |
 | [1.10.3](https://central.sonatype.com/artifact/at/yawk/lz4/lz4-java/1.10.3/pom) | [mvn jdk21](lz4-java-1.10.3.buildspec) | [result](lz4-java-1.10.3.buildinfo): [3 :white_check_mark: ](lz4-java-1.10.3.buildcompare) | | 1.1M |
 | [1.10.2](https://central.sonatype.com/artifact/at/yawk/lz4/lz4-java/1.10.2/pom) | [mvn jdk21](lz4-java-1.10.2.buildspec) | [result](lz4-java-1.10.2.buildinfo): [3 :white_check_mark: ](lz4-java-1.10.2.buildcompare) | | 1.1M |
