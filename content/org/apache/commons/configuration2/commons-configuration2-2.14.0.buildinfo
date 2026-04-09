@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Configuration
+group-id=org.apache.commons
+artifact-id=commons-configuration2
+version=2.14.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-configuration.git
+source.scm.tag=rel/commons-configuration-2.13.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1008-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-configuration2-2.14.0.pom
+outputs.0.length=28421
+outputs.0.checksums.sha512=ee0821d478001f92ab8469524ac58ed642897f8858c29c934878e7b7e6edcb61fbef4d677c5dcdc37e71cc0b41d3b90800b1cae99f8e506063d28783faf56f03
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-configuration2-2.14.0.jar
+outputs.1.length=676348
+outputs.1.checksums.sha512=b33a3e9e8564bf1049a0700ab06d87a8fb5ffa33d2edbb4e408acb31fa7d07fae69409eece118fe051dd320c5cc24f57bcf118affce907a4a9b838a555822e44
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-configuration2-2.14.0-tests.jar
+outputs.2.length=913986
+outputs.2.checksums.sha512=5a8b9417d8a808144f17b8eb444518e7c83ba97d533db69408c3ecf94b6ab5ace97d3e2ef9c6556033d4ab969c83b1648b8d6d3ca9bf7e4734f5d372373a3a2d
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-configuration2-2.14.0-sources.jar
+outputs.3.length=694147
+outputs.3.checksums.sha512=746bf5cc74f78ba4b1efc9d734e6810f9ff404c7d4cc86260c728f954aed31719b25bae41ccc5a62b455444f1155856e0e5a6c09f3de44e3452e70aabc8c0bef
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-configuration2-2.14.0-test-sources.jar
+outputs.4.length=612144
+outputs.4.checksums.sha512=e5bf77de04b8d4a075b8c1314ae1cb0a84537c7af970f1500f2804fa61a04d5a6254930df72cfa98fe65d542d92ea3fbcb0f81f8db267212965b8fb2fcbb93ce
+# ignored commons-configuration2-2.14.0.spdx.json
