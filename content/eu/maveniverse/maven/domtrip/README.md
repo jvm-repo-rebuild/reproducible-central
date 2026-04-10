@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/domtrip.git](https://github.com/mav
 * [eu.maveniverse.maven.domtrip:domtrip-website](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-website/overview)
 </details>
 
-rebuilding **9 releases** of eu.maveniverse.maven.domtrip:domtrip:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of eu.maveniverse.maven.domtrip:domtrip:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.2.0/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.2.0/pom) | [mvn jdk21](domtrip-1.2.0.buildspec) | [result](domtrip-1.2.0.buildinfo): [10 :white_check_mark: ](domtrip-1.2.0.buildcompare) | | 334K |
 | [1.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.1.0/pom) | [mvn jdk21](domtrip-1.1.0.buildspec) | [result](domtrip-1.1.0.buildinfo): [10 :white_check_mark: ](domtrip-1.1.0.buildcompare) | | 330K |
 | [1.0.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.0.0/pom) | [mvn jdk21](domtrip-1.0.0.buildspec) | [result](domtrip-1.0.0.buildinfo): [10 :white_check_mark: ](domtrip-1.0.0.buildcompare) | | 299K |
 | [0.6.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.6.0/pom) | [mvn jdk21](domtrip-0.6.0.buildspec) | [result](domtrip-0.6.0.buildinfo): [10 :white_check_mark: ](domtrip-0.6.0.buildcompare) | | 295K |
