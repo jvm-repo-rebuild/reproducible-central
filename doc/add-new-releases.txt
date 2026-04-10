@@ -1,9 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.10.4.buildspec:1.11.0
-content/com/github/nbbrd/java-desktop-util/java-desktop-util-2.6.1.buildspec:2.6.2
+content/com/github/nbbrd/java-desktop-util/java-desktop-util-2.6.2.buildspec:2.7.0
 content/dev/langchain4j/langchain4j-1.12.2.buildspec:1.13.0
-content/org/jdbi/jdbi3-root-3.52.0.buildspec:3.52.1
-content/org/apache/activemq/activemq-6.2.3.buildspec:6.2.4
+content/eu/maveniverse/maven/domtrip/domtrip-1.1.0.buildspec:1.2.0
+content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
+content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.3-beta.buildspec:2.23.4-beta
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.3.0.Final.buildspec:4.3.1.Final
