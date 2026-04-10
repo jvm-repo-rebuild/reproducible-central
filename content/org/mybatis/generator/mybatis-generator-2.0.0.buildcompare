@@ -1,0 +1,16 @@
+version=2.0.0
+ok=8
+ko=1
+ignored=0
+okFiles="mybatis-generator-2.0.0.pom mybatis-generator-2.0.0-site.xml mybatis-generator-core-2.0.0.pom mybatis-generator-core-2.0.0.jar mybatis-generator-core-2.0.0-sources.jar mybatis-generator-maven-plugin-2.0.0.pom mybatis-generator-maven-plugin-2.0.0.jar mybatis-generator-maven-plugin-2.0.0-sources.jar"
+koFiles="mybatis-generator-core-2.0.0-bundle.zip"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.mybatis.generator/mybatis-generator-core-2.0.0-bundle.zip mybatis-generator-core/target/mybatis-generator-core-2.0.0-bundle.zip
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="mybatis-generator-core-2.0.0-bundle.zip"
