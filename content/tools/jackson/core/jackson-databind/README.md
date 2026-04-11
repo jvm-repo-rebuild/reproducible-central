@@ -13,6 +13,7 @@ rebuilding **18 releases** of tools.jackson.core:jackson-databind:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.2](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.1.2/pom) | | | |
 | [3.1.1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.1.1/pom) | [mvn jdk17](jackson-databind-3.1.1.buildspec) | [result](jackson-databind-3.1.1.buildinfo): [5 :white_check_mark: ](jackson-databind-3.1.1.buildcompare) | | 3.2M |
 | [3.1.0](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.1.0/pom) | [mvn jdk17](jackson-databind-3.1.0.buildspec) | [result](jackson-databind-3.1.0.buildinfo): [5 :white_check_mark: ](jackson-databind-3.1.0.buildcompare) | | 3.2M |
 | [3.1.0-rc1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-databind/3.1.0-rc1/pom) | [mvn jdk17](jackson-databind-3.1.0-rc1.buildspec) | [result](jackson-databind-3.1.0-rc1.buildinfo): [5 :white_check_mark: ](jackson-databind-3.1.0-rc1.buildcompare) | | 3.2M |
