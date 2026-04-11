@@ -1,0 +1,9 @@
+version=3.1.2
+ok=21
+ko=0
+ignored=4
+okFiles="jackson-dataformats-text-3.1.2.pom jackson-dataformat-csv-3.1.2.pom jackson-dataformat-csv-3.1.2.jar jackson-dataformat-csv-3.1.2-sources.jar jackson-dataformat-csv-3.1.2-sbom-cyclonedx.xml jackson-dataformat-csv-3.1.2-sbom-cyclonedx.json jackson-dataformat-properties-3.1.2.pom jackson-dataformat-properties-3.1.2.jar jackson-dataformat-properties-3.1.2-sources.jar jackson-dataformat-properties-3.1.2-sbom-cyclonedx.xml jackson-dataformat-properties-3.1.2-sbom-cyclonedx.json jackson-dataformat-yaml-3.1.2.pom jackson-dataformat-yaml-3.1.2.jar jackson-dataformat-yaml-3.1.2-sources.jar jackson-dataformat-yaml-3.1.2-sbom-cyclonedx.xml jackson-dataformat-yaml-3.1.2-sbom-cyclonedx.json jackson-dataformat-toml-3.1.2.pom jackson-dataformat-toml-3.1.2.jar jackson-dataformat-toml-3.1.2-sources.jar jackson-dataformat-toml-3.1.2-sbom-cyclonedx.xml jackson-dataformat-toml-3.1.2-sbom-cyclonedx.json"
+koFiles=""
+ignoredFiles="jackson-dataformat-csv-3.1.2.module jackson-dataformat-properties-3.1.2.module jackson-dataformat-yaml-3.1.2.module jackson-dataformat-toml-3.1.2.module"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
