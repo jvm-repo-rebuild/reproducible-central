@@ -1,0 +1,50 @@
+1 / 1 target/reference/org.owasp/dependency-check-core-12.2.1-tests.jar core/target/dependency-check-core-12.2.1-tests.jar
+--- target/reference/org.owasp/dependency-check-core-12.2.1-tests.jar
++++ core/target/dependency-check-core-12.2.1-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 69277190 bytes, number of entries: 899
+│ +Zip file size: 68468829 bytes, number of entries: 893
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 META-INF/
+│  -rw-r--r--  2.0 unx      206 b- defN 26-Apr-11 15:24 META-INF/MANIFEST.MF
+│ @@ -220,21 +220,18 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit/.yarn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-package-manager/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-yarnrc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit-no-deprecations/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit-no-deprecations/.yarn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit-no-vulnerability/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-berry-audit-no-vulnerability/.yarn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-classic-audit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-11 15:24 yarn/yarn-classic-audit-bad-berry-lockfile/
+│ @@ -870,32 +867,29 @@
+│  -rw-r--r--  2.0 unx   449505 b- defN 26-Apr-11 15:24 velocity-1.7.jar
+│  -rw-r--r--  2.0 unx  1003576 b- defN 26-Apr-11 15:24 xmlsec-2.0.7-3.7.uyuni.noarch.rpm
+│ --rw-r--r--  2.0 unx   805556 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit/.yarn/install-state.gz
+│  -rw-r--r--  2.0 unx       74 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit/.yarnrc.yml
+│  -rw-r--r--  2.0 unx     1587 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit/package.json
+│  -rw-r--r--  2.0 unx   344030 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit/yarn.lock
+│  -rw-r--r--  2.0 unx       74 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-package-manager/.yarnrc.yml
+│  -rw-r--r--  2.0 unx      533 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-package-manager/package.json
+│  -rw-r--r--  2.0 unx      318 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-package-manager/yarn.lock
+│  -rw-r--r--  2.0 unx      105 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-yarnrc/.yarnrc.yml
+│  -rw-r--r--  2.0 unx      520 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-yarnrc/package.json
+│  -rw-r--r--  2.0 unx      318 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-bad-yarnrc/yarn.lock
+│ --rw-r--r--  2.0 unx      886 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-deprecations/.yarn/install-state.gz
+│  -rw-r--r--  2.0 unx       74 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-deprecations/.yarnrc.yml
+│  -rw-r--r--  2.0 unx      569 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-deprecations/package.json
+│  -rw-r--r--  2.0 unx      619 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-deprecations/yarn.lock
+│ --rw-r--r--  2.0 unx      639 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-vulnerability/.yarn/install-state.gz
+│  -rw-r--r--  2.0 unx       74 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-vulnerability/.yarnrc.yml
+│  -rw-r--r--  2.0 unx      520 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-vulnerability/package.json
+│  -rw-r--r--  2.0 unx      318 b- defN 26-Apr-11 15:24 yarn/yarn-berry-audit-no-vulnerability/yarn.lock
+│  -rw-r--r--  2.0 unx     1801 b- defN 26-Apr-11 15:24 yarn/yarn-classic-audit/package.json
+│  -rw-r--r--  2.0 unx   263187 b- defN 26-Apr-11 15:24 yarn/yarn-classic-audit/yarn.lock
+│  -rw-r--r--  2.0 unx      479 b- defN 26-Apr-11 15:24 yarn/yarn-classic-audit-bad-berry-lockfile/package.json
+│  -rw-r--r--  2.0 unx      622 b- defN 26-Apr-11 15:24 yarn/yarn-classic-audit-bad-berry-lockfile/yarn.lock
+│  -rw-r--r--  2.0 unx    27967 b- defN 26-Apr-11 15:24 META-INF/maven/org.owasp/dependency-check-core/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 26-Apr-11 15:24 META-INF/maven/org.owasp/dependency-check-core/pom.properties
+│ -899 files, 80011786 bytes uncompressed, 69131748 bytes compressed:  13.6%
+│ +893 files, 79204705 bytes uncompressed, 68324407 bytes compressed:  13.7%
