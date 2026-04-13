@@ -17,4 +17,5 @@ buildinfo=target/${artifactId}-aggregator-${version}.buildinfo # need to manuall
 execBefore="mvn -ntp clean"
 
 #diffoscope=${artifactId}-aggregator-${version}.diffoscope
-issue=
+issue=https://github.com/langchain4j/langchain4j/pull/4912
+
