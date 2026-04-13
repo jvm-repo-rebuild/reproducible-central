@@ -3,7 +3,7 @@ group-id=org.hibernate.models
 artifact-id=hibernate-models
 
 build-tool=gradle
-java.version=21
+java.version=25
 os.name=lf
 
 outputs.1.coordinates=org.hibernate.models:hibernate-models-bytebuddy
@@ -43,8 +43,8 @@ outputs.3.0.length=134954
 outputs.3.0.checksums.sha512=5c6a2f82c6a9cc035a38e09d6dc5c125f00267e3b6485e8510d67accfbe9b3712f094333a51bba3e383eda56e577ec1d8f3cfaf098e88ecb309bc9dc9173e1d8
 
 outputs.3.1.filename=hibernate-models-1.1.1.jar
-outputs.3.1.length=222562
-outputs.3.1.checksums.sha512=2605af5a0c7cdc0f3635288998407f5fa1dc5a5db32052e5246bd9574ea937b57f0ce6a0618fa83b97ef50562f2ecda19c1e0e5d20f91d7195ff47824cae3d58
+outputs.3.1.length=222526
+outputs.3.1.checksums.sha512=781ff85372693dfee4f3c060af2ac8de4abb49100f5e6b9b559553f5b464b71cce03732fecc43cbd8f852de392178f24a36d0b4993f9999eda1393471688ac8c
 
 outputs.3.2.filename=hibernate-models-1.1.1.pom
 outputs.3.2.length=2116
