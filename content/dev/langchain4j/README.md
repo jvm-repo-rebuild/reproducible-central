@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 105 modules:</summary>
+<details><summary>This project defines 108 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -59,6 +59,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-embeddings-bge-small-zh-v15-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-zh-v15-q/overview)
 * [dev.langchain4j:langchain4j-embeddings-e5-small-v2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-e5-small-v2/overview)
 * [dev.langchain4j:langchain4j-embeddings-e5-small-v2-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-e5-small-v2-q/overview)
+* [dev.langchain4j:langchain4j-experimental-hibernate](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-hibernate/overview)
 * [dev.langchain4j:langchain4j-experimental-skills-shell](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-skills-shell/overview)
 * [dev.langchain4j:langchain4j-experimental-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-sql/overview)
 * [dev.langchain4j:langchain4j-github-models](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-github-models/overview)
@@ -69,8 +70,10 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-http-client](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client/overview)
 * [dev.langchain4j:langchain4j-http-client-apache](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client-apache/overview)
 * [dev.langchain4j:langchain4j-http-client-jdk](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client-jdk/overview)
+* [dev.langchain4j:langchain4j-http-client-okhttp](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-http-client-okhttp/overview)
 * [dev.langchain4j:langchain4j-hugging-face](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-hugging-face/overview)
 * [dev.langchain4j:langchain4j-infinispan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-infinispan/overview)
+* [dev.langchain4j:langchain4j-internal-test-retry](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-internal-test-retry/overview)
 * [dev.langchain4j:langchain4j-jina](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jina/overview)
 * [dev.langchain4j:langchain4j-jlama](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jlama/overview)
 * [dev.langchain4j:langchain4j-kotlin](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-kotlin/overview)
@@ -116,13 +119,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **38 releases** of dev.langchain4j:langchain4j:
+rebuilding **39 releases** of dev.langchain4j:langchain4j:
 - **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.13.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.13.0/pom) | | | |
+| [1.13.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.13.0/pom) | [mvn jdk25](langchain4j-1.13.0.buildspec) | [result](langchain4j-aggregator-1.13.0.buildinfo): [305 :white_check_mark:  2 :warning:](langchain4j-aggregator-1.13.0.buildcompare) [:memo:](https://github.com/langchain4j/langchain4j/pull/4912) | 2 :recycle: | 470M |
 | [1.12.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.2/pom) | [mvn jdk25](langchain4j-1.12.2.buildspec) | [result](langchain4j-aggregator-1.12.2.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.2.buildcompare) | | 469M |
 | [1.12.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.1/pom) | [mvn jdk25](langchain4j-1.12.1.buildspec) | [result](langchain4j-aggregator-1.12.1.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.1.buildcompare) | | 469M |
 | [1.11.6](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.6/pom) | | | |
