@@ -1,0 +1,30 @@
+1 /        1 target/reference/dev.langchain4j/langchain4j-gpu-llama3-1.11.4-beta19.jar langchain4j-gpu-llama3/target/langchain4j-gpu-llama3-1.11.4-beta19.jar
+--- target/reference/dev.langchain4j/langchain4j-gpu-llama3-1.11.4-beta19.jar
++++ langchain4j-gpu-llama3/target/langchain4j-gpu-llama3-1.11.4-beta19.jar
+├── zipinfo {}
+│ @@ -1,22 +1,23 @@
+│ -Zip file size: 17857 bytes, number of entries: 20
+│ +Zip file size: 18004 bytes, number of entries: 21
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 26-Mar-31 16:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 dev/langchain4j/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 META-INF/maven/dev.langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-31 16:30 META-INF/maven/dev.langchain4j/langchain4j-gpu-llama3/
+│ +-rw-r--r--  2.0 unx       35 b- defN 26-Mar-31 16:30 META-INF/jpms.args
+│  -rw-r--r--  2.0 unx     1665 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3BaseModel$TornadoVMCleanupAction.class
+│  -rw-r--r--  2.0 unx     8712 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3BaseModel.class
+│  -rw-r--r--  2.0 unx     1739 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3ChatModel$Builder.class
+│  -rw-r--r--  2.0 unx     5320 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3ChatModel.class
+│  -rw-r--r--  2.0 unx     1066 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3ResponseParser$ParsedResponse.class
+│  -rw-r--r--  2.0 unx     3372 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3ResponseParser$StreamingParser.class
+│  -rw-r--r--  2.0 unx     2821 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3ResponseParser.class
+│  -rw-r--r--  2.0 unx     1829 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3StreamingChatModel$Builder.class
+│  -rw-r--r--  2.0 unx     6737 b- defN 26-Mar-31 16:30 dev/langchain4j/model/gpullama3/GPULlama3StreamingChatModel.class
+│  -rw-r--r--  2.0 unx     2217 b- defN 26-Mar-31 16:30 META-INF/maven/dev.langchain4j/langchain4j-gpu-llama3/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 26-Mar-31 16:30 META-INF/maven/dev.langchain4j/langchain4j-gpu-llama3/pom.properties
+│ -20 files, 35639 bytes uncompressed, 14437 bytes compressed:  59.5%
+│ +21 files, 35674 bytes uncompressed, 14472 bytes compressed:  59.4%
