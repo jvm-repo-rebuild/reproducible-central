@@ -1,0 +1,18 @@
+groupId=dev.langchain4j.cdi
+artifactId=langchain4j-cdi-parent
+display=${groupId}:${artifactId}
+version=1.1.0
+
+gitRepo=https://github.com/langchain4j/langchain4j-cdi.git
+gitTag=${version}
+
+tool=mvn-3.9.12
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -ntp clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip -Dbuildinfo.detect.skip=false -DperformRelease"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+issue=
