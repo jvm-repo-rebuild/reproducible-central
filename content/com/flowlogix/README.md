@@ -17,14 +17,14 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 * [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
-rebuilding **40 releases** of com.flowlogix:flowlogix:
-- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **41 releases** of com.flowlogix:flowlogix:
+- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [11.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.3/pom) | | | |
+| [11.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.3/pom) | [mvn jdk25](flowlogix-11.3.buildspec) | [result](flowlogix-11.3.buildinfo): [14 :white_check_mark: ](flowlogix-11.3.buildcompare) | | 869K |
 | [11.2.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2.3/pom) | [mvn jdk25](flowlogix-11.2.3.buildspec) | [result](flowlogix-11.2.3.buildinfo): [14 :white_check_mark: ](flowlogix-11.2.3.buildcompare) | | 867K |
 | [11.2.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2.2/pom) | [mvn jdk25](flowlogix-11.2.2.buildspec) | [result](flowlogix-11.2.2.buildinfo): [14 :white_check_mark: ](flowlogix-11.2.2.buildcompare) | | 865K |
 | [11.2.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.2.1/pom) | [mvn jdk25](flowlogix-11.2.1.buildspec) | [result](flowlogix-11.2.1.buildinfo): [14 :white_check_mark: ](flowlogix-11.2.1.buildcompare) | | 865K |
