@@ -7,21 +7,22 @@
 
 Source code: [https://github.com/maveniverse/domtrip.git](https://github.com/maveniverse/domtrip.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
 * [eu.maveniverse.maven.domtrip:domtrip](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/overview)
 * [eu.maveniverse.maven.domtrip:domtrip-core](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-core/overview)
+* [eu.maveniverse.maven.domtrip:domtrip-jaxen](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-jaxen/overview)
 * [eu.maveniverse.maven.domtrip:domtrip-maven](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-maven/overview)
 * [eu.maveniverse.maven.domtrip:domtrip-website](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-website/overview)
 </details>
 
-rebuilding **11 releases** of eu.maveniverse.maven.domtrip:domtrip:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of eu.maveniverse.maven.domtrip:domtrip:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.3.0/pom) | | | |
+| [1.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.3.0/pom) | [mvn jdk21](domtrip-1.3.0.buildspec) | [result](domtrip-1.3.0.buildinfo): [13 :white_check_mark: ](domtrip-1.3.0.buildcompare) | | 470K |
 | [1.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.2.1/pom) | [mvn jdk21](domtrip-1.2.1.buildspec) | [result](domtrip-1.2.1.buildinfo): [10 :white_check_mark: ](domtrip-1.2.1.buildcompare) | | 342K |
 | [1.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.2.0/pom) | [mvn jdk21](domtrip-1.2.0.buildspec) | [result](domtrip-1.2.0.buildinfo): [10 :white_check_mark: ](domtrip-1.2.0.buildcompare) | | 334K |
 | [1.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.1.0/pom) | [mvn jdk21](domtrip-1.1.0.buildspec) | [result](domtrip-1.1.0.buildinfo): [10 :white_check_mark: ](domtrip-1.1.0.buildcompare) | | 330K |
