@@ -16,13 +16,14 @@ Source code: [https://github.com/google/guava.git](https://github.com/google/gua
 * [com.google.guava:guava-testlib](https://central.sonatype.com/artifact/com.google.guava/guava-testlib/overview)
 </details>
 
-rebuilding **44 releases** of com.google.guava:guava:
+rebuilding **45 releases** of com.google.guava:guava:
 - **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [33.6.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.6.0-jre/pom) | | | |
+| [33.6.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.6.0-jre/pom) | [mvn jdk17](guava-33.6.0-jre.buildspec) | [result](guava-parent-33.6.0-jre.buildinfo): [13 :white_check_mark:  1 :warning:](guava-parent-33.6.0-jre.buildcompare) | 1 :no_entry_sign: | 9.0M |
 | [33.6.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.6.0-android/pom) | | | |
 | [33.5.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.5.0-jre/pom) | [mvn jdk11](guava-33.5.0-jre.buildspec) | [result](guava-parent-33.5.0-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.5.0-jre.buildcompare) | | 8.9M |
 | [33.5.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.5.0-android/pom) | [mvn jdk11](guava-33.5.0-android.buildspec) | [result](guava-parent-33.5.0-android.buildinfo): [11 :white_check_mark: ](guava-parent-33.5.0-android.buildcompare) | | 6.3M |
