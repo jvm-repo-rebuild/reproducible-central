@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Service User Web Console
+group-id=org.apache.sling
+artifact-id=org.apache.sling.serviceuser.webconsole
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-serviceuser-webconsole.git
+source.scm.tag=org.apache.sling.serviceuser.webconsole-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.serviceuser.webconsole-2.0.0.pom
+outputs.0.length=7302
+outputs.0.checksums.sha512=f0f1b3d6060a5140f094ac8d8785ef0ca1b8df2b5b213353cb116a5a50e16f286671528175e1ee1dae175dd2b6d967ba056842a16b2aa9f08b0e754ece275a14
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.serviceuser.webconsole-2.0.0.jar
+outputs.1.length=31659
+outputs.1.checksums.sha512=988a4508093b1500633d13b217b5a2e108c1351e26e84bc0ab3eacf621431753da9d771f7f166da27711c58980189ce4c86f234d569152bc9cce9c4c7772ed92
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.serviceuser.webconsole-2.0.0-source-release.zip
+outputs.2.length=36170
+outputs.2.checksums.sha512=a5e4d711ca49154e6d195e688f75e301b1aae35b13d66b9ee50479a2b44395aa70ce9e8d5366e5a3ce4c241d76d7f246ad8122e611a66cb0bc1d413966012c0c
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.serviceuser.webconsole-2.0.0-sources.jar
+outputs.3.length=20284
+outputs.3.checksums.sha512=d44749308403f4f8236bef556d54b10cea5d4f4cb1a2820f1e8f57f07c2135fcd1055438d462f7b0a8f059d6d17928a89594df298af775e447ab1e71324ec278
