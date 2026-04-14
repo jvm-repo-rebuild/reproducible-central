@@ -1,0 +1,9 @@
+version=1.2.0-Beta1
+ok=30
+ko=0
+ignored=0
+okFiles="langchain4j-cdi-parent-1.2.0-Beta1.pom langchain4j-cdi-core-1.2.0-Beta1.pom langchain4j-cdi-core-1.2.0-Beta1.jar langchain4j-cdi-core-1.2.0-Beta1-sources.jar langchain4j-cdi-mp-1.2.0-Beta1.pom langchain4j-cdi-config-1.2.0-Beta1.pom langchain4j-cdi-config-1.2.0-Beta1.jar langchain4j-cdi-config-1.2.0-Beta1-sources.jar langchain4j-cdi-portable-ext-1.2.0-Beta1.pom langchain4j-cdi-portable-ext-1.2.0-Beta1.jar langchain4j-cdi-portable-ext-1.2.0-Beta1-sources.jar langchain4j-cdi-build-compatible-ext-1.2.0-Beta1.pom langchain4j-cdi-build-compatible-ext-1.2.0-Beta1.jar langchain4j-cdi-build-compatible-ext-1.2.0-Beta1-sources.jar langchain4j-cdi-fault-tolerance-1.2.0-Beta1.pom langchain4j-cdi-fault-tolerance-1.2.0-Beta1.jar langchain4j-cdi-fault-tolerance-1.2.0-Beta1-sources.jar langchain4j-cdi-telemetry-1.2.0-Beta1.pom langchain4j-cdi-telemetry-1.2.0-Beta1.jar langchain4j-cdi-telemetry-1.2.0-Beta1-sources.jar langchain4j-cdi-mcp-1.2.0-Beta1.pom langchain4j-cdi-mcp-server-1.2.0-Beta1.pom langchain4j-cdi-mcp-server-1.2.0-Beta1.jar langchain4j-cdi-mcp-server-1.2.0-Beta1-sources.jar langchain4j-cdi-mcp-build-compatible-ext-1.2.0-Beta1.pom langchain4j-cdi-mcp-build-compatible-ext-1.2.0-Beta1.jar langchain4j-cdi-mcp-build-compatible-ext-1.2.0-Beta1-sources.jar langchain4j-cdi-mcp-portable-ext-1.2.0-Beta1.pom langchain4j-cdi-mcp-portable-ext-1.2.0-Beta1.jar langchain4j-cdi-mcp-portable-ext-1.2.0-Beta1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
