@@ -1,14 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.10.4.buildspec:1.11.0
-content/com/flowlogix/flowlogix-11.2.3.buildspec:11.3
-content/com/github/nbbrd/java-design-util/java-design-util-1.9.0.buildspec:1.10.0
+content/com/github/nbbrd/java-design-util/java-design-util-1.10.0.buildspec:1.10.1
 content/com/google/guava/guava-33.5.0-jre.buildspec:33.6.0-jre
+content/io/airlift/airbase/airbase-369.buildspec:370
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
-content/io/cucumber/html-formatter/html-formatter-23.0.0.buildspec:23.1.0
-content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.13.2.buildspec:0.13.3
-content/io/cucumber/messages/messages-32.2.0.buildspec:32.3.1
 content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.3-beta.buildspec:2.23.4-beta
-content/org/apache/sling/org.apache.sling.serviceuser.webconsole/org.apache.sling.serviceuser.webconsole-1.0.4.buildspec:2.0.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.3.1.Final.buildspec:4.3.2.Final
