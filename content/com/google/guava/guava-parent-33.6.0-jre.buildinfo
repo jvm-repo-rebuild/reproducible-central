@@ -22,7 +22,7 @@ os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.12
 mvn.toolchain.jdk=openjdk version "26" 2026-03-17:OpenJDK Runtime Environment Temurin-26+35 (build 26+35):OpenJDK 64-Bit Server VM Temurin-26+35 (build 26+35, mixed mode, sharing)
 mvn.aggregate.artifact-id=guava-gwt
 
@@ -54,8 +54,8 @@ outputs.1.2.checksums.sha512=ee303a040a639a9aa02990b187ec4f2fb0e747f6a529f996eae
 
 outputs.1.3.groupId=com.google.guava
 outputs.1.3.filename=guava-33.6.0-jre.module
-outputs.1.3.length=7119
-outputs.1.3.checksums.sha512=b0053e775c540b91acc431e43efa00e5e87cf4798e9f937cb9926a779319f868a4976e109e5ec71b2c5add70b8125b01b24021f539d41dc0ca7f67efa412f3ee
+outputs.1.3.length=7121
+outputs.1.3.checksums.sha512=3f7e95cb826b8761ae49f62607958d95f1c169b6b4609fc0a54fbc6f34c5cbaa3723a2fbab57c3426693b87834b718ed3b9fe673afda1fa55aa0fd273fdf1c76
 
 outputs.2.coordinates=com.google.guava:guava-bom
 
