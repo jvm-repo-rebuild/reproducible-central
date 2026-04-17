@@ -220,7 +220,7 @@ Reproducible Builds for Maven Central Repository
 | com.newmediaworks | [nmw-oss-parent](../content/com/newmediaworks/nmw-oss-parent/README.md) | 10 | 10 :white_check_mark: |
 | com.ongres | [scram](../content/com/ongres/scram/README.md) | 2 | 2 :white_check_mark: |
 | | [stringprep](../content/com/ongres/stringprep/README.md) | 1 | 1 :white_check_mark: |
-| com.sap.ai.sdk | [sdk-parent](../content/com/sap/ai/sdk/README.md) | 11 | 11 :white_check_mark: |
+| com.sap.ai.sdk | [sdk-parent](../content/com/sap/ai/sdk/README.md) | 12 | 12 :white_check_mark: |
 | com.scalapenos | [stamina](../content/com/scalapenos/stamina/README.md) | 2 | 2 :white_check_mark: |
 | com.semanticcms | [s8cms-all](../content/com/semanticcms/semanticcms-all/README.md) | 3 | 3 :white_check_mark: |
 | | [s8cms-all-book](../content/com/semanticcms/semanticcms-all-book/README.md) | 3 | 3 :white_check_mark: |
@@ -399,7 +399,7 @@ Reproducible Builds for Maven Central Repository
 | jakarta.persistence | [jakarta.persistence-api](../content/jakarta/persistence/jakarta.persistence-api/README.md) | 5 | 5 :white_check_mark: |
 | jakarta.servlet | [jakarta.servlet-api](../content/jakarta/servlet/jakarta.servlet-api/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | jakarta.validation | [jakarta.validation-api](../content/jakarta/validation/jakarta.validation-api/README.md) | 1 | 1 :white_check_mark: |
-| land.oras | [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | 26 | 26 :white_check_mark: |
+| land.oras | [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | 27 | 27 :white_check_mark: |
 | net.bytebuddy | [byte-buddy](../content/net/bytebuddy/README.md) | 61 | 54 :white_check_mark: / 7 :warning: |
 | net.jsign | [jsign](../content/net/jsign/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
 | net.bzzt | [reproducible-builds-jvm-stripper](../content/net/bzzt/reproducible-builds-jvm-stripper/README.md) | 1 | 1 :white_check_mark: |
@@ -430,7 +430,7 @@ Reproducible Builds for Maven Central Repository
 | nl.basjes.parse.httpdlog | [httpdlog-parser](../content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 4 | 4 :white_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 26 | 21 :white_check_mark: / 5 :warning: |
 | nl.basjes.sunspec | [sunspec-device-parent](../content/nl/basjes/sunspec/sunspec-device-parent/README.md) | 12 | 12 :white_check_mark: |
-| nl.hsac | [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 110 | 78 :white_check_mark: / 32 :warning: |
+| nl.hsac | [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 111 | 79 :white_check_mark: / 32 :warning: |
 | | [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | | [hsac-fitnesse-plugin](../content/nl/hsac/hsac-fitnesse-plugin/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | org.jdbi.internal | [jdbi3-root](../content/org/jdbi/README.md) | 19 | 9 :white_check_mark: / 10 :warning: |
@@ -752,11 +752,11 @@ Reproducible Builds for Maven Central Repository
 | | [*.testing.clients](../content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 11 | 11 :white_check_mark: |
 | | [*.testing.hamcrest](../content/org/apache/sling/org.apache.sling.testing.hamcrest/README.md) | 1 | 1 :white_check_mark: |
 | | [*.testing.jcr-mock](../content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 11 | 11 :white_check_mark: |
-| | [*.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 13 | 13 :white_check_mark: |
+| | [*.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 14 | 14 :white_check_mark: |
 | | [*.testing.paxexam](../content/org/apache/sling/org.apache.sling.testing.paxexam/README.md) | 3 | 3 :white_check_mark: |
 | | [*.testing.resourceresolver-mock](../content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | | [*.testing.rules](../content/org/apache/sling/org.apache.sling.testing.rules/README.md) | 1 | 1 :white_check_mark: |
-| | [*.testing.sling-mock](../content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 21 | 21 :white_check_mark: |
+| | [*.testing.sling-mock](../content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 22 | 22 :white_check_mark: |
 | | [*.testing.sling-mock-oak](../content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 9 | 9 :white_check_mark: |
 | | [*.tooling.support.install](../content/org/apache/sling/org.apache.sling.tooling.support.install/README.md) | 1 | 1 :white_check_mark: |
 | | [*.tooling.support.source](../content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :white_check_mark: |
@@ -970,7 +970,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 23 | 3 :white_check_mark: / 20 :warning: |
-| **Count:** | **956** | **10655** | **7805** :white_check_mark:<br>**2850** :warning: |
+| **Count:** | **956** | **10660** | **7810** :white_check_mark:<br>**2850** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -987,7 +987,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      35 mvn         7
    1569 mvn         8
       1 mvn         9
-   1702 mvn        11
+   1703 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.22
@@ -1054,7 +1054,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      83 mvn-3.9.11   8
      92 mvn-3.9.11  11
     211 mvn-3.9.11  17
-    318 mvn-3.9.11  21
+    321 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      93 mvn-3.9.11  25
@@ -1066,7 +1066,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      31 mvn-3.9.12  25
       1 mvn-3.9.13  17
       1 mvn-3.9.13  25
-      1 mvn-3.9.14  17
+      2 mvn-3.9.14  17
       1 mvn-3.9.14  21
       2 mvn-3.9.14  25
      36 mvn-3.9.2   8
