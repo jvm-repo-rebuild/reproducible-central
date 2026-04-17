@@ -18,13 +18,13 @@ Source code: [https://github.com/SAP/ai-sdk-java.git](https://github.com/SAP/ai-
 * [com.sap.ai.sdk:sdk-parent](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/overview)
 </details>
 
-rebuilding **11 releases** of com.sap.ai.sdk:sdk-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of com.sap.ai.sdk:sdk-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.18.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.18.0/pom) | | | |
+| [1.18.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.18.0/pom) | [mvn jdk21](sdk-1.18.0.buildspec) | [result](sdk-parent-1.18.0.buildinfo): [19 :white_check_mark: ](sdk-parent-1.18.0.buildcompare) | | 5.2M |
 | [1.17.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.17.0/pom) | [mvn jdk21](sdk-1.17.0.buildspec) | [result](sdk-parent-1.17.0.buildinfo): [19 :white_check_mark: ](sdk-parent-1.17.0.buildcompare) | | 5.2M |
 | [1.16.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.16.0/pom) | [mvn jdk21](sdk-1.16.0.buildspec) | [result](sdk-parent-1.16.0.buildinfo): [19 :white_check_mark: ](sdk-parent-1.16.0.buildcompare) | | 4.8M |
 | [1.15.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.15.0/pom) | [mvn jdk21](sdk-1.15.0.buildspec) | [result](sdk-parent-1.15.0.buildinfo): [16 :white_check_mark: ](sdk-parent-1.15.0.buildcompare) | | 4.6M |
