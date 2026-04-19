@@ -1,9 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.10.4.buildspec:1.11.0
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.5.7.buildspec:3.5.8
-content/eu/maveniverse/maven/nisse/nisse-0.8.3.buildspec:0.8.4
+content/com/github/veithen/parent/veithen-parent-56.buildspec:57
 content/io/avaje/http/avaje-http-3.8.buildspec:3.9-RC1
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
-content/io/github/cbarlin/aru/aru-0.8.3.buildspec:0.9.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
