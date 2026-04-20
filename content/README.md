@@ -106,7 +106,7 @@ Reproducible Builds for Maven Central Repository
 | | [daemon](../content/com/github/veithen/daemon/README.md) | 10 | 10 :white_check_mark: |
 | com.github.veithen | [hermetic-security-manager](../content/com/github/veithen/hermetic-security-manager/README.md) | 1 | 1 :white_check_mark: |
 | | [jrel](../content/com/github/veithen/jrel/README.md) | 1 | 1 :white_check_mark: |
-| | [parent](../content/com/github/veithen/parent/README.md) | 20 | 19 :white_check_mark: / 1 :warning: |
+| | [parent](../content/com/github/veithen/parent/README.md) | 21 | 20 :white_check_mark: / 1 :warning: |
 | com.github.veithen.* | [phos](../content/com/github/veithen/phos/README.md) | 2 | 2 :white_check_mark: |
 | com.github.veithen.maven | [eclipse-settings-maven-plugin](../content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [hermetic-maven-plugin](../content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
@@ -704,7 +704,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.installer.provider.jcr](../content/org/apache/sling/org.apache.sling.installer.provider.jcr/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [*.javax.activation](../content/org/apache/sling/org.apache.sling.javax.activation/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [*.jcr.api](../content/org/apache/sling/org.apache.sling.jcr.api/README.md) | 1 | 1 :white_check_mark: |
-| | [*.jcr.contentloader](../content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 4 | 4 :warning: |
+| | [*.jcr.contentloader](../content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
 | | [*.jcr.davex](../content/org/apache/sling/org.apache.sling.jcr.davex/README.md) | 1 | 1 :white_check_mark: |
 | | [*.jcr.jackrabbit.accessmanager](../content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
 | | [*.jcr.jackrabbit.usermanager](../content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 11 | 3 :white_check_mark: / 8 :warning: |
@@ -834,7 +834,7 @@ Reproducible Builds for Maven Central Repository
 | org.glassfish.mq | [project](../content/org/glassfish/mq/README.md) | 2 | 2 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](../content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | org.hibernate.models | [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
-| org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 61 | 58 :white_check_mark: / 3 :warning: |
+| org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 63 | 60 :white_check_mark: / 3 :warning: |
 | org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 95 | 95 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 29 | 27 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
@@ -971,7 +971,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 23 | 3 :white_check_mark: / 20 :warning: |
-| **Count:** | **957** | **10671** | **7821** :white_check_mark:<br>**2850** :warning: |
+| **Count:** | **957** | **10675** | **7825** :white_check_mark:<br>**2850** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -982,13 +982,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      35 gradle     11
     230 gradle     17
-    174 gradle     21
+    175 gradle     21
       5 gradle     24
-     32 gradle     25
+     33 gradle     25
      35 mvn         7
    1569 mvn         8
       1 mvn         9
-   1703 mvn        11
+   1704 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.22
@@ -1061,7 +1061,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      93 mvn-3.9.11  25
       3 mvn-3.9.12   8
      20 mvn-3.9.12  11
-     29 mvn-3.9.12  17
+     30 mvn-3.9.12  17
     123 mvn-3.9.12  21
       1 mvn-3.9.12  22
      33 mvn-3.9.12  25
