@@ -29,6 +29,7 @@ rebuilding **2 releases** of org.apache.commons:commons-numbers-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.3](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.3/pom) | | | |
 | [1.2](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.2/pom) | [mvn jdk11](commons-numbers-1.2.buildspec) | [result](commons-numbers-parent-1.2.buildinfo): [47 :white_check_mark:  34 :warning:](commons-numbers-parent-1.2.buildcompare) [:mag:](commons-numbers-parent-1.2.diffoscope) | - | 4.6M |
 | [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.1/pom) | [mvn jdk8](commons-numbers-1.1.buildspec) | [result](commons-numbers-parent-1.1.buildinfo): [57 :white_check_mark: ](commons-numbers-parent-1.1.buildcompare) | | 4.0M |
 
