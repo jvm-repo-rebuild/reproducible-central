@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR ContentLoader
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.contentloader
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-contentloader.git
+source.scm.tag=org.apache.sling.jcr.contentloader-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.contentloader-3.0.0.pom
+outputs.0.length=16895
+outputs.0.checksums.sha512=7d7aaf7cf28723213cdd7652a002e40c12a3627d7522150270af854f0955edac445122d1a35cefade89a9c987327859fe52a2b05eb7077ca0aa9058fcd592a23
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.contentloader-3.0.0.jar
+outputs.1.length=175899
+outputs.1.checksums.sha512=7ed13a571c0d1899d29602950533ba8ed4acced010e03aa426467ecc9dca1e7a1a629b8a9a718e33c4636b2c726011f600fac916f5ebe25c3eb8b13e7108226d
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.contentloader-3.0.0-source-release.zip
+outputs.2.length=175079
+outputs.2.checksums.sha512=29aa29e3a75ca3e01f4a7ab4876547061328292392d0efef546b8042b5951397987fa1e9538ec1d7d9e97957510f1bd862864aa88ab164bddde617e2b1c1bc5c
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.contentloader-3.0.0-sources.jar
+outputs.3.length=88402
+outputs.3.checksums.sha512=f1a6fcba6d0f6d11bef2a6ae61145f53e2a6d75e6d84611634483b87222777faa44bbbcbb8144abd93106930f0a218ec3b5a83802da2cc3abe9dd99f2d8660ce
