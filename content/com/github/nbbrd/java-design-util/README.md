@@ -15,13 +15,13 @@ Source code: [https://github.com/nbbrd/java-design-util.git](https://github.com/
 * [com.github.nbbrd.java-design-util:java-design-processor](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-processor/overview)
 </details>
 
-rebuilding **7 releases** of com.github.nbbrd.java-design-util:java-design-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.nbbrd.java-design-util:java-design-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.10.2](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.10.2/pom) | | | |
+| [1.10.2](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.10.2/pom) | [mvn jdk21](java-design-util-1.10.2.buildspec) | [result](java-design-parent-1.10.2.buildinfo): [8 :white_check_mark: ](java-design-parent-1.10.2.buildcompare) | | 265K |
 | [1.10.1](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.10.1/pom) | [mvn jdk21](java-design-util-1.10.1.buildspec) | [result](java-design-parent-1.10.1.buildinfo): [8 :white_check_mark: ](java-design-parent-1.10.1.buildcompare) | | 265K |
 | [1.10.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.10.0/pom) | [mvn jdk21](java-design-util-1.10.0.buildspec) | [result](java-design-parent-1.10.0.buildinfo): [8 :white_check_mark: ](java-design-parent-1.10.0.buildcompare) | | 264K |
 | [1.9.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.9.0/pom) | [mvn jdk21](java-design-util-1.9.0.buildspec) | [result](java-design-parent-1.9.0.buildinfo): [8 :white_check_mark: ](java-design-parent-1.9.0.buildcompare) | | 262K |
