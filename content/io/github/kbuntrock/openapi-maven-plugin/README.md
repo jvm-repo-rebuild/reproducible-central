@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/kbuntrock/openapi-maven-plugin.git](https://github.com/kbuntrock/openapi-maven-plugin.git)
 
-rebuilding **3 releases** of io.github.kbuntrock:openapi-maven-plugin:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of io.github.kbuntrock:openapi-maven-plugin:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.0.31](https://central.sonatype.com/artifact/io.github.kbuntrock/openapi-maven-plugin/0.0.31/pom) | | | |
+| [0.0.31](https://central.sonatype.com/artifact/io.github.kbuntrock/openapi-maven-plugin/0.0.31/pom) | [mvn jdk17](openapi-maven-plugin-0.0.31.buildspec) | [result](openapi-maven-plugin-0.0.31.buildinfo): [3 :white_check_mark: ](openapi-maven-plugin-0.0.31.buildcompare) | | 385K |
 | [0.0.30](https://central.sonatype.com/artifact/io.github.kbuntrock/openapi-maven-plugin/0.0.30/pom) | [mvn jdk17](openapi-maven-plugin-0.0.30.buildspec) | [result](openapi-maven-plugin-0.0.30.buildinfo): [3 :white_check_mark: ](openapi-maven-plugin-0.0.30.buildcompare) | | 385K |
 | [0.0.29](https://central.sonatype.com/artifact/io.github.kbuntrock/openapi-maven-plugin/0.0.29/pom) | [mvn jdk17](openapi-maven-plugin-0.0.29.buildspec) | [result](openapi-maven-plugin-0.0.29.buildinfo): [3 :white_check_mark: ](openapi-maven-plugin-0.0.29.buildcompare) | | 326K |
 | [0.0.28](https://central.sonatype.com/artifact/io.github.kbuntrock/openapi-maven-plugin/0.0.28/pom) | [mvn jdk17](openapi-maven-plugin-0.0.28.buildspec) | [result](openapi-maven-plugin-0.0.28.buildinfo): [3 :white_check_mark: ](openapi-maven-plugin-0.0.28.buildcompare) | | 315K |
