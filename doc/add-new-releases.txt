@@ -1,11 +1,12 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.10.4.buildspec:1.11.0
-content/com/github/nbbrd/java-design-util/java-design-util-1.10.1.buildspec:1.10.2
+content/com/cognite/units/units-catalog/units-catalog-0.1.24.buildspec:0.1.26
 content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.1.buildspec:1.2.0
 content/io/avaje/http/avaje-http-3.8.buildspec:3.9-RC2
+content/io/avaje/jsonb/avaje-jsonb-3.13-RC1.buildspec:3.13
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
-content/io/repaint/maven/tiles-maven-plugin/tiles-maven-plugin-2.43.buildspec:2.44
-content/org/apache/jackrabbit/oak/jackrabbit-oak-1.92.0.buildspec:2.0.0
+content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.30.buildspec:0.0.31
+content/io/telicent/jena/rdf-abac/rdf-abac-2.0.3.buildspec:3.0.0
+content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-4.0.0-M1.buildspec:4.0.0-M2
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.3.2.Final.buildspec:4.3.3.Final
