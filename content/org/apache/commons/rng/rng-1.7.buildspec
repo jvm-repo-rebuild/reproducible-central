@@ -1,0 +1,18 @@
+groupId=org.apache.commons
+artifactId=commons-rng-parent
+display=${groupId}:commons-rng
+version=1.7
+
+gitRepo=https://github.com/apache/commons-rng.git
+gitTag=rel/commons-rng-${version}
+
+tool=mvn-3.9.12
+jdk=11
+newline=lf
+timezone="Europe/London"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule=false -Dspdx.skip -Dbuildinfo.ignore='*/*.spdx.rdf.xml,*/*-site.xml'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
+#diffoscope=${artifactId}-${version}.diffoscope
