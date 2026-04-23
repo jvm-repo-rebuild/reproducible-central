@@ -21,6 +21,7 @@ rebuilding **7 releases** of com.google.code.gson:gson-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.14.0](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.14.0/pom) | | | |
 | [2.13.2](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.2/pom) | [mvn jdk17](gson-2.13.2.buildspec) | [result](gson-parent-2.13.2.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.2.buildcompare) | | 526K |
 | [2.13.2-rc1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.2-rc1/pom) | [mvn jdk17](gson-2.13.2-rc1.buildspec) | [result](gson-parent-2.13.2-rc1.buildinfo): [10 :white_check_mark: ](gson-parent-2.13.2-rc1.buildcompare) | | 598K |
 | [2.13.1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.1/pom) | [mvn jdk11](gson-2.13.1.buildspec) | [result](gson-parent-2.13.1.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.1.buildcompare) | | 524K |

@@ -13,6 +13,7 @@ rebuilding **45 releases** of org.liquibase.ext:liquibase-percona:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.0.2](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/5.0.2/pom) | | | |
 | [5.0.1](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/5.0.1/pom) | [mvn jdk17](liquibase-percona-5.0.1.buildspec) | [result](liquibase-percona-5.0.1.buildinfo): [3 :white_check_mark: ](liquibase-percona-5.0.1.buildcompare) | | 150K |
 | [4.33.0](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.33.0/pom) | [mvn jdk17](liquibase-percona-4.33.0.buildspec) | [result](liquibase-percona-4.33.0.buildinfo): [3 :white_check_mark: ](liquibase-percona-4.33.0.buildcompare) | | 149K |
 | [4.32.0](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.32.0/pom) | [mvn jdk17](liquibase-percona-4.32.0.buildspec) | [result](liquibase-percona-4.32.0.buildinfo): [3 :white_check_mark: ](liquibase-percona-4.32.0.buildcompare) | | 151K |
