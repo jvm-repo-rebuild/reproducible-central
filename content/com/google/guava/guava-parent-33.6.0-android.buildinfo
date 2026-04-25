@@ -1,0 +1,92 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Guava Maven Parent
+group-id=com.google.guava
+artifact-id=guava-parent
+version=33.6.0-android
+
+# source information
+source.scm.uri=scm:git:https://github.com/google/guava.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.18
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.toolchain.jdk=openjdk version "26" 2026-03-17:OpenJDK Runtime Environment Temurin-26+35 (build 26+35):OpenJDK 64-Bit Server VM Temurin-26+35 (build 26+35, mixed mode, sharing)
+mvn.aggregate.artifact-id=guava-testlib
+
+# aggregated output
+
+outputs.0.coordinates=com.google.guava:guava-parent
+
+outputs.0.0.groupId=com.google.guava
+outputs.0.0.filename=guava-parent-33.6.0-android.pom
+outputs.0.0.length=26499
+outputs.0.0.checksums.sha512=cfac87cbd9d6b2a75c7dce3894aae2ef9ff175af2b7b0ca6f9d3ec07e955f47808c029cf9a4f09e82cdd9379d969b990975d62a9bf3aa3f188ddfb0bccbb9d5d
+
+outputs.1.coordinates=com.google.guava:guava
+
+outputs.1.0.groupId=com.google.guava
+outputs.1.0.filename=guava-33.6.0-android.pom
+outputs.1.0.length=10039
+outputs.1.0.checksums.sha512=7efc05062f5a84b9e135e8aa4d34d8b57025438c14bd8eb1dbf05c87ac03e58691eae35e61b7f0f1628af43da4da7cf236fec6aed7724aa58d411beab94409bb
+
+outputs.1.1.groupId=com.google.guava
+outputs.1.1.filename=guava-33.6.0-android.jar
+outputs.1.1.length=2978210
+outputs.1.1.checksums.sha512=b612ce30fe27756dc72d9f8d930c262c78cdfd4fd5471fc4a1aa5785c8260552262e28774f4ebc13093acbfbaac50b95917d3a96a00de34e632f04484db820a6
+
+outputs.1.2.groupId=com.google.guava
+outputs.1.2.filename=guava-33.6.0-android-sources.jar
+outputs.1.2.length=1878860
+outputs.1.2.checksums.sha512=54bb2e48089c87c750a205a19d40825563494d81eb458d6eedc5b6d1c8261ae6b7fc17431ad5274d6a0f48e286038d2d9d58a6858dd94013bd5aaf8fa2bd98f7
+
+outputs.1.3.groupId=com.google.guava
+outputs.1.3.filename=guava-33.6.0-android.module
+outputs.1.3.length=7149
+outputs.1.3.checksums.sha512=e1fa0373c020425e72b2ed9a963cab196fb91a1db084b2463fa6979060117b51fc78c5680c3c277b9d7f25769fadc8981922cfd2795a53718a0797549a1bbd09
+
+outputs.2.coordinates=com.google.guava:guava-bom
+
+outputs.2.0.groupId=com.google.guava
+outputs.2.0.filename=guava-bom-33.6.0-android.pom
+outputs.2.0.length=2967
+outputs.2.0.checksums.sha512=8860d23662f097d2f61b5a90f92a2cd37187109ba51a82879e557da9030acc6d5a09e1c50663930a13246f958438a3b78a53e6218a387586aba1eb628d47b6c7
+
+outputs.3.coordinates=com.google.guava:guava-testlib
+
+outputs.3.0.groupId=com.google.guava
+outputs.3.0.filename=guava-testlib-33.6.0-android.pom
+outputs.3.0.length=5062
+outputs.3.0.checksums.sha512=8544df372c7745a680110b0d505904a1deb823e7d73a004527ef1c573a74641201324a62fef756a8a3182d93368b6410cb1db8aeeb335cb0492b5d6c725c4505
+
+outputs.3.1.groupId=com.google.guava
+outputs.3.1.filename=guava-testlib-33.6.0-android.jar
+outputs.3.1.length=887634
+outputs.3.1.checksums.sha512=04cc479af908239566e8b7dd9cd5c22e6fd09c166493e263ba2a73db2ec524e9a01e8c7bb4f3bcc446075ce19a2ec2085203895836703390419799c8e8610c73
+
+outputs.3.2.groupId=com.google.guava
+outputs.3.2.filename=guava-testlib-33.6.0-android-sources.jar
+outputs.3.2.length=479584
+outputs.3.2.checksums.sha512=2707dcde24b440cb381ce0334a53d82dd07f395d3772b8923bb61400a6c6325c3a9a56d8ff1adebe9187d8c24dacc58b022109390b843f3252a84f3fc7204c03
+
+outputs.3.3.groupId=com.google.guava
+outputs.3.3.filename=guava-testlib-33.6.0-android-tests.jar
+outputs.3.3.length=224443
+outputs.3.3.checksums.sha512=ab13df9242d76163589e35e2fa934d1844e3b1e7b2252e41523c7b4c4f9c7c87e1cb5129edef24d084fb6eae8493bd6efa4f3f5611649da671cbdb55eb26b731
+
+outputs.3.4.groupId=com.google.guava
+outputs.3.4.filename=guava-testlib-33.6.0-android-test-sources.jar
+outputs.3.4.length=61115
+outputs.3.4.checksums.sha512=37243466945c6cb9c506e0279129a0f70a7417efde19aa3fc52e8db966928f7f07daec703b6d297a2bd7baabe31148fc4b30fb3e22595c3afa4a5668dfc8fe20
