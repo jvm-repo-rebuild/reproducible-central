@@ -1,0 +1,9 @@
+version=2.6.0
+ok=30
+ko=0
+ignored=0
+okFiles="spreadsheet-parent-2.6.0.pom spreadsheet-api-2.6.0.pom spreadsheet-api-2.6.0.jar spreadsheet-api-2.6.0-sources.jar spreadsheet-api-2.6.0-tests.jar spreadsheet-markdown-2.6.0.pom spreadsheet-markdown-2.6.0.jar spreadsheet-markdown-2.6.0-sources.jar spreadsheet-html-2.6.0.pom spreadsheet-html-2.6.0.jar spreadsheet-html-2.6.0-sources.jar spreadsheet-poi-2.6.0.pom spreadsheet-poi-2.6.0.jar spreadsheet-poi-2.6.0-sources.jar spreadsheet-od-2.6.0.pom spreadsheet-od-2.6.0.jar spreadsheet-od-2.6.0-sources.jar spreadsheet-xmlss-2.6.0.pom spreadsheet-xmlss-2.6.0.jar spreadsheet-xmlss-2.6.0-sources.jar spreadsheet-xl-2.6.0.pom spreadsheet-xl-2.6.0.jar spreadsheet-xl-2.6.0-sources.jar spreadsheet-fastexcel-2.6.0.pom spreadsheet-fastexcel-2.6.0.jar spreadsheet-fastexcel-2.6.0-sources.jar spreadsheet-standalone-2.6.0.pom spreadsheet-standalone-2.6.0.jar spreadsheet-standalone-2.6.0-sources.jar spreadsheet-bom-2.6.0.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
