@@ -1,0 +1,9 @@
+version=1.7
+ok=21
+ko=0
+ignored=6
+okFiles="commons-rng-parent-1.7.pom commons-rng-client-api-1.7.pom commons-rng-client-api-1.7.jar commons-rng-client-api-1.7-tests.jar commons-rng-client-api-1.7-sources.jar commons-rng-client-api-1.7-test-sources.jar commons-rng-core-1.7.pom commons-rng-core-1.7.jar commons-rng-core-1.7-tests.jar commons-rng-core-1.7-sources.jar commons-rng-core-1.7-test-sources.jar commons-rng-simple-1.7.pom commons-rng-simple-1.7.jar commons-rng-simple-1.7-tests.jar commons-rng-simple-1.7-sources.jar commons-rng-simple-1.7-test-sources.jar commons-rng-sampling-1.7.pom commons-rng-sampling-1.7.jar commons-rng-sampling-1.7-tests.jar commons-rng-sampling-1.7-sources.jar commons-rng-sampling-1.7-test-sources.jar"
+koFiles=""
+ignoredFiles="commons-rng-parent-1.7.spdx.rdf.xml commons-rng-parent-1.7-site.xml commons-rng-client-api-1.7.spdx.rdf.xml commons-rng-core-1.7.spdx.rdf.xml commons-rng-simple-1.7.spdx.rdf.xml commons-rng-sampling-1.7.spdx.rdf.xml"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
