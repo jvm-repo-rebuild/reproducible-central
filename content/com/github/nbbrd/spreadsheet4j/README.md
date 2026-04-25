@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/nbbrd/spreadsheet4j.git](https://github.com/nbbrd/spreadsheet4j.git)
 
-<details><summary>This project defines 10 modules:</summary>
+<details><summary>This project defines 11 modules:</summary>
 
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-api](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-api/overview)
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-bom](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-bom/overview)
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-fastexcel](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-fastexcel/overview)
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-html](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-html/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-markdown](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-markdown/overview)
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-od](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-od/overview)
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-parent](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/overview)
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-poi](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-poi/overview)
@@ -21,13 +22,13 @@ Source code: [https://github.com/nbbrd/spreadsheet4j.git](https://github.com/nbb
 * [com.github.nbbrd.spreadsheet4j:spreadsheet-xmlss](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-xmlss/overview)
 </details>
 
-rebuilding **3 releases** of com.github.nbbrd.spreadsheet4j:spreadsheet-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of com.github.nbbrd.spreadsheet4j:spreadsheet-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.6.0](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/2.6.0/pom) | | | |
+| [2.6.0](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/2.6.0/pom) | [mvn jdk21](spreadsheet-2.6.0.buildspec) | [result](spreadsheet-parent-2.6.0.buildinfo): [30 :white_check_mark: ](spreadsheet-parent-2.6.0.buildcompare) | | 1.6M |
 | [2.5.10](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/2.5.10/pom) | [mvn jdk21](spreadsheet-2.5.10.buildspec) | [result](spreadsheet-parent-2.5.10.buildinfo): [27 :white_check_mark: ](spreadsheet-parent-2.5.10.buildcompare) | | 1.4M |
 | [2.5.9](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/2.5.9/pom) | [mvn jdk21](spreadsheet-2.5.9.buildspec) | [result](spreadsheet-parent-2.5.9.buildinfo): [27 :white_check_mark: ](spreadsheet-parent-2.5.9.buildcompare) | | 1.4M |
 | [2.5.8](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/2.5.8/pom) | [mvn jdk21](spreadsheet-2.5.8.buildspec) | [result](spreadsheet-parent-2.5.8.buildinfo): [27 :white_check_mark: ](spreadsheet-parent-2.5.8.buildcompare) | | 1.4M |
