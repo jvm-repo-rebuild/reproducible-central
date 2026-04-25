@@ -33,6 +33,8 @@ rebuilding **1 releases** of com.io7m.calino:com.io7m.calino:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.calino/com.io7m.calino/1.0.0/pom) | | | |
+| [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.calino/com.io7m.calino/1.0.0-beta0001/pom) | | | |
 | [0.0.1](https://central.sonatype.com/artifact/com.io7m.calino/com.io7m.calino/0.0.1/pom) | [mvn jdk17.0.3](com.io7m.calino-0.0.1.buildspec) | [result](com.io7m.calino-0.0.1.buildinfo): [62 :white_check_mark: ](com.io7m.calino-0.0.1.buildcompare) | | 16M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

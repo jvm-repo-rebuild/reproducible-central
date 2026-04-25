@@ -38,6 +38,7 @@ rebuilding **54 releases** of org.junit:junit-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.1.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.1.0-RC1/pom) | | | |
 | [6.1.0-M1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.1.0-M1/pom) | [gradle jdk25](junit5-6.1.0-M1.buildspec) | [result](junit-bom-6.1.0-M1.buildinfo): [52 :white_check_mark: ](junit-bom-6.1.0-M1.buildcompare) | | 6.6M |
 | [6.0.3](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.3/pom) | [gradle jdk25](junit5-6.0.3.buildspec) | [result](junit-bom-6.0.3.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.3.buildcompare) | | 6.5M |
 | [6.0.2](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.2/pom) | [gradle jdk25](junit5-6.0.2.buildspec) | [result](junit-bom-6.0.2.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.2.buildcompare) | | 6.5M |
