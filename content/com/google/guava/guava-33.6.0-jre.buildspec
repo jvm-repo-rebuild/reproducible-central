@@ -7,7 +7,7 @@ display=${groupId}:${artifactId}
 gitRepo=https://github.com/google/${artifactId}.git
 gitTag=v$(echo "${version}" | cut -d '-' -f 1)
 
-tool=mvn-3.9.12 # Maven version injected into https://repo.maven.apache.org/maven2/com/google/guava/guava/${version}/guava-${version}-jre.module
+tool=mvn-3.9.12 # Maven version injected into https://repo.maven.apache.org/maven2/com/google/guava/guava/${version}/guava-${version}.module
 jdk=17
 newline=lf
 umask=007
