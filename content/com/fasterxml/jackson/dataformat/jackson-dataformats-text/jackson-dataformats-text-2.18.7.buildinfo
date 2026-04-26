@@ -1,0 +1,107 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson dataformats: Text
+group-id=com.fasterxml.jackson.dataformat
+artifact-id=jackson-dataformats-text
+version=2.18.7
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformats-text.git
+source.scm.tag=jackson-dataformats-text-2.18.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_482
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-dataformat-toml
+
+# aggregated output
+
+outputs.0.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformats-text
+
+outputs.0.0.groupId=com.fasterxml.jackson.dataformat
+outputs.0.0.filename=jackson-dataformats-text-2.18.7.pom
+outputs.0.0.length=3717
+outputs.0.0.checksums.sha512=b3d070aef4d1862a0ff401019593c06fab15e89cf037fbf67f22f213ef20047ee90d2423356e1ddcc278a71ae5c26bba78b000467e5d14eaa4967ee686b2302d
+
+outputs.1.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-csv
+
+outputs.1.0.groupId=com.fasterxml.jackson.dataformat
+outputs.1.0.filename=jackson-dataformat-csv-2.18.7.pom
+outputs.1.0.length=2955
+outputs.1.0.checksums.sha512=8b81056c72ccb1fb6e0856099262557f83641580eaf03becf36c8fda0702d4fb72fa76dd9a5287a63d6e0c99b8a2e31e1b110579cb35daa48f8282739bf8a956
+
+outputs.1.1.groupId=com.fasterxml.jackson.dataformat
+outputs.1.1.filename=jackson-dataformat-csv-2.18.7.jar
+outputs.1.1.length=106915
+outputs.1.1.checksums.sha512=ca49565bb531d755afd2db2ce2b60414dcc8fb0e459e921bd544053262e0b2dd69c7722c44e6f7ffeaddd42030aa8a3fd0c2b2a9f2b9758ad2258b66089338e1
+
+outputs.1.2.groupId=com.fasterxml.jackson.dataformat
+outputs.1.2.filename=jackson-dataformat-csv-2.18.7-sources.jar
+outputs.1.2.length=85857
+outputs.1.2.checksums.sha512=7f65720ab580a0f85f909ba936f734aaae2b7f616224576ad304d850de49f73be926ebafc22f03fda5c116bfbc123d116ad643ba45c36f5ada9910eaf546d5ed
+# ignored jackson-dataformat-csv-2.18.7.module
+
+outputs.2.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-properties
+
+outputs.2.0.groupId=com.fasterxml.jackson.dataformat
+outputs.2.0.filename=jackson-dataformat-properties-2.18.7.pom
+outputs.2.0.length=2721
+outputs.2.0.checksums.sha512=fb988a578ec00f05a950f5e8d117af5e15aa2209d79b26bc8f8f267eacb6b3db7cd99c2b44a78893ff5c0099a6f0b1aea76e979a42b03d1f5a96d81ff04805ec
+
+outputs.2.1.groupId=com.fasterxml.jackson.dataformat
+outputs.2.1.filename=jackson-dataformat-properties-2.18.7.jar
+outputs.2.1.length=55717
+outputs.2.1.checksums.sha512=943d476887602cb6e6eb66032b90b56571d0cadb50711b99318470df59b3a7b71ad6e727196f33a0ee08389169a3d460e7dc1af78f5748943c85af89653feb8e
+
+outputs.2.2.groupId=com.fasterxml.jackson.dataformat
+outputs.2.2.filename=jackson-dataformat-properties-2.18.7-sources.jar
+outputs.2.2.length=40683
+outputs.2.2.checksums.sha512=79b5110691bae9b48f25cf38afdf3cb81f1a2aa5c8b0a328a2e8689714f47f48800a107a2b9700e0ad553b934b0f0360eae2d29001d09bd5b6954d90a74f384a
+# ignored jackson-dataformat-properties-2.18.7.module
+
+outputs.3.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+
+outputs.3.0.groupId=com.fasterxml.jackson.dataformat
+outputs.3.0.filename=jackson-dataformat-yaml-2.18.7.pom
+outputs.3.0.length=2631
+outputs.3.0.checksums.sha512=215ca764e729d97045881092749e9cac7f8da6cb5c3bea3aca744c4cbc438b5c9aedf7c2229445b241c3a640f491174a7b2785fe3dcc20a48772f2c2c809fc3f
+
+outputs.3.1.groupId=com.fasterxml.jackson.dataformat
+outputs.3.1.filename=jackson-dataformat-yaml-2.18.7.jar
+outputs.3.1.length=55580
+outputs.3.1.checksums.sha512=6a7f6f4104ed2e22ae7462c30415d2dbff18438b421fd9a07b4a54723d6fac705f4f606cafa2a75392ce80ac27c8ffd9443d9837bdb465be234fc80dfe39771e
+
+outputs.3.2.groupId=com.fasterxml.jackson.dataformat
+outputs.3.2.filename=jackson-dataformat-yaml-2.18.7-sources.jar
+outputs.3.2.length=46402
+outputs.3.2.checksums.sha512=847792b527a1b0000600f60792a9a2b90abc981b1e59307ed31304490e8acc4002fe8ae338e5939059259bba24721308d23e38b731521dd457e21a27a6f5a9a3
+# ignored jackson-dataformat-yaml-2.18.7.module
+
+outputs.4.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-toml
+
+outputs.4.0.groupId=com.fasterxml.jackson.dataformat
+outputs.4.0.filename=jackson-dataformat-toml-2.18.7.pom
+outputs.4.0.length=3483
+outputs.4.0.checksums.sha512=156b8e71711814d0cb90949fc7f1544bc97764d7a7a7b3d76fc4196a46f15f2ab0b36faa60bdb1173820cc1a6d73903fd8487f16c6d4c1bce63652fa54527b8f
+
+outputs.4.1.groupId=com.fasterxml.jackson.dataformat
+outputs.4.1.filename=jackson-dataformat-toml-2.18.7.jar
+outputs.4.1.length=56085
+outputs.4.1.checksums.sha512=8dbd447f1e7a1e00a7202850272f42f6d34091558f92ceb979f4de6c06442d07874009372b8dd2948d7ad44a5f048cd28b46e26142d1d3d2e89fb8aeba5c5085
+
+outputs.4.2.groupId=com.fasterxml.jackson.dataformat
+outputs.4.2.filename=jackson-dataformat-toml-2.18.7-sources.jar
+outputs.4.2.length=39448
+outputs.4.2.checksums.sha512=c874791ec6c8f93d189dd914fdbe355e98462cfcf3edcb8dfb9afb0db7b5f0c71d83188073d25fb45cc97268700cd1e134e350adc682c53a0546949f255cf21c
+# ignored jackson-dataformat-toml-2.18.7.module
