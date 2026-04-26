@@ -1,0 +1,55 @@
+1 / 1 target/reference/at.yawk.lz4/lz4-java-1.11.0.jar target/lz4-java-1.11.0.jar
+--- target/reference/at.yawk.lz4/lz4-java-1.11.0.jar
++++ target/lz4-java-1.11.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 896932 bytes, number of entries: 118
+│ +Zip file size: 896949 bytes, number of entries: 118
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 META-INF/
+│ --rw-r--r--  2.0 unx     1779 b- defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     1856 b- defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/lz4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/util/darwin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/util/darwin/aarch64/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/util/darwin/x86_64/
+│ @@ -113,8 +113,8 @@
+│  -rw-r--r--  2.0 unx     3533 b- defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHash64JavaSafe.class
+│  -rw-r--r--  2.0 unx     3541 b- defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHash64JavaUnsafe.class
+│  -rw-r--r--  2.0 unx     1278 b- defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashConstants.class
+│  -rw-r--r--  2.0 unx     5679 b- defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashFactory.class
+│  -rw-r--r--  2.0 unx     1331 b- defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashJNI.class
+│  -rw-r--r--  2.0 unx    49618 b- defN 80-Jan-01 00:00 META-INF/maven/at.yawk.lz4/lz4-java/pom.xml
+│  -rw-r--r--  2.0 unx       55 b- defN 80-Jan-01 00:00 META-INF/maven/at.yawk.lz4/lz4-java/pom.properties
+│ -118 files, 1953158 bytes uncompressed, 878506 bytes compressed:  55.0%
+│ +118 files, 1953235 bytes uncompressed, 878523 bytes compressed:  55.0%
+├── META-INF/MANIFEST.MF
+│ @@ -13,22 +13,23 @@
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: LZ4 Java Compression
+│  Bundle-SCM: url="https://github.com/yawkat/lz4-java",connection="https:/
+│   /github.com/yawkat/lz4-java.git",developer-connection="git@github.com:y
+│   awkat/lz4-java.git",tag=HEAD
+│  Bundle-SymbolicName: lz4-java
+│  Bundle-Version: 1.11.0
+│ -Export-Package: net.jpountz.lz4;version:="1.11.0";uses:="net.jpountz.xxh
+│ - ash";version="1.11.0",net.jpountz.util;version:="1.11.0";version="1.11.
+│ +Export-Package: net.jpountz.lz4;version:="1.11.0";version="1.11.0";uses:
+│ + ="net.jpountz.xxhash",net.jpountz.util;version:="1.11.0";version="1.11.
+│   0",net.jpountz.util.darwin.aarch64;version:="1.11.0";version="1.11.0",n
+│   et.jpountz.util.darwin.x86_64;version:="1.11.0";version="1.11.0",net.jp
+│   ountz.util.linux.aarch64;version:="1.11.0";version="1.11.0",net.jpountz
+│   .util.linux.amd64;version:="1.11.0";version="1.11.0",net.jpountz.util.l
+│   inux.i386;version:="1.11.0";version="1.11.0",net.jpountz.util.linux.ppc
+│   64le;version:="1.11.0";version="1.11.0",net.jpountz.util.linux.riscv64;
+│   version:="1.11.0";version="1.11.0",net.jpountz.util.linux.s390x;version
+│   :="1.11.0";version="1.11.0",net.jpountz.util.windows.amd64;version:="1.
+│   11.0";version="1.11.0",net.jpountz.xxhash;version:="1.11.0";version="1.
+│   11.0"
+│  Import-Package: java.io,java.lang,java.lang.reflect,java.nio,java.util,j
+│ - ava.util.concurrent.locks,java.util.zip,sun.misc
+│ + ava.util.concurrent.locks,java.util.zip,net.jpountz.util;version="[1.11
+│ + ,2)",net.jpountz.xxhash;version="[1.11,2)",sun.misc
+
