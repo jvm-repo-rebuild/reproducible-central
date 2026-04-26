@@ -49,6 +49,7 @@ rebuilding **55 releases** of org.junit:junit-bom:
 | [6.0.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-RC1/pom) | [gradle jdk24](junit5-6.0.0-RC1.buildspec) | [result](junit-bom-6.0.0-RC1.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.0-RC1.buildcompare) | | 6.4M |
 | [6.0.0-M2](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-M2/pom) | [gradle jdk24](junit5-6.0.0-M2.buildspec) | [result](junit-bom-6.0.0-M2.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.0-M2.buildcompare) | | 6.3M |
 | [6.0.0-M1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-M1/pom) | [gradle jdk24](junit5-6.0.0-M1.buildspec) | [result](junit-bom-6.0.0-M1.buildinfo): [52 :white_check_mark: ](junit-bom-6.0.0-M1.buildcompare) | | 6.4M |
+| [5.14.4](https://central.sonatype.com/artifact/org.junit/junit-bom/5.14.4/pom) | | | |
 | [5.14.3](https://central.sonatype.com/artifact/org.junit/junit-bom/5.14.3/pom) | [gradle jdk21](junit5-5.14.3.buildspec) | [result](junit-bom-5.14.3.buildinfo): [58 :white_check_mark: ](junit-bom-5.14.3.buildcompare) | | 7.1M |
 | [5.14.2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.14.2/pom) | [gradle jdk21](junit5-5.14.2.buildspec) | [result](junit-bom-5.14.2.buildinfo): [58 :white_check_mark: ](junit-bom-5.14.2.buildcompare) | | 7.1M |
 | [5.14.1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.14.1/pom) | [gradle jdk21](junit5-5.14.1.buildspec) | [result](junit-bom-5.14.1.buildinfo): [58 :white_check_mark: ](junit-bom-5.14.1.buildcompare) | | 7.1M |

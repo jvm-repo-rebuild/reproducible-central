@@ -1,9 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/at/yawk/lz4/lz4-java/lz4-java-1.10.4.buildspec:1.11.0
-content/com/hibegin/zrlog-base/zrlog-base-3.3.9.buildspec:3.3.10
-content/com/io7m/calino/com.io7m.calino-0.0.1.buildspec:1.0.0
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
-content/org/apache/commons/commons-codec/commons-codec-1.21.0.buildspec:1.22.0
+content/org/apache/commons/parent/commons-parent-98.buildspec:99
+content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.9.1.buildspec:3.10.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
-content/org/junit/junit5/junit5-6.1.0-M1.buildspec:6.1.0-RC1
