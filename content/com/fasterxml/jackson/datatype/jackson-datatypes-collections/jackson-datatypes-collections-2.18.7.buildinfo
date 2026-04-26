@@ -1,0 +1,107 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatypes: collections
+group-id=com.fasterxml.jackson.datatype
+artifact-id=jackson-datatypes-collections
+version=2.18.7
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatypes-collections.git
+source.scm.tag=jackson-datatypes-collections-2.18.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_482
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-datatype-eclipse-collections
+
+# aggregated output
+
+outputs.0.coordinates=com.fasterxml.jackson.datatype:jackson-datatypes-collections
+
+outputs.0.0.groupId=com.fasterxml.jackson.datatype
+outputs.0.0.filename=jackson-datatypes-collections-2.18.7.pom
+outputs.0.0.length=3709
+outputs.0.0.checksums.sha512=13a6d20ab02657d2d95161cc24f565cd1e2a2780f6430dd1aa0a3d01ec400da0c4041eb7512d49cca0029d7418cc6ebf2e8042c56aee7b96f38063c59a0fbf69
+
+outputs.1.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-guava
+
+outputs.1.0.groupId=com.fasterxml.jackson.datatype
+outputs.1.0.filename=jackson-datatype-guava-2.18.7.pom
+outputs.1.0.length=3393
+outputs.1.0.checksums.sha512=60db546ccd899a0b49140f10954fe50c48d492b6c7b431ebbfc00ec8e32bf3959c695d9cc52d247e5ad8d7078b98513e3352e785101261493b19af668a039f98
+
+outputs.1.1.groupId=com.fasterxml.jackson.datatype
+outputs.1.1.filename=jackson-datatype-guava-2.18.7.jar
+outputs.1.1.length=104220
+outputs.1.1.checksums.sha512=b5ea08d8ab5c5bf0d01f163a450755f6505b5442ba6b1742b2768da745f507ef1fa2a227b823d6bc8772755baa8790512874741d2e2829194beb179d7296ce4f
+
+outputs.1.2.groupId=com.fasterxml.jackson.datatype
+outputs.1.2.filename=jackson-datatype-guava-2.18.7-sources.jar
+outputs.1.2.length=65585
+outputs.1.2.checksums.sha512=b3b3d57cac352efd2e062be618cb729ecd71dfa11f85148fe4b1f63bb0e37879f7f662ad99b20a223dbb14737206aca879f6613e84fa96229a3ad718f3fba687
+# ignored jackson-datatype-guava-2.18.7.module
+
+outputs.2.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-hppc
+
+outputs.2.0.groupId=com.fasterxml.jackson.datatype
+outputs.2.0.filename=jackson-datatype-hppc-2.18.7.pom
+outputs.2.0.length=2335
+outputs.2.0.checksums.sha512=e56a63d96ac6376a4fa4f78723ddef4c02f4dbdb26cfad52c581b987ea8b7f11474342a146f6cdd2492392e4f08a3584dfabcae9d9e772ae3651dd64512866b8
+
+outputs.2.1.groupId=com.fasterxml.jackson.datatype
+outputs.2.1.filename=jackson-datatype-hppc-2.18.7.jar
+outputs.2.1.length=44962
+outputs.2.1.checksums.sha512=195eeb4282ce4db92cfebe1e2fe69bc030b6346275860f93491dc99dc940ff5cd653a093c36e0db217ecbbf696506f491be570ac14e526ac3d93024cb5663d98
+
+outputs.2.2.groupId=com.fasterxml.jackson.datatype
+outputs.2.2.filename=jackson-datatype-hppc-2.18.7-sources.jar
+outputs.2.2.length=17424
+outputs.2.2.checksums.sha512=0276fc180fcedf05d9ed799e07e49eaa0bc21b05047c42caad2cdf78f1b20a9ea82849866d16e909639dd826317d5b37e5de1d070672756329a535b7dbf7058c
+# ignored jackson-datatype-hppc-2.18.7.module
+
+outputs.3.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-pcollections
+
+outputs.3.0.groupId=com.fasterxml.jackson.datatype
+outputs.3.0.filename=jackson-datatype-pcollections-2.18.7.pom
+outputs.3.0.length=2364
+outputs.3.0.checksums.sha512=3f9fbff2053e729745bf32e29c17936ef0d9d42520bfcb929666ecc215e812d955d80c88e0877e0eae5432db7089e27fe7f3c04f800ed191a9b29c2e993fa280
+
+outputs.3.1.groupId=com.fasterxml.jackson.datatype
+outputs.3.1.filename=jackson-datatype-pcollections-2.18.7.jar
+outputs.3.1.length=19209
+outputs.3.1.checksums.sha512=5cd8d375c899f8a1644665839b727d4097f0868bee4172927bc0e268b2e35420791b34776fe3322038273d4dbdb2738e16ed090f93620ee00b2a9d5e4181cc7a
+
+outputs.3.2.groupId=com.fasterxml.jackson.datatype
+outputs.3.2.filename=jackson-datatype-pcollections-2.18.7-sources.jar
+outputs.3.2.length=14077
+outputs.3.2.checksums.sha512=74de0ea3caad811def9a6791852495e9cbadee3444d859857ea96191dda74b5a26c6ae2c1a029f0065960328820568b56749dcb1fd54f593f15d1d4cb9ef06d6
+# ignored jackson-datatype-pcollections-2.18.7.module
+
+outputs.4.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections
+
+outputs.4.0.groupId=com.fasterxml.jackson.datatype
+outputs.4.0.filename=jackson-datatype-eclipse-collections-2.18.7.pom
+outputs.4.0.length=2818
+outputs.4.0.checksums.sha512=04eb8157531c9e419c8db5fda6fe5715514cd66101eee8685c7628aeb8cf27d2984b28d4e613a268be8b8c954989c52d45d985e804790c02363a91490fbf06c9
+
+outputs.4.1.groupId=com.fasterxml.jackson.datatype
+outputs.4.1.filename=jackson-datatype-eclipse-collections-2.18.7.jar
+outputs.4.1.length=419688
+outputs.4.1.checksums.sha512=f7a57ee7ac6de1f80f8a0a073d9c468bc1a40ddbb24b87ea61219e76854673f7409e103d6d7068e0300433de2d03f7ba9ef13962730977daa89d5cc4ca4bf50f
+
+outputs.4.2.groupId=com.fasterxml.jackson.datatype
+outputs.4.2.filename=jackson-datatype-eclipse-collections-2.18.7-sources.jar
+outputs.4.2.length=61058
+outputs.4.2.checksums.sha512=9db190e53042215ea49ab538d11b1ae6644bf5a9f978198c71eb24c93c94c52287deea4c55c06f59b54aba605d78ec0033d021928f8798a7340f2c141079d26b
+# ignored jackson-datatype-eclipse-collections-2.18.7.module
