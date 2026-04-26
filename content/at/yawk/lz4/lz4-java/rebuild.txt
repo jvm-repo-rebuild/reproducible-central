@@ -1,0 +1,63 @@
+# STEP 1: rebuild native code on GHA
+# prepare Git tag on personal GH repo
+# git remote add hb https://github.com/hboutemy/lz4-java.git
+# git push --tags hb
+
+# run GHA on Git tag
+# https://github.com/hboutemy/lz4-java/actions/workflows/build-all-and-publish.yml on Git tag
+
+
+# STEP 2: get native binaries from GHA
+# download resulting native binaries (Linux, MacOS, Windows) to assemble/natives https://github.com/hboutemy/lz4-java/blob/main/.github/workflows/build-all-and-publish.yml#L243
+\rm -rf assemble/natives
+mkdir -p assemble/natives
+# mv ~/Downloads/natives-*.zip assemble/natives
+for f in ~/Downloads/natives-*.zip
+do
+  dir=assemble/natives/$(basename $f .zip)
+  mkdir $dir
+  unzip $f -d $dir
+  find $dir -type f -exec chmod a-x {} \;
+  \rm $f
+done
+
+
+# STEP 3: initial build: require JDK 7 as toolchain
+mvn -B -V -DskipTests clean package -P'!native-macos,!native-linux'
+
+
+# STEP 4:
+#      - name: Prepare target/classes with collected natives
+#        shell: bash
+#        run: |
+          rm -rf target/classes/net/jpountz/util || true
+          shopt -s nullglob
+          for dir in assemble/natives/*; do
+            base="$(basename "$dir")"
+            # Expect names like natives-linux-amd64, natives-darwin-aarch64, natives-windows-amd64
+            os="${base#natives-}"
+            arch="${os#*-}"; os="${os%%-*}"
+            case "$os" in
+              linux) ext=so ;;
+              darwin) ext=dylib ;;
+              windows) ext=dll ;;
+              *) echo "Unknown OS in artifact: $base" >&2; continue ;;
+            esac
+            dest="target/classes/net/jpountz/util/$os/$arch"
+            mkdir -p "$dest"
+            if [ -f "$dir/liblz4-java.$ext" ]; then
+              cp -f "$dir/liblz4-java.$ext" "$dest/"
+            else
+              found="$(find "$dir" -type f -name "liblz4-java.$ext" | head -n1)"
+              if [ -n "$found" ]; then
+                cp -f "$found" "$dest/"
+              else
+                echo "No lib found in $dir" >&2
+              fi
+            fi
+          done
+          echo "Contents of target/classes/net/jpountz/util:"
+          find target/classes/net/jpountz/util -type f -print
+
+
+# STEP 5: run the build command with artifact:compare
