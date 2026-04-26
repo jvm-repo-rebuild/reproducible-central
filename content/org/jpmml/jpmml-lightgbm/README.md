@@ -21,6 +21,7 @@ rebuilding **10 releases** of org.jpmml:jpmml-lightgbm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.6.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.6/pom) | | | |
 | [1.6.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.5/pom) | [mvn jdk11](jpmml-lightgbm-1.6.5.buildspec) | [result](jpmml-lightgbm-1.6.5.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-lightgbm-1.6.5.buildcompare) | 2 :recycle: | 64K |
 | [1.6.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.4/pom) | [mvn jdk11](jpmml-lightgbm-1.6.4.buildspec) | [result](jpmml-lightgbm-1.6.4.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-lightgbm-1.6.4.buildcompare) | 2 :recycle: | 64K |
 | [1.6.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.3/pom) | [mvn jdk11](jpmml-lightgbm-1.6.3.buildspec) | [result](jpmml-lightgbm-1.6.3.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-lightgbm-1.6.3.buildcompare) | 2 :recycle: | 63K |
