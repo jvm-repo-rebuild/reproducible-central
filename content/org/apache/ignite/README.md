@@ -40,6 +40,7 @@ rebuilding **1 releases** of org.apache.ignite:apache-ignite:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.18.0](https://central.sonatype.com/artifact/org.apache.ignite/ignite-parent/2.18.0/pom) | | | |
 | [2.17.0](https://central.sonatype.com/artifact/org.apache.ignite/apache-ignite/2.17.0/pom) | [mvn jdk11](ignite-2.17.0.buildspec) | [result](apache-ignite-2.17.0.buildinfo): [20 :white_check_mark:  50 :warning:](apache-ignite-2.17.0.buildcompare) | - | 49M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
