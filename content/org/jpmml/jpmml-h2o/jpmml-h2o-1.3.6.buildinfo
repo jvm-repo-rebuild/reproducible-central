@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-H2O
+group-id=org.jpmml
+artifact-id=jpmml-h2o
+version=1.3.6
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-h2o.git
+source.scm.tag=1.3.6
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1011-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=pmml-h2o-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-h2o
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-h2o-1.3.6.pom
+outputs.0.0.length=5305
+outputs.0.0.checksums.sha512=ab1401d23ad006418fd968e7ba4346d24741a3a6f7a44189e52928f7c668da9f0338ebeb4f5d1a06a5da71c4b4ffe3808c0f39b89d871ce23e6f9bcc3b4a98bd
+
+outputs.1.coordinates=org.jpmml:pmml-h2o
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-h2o-1.3.6.pom
+outputs.1.0.length=3624
+outputs.1.0.checksums.sha512=cb768ee04a9ae5f1e31bd97403e64851610365f26d4646b6af67fc9291ba98ffdd0d4302a1ae440c034c86b2bac477a623654a57fbb34231678dd092b387dd25
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-h2o-1.3.6.jar
+outputs.1.1.length=60419
+outputs.1.1.checksums.sha512=90478d41d3b6613d37fc257146cce8c942b4e47d2bb1cd06e889a0930c14111d28d24f95a9bcac0f9f7db32ecdc023d54f1f29347938723a612444d3a0793458
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-h2o-1.3.6-sources.jar
+outputs.1.2.length=34997
+outputs.1.2.checksums.sha512=06f12a8bd7995e7070c4309cfb0ed529a8bf7d19ad56ea7efd1d3532253bab11afebacb9af0bf11ffc2033e2c30dd19c71939efa19d85ea86f19321cdc9823c4
+
+outputs.2.coordinates=org.jpmml:pmml-h2o-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-h2o-example-1.3.6.pom
+outputs.2.0.length=3214
+outputs.2.0.checksums.sha512=0f4eaedc4276fbfc8f9e9bd49a236ad5e71c70ea62bbfdd603c518b6ad5640ec236b1a5eca95d89a53ddd5dfcdce175a61f9046e9df649dd089003626011d6ca
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-h2o-example-1.3.6.jar
+outputs.2.1.length=5110
+outputs.2.1.checksums.sha512=62b62629e693defdb3ccd686dd95d5e151c26019b0f20fdb3127d29e8a929a90e4c549cdef60042dbcaa8e765c28061e56e00ccf8c93ee0d5766073ac0ef4724
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-h2o-example-1.3.6-sources.jar
+outputs.2.2.length=4082
+outputs.2.2.checksums.sha512=e42c4a61f2117a26033ac82e2918e93e698e5d5bfc855041b9e8f64611a0c287abb563adc944865044e07fb15624f82c48da8f5b081261a9ea1b7fc6e209df29
