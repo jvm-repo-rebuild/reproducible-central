@@ -27,6 +27,7 @@ rebuilding **49 releases** of org.jpmml:jpmml-sklearn:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.9.37](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.37/pom) | | | |
 | [1.9.36](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.36/pom) | [mvn jdk11](jpmml-sklearn-1.9.36.buildspec) | [result](jpmml-sklearn-1.9.36.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-sklearn-1.9.36.buildcompare) | 15 :recycle: 2 :rotating_light: | 7.2M |
 | [1.9.35](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.35/pom) | [mvn jdk11](jpmml-sklearn-1.9.35.buildspec) | [result](jpmml-sklearn-1.9.35.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-sklearn-1.9.35.buildcompare) | 15 :recycle: 2 :rotating_light: | 7.2M |
 | [1.9.34](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.34/pom) | [mvn jdk11](jpmml-sklearn-1.9.34.buildspec) | [result](jpmml-sklearn-1.9.34.buildinfo): [9 :white_check_mark:  9 :warning:](jpmml-sklearn-1.9.34.buildcompare) | 7 :recycle: 2 :rotating_light: | 6.6M |
