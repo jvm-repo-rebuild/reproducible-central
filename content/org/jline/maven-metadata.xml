@@ -3,8 +3,8 @@
   <groupId>org.jline</groupId>
   <artifactId>jline</artifactId>
   <versioning>
-    <latest>4.0.13</latest>
-    <release>4.0.13</release>
+    <latest>4.0.14</latest>
+    <release>4.0.14</release>
     <versions>
       <version>3.0.0.M2</version>
       <version>3.0.0</version>
@@ -76,6 +76,7 @@
       <version>3.30.9</version>
       <version>3.30.10</version>
       <version>3.30.11</version>
+      <version>3.30.12</version>
       <version>4.0.0</version>
       <version>4.0.2</version>
       <version>4.0.3</version>
@@ -89,7 +90,8 @@
       <version>4.0.11</version>
       <version>4.0.12</version>
       <version>4.0.13</version>
+      <version>4.0.14</version>
     </versions>
-    <lastUpdated>20260427193733</lastUpdated>
+    <lastUpdated>20260429195558</lastUpdated>
   </versioning>
 </metadata>

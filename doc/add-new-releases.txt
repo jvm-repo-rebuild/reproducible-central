@@ -1,19 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/jackson/core/jackson-core-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/databind/jackson-databind-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/jr/jackson-jr-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.21.2.buildspec:2.21.3
-content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.21.2.buildspec:2.21.3
-content/io/airlift/airbase/airbase-370.buildspec:371
+content/io/airlift/airbase/airbase-371.buildspec:372
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
-content/io/github/ollama4j/ollama4j-1.1.6.buildspec:1.1.7
-content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-5.0.0-M1.buildspec:5.0.0-M2
-content/io/telicent/jena/rdf-abac/rdf-abac-3.0.0.buildspec:3.1.0
-content/org/jdbi/jdbi3-root-3.52.1.buildspec:3.53.0
-content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.0
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-5.0.0-M1.buildspec:5.0.0-M3
+content/org/apache/sling/org.apache.sling.testing.jcr-mock/org.apache.sling.testing.jcr-mock-1.8.0.buildspec:1.8.2
+content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.1
+content/org/infinispan/protostream/protostream-6.0.6.buildspec:6.0.7
