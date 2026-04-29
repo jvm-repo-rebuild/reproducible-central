@@ -170,9 +170,10 @@
       <version>6.0.4</version>
       <version>6.0.5</version>
       <version>6.0.6</version>
+      <version>6.0.7</version>
       <version>14.0.0.CR2</version>
       <version>15.0.13.Final</version>
     </versions>
-    <lastUpdated>20260304144358</lastUpdated>
+    <lastUpdated>20260429123030</lastUpdated>
   </versioning>
 </metadata>

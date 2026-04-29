@@ -90,6 +90,7 @@ rebuilding **9 releases** of org.glassfish.hk2:hk2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0/pom) | | | |
 | [4.0.0-M4](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M4/pom) | [mvn jdk21](hk2-4.0.0-M4.buildspec) | [result](hk2-parent-4.0.0-M4.buildinfo): [191 :white_check_mark: ](hk2-parent-4.0.0-M4.buildcompare) | | 5.7M |
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M3/pom) | [mvn jdk17](hk2-4.0.0-M3.buildspec) | [result](hk2-parent-4.0.0-M3.buildinfo): [180 :white_check_mark:  157 :warning:](hk2-parent-4.0.0-M3.buildcompare) [:mag:](hk2-parent-4.0.0-M3.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) | - | 12M |
