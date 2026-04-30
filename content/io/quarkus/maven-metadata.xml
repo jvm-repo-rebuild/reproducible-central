@@ -3,8 +3,8 @@
   <groupId>io.quarkus</groupId>
   <artifactId>quarkus-project</artifactId>
   <versioning>
-    <latest>3.35.0</latest>
-    <release>3.35.0</release>
+    <latest>3.35.1</latest>
+    <release>3.35.1</release>
     <versions>
       <version>3.1.0.Final</version>
       <version>3.1.1.Final</version>
@@ -237,7 +237,8 @@
       <version>3.34.6</version>
       <version>3.35.0.CR1</version>
       <version>3.35.0</version>
+      <version>3.35.1</version>
     </versions>
-    <lastUpdated>20260422173741</lastUpdated>
+    <lastUpdated>20260430175930</lastUpdated>
   </versioning>
 </metadata>

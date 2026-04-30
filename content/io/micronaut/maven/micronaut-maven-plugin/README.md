@@ -18,14 +18,14 @@ Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](
 * [io.micronaut.maven:micronaut-maven-plugin-parent](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin-parent/overview)
 </details>
 
-rebuilding **50 releases** of io.micronaut.maven:micronaut-maven-plugin:
+rebuilding **51 releases** of io.micronaut.maven:micronaut-maven-plugin:
 - **50** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [5.0.0-M3](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0-M3/pom) | [mvn jdk25](micronaut-maven-plugin-5.0.0-M3.buildspec) | [result](micronaut-maven-plugin-parent-5.0.0-M3.buildinfo): [19 :white_check_mark: ](micronaut-maven-plugin-parent-5.0.0-M3.buildcompare) | | 525K |
-| [5.0.0-M2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0-M2/pom) | | | |
+| [5.0.0-M2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0-M2/pom) | [mvn jdk25](micronaut-maven-plugin-5.0.0-M2.buildspec) | :x: | |
 | [5.0.0-M1](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0-M1/pom) | [mvn jdk25](micronaut-maven-plugin-5.0.0-M1.buildspec) | [result](micronaut-maven-plugin-parent-5.0.0-M1.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-5.0.0-M1.buildcompare) | | 445K |
 | [4.11.6](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.11.6/pom) | [mvn jdk17](micronaut-maven-plugin-4.11.6.buildspec) | [result](micronaut-maven-plugin-parent-4.11.6.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.11.6.buildcompare) | | 387K |
 | [4.11.5](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.11.5/pom) | [mvn jdk17](micronaut-maven-plugin-4.11.5.buildspec) | [result](micronaut-maven-plugin-parent-4.11.5.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.11.5.buildcompare) | | 387K |

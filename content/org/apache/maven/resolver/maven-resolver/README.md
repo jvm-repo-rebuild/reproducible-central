@@ -53,6 +53,7 @@ rebuilding **62 releases** of org.apache.maven.resolver:maven-resolver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.17](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.17/pom) | | | |
 | [2.0.16](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.16/pom) | [mvn jdk21](maven-resolver-2.0.16.buildspec) | [result](maven-resolver-2.0.16.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.16.buildcompare) | 2 :no_entry_sign: | 15M |
 | [2.0.15](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.15/pom) | [mvn jdk21](maven-resolver-2.0.15.buildspec) | [result](maven-resolver-2.0.15.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.15.buildcompare) [:mag:](maven-resolver-2.0.15.diffoscope) | 2 :no_entry_sign: | 15M |
 | [2.0.14](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.14/pom) | [mvn jdk21](maven-resolver-2.0.14.buildspec) | [result](maven-resolver-2.0.14.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.14.buildcompare) | 2 :no_entry_sign: | 17M |
