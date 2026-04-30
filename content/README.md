@@ -294,7 +294,7 @@ Reproducible Builds for Maven Central Repository
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 85 | 84 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 172 | 172 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
-| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 217 | 211 :white_check_mark: / 6 :warning: |
+| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 218 | 212 :white_check_mark: / 6 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](../content/io/avaje/config/README.md) | 7 | 2 :white_check_mark: / 5 :warning: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
@@ -362,7 +362,7 @@ Reproducible Builds for Maven Central Repository
 | io.jstach.rainbowgum | [rainbowgum](../content/io/jstach/rainbowgum/README.md) | 12 | 9 :white_check_mark: / 3 :warning: |
 | io.jstach.pistachio | [pistachio](../content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.micronaut.build | [micronaut-maven-plugin](../content/io/micronaut/build/micronaut-maven-plugin/README.md) | 35 | 35 :white_check_mark: |
-| io.micronaut.maven | [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 49 | 49 :white_check_mark: |
+| io.micronaut.maven | [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 51 | 50 :white_check_mark: / 1 :warning: |
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation](../content/io/opentelemetry/instrumentation/README.md) | 54 | 18 :white_check_mark: / 36 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 30 | 27 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](../content/io/repaint/maven/tiles-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
@@ -838,7 +838,7 @@ Reproducible Builds for Maven Central Repository
 | org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 97 | 97 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 29 | 27 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
-| org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 30 | 23 :white_check_mark: / 7 :warning: |
+| org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 31 | 24 :white_check_mark: / 7 :warning: |
 | org.itsallcode | [junit5-system-extensions](../content/org/itsallcode/junit5-system-extensions/README.md) | 1 | 1 :white_check_mark: |
 | org.itsallcode.openfasttrace | [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 6 | 6 :warning: |
 | org.itsallcode | [openfasttrace-maven-plugin](../content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
@@ -971,7 +971,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 24 | 4 :white_check_mark: / 20 :warning: |
-| **Count:** | **957** | **10764** | **7891** :white_check_mark:<br>**2873** :warning: |
+| **Count:** | **957** | **10768** | **7894** :white_check_mark:<br>**2874** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1062,16 +1062,17 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.11  26
       5 mvn-3.9.12   8
      26 mvn-3.9.12  11
-     33 mvn-3.9.12  17
+     34 mvn-3.9.12  17
     133 mvn-3.9.12  21
       1 mvn-3.9.12  22
      37 mvn-3.9.12  25
       1 mvn-3.9.13  17
-      1 mvn-3.9.13  25
+      2 mvn-3.9.13  25
       2 mvn-3.9.14  17
       2 mvn-3.9.14  21
       2 mvn-3.9.14  25
       1 mvn-3.9.15  17
+      1 mvn-3.9.15  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       7 mvn-3.9.2  21
@@ -1149,7 +1150,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.9  22
       4 mvn-3.9.9  23
      48 mvn-3.9.9  24
-     48 mvn-3.9.9  25
+     49 mvn-3.9.9  25
       2 mvn-4.0.0-alpha-12  21
       2 mvn-4.0.0-alpha-12  22
       1 mvn-4.0.0-alpha-13  21

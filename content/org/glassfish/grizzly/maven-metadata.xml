@@ -3,8 +3,8 @@
   <groupId>org.glassfish.grizzly</groupId>
   <artifactId>grizzly-project</artifactId>
   <versioning>
-    <latest>5.0.0</latest>
-    <release>5.0.0</release>
+    <latest>5.0.1</latest>
+    <release>5.0.1</release>
     <versions>
       <version>2.0-b1</version>
       <version>2.0-b2</version>
@@ -132,7 +132,8 @@
       <version>4.0.2</version>
       <version>4.1.0-M1</version>
       <version>5.0.0</version>
+      <version>5.0.1</version>
     </versions>
-    <lastUpdated>20260119220346</lastUpdated>
+    <lastUpdated>20260429225618</lastUpdated>
   </versioning>
 </metadata>
