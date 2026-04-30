@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/94fzb/common-dao](https://github.com/94fzb/common-dao)
 
-rebuilding **25 releases** of com.hibegin:common-dao:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of com.hibegin:common-dao:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 13, 13 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.7](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.7/pom) | | | |
+| [1.1.7](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.7/pom) | [mvn jdk11](common-dao-1.1.7.buildspec) | [result](common-dao-1.1.7.buildinfo): [3 :white_check_mark: ](common-dao-1.1.7.buildcompare) | | 67K |
 | [1.1.6](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.6/pom) | [mvn jdk11](common-dao-1.1.6.buildspec) | [result](common-dao-1.1.6.buildinfo): [3 :white_check_mark: ](common-dao-1.1.6.buildcompare) | | 61K |
 | [1.1.5](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.5/pom) | [mvn jdk11](common-dao-1.1.5.buildspec) | [result](common-dao-1.1.5.buildinfo): [3 :white_check_mark: ](common-dao-1.1.5.buildcompare) | | 60K |
 | [1.1.4](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.4/pom) | [mvn jdk11](common-dao-1.1.4.buildspec) | [result](common-dao-1.1.4.buildinfo): [3 :white_check_mark: ](common-dao-1.1.4.buildcompare) | | 60K |
