@@ -13,6 +13,7 @@ rebuilding **5 releases** of io.takari:takari-archiver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.5](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.5/pom) | | | |
 | [1.0.4](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.4/pom) | [mvn jdk21](takari-archiver-1.0.4.buildspec) | [result](takari-archiver-1.0.4.buildinfo): [4 :white_check_mark: ](takari-archiver-1.0.4.buildcompare) | | 98K |
 | [1.0.3](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.3/pom) | [mvn jdk21](takari-archiver-1.0.3.buildspec) | [result](takari-archiver-1.0.3.buildinfo): [3 :white_check_mark: ](takari-archiver-1.0.3.buildcompare) | | 94K |
 | [1.0.2](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.2/pom) | [mvn jdk21](takari-archiver-1.0.2.buildspec) | [result](takari-archiver-1.0.2.buildinfo): [3 :white_check_mark: ](takari-archiver-1.0.2.buildcompare) | | 93K |

@@ -22,6 +22,7 @@ rebuilding **19 releases** of tools.jackson.dataformat:jackson-dataformats-text:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.3](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.3/pom) | | | |
 | [3.1.2](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.2/pom) | [mvn jdk17](jackson-dataformats-text-3.1.2.buildspec) | [result](jackson-dataformats-text-3.1.2.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.2.buildcompare) | | 588K |
 | [3.1.1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.1/pom) | [mvn jdk17](jackson-dataformats-text-3.1.1.buildspec) | [result](jackson-dataformats-text-3.1.1.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.1.buildcompare) | | 588K |
 | [3.1.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.0/pom) | [mvn jdk17](jackson-dataformats-text-3.1.0.buildspec) | [result](jackson-dataformats-text-3.1.0.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.0.buildcompare) | | 588K |
