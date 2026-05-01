@@ -24,14 +24,14 @@ Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina
 * [org.apache.mina:mina-transport-serial](https://central.sonatype.com/artifact/org.apache.mina/mina-transport-serial/overview)
 </details>
 
-rebuilding **13 releases** of org.apache.mina:mina-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of org.apache.mina:mina-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.7](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.7/pom) | | | |
+| [2.2.7](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.7/pom) | [mvn jdk21](mina-2.2.7.buildspec) | [result](mina-parent-2.2.7.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.7.buildcompare) | | 4.5M |
 | [2.2.6](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.6/pom) | [mvn jdk21](mina-2.2.6.buildspec) | [result](mina-parent-2.2.6.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.6.buildcompare) | | 4.4M |
 | [2.2.5](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.5/pom) | [mvn jdk21](mina-2.2.5.buildspec) | [result](mina-parent-2.2.5.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.5.buildcompare) | | 4.4M |
 | [2.2.4](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.4/pom) | [mvn jdk8](mina-2.2.4.buildspec) | [result](mina-parent-2.2.4.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.4.buildcompare) | | 4.5M |
