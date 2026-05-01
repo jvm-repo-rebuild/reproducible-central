@@ -3,8 +3,8 @@
   <groupId>io.github.chains-project</groupId>
   <artifactId>maven-lockfile</artifactId>
   <versioning>
-    <latest>5.15.1-beta-1</latest>
-    <release>5.15.1-beta-1</release>
+    <latest>5.16.0</latest>
+    <release>5.16.0</release>
     <versions>
       <version>1.0.1</version>
       <version>1.0.2</version>
@@ -113,7 +113,8 @@
       <version>5.14.3-beta-1</version>
       <version>5.15.0</version>
       <version>5.15.1-beta-1</version>
+      <version>5.16.0</version>
     </versions>
-    <lastUpdated>20260405013317</lastUpdated>
+    <lastUpdated>20260501173338</lastUpdated>
   </versioning>
 </metadata>
