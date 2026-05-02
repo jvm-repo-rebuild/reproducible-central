@@ -31,6 +31,7 @@ rebuilding **5 releases** of com.io7m.certusine:com.io7m.certusine:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/4.0.0-beta0001/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.2.0/pom) | [mvn jdk21](com.io7m.certusine-3.2.0.buildspec) | [result](com.io7m.certusine-3.2.0.buildinfo): [13 :white_check_mark:  36 :warning:](com.io7m.certusine-3.2.0.buildcompare) | - | 993K |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.1.0/pom) | [mvn jdk21](com.io7m.certusine-3.1.0.buildspec) | [result](com.io7m.certusine-3.1.0.buildinfo): [43 :white_check_mark:  2 :warning:](com.io7m.certusine-3.1.0.buildcompare) | - | 939K |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.0.0/pom) | [mvn jdk21](com.io7m.certusine-3.0.0.buildspec) | [result](com.io7m.certusine-3.0.0.buildinfo): [34 :white_check_mark:  11 :warning:](com.io7m.certusine-3.0.0.buildcompare) | - | 917K |
