@@ -3,8 +3,8 @@
   <groupId>org.glassfish.main</groupId>
   <artifactId>glassfish-parent</artifactId>
   <versioning>
-    <latest>9.0.0-M1</latest>
-    <release>9.0.0-M1</release>
+    <latest>9.0.0-M2</latest>
+    <release>9.0.0-M2</release>
     <versions>
       <version>3.1.2.2</version>
       <version>3.1.2</version>
@@ -89,7 +89,8 @@
       <version>8.0.0-JDK17-M12</version>
       <version>8.0.1</version>
       <version>9.0.0-M1</version>
+      <version>9.0.0-M2</version>
     </versions>
-    <lastUpdated>20260325134419</lastUpdated>
+    <lastUpdated>20260503092834</lastUpdated>
   </versioning>
 </metadata>

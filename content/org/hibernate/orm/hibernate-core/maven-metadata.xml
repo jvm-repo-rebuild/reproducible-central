@@ -87,6 +87,7 @@
       <version>6.2.49.Final</version>
       <version>6.2.50.Final</version>
       <version>6.2.51.Final</version>
+      <version>6.2.52.Final</version>
       <version>6.3.0.CR1</version>
       <version>6.3.0.Final</version>
       <version>6.3.1.Final</version>
@@ -162,6 +163,7 @@
       <version>6.6.47.Final</version>
       <version>6.6.48.Final</version>
       <version>6.6.49.Final</version>
+      <version>6.6.50.Final</version>
       <version>7.0.0.Alpha1</version>
       <version>7.0.0.Alpha2</version>
       <version>7.0.0.Alpha3</version>
@@ -210,6 +212,7 @@
       <version>7.1.22.Final</version>
       <version>7.1.23.Final</version>
       <version>7.1.24.Final</version>
+      <version>7.1.25.Final</version>
       <version>7.2.0.CR1</version>
       <version>7.2.0.CR2</version>
       <version>7.2.0.CR3</version>
@@ -227,13 +230,15 @@
       <version>7.2.10.Final</version>
       <version>7.2.11.Final</version>
       <version>7.2.12.Final</version>
+      <version>7.2.13.Final</version>
       <version>7.3.0.CR1</version>
       <version>7.3.0.CR2</version>
       <version>7.3.0.Final</version>
       <version>7.3.1.Final</version>
       <version>7.3.2.Final</version>
+      <version>7.3.3.Final</version>
       <version>8.0.0.Alpha1</version>
     </versions>
-    <lastUpdated>20260420154212</lastUpdated>
+    <lastUpdated>20260503005129</lastUpdated>
   </versioning>
 </metadata>
