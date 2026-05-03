@@ -1,0 +1,20 @@
+version=1.1.1
+ok=5
+ko=7
+ignored=0
+okFiles="com.io7m.wendover-1.1.1.pom com.io7m.wendover-1.1.1-cyclonedx.xml com.io7m.wendover.core-1.1.1.pom com.io7m.wendover.core-1.1.1-cyclonedx.xml com.io7m.wendover.tests-1.1.1.pom"
+koFiles="com.io7m.wendover.core-1.1.1.jar com.io7m.wendover.core-1.1.1-sources.jar com.io7m.wendover.core-1.1.1-tests.jar com.io7m.wendover.tests-1.1.1.jar com.io7m.wendover.tests-1.1.1-sources.jar com.io7m.wendover.tests-1.1.1-cyclonedx.xml com.io7m.wendover.tests-1.1.1-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.core-1.1.1.jar com.io7m.wendover.core/target/com.io7m.wendover.core-1.1.1.jar
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.core-1.1.1-sources.jar com.io7m.wendover.core/target/com.io7m.wendover.core-1.1.1-sources.jar
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.core-1.1.1-tests.jar com.io7m.wendover.core/target/com.io7m.wendover.core-1.1.1-tests.jar
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.tests-1.1.1.jar com.io7m.wendover.tests/target/com.io7m.wendover.tests-1.1.1.jar
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.tests-1.1.1-sources.jar com.io7m.wendover.tests/target/com.io7m.wendover.tests-1.1.1-sources.jar
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.tests-1.1.1-cyclonedx.xml com.io7m.wendover.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.wendover/com.io7m.wendover.tests-1.1.1-tests.jar com.io7m.wendover.tests/target/com.io7m.wendover.tests-1.1.1-tests.jar
+stabilize_ok=4
+stabilize_ko=2
+stabilize_ignored=1
+stabilize_okFiles="com.io7m.wendover.core-1.1.1-sources.jar.stabilized com.io7m.wendover.core-1.1.1-tests.jar.stabilized com.io7m.wendover.tests-1.1.1-sources.jar.stabilized com.io7m.wendover.tests-1.1.1-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.wendover.core-1.1.1.jar.stabilized com.io7m.wendover.tests-1.1.1.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.wendover.tests-1.1.1-cyclonedx.xml"
