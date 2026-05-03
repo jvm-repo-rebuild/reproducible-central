@@ -29,6 +29,7 @@ rebuilding **3 releases** of org.apache.johnzon:johnzon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.1.0/pom) | | | |
 | [2.0.2](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.0.2/pom) | [mvn jdk17](johnzon-2.0.2.buildspec) | [result](johnzon-2.0.2.buildinfo): [37 :white_check_mark: ](johnzon-2.0.2.buildcompare) | | 14M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.0.1/pom) | [mvn jdk11](johnzon-2.0.1.buildspec) | [result](johnzon-2.0.1.buildinfo): [38 :white_check_mark: ](johnzon-2.0.1.buildcompare) | | 14M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.0.0/pom) | [mvn jdk11](johnzon-2.0.0.buildspec) | [result](johnzon-2.0.0.buildinfo): [32 :white_check_mark:  6 :warning:](johnzon-2.0.0.buildcompare) [:mag:](johnzon-2.0.0.diffoscope) [:memo:](https://github.com/apache/johnzon/pull/114) | - | 14M |

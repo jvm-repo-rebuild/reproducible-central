@@ -286,7 +286,7 @@ Reproducible Builds for Maven Central Repository
 | | [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 105 | 93 :white_check_mark: / 12 :warning: |
 | | [zippy](../content/eu/maveniverse/maven/zippy/README.md) | 2 | 2 :white_check_mark: |
 | | [mase](../content/eu/maveniverse/maven/mase/mase/README.md) | 4 | 4 :white_check_mark: |
-| | [shared](../content/eu/maveniverse/maven/shared/shared/README.md) | 12 | 12 :white_check_mark: |
+| | [shared](../content/eu/maveniverse/maven/shared/shared/README.md) | 13 | 13 :white_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 183 | 79 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](../content/fr/marcwrobel/jbanking/README.md) | 3 | 3 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
@@ -294,7 +294,7 @@ Reproducible Builds for Maven Central Repository
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 86 | 85 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 172 | 172 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
-| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 218 | 212 :white_check_mark: / 6 :warning: |
+| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 219 | 213 :white_check_mark: / 6 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](../content/io/avaje/config/README.md) | 7 | 2 :white_check_mark: / 5 :warning: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
@@ -962,16 +962,16 @@ Reproducible Builds for Maven Central Repository
 | tool.jackson.jr | [jackson-jr](../content/tools/jackson/jr/README.md) | 20 | 20 :white_check_mark: |
 | tools.jackson.core | [jackson-core](../content/tools/jackson/core/jackson-core/README.md) | 20 | 20 :white_check_mark: |
 | | [jackson-databind](../content/tools/jackson/core/jackson-databind/README.md) | 20 | 20 :white_check_mark: |
-| tools.jackson.dataformat | [jackson-dataformat-xml](../content/tools/jackson/dataformat/jackson-dataformat-xml/README.md) | 19 | 19 :white_check_mark: |
+| tools.jackson.dataformat | [jackson-dataformat-xml](../content/tools/jackson/dataformat/jackson-dataformat-xml/README.md) | 20 | 20 :white_check_mark: |
 | | [jackson-dataformats-binary](../content/tools/jackson/dataformat/jackson-dataformats-binary/README.md) | 20 | 20 :white_check_mark: |
 | | [jackson-dataformats-text](../content/tools/jackson/dataformat/jackson-dataformats-text/README.md) | 20 | 20 :white_check_mark: |
-| tools.jackson.datatype | [jackson-datatype-joda](../content/tools/jackson/datatype/jackson-datatype-joda/README.md) | 19 | 19 :white_check_mark: |
+| tools.jackson.datatype | [jackson-datatype-joda](../content/tools/jackson/datatype/jackson-datatype-joda/README.md) | 20 | 20 :white_check_mark: |
 | | [jackson-datatypes-collections](../content/tools/jackson/datatype/jackson-datatypes-collections/README.md) | 19 | 19 :white_check_mark: |
-| | [jackson-datatypes-misc](../content/tools/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 19 | 19 :white_check_mark: |
+| | [jackson-datatypes-misc](../content/tools/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 20 | 20 :white_check_mark: |
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 24 | 4 :white_check_mark: / 20 :warning: |
-| **Count:** | **957** | **10784** | **7910** :white_check_mark:<br>**2874** :warning: |
+| **Count:** | **957** | **10789** | **7915** :white_check_mark:<br>**2874** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1054,7 +1054,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.10  21
      99 mvn-3.9.11   8
      96 mvn-3.9.11  11
-    219 mvn-3.9.11  17
+    222 mvn-3.9.11  17
     330 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
@@ -1145,12 +1145,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     167 mvn-3.9.9  11
     334 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    486 mvn-3.9.9  21
+    487 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2
      17 mvn-3.9.9  22
       4 mvn-3.9.9  23
      48 mvn-3.9.9  24
-     49 mvn-3.9.9  25
+     50 mvn-3.9.9  25
       2 mvn-4.0.0-alpha-12  21
       2 mvn-4.0.0-alpha-12  22
       1 mvn-4.0.0-alpha-13  21
