@@ -292,7 +292,7 @@ Reproducible Builds for Maven Central Repository
 | fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](../content/io/jooby/README.md) | 77 | 23 :white_check_mark: / 54 :warning: |
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 86 | 85 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 172 | 172 :warning: |
+| io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 173 | 173 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
 | io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 219 | 213 :white_check_mark: / 6 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
@@ -339,7 +339,7 @@ Reproducible Builds for Maven Central Repository
 | io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 13 | 13 :white_check_mark: |
 | io.github.albertus82 | [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | 12 | 12 :white_check_mark: |
 | | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 5 | 5 :warning: |
-| io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 39 | 39 :white_check_mark: |
+| io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 40 | 40 :white_check_mark: |
 | io.github.chains-project | [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 82 | 45 :white_check_mark: / 37 :warning: |
 | io.github.derkrischan | [jpdftest](../content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :white_check_mark: |
 | io.github.hboutemy | [sigstore-maven-plugin](../content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -971,7 +971,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 24 | 4 :white_check_mark: / 20 :warning: |
-| **Count:** | **957** | **10797** | **7923** :white_check_mark:<br>**2874** :warning: |
+| **Count:** | **957** | **10799** | **7924** :white_check_mark:<br>**2875** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1013,7 +1013,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      21 mvn        23
      41 mvn        24
     113 mvn        25
-     11 mvn        26
+     12 mvn        26
       3 mvn-3.5.4   8
       1 mvn-3.6.0   8
      13 mvn-3.6.2   8
@@ -1055,7 +1055,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      99 mvn-3.9.11   8
      96 mvn-3.9.11  11
     223 mvn-3.9.11  17
-    330 mvn-3.9.11  21
+    331 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      94 mvn-3.9.11  25
