@@ -327,6 +327,7 @@ rebuilding **33 releases** of org.glassfish.main:glassfish-parent:
 | -- | --------- | ------ | ------ | -- |
 | [9.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M2/pom) | | | |
 | [9.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M1/pom) | | | |
+| [8.0.2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.2/pom) | | | |
 | [8.0.1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.1/pom) | | | |
 | [8.0.0-JDK17-M12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M12/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M12.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M12.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M12.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-JDK17-M12.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | 5 :rotating_light: 6 :no_entry_sign: | 550M |
 | [8.0.0-JDK17-M10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M10/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M10.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M10.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M10.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | - | 542M |

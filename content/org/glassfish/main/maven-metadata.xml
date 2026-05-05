@@ -88,9 +88,10 @@
       <version>8.0.0-JDK17-M10</version>
       <version>8.0.0-JDK17-M12</version>
       <version>8.0.1</version>
+      <version>8.0.2</version>
       <version>9.0.0-M1</version>
       <version>9.0.0-M2</version>
     </versions>
-    <lastUpdated>20260503092834</lastUpdated>
+    <lastUpdated>20260505081209</lastUpdated>
   </versioning>
 </metadata>
