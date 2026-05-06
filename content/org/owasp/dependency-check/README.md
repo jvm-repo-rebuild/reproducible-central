@@ -18,14 +18,14 @@ Source code: [https://github.com/dependency-check/DependencyCheck](https://githu
 * [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/overview)
 </details>
 
-rebuilding **72 releases** of org.owasp:dependency-check-parent:
+rebuilding **73 releases** of org.owasp:dependency-check-parent:
 - **52** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [12.2.2](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.2.2/pom) | | | |
+| [12.2.2](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.2.2/pom) | [mvn jdk25](dependency-check-12.2.2.buildspec) | [result](dependency-check-parent-12.2.2.buildinfo): [21 :white_check_mark:  1 :warning:](dependency-check-parent-12.2.2.buildcompare) | 1 :rotating_light: | 121M |
 | [12.2.1](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.2.1/pom) | [mvn jdk25](dependency-check-12.2.1.buildspec) | [result](dependency-check-parent-12.2.1.buildinfo): [21 :white_check_mark:  1 :warning:](dependency-check-parent-12.2.1.buildcompare) [:mag:](dependency-check-parent-12.2.1.diffoscope) | 1 :rotating_light: | 121M |
 | [12.2.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.2.0/pom) | [mvn jdk11](dependency-check-12.2.0.buildspec) | [result](dependency-check-parent-12.2.0.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.2.0.buildcompare) | | 72M |
 | [12.1.9](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.9/pom) | [mvn jdk11](dependency-check-12.1.9.buildspec) | [result](dependency-check-parent-12.1.9.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.9.buildcompare) | | 72M |
