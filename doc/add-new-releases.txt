@@ -1,9 +1,15 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/io7m/wendover/com.io7m.wendover-1.0.2.buildspec:1.1.1
+content/io/airlift/airbase/airbase-373.buildspec:374
+content/io/avaje/http/avaje-http-3.9-RC2.buildspec:3.9-RC3
 content/io/avaje/jsonb/avaje-jsonb-3.13.buildspec:3.14-RC1
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
+content/io/cucumber/gherkin/gherkin-39.0.0.buildspec:39.1.0
 content/org/apache/johnzon/johnzon-2.0.2.buildspec:2.1.0
-content/org/apache/wicket/wicket-parent-10.8.0.buildspec:10.9.0
 content/org/apache/commons/statistics/commons-statistics-1.2.buildspec:1.3
+content/org/apache/cxf/xjc-utils/xjc-utils-4.1.2.buildspec:4.2.0
+content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.10.0.buildspec:3.10.1
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-12.1.0.buildspec:12.2.0
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.8.buildspec:12.1.9
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.1
