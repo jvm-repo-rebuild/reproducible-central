@@ -1,0 +1,16 @@
+version=12.2.2
+ok=21
+ko=1
+ignored=0
+okFiles="dependency-check-parent-12.2.2.pom dependency-check-utils-12.2.2.pom dependency-check-utils-12.2.2.jar dependency-check-utils-12.2.2-sources.jar dependency-check-core-12.2.2.pom dependency-check-core-12.2.2.jar dependency-check-core-12.2.2-sources.jar dependency-check-cli-12.2.2.pom dependency-check-cli-12.2.2.jar dependency-check-cli-12.2.2-sources.jar dependency-check-cli-12.2.2-release.zip dependency-check-ant-12.2.2.pom dependency-check-ant-12.2.2.jar dependency-check-ant-12.2.2-sources.jar dependency-check-ant-12.2.2-release.zip dependency-check-maven-12.2.2.pom dependency-check-maven-12.2.2.jar dependency-check-maven-12.2.2-sources.jar dependency-check-plugin-12.2.2.pom dependency-check-plugin-12.2.2.jar dependency-check-plugin-12.2.2-sources.jar"
+koFiles="dependency-check-core-12.2.2-tests.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.owasp/dependency-check-core-12.2.2-tests.jar core/target/dependency-check-core-12.2.2-tests.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="dependency-check-core-12.2.2-tests.jar.stabilized"
+stabilize_ignoredFiles=""
