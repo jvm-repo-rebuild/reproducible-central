@@ -3,8 +3,8 @@
   <groupId>org.eclipse.jetty</groupId>
   <artifactId>jetty-project</artifactId>
   <versioning>
-    <latest>12.1.8</latest>
-    <release>12.1.8</release>
+    <latest>12.1.9</latest>
+    <release>12.1.9</release>
     <versions>
       <version>7.0.0.M0</version>
       <version>7.0.0.M1</version>
@@ -421,6 +421,7 @@
       <version>12.0.32</version>
       <version>12.0.33</version>
       <version>12.0.34</version>
+      <version>12.0.35</version>
       <version>12.1.0.alpha0</version>
       <version>12.1.0.alpha1</version>
       <version>12.1.0.alpha2</version>
@@ -437,7 +438,8 @@
       <version>12.1.6</version>
       <version>12.1.7</version>
       <version>12.1.8</version>
+      <version>12.1.9</version>
     </versions>
-    <lastUpdated>20260402015311</lastUpdated>
+    <lastUpdated>20260506041607</lastUpdated>
   </versioning>
 </metadata>
