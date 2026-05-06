@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jreleaser/jreleaser.git)
 
-<details><summary>This project defines 55 modules:</summary>
+<details><summary>This project defines 56 modules:</summary>
 
 * [org.jreleaser:jdks-maven-plugin](https://central.sonatype.com/artifact/org.jreleaser/jdks-maven-plugin/overview)
 * [org.jreleaser:jreleaser](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/overview)
@@ -63,17 +63,18 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-twitter-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-twitter-java-sdk/overview)
 * [org.jreleaser:jreleaser-utils](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-utils/overview)
 * [org.jreleaser:jreleaser-webhooks-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-webhooks-java-sdk/overview)
+* [org.jreleaser:jreleaser-zernio-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zernio-java-sdk/overview)
 * [org.jreleaser:jreleaser-zulip-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zulip-java-sdk/overview)
 </details>
 
-rebuilding **19 releases** of org.jreleaser:jreleaser:
+rebuilding **20 releases** of org.jreleaser:jreleaser:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 10, 2 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 11, 2 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.24.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.24.0/pom) | | | |
+| [1.24.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.24.0/pom) | [gradle jdk21](jreleaser-1.24.0.buildspec) | [result](jreleaser-1.24.0.buildinfo): [167 :white_check_mark:  1 :warning:](jreleaser-1.24.0.buildcompare) | 1 :rotating_light: | 52M |
 | [1.23.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.23.0/pom) | [gradle jdk21](jreleaser-1.23.0.buildspec) | [result](jreleaser-1.23.0.buildinfo): [164 :white_check_mark:  1 :warning:](jreleaser-1.23.0.buildcompare) | 1 :rotating_light: | 52M |
 | [1.22.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.22.0/pom) | [gradle jdk21](jreleaser-1.22.0.buildspec) | [result](jreleaser-1.22.0.buildinfo): [164 :white_check_mark:  1 :warning:](jreleaser-1.22.0.buildcompare) | 1 :rotating_light: | 52M |
 | [1.21.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.21.0/pom) | [gradle jdk21](jreleaser-1.21.0.buildspec) | [result](jreleaser-1.21.0.buildinfo): [164 :white_check_mark:  1 :warning:](jreleaser-1.21.0.buildcompare) | 1 :rotating_light: | 51M |
