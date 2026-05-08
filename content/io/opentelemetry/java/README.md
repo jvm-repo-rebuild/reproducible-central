@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://github.com/open-telemetry/opentelemetry-java.git)
 
-<details><summary>This project defines 32 modules:</summary>
+<details><summary>This project defines 35 modules:</summary>
 
 * [io.opentelemetry:opentelemetry-api](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api/overview)
 * [io.opentelemetry:opentelemetry-api-events](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api-events/overview)
@@ -21,6 +21,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-exporter-logging-otlp](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-logging-otlp/overview)
 * [io.opentelemetry:opentelemetry-exporter-otlp](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp/overview)
 * [io.opentelemetry:opentelemetry-exporter-otlp-common](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-common/overview)
+* [io.opentelemetry:opentelemetry-exporter-otlp-profiles](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-profiles/overview)
 * [io.opentelemetry:opentelemetry-exporter-prometheus](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-prometheus/overview)
 * [io.opentelemetry:opentelemetry-exporter-sender-grpc-managed-channel](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-sender-grpc-managed-channel/overview)
 * [io.opentelemetry:opentelemetry-exporter-sender-jdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-sender-jdk/overview)
@@ -35,21 +36,23 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-sdk-common](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-common/overview)
 * [io.opentelemetry:opentelemetry-sdk-extension-autoconfigure](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/overview)
 * [io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/overview)
+* [io.opentelemetry:opentelemetry-sdk-extension-declarative-config](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-declarative-config/overview)
 * [io.opentelemetry:opentelemetry-sdk-extension-incubator](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-incubator/overview)
 * [io.opentelemetry:opentelemetry-sdk-extension-jaeger-remote-sampler](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-jaeger-remote-sampler/overview)
 * [io.opentelemetry:opentelemetry-sdk-logs](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-logs/overview)
 * [io.opentelemetry:opentelemetry-sdk-metrics](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-metrics/overview)
+* [io.opentelemetry:opentelemetry-sdk-profiles](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-profiles/overview)
 * [io.opentelemetry:opentelemetry-sdk-testing](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-testing/overview)
 * [io.opentelemetry:opentelemetry-sdk-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-trace/overview)
 </details>
 
-rebuilding **30 releases** of io.opentelemetry:opentelemetry-sdk:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **31 releases** of io.opentelemetry:opentelemetry-sdk:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.62.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.62.0/pom) | | | |
+| [1.62.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.62.0/pom) | [gradle jdk21](opentelemetry-sdk-1.62.0.buildspec) | [result](opentelemetry-sdk-1.62.0.buildinfo): [95 :white_check_mark: ](opentelemetry-sdk-1.62.0.buildcompare) | | 3.9M |
 | [1.61.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.61.0/pom) | [gradle jdk21](opentelemetry-sdk-1.61.0.buildspec) | [result](opentelemetry-sdk-1.61.0.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.61.0.buildcompare) | | 3.7M |
 | [1.60.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.60.1/pom) | [gradle jdk21](opentelemetry-sdk-1.60.1.buildspec) | [result](opentelemetry-sdk-1.60.1.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.60.1.buildcompare) | | 3.7M |
 | [1.60.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.60.0/pom) | [gradle jdk21](opentelemetry-sdk-1.60.0.buildspec) | [result](opentelemetry-sdk-1.60.0.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.60.0.buildcompare) | | 3.7M |
