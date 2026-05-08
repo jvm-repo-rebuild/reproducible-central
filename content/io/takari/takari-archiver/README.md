@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/takari/provisio-archiver.git](https://github.com/takari/provisio-archiver.git)
 
-rebuilding **6 releases** of io.takari:takari-archiver:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of io.takari:takari-archiver:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.7](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.7/pom) | | | |
+| [1.0.7](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.7/pom) | [mvn jdk21](takari-archiver-1.0.7.buildspec) | [result](takari-archiver-1.0.7.buildinfo): [3 :white_check_mark: ](takari-archiver-1.0.7.buildcompare) | | 95K |
 | [1.0.6](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.6/pom) | | | |
 | [1.0.5](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.5/pom) | [mvn jdk21](takari-archiver-1.0.5.buildspec) | [result](takari-archiver-1.0.5.buildinfo): [3 :white_check_mark: ](takari-archiver-1.0.5.buildcompare) | | 95K |
 | [1.0.4](https://central.sonatype.com/artifact/io.takari/takari-archiver/1.0.4/pom) | [mvn jdk21](takari-archiver-1.0.4.buildspec) | [result](takari-archiver-1.0.4.buildinfo): [4 :white_check_mark: ](takari-archiver-1.0.4.buildcompare) | | 98K |
