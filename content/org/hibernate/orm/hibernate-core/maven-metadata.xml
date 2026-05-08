@@ -237,8 +237,9 @@
       <version>7.3.1.Final</version>
       <version>7.3.2.Final</version>
       <version>7.3.3.Final</version>
+      <version>7.4.0.CR1</version>
       <version>8.0.0.Alpha1</version>
     </versions>
-    <lastUpdated>20260503005129</lastUpdated>
+    <lastUpdated>20260507142017</lastUpdated>
   </versioning>
 </metadata>
