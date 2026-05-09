@@ -1,16 +1,14 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/hibegin/common-dao/common-dao-1.1.7.buildspec:1.1.8
+content/com/github/hazendaz/7zip/7zip-26.00.buildspec:26.01
+content/com/io7m/jade/com.io7m.jade-1.0.3.buildspec:1.1.0
+content/com/io7m/medrina/com.io7m.medrina-1.0.0.buildspec:1.1.0
 content/com/io7m/wendover/com.io7m.wendover-1.0.2.buildspec:1.1.1
 content/com/sap/ai/sdk/sdk-1.18.0.buildspec:1.19.0
-content/eu/maveniverse/maven/scalpel/scalpel-0.3.0.buildspec:0.3.1
-content/eu/maveniverse/maven/shared/shared/shared-0.2.2.buildspec:0.2.3
-content/io/airlift/airbase/airbase-374.buildspec:375
 content/io/avaje/http/avaje-http-3.9-RC2.buildspec:3.9-RC3
+content/io/avaje/inject/avaje-inject-12.6-RC1.buildspec:12.6-RC2
 content/io/avaje/jsonb/avaje-jsonb-3.13.buildspec:3.14-RC1
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
 content/io/cucumber/gherkin/gherkin-39.0.0.buildspec:39.1.0
-content/io/opentelemetry/java/opentelemetry-sdk-1.61.0.buildspec:1.62.0
-content/io/takari/takari-archiver/takari-archiver-1.0.5.buildspec:1.0.7
 content/org/apache/johnzon/johnzon-2.0.2.buildspec:2.1.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.1

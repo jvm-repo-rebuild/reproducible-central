@@ -24,6 +24,7 @@ rebuilding **7 releases** of com.io7m.medrina:com.io7m.medrina:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0/pom) | [mvn jdk21](com.io7m.medrina-1.0.0.buildspec) | [result](com.io7m.medrina-1.0.0.buildinfo): [33 :white_check_mark: ](com.io7m.medrina-1.0.0.buildcompare) | | 3.0M |
 | [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0-beta0003/pom) | [mvn jdk17.0.7](com.io7m.medrina-1.0.0-beta0003.buildspec) | [result](com.io7m.medrina-1.0.0-beta0003.buildinfo): [33 :white_check_mark: ](com.io7m.medrina-1.0.0-beta0003.buildcompare) | | 2.9M |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0-beta0002/pom) | [mvn jdk17.0.7](com.io7m.medrina-1.0.0-beta0002.buildspec) | [result](com.io7m.medrina-1.0.0-beta0002.buildinfo): [27 :white_check_mark: ](com.io7m.medrina-1.0.0-beta0002.buildcompare) | | 1.9M |
