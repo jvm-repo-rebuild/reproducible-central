@@ -1,0 +1,36 @@
+version=1.1.0
+ok=12
+ko=23
+ignored=0
+okFiles="com.io7m.medrina-1.1.0.pom com.io7m.medrina-1.1.0-cyclonedx.xml com.io7m.medrina.api-1.1.0.pom com.io7m.medrina.api-1.1.0-cyclonedx.xml com.io7m.medrina.bom-1.1.0.pom com.io7m.medrina.bom-1.1.0-cyclonedx.xml com.io7m.medrina.parser.api-1.1.0.pom com.io7m.medrina.vanilla-1.1.0.pom com.io7m.medrina.cmdline-1.1.0.pom com.io7m.medrina.documentation-1.1.0.pom com.io7m.medrina.documentation-1.1.0-cyclonedx.xml com.io7m.medrina.tests-1.1.0.pom"
+koFiles="com.io7m.medrina.api-1.1.0.jar com.io7m.medrina.api-1.1.0-sources.jar com.io7m.medrina.api-1.1.0-tests.jar com.io7m.medrina.parser.api-1.1.0.jar com.io7m.medrina.parser.api-1.1.0-sources.jar com.io7m.medrina.parser.api-1.1.0-cyclonedx.xml com.io7m.medrina.parser.api-1.1.0-tests.jar com.io7m.medrina.vanilla-1.1.0.jar com.io7m.medrina.vanilla-1.1.0-sources.jar com.io7m.medrina.vanilla-1.1.0-cyclonedx.xml com.io7m.medrina.vanilla-1.1.0-tests.jar com.io7m.medrina.cmdline-1.1.0.jar com.io7m.medrina.cmdline-1.1.0-sources.jar com.io7m.medrina.cmdline-1.1.0-main.jar com.io7m.medrina.cmdline-1.1.0-cyclonedx.xml com.io7m.medrina.cmdline-1.1.0-tests.jar com.io7m.medrina.documentation-1.1.0.jar com.io7m.medrina.documentation-1.1.0-sources.jar com.io7m.medrina.documentation-1.1.0-tests.jar com.io7m.medrina.tests-1.1.0.jar com.io7m.medrina.tests-1.1.0-sources.jar com.io7m.medrina.tests-1.1.0-cyclonedx.xml com.io7m.medrina.tests-1.1.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.api-1.1.0.jar com.io7m.medrina.api/target/com.io7m.medrina.api-1.1.0.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.api-1.1.0-sources.jar com.io7m.medrina.api/target/com.io7m.medrina.api-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.api-1.1.0-tests.jar com.io7m.medrina.api/target/com.io7m.medrina.api-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.parser.api-1.1.0.jar com.io7m.medrina.parser.api/target/com.io7m.medrina.parser.api-1.1.0.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.parser.api-1.1.0-sources.jar com.io7m.medrina.parser.api/target/com.io7m.medrina.parser.api-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.parser.api-1.1.0-cyclonedx.xml com.io7m.medrina.parser.api/target/bom.xml
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.parser.api-1.1.0-tests.jar com.io7m.medrina.parser.api/target/com.io7m.medrina.parser.api-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.vanilla-1.1.0.jar com.io7m.medrina.vanilla/target/com.io7m.medrina.vanilla-1.1.0.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.vanilla-1.1.0-sources.jar com.io7m.medrina.vanilla/target/com.io7m.medrina.vanilla-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.vanilla-1.1.0-cyclonedx.xml com.io7m.medrina.vanilla/target/bom.xml
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.vanilla-1.1.0-tests.jar com.io7m.medrina.vanilla/target/com.io7m.medrina.vanilla-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.cmdline-1.1.0.jar com.io7m.medrina.cmdline/target/com.io7m.medrina.cmdline-1.1.0.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.cmdline-1.1.0-sources.jar com.io7m.medrina.cmdline/target/com.io7m.medrina.cmdline-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.cmdline-1.1.0-main.jar com.io7m.medrina.cmdline/target/com.io7m.medrina.cmdline-1.1.0-main.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.cmdline-1.1.0-cyclonedx.xml com.io7m.medrina.cmdline/target/bom.xml
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.cmdline-1.1.0-tests.jar com.io7m.medrina.cmdline/target/com.io7m.medrina.cmdline-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.documentation-1.1.0.jar com.io7m.medrina.documentation/target/com.io7m.medrina.documentation-1.1.0.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.documentation-1.1.0-sources.jar com.io7m.medrina.documentation/target/com.io7m.medrina.documentation-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.documentation-1.1.0-tests.jar com.io7m.medrina.documentation/target/com.io7m.medrina.documentation-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.tests-1.1.0.jar com.io7m.medrina.tests/target/com.io7m.medrina.tests-1.1.0.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.tests-1.1.0-sources.jar com.io7m.medrina.tests/target/com.io7m.medrina.tests-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.tests-1.1.0-cyclonedx.xml com.io7m.medrina.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.medrina/com.io7m.medrina.tests-1.1.0-tests.jar com.io7m.medrina.tests/target/com.io7m.medrina.tests-1.1.0-tests.jar
+stabilize_ok=14
+stabilize_ko=5
+stabilize_ignored=4
+stabilize_okFiles="com.io7m.medrina.api-1.1.0.jar.stabilized com.io7m.medrina.api-1.1.0-sources.jar.stabilized com.io7m.medrina.api-1.1.0-tests.jar.stabilized com.io7m.medrina.parser.api-1.1.0.jar.stabilized com.io7m.medrina.parser.api-1.1.0-sources.jar.stabilized com.io7m.medrina.parser.api-1.1.0-tests.jar.stabilized com.io7m.medrina.vanilla-1.1.0-sources.jar.stabilized com.io7m.medrina.vanilla-1.1.0-tests.jar.stabilized com.io7m.medrina.cmdline-1.1.0-tests.jar.stabilized com.io7m.medrina.documentation-1.1.0.jar.stabilized com.io7m.medrina.documentation-1.1.0-sources.jar.stabilized com.io7m.medrina.documentation-1.1.0-tests.jar.stabilized com.io7m.medrina.tests-1.1.0-sources.jar.stabilized com.io7m.medrina.tests-1.1.0-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.medrina.vanilla-1.1.0.jar.stabilized com.io7m.medrina.cmdline-1.1.0.jar.stabilized com.io7m.medrina.cmdline-1.1.0-sources.jar.stabilized com.io7m.medrina.cmdline-1.1.0-main.jar.stabilized com.io7m.medrina.tests-1.1.0.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.medrina.parser.api-1.1.0-cyclonedx.xml com.io7m.medrina.vanilla-1.1.0-cyclonedx.xml com.io7m.medrina.cmdline-1.1.0-cyclonedx.xml com.io7m.medrina.tests-1.1.0-cyclonedx.xml"
