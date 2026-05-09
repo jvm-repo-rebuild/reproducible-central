@@ -3,8 +3,8 @@
   <groupId>com.github.hazendaz.7zip</groupId>
   <artifactId>7zip</artifactId>
   <versioning>
-    <latest>26.00</latest>
-    <release>26.00</release>
+    <latest>26.01</latest>
+    <release>26.01</release>
     <versions>
       <version>19.00</version>
       <version>21.06</version>
@@ -20,7 +20,8 @@
       <version>24.09</version>
       <version>25.01</version>
       <version>26.00</version>
+      <version>26.01</version>
     </versions>
-    <lastUpdated>20260216205830</lastUpdated>
+    <lastUpdated>20260509172523</lastUpdated>
   </versioning>
 </metadata>
