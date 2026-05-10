@@ -21,6 +21,7 @@ rebuilding **6 releases** of org.apache.cxf.build-utils:cxf-build-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.1.4](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-build-utils/4.1.4/pom) | | | |
 | [4.1.3](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-build-utils/4.1.3/pom) | [mvn jdk25 w](cxf-build-utils-4.1.3.buildspec) | [result](cxf-build-utils-4.1.3.buildinfo): [11 :white_check_mark: ](cxf-build-utils-4.1.3.buildcompare) | | 158K |
 | [4.1.2](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-build-utils/4.1.2/pom) | [mvn jdk17 w](cxf-build-utils-4.1.2.buildspec) | [result](cxf-build-utils-4.1.2.buildinfo): [11 :white_check_mark: ](cxf-build-utils-4.1.2.buildcompare) | | 158K |
 | [4.1.1](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-build-utils/4.1.1/pom) | [mvn jdk21 w](cxf-build-utils-4.1.1.buildspec) | [result](cxf-build-utils-4.1.1.buildinfo): [11 :white_check_mark: ](cxf-build-utils-4.1.1.buildcompare) | | 158K |
