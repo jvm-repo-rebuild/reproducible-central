@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=38
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-38
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_482
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=apache
+
+# aggregated output
+
+outputs.0.coordinates=org.apache:apache
+
+outputs.0.0.groupId=org.apache
+outputs.0.0.filename=apache-38.pom
+outputs.0.0.length=25608
+outputs.0.0.checksums.sha512=32747243a85bf79763c88b248a47890577d5ff1b3c7c44e4fe26d27004b9967fe7f6b78ced0800877018a0c04b21cf2c05a5cbf8f8c960448d324852ce00e17b
+
+outputs.0.1.groupId=org.apache
+outputs.0.1.filename=apache-38-source-release.zip
+outputs.0.1.length=22467
+outputs.0.1.checksums.sha512=590ff2923417c02e56fd22f045e73dcf51efe828f44f54fdda2b757e779f30217d6dde68a53e74734abd8fdf5a446c63c592f31a650a14cf48da436600cf62a6
