@@ -1,0 +1,91 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache CXF Build Utilities
+group-id=org.apache.cxf.build-utils
+artifact-id=cxf-build-utils
+version=4.1.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/cxf-build-utils.git
+source.scm.tag=cxf-build-utils-4.1.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1010-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=cxf-xml2fastinfoset-test
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.cxf.build-utils:cxf-build-utils
+
+outputs.0.0.groupId=org.apache.cxf.build-utils
+outputs.0.0.filename=cxf-build-utils-4.1.4.pom
+outputs.0.0.length=10636
+outputs.0.0.checksums.sha512=6e81c1e3ab25368de146b91c306e9edd3c0edd7a0e092b49fd7ceb5cef04dfb2b510454990f818247e414f41533ea2b3625d47d87bcb64da27d0d806e4dadc5f
+
+outputs.0.1.groupId=org.apache.cxf.build-utils
+outputs.0.1.filename=cxf-build-utils-4.1.4-source-release.zip
+outputs.0.1.length=44319
+outputs.0.1.checksums.sha512=d0de19abd8428c7002c2a08f609a161be71da91160326fc68c64df2221d6c71d72d915b6336645f7034c932b92c4b49188d0d34617594c6e42d025108211cbdc
+
+outputs.1.coordinates=org.apache.cxf.build-utils:cxf-buildtools
+
+outputs.1.0.groupId=org.apache.cxf.build-utils
+outputs.1.0.filename=cxf-buildtools-4.1.4.pom
+outputs.1.0.length=3077
+outputs.1.0.checksums.sha512=beb460ab84e11f8332b7536585f2b17a3f47403ccdfefa28ba645facca5e54f111c4f3f197e09f1a9ad6fc831ce5bb0371babcd3555b9a0143d1d92b2abf69d9
+
+outputs.1.1.groupId=org.apache.cxf.build-utils
+outputs.1.1.filename=cxf-buildtools-4.1.4.jar
+outputs.1.1.length=27795
+outputs.1.1.checksums.sha512=2a69df209ac6f5230c7bdff8e2904710a26e41800f28b1742bbe1ca76ca09d75626bf36d2e19c9792ea4e4c5d5bbfc8fe65969597f0cae8790852a835e9827fe
+
+outputs.1.2.groupId=org.apache.cxf.build-utils
+outputs.1.2.filename=cxf-buildtools-4.1.4-sources.jar
+outputs.1.2.length=26348
+outputs.1.2.checksums.sha512=b2ae1a7a0147ef6376c343bc806d37a248c1f50a001174885cdcc55cb42e6adb82a66a0ca80a3f42e1f3df1d8b88655dd69f7cdcd58fcf46f6b76905416469de
+
+outputs.2.coordinates=org.apache.cxf.build-utils:cxf-xml2fastinfoset-plugin
+
+outputs.2.0.groupId=org.apache.cxf.build-utils
+outputs.2.0.filename=cxf-xml2fastinfoset-plugin-4.1.4.pom
+outputs.2.0.length=3473
+outputs.2.0.checksums.sha512=d7184cbf826cd4b9cd1110308af5653bb46b4da8283046af3c670a16248275c5858569b359ec91d4c2a3703fa52be06150d0847c0d9f86cf5234f3749cd9d9b9
+
+outputs.2.1.groupId=org.apache.cxf.build-utils
+outputs.2.1.filename=cxf-xml2fastinfoset-plugin-4.1.4.jar
+outputs.2.1.length=14632
+outputs.2.1.checksums.sha512=2856b4a4a89d4e00ce13a58ad0b67db293bfafa3aa6defd0c904b41df90f14bb013b916966390f8feb7ede8719e4b5778ddcd4ae64ed68f63c52f7c288058aa7
+
+outputs.2.2.groupId=org.apache.cxf.build-utils
+outputs.2.2.filename=cxf-xml2fastinfoset-plugin-4.1.4-sources.jar
+outputs.2.2.length=11158
+outputs.2.2.checksums.sha512=3d3cb661ab39118dc26afd9e90419e1a319e5ea56055e033d1a29179f61cddd1a4101a1a272fb17b55266b498ab741f488c64e18571fc9474bbee528e6e2af5e
+
+outputs.3.coordinates=org.apache.cxf.build-utils:cxf-xml2fastinfoset-test
+
+outputs.3.0.groupId=org.apache.cxf.build-utils
+outputs.3.0.filename=cxf-xml2fastinfoset-test-4.1.4.pom
+outputs.3.0.length=2325
+outputs.3.0.checksums.sha512=6b316ea4effe7c603f0e84d6f6c5dc820bb443d772ac6c4c2077ff59d9aa477c4dab188f6994e5a1ae167298628594f516bacc353e06cbb035b99de9fd342f06
+
+outputs.3.1.groupId=org.apache.cxf.build-utils
+outputs.3.1.filename=cxf-xml2fastinfoset-test-4.1.4.jar
+outputs.3.1.length=9964
+outputs.3.1.checksums.sha512=ecc13f4fe56b88b81ee71a6737b2f6a4cc7e4724036abe197a8dbcf38ced710341cf4d907200b15f75a1f157b340c41da9bdaf08a75a1f779bf75b58efa1a201
+
+outputs.3.2.groupId=org.apache.cxf.build-utils
+outputs.3.2.filename=cxf-xml2fastinfoset-test-4.1.4-sources.jar
+outputs.3.2.length=8413
+outputs.3.2.checksums.sha512=d1dbbd33f963a740fe066cfb635cc5bfcce34d123c7c5a26a450eb2a707e2328c5f69e1dc9972bc24ca49ae36d518dc70a10c47f3ba1fe5704cfa772c7d79639
