@@ -50,7 +50,7 @@ Reproducible Builds for Maven Central Repository
 | com.github.psi-probe | [psi-probe](../content/com/github/psi-probe/README.md) | 26 | 20 :white_check_mark: / 6 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](../content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
 | com.github.ben-manes.caffeine | [caffeine](../content/com/github/ben-manes/caffeine/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
-| com.github.hazendaz.7zip | [7zip](../content/com/github/hazendaz/7zip/README.md) | 9 | 9 :white_check_mark: |
+| com.github.hazendaz.7zip | [7zip](../content/com/github/hazendaz/7zip/README.md) | 10 | 10 :white_check_mark: |
 | com.github.hazendaz | [base-parent](../content/com/github/hazendaz/base-parent/README.md) | 27 | 27 :white_check_mark: |
 | com.github.hazendaz.* | [catch-exception](../content/com/github/hazendaz/catch-exception/README.md) | 5 | 5 :white_check_mark: |
 | com.github.hazendaz | [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | 25 | 22 :white_check_mark: / 3 :warning: |
@@ -299,7 +299,7 @@ Reproducible Builds for Maven Central Repository
 | | [avaje-config](../content/io/avaje/config/README.md) | 7 | 2 :white_check_mark: / 5 :warning: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | | [avaje-http](../content/io/avaje/http/README.md) | 44 | 26 :white_check_mark: / 18 :warning: |
-| | [avaje-inject](../content/io/avaje/inject/README.md) | 74 | 62 :white_check_mark: / 12 :warning: |
+| | [avaje-inject](../content/io/avaje/inject/README.md) | 75 | 63 :white_check_mark: / 12 :warning: |
 | | [avaje-jex](../content/io/avaje/jex/README.md) | 48 | 40 :white_check_mark: / 8 :warning: |
 | | [avaje-jsonb](../content/io/avaje/jsonb/README.md) | 52 | 45 :white_check_mark: / 7 :warning: |
 | | [avaje-logback-encoder](../content/io/avaje/logback-encoder/README.md) | 16 | 16 :white_check_mark: |
@@ -971,7 +971,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 24 | 4 :white_check_mark: / 20 :warning: |
-| **Count:** | **957** | **10826** | **7942** :white_check_mark:<br>**2884** :warning: |
+| **Count:** | **957** | **10828** | **7944** :white_check_mark:<br>**2884** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1012,7 +1012,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn        22
      21 mvn        23
      41 mvn        24
-    113 mvn        25
+    114 mvn        25
      12 mvn        26
       3 mvn-3.5.4   8
       1 mvn-3.6.0   8
@@ -1065,7 +1065,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      36 mvn-3.9.12  17
     140 mvn-3.9.12  21
       1 mvn-3.9.12  22
-     42 mvn-3.9.12  25
+     43 mvn-3.9.12  25
       1 mvn-3.9.13  17
       2 mvn-3.9.13  25
       2 mvn-3.9.14  17

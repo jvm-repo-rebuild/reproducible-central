@@ -13,6 +13,7 @@ rebuilding **16 releases** of org.apache:apache:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [38](https://central.sonatype.com/artifact/org.apache/apache/38/pom) | | | |
 | [37](https://central.sonatype.com/artifact/org.apache/apache/37/pom) | [mvn jdk8](apache-37.buildspec) | [result](apache-37.buildinfo): [2 :white_check_mark: ](apache-37.buildcompare) | | 47K |
 | [36](https://central.sonatype.com/artifact/org.apache/apache/36/pom) | [mvn jdk8](apache-36.buildspec) | [result](apache-36.buildinfo): [2 :white_check_mark: ](apache-36.buildcompare) | | 47K |
 | [35](https://central.sonatype.com/artifact/org.apache/apache/35/pom) | [mvn jdk8](apache-35.buildspec) | [result](apache-35.buildinfo): [2 :white_check_mark: ](apache-35.buildcompare) | | 46K |
