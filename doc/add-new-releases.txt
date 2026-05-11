@@ -1,17 +1,21 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/hazendaz/base-parent/base-parent-58.buildspec:59
 content/com/github/hazendaz/javabean-tester/javabean-tester-2.12.0.buildspec:2.12.1
 content/com/io7m/jade/com.io7m.jade-1.0.3.buildspec:1.1.0
 content/com/io7m/medrina/com.io7m.medrina-1.0.0.buildspec:1.1.0
 content/com/io7m/wendover/com.io7m.wendover-1.0.2.buildspec:1.1.1
 content/com/sap/ai/sdk/sdk-1.18.0.buildspec:1.19.0
+content/eu/maveniverse/maven/scalpel/scalpel-0.3.1.buildspec:0.3.2
+content/io/liftwizard/liftwizard-2.1.44.buildspec:2.1.45
 content/io/avaje/http/avaje-http-3.9-RC2.buildspec:3.9-RC3
-content/io/avaje/jsonb/avaje-jsonb-3.13.buildspec:3.14-RC1
+content/io/avaje/jsonb/avaje-jsonb-3.13.buildspec:3.14-RC2
 content/io/avaje/metrics/avaje-metrics-9.8.buildspec:9.9-RC1
+content/io/cucumber/compatibility-kit/compatibility-kit-29.1.4.buildspec:29.2.1
 content/io/cucumber/gherkin/gherkin-39.0.0.buildspec:39.1.0
-content/org/apache/apache/apache-37.buildspec:38
+content/land/oras/oras-java-sdk/oras-java-sdk-0.6.0.buildspec:0.6.1
 content/org/apache/johnzon/johnzon-2.0.2.buildspec:2.1.0
-content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.1.3.buildspec:4.1.4
-content/org/apache/maven/parent/maven-parent-47.buildspec:48
+content/org/apache/jena/jena/jena-6.0.0.buildspec:6.1.0
+content/org/apache/sling/org.apache.sling.adapter/org.apache.sling.adapter-2.3.0.buildspec:3.0.0
+content/org/codehaus/plexus/plexus-classworlds/plexus-classworlds-2.10.0.buildspec:2.11.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.1
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.3.0.Final.buildspec:8.4.0.CR1
