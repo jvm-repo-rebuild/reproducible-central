@@ -1,0 +1,17 @@
+version=1.2.14
+ok=37
+ko=2
+ignored=0
+okFiles="yupiik-tools-maven-plugin-parent-1.2.14.pom codec-core-1.2.14.pom codec-core-1.2.14.jar codec-core-1.2.14-sources.jar yupiik-tools-common-1.2.14.pom yupiik-tools-common-1.2.14.jar yupiik-tools-common-1.2.14-sources.jar ascii2svg-1.2.14.pom ascii2svg-1.2.14.jar ascii2svg-1.2.14-sources.jar asciidoc-java-1.2.14.pom asciidoc-java-1.2.14.jar asciidoc-java-1.2.14-sources.jar minisite-core-1.2.14.pom minisite-core-1.2.14.jar minisite-core-1.2.14-sources.jar generic-static-generator-1.2.14.pom generic-static-generator-1.2.14.jar generic-static-generator-1.2.14-sources.jar generic-static-generator-1.2.14-fatjar.jar slides-core-1.2.14.pom slides-core-1.2.14.jar slides-core-1.2.14-sources.jar html-versioning-injector-1.2.14.pom html-versioning-injector-1.2.14.jar html-versioning-injector-1.2.14-sources.jar yupiik-tools-maven-plugin-1.2.14.pom yupiik-tools-maven-plugin-1.2.14.jar yupiik-tools-maven-plugin-1.2.14-sources.jar yupiik-tools-cli-1.2.14.pom yupiik-tools-cli-1.2.14-sources.jar env-manager-1.2.14.pom env-manager-1.2.14.jar env-manager-1.2.14-sources.jar _documentation-1.2.14.pom _documentation-1.2.14.jar _documentation-1.2.14-sources.jar"
+koFiles="yupiik-tools-cli-1.2.14.jar yupiik-tools-cli-1.2.14-fatjar.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.14.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.14.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.14-fatjar.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.14-fatjar.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="yupiik-tools-cli-1.2.14.jar.stabilized yupiik-tools-cli-1.2.14-fatjar.jar.stabilized"
+stabilize_ignoredFiles=""

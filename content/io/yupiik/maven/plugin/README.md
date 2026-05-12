@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/yupiik/tools-maven-plugin.git](https://github.com/yupiik/tools-maven-plugin.git)
 
-<details><summary>This project defines 12 modules:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
 * [io.yupiik.dev:env-manager](https://central.sonatype.com/artifact/io.yupiik.dev/env-manager/overview)
 * [io.yupiik.maven:_documentation](https://central.sonatype.com/artifact/io.yupiik.maven/_documentation/overview)
 * [io.yupiik.maven:ascii2svg](https://central.sonatype.com/artifact/io.yupiik.maven/ascii2svg/overview)
 * [io.yupiik.maven:asciidoc-java](https://central.sonatype.com/artifact/io.yupiik.maven/asciidoc-java/overview)
 * [io.yupiik.maven:codec-core](https://central.sonatype.com/artifact/io.yupiik.maven/codec-core/overview)
+* [io.yupiik.maven:generic-static-generator](https://central.sonatype.com/artifact/io.yupiik.maven/generic-static-generator/overview)
 * [io.yupiik.maven:html-versioning-injector](https://central.sonatype.com/artifact/io.yupiik.maven/html-versioning-injector/overview)
 * [io.yupiik.maven:minisite-core](https://central.sonatype.com/artifact/io.yupiik.maven/minisite-core/overview)
 * [io.yupiik.maven:slides-core](https://central.sonatype.com/artifact/io.yupiik.maven/slides-core/overview)
@@ -23,14 +24,14 @@ Source code: [https://github.com/yupiik/tools-maven-plugin.git](https://github.c
 * [io.yupiik.maven:yupiik-tools-maven-plugin-parent](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/overview)
 </details>
 
-rebuilding **10 releases** of io.yupiik.maven:yupiik-tools-maven-plugin-parent:
+rebuilding **11 releases** of io.yupiik.maven:yupiik-tools-maven-plugin-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.14](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.14/pom) | | | |
+| [1.2.14](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.14/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.14.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.14.buildinfo): [37 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.14.buildcompare) | 2 :rotating_light: | 53M |
 | [1.2.13](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.13/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.13.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.13.buildinfo): [33 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.13.buildcompare) | 2 :rotating_light: | 52M |
 | [1.2.12](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.12/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.12.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.12.buildinfo): [33 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.12.buildcompare) | 2 :rotating_light: | 61M |
 | [1.2.11](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.11/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.11.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.11.buildinfo): [33 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.11.buildcompare) | 2 :rotating_light: | 61M |
