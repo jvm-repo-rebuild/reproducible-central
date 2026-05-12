@@ -22,6 +22,7 @@ rebuilding **1 releases** of com.ongres.stringprep:stringprep-aggregator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.3](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.3/pom) | | | |
 | [2.2](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.2/pom) | [mvn jdk21](stringprep-aggregator-2.2.buildspec) | [result](stringprep-aggregator-2.2.buildinfo): [21 :white_check_mark: ](stringprep-aggregator-2.2.buildcompare) | | 178K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

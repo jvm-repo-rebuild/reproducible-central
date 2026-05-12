@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>compatibility-kit</artifactId>
   <versioning>
-    <latest>29.2.1</latest>
-    <release>29.2.1</release>
+    <latest>29.2.2</latest>
+    <release>29.2.2</release>
     <versions>
       <version>23.2.0</version>
       <version>24.0.0</version>
@@ -22,7 +22,8 @@
       <version>29.1.4</version>
       <version>29.2.0</version>
       <version>29.2.1</version>
+      <version>29.2.2</version>
     </versions>
-    <lastUpdated>20260511151321</lastUpdated>
+    <lastUpdated>20260511210925</lastUpdated>
   </versioning>
 </metadata>
