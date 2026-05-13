@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motlin/liftwizard.git)
 
-<details><summary>This project defines 186 modules:</summary>
+<details><summary>This project defines 188 modules:</summary>
 
 * [io.liftwizard:docs](https://central.sonatype.com/artifact/io.liftwizard/docs/overview)
 * [io.liftwizard:liftwizard](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/overview)
@@ -153,6 +153,7 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-parent-build](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-parent-build/overview)
 * [io.liftwizard:liftwizard-principal-firebase](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-principal-firebase/overview)
 * [io.liftwizard:liftwizard-profile-parent](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-profile-parent/overview)
+* [io.liftwizard:liftwizard-redirect-bundle](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-redirect-bundle/overview)
 * [io.liftwizard:liftwizard-reladomo](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo/overview)
 * [io.liftwizard:liftwizard-reladomo-csv-test-extension](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-csv-test-extension/overview)
 * [io.liftwizard:liftwizard-reladomo-graphql-data-fetcher](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-graphql-data-fetcher/overview)
@@ -190,6 +191,7 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-servlet-logging-typesafe](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-logging-typesafe/overview)
 * [io.liftwizard:liftwizard-servlet-single-page-redirect-filter](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-single-page-redirect-filter/overview)
 * [io.liftwizard:liftwizard-servlet-spa-redirect-filter](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-spa-redirect-filter/overview)
+* [io.liftwizard:liftwizard-smoketurner-graphql](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-smoketurner-graphql/overview)
 * [io.liftwizard:liftwizard-task-reladomo-clear-cache](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-task-reladomo-clear-cache/overview)
 * [io.liftwizard:liftwizard-temp-files](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-temp-files/overview)
 * [io.liftwizard:liftwizard-test](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-test/overview)
@@ -197,13 +199,13 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-uuid](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-uuid/overview)
 </details>
 
-rebuilding **86 releases** of io.liftwizard:liftwizard:
-- **85** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **87 releases** of io.liftwizard:liftwizard:
+- **86** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.45](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.45/pom) | | | |
+| [2.1.45](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.45/pom) | [mvn jdk21](liftwizard-2.1.45.buildspec) | [result](liftwizard-2.1.45.buildinfo): [457 :white_check_mark: ](liftwizard-2.1.45.buildcompare) | | 3.7M |
 | [2.1.44](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.44/pom) | [mvn jdk21](liftwizard-2.1.44.buildspec) | [result](liftwizard-2.1.44.buildinfo): [451 :white_check_mark: ](liftwizard-2.1.44.buildcompare) | | 3.7M |
 | [2.1.43](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.43/pom) | [mvn jdk21](liftwizard-2.1.43.buildspec) | [result](liftwizard-2.1.43.buildinfo): [445 :white_check_mark: ](liftwizard-2.1.43.buildcompare) | | 3.5M |
 | [2.1.42](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.42/pom) | [mvn jdk21](liftwizard-2.1.42.buildspec) | [result](liftwizard-2.1.42.buildinfo): [442 :white_check_mark: ](liftwizard-2.1.42.buildcompare) | | 3.4M |
