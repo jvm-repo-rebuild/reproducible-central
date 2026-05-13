@@ -1,0 +1,18 @@
+version=2.3
+ok=8
+ko=3
+ignored=0
+okFiles="stringprep-parent-2.3.pom stringprep-2.3.pom stringprep-2.3-sources.jar saslprep-2.3.pom saslprep-2.3-sources.jar nameprep-2.3.pom nameprep-2.3-sources.jar stringprep-aggregator-2.3.pom"
+koFiles="stringprep-2.3.jar saslprep-2.3.jar nameprep-2.3.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.ongres.stringprep/stringprep-2.3.jar stringprep/target/stringprep-2.3.jar
+# diffoscope target/reference/com.ongres.stringprep/saslprep-2.3.jar saslprep/target/saslprep-2.3.jar
+# diffoscope target/reference/com.ongres.stringprep/nameprep-2.3.jar nameprep/target/nameprep-2.3.jar
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="stringprep-2.3.jar.stabilized saslprep-2.3.jar.stabilized nameprep-2.3.jar.stabilized"
+stabilize_ignoredFiles=""
