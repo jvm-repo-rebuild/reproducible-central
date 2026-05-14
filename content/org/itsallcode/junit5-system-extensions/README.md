@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.itsallcode:junit5-system-extensions:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.3](https://central.sonatype.com/artifact/org.itsallcode/junit5-system-extensions/1.2.3/pom) | | | |
 | [1.2.2](https://central.sonatype.com/artifact/org.itsallcode/junit5-system-extensions/1.2.2/pom) | [mvn jdk11](junit5-system-extensions-1.2.2.buildspec) | [result](junit5-system-extensions-1.2.2.buildinfo): [3 :white_check_mark: ](junit5-system-extensions-1.2.2.buildcompare) | | 40K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
