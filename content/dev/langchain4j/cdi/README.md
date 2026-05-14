@@ -29,6 +29,7 @@ rebuilding **2 releases** of dev.langchain4j.cdi:langchain4j-cdi-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.2.0/pom) | | | |
 | [1.2.0-Beta1](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.2.0-Beta1/pom) | [mvn jdk21](langchain4j-cdi-1.2.0-Beta1.buildspec) | [result](langchain4j-cdi-parent-1.2.0-Beta1.buildinfo): [30 :white_check_mark: ](langchain4j-cdi-parent-1.2.0-Beta1.buildcompare) | | 368K |
 | [1.1.0](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.1.0/pom) | [mvn jdk21](langchain4j-cdi-1.1.0.buildspec) | [result](langchain4j-cdi-parent-1.1.0.buildinfo): [20 :white_check_mark: ](langchain4j-cdi-parent-1.1.0.buildcompare) | | 169K |
 

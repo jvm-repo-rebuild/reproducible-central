@@ -25,6 +25,7 @@ rebuilding **5 releases** of org.ow2.asm:asm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [9.10](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.10/pom) | | | |
 | [9.9.1](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.9.1/pom) | [gradle jdk21](asm-9.9.1.buildspec) | [result](asm-9.9.1.buildinfo): [19 :white_check_mark: ](asm-9.9.1.buildcompare) | | 1017K |
 | [9.9](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.9/pom) | [gradle jdk21](asm-9.9.buildspec) | [result](asm-9.9.buildinfo): [19 :white_check_mark: ](asm-9.9.buildcompare) | | 1015K |
 | [9.8](https://central.sonatype.com/artifact/org.ow2.asm/asm/9.8/pom) | [gradle jdk21](asm-9.8.buildspec) | [result](asm-9.8.buildinfo): [19 :white_check_mark: ](asm-9.8.buildcompare) | | 1010K |
