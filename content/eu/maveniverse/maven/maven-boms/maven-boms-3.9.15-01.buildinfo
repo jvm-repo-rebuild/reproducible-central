@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.maven-boms:maven-boms
+group-id=eu.maveniverse.maven.maven-boms
+artifact-id=maven-boms
+version=3.9.15-01
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-boms.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.maven-boms:maven-boms
+
+outputs.0.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.0.0.filename=maven-boms-3.9.15-01.pom
+outputs.0.0.length=2490
+outputs.0.0.checksums.sha512=76b0a7907e308688a744b49d17cc089cb15af4d7b8220930263cec65875a93c0635ab8813382351bf68772eb2c879b9839ede5a9df75c8858e1ad16f1f371b22
+
+outputs.1.coordinates=eu.maveniverse.maven.maven-boms:skinny
+
+outputs.1.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.1.0.filename=skinny-3.9.15-01.pom
+outputs.1.0.length=3758
+outputs.1.0.checksums.sha512=d1ac0e7f581c0c955ef372a154ec601ed2822092d6deeb662dc6fe62bc51c0a4ba722c0a0d4534ff2d9cafe3453db628a5c3017d226ea12d251011dbfd4ad974
+
+outputs.2.coordinates=eu.maveniverse.maven.maven-boms:fat
+
+outputs.2.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.2.0.filename=fat-3.9.15-01.pom
+outputs.2.0.length=13981
+outputs.2.0.checksums.sha512=92dba9530b601f04a936db5102d703cbf463ab31752bf2a6279b4fb58207fe781ee993f8de39f5b60f837fcbbc874091a13f7a7bf91f05a5536815f7ea5dbee6
+
+outputs.3.coordinates=eu.maveniverse.maven.maven-boms:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.3.0.filename=plugin-3.9.15-01.pom
+outputs.3.0.length=6078
+outputs.3.0.checksums.sha512=e7134ec88353228e69fe85af884493c0d97049ac393d874c5060717091a5658c4d6027c419967d53519c0a5dea96909235a68f62e92313f3a5f09150b0101d7c
