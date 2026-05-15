@@ -5,7 +5,6 @@ version=3.1.0
 
 gitRepo=https://github.com/dbunit/dbunit-extension.git
 gitTag=${artifactId}-${version}
-gitTag=60fdf157e28ab9ac70509c64d7b421b0fb724c4b # built release one commit later than the tag
 
 tool=mvn-3.9.12
 jdk=25
