@@ -17,7 +17,7 @@ build-tool=mvn
 java.version=25.0.3
 java.vendor=Azul Systems, Inc.
 os.name=Linux
-os.version=6.17.0-1010-azure
+os.version=6.17.0-1013-azure
 os.arch=amd64
 line.separator=\r\n
 
