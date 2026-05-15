@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Persistence API
+group-id=jakarta.persistence
+artifact-id=jakarta.persistence-api
+version=4.0.0-M3
+
+# source information
+source.scm.uri=scm:git:git://github.com/jakartaee/persistence.git/jakarta.persistence-api
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=jakarta.persistence
+outputs.0.filename=jakarta.persistence-api-4.0.0-M3.pom
+outputs.0.length=2520
+outputs.0.checksums.sha512=aaa1f2343d5beeba923c8ed93d99ab74886abc615596fb985f9b3e981e6d402996a54235c73f6a5ba2b46e3185be73b157816554f442627149fe3fc2d2670dc7
+
+outputs.1.groupId=jakarta.persistence
+outputs.1.filename=jakarta.persistence-api-4.0.0-M3.jar
+outputs.1.length=264937
+outputs.1.checksums.sha512=0caa3a8ed7d9aca42e15358ce83985eeda05e476250f2c26d3028f98a73c16125ac598d13d52480ba7a4dbb7c8da70c7e9c277c3c3d100de6bf20270e649628f
