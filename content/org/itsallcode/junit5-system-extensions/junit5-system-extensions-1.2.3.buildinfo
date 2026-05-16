@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JUnit5 System Extensions
+group-id=org.itsallcode
+artifact-id=junit5-system-extensions
+version=1.2.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/itsallcode/junit5-system-extensions.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.30
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.toolchain.jdk=openjdk version "11.0.30" 2026-01-20:OpenJDK Runtime Environment (build 11.0.30+7-post-Ubuntu-1ubuntu122.04):OpenJDK 64-Bit Server VM (build 11.0.30+7-post-Ubuntu-1ubuntu122.04, mixed mode, sharing)
+
+# output
+
+outputs.0.groupId=org.itsallcode
+outputs.0.filename=junit5-system-extensions-1.2.3.pom
+outputs.0.length=12132
+outputs.0.checksums.sha512=95062468e518270e4e519172f32307a26bb35cb34e9d4e80cfbaadc3b20c277f17d1bd2bdd737719d53ef0c381c32016772c7ea817c8b5d4533eaf699338e716
+
+outputs.1.groupId=org.itsallcode
+outputs.1.filename=junit5-system-extensions-1.2.3.jar
+outputs.1.length=16408
+outputs.1.checksums.sha512=384b86f87e19500fcf02b992f8ce44b9092b0a8ca17a2c2f7edd04de989debf59e89316f58061e0142e621c9b9f1944ad4858c5383b7500117f885035f015b41
+
+outputs.2.groupId=org.itsallcode
+outputs.2.filename=junit5-system-extensions-1.2.3-sources.jar
+outputs.2.length=12217
+outputs.2.checksums.sha512=dc24e142ad682c4e27761586a031d4d115835f1716c196206681c892ffd19b0cef723d33a51c3aa12c0f83296ade0c8ea628dcb3187381fcced30dce28f31a59
