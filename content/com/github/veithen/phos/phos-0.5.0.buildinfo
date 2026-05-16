@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Phos
+group-id=com.github.veithen.phos
+artifact-id=phos
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/phos.git
+source.scm.tag=0.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=enforcer-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=com.github.veithen.phos:phos
+
+outputs.0.0.groupId=com.github.veithen.phos
+outputs.0.0.filename=phos-0.5.0.pom
+outputs.0.0.length=3475
+outputs.0.0.checksums.sha512=1f826586cdbecc7372d1b09bb240c7fdc837b6408dd8b655c1426e0cc90dd63e4e8f0aaccfbb2936734ea7353c570d2622833ec51991606477635eb43c0b0935
+
+outputs.0.1.groupId=com.github.veithen.phos
+outputs.0.1.filename=phos-0.5.0-source-release.zip
+outputs.0.1.length=34936
+outputs.0.1.checksums.sha512=a379eadfdf88d495ef7b4d473ba2466b9d1c6b938671e366dae1820fe893faf0a1cd94d66f8999b06afb6980f8608d4a81f02e713e8c9c4d53bf5876715bb8dc
+
+outputs.1.coordinates=com.github.veithen.phos:enforcer-maven-plugin
+
+outputs.1.0.groupId=com.github.veithen.phos
+outputs.1.0.filename=enforcer-maven-plugin-0.5.0.pom
+outputs.1.0.length=2862
+outputs.1.0.checksums.sha512=4a31be16b0c40ceddbe081c4902ab44321ccb65df810a675190df10970f06824af9c6123fcd8010f8aaa6869022be918b5a57f7fb1ce3248cea096e57fdc5848
+
+outputs.1.1.groupId=com.github.veithen.phos
+outputs.1.1.filename=enforcer-maven-plugin-0.5.0.jar
+outputs.1.1.length=30111
+outputs.1.1.checksums.sha512=275accc4ef9ff426c2cf265d10e3ec6dad7a81d88173902a9ec8c4fa14c23f55a2ff084208807d7c9b38d73aafd6f8d23689493c197bfd5b7dfad30902f9a89f
+
+outputs.1.2.groupId=com.github.veithen.phos
+outputs.1.2.filename=enforcer-maven-plugin-0.5.0-sources.jar
+outputs.1.2.length=22183
+outputs.1.2.checksums.sha512=d9c70e40639d17846129cf067a2deae6736be5e24d5aa12fdba8a214fa70a9e0f1e40c884dea900c300c989a635c8f56721bf557e5de922732859b214e25ad96
