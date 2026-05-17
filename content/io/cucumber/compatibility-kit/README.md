@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/cucumber/compatibility-kit.git](https://github.com/cucumber/compatibility-kit.git)
 
-rebuilding **16 releases** of io.cucumber:compatibility-kit:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of io.cucumber:compatibility-kit:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 9, 0 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -16,7 +16,7 @@ rebuilding **16 releases** of io.cucumber:compatibility-kit:
 | -- | --------- | ------ | ------ | -- |
 | [29.2.2](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.2/pom) | [mvn jdk21](compatibility-kit-29.2.2.buildspec) | [result](compatibility-kit-29.2.2.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.2.buildcompare) | | 306K |
 | [29.2.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.1/pom) | [mvn jdk21](compatibility-kit-29.2.1.buildspec) | [result](compatibility-kit-29.2.1.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.1.buildcompare) | | 306K |
-| [29.2.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.0/pom) | | | |
+| [29.2.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.0/pom) | [mvn jdk21](compatibility-kit-29.2.0.buildspec) | [result](compatibility-kit-29.2.0.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.0.buildcompare) | | 306K |
 | [29.1.4](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.4/pom) | [mvn jdk21](compatibility-kit-29.1.4.buildspec) | [result](compatibility-kit-29.1.4.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.1.4.buildcompare) | | 306K |
 | [29.1.3](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.3/pom) | [mvn jdk21](compatibility-kit-29.1.3.buildspec) | [result](compatibility-kit-29.1.3.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.1.3.buildcompare) | | 306K |
 | [29.1.2](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.1.2/pom) | [mvn jdk21](compatibility-kit-29.1.2.buildspec) | [result](compatibility-kit-29.1.2.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.1.2.buildcompare) | | 306K |
