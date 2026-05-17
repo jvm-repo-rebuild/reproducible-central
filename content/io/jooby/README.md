@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jooby-project/jooby.git](https://github.com/jooby-project/jooby.git)
 
-<details><summary>This project defines 85 modules:</summary>
+<details><summary>This project defines 87 modules:</summary>
 
 * [io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/overview)
 * [io.jooby:jooby-apt](https://central.sonatype.com/artifact/io.jooby/jooby-apt/overview)
@@ -39,6 +39,7 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:jooby-hibernate](https://central.sonatype.com/artifact/io.jooby/jooby-hibernate/overview)
 * [io.jooby:jooby-hibernate-validator](https://central.sonatype.com/artifact/io.jooby/jooby-hibernate-validator/overview)
 * [io.jooby:jooby-hikari](https://central.sonatype.com/artifact/io.jooby/jooby-hikari/overview)
+* [io.jooby:jooby-htmx](https://central.sonatype.com/artifact/io.jooby/jooby-htmx/overview)
 * [io.jooby:jooby-jackson](https://central.sonatype.com/artifact/io.jooby/jooby-jackson/overview)
 * [io.jooby:jooby-jackson3](https://central.sonatype.com/artifact/io.jooby/jooby-jackson3/overview)
 * [io.jooby:jooby-jasypt](https://central.sonatype.com/artifact/io.jooby/jooby-jasypt/overview)
@@ -66,6 +67,7 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:jooby-netty](https://central.sonatype.com/artifact/io.jooby/jooby-netty/overview)
 * [io.jooby:jooby-node](https://central.sonatype.com/artifact/io.jooby/jooby-node/overview)
 * [io.jooby:jooby-openapi](https://central.sonatype.com/artifact/io.jooby/jooby-openapi/overview)
+* [io.jooby:jooby-opentelemetry](https://central.sonatype.com/artifact/io.jooby/jooby-opentelemetry/overview)
 * [io.jooby:jooby-pac4j](https://central.sonatype.com/artifact/io.jooby/jooby-pac4j/overview)
 * [io.jooby:jooby-pebble](https://central.sonatype.com/artifact/io.jooby/jooby-pebble/overview)
 * [io.jooby:jooby-project](https://central.sonatype.com/artifact/io.jooby/jooby-project/overview)
@@ -103,7 +105,7 @@ rebuilding **78 releases** of io.jooby:jooby:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.5.1](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.1/pom) | | | |
+| [4.5.1](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.1/pom) | [mvn jdk21](jooby-4.5.1.buildspec) | [result](jooby-project-4.5.1.buildinfo): [238 :white_check_mark:  2 :warning:](jooby-project-4.5.1.buildcompare) | 2 :rotating_light: | 14M |
 | [4.5.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.0/pom) | | | |
 | [4.4.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.4.0/pom) | | | |
 | [4.3.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.3.0/pom) | [mvn jdk21](jooby-4.3.0.buildspec) | [result](jooby-project-4.3.0.buildinfo): [232 :white_check_mark:  2 :warning:](jooby-project-4.3.0.buildcompare) | 2 :rotating_light: | 22M |
