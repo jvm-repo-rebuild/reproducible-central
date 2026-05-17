@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-reporting-exec.git](https://github.com/apache/maven-reporting-exec.git)
 
-rebuilding **17 releases** of org.apache.maven.reporting:maven-reporting-exec:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.apache.maven.reporting:maven-reporting-exec:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.1/pom) | | | |
+| [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.1/pom) | [mvn jdk21](maven-reporting-exec-2.0.1.buildspec) | [result](maven-reporting-exec-2.0.1.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.1.buildcompare) | | 341K |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0/pom) | [mvn jdk8 w](maven-reporting-exec-2.0.0.buildspec) | [result](maven-reporting-exec-2.0.0.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.0.buildcompare) | | 294K |
 | [2.0.0-M14](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0-M14/pom) | [mvn jdk8 w](maven-reporting-exec-2.0.0-M14.buildspec) | [result](maven-reporting-exec-2.0.0-M14.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.0-M14.buildcompare) | | 302K |
 | [2.0.0-M13](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0-M13/pom) | [mvn jdk8 w](maven-reporting-exec-2.0.0-M13.buildspec) | [result](maven-reporting-exec-2.0.0-M13.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.0-M13.buildcompare) | | 261K |
