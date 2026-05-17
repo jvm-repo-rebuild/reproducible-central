@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1106 modules:</summary>
+<details><summary>This project defines 1114 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -182,6 +182,10 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-csrf-reactive-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-csrf-reactive-deployment/overview)
 * [io.quarkus:quarkus-cyclonedx](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx/overview)
 * [io.quarkus:quarkus-cyclonedx-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-deployment/overview)
+* [io.quarkus:quarkus-cyclonedx-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-deployment-spi/overview)
+* [io.quarkus:quarkus-cyclonedx-endpoint](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-endpoint/overview)
+* [io.quarkus:quarkus-cyclonedx-endpoint-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-endpoint-deployment/overview)
+* [io.quarkus:quarkus-cyclonedx-endpoint-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-endpoint-parent/overview)
 * [io.quarkus:quarkus-cyclonedx-generator](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-generator/overview)
 * [io.quarkus:quarkus-cyclonedx-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-cyclonedx-parent/overview)
 * [io.quarkus:quarkus-datasource](https://central.sonatype.com/artifact/io.quarkus/quarkus-datasource/overview)
@@ -933,6 +937,10 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-security-webauthn](https://central.sonatype.com/artifact/io.quarkus/quarkus-security-webauthn/overview)
 * [io.quarkus:quarkus-security-webauthn-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-security-webauthn-deployment/overview)
 * [io.quarkus:quarkus-security-webauthn-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-security-webauthn-parent/overview)
+* [io.quarkus:quarkus-signals](https://central.sonatype.com/artifact/io.quarkus/quarkus-signals/overview)
+* [io.quarkus:quarkus-signals-api](https://central.sonatype.com/artifact/io.quarkus/quarkus-signals-api/overview)
+* [io.quarkus:quarkus-signals-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-signals-deployment/overview)
+* [io.quarkus:quarkus-signals-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-signals-parent/overview)
 * [io.quarkus:quarkus-smallrye-context-propagation](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-context-propagation/overview)
 * [io.quarkus:quarkus-smallrye-context-propagation-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-context-propagation-deployment/overview)
 * [io.quarkus:quarkus-smallrye-context-propagation-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-context-propagation-parent/overview)
@@ -1117,14 +1125,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **179 releases** of io.quarkus:quarkus-project:
+rebuilding **180 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 179 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 90, 0 had all their differences removed :recycle:, 90 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 180 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 91, 0 had all their differences removed :recycle:, 91 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.36.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.36.0.CR1/pom) | | | |
+| [3.36.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.36.0.CR1/pom) | [mvn jdk21](quarkus-3.36.0.CR1.buildspec) | [result](quarkus-project-3.36.0.CR1.buildinfo): [2408 :white_check_mark:  2 :warning:](quarkus-project-3.36.0.CR1.buildcompare) | 2 :rotating_light: | 128M |
 | [3.35.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.35.3/pom) | [mvn jdk21](quarkus-3.35.3.buildspec) | [result](quarkus-project-3.35.3.buildinfo): [2388 :white_check_mark:  2 :warning:](quarkus-project-3.35.3.buildcompare) | 2 :rotating_light: | 135M |
 | [3.35.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.35.2/pom) | [mvn jdk21](quarkus-3.35.2.buildspec) | [result](quarkus-project-3.35.2.buildinfo): [2389 :white_check_mark:  1 :warning:](quarkus-project-3.35.2.buildcompare) | 1 :rotating_light: | 135M |
 | [3.35.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.35.1/pom) | [mvn jdk21](quarkus-3.35.1.buildspec) | [result](quarkus-project-3.35.1.buildinfo): [2389 :white_check_mark:  1 :warning:](quarkus-project-3.35.1.buildcompare) | 1 :rotating_light: | 135M |
