@@ -1,23 +1,17 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/github/hazendaz/base-parent/base-parent-59.buildspec:60
 content/com/github/hazendaz/javabean-tester/javabean-tester-2.12.0.buildspec:2.12.1
-content/com/github/veithen/phos/phos-0.4.1.buildspec:0.5.0
 content/com/io7m/jade/com.io7m.jade-1.0.3.buildspec:1.1.0
 content/com/io7m/medrina/com.io7m.medrina-1.0.0.buildspec:1.1.0
 content/com/io7m/wendover/com.io7m.wendover-1.0.2.buildspec:1.1.1
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
 content/com/sap/ai/sdk/sdk-1.18.0.buildspec:1.19.0
-content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.13.0.buildspec:0.13.1
-content/eu/maveniverse/maven/mimir/mimir-0.11.3.buildspec:0.11.4
-content/eu/maveniverse/maven/nisse/nisse-0.8.4.buildspec:0.9.0
-content/eu/maveniverse/maven/njord/njord-0.9.5.buildspec:0.9.6
 content/io/avaje/http/avaje-http-3.9-RC2.buildspec:3.9-RC3
-content/io/avaje/jsonb/avaje-jsonb-3.14-RC3.buildspec:3.14-RC4
 content/io/cucumber/gherkin/gherkin-39.0.0.buildspec:39.1.0
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.16.0.buildspec:5.16.1-beta-1
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.16.1-beta-1.buildspec:5.16.1-beta-2
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-5.0.0-M3.buildspec:5.0.0-RC1
+content/land/oras/oras-java-sdk/oras-java-sdk-0.6.2.buildspec:0.6.3
 content/org/apache/johnzon/johnzon-2.0.2.buildspec:2.1.0
-content/org/apache/commons/parent/commons-parent-99.buildspec:100
-content/org/apache/maven/shared/maven-dependency-analyzer/maven-dependency-analyzer-1.17.0.buildspec:1.17.1
+content/org/apache/maven/reporting/maven-reporting-exec/maven-reporting-exec-2.0.0.buildspec:2.0.1
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.1
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.3.3.Final.buildspec:4.4.0.CR1
