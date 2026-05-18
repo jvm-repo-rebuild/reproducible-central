@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.maven-boms:maven-boms
+group-id=eu.maveniverse.maven.maven-boms
+artifact-id=maven-boms
+version=3.9.16-01
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-boms.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.maven-boms:maven-boms
+
+outputs.0.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.0.0.filename=maven-boms-3.9.16-01.pom
+outputs.0.0.length=2490
+outputs.0.0.checksums.sha512=073202a7cb54a70c9c773bbbff1d15ca0c209d38d6c7ed8f3927102c69bb5c7d627eab8ac65c3c8433cdd51f8451b8012b8c91cf011baa6a888e4a5f0daa5a77
+
+outputs.1.coordinates=eu.maveniverse.maven.maven-boms:skinny
+
+outputs.1.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.1.0.filename=skinny-3.9.16-01.pom
+outputs.1.0.length=3758
+outputs.1.0.checksums.sha512=4055242599b5b93e62cfa5a936a6438d65f0674934b9c6b7e473900339ec23b50fe8752543c3d04683b6d1b11b643c5e6d1058c8220319e9b6e64ff098cc5a25
+
+outputs.2.coordinates=eu.maveniverse.maven.maven-boms:fat
+
+outputs.2.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.2.0.filename=fat-3.9.16-01.pom
+outputs.2.0.length=13982
+outputs.2.0.checksums.sha512=f8bdb0f27cd96987157f578374d03f44bf21134926b0466d887e42a7965907525ca28972cd56ada08044f64a6cb95a0a6c88a423eb8c6bc9a9068e7700c2cfb8
+
+outputs.3.coordinates=eu.maveniverse.maven.maven-boms:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.3.0.filename=plugin-3.9.16-01.pom
+outputs.3.0.length=6079
+outputs.3.0.checksums.sha512=b192f06483f76d4061c6b751970a48228a496ec689479dde85e695fc22b9e95cfee7afcc1b117230427840416ca2edc92c8d7609819fc12b0377a688c0701a10
