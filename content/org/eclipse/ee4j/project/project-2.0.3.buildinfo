@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=EE4J Project
+group-id=org.eclipse.ee4j
+artifact-id=project
+version=2.0.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:eclipse-ee4j/ee4j.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.eclipse.ee4j
+outputs.0.filename=project-2.0.3.pom
+outputs.0.length=27262
+outputs.0.checksums.sha512=d5e6ffee51684c5a862ed427f7dab31560df35eca5ef1bf7095f1211ae1842bcffbf9380f9ffeeeff0c5a46edda35c155ec7463f211398a573ec0d6084f46d7f
