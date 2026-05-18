@@ -1174,13 +1174,13 @@ outputs.69.0.checksums.sha512=7b5d6acec1ef907eb16852a32bb2b605b43e3e6d71eb8f5afe
 
 outputs.69.1.groupId=io.jooby
 outputs.69.1.filename=jooby-cli-4.3.0.jar
-outputs.69.1.length=90920
-outputs.69.1.checksums.sha512=b9316a4df8705ef5baf6400864dbe837936d501ef87506399c04e9f44fa88e823d6f23ce49072cf7d60a1027bb37750b39838b3da5b283a722187144d126899c
+outputs.69.1.length=90903
+outputs.69.1.checksums.sha512=e01a14435dae5d7e267ef211d1906ceba1f8f11d9420ebfc757a659b8089e6292ba00695cafdab7632598d5ec93ca515f9b74f3f008edbf7b5cf38ca58445df9
 
 outputs.69.2.groupId=io.jooby
 outputs.69.2.filename=jooby-cli-4.3.0.zip
-outputs.69.2.length=8596078
-outputs.69.2.checksums.sha512=0acd3b363fdff63354bb28d2585f0226ac8f8699690a2b747085204e89f1fa2229afac3be4e16a57b9b7a211bf6ade2ae6ed73105490991b959f53b90b2699f0
+outputs.69.2.length=8596067
+outputs.69.2.checksums.sha512=020cf90437cbb2d3b8e092ea238452625d722df606e484d1ca289278b1fde01874061b226a9ddcec4cb91ccb3f5cf7f04405a1880a4a9fdff851bdec8d6e521b
 
 outputs.69.3.groupId=io.jooby
 outputs.69.3.filename=jooby-cli-4.3.0-sources.jar
