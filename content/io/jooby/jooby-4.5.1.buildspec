@@ -17,4 +17,3 @@ buildinfo=target/${artifactId}-project-${version}.buildinfo
 
 #diffoscope=${artifactId}-project-${version}.diffoscope
 issue=
-PR_merge_max_ko=2
