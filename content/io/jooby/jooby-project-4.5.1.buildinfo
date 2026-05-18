@@ -1208,8 +1208,8 @@ outputs.71.0.checksums.sha512=76d2aaf59d1f6027958f11a0e2462eae666aa55079ccb2be8b
 
 outputs.71.1.groupId=io.jooby
 outputs.71.1.filename=jooby-cli-4.5.1.jar
-outputs.71.1.length=88323
-outputs.71.1.checksums.sha512=1de3ead63bcd3b7ea0e2758e7bb8eaf95de4e8d42dbd8098e65e54b9714c714148c7a9c024028129cd5e9aa5a3da23c3041cc1f226d995cd9d6f0a8e956c32b3
+outputs.71.1.length=88307
+outputs.71.1.checksums.sha512=0259765c62e2bb15b4d30d106301f2a7747db5b65141c54a1b60b3fffa4ed61c406860fe3eeababfcf4c90c4e793af30c0b6b4e007cd4fceff1fae6434c07b4c
 
 outputs.71.2.groupId=io.jooby
 outputs.71.2.filename=jooby-cli-4.5.1-sources.jar
@@ -1218,8 +1218,8 @@ outputs.71.2.checksums.sha512=601b2f62d8e1738527dd62bac27a29dd487130edc1b844c00b
 
 outputs.71.3.groupId=io.jooby
 outputs.71.3.filename=jooby-cli-4.5.1.zip
-outputs.71.3.length=8632560
-outputs.71.3.checksums.sha512=a0577bf8fb249aa367fbed1c92a83243e36e7af4f2a56f7fbd8a6f737a414b8abcd8e48d7dfa7f9547fbebfa42e2f5228cb60ae33cd756ffe55d0285b6e5d315
+outputs.71.3.length=8632544
+outputs.71.3.checksums.sha512=cc59df9f1029958657d5188fdbeca10429f3319318db1150a138ca258cb99a6376dd42daaebbdcaf87ef41eb101e4bf86435d206ce028a3585785fded220b797
 
 outputs.72.coordinates=io.jooby:jooby-maven-plugin
 
