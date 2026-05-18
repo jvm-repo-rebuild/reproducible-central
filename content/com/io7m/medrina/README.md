@@ -7,10 +7,11 @@
 
 Source code: [https://github.com/io7m/medrina.git](https://github.com/io7m/medrina.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [com.io7m.medrina:com.io7m.medrina](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/overview)
 * [com.io7m.medrina:com.io7m.medrina.api](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.api/overview)
+* [com.io7m.medrina:com.io7m.medrina.bom](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.bom/overview)
 * [com.io7m.medrina:com.io7m.medrina.cmdline](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.cmdline/overview)
 * [com.io7m.medrina:com.io7m.medrina.documentation](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.documentation/overview)
 * [com.io7m.medrina:com.io7m.medrina.parser.api](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.parser.api/overview)
@@ -18,13 +19,14 @@ Source code: [https://github.com/io7m/medrina.git](https://github.com/io7m/medri
 * [com.io7m.medrina:com.io7m.medrina.vanilla](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.vanilla/overview)
 </details>
 
-rebuilding **7 releases** of com.io7m.medrina:com.io7m.medrina:
+rebuilding **8 releases** of com.io7m.medrina:com.io7m.medrina:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.1.0/pom) | [mvn jdk21](com.io7m.medrina-1.1.0.buildspec) | [result](com.io7m.medrina-1.1.0.buildinfo): [12 :white_check_mark:  23 :warning:](com.io7m.medrina-1.1.0.buildcompare) | 14 :recycle: 5 :rotating_light: 4 :no_entry_sign: | 3.2M |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0/pom) | [mvn jdk21](com.io7m.medrina-1.0.0.buildspec) | [result](com.io7m.medrina-1.0.0.buildinfo): [33 :white_check_mark: ](com.io7m.medrina-1.0.0.buildcompare) | | 3.0M |
 | [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0-beta0003/pom) | [mvn jdk17.0.7](com.io7m.medrina-1.0.0-beta0003.buildspec) | [result](com.io7m.medrina-1.0.0-beta0003.buildinfo): [33 :white_check_mark: ](com.io7m.medrina-1.0.0-beta0003.buildcompare) | | 2.9M |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0-beta0002/pom) | [mvn jdk17.0.7](com.io7m.medrina-1.0.0-beta0002.buildspec) | [result](com.io7m.medrina-1.0.0-beta0002.buildinfo): [27 :white_check_mark: ](com.io7m.medrina-1.0.0-beta0002.buildcompare) | | 1.9M |
