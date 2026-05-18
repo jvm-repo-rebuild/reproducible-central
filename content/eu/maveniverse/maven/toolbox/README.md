@@ -16,14 +16,14 @@ Source code: [https://github.com/maveniverse/toolbox.git](https://github.com/mav
 * [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/overview)
 </details>
 
-rebuilding **106 releases** of eu.maveniverse.maven.toolbox:toolbox:
+rebuilding **107 releases** of eu.maveniverse.maven.toolbox:toolbox:
 - **93** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 12, 1 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 13, 2 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.15.10](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.10/pom) | | | |
+| [0.15.10](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.10/pom) | [mvn jdk21](toolbox-0.15.10.buildspec) | [result](toolbox-0.15.10.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.10.buildcompare) | 1 :recycle: | 37M |
 | [0.15.9](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.9/pom) | [mvn jdk21](toolbox-0.15.9.buildspec) | [result](toolbox-0.15.9.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.9.buildcompare) | 1 :recycle: | 37M |
 | [0.15.8](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.8/pom) | [mvn jdk21](toolbox-0.15.8.buildspec) | [result](toolbox-0.15.8.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.8.buildcompare) | 1 :rotating_light: | 36M |
 | [0.15.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.7/pom) | [mvn jdk21](toolbox-0.15.7.buildspec) | [result](toolbox-0.15.7.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.7.buildcompare) | 1 :rotating_light: | 36M |
