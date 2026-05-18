@@ -12,8 +12,8 @@ newline=lf
 #umask=022
 #timezone="Europe/London"
 
-command="mvn -Pbom,source clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.skipModules='*/tests'"
+command="mvn -pl '!tests' clean package -P bom,central,gradlePlugin -DskipTests -Dmaven.javadoc.skip"
 buildinfo=target/${artifactId}-project-${version}.buildinfo
 
 #diffoscope=${artifactId}-project-${version}.diffoscope
-issue=
+issue=https://github.com/jooby-project/jooby/commit/b7a9c2b25d3fc73dc3cf9cc77389e2742595cd64
