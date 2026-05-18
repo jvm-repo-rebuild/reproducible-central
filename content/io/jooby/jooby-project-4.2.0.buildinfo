@@ -17,7 +17,7 @@ build-tool=mvn
 java.version=21.0.10
 java.vendor=Ubuntu
 os.name=Linux
-os.version=6.17.0-1008-azure
+os.version=6.17.0-1013-azure
 os.arch=amd64
 line.separator=\n
 
@@ -1038,13 +1038,13 @@ outputs.61.0.checksums.sha512=67d07dd89d05d04cca94c69eab3035573aa922e95e76779b32
 
 outputs.61.1.groupId=io.jooby
 outputs.61.1.filename=jooby-cli-4.2.0.jar
-outputs.61.1.length=90924
-outputs.61.1.checksums.sha512=ddd8c739ed0693327ad2f91bd4e0c13bc7f71bce88def9ff8af6fb2c5aafaeec165d4e960a2fc280e08cafda5b944095edef4dc3d782b3eb07e8a7b9f65fbd8d
+outputs.61.1.length=90908
+outputs.61.1.checksums.sha512=d7f579bf68c973a9ce8dbff9b5e941f746f699f6959fff6c951c7030ffa06e705e8817aa3199476c83d09f99c2ac16dca9b706c1e3b57f991607d63a1d14bf3c
 
 outputs.61.2.groupId=io.jooby
 outputs.61.2.filename=jooby-cli-4.2.0.zip
-outputs.61.2.length=8596087
-outputs.61.2.checksums.sha512=3241a9f8bd503573c8d7b550aea0d9de368e2888129b0980b9872ee7b256e72cd3c40f6e511cf8df451c168e148df961d17f59bf616ef233d6d8c921fe13ef7b
+outputs.61.2.length=8596072
+outputs.61.2.checksums.sha512=d04f207c297ffbcf9707af5bc81bde535bfef2691e08787210f4815c92d5a703aea81b10ec733cd49d17df6068e6daf08e001fcc050bc712055ebb454a5d01c2
 
 outputs.61.3.groupId=io.jooby
 outputs.61.3.filename=jooby-cli-4.2.0-sources.jar

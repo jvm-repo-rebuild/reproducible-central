@@ -99,9 +99,9 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 </details>
 
 rebuilding **82 releases** of io.jooby:jooby:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 56 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 9, 0 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 55 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -109,7 +109,7 @@ rebuilding **82 releases** of io.jooby:jooby:
 | [4.5.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.0/pom) | [mvn jdk21](jooby-4.5.0.buildspec) | [result](jooby-project-4.5.0.buildinfo): [238 :white_check_mark:  2 :warning:](jooby-project-4.5.0.buildcompare) | 2 :rotating_light: | 14M |
 | [4.4.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.4.0/pom) | [mvn jdk21](jooby-4.4.0.buildspec) | [result](jooby-project-4.4.0.buildinfo): [235 :white_check_mark:  2 :warning:](jooby-project-4.4.0.buildcompare) | 2 :rotating_light: | 22M |
 | [4.3.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.3.0/pom) | [mvn jdk21](jooby-4.3.0.buildspec) | [result](jooby-project-4.3.0.buildinfo): [232 :white_check_mark:  2 :warning:](jooby-project-4.3.0.buildcompare) | 2 :rotating_light: | 22M |
-| [4.2.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.2.0/pom) | [mvn jdk21](jooby-4.2.0.buildspec) | [result](jooby-project-4.2.0.buildinfo): [208 :white_check_mark:  2 :warning:](jooby-project-4.2.0.buildcompare) | 2 :rotating_light: | 22M |
+| [4.2.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.2.0/pom) | [mvn jdk21](jooby-4.2.0.buildspec) | [result](jooby-project-4.2.0.buildinfo): [210 :white_check_mark: ](jooby-project-4.2.0.buildcompare) | | 22M |
 | [4.1.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.1.0/pom) | [mvn jdk21](jooby-4.1.0.buildspec) | [result](jooby-project-4.1.0.buildinfo): [198 :white_check_mark: ](jooby-project-4.1.0.buildcompare) | | 14M |
 | [4.0.17](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.17/pom) | [mvn jdk21](jooby-4.0.17.buildspec) | [result](jooby-project-4.0.17.buildinfo): [189 :white_check_mark: ](jooby-project-4.0.17.buildcompare) | | 14M |
 | [4.0.16](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.16/pom) | [mvn jdk21](jooby-4.0.16.buildspec) | [result](jooby-project-4.0.16.buildinfo): [189 :white_check_mark: ](jooby-project-4.0.16.buildcompare) | | 14M |
