@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.metricshub:community-connectors:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.21](https://central.sonatype.com/artifact/org.metricshub/community-connectors/1.0.21/pom) | | | |
 | [1.0.20](https://central.sonatype.com/artifact/org.metricshub/community-connectors/1.0.20/pom) | [mvn jdk17](community-connectors-1.0.20.buildspec) | [result](community-connectors-1.0.20.buildinfo): [3 :white_check_mark: ](community-connectors-1.0.20.buildcompare) | | 147K |
 | [1.0.19](https://central.sonatype.com/artifact/org.metricshub/community-connectors/1.0.19/pom) | [mvn jdk17](community-connectors-1.0.19.buildspec) | [result](community-connectors-1.0.19.buildinfo): [3 :white_check_mark: ](community-connectors-1.0.19.buildcompare) | | 147K |
 | [1.0.18](https://central.sonatype.com/artifact/org.metricshub/community-connectors/1.0.18/pom) | [mvn jdk17](community-connectors-1.0.18.buildspec) | [result](community-connectors-1.0.18.buildinfo): [3 :white_check_mark: ](community-connectors-1.0.18.buildcompare) | | 133K |
