@@ -32,13 +32,14 @@ Source code: [https://github.com/junit-team/junit5.git](https://github.com/junit
 * [org.junit:junit-start](https://central.sonatype.com/artifact/org.junit/junit-start/overview)
 </details>
 
-rebuilding **56 releases** of org.junit:junit-bom:
+rebuilding **57 releases** of org.junit:junit-bom:
 - **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.1.0](https://central.sonatype.com/artifact/org.junit/junit-bom/6.1.0/pom) | | | |
+| [6.1.0](https://central.sonatype.com/artifact/org.junit/junit-bom/6.1.0/pom) | [gradle jdk25](junit5-6.1.0.buildspec) | [result](junit-bom-6.1.0.buildinfo): [35 :white_check_mark:  17 :warning:](junit-bom-6.1.0.buildcompare) | 17 :recycle: | 6.8M |
 | [6.1.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.1.0-RC1/pom) | [gradle jdk25](junit5-6.1.0-RC1.buildspec) | [result](junit-bom-6.1.0-RC1.buildinfo): [52 :white_check_mark: ](junit-bom-6.1.0-RC1.buildcompare) | | 6.8M |
 | [6.1.0-M1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.1.0-M1/pom) | [gradle jdk25](junit5-6.1.0-M1.buildspec) | [result](junit-bom-6.1.0-M1.buildinfo): [52 :white_check_mark: ](junit-bom-6.1.0-M1.buildcompare) | | 6.6M |
 | [6.0.3](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.3/pom) | [gradle jdk25](junit5-6.0.3.buildspec) | [result](junit-bom-6.0.3.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.3.buildcompare) | | 6.5M |
