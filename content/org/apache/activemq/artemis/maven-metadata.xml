@@ -3,8 +3,8 @@
   <groupId>org.apache.activemq</groupId>
   <artifactId>artemis-pom</artifactId>
   <versioning>
-    <latest>2.53.0</latest>
-    <release>2.53.0</release>
+    <latest>2.54.0</latest>
+    <release>2.54.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -78,7 +78,8 @@
       <version>2.51.0</version>
       <version>2.52.0</version>
       <version>2.53.0</version>
+      <version>2.54.0</version>
     </versions>
-    <lastUpdated>20260320134402</lastUpdated>
+    <lastUpdated>20260520021024</lastUpdated>
   </versioning>
 </metadata>

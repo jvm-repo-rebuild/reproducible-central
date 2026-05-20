@@ -3,8 +3,8 @@
   <groupId>io.quarkus</groupId>
   <artifactId>quarkus-project</artifactId>
   <versioning>
-    <latest>3.36.0.CR1</latest>
-    <release>3.36.0.CR1</release>
+    <latest>3.36.0</latest>
+    <release>3.36.0</release>
     <versions>
       <version>3.1.0.Final</version>
       <version>3.1.1.Final</version>
@@ -191,6 +191,7 @@
       <version>3.27.2</version>
       <version>3.27.3.1</version>
       <version>3.27.3</version>
+      <version>3.27.4</version>
       <version>3.28.0.CR1</version>
       <version>3.28.0</version>
       <version>3.28.1</version>
@@ -230,6 +231,7 @@
       <version>3.33.0</version>
       <version>3.33.1.1</version>
       <version>3.33.1</version>
+      <version>3.33.2</version>
       <version>3.34.0.CR1</version>
       <version>3.34.0</version>
       <version>3.34.1</version>
@@ -244,8 +246,10 @@
       <version>3.35.1</version>
       <version>3.35.2</version>
       <version>3.35.3</version>
+      <version>3.35.4</version>
       <version>3.36.0.CR1</version>
+      <version>3.36.0</version>
     </versions>
-    <lastUpdated>20260513111321</lastUpdated>
+    <lastUpdated>20260520110737</lastUpdated>
   </versioning>
 </metadata>
