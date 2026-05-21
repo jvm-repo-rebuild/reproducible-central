@@ -21,8 +21,8 @@ Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje
 * [io.avaje:avaje-jsonb-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-spring-starter/overview)
 </details>
 
-rebuilding **55 releases** of io.avaje:avaje-jsonb-parent:
-- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **56 releases** of io.avaje:avaje-jsonb-parent:
+- **49** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -31,7 +31,7 @@ rebuilding **55 releases** of io.avaje:avaje-jsonb-parent:
 | [3.14-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.14-RC4/pom) | [mvn jdk25](avaje-jsonb-3.14-RC4.buildspec) | [result](avaje-jsonb-parent-3.14-RC4.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.14-RC4.buildcompare) | | 861K |
 | [3.14-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.14-RC3/pom) | [mvn jdk25](avaje-jsonb-3.14-RC3.buildspec) | [result](avaje-jsonb-parent-3.14-RC3.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.14-RC3.buildcompare) | | 860K |
 | [3.14-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.14-RC2/pom) | [mvn jdk25](avaje-jsonb-3.14-RC2.buildspec) | [result](avaje-jsonb-parent-3.14-RC2.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.14-RC2.buildcompare) | | 857K |
-| [3.14-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.14-RC1/pom) | | | |
+| [3.14-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.14-RC1/pom) | [mvn jdk26](avaje-jsonb-3.14-RC1.buildspec) | [result](avaje-jsonb-parent-3.14-RC1.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.14-RC1.buildcompare) | | 855K |
 | [3.13](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.13/pom) | [mvn jdk26](avaje-jsonb-3.13.buildspec) | [result](avaje-jsonb-parent-3.13.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.13.buildcompare) | | 855K |
 | [3.13-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.13-RC1/pom) | [mvn jdk25](avaje-jsonb-3.13-RC1.buildspec) | [result](avaje-jsonb-parent-3.13-RC1.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.13-RC1.buildcompare) | | 855K |
 | [3.12](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.12/pom) | [mvn jdk26](avaje-jsonb-3.12.buildspec) | [result](avaje-jsonb-parent-3.12.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.12.buildcompare) | | 855K |
