@@ -38,13 +38,13 @@ Source code: [https://git-wip-us.apache.org/repos/asf/wicket.git](https://git-wi
 * [org.apache.wicket:wicket-velocity](https://central.sonatype.com/artifact/org.apache.wicket/wicket-velocity/overview)
 </details>
 
-rebuilding **9 releases** of org.apache.wicket:wicket-parent:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.apache.wicket:wicket-parent:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [10.9.1](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.9.1/pom) | | | |
+| [10.9.1](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.9.1/pom) | [mvn jdk17](wicket-parent-10.9.1.buildspec) | [result](wicket-parent-10.9.1.buildinfo): [75 :white_check_mark: ](wicket-parent-10.9.1.buildcompare) | | 77M |
 | [10.9.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.9.0/pom) | [mvn jdk17](wicket-parent-10.9.0.buildspec) | [result](wicket-parent-10.9.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.9.0.buildcompare) | | 77M |
 | [10.8.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.8.0/pom) | [mvn jdk17](wicket-parent-10.8.0.buildspec) | [result](wicket-parent-10.8.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.8.0.buildcompare) | | 77M |
 | [10.7.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.7.0/pom) | [mvn jdk17](wicket-parent-10.7.0.buildspec) | [result](wicket-parent-10.7.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.7.0.buildcompare) | | 77M |
