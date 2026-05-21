@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.com/eclipse-ee4j/glassfish-hk2.git)
 
-<details><summary>This project defines 73 modules:</summary>
+<details><summary>This project defines 74 modules:</summary>
 
 * [org.glassfish.hk2.external:aopalliance-repackaged](https://central.sonatype.com/artifact/org.glassfish.hk2.external/aopalliance-repackaged/overview)
 * [org.glassfish.hk2:caching-aop-example](https://central.sonatype.com/artifact/org.glassfish.hk2/caching-aop-example/overview)
@@ -48,6 +48,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.
 * [org.glassfish.hk2:hk2-mockito](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-mockito/overview)
 * [org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/overview)
 * [org.glassfish.hk2:hk2-pbuf](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-pbuf/overview)
+* [org.glassfish.hk2:hk2-project](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-project/overview)
 * [org.glassfish.hk2:hk2-property-file](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-property-file/overview)
 * [org.glassfish.hk2:hk2-runlevel](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-runlevel/overview)
 * [org.glassfish.hk2:hk2-runlevel-extras](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-runlevel-extras/overview)
@@ -84,13 +85,13 @@ Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.
 * [org.glassfish.hk2:xml-configuration-example](https://central.sonatype.com/artifact/org.glassfish.hk2/xml-configuration-example/overview)
 </details>
 
-rebuilding **9 releases** of org.glassfish.hk2:hk2-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.glassfish.hk2:hk2-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.1/pom) | | | |
+| [4.0.1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.1/pom) | [mvn jdk21](hk2-4.0.1.buildspec) | [result](hk2-parent-4.0.1.buildinfo): [192 :white_check_mark: ](hk2-parent-4.0.1.buildcompare) | | 4.4M |
 | [4.0.0](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0/pom) | | | |
 | [4.0.0-M4](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M4/pom) | [mvn jdk21](hk2-4.0.0-M4.buildspec) | [result](hk2-parent-4.0.0-M4.buildinfo): [191 :white_check_mark: ](hk2-parent-4.0.0-M4.buildcompare) | | 5.7M |
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M3/pom) | [mvn jdk17](hk2-4.0.0-M3.buildspec) | [result](hk2-parent-4.0.0-M3.buildinfo): [180 :white_check_mark:  157 :warning:](hk2-parent-4.0.0-M3.buildcompare) [:mag:](hk2-parent-4.0.0-M3.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) | - | 12M |
