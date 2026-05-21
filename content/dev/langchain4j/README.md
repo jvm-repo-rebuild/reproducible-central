@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 108 modules:</summary>
+<details><summary>This project defines 110 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -42,6 +42,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-document-parser-apache-pdfbox](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-pdfbox/overview)
 * [dev.langchain4j:langchain4j-document-parser-apache-poi](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-poi/overview)
 * [dev.langchain4j:langchain4j-document-parser-apache-tika](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-tika/overview)
+* [dev.langchain4j:langchain4j-document-parser-docling](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-docling/overview)
 * [dev.langchain4j:langchain4j-document-parser-markdown](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-markdown/overview)
 * [dev.langchain4j:langchain4j-document-parser-yaml](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-yaml/overview)
 * [dev.langchain4j:langchain4j-document-transformer-jsoup](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-transformer-jsoup/overview)
@@ -64,6 +65,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-experimental-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-sql/overview)
 * [dev.langchain4j:langchain4j-github-models](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-github-models/overview)
 * [dev.langchain4j:langchain4j-google-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-google-ai-gemini/overview)
+* [dev.langchain4j:langchain4j-google-genai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-google-genai/overview)
 * [dev.langchain4j:langchain4j-gpu-llama3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-gpu-llama3/overview)
 * [dev.langchain4j:langchain4j-guardrails](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-guardrails/overview)
 * [dev.langchain4j:langchain4j-hibernate](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-hibernate/overview)
@@ -119,14 +121,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **45 releases** of dev.langchain4j:langchain4j:
+rebuilding **46 releases** of dev.langchain4j:langchain4j:
 - **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 3 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 3 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.15.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.15.0/pom) | | | |
+| [1.15.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.15.0/pom) | [mvn jdk25](langchain4j-1.15.0.buildspec) | [result](langchain4j-aggregator-1.15.0.buildinfo): [308 :white_check_mark:  5 :warning:](langchain4j-aggregator-1.15.0.buildcompare) | 4 :rotating_light: 1 :no_entry_sign: | 470M |
 | [1.14.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.14.1/pom) | [mvn jdk25](langchain4j-1.14.1.buildspec) | [result](langchain4j-aggregator-1.14.1.buildinfo): [306 :white_check_mark:  1 :warning:](langchain4j-aggregator-1.14.1.buildcompare) | 1 :recycle: | 470M |
 | [1.14.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.14.0/pom) | [mvn jdk25](langchain4j-1.14.0.buildspec) | [result](langchain4j-aggregator-1.14.0.buildinfo): [277 :white_check_mark:  30 :warning:](langchain4j-aggregator-1.14.0.buildcompare) [:mag:](langchain4j-aggregator-1.14.0.diffoscope) | 26 :recycle: 2 :rotating_light: 2 :no_entry_sign: | 470M |
 | [1.13.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.13.1/pom) | [mvn jdk25](langchain4j-1.13.1.buildspec) | [result](langchain4j-aggregator-1.13.1.buildinfo): [305 :white_check_mark:  2 :warning:](langchain4j-aggregator-1.13.1.buildcompare) [:memo:](https://github.com/langchain4j/langchain4j/pull/4912) | 2 :recycle: | 470M |
