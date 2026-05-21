@@ -1,0 +1,40 @@
+1 / 1 target/reference/org.codehaus.plexus/plexus-classworlds-2.12.0.jar target/plexus-classworlds-2.12.0.jar
+--- target/reference/org.codehaus.plexus/plexus-classworlds-2.12.0.jar
++++ target/plexus-classworlds-2.12.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 54173 bytes, number of entries: 52
+│ +Zip file size: 54155 bytes, number of entries: 52
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1367 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1288 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.codehaus.plexus/
+│ @@ -47,8 +47,8 @@
+│  -rw----     2.0 fat      629 bl defN 80-Feb-01 00:00 org/codehaus/plexus/classworlds/strategy/Strategy.class
+│  -rw----     2.0 fat      976 bl defN 80-Feb-01 00:00 org/codehaus/plexus/classworlds/strategy/StrategyFactory.class
+│ -52 files, 105966 bytes uncompressed, 44379 bytes compressed:  58.1%
+│ +52 files, 105887 bytes uncompressed, 44361 bytes compressed:  58.1%
+├── META-INF/MANIFEST.MF
+│ @@ -13,18 +13,17 @@
+│  Export-Package: org.codehaus.plexus.classworlds;version="2.12.0",org.c
+│   odehaus.plexus.classworlds.launcher;version="2.12.0",org.codehaus.ple
+│   xus.classworlds.realm;version="2.12.0",org.codehaus.plexus.classworld
+│   s.strategy;version="2.12.0"
+│  Implementation-Title: Plexus Classworlds
+│  Implementation-Vendor: Codehaus Plexus
+│  Implementation-Version: 2.12.0
+│ -Import-Package: org.codehaus.plexus.classworlds;version="[2.12,3)",org
+│ - .codehaus.plexus.classworlds.launcher;version="[2.12,3)",org.codehaus
+│ - .plexus.classworlds.realm;version="[2.12,3)",org.codehaus.plexus.clas
+│ - sworlds.strategy;version="[2.12,3)"
+│ +Import-Package: org.codehaus.plexus.classworlds,org.codehaus.plexus.cl
+│ + assworlds.launcher,org.codehaus.plexus.classworlds.realm,org.codehaus
+│ + .plexus.classworlds.strategy
+│  Main-Class: org.codehaus.plexus.classworlds.launcher.Launcher
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Specification-Title: Plexus Classworlds
+│  Specification-Vendor: Codehaus Plexus
+│  Specification-Version: 2.12
+│  Tool: Bnd-6.3.1.202206071316
+
