@@ -1,19 +1,15 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/woodstox/woodstox-core-7.1.1.buildspec:7.2.0
-content/com/github/hazendaz/javabean-tester/javabean-tester-2.12.0.buildspec:2.12.1
 content/com/io7m/jade/com.io7m.jade-1.0.3.buildspec:1.1.0
 content/com/io7m/medrina/com.io7m.medrina-1.0.0.buildspec:1.1.0
 content/com/io7m/wendover/com.io7m.wendover-1.0.2.buildspec:1.1.1
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
 content/com/sap/ai/sdk/sdk-1.18.0.buildspec:1.19.0
-content/io/avaje/metrics/avaje-metrics-9.9-RC2.buildspec:9.9-RC3
+content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-2.0.0.buildspec:2.1.0
+content/io/airlift/airbase/airbase-377.buildspec:378
+content/io/avaje/jsonb/avaje-jsonb-3.14-RC4.buildspec:3.14-RC5
+content/io/avaje/metrics/avaje-metrics-9.9-RC3.buildspec:9.9-RC5
 content/io/cucumber/gherkin/gherkin-39.0.0.buildspec:39.1.0
-content/org/apache/artemis/artemis-2.53.0.buildspec:2.54.0
+content/io/github/cbarlin/aru/aru-0.9.1.buildspec:0.10.0
 content/org/apache/johnzon/johnzon-2.0.2.buildspec:2.1.0
-content/org/apache/wicket/wicket-parent-10.9.0.buildspec:10.9.1
-content/org/apache/activemq/artemis/artemis-2.53.0.buildspec:2.54.0
-content/org/apache/sling/org.apache.sling.tracer/org.apache.sling.tracer-1.0.8.buildspec:1.1.0
-content/org/codehaus/plexus/plexus-classworlds/plexus-classworlds-2.11.0.buildspec:2.12.0
 content/org/glassfish/hk2/hk2-4.0.0-M4.buildspec:4.0.1
-content/org/junit/junit5/junit5-6.1.0-RC1.buildspec:6.1.0
