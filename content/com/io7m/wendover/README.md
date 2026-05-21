@@ -14,15 +14,15 @@ Source code: [https://github.com/io7m/wendover.git](https://github.com/io7m/wend
 * [com.io7m.wendover:com.io7m.wendover.tests](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover.tests/overview)
 </details>
 
-rebuilding **7 releases** of com.io7m.wendover:com.io7m.wendover:
+rebuilding **8 releases** of com.io7m.wendover:com.io7m.wendover:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.1.1](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/1.1.1/pom) | [mvn jdk21](com.io7m.wendover-1.1.1.buildspec) | [result](com.io7m.wendover-1.1.1.buildinfo): [5 :white_check_mark:  7 :warning:](com.io7m.wendover-1.1.1.buildcompare) | 4 :recycle: 2 :rotating_light: 1 :no_entry_sign: | 650K |
-| [1.1.0](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/1.1.0/pom) | [mvn jdk21](com.io7m.wendover-1.1.0.buildspec) | [result](com.io7m.wendover-1.1.0.buildinfo): [5 :white_check_mark:  7 :warning:](com.io7m.wendover-1.1.0.buildcompare) | 4 :recycle: 2 :rotating_light: 1 :no_entry_sign: | 649K |
 | [1.0.2](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/1.0.2/pom) | [mvn jdk21](com.io7m.wendover-1.0.2.buildspec) | [result](com.io7m.wendover-1.0.2.buildinfo): [12 :white_check_mark: ](com.io7m.wendover-1.0.2.buildcompare) | | 588K |
 | [1.0.1](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/1.0.1/pom) | [mvn jdk17.0.7](com.io7m.wendover-1.0.1.buildspec) | [result](com.io7m.wendover-1.0.1.buildinfo): [12 :white_check_mark: ](com.io7m.wendover-1.0.1.buildcompare) | | 587K |
 | [0.0.4](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/0.0.4/pom) | [mvn jdk17.0.3](com.io7m.wendover-0.0.4.buildspec) | [result](com.io7m.wendover-0.0.4.buildinfo): [9 :white_check_mark: ](com.io7m.wendover-0.0.4.buildcompare) | | 75K |
