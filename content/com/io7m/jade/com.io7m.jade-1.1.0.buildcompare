@@ -1,0 +1,30 @@
+version=1.1.0
+ok=9
+ko=17
+ignored=0
+okFiles="com.io7m.jade-1.1.0.pom com.io7m.jade-1.1.0-cyclonedx.xml com.io7m.jade.bom-1.1.0.pom com.io7m.jade.bom-1.1.0-cyclonedx.xml com.io7m.jade.spi-1.1.0.pom com.io7m.jade.spi-1.1.0-cyclonedx.xml com.io7m.jade.api-1.1.0.pom com.io7m.jade.vanilla-1.1.0.pom com.io7m.jade.tests-1.1.0.pom"
+koFiles="com.io7m.jade.bom-1.1.0.jar com.io7m.jade.bom-1.1.0-tests.jar com.io7m.jade.spi-1.1.0.jar com.io7m.jade.spi-1.1.0-sources.jar com.io7m.jade.spi-1.1.0-tests.jar com.io7m.jade.api-1.1.0.jar com.io7m.jade.api-1.1.0-sources.jar com.io7m.jade.api-1.1.0-cyclonedx.xml com.io7m.jade.api-1.1.0-tests.jar com.io7m.jade.vanilla-1.1.0.jar com.io7m.jade.vanilla-1.1.0-sources.jar com.io7m.jade.vanilla-1.1.0-cyclonedx.xml com.io7m.jade.vanilla-1.1.0-tests.jar com.io7m.jade.tests-1.1.0.jar com.io7m.jade.tests-1.1.0-sources.jar com.io7m.jade.tests-1.1.0-cyclonedx.xml com.io7m.jade.tests-1.1.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.bom-1.1.0.jar com.io7m.jade.bom/target/com.io7m.jade.bom-1.1.0.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.bom-1.1.0-tests.jar com.io7m.jade.bom/target/com.io7m.jade.bom-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.spi-1.1.0.jar com.io7m.jade.spi/target/com.io7m.jade.spi-1.1.0.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.spi-1.1.0-sources.jar com.io7m.jade.spi/target/com.io7m.jade.spi-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.spi-1.1.0-tests.jar com.io7m.jade.spi/target/com.io7m.jade.spi-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.api-1.1.0.jar com.io7m.jade.api/target/com.io7m.jade.api-1.1.0.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.api-1.1.0-sources.jar com.io7m.jade.api/target/com.io7m.jade.api-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.api-1.1.0-cyclonedx.xml com.io7m.jade.api/target/bom.xml
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.api-1.1.0-tests.jar com.io7m.jade.api/target/com.io7m.jade.api-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.vanilla-1.1.0.jar com.io7m.jade.vanilla/target/com.io7m.jade.vanilla-1.1.0.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.vanilla-1.1.0-sources.jar com.io7m.jade.vanilla/target/com.io7m.jade.vanilla-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.vanilla-1.1.0-cyclonedx.xml com.io7m.jade.vanilla/target/bom.xml
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.vanilla-1.1.0-tests.jar com.io7m.jade.vanilla/target/com.io7m.jade.vanilla-1.1.0-tests.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.tests-1.1.0.jar com.io7m.jade.tests/target/com.io7m.jade.tests-1.1.0.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.tests-1.1.0-sources.jar com.io7m.jade.tests/target/com.io7m.jade.tests-1.1.0-sources.jar
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.tests-1.1.0-cyclonedx.xml com.io7m.jade.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.jade/com.io7m.jade.tests-1.1.0-tests.jar com.io7m.jade.tests/target/com.io7m.jade.tests-1.1.0-tests.jar
+stabilize_ok=10
+stabilize_ko=4
+stabilize_ignored=3
+stabilize_okFiles="com.io7m.jade.bom-1.1.0.jar.stabilized com.io7m.jade.bom-1.1.0-tests.jar.stabilized com.io7m.jade.spi-1.1.0-sources.jar.stabilized com.io7m.jade.spi-1.1.0-tests.jar.stabilized com.io7m.jade.api-1.1.0-sources.jar.stabilized com.io7m.jade.api-1.1.0-tests.jar.stabilized com.io7m.jade.vanilla-1.1.0-sources.jar.stabilized com.io7m.jade.vanilla-1.1.0-tests.jar.stabilized com.io7m.jade.tests-1.1.0-sources.jar.stabilized com.io7m.jade.tests-1.1.0-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.jade.spi-1.1.0.jar.stabilized com.io7m.jade.api-1.1.0.jar.stabilized com.io7m.jade.vanilla-1.1.0.jar.stabilized com.io7m.jade.tests-1.1.0.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.jade.api-1.1.0-cyclonedx.xml com.io7m.jade.vanilla-1.1.0-cyclonedx.xml com.io7m.jade.tests-1.1.0-cyclonedx.xml"
