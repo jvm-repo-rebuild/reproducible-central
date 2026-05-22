@@ -1,0 +1,197 @@
+1 / 2 target/reference/org.apache.shiro/shiro-aspectj-3.0.0-alpha-1.jar support/aspectj/target/shiro-aspectj-3.0.0-alpha-1.jar
+--- target/reference/org.apache.shiro/shiro-aspectj-3.0.0-alpha-1.jar
++++ support/aspectj/target/shiro-aspectj-3.0.0-alpha-1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14048 bytes, number of entries: 18
+│ +Zip file size: 14041 bytes, number of entries: 18
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1925 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4145 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      636 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/
+│ @@ -13,8 +13,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/shiro/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/
+│  -rw----     2.0 fat     2690 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/AspectjAnnotationsAuthorizingMethodInterceptor.class
+│  -rw----     2.0 fat     2624 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter.class
+│  -rw----     2.0 fat     6364 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect.class
+│  -rw----     2.0 fat      130 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/package-info.class
+│ -18 files, 34481 bytes uncompressed, 11176 bytes compressed:  67.6%
+│ +18 files, 34481 bytes uncompressed, 11169 bytes compressed:  67.6%
+├── org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -  SHA-256 checksum d5064e4809b7a751a24bcd85329fc06a707130a37e2678139097fe19f1a3c14f
+│ │ +  SHA-256 checksum 9a81dff17d2ef0bc5d71fc5503326872dc3ece0a2a19eabe6b160ebd0ffd31ec
+│ │    Compiled from "ShiroAnnotationAuthorizingAspect.java"
+│ │  public class org.apache.shiro.aspectj.ShiroAnnotationAuthorizingAspect
+│ │    minor version: 0
+│ │    major version: 61
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │    this_class: #1                          // org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect
+│ │    super_class: #3                         // java/lang/Object
+│ │ @@ -326,15 +326,15 @@
+│ │     2F 61 75 74 68 7A 2F 61 6E 6E 6F 74 61 74 69 6F
+│ │     6E 2F 52 65 71 75 69 72 65 73 55 73 65 72 3B 00
+│ │     00 01 35 00 00 01 63 00 00 00 00 00 00 00 01 35
+│ │     00 00 01 6B 00 00 01 2B 00 00 01 6C 00 00 00 E4
+│ │     00 00 01 6C 00 00 00 97 00 00 01 6C 00 00 00 50
+│ │     00 00 01 6C 00 00 00 00 00 00 01 6C
+│ │    org.aspectj.weaver.WeaverVersion: length = 0xC (unknown attribute)
+│ │ -   00 07 00 00 00 00 01 9B 29 78 2B A0
+│ │ +   00 07 00 00 00 00 00 00 00 00 00 00
+│ │    org.aspectj.weaver.PointcutDeclaration: length = 0x2AE (unknown attribute)
+│ │     00 3B 4C 6F 72 67 2F 61 70 61 63 68 65 2F 73 68
+│ │     69 72 6F 2F 61 73 70 65 63 74 6A 2F 53 68 69 72
+│ │     6F 41 6E 6E 6F 74 61 74 69 6F 6E 41 75 74 68 6F
+│ │     72 69 7A 69 6E 67 41 73 70 65 63 74 3B 00 00 00
+│ │     00 00 1B 61 6E 79 53 68 69 72 6F 41 6E 6E 6F 74
+│ │     61 74 65 64 4D 65 74 68 6F 64 43 61 6C 6C 00 01
+│ │ @@ -459,16 +459,16 @@
+│ │     00 00 30 4C 6F 72 67 2F 61 70 61 63 68 65 2F 73
+│ │     68 69 72 6F 2F 61 75 74 68 7A 2F 61 6E 6E 6F 74
+│ │     61 74 69 6F 6E 2F 52 65 71 75 69 72 65 73 55 73
+│ │     65 72 3B 00 00 01 35 00 00 01 63 00 00 00 00 00
+│ │     00 00 01 35 00 00 01 6B 00 00 01 2B 00 00 01 6C
+│ │     00 00 00 E4 00 00 01 6C 00 00 00 97 00 00 01 6C
+│ │     00 00 00 50 00 00 01 6C 00 00 00 00 00 00 01 6C
+│ │ -   00 31 00 00 00 0C 00 07 00 00 00 00 01 9B 29 78
+│ │ -   2B A0 00 2A 00 00 02 AE 00 3B 4C 6F 72 67 2F 61
+│ │ +   00 31 00 00 00 0C 00 07 00 00 00 00 00 00 00 00
+│ │ +   00 00 00 2A 00 00 02 AE 00 3B 4C 6F 72 67 2F 61
+│ │     70 61 63 68 65 2F 73 68 69 72 6F 2F 61 73 70 65
+│ │     63 74 6A 2F 53 68 69 72 6F 41 6E 6E 6F 74 61 74
+│ │     69 6F 6E 41 75 74 68 6F 72 69 7A 69 6E 67 41 73
+│ │     70 65 63 74 3B 00 00 00 00 00 1B 61 6E 79 53 68
+│ │     69 72 6F 41 6E 6E 6F 74 61 74 65 64 4D 65 74 68
+│ │     6F 64 43 61 6C 6C 00 01 00 1C 4C 6F 72 67 2F 61
+│ │     73 70 65 63 74 6A 2F 6C 61 6E 67 2F 4A 6F 69 6E
+
+2 / 2 target/reference/org.apache.shiro.tools/shiro-tools-hasher-3.0.0-alpha-1-cli.jar tools/hasher/target/shiro-tools-hasher-3.0.0-alpha-1-cli.jar
+--- target/reference/org.apache.shiro.tools/shiro-tools-hasher-3.0.0-alpha-1-cli.jar
++++ tools/hasher/target/shiro-tools-hasher-3.0.0-alpha-1-cli.jar
+├── zipinfo -v {}
+│ @@ -4042,15 +4042,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #131:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4077,15 +4077,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #132:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4112,15 +4112,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #133:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4147,15 +4147,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #134:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4182,15 +4182,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #135:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4217,15 +4217,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #136:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4252,15 +4252,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 13 84 a9 a0 a4 dc 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 3b 25 fd 65 a4 dc 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #137:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+
