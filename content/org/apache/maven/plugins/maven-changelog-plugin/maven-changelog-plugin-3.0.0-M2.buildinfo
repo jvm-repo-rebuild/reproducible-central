@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Changelog Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-changelog-plugin
+version=3.0.0-M2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-changelog-plugin.git
+source.scm.tag=maven-changelog-plugin-3.0.0-M2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-changelog-plugin-3.0.0-M2.pom
+outputs.0.length=13851
+outputs.0.checksums.sha512=63e8e32ab50c5aae325c94f2af654e91256601b32aec904ba3abdc23af10488fa73e3275a81438bc85f1ab74cee850da35cd9bd3cd8eb55fde5e29cdd0fb3109
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-changelog-plugin-3.0.0-M2.jar
+outputs.1.length=65296
+outputs.1.checksums.sha512=fc17bc3b8b338cd02654d87574c661263e214c6aabe5f388c44dca9e0d50ef7819c53929893bf98785b7b96874291feb8deda54fdc712706f4789470d3be9a9f
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-changelog-plugin-3.0.0-M2-source-release.zip
+outputs.2.length=458132
+outputs.2.checksums.sha512=e08ab44aa88382b6eae51273813b8ef8adaa4ab60bc23c5209dc63f976c02092452e6cf210442e8cf6975c6a8a8d242ba45b51e1a2f75f7f8b757163e8a33174
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-changelog-plugin-3.0.0-M2-sources.jar
+outputs.3.length=45164
+outputs.3.checksums.sha512=e26560732c1bc5931816cb6bdb2269c7bcba7f4cc658a8c380fb8b01bd4ead485bb73ba6fff2aef20a2cbfa5c7d90ea6b1c9f54c8e06f635d701a242ac2ea661
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-changelog-plugin-3.0.0-M2-cyclonedx.xml
+outputs.4.length=199561
+outputs.4.checksums.sha512=56f92c9629f1eafafae6ed8db4458cd27e028a2a6252a09897018a145018fd5ba5f8cf991484db013c935e2001e0e9bfed398e831508f10dc2f0c63758750322
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-changelog-plugin-3.0.0-M2-cyclonedx.json
+outputs.5.length=216619
+outputs.5.checksums.sha512=6ed8853241a9aabd5b46e6a6b95fc30830c62d8218f7d8871d249420819842497c52b51638bd1bc39ee9aa945b2660bd8003059a155104a2b29d1d5d84b9382e
