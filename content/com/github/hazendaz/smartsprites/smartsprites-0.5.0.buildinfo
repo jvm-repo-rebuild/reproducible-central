@@ -1,0 +1,67 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=smartsprites
+group-id=com.github.hazendaz
+artifact-id=smartsprites
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/smartsprites.git
+source.scm.tag=smartsprites-0.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=smartsprites-0.5.0.pom
+outputs.0.length=8577
+outputs.0.checksums.sha512=d1f3dffa3157c76ecd0c208655a493e16ff521ee9159bc6e3dd38308f0b2433c4bd2ed26f2ed230e7bd4fb71cfef58637f7e0d035125bb191435893cff552451
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=smartsprites-0.5.0.jar
+outputs.1.length=95657
+outputs.1.checksums.sha512=3e501155a1f86c6f274e48a0aa0f9b6f7f6f7a524775abe97f411d08daf24d7101ca433f0b0a2ea7ec2ebd262fc09fcbac11d0a9462b1f41e25381d411650b86
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=smartsprites-0.5.0-tests.jar
+outputs.2.length=61506
+outputs.2.checksums.sha512=fed7655a864efa150449e24c2f92ee92685220a5050055736bdd37a4bc851940cf42cb9557a508c8941808d1349bb7ade481c051f8c171d31b0e896816a634cb
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=smartsprites-0.5.0-sources.jar
+outputs.3.length=70492
+outputs.3.checksums.sha512=09996fb0d6802d15873917cb4a18e4540ae27825b5ef6d36ef1d1723c171dd86ea0d72faedc5a286ed7aa0e030e1a1146e54423d3ff4716f637629aa34ba17db
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=smartsprites-0.5.0-test-sources.jar
+outputs.4.length=41177
+outputs.4.checksums.sha512=e2b19121c821aa5c46c1544c5550d966a52b190d92943963d262ac3d98a931759993e5663a42d78dae5f84f7a1c757d0ea8bdfb63a9034da28e9182552e855dd
+
+outputs.5.groupId=com.github.hazendaz
+outputs.5.filename=smartsprites-0.5.0-cyclonedx.xml
+outputs.5.length=92459
+outputs.5.checksums.sha512=2209ddfc2bfd2c22f97a55af839c1eb59bbb8e029ea7837bfcefcf954f696163be9e05e7dc39cb6daba07cacb8731b97629b10933895174b2b18638b68516c4c
+
+outputs.6.groupId=com.github.hazendaz
+outputs.6.filename=smartsprites-0.5.0-cyclonedx.json
+outputs.6.length=102959
+outputs.6.checksums.sha512=08aefcfaaafd834f850a96b57f5fbd4b1390557d2eea5ebe031b96e4df626b6205c5b4e3dc981672aed4ff3c67acd50d14ab68db33b0221a47ddcb26389e1a16
+
+outputs.7.groupId=com.github.hazendaz
+outputs.7.filename=smartsprites-0.5.0.zip
+outputs.7.length=6045457
+outputs.7.checksums.sha512=985082f74ee1550179f6ea21b1c7e1aa284acff7f4b2b338cbf590bf095a58e72d9b95111c31918822a53ebff0567759552bb4388a8b5c181e356c539c253cd8
