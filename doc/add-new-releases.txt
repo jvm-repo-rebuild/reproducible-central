@@ -1,9 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/nbbrd/beanzooka/beanzooka-1.4.0.buildspec:1.5.0
+content/com/github/hazendaz/smartsprites/smartsprites-0.4.1.buildspec:0.5.0
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
-content/eu/maveniverse/maven/nisse/nisse-0.9.1.buildspec:0.9.2
-content/eu/maveniverse/maven/shared/shared/shared-0.2.3.buildspec:0.2.4
-content/io/cucumber/cucumber-expressions/cucumber-expressions-19.0.0.buildspec:19.0.1
-content/io/cucumber/gherkin/gherkin-39.0.0.buildspec:39.1.0
-content/org/apache/maven/extensions/maven-build-cache-extension/maven-build-cache-extension-1.2.2.buildspec:1.2.3
+content/org/apache/maven/plugins/maven-changelog-plugin/maven-changelog-plugin-3.0.0-M1.buildspec:3.0.0-M2
+content/org/ow2/asm/asm-9.10.buildspec:9.10.1
