@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Site Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-site-plugin
+version=3.22.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-site-plugin.git
+source.scm.tag=maven-site-plugin-3.22.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-site-plugin-3.22.0.pom
+outputs.0.length=20264
+outputs.0.checksums.sha512=4fb6bc4743428eb874ae26fd458709fb715528f8f5748617459f7b41b62f8853791bdae3f816d8c81d860c721e6dc6614a39d058325b1f4c0c45f9d2f3dd0e37
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-site-plugin-3.22.0.jar
+outputs.1.length=125722
+outputs.1.checksums.sha512=602ecd86db633269fbe4443138cf596cd480abb6371452ca655a2d2f9cda5dfe6c6f761d0bedb49be3077baa48b16ea65b94336a6c12e3b2caeb9145cf523fda
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-site-plugin-3.22.0-source-release.zip
+outputs.2.length=1102791
+outputs.2.checksums.sha512=6d997e3c9c7c08e5d921e2d423c44c9dac428ba39ebb28b1ea2f7f57206c5b938194f31386e86fdd909a2695220f6696814710cc0067408dc938b63912109bb6
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-site-plugin-3.22.0-sources.jar
+outputs.3.length=91872
+outputs.3.checksums.sha512=dc82b69a25618d31e4b465f53c80f3fc15a40c2791c02637bc8dc95078697b27b348155daa166ba8ad2ee150c0259871f5e28ec37a8b46afbeb71f9fbb443482
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-site-plugin-3.22.0-cyclonedx.xml
+outputs.4.length=286597
+outputs.4.checksums.sha512=59328ba8e206933fbaa19ff52879cd5caf4cf645459251e804e1261f4ff48cab4e88730e7ff63d39ce4a5ac9c7d65f4c3d9bd6dbff59519d463d48f57dd27de9
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-site-plugin-3.22.0-cyclonedx.json
+outputs.5.length=311663
+outputs.5.checksums.sha512=1b712c69992404308c0279b5c7e81b401056297c40321b6a49ebb819ef2d8f0a5872ff6c04a51ddd522520457e30addbf6ddbdb637e071012e2d5ba3eed86372
