@@ -47,8 +47,9 @@
       <version>8.3.0.CR1</version>
       <version>8.3.0.Final</version>
       <version>8.3.1.Final</version>
+      <version>8.3.2.Final</version>
       <version>8.4.0.CR1</version>
     </versions>
-    <lastUpdated>20260511104236</lastUpdated>
+    <lastUpdated>20260524122605</lastUpdated>
   </versioning>
 </metadata>
