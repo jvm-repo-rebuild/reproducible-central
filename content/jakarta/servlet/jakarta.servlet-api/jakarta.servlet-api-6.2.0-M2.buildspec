@@ -1,0 +1,20 @@
+groupId=jakarta.servlet
+artifactId=jakarta.servlet-api
+display=${groupId}:${artifactId}
+version=6.2.0-M2
+
+gitRepo=https://github.com/eclipse-ee4j/servlet-api.git
+gitTag=${version}-RELEASE
+
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -f api/ clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+execBefore="find api/src/main -type d -exec chmod g+s {} \;"
+buildinfo=api/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
+
