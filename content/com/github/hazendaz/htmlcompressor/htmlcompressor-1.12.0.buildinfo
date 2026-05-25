@@ -1,0 +1,67 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=htmlcompressor
+group-id=com.github.hazendaz
+artifact-id=htmlcompressor
+version=1.12.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/htmlcompressor.git
+source.scm.tag=htmlcompressor-1.12.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=htmlcompressor-1.12.0.pom
+outputs.0.length=9516
+outputs.0.checksums.sha512=661388a6e9cde8a5924183bf78c82dcbd3774ccf742689db5f411be6f5cc47895aed24fe7e83f90447c6902854dc529a79eda6537e11fce513dbdb60015c371e
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=htmlcompressor-1.12.0.jar
+outputs.1.length=79370
+outputs.1.checksums.sha512=ed2011dcd7f4137efa2bfabda2633648f017ad67954fadcafd12ccbb58b7a11acffd9834d3ea7bd7b7920df00ea5efc904726815586c672bf13ac37c6b64f5b1
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=htmlcompressor-1.12.0-tests.jar
+outputs.2.length=22972
+outputs.2.checksums.sha512=4058959d0f05b7d9262a2f93144723d617f678d829d10ff06b04bef4154f1cbb9e1ea1ac7c680bc248108c06bf97d482929d23d466fa440c99d5d206403ae239
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=htmlcompressor-1.12.0-sources.jar
+outputs.3.length=63317
+outputs.3.checksums.sha512=7aca3cad81333b6e3ec765cdde2d03d792dca8f485ecf71bfcb80463d16a034ef11fbd74b627d03a86e4f1e766d964889826e79c5fb893a431de53f58d662655
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=htmlcompressor-1.12.0-test-sources.jar
+outputs.4.length=20389
+outputs.4.checksums.sha512=40d320e5994d180c20e6bce0d707b3cb71f332f2cc4e4c1e02edaa58d8891e8d7a4366c2321601b635134416a64696b9f77f3beccebcb4596e44e68b1c546c4c
+
+outputs.5.groupId=com.github.hazendaz
+outputs.5.filename=htmlcompressor-1.12.0-cyclonedx.xml
+outputs.5.length=48845
+outputs.5.checksums.sha512=7462f5867e634888d5db47f8040305dfe0337e9dba56063beff96e6e13983a9c12dfd4420df551a988427c97b1b2548377d51d0ea9a4f4f27129b9a5a5025bfa
+
+outputs.6.groupId=com.github.hazendaz
+outputs.6.filename=htmlcompressor-1.12.0-cyclonedx.json
+outputs.6.length=54979
+outputs.6.checksums.sha512=fe02e21d8b07e8903dc6a84670d1e232ce2817f7bffe47da602a6f08a2c2c75a923532b2a83cf5d54d89e5fc6b38537db548479efae35dcb209c153296f6e323
+
+outputs.7.groupId=com.github.hazendaz
+outputs.7.filename=htmlcompressor-1.12.0.zip
+outputs.7.length=17882192
+outputs.7.checksums.sha512=ba34a0e78915cf7191e00894aaf4d9817f2704c0a467e35b5b6f0a9b963012a0c82901f3e3b09af758611e1bd63fa75309dfe646cda1cbd0c21dd3fc09823dfa
