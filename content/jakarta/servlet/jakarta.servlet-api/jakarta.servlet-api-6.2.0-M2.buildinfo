@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Servlet API
+group-id=jakarta.servlet
+artifact-id=jakarta.servlet-api
+version=6.2.0-M2
+
+# source information
+source.scm.uri=scm:git:https://github.com/jakartaee/servlet.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=jakarta.servlet
+outputs.0.filename=jakarta.servlet-api-6.2.0-M2.pom
+outputs.0.length=17537
+outputs.0.checksums.sha512=83e46d8ae97a33c0b6b830d91b67d60b8807dffdb1e12cb71b0a1d5884eb46ccd3cbbe2ec94d895cece724dac2fff3d068b4db89c90b7d89fd6f873e5403178d
+
+outputs.1.groupId=jakarta.servlet
+outputs.1.filename=jakarta.servlet-api-6.2.0-M2.jar
+outputs.1.length=433443
+outputs.1.checksums.sha512=703b54aaecb22d8e89c0e080d9596ab3794cc683cfb24b5a3f471e8ed4fa026a69915bfac91081b610ace89eb8360fbf89cf1cd7674663dbe7b12ecf3eace7cd
+
+outputs.2.groupId=jakarta.servlet
+outputs.2.filename=jakarta.servlet-api-6.2.0-M2-cyclonedx.xml
+outputs.2.length=3035
+outputs.2.checksums.sha512=5ca9cf6f6873b9d0f09b28a55a6eea7b2dd3e3b480dd6061b74770f479d1b74debbc1bbca306cdb25fcb16cf764aca830ad9498c1dbd16095d8257459ad2b028
+
+outputs.3.groupId=jakarta.servlet
+outputs.3.filename=jakarta.servlet-api-6.2.0-M2-cyclonedx.json
+outputs.3.length=3407
+outputs.3.checksums.sha512=a5d6acd0c3bddd733263b30203337e72ecfe1229cfee7d02aaf3094e7ce773e970d8f259cd8664152537f0c99e3be14c9a6f5858e515d72805235525dcfcb066
+
+outputs.4.groupId=jakarta.servlet
+outputs.4.filename=jakarta.servlet-api-6.2.0-M2-sources.jar
+outputs.4.length=518994
+outputs.4.checksums.sha512=5f4048e11c467789280c898540a4c6eecead36270fcf2b2f9dc4636d23ea06fe085eee687646f0e91a14ede386ac91349270b4d204edfdf31118b50fd066506f
