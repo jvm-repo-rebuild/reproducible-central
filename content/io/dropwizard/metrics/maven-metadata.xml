@@ -3,8 +3,8 @@
   <groupId>io.dropwizard.metrics</groupId>
   <artifactId>metrics-parent</artifactId>
   <versioning>
-    <latest>4.2.38</latest>
-    <release>4.2.38</release>
+    <latest>4.2.39</latest>
+    <release>4.2.39</release>
     <versions>
       <version>3.1.0</version>
       <version>3.1.1</version>
@@ -119,7 +119,8 @@
       <version>4.2.36</version>
       <version>4.2.37</version>
       <version>4.2.38</version>
+      <version>4.2.39</version>
     </versions>
-    <lastUpdated>20260125233209</lastUpdated>
+    <lastUpdated>20260525204343</lastUpdated>
   </versioning>
 </metadata>

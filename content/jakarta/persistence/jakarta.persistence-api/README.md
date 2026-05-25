@@ -13,6 +13,7 @@ rebuilding **7 releases** of jakarta.persistence:jakarta.persistence-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.0-M4](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M4/pom) | | | |
 | [4.0.0-M3](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M3/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M3.buildspec) | [result](jakarta.persistence-api-4.0.0-M3.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M3.buildcompare) | | 262K |
 | [4.0.0-M2](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M2/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M2.buildspec) | [result](jakarta.persistence-api-4.0.0-M2.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M2.buildcompare) | | 255K |
 | [4.0.0-M1](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M1/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M1.buildspec) | [result](jakarta.persistence-api-4.0.0-M1.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M1.buildcompare) | | 240K |

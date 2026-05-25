@@ -1,3 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/github/hazendaz/catch-exception/catch-exception-2.3.5.buildspec:2.4.0
+content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-5.0.0.buildspec:5.1.0
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
+content/io/avaje/jsonb/avaje-jsonb-3.14-RC5.buildspec:3.14-RC6
+content/io/dropwizard/metrics/dropwizard-metrics-4.2.38.buildspec:4.2.39
+content/io/dropwizard/metrics5/dropwizard-metrics-5.0.6.buildspec:5.0.7
+content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-4.0.0-M3.buildspec:4.0.0-M4
