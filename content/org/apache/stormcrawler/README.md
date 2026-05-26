@@ -36,6 +36,7 @@ rebuilding **7 releases** of org.apache.stormcrawler:stormcrawler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.6.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.6.0/pom) | | | |
 | [3.5.1](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.1/pom) | [mvn jdk25](stormcrawler-3.5.1.buildspec) | [result](stormcrawler-3.5.1.buildinfo): [53 :white_check_mark: ](stormcrawler-3.5.1.buildcompare) | | 3.7M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.0/pom) | [mvn jdk21](stormcrawler-3.5.0.buildspec) | [result](stormcrawler-3.5.0.buildinfo): [50 :white_check_mark: ](stormcrawler-3.5.0.buildcompare) | | 3.3M |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.4.0/pom) | [mvn jdk17](stormcrawler-3.4.0.buildspec) | [result](stormcrawler-3.4.0.buildinfo): [47 :white_check_mark: ](stormcrawler-3.4.0.buildcompare) | | 3.3M |

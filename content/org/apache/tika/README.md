@@ -134,6 +134,7 @@ rebuilding **24 releases** of org.apache.tika:tika:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-alpha-1/pom) | | | |
+| [3.3.1](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.1/pom) | | | |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.0/pom) | [mvn jdk11](tika-3.3.0.buildspec) | [result](tika-3.3.0.buildinfo): [329 :white_check_mark:  7 :warning:](tika-3.3.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/TIKA-4470) | 6 :rotating_light: 1 :no_entry_sign: | 1.7G |
 | [3.2.3](https://central.sonatype.com/artifact/org.apache.tika/tika/3.2.3/pom) | [mvn jdk11](tika-3.2.3.buildspec) | [result](tika-3.2.3.buildinfo): [370 :white_check_mark:  1 :warning:](tika-3.2.3.buildcompare) [:memo:](https://issues.apache.org/jira/browse/TIKA-4470) | 1 :rotating_light: | 1.6G |
 | [3.2.2](https://central.sonatype.com/artifact/org.apache.tika/tika/3.2.2/pom) | [mvn jdk11](tika-3.2.2.buildspec) | [result](tika-3.2.2.buildinfo): [367 :white_check_mark:  1 :warning:](tika-3.2.2.buildcompare) [:memo:](https://issues.apache.org/jira/browse/TIKA-4470) | 1 :rotating_light: | 1.6G |

@@ -14,6 +14,7 @@ rebuilding **2 releases** of net.osslabz:electrum-client:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.3.0/pom) | | | |
 | [0.2.16](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.2.16/pom) | [mvn jdk21](electrum-client-0.2.16.buildspec) | [result](electrum-client-0.2.16.buildinfo): [2 :white_check_mark:  1 :warning:](electrum-client-0.2.16.buildcompare) | 1 :recycle: | 27K |
 | [0.0.1](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.0.1/pom) | [mvn jdk21](electrum-client-0.0.1.buildspec) | [result](electrum-client-0.0.1.buildinfo): [2 :white_check_mark:  1 :warning:](electrum-client-0.0.1.buildcompare) | 1 :recycle: | 27K |
 

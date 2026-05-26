@@ -1,9 +1,12 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/hazendaz/catch-exception/catch-exception-2.3.5.buildspec:2.4.0
-content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-5.0.0.buildspec:5.1.0
+content/com/github/nbbrd/heylogs/heylogs-0.18.0.buildspec:0.18.1
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
-content/io/avaje/jsonb/avaje-jsonb-3.14-RC5.buildspec:3.14-RC6
-content/io/dropwizard/metrics/dropwizard-metrics-4.2.38.buildspec:4.2.39
-content/io/dropwizard/metrics5/dropwizard-metrics-5.0.6.buildspec:5.0.7
-content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-4.0.0-M3.buildspec:4.0.0-M4
+content/io/avaje/jsonb/avaje-jsonb-3.14-RC6.buildspec:3.14-RC7
+content/io/yupiik/fusion/fusion-1.0.34.buildspec:1.0.35
+content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.14.1.buildspec:2.0.0
+content/org/apache/stormcrawler/stormcrawler-3.5.1.buildspec:3.6.0
+content/org/apache/commons/configuration2/commons-configuration2-2.15.0.buildspec:2.15.1
+content/org/apache/sling/org.apache.sling.commons.log/org.apache.sling.commons.log-6.0.4.buildspec:6.1.0
+content/org/apache/sling/org.apache.sling.feature/org.apache.sling.feature-2.0.4.buildspec:2.0.6
+content/org/infinispan/protostream/protostream-6.0.7.buildspec:6.0.8
