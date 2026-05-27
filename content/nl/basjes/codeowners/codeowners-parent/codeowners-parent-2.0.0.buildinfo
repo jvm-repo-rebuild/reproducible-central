@@ -1,0 +1,104 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CODEOWNERS Tools:
+group-id=nl.basjes.codeowners
+artifact-id=codeowners-parent
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/nielsbasjes/codeowners.git
+source.scm.tag=v2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.toolchain.jdk=openjdk version "21.0.10" 2026-01-20:OpenJDK Runtime Environment (build 21.0.10+7-Ubuntu-122.04):OpenJDK 64-Bit Server VM (build 21.0.10+7-Ubuntu-122.04, mixed mode, sharing)
+mvn.aggregate.artifact-id=codeowners-enforcer-rules
+
+# aggregated output
+
+outputs.0.coordinates=nl.basjes.codeowners:codeowners-parent
+
+outputs.0.0.groupId=nl.basjes.codeowners
+outputs.0.0.filename=codeowners-parent-2.0.0.pom
+outputs.0.0.length=25400
+outputs.0.0.checksums.sha512=5817397128ec7646dbc9b825d0d11a4f0549e367f3b6f4a006da0cfe6ef30319ba997b3ede5c7d56c45fcd3fcb29a43de0eaa14fe4db4c24edd2a4094b821c16
+
+outputs.1.coordinates=nl.basjes.codeowners:codeowners-reader
+
+outputs.1.0.groupId=nl.basjes.codeowners
+outputs.1.0.filename=codeowners-reader-2.0.0.pom
+outputs.1.0.length=6193
+outputs.1.0.checksums.sha512=ae1ee4d3b6635892dfc0aa5b430a45e2555bba0730fff33d79d2566e46f86f1f4d8ee12eba97ef81b8b79e78219dd8a2f9cc89025a9417947278051a337d6458
+
+outputs.1.1.groupId=nl.basjes.codeowners
+outputs.1.1.filename=codeowners-reader-2.0.0.jar
+outputs.1.1.length=347757
+outputs.1.1.checksums.sha512=5ea79ccfa0455602f7d81e702c0981ce887e0ee19028f8753f3dd906c2aa671ac5b4eb36ba1ca89e376969d31ac60bd4e8fe474247d0a7b98e82351828f9eff4
+
+outputs.1.2.groupId=nl.basjes.codeowners
+outputs.1.2.filename=codeowners-reader-2.0.0-sources.jar
+outputs.1.2.length=24712
+outputs.1.2.checksums.sha512=2f98d83cfe2521183e0af8fff713f9f731d6b69aa0721e34de32c9dce5766d070ddaac44bff884efa6a78b13726af45962797af6a9ccd11f6520b8717c23b1b4
+
+outputs.2.coordinates=nl.basjes.gitignore:gitignore-reader
+
+outputs.2.0.groupId=nl.basjes.gitignore
+outputs.2.0.filename=gitignore-reader-2.0.0.pom
+outputs.2.0.length=4591
+outputs.2.0.checksums.sha512=8aae4125f90b01835a51849832a082b84f91e593130b546cf6a90e55187b8302f1a489f230824c033d33741583a89a29bf64373f293e80ed3defca1c01623fd5
+
+outputs.2.1.groupId=nl.basjes.gitignore
+outputs.2.1.filename=gitignore-reader-2.0.0.jar
+outputs.2.1.length=26418
+outputs.2.1.checksums.sha512=b9f676c28bde06eaaba216e2f52e52f710b24cff9dfe84d34018a3081516520b541c3460b38c36551a19b369448307f21d1e82e53c9c62afcd5dd013e8c092f5
+
+outputs.2.2.groupId=nl.basjes.gitignore
+outputs.2.2.filename=gitignore-reader-2.0.0-sources.jar
+outputs.2.2.length=12983
+outputs.2.2.checksums.sha512=16df32f03ddc77a898efab25a89a16399551d84d231278f6e148f984424e479208a2fb591a687eee898faa2604178fa3fc6a09d3a3629b3b950813ee6d35ea04
+
+outputs.3.coordinates=nl.basjes.codeowners:codeowners-validator
+
+outputs.3.0.groupId=nl.basjes.codeowners
+outputs.3.0.filename=codeowners-validator-2.0.0.pom
+outputs.3.0.length=6460
+outputs.3.0.checksums.sha512=d0635e02147eb5d4cbfeea6b8e74764f18cffbc22a9df7b11fc06f201259d369cba535ab6b009e127f6c6f1ebce8e060591af6a515a7a5dfee853054b09032fe
+
+outputs.3.1.groupId=nl.basjes.codeowners
+outputs.3.1.filename=codeowners-validator-2.0.0.jar
+outputs.3.1.length=72821
+outputs.3.1.checksums.sha512=1acd9beaeb9a40b64699cf05fc9ff9f6a15ed25fe193f09111c4c5dfbec1513b15ae24d380eced90c30663f3cf36fa4e6edbb0532fb99216aa26477cb824ce7d
+
+outputs.3.2.groupId=nl.basjes.codeowners
+outputs.3.2.filename=codeowners-validator-2.0.0-sources.jar
+outputs.3.2.length=20767
+outputs.3.2.checksums.sha512=d5eb5307427b997fc12fc970ef58481c6e1814cf92ae64061bd1246f8c5cc962efee5e9f1663695708305fbfd0eda6ec8142702aecd0d0ce336bbc84745d8b0c
+
+outputs.4.coordinates=nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules
+
+outputs.4.0.groupId=nl.basjes.maven.enforcer.codeowners
+outputs.4.0.filename=codeowners-enforcer-rules-2.0.0.pom
+outputs.4.0.length=6563
+outputs.4.0.checksums.sha512=1a429fa189244c69f265cd050854705441288341557ab4e065b262a8c841d84b24ea5fffd75d9fe8c929cb040e989a08a63a4b21e36bd1044be80aaeb8353ca8
+
+outputs.4.1.groupId=nl.basjes.maven.enforcer.codeowners
+outputs.4.1.filename=codeowners-enforcer-rules-2.0.0.jar
+outputs.4.1.length=11907
+outputs.4.1.checksums.sha512=373dc9cc5879ec698b47a999967cced4654b45849fd6a802922ffc9e74ff44dbf93f621d850cb6eb0853a17ede73747c66cdab207bc4e069947d859a56e5fdca
+
+outputs.4.2.groupId=nl.basjes.maven.enforcer.codeowners
+outputs.4.2.filename=codeowners-enforcer-rules-2.0.0-sources.jar
+outputs.4.2.length=7025
+outputs.4.2.checksums.sha512=ba4e4362da2eb03c1daa4a380a21a08207ec334d631f70beb86483768398b0564d88ff780b3ffd620fe71465aa5a2c7c02a2a3b36544d583db74bae0e6204706
