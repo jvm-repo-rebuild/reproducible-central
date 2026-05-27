@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log
+version=6.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log.git
+source.scm.tag=org.apache.sling.commons.log-6.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.10
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1013-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.log-6.1.0.pom
+outputs.0.length=16318
+outputs.0.checksums.sha512=952cf8888d6e10072dd4e5335479590d822c1cc3777001ab354a1ed8c087063cb29c95b17ec0f29862139aba6908df8b0a101a3c801aa8b7e098947e3fd4378a
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.log-6.1.0.jar
+outputs.1.length=165939
+outputs.1.checksums.sha512=203ec6e402de6bd087b4cb2302c5e7b846c05262666ec932ef779ac2b1a20911dcf2e892ab48b6fccbb6c44257f79869acb7010903d699254e8c080e697b450b
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.log-6.1.0-source-release.zip
+outputs.2.length=314262
+outputs.2.checksums.sha512=9e564eb257e14d5e2c1aabdac168ff08d80e0e439cebc4cebc119cadc5e77a2ead8108c912cd96feb39a6a112002412184d4faff40d991a62a00af12dc561db2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.log-6.1.0-sources.jar
+outputs.3.length=131769
+outputs.3.checksums.sha512=92dbdf86911b7481c361f15c1763f933e3f01ad185f882d876d6f99bd83af77b343a80ca3547d0f5b52d3a4e135a872193f0b2a3def419634ba5bc75490a37d4
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.log-6.1.0-all.jar
+outputs.4.length=1169451
+outputs.4.checksums.sha512=67acf6e48eb17407c9cb6e59e1a575a1760892b365f18f2a93b2e5b7e345665345b3adab78a32fafaf6eb12091b3eab05e3140495774d7afd28f2763672dfb56
