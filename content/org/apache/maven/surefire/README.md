@@ -42,6 +42,7 @@ rebuilding **21 releases** of org.apache.maven.surefire:surefire:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.6](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.5.6/pom) | | | |
 | [3.5.5](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.5.5/pom) | [mvn jdk21](surefire-3.5.5.buildspec) | [result](surefire-3.5.5.buildinfo): [123 :white_check_mark: ](surefire-3.5.5.buildcompare) | | 15M |
 | [3.5.4](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.5.4/pom) | [mvn jdk21](surefire-3.5.4.buildspec) | [result](surefire-3.5.4.buildinfo): [123 :white_check_mark: ](surefire-3.5.4.buildcompare) | | 15M |
 | [3.5.3](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.5.3/pom) | [mvn jdk8](surefire-3.5.3.buildspec) | [result](surefire-3.5.3.buildinfo): [123 :white_check_mark: ](surefire-3.5.3.buildcompare) | | 14M |

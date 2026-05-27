@@ -1,12 +1,19 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/nbbrd/heylogs/heylogs-0.18.0.buildspec:0.18.1
+content/ch/qos/logback/logback-1.5.32.buildspec:1.5.33
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
-content/io/avaje/jsonb/avaje-jsonb-3.14-RC6.buildspec:3.14-RC7
-content/io/yupiik/fusion/fusion-1.0.34.buildspec:1.0.35
-content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.14.1.buildspec:2.0.0
-content/org/apache/stormcrawler/stormcrawler-3.5.1.buildspec:3.6.0
-content/org/apache/commons/configuration2/commons-configuration2-2.15.0.buildspec:2.15.1
-content/org/apache/sling/org.apache.sling.commons.log/org.apache.sling.commons.log-6.0.4.buildspec:6.1.0
-content/org/apache/sling/org.apache.sling.feature/org.apache.sling.feature-2.0.4.buildspec:2.0.6
-content/org/infinispan/protostream/protostream-6.0.7.buildspec:6.0.8
+content/com/semanticcms/semanticcms-all/semanticcms-all-2.0.1.buildspec:2.1.0
+content/com/semanticcms/semanticcms-all-book/semanticcms-all-book-2.0.1.buildspec:2.1.0
+content/com/semanticcms/semanticcms-bom/semanticcms-bom-2.0.1.buildspec:2.1.0
+content/com/semanticcms/semanticcms-bom-book/semanticcms-bom-book-2.0.1.buildspec:2.1.0
+content/com/semanticcms/semanticcms-parent/semanticcms-parent-2.0.1.buildspec:2.1.0
+content/com/semanticcms/semanticcms-parent-book/semanticcms-parent-book-2.0.1.buildspec:2.1.0
+content/com/semanticcms/semanticcms-tag-reference/semanticcms-tag-reference-2.0.0.buildspec:2.1.0
+content/com/semanticcms/semanticcms-tag-reference-book/semanticcms-tag-reference-book-2.0.0.buildspec:2.1.0
+content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.31.buildspec:0.0.32
+content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.2.buildspec:1.0.3
+content/land/oras/oras-java-sdk/oras-java-sdk-0.6.3.buildspec:0.6.4
+content/org/apache/directory/project/project-50.buildspec:51
+content/org/apache/maven/surefire/surefire-3.5.5.buildspec:3.5.6
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.4.0.CR1.buildspec:4.4.0.Final
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.4.0.CR1.buildspec:8.4.0.Final

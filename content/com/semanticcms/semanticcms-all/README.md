@@ -13,6 +13,7 @@ rebuilding **3 releases** of com.semanticcms:semanticcms-all:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-all/2.1.0/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-all/2.0.1/pom) | [mvn jdk21](semanticcms-all-2.0.1.buildspec) | [result](semanticcms-all-2.0.1.buildinfo): [3 :white_check_mark: ](semanticcms-all-2.0.1.buildcompare) | | 30K |
 | [1.22.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-all/1.22.0/pom) | [mvn jdk21](semanticcms-all-1.22.0.buildspec) | [result](semanticcms-all-1.22.0.buildinfo): [3 :white_check_mark: ](semanticcms-all-1.22.0.buildcompare) | | 32K |
 | [1.14.0](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-all/1.14.0/pom) | [mvn jdk17](semanticcms-all-1.14.0.buildspec) | [result](semanticcms-all-1.14.0.buildinfo): [3 :white_check_mark: ](semanticcms-all-1.14.0.buildcompare) | | 33K |
