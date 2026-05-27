@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature.git](https://github.com/apache/sling-org-apache-sling-feature.git)
 
-rebuilding **5 releases** of org.apache.sling:org.apache.sling.feature:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of org.apache.sling:org.apache.sling.feature:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.6/pom) | | | |
+| [2.0.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.6/pom) | [mvn jdk21](org.apache.sling.feature-2.0.6.buildspec) | [result](org.apache.sling.feature-2.0.6.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-2.0.6.buildcompare) | | 1.3M |
 | [2.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.4/pom) | [mvn jdk17 w](org.apache.sling.feature-2.0.4.buildspec) | [result](org.apache.sling.feature-2.0.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-2.0.4.buildcompare) | | 1.3M |
 | [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.2/pom) | [mvn jdk17](org.apache.sling.feature-2.0.2.buildspec) | [result](org.apache.sling.feature-2.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-2.0.2.buildcompare) | | 1.3M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.0/pom) | [mvn jdk11](org.apache.sling.feature-2.0.0.buildspec) | [result](org.apache.sling.feature-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-2.0.0.buildcompare) | | 1.5M |
