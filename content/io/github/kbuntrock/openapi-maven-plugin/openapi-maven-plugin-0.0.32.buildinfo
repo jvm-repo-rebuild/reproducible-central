@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=openapi-maven-plugin Maven Plugin
+group-id=io.github.kbuntrock
+artifact-id=openapi-maven-plugin
+version=0.0.32
+
+# source information
+source.scm.uri=scm:git:git://github.com/kbuntrock/openapi-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.groupId=io.github.kbuntrock
+outputs.0.filename=openapi-maven-plugin-0.0.32.pom
+outputs.0.length=21899
+outputs.0.checksums.sha512=667fc21547872e81f94f86fbc12e6631c070a09684b2d477ece9e14a779381212b073942cf4653141a68de1eccbfa1b40d684200121f99fe1c5dffe3a9d191e4
+
+outputs.1.groupId=io.github.kbuntrock
+outputs.1.filename=openapi-maven-plugin-0.0.32.jar
+outputs.1.length=244254
+outputs.1.checksums.sha512=84a913d78a45a6fbdb4225403e12a88dc1d56dd71f2dc5a434e2ca2b60a35cd5328c83e888a99b8b99e42246782c974b785f82dfd9e20959d0b9d242152d7131
+
+outputs.2.groupId=io.github.kbuntrock
+outputs.2.filename=openapi-maven-plugin-0.0.32-sources.jar
+outputs.2.length=127907
+outputs.2.checksums.sha512=c6bc9f7d7bff2d72b62a433cc9e593ec450cb24e253919da12ef27f4c661adee5600cf86228c8249b3100f8d409e82f2eeb4a2e29afbe68efa9abad2be46ca60
