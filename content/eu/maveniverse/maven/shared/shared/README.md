@@ -21,6 +21,7 @@ rebuilding **17 releases** of eu.maveniverse.maven.shared:shared:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.2.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.2.5/pom) | | | |
 | [0.2.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.2.4/pom) | [mvn jdk21](shared-0.2.4.buildspec) | [result](shared-0.2.4.buildinfo): [10 :white_check_mark: ](shared-0.2.4.buildcompare) | | 67K |
 | [0.2.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.2.3/pom) | [mvn jdk21](shared-0.2.3.buildspec) | [result](shared-0.2.3.buildinfo): [10 :white_check_mark: ](shared-0.2.3.buildcompare) | | 65K |
 | [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.2.2/pom) | [mvn jdk21](shared-0.2.2.buildspec) | [result](shared-0.2.2.buildinfo): [10 :white_check_mark: ](shared-0.2.2.buildcompare) | | 65K |

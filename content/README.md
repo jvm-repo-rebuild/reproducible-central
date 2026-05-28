@@ -222,10 +222,10 @@ Reproducible Builds for Maven Central Repository
 | | [stringprep](../content/com/ongres/stringprep/README.md) | 1 | 1 :white_check_mark: |
 | com.sap.ai.sdk | [sdk-parent](../content/com/sap/ai/sdk/README.md) | 13 | 13 :white_check_mark: |
 | com.scalapenos | [stamina](../content/com/scalapenos/stamina/README.md) | 2 | 2 :white_check_mark: |
-| com.semanticcms | [s8cms-all](../content/com/semanticcms/semanticcms-all/README.md) | 3 | 3 :white_check_mark: |
-| | [s8cms-all-book](../content/com/semanticcms/semanticcms-all-book/README.md) | 3 | 3 :white_check_mark: |
-| | [s8cms-bom](../content/com/semanticcms/semanticcms-bom/README.md) | 3 | 3 :white_check_mark: |
-| | [s8cms-bom-book](../content/com/semanticcms/semanticcms-bom-book/README.md) | 3 | 3 :white_check_mark: |
+| com.semanticcms | [s8cms-all](../content/com/semanticcms/semanticcms-all/README.md) | 4 | 4 :white_check_mark: |
+| | [s8cms-all-book](../content/com/semanticcms/semanticcms-all-book/README.md) | 4 | 4 :white_check_mark: |
+| | [s8cms-bom](../content/com/semanticcms/semanticcms-bom/README.md) | 4 | 4 :white_check_mark: |
+| | [s8cms-bom-book](../content/com/semanticcms/semanticcms-bom-book/README.md) | 4 | 4 :white_check_mark: |
 | | [s8cms-core-all](../content/com/semanticcms/semanticcms-core-all/README.md) | 3 | 3 :white_check_mark: |
 | | [s8cms-core-all-book](../content/com/semanticcms/semanticcms-core-all-book/README.md) | 3 | 3 :white_check_mark: |
 | | [s8cms-core-bom](../content/com/semanticcms/semanticcms-core-bom/README.md) | 3 | 3 :white_check_mark: |
@@ -236,10 +236,10 @@ Reproducible Builds for Maven Central Repository
 | | [s8cms-core-docs-book](../content/com/semanticcms/semanticcms-core-docs-book/README.md) | 3 | 3 :white_check_mark: |
 | | [s8cms-news-all](../content/com/semanticcms/semanticcms-news-all/README.md) | 3 | 3 :white_check_mark: |
 | | [s8cms-news-all-book](../content/com/semanticcms/semanticcms-news-all-book/README.md) | 3 | 3 :white_check_mark: |
-| | [s8cms-parent](../content/com/semanticcms/semanticcms-parent/README.md) | 7 | 7 :white_check_mark: |
-| | [s8cms-parent-book](../content/com/semanticcms/semanticcms-parent-book/README.md) | 13 | 13 :white_check_mark: |
-| | [s8cms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [s8cms-tag-reference-book](../content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 3 | 3 :white_check_mark: |
+| | [s8cms-parent](../content/com/semanticcms/semanticcms-parent/README.md) | 8 | 8 :white_check_mark: |
+| | [s8cms-parent-book](../content/com/semanticcms/semanticcms-parent-book/README.md) | 14 | 14 :white_check_mark: |
+| | [s8cms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
+| | [s8cms-tag-reference-book](../content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 4 | 4 :white_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](../content/com/spotify/fmt-maven-plugin/README.md) | 11 | 11 :white_check_mark: |
 | com.spotify | [github-client](../content/com/spotify/github-client/README.md) | 69 | 68 :white_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](../content/com/taobao/arthas/README.md) | 40 | 40 :warning: |
@@ -347,7 +347,7 @@ Reproducible Builds for Maven Central Repository
 | | [httpclient-proxy-protocol](../content/io/github/jmkeyes/httpclient-proxy-protocol/README.md) | 2 | 2 :white_check_mark: |
 | | [opensaml-message-converter](../content/io/github/jmkeyes/opensaml-message-converter/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
 | | [thrift-spring-boot-starter](../content/io/github/jmkeyes/thrift-spring-boot-starter/README.md) | 5 | 5 :white_check_mark: |
-| io.github.kbuntrock | [openapi-maven-plugin](../content/io/github/kbuntrock/openapi-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
+| io.github.kbuntrock | [openapi-maven-plugin](../content/io/github/kbuntrock/openapi-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | io.github.rockcrafters | [java-rockcraft-plugins](../content/io/github/rockcrafters/plugins/README.md) | 11 | 11 :white_check_mark: |
 | io.github.rosestack | [java-rockcraft-plugins](../content/io/github/rosestack/test/README.md) | 14 | 13 :white_check_mark: / 1 :warning: |
 | io.github.sebastian-toepfer.ddd | [domain-driven-desgin](../content/io/github/sebastian-toepfer/ddd/domain-driven-desgin/README.md) | 1 | 1 :white_check_mark: |
@@ -375,7 +375,7 @@ Reproducible Builds for Maven Central Repository
 | | [takari-plugin-testing](../content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](../content/io/telicent/jena/jena-kafka/README.md) | 18 | 18 :white_check_mark: |
 | | [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | 31 | 31 :white_check_mark: |
-| io.telicent.smart-caches.graph | [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | 68 | 68 :white_check_mark: |
+| io.telicent.smart-caches.graph | [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | 69 | 69 :white_check_mark: |
 | io.wcm | [*.caconfig.editor](../content/io/wcm/io.wcm.caconfig/README.md) | 13 | 13 :warning: |
 | | [*.parent_toplevel](../content/io/wcm/tooling/README.md) | 28 | 28 :white_check_mark: |
 | | [*.handler.commons](../content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -836,8 +836,8 @@ Reproducible Builds for Maven Central Repository
 | org.glassfish.build | [glassfishbuild-maven-plugin](../content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | org.hibernate.models | [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
 | org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 78 | 75 :white_check_mark: / 3 :warning: |
-| org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 109 | 109 :white_check_mark: |
-| org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 32 | 30 :white_check_mark: / 2 :warning: |
+| org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 110 | 110 :white_check_mark: |
+| org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 33 | 31 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
 | org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
 | org.itsallcode | [junit5-system-extensions](../content/org/itsallcode/junit5-system-extensions/README.md) | 2 | 2 :white_check_mark: |
@@ -972,7 +972,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 24 | 4 :white_check_mark: / 20 :warning: |
-| **Count:** | **958** | **11010** | **8085** :white_check_mark:<br>**2925** :warning: |
+| **Count:** | **958** | **11022** | **8097** :white_check_mark:<br>**2925** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -982,7 +982,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      35 gradle     11
-    244 gradle     17
+    245 gradle     17
     186 gradle     21
       5 gradle     24
      48 gradle     25
@@ -1009,7 +1009,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    875 mvn        21
+    876 mvn        21
      15 mvn        22
      21 mvn        23
      41 mvn        24
@@ -1055,11 +1055,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.10  21
     100 mvn-3.9.11   8
     100 mvn-3.9.11  11
-    226 mvn-3.9.11  17
+    227 mvn-3.9.11  17
     356 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
-    101 mvn-3.9.11  25
+    102 mvn-3.9.11  25
       1 mvn-3.9.11  26
       6 mvn-3.9.12   8
      30 mvn-3.9.12  11
@@ -1077,11 +1077,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.15  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
-      7 mvn-3.9.2  21
+      9 mvn-3.9.2  21
       1 mvn-3.9.2  23
       1 mvn-3.9.2  25
     185 mvn-3.9.3   8
-    106 mvn-3.9.3  11
+    107 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       3 mvn-3.9.3  11.0.2
       4 mvn-3.9.3  11.0.5
@@ -1089,7 +1089,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-    191 mvn-3.9.3  17
+    192 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      51 mvn-3.9.3  17.0.3
@@ -1102,7 +1102,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-    203 mvn-3.9.3  21
+    207 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       8 mvn-3.9.3  22
      13 mvn-3.9.3  25
