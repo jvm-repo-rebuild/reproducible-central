@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/axis-axis2-java-core.git](https://github.com/apache/axis-axis2-java-core.git)
 
-<details><summary>This project defines 54 modules:</summary>
+<details><summary>This project defines 59 modules:</summary>
 
 * [org.apache.axis2.archetype:quickstart](https://central.sonatype.com/artifact/org.apache.axis2.archetype/quickstart/overview)
 * [org.apache.axis2.archetype:quickstart-webapp](https://central.sonatype.com/artifact/org.apache.axis2.archetype/quickstart-webapp/overview)
@@ -28,18 +28,23 @@ Source code: [https://github.com/apache/axis-axis2-java-core.git](https://github
 * [org.apache.axis2:axis2-jaxws-mar](https://central.sonatype.com/artifact/org.apache.axis2/axis2-jaxws-mar/overview)
 * [org.apache.axis2:axis2-jibx](https://central.sonatype.com/artifact/org.apache.axis2/axis2-jibx/overview)
 * [org.apache.axis2:axis2-jibx-codegen](https://central.sonatype.com/artifact/org.apache.axis2/axis2-jibx-codegen/overview)
+* [org.apache.axis2:axis2-jpa-schema](https://central.sonatype.com/artifact/org.apache.axis2/axis2-jpa-schema/overview)
 * [org.apache.axis2:axis2-json](https://central.sonatype.com/artifact/org.apache.axis2/axis2-json/overview)
 * [org.apache.axis2:axis2-kernel](https://central.sonatype.com/artifact/org.apache.axis2/axis2-kernel/overview)
 * [org.apache.axis2:axis2-mar-maven-plugin](https://central.sonatype.com/artifact/org.apache.axis2/axis2-mar-maven-plugin/overview)
+* [org.apache.axis2:axis2-mcp-bridge](https://central.sonatype.com/artifact/org.apache.axis2/axis2-mcp-bridge/overview)
 * [org.apache.axis2:axis2-metadata](https://central.sonatype.com/artifact/org.apache.axis2/axis2-metadata/overview)
 * [org.apache.axis2:axis2-mtompolicy](https://central.sonatype.com/artifact/org.apache.axis2/axis2-mtompolicy/overview)
+* [org.apache.axis2:axis2-openapi](https://central.sonatype.com/artifact/org.apache.axis2/axis2-openapi/overview)
 * [org.apache.axis2:axis2-repo-maven-plugin](https://central.sonatype.com/artifact/org.apache.axis2/axis2-repo-maven-plugin/overview)
 * [org.apache.axis2:axis2-resource-bundle](https://central.sonatype.com/artifact/org.apache.axis2/axis2-resource-bundle/overview)
 * [org.apache.axis2:axis2-saaj](https://central.sonatype.com/artifact/org.apache.axis2/axis2-saaj/overview)
 * [org.apache.axis2:axis2-soapmonitor-servlet](https://central.sonatype.com/artifact/org.apache.axis2/axis2-soapmonitor-servlet/overview)
 * [org.apache.axis2:axis2-spring](https://central.sonatype.com/artifact/org.apache.axis2/axis2-spring/overview)
+* [org.apache.axis2:axis2-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.axis2/axis2-spring-boot-starter/overview)
 * [org.apache.axis2:axis2-testutils](https://central.sonatype.com/artifact/org.apache.axis2/axis2-testutils/overview)
 * [org.apache.axis2:axis2-transport-base](https://central.sonatype.com/artifact/org.apache.axis2/axis2-transport-base/overview)
+* [org.apache.axis2:axis2-transport-h2](https://central.sonatype.com/artifact/org.apache.axis2/axis2-transport-h2/overview)
 * [org.apache.axis2:axis2-transport-http](https://central.sonatype.com/artifact/org.apache.axis2/axis2-transport-http/overview)
 * [org.apache.axis2:axis2-transport-jms](https://central.sonatype.com/artifact/org.apache.axis2/axis2-transport-jms/overview)
 * [org.apache.axis2:axis2-transport-local](https://central.sonatype.com/artifact/org.apache.axis2/axis2-transport-local/overview)
@@ -65,13 +70,13 @@ Source code: [https://github.com/apache/axis-axis2-java-core.git](https://github
 * [org.apache.axis2:version](https://central.sonatype.com/artifact/org.apache.axis2/version/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.axis2:axis2:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.apache.axis2:axis2:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/2.0.1/pom) | | | |
+| [2.0.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/2.0.1/pom) | [mvn jdk25](axis2-2.0.1.buildspec) | [result](axis2-2.0.1.buildinfo): [155 :white_check_mark: ](axis2-2.0.1.buildcompare) | | 50M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.axis2/axis2/2.0.0/pom) | [mvn jdk17](axis2-2.0.0.buildspec) | [result](axis2-2.0.0.buildinfo): [149 :white_check_mark:  16 :warning:](axis2-2.0.0.buildcompare) [:memo:](https://github.com/apache/axis-axis2-java-core/pull/879) | - | 51M |
 | [1.8.2](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.2/pom) | [mvn jdk11](axis2-1.8.2.buildspec) | [result](axis2-1.8.2.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.2.buildcompare) | - | 42M |
 | [1.8.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.1/pom) | [mvn jdk11](axis2-1.8.1.buildspec) | [result](axis2-1.8.1.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.1.buildcompare) [:mag:](axis2-1.8.1.diffoscope) | - | 42M |
