@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/osslabz/electrum-client.git](https://github.com/osslabz/electrum-client.git)
 
-rebuilding **2 releases** of net.osslabz:electrum-client:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of net.osslabz:electrum-client:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.3.0](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.3.0/pom) | | | |
+| [0.3.0](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.3.0/pom) | [mvn jdk21](electrum-client-0.3.0.buildspec) | [result](electrum-client-0.3.0.buildinfo): [3 :white_check_mark: ](electrum-client-0.3.0.buildcompare) | | 27K |
 | [0.2.16](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.2.16/pom) | [mvn jdk21](electrum-client-0.2.16.buildspec) | [result](electrum-client-0.2.16.buildinfo): [2 :white_check_mark:  1 :warning:](electrum-client-0.2.16.buildcompare) | 1 :recycle: | 27K |
 | [0.0.1](https://central.sonatype.com/artifact/net.osslabz/electrum-client/0.0.1/pom) | [mvn jdk21](electrum-client-0.0.1.buildspec) | [result](electrum-client-0.0.1.buildinfo): [2 :white_check_mark:  1 :warning:](electrum-client-0.0.1.buildcompare) | 1 :recycle: | 27K |
 
