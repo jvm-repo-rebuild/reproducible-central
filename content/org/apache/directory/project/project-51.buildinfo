@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Directory Project
+group-id=org.apache.directory.project
+artifact-id=project
+version=51
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/directory-project.git
+source.scm.tag=51
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_492
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.directory.project
+outputs.0.filename=project-51.pom
+outputs.0.length=40138
+outputs.0.checksums.sha512=ec64f13d936d78217c84f9efb55e2ed077990d83964ee83385181f3439878452241a8246ebfc586f1da86731ab8e965d118c3643a0433aa553173f894baccbd6
+
+outputs.1.groupId=org.apache.directory.project
+outputs.1.filename=project-51-source-release.zip
+outputs.1.length=41900
+outputs.1.checksums.sha512=7093e6ca9c5397c980e745effa49866421dc038eccd3d3f43ed18d0b75c9ca812f25dd56a8c08ab09f0e46ffdb0c52e36841169fc90a727aa4f8a3cb1d2e9d8f
