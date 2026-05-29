@@ -16,13 +16,13 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-text.git](https:/
 * [com.fasterxml.jackson.dataformat:jackson-dataformats-text](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/overview)
 </details>
 
-rebuilding **40 releases** of com.fasterxml.jackson.dataformat:jackson-dataformats-text:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **41 releases** of com.fasterxml.jackson.dataformat:jackson-dataformats-text:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.21.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.21.4/pom) | | | |
+| [2.21.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.21.4/pom) | [mvn jdk8](jackson-dataformats-text-2.21.4.buildspec) | [result](jackson-dataformats-text-2.21.4.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.21.4.buildcompare) | | 578K |
 | [2.21.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.21.3/pom) | [mvn jdk8](jackson-dataformats-text-2.21.3.buildspec) | [result](jackson-dataformats-text-2.21.3.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.21.3.buildcompare) | | 578K |
 | [2.21.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.21.2/pom) | [mvn jdk8](jackson-dataformats-text-2.21.2.buildspec) | [result](jackson-dataformats-text-2.21.2.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.21.2.buildcompare) | | 578K |
 | [2.21.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.21.1/pom) | [mvn jdk8](jackson-dataformats-text-2.21.1.buildspec) | [result](jackson-dataformats-text-2.21.1.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.21.1.buildcompare) | | 578K |
