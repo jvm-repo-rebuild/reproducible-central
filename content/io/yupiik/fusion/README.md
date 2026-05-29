@@ -35,6 +35,7 @@ rebuilding **18 releases** of io.yupiik.fusion:fusion:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.36](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.36/pom) | | | |
 | [1.0.35](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.35/pom) | [mvn jdk21](fusion-1.0.35.buildspec) | [result](fusion-1.0.35.buildinfo): [50 :white_check_mark: ](fusion-1.0.35.buildcompare) | | 2.1M |
 | [1.0.34](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.34/pom) | [mvn jdk21](fusion-1.0.34.buildspec) | [result](fusion-1.0.34.buildinfo): [50 :white_check_mark: ](fusion-1.0.34.buildcompare) | | 2.1M |
 | [1.0.33](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.33/pom) | [mvn jdk21](fusion-1.0.33.buildspec) | [result](fusion-1.0.33.buildinfo): [50 :white_check_mark: ](fusion-1.0.33.buildcompare) | | 2.1M |

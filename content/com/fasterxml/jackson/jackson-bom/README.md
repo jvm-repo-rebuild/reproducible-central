@@ -19,6 +19,7 @@ rebuilding **49 releases** of com.fasterxml.jackson:jackson-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.21.4](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.21.4/pom) | | | |
 | [2.21.3](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.21.3/pom) | [mvn jdk11](jackson-bom-2.21.3.buildspec) | [result](jackson-bom-2.21.3.buildinfo): [2 :white_check_mark: ](jackson-bom-2.21.3.buildcompare) | | 33K |
 | [2.21.2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.21.2/pom) | [mvn jdk11](jackson-bom-2.21.2.buildspec) | [result](jackson-bom-2.21.2.buildinfo): [2 :white_check_mark: ](jackson-bom-2.21.2.buildcompare) | | 33K |
 | [2.21.1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.21.1/pom) | [mvn jdk11](jackson-bom-2.21.1.buildspec) | [result](jackson-bom-2.21.1.buildinfo): [2 :white_check_mark: ](jackson-bom-2.21.1.buildcompare) | | 33K |
@@ -34,6 +35,7 @@ rebuilding **49 releases** of com.fasterxml.jackson:jackson-bom:
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0/pom) | [mvn jdk11](jackson-bom-2.19.0.buildspec) | [result](jackson-bom-2.19.0.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0.buildcompare) | | 32K |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0-rc2/pom) | [mvn jdk11](jackson-bom-2.19.0-rc2.buildspec) | [result](jackson-bom-2.19.0-rc2.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0-rc2.buildcompare) | | 32K |
 | [2.19.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0-rc1/pom) | [mvn jdk11](jackson-bom-2.19.0-rc1.buildspec) | [result](jackson-bom-2.19.0-rc1.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0-rc1.buildcompare) | | 32K |
+| [2.18.8](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.18.8/pom) | | | |
 | [2.18.7](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.18.7/pom) | [mvn jdk11](jackson-bom-2.18.7.buildspec) | [result](jackson-bom-2.18.7.buildinfo): [2 :white_check_mark: ](jackson-bom-2.18.7.buildcompare) | | 31K |
 | [2.18.6](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.18.6/pom) | [mvn jdk11](jackson-bom-2.18.6.buildspec) | [result](jackson-bom-2.18.6.buildinfo): [2 :white_check_mark: ](jackson-bom-2.18.6.buildcompare) | | 31K |
 | [2.18.5](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.18.5/pom) | [mvn jdk11](jackson-bom-2.18.5.buildspec) | [result](jackson-bom-2.18.5.buildinfo): [2 :white_check_mark: ](jackson-bom-2.18.5.buildcompare) | | 31K |
