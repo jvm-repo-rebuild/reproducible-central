@@ -1,0 +1,57 @@
+version=4.1.2
+ok=21
+ko=42
+ignored=0
+okFiles="jline-parent-4.1.2.pom jline-native-4.1.2.pom jline-terminal-4.1.2.pom jline-terminal-ffm-4.1.2.pom jline-terminal-jni-4.1.2.pom jline-reader-4.1.2.pom jline-shell-4.1.2.pom jline-style-4.1.2.pom jline-builtins-4.1.2.pom jline-console-ui-4.1.2.pom jline-prompt-4.1.2.pom jline-console-4.1.2.pom jline-picocli-4.1.2.pom jline-groovy-4.1.2.pom jline-remote-ssh-4.1.2.pom jline-remote-telnet-4.1.2.pom jline-demo-4.1.2.pom jline-graal-4.1.2.pom jansi-core-4.1.2.pom jline-4.1.2.pom jansi-4.1.2.pom"
+koFiles="jline-native-4.1.2.jar jline-native-4.1.2-sources.jar jline-terminal-4.1.2.jar jline-terminal-4.1.2-sources.jar jline-terminal-ffm-4.1.2.jar jline-terminal-ffm-4.1.2-sources.jar jline-terminal-jni-4.1.2.jar jline-terminal-jni-4.1.2-sources.jar jline-reader-4.1.2.jar jline-reader-4.1.2-tests.jar jline-reader-4.1.2-sources.jar jline-shell-4.1.2.jar jline-shell-4.1.2-sources.jar jline-style-4.1.2.jar jline-style-4.1.2-sources.jar jline-builtins-4.1.2.jar jline-builtins-4.1.2-sources.jar jline-console-ui-4.1.2.jar jline-console-ui-4.1.2-sources.jar jline-prompt-4.1.2.jar jline-prompt-4.1.2-sources.jar jline-console-4.1.2.jar jline-console-4.1.2-sources.jar jline-picocli-4.1.2.jar jline-picocli-4.1.2-sources.jar jline-groovy-4.1.2.jar jline-groovy-4.1.2-sources.jar jline-remote-ssh-4.1.2.jar jline-remote-ssh-4.1.2-sources.jar jline-remote-telnet-4.1.2.jar jline-remote-telnet-4.1.2-sources.jar jline-demo-4.1.2.jar jline-demo-4.1.2-sources.jar jline-graal-4.1.2.jar jline-graal-4.1.2-sources.jar jansi-core-4.1.2.jar jansi-core-4.1.2-sources.jar jline-4.1.2.jar jline-4.1.2-jdk11.jar jline-4.1.2-sources.jar jansi-4.1.2.jar jansi-4.1.2-sources.jar"
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jline/jline-native-4.1.2.jar native/target/jline-native-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-native-4.1.2-sources.jar native/target/jline-native-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-terminal-4.1.2.jar terminal/target/jline-terminal-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-terminal-4.1.2-sources.jar terminal/target/jline-terminal-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-terminal-ffm-4.1.2.jar terminal-ffm/target/jline-terminal-ffm-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-terminal-ffm-4.1.2-sources.jar terminal-ffm/target/jline-terminal-ffm-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-terminal-jni-4.1.2.jar terminal-jni/target/jline-terminal-jni-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-terminal-jni-4.1.2-sources.jar terminal-jni/target/jline-terminal-jni-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-reader-4.1.2.jar reader/target/jline-reader-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-reader-4.1.2-tests.jar reader/target/jline-reader-4.1.2-tests.jar
+# diffoscope target/reference/org.jline/jline-reader-4.1.2-sources.jar reader/target/jline-reader-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-shell-4.1.2.jar shell/target/jline-shell-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-shell-4.1.2-sources.jar shell/target/jline-shell-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-style-4.1.2.jar style/target/jline-style-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-style-4.1.2-sources.jar style/target/jline-style-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-builtins-4.1.2.jar builtins/target/jline-builtins-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-builtins-4.1.2-sources.jar builtins/target/jline-builtins-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-console-ui-4.1.2.jar console-ui/target/jline-console-ui-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-console-ui-4.1.2-sources.jar console-ui/target/jline-console-ui-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-prompt-4.1.2.jar prompt/target/jline-prompt-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-prompt-4.1.2-sources.jar prompt/target/jline-prompt-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-console-4.1.2.jar console/target/jline-console-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-console-4.1.2-sources.jar console/target/jline-console-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-picocli-4.1.2.jar picocli/target/jline-picocli-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-picocli-4.1.2-sources.jar picocli/target/jline-picocli-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-groovy-4.1.2.jar groovy/target/jline-groovy-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-groovy-4.1.2-sources.jar groovy/target/jline-groovy-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-remote-ssh-4.1.2.jar remote-ssh/target/jline-remote-ssh-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-remote-ssh-4.1.2-sources.jar remote-ssh/target/jline-remote-ssh-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-remote-telnet-4.1.2.jar remote-telnet/target/jline-remote-telnet-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-remote-telnet-4.1.2-sources.jar remote-telnet/target/jline-remote-telnet-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-demo-4.1.2.jar demo/target/jline-demo-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-demo-4.1.2-sources.jar demo/target/jline-demo-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-graal-4.1.2.jar graal/target/jline-graal-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-graal-4.1.2-sources.jar graal/target/jline-graal-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jansi-core-4.1.2.jar jansi-core/target/jansi-core-4.1.2.jar
+# diffoscope target/reference/org.jline/jansi-core-4.1.2-sources.jar jansi-core/target/jansi-core-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jline-4.1.2.jar jline/target/jline-4.1.2.jar
+# diffoscope target/reference/org.jline/jline-4.1.2-jdk11.jar jline/target/jline-4.1.2-jdk11.jar
+# diffoscope target/reference/org.jline/jline-4.1.2-sources.jar jline/target/jline-4.1.2-sources.jar
+# diffoscope target/reference/org.jline/jansi-4.1.2.jar jansi/target/jansi-4.1.2.jar
+# diffoscope target/reference/org.jline/jansi-4.1.2-sources.jar jansi/target/jansi-4.1.2-sources.jar
+stabilize_ok=42
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="jline-native-4.1.2.jar.stabilized jline-native-4.1.2-sources.jar.stabilized jline-terminal-4.1.2.jar.stabilized jline-terminal-4.1.2-sources.jar.stabilized jline-terminal-ffm-4.1.2.jar.stabilized jline-terminal-ffm-4.1.2-sources.jar.stabilized jline-terminal-jni-4.1.2.jar.stabilized jline-terminal-jni-4.1.2-sources.jar.stabilized jline-reader-4.1.2.jar.stabilized jline-reader-4.1.2-tests.jar.stabilized jline-reader-4.1.2-sources.jar.stabilized jline-shell-4.1.2.jar.stabilized jline-shell-4.1.2-sources.jar.stabilized jline-style-4.1.2.jar.stabilized jline-style-4.1.2-sources.jar.stabilized jline-builtins-4.1.2.jar.stabilized jline-builtins-4.1.2-sources.jar.stabilized jline-console-ui-4.1.2.jar.stabilized jline-console-ui-4.1.2-sources.jar.stabilized jline-prompt-4.1.2.jar.stabilized jline-prompt-4.1.2-sources.jar.stabilized jline-console-4.1.2.jar.stabilized jline-console-4.1.2-sources.jar.stabilized jline-picocli-4.1.2.jar.stabilized jline-picocli-4.1.2-sources.jar.stabilized jline-groovy-4.1.2.jar.stabilized jline-groovy-4.1.2-sources.jar.stabilized jline-remote-ssh-4.1.2.jar.stabilized jline-remote-ssh-4.1.2-sources.jar.stabilized jline-remote-telnet-4.1.2.jar.stabilized jline-remote-telnet-4.1.2-sources.jar.stabilized jline-demo-4.1.2.jar.stabilized jline-demo-4.1.2-sources.jar.stabilized jline-graal-4.1.2.jar.stabilized jline-graal-4.1.2-sources.jar.stabilized jansi-core-4.1.2.jar.stabilized jansi-core-4.1.2-sources.jar.stabilized jline-4.1.2.jar.stabilized jline-4.1.2-jdk11.jar.stabilized jline-4.1.2-sources.jar.stabilized jansi-4.1.2.jar.stabilized jansi-4.1.2-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
