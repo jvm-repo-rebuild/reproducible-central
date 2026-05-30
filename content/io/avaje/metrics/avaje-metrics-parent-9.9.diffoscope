@@ -1,0 +1,27 @@
+1 / 1 target/reference/io.avaje/avaje-metrics-otel-reporter-9.9-sources.jar metrics-otel-reporter/target/avaje-metrics-otel-reporter-9.9-sources.jar
+--- target/reference/io.avaje/avaje-metrics-otel-reporter-9.9-sources.jar
++++ metrics-otel-reporter/target/avaje-metrics-otel-reporter-9.9-sources.jar
+├── zipinfo {}
+│ @@ -1,20 +1,19 @@
+│ -Zip file size: 7062 bytes, number of entries: 18
+│ +Zip file size: 6950 bytes, number of entries: 17
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-May-25 22:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 io/avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 io/avaje/metrics/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 io/avaje/metrics/otel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 io/avaje/metrics/otel/reporter/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 META-INF/maven/io.avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-May-25 22:30 META-INF/maven/io.avaje/avaje-metrics-otel-reporter/
+│  -rw-r--r--  2.0 unx     2310 b- defN 26-May-25 22:30 io/avaje/metrics/otel/reporter/DOtelBuilder.java
+│  -rw-r--r--  2.0 unx     1776 b- defN 26-May-25 22:30 io/avaje/metrics/otel/reporter/DOtelReporter.java
+│  -rw-r--r--  2.0 unx     3018 b- defN 26-May-25 22:30 io/avaje/metrics/otel/reporter/OtelReporter.java
+│  -rw-r--r--  2.0 unx     6372 b- defN 26-May-25 22:30 io/avaje/metrics/otel/reporter/OtelVisitor.java
+│  -rw-r--r--  2.0 unx      183 b- defN 26-May-25 22:30 module-info.java
+│  -rw-r--r--  2.0 unx     1668 b- defN 26-May-25 22:30 META-INF/maven/io.avaje/avaje-metrics-otel-reporter/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 26-May-25 22:30 META-INF/maven/io.avaje/avaje-metrics-otel-reporter/pom.properties
+│ -18 files, 15459 bytes uncompressed, 4566 bytes compressed:  70.5%
+│ +17 files, 15459 bytes uncompressed, 4566 bytes compressed:  70.5%
