@@ -71,14 +71,14 @@ Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/ecl
 * [org.eclipse.tycho:tycho-wrap-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-wrap-plugin/overview)
 </details>
 
-rebuilding **3 releases** of org.eclipse.tycho:tycho:
+rebuilding **4 releases** of org.eclipse.tycho:tycho:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.3](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.3/pom) | | | |
+| [5.0.3](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.3/pom) | [mvn jdk21](tycho-5.0.3.buildspec) | [result](tycho-5.0.3.buildinfo): [172 :white_check_mark:  1 :warning:](tycho-5.0.3.buildcompare) | 1 :rotating_light: | 14M |
 | [5.0.2](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.2/pom) | [mvn jdk21](tycho-5.0.2.buildspec) | [result](tycho-5.0.2.buildinfo): [172 :white_check_mark:  1 :warning:](tycho-5.0.2.buildcompare) [:mag:](tycho-5.0.2.diffoscope) | 1 :rotating_light: | 13M |
 | [5.0.1](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.1/pom) | [mvn jdk21](tycho-5.0.1.buildspec) | [result](tycho-5.0.1.buildinfo): [167 :white_check_mark:  3 :warning:](tycho-5.0.1.buildcompare) | 3 :rotating_light: | 13M |
 | [5.0.0](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.0/pom) | [mvn jdk21](tycho-5.0.0.buildspec) | [result](tycho-5.0.0.buildinfo): [164 :white_check_mark:  3 :warning:](tycho-5.0.0.buildcompare) [:mag:](tycho-5.0.0.diffoscope) [:memo:](https://github.com/eclipse-tycho/tycho/issues/5284) | 3 :rotating_light: | 13M |
