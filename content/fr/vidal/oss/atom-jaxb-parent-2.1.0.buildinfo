@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=atom-jaxb-parent
+group-id=fr.vidal.oss
+artifact-id=atom-jaxb-parent
+version=2.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:softwarevidal/atom-jaxb.git
+source.scm.tag=v2.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.31
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=atom-jaxb
+
+# aggregated output
+
+outputs.0.coordinates=fr.vidal.oss:atom-jaxb-parent
+
+outputs.0.0.groupId=fr.vidal.oss
+outputs.0.0.filename=atom-jaxb-parent-2.1.0.pom
+outputs.0.0.length=9591
+outputs.0.0.checksums.sha512=b2a31a8561b412a71ad6c685b811dec3a01b926851ccf6ea1821e040d51ff7de980fd4e0a8f2cce3f2975afdd76d5c1c80a08138dd93d568716c80d07f86d4e0
+
+outputs.1.coordinates=fr.vidal.oss:atom-jaxb
+
+outputs.1.0.groupId=fr.vidal.oss
+outputs.1.0.filename=atom-jaxb-2.1.0.pom
+outputs.1.0.length=3994
+outputs.1.0.checksums.sha512=9ec38d22a94f13d0e940dc58eb124353c0fb85465133809118ebf74bdd4d31b639c908d71579c07cdfa0318f570e7d9967b66815455712e1073a6d4a9e3608f6
+
+outputs.1.1.groupId=fr.vidal.oss
+outputs.1.1.filename=atom-jaxb-2.1.0.jar
+outputs.1.1.length=45979
+outputs.1.1.checksums.sha512=b8a6125e8a057c9c47a4243892d9df3596cc4e0f6175db5de2930d2a79f96bb60c57ba3ebec33c3e18fe945f583f1504eaecaf250389c2242b957bfe54339003
+
+outputs.1.2.groupId=fr.vidal.oss
+outputs.1.2.filename=atom-jaxb-2.1.0-sources.jar
+outputs.1.2.length=20293
+outputs.1.2.checksums.sha512=40050e6c70ccd4fc1cdb2e52c0252e99b12041fb934e323d0403c49ac97984d02acd0d5e13bfb1756e9dcb22ee8ac4215aaf8373e04db594b3442b8493291c85
+
+outputs.1.3.groupId=fr.vidal.oss
+outputs.1.3.filename=atom-jaxb-2.1.0-tests.jar
+outputs.1.3.length=73550
+outputs.1.3.checksums.sha512=c2747580dad863c9407fc0824685cb70bdbe83140ed994e68a9044d937c0f597542899d4129d4c5096b17d2838db72e83eb8ee8741fdb439dc6e37407693865d
