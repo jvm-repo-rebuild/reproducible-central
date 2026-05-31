@@ -32,7 +32,7 @@ Reproducible Builds for Maven Central Repository
 | com.fasterxml | [oss-parent](../content/com/fasterxml/oss-parent/README.md) | 34 | 34 :white_check_mark: |
 | com.fasterxml.uuid | [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
 | com.fasterxml.woodstox | [woodstox-core](../content/com/fasterxml/woodstox/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
-| com.fasterxml.jackson.core | [jackson-annotations](../content/com/fasterxml/jackson/annotations/README.md) | 48 | 32 :white_check_mark: / 16 :warning: |
+| com.fasterxml.jackson.core | [jackson-annotations](../content/com/fasterxml/jackson/annotations/README.md) | 49 | 33 :white_check_mark: / 16 :warning: |
 | | [jackson-core](../content/com/fasterxml/jackson/core/README.md) | 51 | 39 :white_check_mark: / 12 :warning: |
 | | [jackson-databind](../content/com/fasterxml/jackson/databind/README.md) | 49 | 33 :white_check_mark: / 16 :warning: |
 | com.fasterxml.jackson | [jackson-bom](../content/com/fasterxml/jackson/jackson-bom/README.md) | 51 | 51 :white_check_mark: |
@@ -90,7 +90,7 @@ Reproducible Builds for Maven Central Repository
 | | [nbbrd-maven-tools](../content/com/github/nbbrd/nbbrd-maven-tools/README.md) | 7 | 7 :white_check_mark: |
 | | [picocsv](../content/com/github/nbbrd/picocsv/README.md) | 5 | 5 :white_check_mark: |
 | | [sasquatch](../content/com/github/nbbrd/sasquatch/README.md) | 2 | 2 :white_check_mark: |
-| | [sdmx-dl](../content/com/github/nbbrd/sdmx-dl/README.md) | 6 | 1 :white_check_mark: / 5 :warning: |
+| | [sdmx-dl](../content/com/github/nbbrd/sdmx-dl/README.md) | 7 | 1 :white_check_mark: / 6 :warning: |
 | | [spreadsheet4j](../content/com/github/nbbrd/spreadsheet4j/README.md) | 4 | 4 :white_check_mark: |
 | com.github.package-url | [packageurl-java](../content/com/github/package-url/packageurl-java/README.md) | 5 | 5 :white_check_mark: |
 | com.github.philippheuer.* | [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -289,7 +289,7 @@ Reproducible Builds for Maven Central Repository
 | | [shared](../content/eu/maveniverse/maven/shared/shared/README.md) | 18 | 18 :white_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 183 | 79 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](../content/fr/marcwrobel/jbanking/README.md) | 3 | 3 :white_check_mark: |
-| fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
+| fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](../content/io/jooby/README.md) | 82 | 30 :white_check_mark: / 52 :warning: |
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 87 | 86 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 184 | 184 :warning: |
@@ -818,6 +818,7 @@ Reproducible Builds for Maven Central Repository
 | | [complate-spring-mvc](../content/org/complate/spring/README.md) | 2 | 2 :white_check_mark: |
 | org.cyclonedx | [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | 48 | 48 :white_check_mark: |
 | | [cyclonedx-maven-plugin](../content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 28 | 28 :white_check_mark: |
+| org.dbunit | [dbunit-maven-plugin](../content/org/dbunit/dbunit-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | org.eclipse.jkube | [jkube](../content/org/eclipse/jkube/README.md) | 28 | 28 :white_check_mark: |
 | org.eclipse.sisu | [sisu-inject](../content/org/eclipse/sisu/README.md) | 2 | 2 :white_check_mark: |
 | org.eclipse.transformer | [transformer](../content/org/eclipse/transformer/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
@@ -972,7 +973,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 11 | 11 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 24 | 4 :white_check_mark: / 20 :warning: |
-| **Count:** | **958** | **11092** | **8159** :white_check_mark:<br>**2933** :warning: |
+| **Count:** | **959** | **11096** | **8162** :white_check_mark:<br>**2934** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -989,7 +990,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      35 mvn         7
    1570 mvn         8
       1 mvn         9
-   1709 mvn        11
+   1710 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.22
@@ -1064,9 +1065,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       8 mvn-3.9.12   8
      30 mvn-3.9.12  11
      41 mvn-3.9.12  17
-    171 mvn-3.9.12  21
+    172 mvn-3.9.12  21
       1 mvn-3.9.12  22
-     60 mvn-3.9.12  25
+     61 mvn-3.9.12  25
       1 mvn-3.9.13  17
       2 mvn-3.9.13  25
       2 mvn-3.9.14  17
@@ -1083,7 +1084,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.2  21
       1 mvn-3.9.2  23
       1 mvn-3.9.2  25
-    185 mvn-3.9.3   8
+    186 mvn-3.9.3   8
     107 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       3 mvn-3.9.3  11.0.2
