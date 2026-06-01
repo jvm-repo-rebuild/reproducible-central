@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mybatis/parent.git](https://github.com/mybatis/parent.git)
 
-rebuilding **17 releases** of org.mybatis:mybatis-parent:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.mybatis:mybatis-parent:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [52](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/52/pom) | | | |
+| [52](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/52/pom) | [mvn jdk21 w](mybatis-parent-52.buildspec) | [result](mybatis-parent-52.buildinfo): [2 :white_check_mark: ](mybatis-parent-52.buildcompare) | | 51K |
 | [51](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/51/pom) | [mvn jdk17 w](mybatis-parent-51.buildspec) | [result](mybatis-parent-51.buildinfo): [2 :white_check_mark: ](mybatis-parent-51.buildcompare) | | 51K |
 | [50](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/50/pom) | [mvn jdk17 w](mybatis-parent-50.buildspec) | [result](mybatis-parent-50.buildinfo): [2 :white_check_mark: ](mybatis-parent-50.buildcompare) | | 51K |
 | [49](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/49/pom) | [mvn jdk17 w](mybatis-parent-49.buildspec) | [result](mybatis-parent-49.buildinfo): [2 :white_check_mark: ](mybatis-parent-49.buildcompare) | | 51K |
