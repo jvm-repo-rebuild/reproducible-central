@@ -52,6 +52,7 @@ rebuilding **5 releases** of org.jvnet.jaxb:jaxb-tools-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.15](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.15/pom) | | | |
 | [4.0.14](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.14/pom) | [mvn jdk21](jaxb-tools-4.0.14.buildspec) | [result](jaxb-tools-project-4.0.14.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.14.buildcompare) | 5 :rotating_light: | 5.6M |
 | [4.0.13](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.13/pom) | [mvn jdk21](jaxb-tools-4.0.13.buildspec) | [result](jaxb-tools-project-4.0.13.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.13.buildcompare) | 5 :rotating_light: | 5.6M |
 | [4.0.12](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.12/pom) | [mvn jdk21](jaxb-tools-4.0.12.buildspec) | [result](jaxb-tools-project-4.0.12.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.12.buildcompare) [:memo:](https://github.com/highsource/jaxb-tools/issues/642) | 5 :rotating_light: | 6.1M |

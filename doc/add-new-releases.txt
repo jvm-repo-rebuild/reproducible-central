@@ -1,8 +1,21 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.21.buildspec:2.22
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.5.8.buildspec:3.5.11
+content/ch/qos/logback/logback-1.5.33.buildspec:1.5.34
+content/com/fasterxml/jackson/databind/jackson-databind-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/jr/jackson-jr-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.21.4.buildspec:2.22.0
+content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.21.4.buildspec:2.22.0
+content/com/github/seregamorph/spring-test-smart-context/spring-test-smart-context-0.15.buildspec:1.0
+content/com/github/sitture/env-config/env-config-2.3.0.buildspec:2.4.0
 content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.16.1-beta-2.buildspec:5.16.1-beta-3
-content/org/apache/activemq/activemq-6.2.5.buildspec:6.2.6
-content/org/mybatis/parent/mybatis-parent-51.buildspec:52
+content/io/airlift/airbase/airbase-379.buildspec:380
+content/io/dropwizard/core/dropwizard-5.0.1.buildspec:5.0.2
+content/io/yupiik/fusion/fusion-1.0.36.buildspec:1.0.37
+content/net/bytebuddy/byte-buddy-1.18.8-jdk5.buildspec:1.18.9-jdk5
+content/org/apache/directory/api/api-2.1.7.buildspec:2.1.8
+content/org/apache/jackrabbit/oak/jackrabbit-oak-2.0.0.buildspec:2.2.0
