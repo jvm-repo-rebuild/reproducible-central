@@ -1,0 +1,86 @@
+# │ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+# build process done in 2 steps, should clean
+1 / 1 target/reference/org.jvnet.jaxb/jaxb-plugins-runtime-4.0.15.jar jaxb-plugins-parent/jaxb-plugins-runtime/target/jaxb-plugins-runtime-4.0.15.jar
+--- target/reference/org.jvnet.jaxb/jaxb-plugins-runtime-4.0.15.jar
++++ jaxb-plugins-parent/jaxb-plugins-runtime/target/jaxb-plugins-runtime-4.0.15.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 160791 bytes, number of entries: 199
+│ +Zip file size: 160753 bytes, number of entries: 199
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-01 22:05 META-INF/
+│ --rw-r--r--  2.0 unx     2995 b- defN 26-Jun-01 22:05 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     2770 b- defN 26-Jun-01 22:05 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-01 22:05 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-01 22:05 org/jvnet/
+│ @@ -194,8 +194,8 @@
+│  -rw-r--r--  2.0 unx     2579 b- defN 26-Jun-01 22:05 META-INF/maven/org.jvnet.jaxb/jaxb-plugins-runtime/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 26-Jun-01 22:05 META-INF/maven/org.jvnet.jaxb/jaxb-plugins-runtime/pom.properties
+│ -199 files, 375777 bytes uncompressed, 125169 bytes compressed:  66.7%
+│ +199 files, 375552 bytes uncompressed, 125131 bytes compressed:  66.7%
+├── META-INF/MANIFEST.MF
+│ @@ -7,42 +7,39 @@
+│  Bundle-License: https://github.com/highsource/jaxb-tools/blob/master/LIC
+│   ENSE
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: JAXB Tools :: JAXB Plugins :: Runtime
+│  Bundle-SymbolicName: org.jvnet.jaxb.plugins-runtime
+│  Bundle-Version: 4.0.15
+│  Export-Package: org.jvnet.jaxb.i18n;version="4.0.15",org.jvnet.jaxb.lang
+│ - ;version="4.0.15";uses:="jakarta.xml.bind,org.jvnet.jaxb.locator,org.w3
+│ - c.dom",org.jvnet.jaxb.locator;version="4.0.15";uses:="jakarta.xml.bind,
+│ - org.jvnet.jaxb.i18n,org.w3c.dom",org.jvnet.jaxb.locator.util;version="4
+│ - .0.15";uses:="org.jvnet.jaxb.locator,org.xml.sax",org.jvnet.jaxb.xml.bi
+│ - nd;version="4.0.15";uses:="jakarta.xml.bind",org.jvnet.jaxb.xml.bind.an
+│ - notation.adapters;version="4.0.15";uses:="jakarta.xml.bind.annotation.a
+│ - dapters",org.jvnet.jaxb.xml.bind.model;version="4.0.15";uses:="javax.xm
+│ - l.namespace,org.jvnet.jaxb.xml.bind.model.origin",org.jvnet.jaxb.xml.bi
+│ - nd.model.concrete;version="4.0.15";uses:="jakarta.activation,javax.xml.
+│ - namespace,org.glassfish.jaxb.core.v2.model.core,org.jvnet.jaxb.xml.bind
+│ - .model,org.jvnet.jaxb.xml.bind.model.origin,org.w3c.dom",org.jvnet.jaxb
+│ - .xml.bind.model.concrete.origin;version="4.0.15";uses:="org.glassfish.j
+│ - axb.core.v2.model.core,org.jvnet.jaxb.xml.bind.model,org.jvnet.jaxb.xml
+│ - .bind.model.origin",org.jvnet.jaxb.xml.bind.model.origin;version="4.0.1
+│ - 5",org.jvnet.jaxb.xml.bind.model.util;version="4.0.15";uses:="javax.xml
+│ - .namespace,org.jvnet.jaxb.xml.bind.model",org.jvnet.jaxb.xml.namespace.
+│ - util;version="4.0.15";uses:="javax.xml.namespace",org.jvnet.jaxb.xmlsch
+│ - ema;version="4.0.15";uses:="javax.xml.namespace"
+│ + ;uses:="jakarta.xml.bind,org.jvnet.jaxb.locator,org.w3c.dom";version="4
+│ + .0.15",org.jvnet.jaxb.locator;uses:="jakarta.xml.bind,org.jvnet.jaxb.i1
+│ + 8n,org.w3c.dom";version="4.0.15",org.jvnet.jaxb.locator.util;uses:="org
+│ + .jvnet.jaxb.locator,org.xml.sax";version="4.0.15",org.jvnet.jaxb.xml.bi
+│ + nd;uses:="jakarta.xml.bind";version="4.0.15",org.jvnet.jaxb.xml.bind.an
+│ + notation.adapters;uses:="jakarta.xml.bind.annotation.adapters";version=
+│ + "4.0.15",org.jvnet.jaxb.xml.bind.model;uses:="javax.xml.namespace,org.j
+│ + vnet.jaxb.xml.bind.model.origin";version="4.0.15",org.jvnet.jaxb.xml.bi
+│ + nd.model.concrete;uses:="jakarta.activation,javax.xml.namespace,org.gla
+│ + ssfish.jaxb.core.v2.model.core,org.jvnet.jaxb.xml.bind.model,org.jvnet.
+│ + jaxb.xml.bind.model.origin,org.w3c.dom";version="4.0.15",org.jvnet.jaxb
+│ + .xml.bind.model.concrete.origin;uses:="org.glassfish.jaxb.core.v2.model
+│ + .core,org.jvnet.jaxb.xml.bind.model,org.jvnet.jaxb.xml.bind.model.origi
+│ + n";version="4.0.15",org.jvnet.jaxb.xml.bind.model.origin;version="4.0.1
+│ + 5",org.jvnet.jaxb.xml.bind.model.util;uses:="javax.xml.namespace,org.jv
+│ + net.jaxb.xml.bind.model";version="4.0.15",org.jvnet.jaxb.xml.namespace.
+│ + util;uses:="javax.xml.namespace";version="4.0.15",org.jvnet.jaxb.xmlsch
+│ + ema;uses:="javax.xml.namespace";version="4.0.15"
+│  Import-Package: jakarta.activation;version="[2.1,3)",jakarta.xml.bind;ve
+│   rsion="[4.0,5)",jakarta.xml.bind.annotation;version="[4.0,5)",jakarta.x
+│   ml.bind.annotation.adapters;version="[4.0,5)",java.io,java.lang,java.la
+│   ng.annotation,java.lang.invoke,java.lang.reflect,java.net,java.text,jav
+│   a.util,java.util.function,java.util.stream,javax.xml.namespace,org.glas
+│   sfish.jaxb.core.api.impl;version="[4.0,5)",org.glassfish.jaxb.core.v2.m
+│ - odel.core;version="[4.0,5)",org.jvnet.jaxb.i18n;version="[4.0,5)",org.j
+│ - vnet.jaxb.lang;version="[4.0,5)",org.jvnet.jaxb.locator;version="[4.0,5
+│ - )",org.jvnet.jaxb.locator.util;version="[4.0,5)",org.jvnet.jaxb.xml.bin
+│ - d.model;version="[4.0,5)",org.jvnet.jaxb.xml.bind.model.concrete.origin
+│ - ;version="[4.0,5)",org.jvnet.jaxb.xml.bind.model.origin;version="[4.0,5
+│ - )",org.jvnet.jaxb.xml.bind.model.util;version="[4.0,5)",org.jvnet.jaxb.
+│ - xmlschema;version="[4.0,5)",org.w3c.dom,org.xml.sax
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+│ + odel.core;version="[4.0,5)",org.jvnet.jaxb.i18n,org.jvnet.jaxb.lang,org
+│ + .jvnet.jaxb.locator,org.jvnet.jaxb.locator.util,org.jvnet.jaxb.xml.bind
+│ + .model,org.jvnet.jaxb.xml.bind.model.concrete.origin,org.jvnet.jaxb.xml
+│ + .bind.model.origin,org.jvnet.jaxb.xml.bind.model.util,org.jvnet.jaxb.xm
+│ + lschema,org.w3c.dom,org.xml.sax
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+│  Tool: Bnd-6.3.1.202206071316
+
