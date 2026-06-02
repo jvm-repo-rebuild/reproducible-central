@@ -1,8 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.5.33.buildspec:1.5.34
 content/com/fasterxml/jackson/databind/jackson-databind-2.21.4.buildspec:2.22.0
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/jr/jackson-jr-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-2.21.4.buildspec:2.22.0
@@ -10,12 +8,12 @@ content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-datafo
 content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.21.4.buildspec:2.22.0
-content/com/github/seregamorph/spring-test-smart-context/spring-test-smart-context-0.15.buildspec:1.0
-content/com/github/sitture/env-config/env-config-2.3.0.buildspec:2.4.0
-content/com/ongres/stringprep/stringprep-aggregator-2.2.buildspec:2.3
-content/io/airlift/airbase/airbase-379.buildspec:380
-content/io/dropwizard/core/dropwizard-5.0.1.buildspec:5.0.2
-content/io/yupiik/fusion/fusion-1.0.36.buildspec:1.0.37
-content/net/bytebuddy/byte-buddy-1.18.8-jdk5.buildspec:1.18.9-jdk5
-content/org/apache/directory/api/api-2.1.7.buildspec:2.1.8
-content/org/apache/jackrabbit/oak/jackrabbit-oak-2.0.0.buildspec:2.2.0
+content/com/github/nbbrd/java-io-util/java-io-parent-0.0.36.buildspec:0.0.38
+content/com/hibegin/common-dao/common-dao-1.1.8.buildspec:1.1.9
+content/io/liftwizard/liftwizard-2.1.45.buildspec:2.1.46
+content/io/airlift/airbase/airbase-380.buildspec:382
+content/io/avaje/http/avaje-http-3.9-RC3.buildspec:3.9
+content/io/avaje/jsonb/avaje-jsonb-3.14-RC7.buildspec:3.14
+content/org/apache/mina/mina-2.2.7.buildspec:2.2.8
+content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.14.buildspec:2.0.16
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.9.buildspec:12.1.10
