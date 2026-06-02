@@ -20,13 +20,13 @@ Source code: [https://github.com/nbbrd/java-io-util.git](https://github.com/nbbr
 * [com.github.nbbrd.java-io-util:java-io-xml-bind](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-xml-bind/overview)
 </details>
 
-rebuilding **9 releases** of com.github.nbbrd.java-io-util:java-io-parent:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of com.github.nbbrd.java-io-util:java-io-parent:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.0.38](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.38/pom) | | | |
+| [0.0.38](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.38/pom) | [mvn jdk21](java-io-parent-0.0.38.buildspec) | [result](java-io-parent-0.0.38.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.38.buildcompare) | | 583K |
 | [0.0.36](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.36/pom) | [mvn jdk21](java-io-parent-0.0.36.buildspec) | [result](java-io-parent-0.0.36.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.36.buildcompare) | | 576K |
 | [0.0.35](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.35/pom) | [mvn jdk21](java-io-parent-0.0.35.buildspec) | [result](java-io-parent-0.0.35.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.35.buildcompare) | | 571K |
 | [0.0.34](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.34/pom) | [mvn jdk21](java-io-parent-0.0.34.buildspec) | [result](java-io-parent-0.0.34.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.34.buildcompare) | | 573K |
