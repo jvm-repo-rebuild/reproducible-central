@@ -13,6 +13,7 @@ rebuilding **51 releases** of com.fasterxml.jackson.core:jackson-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.22.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.22.0/pom) | | | |
 | [2.21.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.21.4/pom) | [mvn jdk8](jackson-core-2.21.4.buildspec) | [result](jackson-core-2.21.4.buildinfo): [6 :white_check_mark: ](jackson-core-2.21.4.buildcompare) | | 1.1M |
 | [2.21.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.21.3/pom) | [mvn jdk8](jackson-core-2.21.3.buildspec) | [result](jackson-core-2.21.3.buildinfo): [6 :white_check_mark: ](jackson-core-2.21.3.buildcompare) | | 1.1M |
 | [2.21.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.21.2/pom) | [mvn jdk8](jackson-core-2.21.2.buildspec) | [result](jackson-core-2.21.2.buildinfo): [6 :white_check_mark: ](jackson-core-2.21.2.buildcompare) | | 1.1M |

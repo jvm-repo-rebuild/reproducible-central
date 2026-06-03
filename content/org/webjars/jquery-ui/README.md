@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.webjars:jquery-ui:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.14.2+1](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.2+1/pom) | | | |
 | [1.14.2](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.2/pom) | [mvn jdk8](jquery-ui-1.14.2.buildspec) | :x: | |
 | [1.14.1](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.1/pom) | [mvn jdk21](jquery-ui-1.14.1.buildspec) | [result](jquery-ui-1.14.1.buildinfo): [2 :white_check_mark: ](jquery-ui-1.14.1.buildcompare) | | 279K |
 | [1.14.0](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.0/pom) | [mvn jdk21](jquery-ui-1.14.0.buildspec) | [result](jquery-ui-1.14.0.buildinfo): [2 :white_check_mark: ](jquery-ui-1.14.0.buildcompare) | | 278K |

@@ -1,5 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/biz/aQute/bnd/plugins/bnd-plugins-7.2.3.buildspec:7.3.0
+content/com/fasterxml/jackson/core/jackson-core-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/databind/jackson-databind-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/jr/jackson-jr-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.21.4.buildspec:2.22.0
@@ -8,12 +10,9 @@ content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-datafo
 content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.21.4.buildspec:2.22.0
 content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.21.4.buildspec:2.22.0
-content/com/github/nbbrd/java-io-util/java-io-parent-0.0.36.buildspec:0.0.38
-content/com/hibegin/common-dao/common-dao-1.1.8.buildspec:1.1.9
-content/io/liftwizard/liftwizard-2.1.45.buildspec:2.1.46
+content/io/jooby/jooby-4.5.1.buildspec:4.5.2
 content/io/airlift/airbase/airbase-380.buildspec:382
 content/io/avaje/http/avaje-http-3.9-RC3.buildspec:3.9
 content/io/avaje/jsonb/avaje-jsonb-3.14-RC7.buildspec:3.14
-content/org/apache/mina/mina-2.2.7.buildspec:2.2.8
-content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.14.buildspec:2.0.16
-content/org/eclipse/jetty/jetty-project/jetty-project-12.1.9.buildspec:12.1.10
+content/net/bytebuddy/byte-buddy-1.18.9-jdk5.buildspec:1.18.10-jdk5
+content/org/apache/commons/parent/commons-parent-100.buildspec:101

@@ -105,6 +105,7 @@ rebuilding **82 releases** of io.jooby:jooby:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.5.2](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.2/pom) | | | |
 | [4.5.1](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.1/pom) | [mvn jdk21](jooby-4.5.1.buildspec) | [result](jooby-project-4.5.1.buildinfo): [240 :white_check_mark: ](jooby-project-4.5.1.buildcompare) | | 14M |
 | [4.5.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.0/pom) | [mvn jdk21](jooby-4.5.0.buildspec) | [result](jooby-project-4.5.0.buildinfo): [240 :white_check_mark: ](jooby-project-4.5.0.buildcompare) | | 14M |
 | [4.4.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.4.0/pom) | [mvn jdk21](jooby-4.4.0.buildspec) | [result](jooby-project-4.4.0.buildinfo): [237 :white_check_mark: ](jooby-project-4.4.0.buildcompare) | | 22M |

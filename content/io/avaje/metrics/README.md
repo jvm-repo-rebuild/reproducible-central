@@ -28,6 +28,9 @@ rebuilding **17 releases** of io.avaje:avaje-metrics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [9.15](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/9.15/pom) | | | |
+| [9.14](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/9.14/pom) | | | |
+| [9.13](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/9.13/pom) | | | |
 | [9.12](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/9.12/pom) | [mvn jdk25](avaje-metrics-9.12.buildspec) | [result](avaje-metrics-parent-9.12.buildinfo): [27 :white_check_mark:  1 :warning:](avaje-metrics-parent-9.12.buildcompare) | 1 :rotating_light: | 335K |
 | [9.11](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/9.11/pom) | [mvn jdk25](avaje-metrics-9.11.buildspec) | [result](avaje-metrics-parent-9.11.buildinfo): [27 :white_check_mark:  1 :warning:](avaje-metrics-parent-9.11.buildcompare) | 1 :rotating_light: | 323K |
 | [9.10](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/9.10/pom) | [mvn jdk25](avaje-metrics-9.10.buildspec) | [result](avaje-metrics-parent-9.10.buildinfo): [27 :white_check_mark:  1 :warning:](avaje-metrics-parent-9.10.buildcompare) | 1 :rotating_light: | 322K |
