@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/helix.git](https://github.com/apache/helix.git)
 
-<details><summary>This project defines 13 modules:</summary>
+<details><summary>This project defines 14 modules:</summary>
 
 * [org.apache.helix:helix](https://central.sonatype.com/artifact/org.apache.helix/helix/overview)
 * [org.apache.helix:helix-admin-webapp](https://central.sonatype.com/artifact/org.apache.helix/helix-admin-webapp/overview)
@@ -15,6 +15,7 @@ Source code: [https://github.com/apache/helix.git](https://github.com/apache/hel
 * [org.apache.helix:helix-common](https://central.sonatype.com/artifact/org.apache.helix/helix-common/overview)
 * [org.apache.helix:helix-core](https://central.sonatype.com/artifact/org.apache.helix/helix-core/overview)
 * [org.apache.helix:helix-front](https://central.sonatype.com/artifact/org.apache.helix/helix-front/overview)
+* [org.apache.helix:helix-gateway](https://central.sonatype.com/artifact/org.apache.helix/helix-gateway/overview)
 * [org.apache.helix:helix-lock](https://central.sonatype.com/artifact/org.apache.helix/helix-lock/overview)
 * [org.apache.helix:helix-rest](https://central.sonatype.com/artifact/org.apache.helix/helix-rest/overview)
 * [org.apache.helix:helix-view-aggregator](https://central.sonatype.com/artifact/org.apache.helix/helix-view-aggregator/overview)
@@ -24,13 +25,13 @@ Source code: [https://github.com/apache/helix.git](https://github.com/apache/hel
 * [org.apache.helix:zookeeper-api](https://central.sonatype.com/artifact/org.apache.helix/zookeeper-api/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.helix:helix:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.apache.helix:helix:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/org.apache.helix/helix/2.0.0/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.helix/helix/2.0.0/pom) | [mvn jdk11](helix-2.0.0.buildspec) | [result](helix-2.0.0.buildinfo): [63 :white_check_mark: ](helix-2.0.0.buildcompare) | | 125M |
 | [1.4.3](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.3/pom) | [mvn jdk11](helix-1.4.3.buildspec) | [result](helix-1.4.3.buildinfo): [56 :white_check_mark: ](helix-1.4.3.buildcompare) | | 120M |
 | [1.4.2](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.2/pom) | [mvn jdk11](helix-1.4.2.buildspec) | [result](helix-1.4.2.buildinfo): [54 :white_check_mark: ](helix-1.4.2.buildcompare) | | 120M |
 | [1.4.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.1/pom) | [mvn jdk11](helix-1.4.1.buildspec) | [result](helix-1.4.1.buildinfo): [53 :white_check_mark: ](helix-1.4.1.buildcompare) | | 119M |
