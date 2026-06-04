@@ -98,14 +98,14 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **82 releases** of io.jooby:jooby:
-- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **83 releases** of io.jooby:jooby:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 52 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.5.2](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.2/pom) | | | |
+| [4.5.2](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.2/pom) | [mvn jdk21](jooby-4.5.2.buildspec) | [result](jooby-project-4.5.2.buildinfo): [240 :white_check_mark: ](jooby-project-4.5.2.buildcompare) | | 14M |
 | [4.5.1](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.1/pom) | [mvn jdk21](jooby-4.5.1.buildspec) | [result](jooby-project-4.5.1.buildinfo): [240 :white_check_mark: ](jooby-project-4.5.1.buildcompare) | | 14M |
 | [4.5.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.5.0/pom) | [mvn jdk21](jooby-4.5.0.buildspec) | [result](jooby-project-4.5.0.buildinfo): [240 :white_check_mark: ](jooby-project-4.5.0.buildcompare) | | 14M |
 | [4.4.0](https://central.sonatype.com/artifact/io.jooby/jooby/4.4.0/pom) | [mvn jdk21](jooby-4.4.0.buildspec) | [result](jooby-project-4.4.0.buildinfo): [237 :white_check_mark: ](jooby-project-4.4.0.buildcompare) | | 22M |
