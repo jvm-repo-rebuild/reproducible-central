@@ -1,0 +1,76 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SCRAM - Aggregator
+group-id=com.ongres.scram
+artifact-id=scram-aggregator
+version=3.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/ongres/scram.git
+source.scm.tag=3.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=scram-aggregator
+
+# aggregated output
+
+outputs.0.coordinates=com.ongres.scram:scram-parent
+
+outputs.0.0.groupId=com.ongres.scram
+outputs.0.0.filename=scram-parent-3.3.pom
+outputs.0.0.length=27713
+outputs.0.0.checksums.sha512=76028f2202f552c49d32b021a196eed80a1a0997cb1a6316dc54a76cf16db9c1e5405e0261fa84d195bcb329bb167e90bd37566fc6918498a2a6f1e8e003ef9e
+
+outputs.1.coordinates=com.ongres.scram:scram-common
+
+outputs.1.0.groupId=com.ongres.scram
+outputs.1.0.filename=scram-common-3.3.pom
+outputs.1.0.length=2283
+outputs.1.0.checksums.sha512=59062a03712bbc6ce79ddfc94112a224d77c0936e25d7fb925a76b9e1ff28f81955453295cbf58c5d88b281b22a2c3a18d0e9bb351ea394eae706f5f1fbbbb55
+
+outputs.1.1.groupId=com.ongres.scram
+outputs.1.1.filename=scram-common-3.3.jar
+outputs.1.1.length=51675
+outputs.1.1.checksums.sha512=0fee08b6e2c9b313cf95007e74d74effbbc0c2de2d72f35b01b8bc7291743ee6f6043079c696529413ddf7c9a776b1fc4def639abac628f37915972eae23d4e3
+
+outputs.1.2.groupId=com.ongres.scram
+outputs.1.2.filename=scram-common-3.3-sources.jar
+outputs.1.2.length=42119
+outputs.1.2.checksums.sha512=f5234eaee1fbcbe938260a420857306488374632c7c8779c502db1437ec49e1e1a00f57e28ca8120a7585ff5b2fb1e68cf6818eff98565f4ae9eac2ef5a9a128
+
+outputs.2.coordinates=com.ongres.scram:scram-client
+
+outputs.2.0.groupId=com.ongres.scram
+outputs.2.0.filename=scram-client-3.3.pom
+outputs.2.0.length=2801
+outputs.2.0.checksums.sha512=ceda0542863b39f1c060d03e7355e8351e70555588d20b2564ef1aa5dd8e8e282fb6e111c1f4bf25cb7462da28800e2f055b887977e1bad11447f1ba62e672d0
+
+outputs.2.1.groupId=com.ongres.scram
+outputs.2.1.filename=scram-client-3.3.jar
+outputs.2.1.length=20406
+outputs.2.1.checksums.sha512=7849984b3e003e03ce3e73d4946fc542ff1cd542849d9195678dd9f0efeb0c1674b1c051fe89772fb93857057401484655381f2444a01266b2acf0766957cfbe
+
+outputs.2.2.groupId=com.ongres.scram
+outputs.2.2.filename=scram-client-3.3-sources.jar
+outputs.2.2.length=14811
+outputs.2.2.checksums.sha512=05603289d73e31e4656d9faebd98697aa640d95081d8ccd87f91364f042e0656706717105260357fe6174d3361a2457604ad243140b6de85eb852b67c53b33d7
+
+outputs.3.coordinates=com.ongres.scram:scram-aggregator
+
+outputs.3.0.groupId=com.ongres.scram
+outputs.3.0.filename=scram-aggregator-3.3.pom
+outputs.3.0.length=1880
+outputs.3.0.checksums.sha512=07ebefd84aa6c416292a9043762311e78805d1efca4360e59f1eb9d83ba38b235ef37c90f8884db31b47b748922307ed9f3a64b92ee1680b49cf06478b1e2c04
