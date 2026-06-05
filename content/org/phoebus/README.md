@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com/ControlSystemStudio/phoebus)
 
-<details><summary>This project defines 99 modules:</summary>
+<details><summary>This project defines 106 modules:</summary>
 
 * [org.phoebus:app](https://central.sonatype.com/artifact/org.phoebus/app/overview)
 * [org.phoebus:app-3d-viewer](https://central.sonatype.com/artifact/org.phoebus/app-3d-viewer/overview)
@@ -42,6 +42,7 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:app-display-representation-javafx](https://central.sonatype.com/artifact/org.phoebus/app-display-representation-javafx/overview)
 * [org.phoebus:app-display-runtime](https://central.sonatype.com/artifact/org.phoebus/app-display-runtime/overview)
 * [org.phoebus:app-display-thumbwheel](https://central.sonatype.com/artifact/org.phoebus/app-display-thumbwheel/overview)
+* [org.phoebus:app-display-waterfallplot](https://central.sonatype.com/artifact/org.phoebus/app-display-waterfallplot/overview)
 * [org.phoebus:app-email](https://central.sonatype.com/artifact/org.phoebus/app-email/overview)
 * [org.phoebus:app-email-ui](https://central.sonatype.com/artifact/org.phoebus/app-email-ui/overview)
 * [org.phoebus:app-errlog](https://central.sonatype.com/artifact/org.phoebus/app-errlog/overview)
@@ -62,6 +63,10 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:app-probe](https://central.sonatype.com/artifact/org.phoebus/app-probe/overview)
 * [org.phoebus:app-pvtable](https://central.sonatype.com/artifact/org.phoebus/app-pvtable/overview)
 * [org.phoebus:app-pvtree](https://central.sonatype.com/artifact/org.phoebus/app-pvtree/overview)
+* [org.phoebus:app-queue-server](https://central.sonatype.com/artifact/org.phoebus/app-queue-server/overview)
+* [org.phoebus:app-queue-server-edit-control](https://central.sonatype.com/artifact/org.phoebus/app-queue-server-edit-control/overview)
+* [org.phoebus:app-queue-server-monitor](https://central.sonatype.com/artifact/org.phoebus/app-queue-server-monitor/overview)
+* [org.phoebus:app-queue-server-network](https://central.sonatype.com/artifact/org.phoebus/app-queue-server-network/overview)
 * [org.phoebus:app-rtplot](https://central.sonatype.com/artifact/org.phoebus/app-rtplot/overview)
 * [org.phoebus:app-save-and-restore](https://central.sonatype.com/artifact/org.phoebus/app-save-and-restore/overview)
 * [org.phoebus:app-scan](https://central.sonatype.com/artifact/org.phoebus/app-scan/overview)
@@ -96,6 +101,8 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:core-util](https://central.sonatype.com/artifact/org.phoebus/core-util/overview)
 * [org.phoebus:core-vtype](https://central.sonatype.com/artifact/org.phoebus/core-vtype/overview)
 * [org.phoebus:core-websocket](https://central.sonatype.com/artifact/org.phoebus/core-websocket/overview)
+* [org.phoebus:core-websocket-client](https://central.sonatype.com/artifact/org.phoebus/core-websocket-client/overview)
+* [org.phoebus:core-websocket-common](https://central.sonatype.com/artifact/org.phoebus/core-websocket-common/overview)
 * [org.phoebus:dependencies](https://central.sonatype.com/artifact/org.phoebus/dependencies/overview)
 * [org.phoebus:install-jars](https://central.sonatype.com/artifact/org.phoebus/install-jars/overview)
 * [org.phoebus:parent](https://central.sonatype.com/artifact/org.phoebus/parent/overview)
@@ -110,15 +117,15 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:services](https://central.sonatype.com/artifact/org.phoebus/services/overview)
 </details>
 
-rebuilding **4 releases** of org.phoebus:parent:
+rebuilding **5 releases** of org.phoebus:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [5.0.5](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.5/pom) | | | |
-| [5.0.4](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.4/pom) | | | |
+| [5.0.4](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.4/pom) | [mvn jdk17 w](phoebus-5.0.4.buildspec) | [result](parent-5.0.4.buildinfo): [279 :white_check_mark:  8 :warning:](parent-5.0.4.buildcompare) | 5 :rotating_light: 2 :no_entry_sign: | 354M |
 | [5.0.2](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.2/pom) | [mvn jdk17 w](phoebus-5.0.2.buildspec) | [result](parent-5.0.2.buildinfo): [262 :white_check_mark:  7 :warning:](parent-5.0.2.buildcompare) [:mag:](parent-5.0.2.diffoscope) | 5 :rotating_light: 2 :no_entry_sign: | 310M |
 | [5.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.0/pom) | [mvn jdk17 w](phoebus-5.0.0.buildspec) | [result](parent-5.0.0.buildinfo): [179 :white_check_mark:  87 :warning:](parent-5.0.0.buildcompare) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/3416) | - | 305M |
 | [4.7.4](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.4/pom) | [mvn jdk17 w](phoebus-4.7.4.buildspec) | [result](parent-4.7.4.buildinfo): [179 :white_check_mark:  87 :warning:](parent-4.7.4.buildcompare) [:mag:](parent-4.7.4.diffoscope) | - | 305M |
