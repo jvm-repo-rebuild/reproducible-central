@@ -1,0 +1,93 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Stringprep Aggregator
+group-id=com.ongres.stringprep
+artifact-id=stringprep-aggregator
+version=2.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:ongres/stringprep.git
+source.scm.tag=2.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.8
+mvn.aggregate.artifact-id=stringprep-aggregator
+
+# aggregated output
+
+outputs.0.coordinates=com.ongres.stringprep:stringprep-parent
+
+outputs.0.0.groupId=com.ongres.stringprep
+outputs.0.0.filename=stringprep-parent-2.4.pom
+outputs.0.0.length=26466
+outputs.0.0.checksums.sha512=ec57e969f32429a6914de65fa9b0f45ae39a87eeed9f48169cf0c96716b3006f3663152230ab442a089b8ab749e16210b94cc1ebb5e3c9b81e4df69322fab3f0
+
+outputs.1.coordinates=com.ongres.stringprep:stringprep
+
+outputs.1.0.groupId=com.ongres.stringprep
+outputs.1.0.filename=stringprep-2.4.pom
+outputs.1.0.length=1639
+outputs.1.0.checksums.sha512=2dac08c341f3ef483557e2f3967b4fc032aeecc127f2e5ee6af3cfb6a7eda3e6d65c9f5e7ad0a9df4eb1f395a21548f5addbeee127a740d298093da00c332cd8
+
+outputs.1.1.groupId=com.ongres.stringprep
+outputs.1.1.filename=stringprep-2.4.jar
+outputs.1.1.length=46502
+outputs.1.1.checksums.sha512=c081acc6e9c9b4d15350a62d7c7f3a8d7a43923c5b18c488c44f0c6bc1c43bcc6c4fbdea58d1bbe3bb9e85cbec9848bb020b8ae5d8410be0035df35b1ec677a7
+
+outputs.1.2.groupId=com.ongres.stringprep
+outputs.1.2.filename=stringprep-2.4-sources.jar
+outputs.1.2.length=32051
+outputs.1.2.checksums.sha512=01c65fba3ac538cf431ed3b9ccb438ef3a9bdb67b6b83b9a644eb901d3e0a793a57308ab708d363ef470b9781a6d31b7cf10f32a474d10b655c44f043f322b0e
+
+outputs.2.coordinates=com.ongres.stringprep:saslprep
+
+outputs.2.0.groupId=com.ongres.stringprep
+outputs.2.0.filename=saslprep-2.4.pom
+outputs.2.0.length=1887
+outputs.2.0.checksums.sha512=922e372ea625cc1430211aa93a30d21877b3fa60ed9a3dff5f81af1d95453bc4617c82bf51432c1a1c3138fb4dfde17cf7e83a72c484bda4f6a91515aff51ec4
+
+outputs.2.1.groupId=com.ongres.stringprep
+outputs.2.1.filename=saslprep-2.4.jar
+outputs.2.1.length=5446
+outputs.2.1.checksums.sha512=8e4ab3a1be7491c7a38f4f6763a707fb9c51dfb95874f41edf6b6942252bb5c21e1baae086571cc57661747e98b82f1d0a9c97b7bbcc92b165fe5d8481a57c12
+
+outputs.2.2.groupId=com.ongres.stringprep
+outputs.2.2.filename=saslprep-2.4-sources.jar
+outputs.2.2.length=3901
+outputs.2.2.checksums.sha512=65da4d06640fa03498dbbdefd16bd5f4e63e791433685d363f63b19e0d4db51460d3efd7b738a04fd5d1a492fc4e539823178056629715ebade2088322df04aa
+
+outputs.3.coordinates=com.ongres.stringprep:nameprep
+
+outputs.3.0.groupId=com.ongres.stringprep
+outputs.3.0.filename=nameprep-2.4.pom
+outputs.3.0.length=1901
+outputs.3.0.checksums.sha512=419db7f76c8db6bfbb19cb982c92f12ab384554c2d7c64202f27d4eaf1e4a6ff07b84b7fdd37eb3b56a949040a2a8c6fd73a44fb9c0f9e18b5153bb33611befb
+
+outputs.3.1.groupId=com.ongres.stringprep
+outputs.3.1.filename=nameprep-2.4.jar
+outputs.3.1.length=5248
+outputs.3.1.checksums.sha512=1a7dc041fe1a121e747239eecf2b3070e0cd81a014fc8bd6f6523ee6b9dac493512111737773078e23a12d863be36fffe502f687aabadec7a2576585e121b6c6
+
+outputs.3.2.groupId=com.ongres.stringprep
+outputs.3.2.filename=nameprep-2.4-sources.jar
+outputs.3.2.length=3710
+outputs.3.2.checksums.sha512=666fe9da7aa398053f3e1f79487486219c3f97ec98b1642e71644114dce52014878f683e8dead238522829645a0a0079f7d235af02d0d2dc56e80ad16c407abf
+
+outputs.4.coordinates=com.ongres.stringprep:stringprep-aggregator
+
+outputs.4.0.groupId=com.ongres.stringprep
+outputs.4.0.filename=stringprep-aggregator-2.4.pom
+outputs.4.0.length=1066
+outputs.4.0.checksums.sha512=7015fa2672524d60e1472aa7774ac511b94136dfde1960094d25605893dd2c8b8dca428911d0510f4be553c6ad114bfa186b8fac7383e79661940343551a68cb
