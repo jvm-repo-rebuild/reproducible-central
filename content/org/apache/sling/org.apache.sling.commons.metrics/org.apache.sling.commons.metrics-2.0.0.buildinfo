@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Metrics
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.metrics
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-metrics.git
+source.scm.tag=org.apache.sling.commons.metrics-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.metrics-2.0.0.pom
+outputs.0.length=11343
+outputs.0.checksums.sha512=75a57c3c087c1ca980379d12ae93f4ec9f10d16105da7502a63c8cae330945a9e3b018737ec12b7167593c989a583a06df43b45ba3d698afafff64dea47c688e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.metrics-2.0.0.jar
+outputs.1.length=75439
+outputs.1.checksums.sha512=11b06a238b62089f95c06414009bcbf62388d97d8b4b3a69ff3a6b6af076c900dbb2f107bf404d0dc577e6ee649853b05a448c7a1448edb60df367e1f257bf52
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.metrics-2.0.0-source-release.zip
+outputs.2.length=72307
+outputs.2.checksums.sha512=0ce6606c0d27819727519e7fc48efeafce5581724c8f5bb0df057c3e9c5b84501f8714397be369b89fe72d721c0c19f93a92bf78590c950fd011966525d5d83f
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.metrics-2.0.0-sources.jar
+outputs.3.length=43716
+outputs.3.checksums.sha512=0f59cfe0918ed442de96acffe082ced16111b8957a276fb49a08c0cff62a7e9af414258861384da23d1fac7257d10c35f60cc44aa1f1c2b6452ff185283ad920
