@@ -3,8 +3,8 @@
   <groupId>io.avaje</groupId>
   <artifactId>avaje-inject-parent</artifactId>
   <versioning>
-    <latest>12.6-RC4</latest>
-    <release>12.6-RC4</release>
+    <latest>12.6-javax</latest>
+    <release>12.6-javax</release>
     <versions>
       <version>1.5</version>
       <version>2.0</version>
@@ -267,7 +267,9 @@
       <version>12.6-RC2</version>
       <version>12.6-RC3</version>
       <version>12.6-RC4</version>
+      <version>12.6</version>
+      <version>12.6-javax</version>
     </versions>
-    <lastUpdated>20260528033319</lastUpdated>
+    <lastUpdated>20260605041522</lastUpdated>
   </versioning>
 </metadata>

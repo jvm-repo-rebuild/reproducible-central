@@ -1,10 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/jackson/core/jackson-core-2.21.4.buildspec:2.22.0
-content/com/ongres/scram/scram-aggregator-3.2.buildspec:3.3
-content/dev/langchain4j/cdi/langchain4j-cdi-1.3.0.buildspec:1.3.1
-content/io/avaje/http/avaje-http-3.9-RC3.buildspec:3.9
-content/io/telicent/jena/jena-kafka/jena-kafka-3.0.3.buildspec:3.0.4
-content/net/bytebuddy/byte-buddy-1.18.9-jdk5.buildspec:1.18.10-jdk5
-content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-38.buildspec:39
-content/org/apache/helix/helix-1.4.3.buildspec:2.0.0
+content/dev/langchain4j/langchain4j-1.15.1.buildspec:1.16.0
+content/dev/langchain4j/cdi/langchain4j-cdi-1.3.1.buildspec:1.3.2
+content/io/avaje/inject/avaje-inject-12.6-RC4.buildspec:12.6-javax
+content/io/opentelemetry/java/opentelemetry-sdk-1.62.0.buildspec:1.63.0
+content/org/dbunit/dbunit-3.1.0.buildspec:3.2.0
+content/org/glassfish/grizzly/grizzly-5.0.1.buildspec:5.0.2
+content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.5.buildspec:0.5.6

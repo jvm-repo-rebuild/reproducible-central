@@ -26,6 +26,8 @@ rebuilding **78 releases** of io.avaje:avaje-inject-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [12.6-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.6-javax/pom) | | | |
+| [12.6](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.6/pom) | | | |
 | [12.6-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.6-RC4/pom) | [mvn jdk25](avaje-inject-12.6-RC4.buildspec) | [result](avaje-inject-parent-12.6-RC4.buildinfo): [20 :white_check_mark: ](avaje-inject-parent-12.6-RC4.buildcompare) | | 836K |
 | [12.6-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.6-RC3/pom) | [mvn jdk25](avaje-inject-12.6-RC3.buildspec) | [result](avaje-inject-parent-12.6-RC3.buildinfo): [20 :white_check_mark: ](avaje-inject-parent-12.6-RC3.buildcompare) | | 823K |
 | [12.6-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.6-RC2/pom) | [mvn jdk25](avaje-inject-12.6-RC2.buildspec) | [result](avaje-inject-parent-12.6-RC2.buildinfo): [20 :white_check_mark: ](avaje-inject-parent-12.6-RC2.buildcompare) | | 821K |
