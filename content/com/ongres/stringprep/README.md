@@ -16,14 +16,14 @@ Source code: [https://github.com/ongres/stringprep.git](https://github.com/ongre
 * [com.ongres.stringprep:stringprep-parent](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-parent/overview)
 </details>
 
-rebuilding **2 releases** of com.ongres.stringprep:stringprep-aggregator:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of com.ongres.stringprep:stringprep-aggregator:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.4](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.4/pom) | | | |
+| [2.4](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.4/pom) | [mvn jdk25](stringprep-aggregator-2.4.buildspec) | [result](stringprep-aggregator-2.4.buildinfo): [11 :white_check_mark: ](stringprep-aggregator-2.4.buildcompare) | | 127K |
 | [2.3](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.3/pom) | [mvn jdk25](stringprep-aggregator-2.3.buildspec) | [result](stringprep-aggregator-2.3.buildinfo): [8 :white_check_mark:  3 :warning:](stringprep-aggregator-2.3.buildcompare) | 3 :rotating_light: | 128K |
 | [2.2](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.2/pom) | [mvn jdk21](stringprep-aggregator-2.2.buildspec) | [result](stringprep-aggregator-2.2.buildinfo): [21 :white_check_mark: ](stringprep-aggregator-2.2.buildcompare) | | 178K |
 
