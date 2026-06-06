@@ -1,0 +1,53 @@
+1 / 1 target/reference/org.dbunit/dbunit-3.2.0-sources.jar target/dbunit-3.2.0-sources.jar
+--- target/reference/org.dbunit/dbunit-3.2.0-sources.jar
++++ target/dbunit-3.2.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 616566 bytes, number of entries: 405
+│ +Zip file size: 616569 bytes, number of entries: 405
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-04 00:00 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 26-Jun-04 00:00 META-INF/MANIFEST.MF
+│ @@ -318,16 +318,16 @@
+│  -rw-r--r--  2.0 unx     3698 b- defN 26-Jun-04 00:00 org/dbunit/ext/mysql/MySqlDataTypeFactory.java
+│  -rw-r--r--  2.0 unx     5461 b- defN 26-Jun-04 00:00 org/dbunit/ext/mysql/MySqlMetadataHandler.java
+│ --rw-r--r--  2.0 unx     3817 b- defN 26-Jun-04 00:00 org/dbunit/ext/netezza/NetezzaDataTypeFactory.java
+│ --rw-r--r--  2.0 unx     5173 b- defN 26-Jun-04 00:00 org/dbunit/ext/netezza/NetezzaMetadataHandler.java
+│ +-rw-r--r--  2.0 unx     3819 b- defN 26-Jun-04 00:00 org/dbunit/ext/netezza/NetezzaDataTypeFactory.java
+│ +-rw-r--r--  2.0 unx     5175 b- defN 26-Jun-04 00:00 org/dbunit/ext/netezza/NetezzaMetadataHandler.java
+│  -rw-r--r--  2.0 unx     2653 b- defN 26-Jun-04 00:00 org/dbunit/ext/oracle/Oracle10DataTypeFactory.java
+│  -rw-r--r--  2.0 unx     4016 b- defN 26-Jun-04 00:00 org/dbunit/ext/oracle/OracleBlobDataType.java
+│ @@ -400,8 +400,8 @@
+│  -rw-r--r--  2.0 unx    76290 b- defN 26-Jun-04 00:00 META-INF/maven/org.dbunit/dbunit/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 26-Jun-04 00:00 META-INF/maven/org.dbunit/dbunit/pom.properties
+│ -405 files, 1867713 bytes uncompressed, 549064 bytes compressed:  70.6%
+│ +405 files, 1867717 bytes uncompressed, 549067 bytes compressed:  70.6%
+├── org/dbunit/ext/netezza/NetezzaDataTypeFactory.java
+│┄ Line-ending differences only
+│ @@ -117,9 +117,9 @@
+│  			case VARCHAR:
+│  				return DataType.VARCHAR;
+│  			default:
+│  				return super.createDataType(sqlType, sqlTypeName);
+│  		}
+│  	}
+│  }
+│ -
+│ - 	  	 
+│ +
+│ +
+├── org/dbunit/ext/netezza/NetezzaMetadataHandler.java
+│┄ Line-ending differences only
+│ @@ -130,9 +130,9 @@
+│  	{
+│  		if (logger.isTraceEnabled())
+│  			logger.trace("getPrimaryKeys(metaData={}, schemaName={}, tableName={}) - start", new Object[] { metaData, schemaName, tableName });
+│  		ResultSet resultSet = metaData.getPrimaryKeys(schemaName, null, tableName);
+│  		return resultSet;
+│  	}
+│  }
+│ -
+│ - 	  	 
+│ +
+│ +
+
+# missing space tab space tab space on last line...
