@@ -14,7 +14,7 @@ rebuilding **2 releases** of org.dbunit:dbunit:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2.0](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.2.0/pom) | [mvn jdk25 w](dbunit-3.2.0.buildspec) | [result](dbunit-3.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](dbunit-3.2.0.buildcompare) | 1 :rotating_light: | 1.3M |
+| [3.2.0](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.2.0/pom) | [mvn jdk25 w](dbunit-3.2.0.buildspec) | [result](dbunit-3.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](dbunit-3.2.0.buildcompare) [:mag:](dbunit-3.2.0.diffoscope) | 1 :rotating_light: | 1.3M |
 | [3.1.0](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.1.0/pom) | [mvn jdk25 w](dbunit-3.1.0.buildspec) | [result](dbunit-3.1.0.buildinfo): [3 :white_check_mark: ](dbunit-3.1.0.buildcompare) | | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
