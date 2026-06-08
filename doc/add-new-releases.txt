@@ -1,3 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.4.0.Final.buildspec:4.4.1.Final
+content/com/fasterxml/woodstox/woodstox-core-7.2.0.buildspec:7.2.1
+content/io/airlift/airbase/airbase-382.buildspec:384
+content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0.1.buildspec:11.0.0-M1
+content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.11.0.buildspec:4.12.0
