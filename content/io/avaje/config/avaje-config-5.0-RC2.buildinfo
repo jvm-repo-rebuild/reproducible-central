@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Avaje Config
+group-id=io.avaje
+artifact-id=avaje-config
+version=5.0-RC2
+
+# source information
+source.scm.uri=scm:git:git@github.com:avaje/avaje-config.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1015-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-config-5.0-RC2.pom
+outputs.0.length=3197
+outputs.0.checksums.sha512=54e8d18452714a6953e7a138ffb885dc9dbba93fa42abdc78afd5e06bb41cd17a5063bfef172e9096c4a833b81d1c2340e28430bb2bc865b8559852a65dda473
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-config-5.0-RC2.jar
+outputs.1.length=83439
+outputs.1.checksums.sha512=c3fabd7341b719f64941259e8e80fb979ee8a6519d008c75cc86c291f0909ff57ca4a4a5160cc07b04d0b5bb5cde006361a9471bd9f437ea666fdd94cfd068d0
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-config-5.0-RC2-sources.jar
+outputs.2.length=43844
+outputs.2.checksums.sha512=05f531f0a68bf47d0263e7e2ef023fc7de005b1a683886317a79185d577640ec1de6c06f385bdbdbaecb968abe5d8d30a2c5ce29962c3491c0567611626e1d8c
