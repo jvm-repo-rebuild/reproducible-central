@@ -1,6 +1,14 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/woodstox/woodstox-core-7.2.0.buildspec:7.2.1
-content/io/airlift/airbase/airbase-382.buildspec:384
+content/io/airlift/airbase/airbase-384.buildspec:385
 content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0.1.buildspec:11.0.0-M1
-content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.11.0.buildspec:4.12.0
+content/tools/jackson/jackson-bom/jackson-bom-3.1.4.buildspec:3.2.0
+content/tools/jackson/jr/jackson-jr-3.1.4.buildspec:3.2.0
+content/tools/jackson/core/jackson-core/jackson-core-3.1.4.buildspec:3.2.0
+content/tools/jackson/core/jackson-databind/jackson-databind-3.1.4.buildspec:3.2.0
+content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.1.4.buildspec:3.2.0
+content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.1.4.buildspec:3.2.0
+content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.1.4.buildspec:3.2.0
+content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.1.4.buildspec:3.2.0
+content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.1.4.buildspec:3.2.0
+content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.1.4.buildspec:3.2.0
