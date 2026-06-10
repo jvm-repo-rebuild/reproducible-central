@@ -1,14 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-384.buildspec:385
+content/com/ongres/scram/scram-aggregator-3.3.buildspec:3.4
+content/dev/langchain4j/langchain4j-1.16.1.buildspec:1.16.2
+content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-2.1.0.buildspec:2.2.0
+content/io/airlift/airbase/airbase-385.buildspec:386
+content/io/cucumber/gherkin/gherkin-39.1.0.buildspec:40.0.0
+content/io/cucumber/messages/messages-32.3.1.buildspec:33.0.2
 content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0.1.buildspec:11.0.0-M1
-content/tools/jackson/jackson-bom/jackson-bom-3.1.4.buildspec:3.2.0
-content/tools/jackson/jr/jackson-jr-3.1.4.buildspec:3.2.0
-content/tools/jackson/core/jackson-core/jackson-core-3.1.4.buildspec:3.2.0
-content/tools/jackson/core/jackson-databind/jackson-databind-3.1.4.buildspec:3.2.0
-content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.1.4.buildspec:3.2.0
-content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.1.4.buildspec:3.2.0
-content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.1.4.buildspec:3.2.0
-content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.1.4.buildspec:3.2.0
-content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.1.4.buildspec:3.2.0
-content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.1.4.buildspec:3.2.0
