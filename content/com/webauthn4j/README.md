@@ -1,120 +1,29 @@
-rebuilding **0 releases** of com.webauthn4j:webauthn4j-core:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+[com.webauthn4j:webauthn4j-core](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [com.webauthn4j:webauthn4j-core](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/webauthn4j/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/webauthn4j/README.md)
+
+Source code: [https://github.com/webauthn4j/webauthn4j.git](https://github.com/webauthn4j/webauthn4j.git)
+
+<details><summary>This project defines 7 modules:</summary>
+
+* [com.webauthn4j:webauthn4j-appattest](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-appattest/overview)
+* [com.webauthn4j:webauthn4j-core](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/overview)
+* [com.webauthn4j:webauthn4j-core-async](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core-async/overview)
+* [com.webauthn4j:webauthn4j-metadata](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-metadata/overview)
+* [com.webauthn4j:webauthn4j-metadata-async](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-metadata-async/overview)
+* [com.webauthn4j:webauthn4j-test](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-test/overview)
+* [com.webauthn4j:webauthn4j-util](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-util/overview)
+</details>
+
+rebuilding **1 releases** of com.webauthn4j:webauthn4j-core:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.31.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.7.RELEASE/pom) | | | |
-| [0.31.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.6.RELEASE/pom) | | | |
-| [0.31.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.5.RELEASE/pom) | | | |
-| [0.31.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.3.RELEASE/pom) | | | |
-| [0.31.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.2.RELEASE/pom) | | | |
-| [0.31.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.1.RELEASE/pom) | | | |
-| [0.31.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.0.RELEASE/pom) | | | |
-| [0.30.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.30.3.RELEASE/pom) | | | |
-| [0.30.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.30.2.RELEASE/pom) | | | |
-| [0.30.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.30.1.RELEASE/pom) | | | |
-| [0.30.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.30.0.RELEASE/pom) | | | |
-| [0.29.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.7.RELEASE/pom) | | | |
-| [0.29.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.6.RELEASE/pom) | | | |
-| [0.29.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.5.RELEASE/pom) | | | |
-| [0.29.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.4.RELEASE/pom) | | | |
-| [0.29.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.3.RELEASE/pom) | | | |
-| [0.29.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.2.RELEASE/pom) | | | |
-| [0.29.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.1.RELEASE/pom) | | | |
-| [0.29.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.29.0.RELEASE/pom) | | | |
-| [0.28.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.6.RELEASE/pom) | | | |
-| [0.28.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.5.RELEASE/pom) | | | |
-| [0.28.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.4.RELEASE/pom) | | | |
-| [0.28.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.3.RELEASE/pom) | | | |
-| [0.28.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.2.RELEASE/pom) | | | |
-| [0.28.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.1.RELEASE/pom) | | | |
-| [0.28.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.28.0.RELEASE/pom) | | | |
-| [0.27.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.27.0.RELEASE/pom) | | | |
-| [0.26.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.26.0.RELEASE/pom) | | | |
-| [0.25.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.25.1.RELEASE/pom) | | | |
-| [0.25.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.25.0.RELEASE/pom) | | | |
-| [0.24.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.7.RELEASE/pom) | | | |
-| [0.24.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.6.RELEASE/pom) | | | |
-| [0.24.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.5.RELEASE/pom) | | | |
-| [0.24.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.4.RELEASE/pom) | | | |
-| [0.24.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.3.RELEASE/pom) | | | |
-| [0.24.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.2.RELEASE/pom) | | | |
-| [0.24.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.1.RELEASE/pom) | | | |
-| [0.24.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.24.0.RELEASE/pom) | | | |
-| [0.23.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.23.0.RELEASE/pom) | | | |
-| [0.22.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.22.2.RELEASE/pom) | | | |
-| [0.22.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.22.1.RELEASE/pom) | | | |
-| [0.22.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.22.0.RELEASE/pom) | | | |
-| [0.21.9.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.9.RELEASE/pom) | | | |
-| [0.21.8.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.8.RELEASE/pom) | | | |
-| [0.21.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.7.RELEASE/pom) | | | |
-| [0.21.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.6.RELEASE/pom) | | | |
-| [0.21.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.5.RELEASE/pom) | | | |
-| [0.21.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.3.RELEASE/pom) | | | |
-| [0.21.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.2.RELEASE/pom) | | | |
-| [0.21.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.1.RELEASE/pom) | | | |
-| [0.21.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.21.0.RELEASE/pom) | | | |
-| [0.20.8.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.8.RELEASE/pom) | | | |
-| [0.20.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.7.RELEASE/pom) | | | |
-| [0.20.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.6.RELEASE/pom) | | | |
-| [0.20.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.5.RELEASE/pom) | | | |
-| [0.20.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.4.RELEASE/pom) | | | |
-| [0.20.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.3.RELEASE/pom) | | | |
-| [0.20.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.2.RELEASE/pom) | | | |
-| [0.20.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.1.RELEASE/pom) | | | |
-| [0.20.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.20.0.RELEASE/pom) | | | |
-| [0.19.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.19.3.RELEASE/pom) | | | |
-| [0.19.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.19.2.RELEASE/pom) | | | |
-| [0.19.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.19.1.RELEASE/pom) | | | |
-| [0.19.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.19.0.RELEASE/pom) | | | |
-| [0.18.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.18.2.RELEASE/pom) | | | |
-| [0.18.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.18.1.RELEASE/pom) | | | |
-| [0.18.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.18.0.RELEASE/pom) | | | |
-| [0.17.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.17.2.RELEASE/pom) | | | |
-| [0.17.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.17.1.RELEASE/pom) | | | |
-| [0.17.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.17.0.RELEASE/pom) | | | |
-| [0.16.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.16.2.RELEASE/pom) | | | |
-| [0.16.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.16.1.RELEASE/pom) | | | |
-| [0.16.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.16.0.RELEASE/pom) | | | |
-| [0.15.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.15.1.RELEASE/pom) | | | |
-| [0.15.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.15.0.RELEASE/pom) | | | |
-| [0.14.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.14.1.RELEASE/pom) | | | |
-| [0.14.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.14.0.RELEASE/pom) | | | |
-| [0.13.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.13.0.RELEASE/pom) | | | |
-| [0.12.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.12.0.RELEASE/pom) | | | |
-| [0.11.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.11.2.RELEASE/pom) | | | |
-| [0.11.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.11.1.RELEASE/pom) | | | |
-| [0.11.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.11.0.RELEASE/pom) | | | |
-| [0.10.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.10.2.RELEASE/pom) | | | |
-| [0.10.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.10.1.RELEASE/pom) | | | |
-| [0.10.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.10.0.RELEASE/pom) | | | |
-| [0.9.14.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.14.RELEASE/pom) | | | |
-| [0.9.13.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.13.RELEASE/pom) | | | |
-| [0.9.12.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.12.RELEASE/pom) | | | |
-| [0.9.11.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.11.RELEASE/pom) | | | |
-| [0.9.10.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.10.RELEASE/pom) | | | |
-| [0.9.9.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.9.RELEASE/pom) | | | |
-| [0.9.8.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.8.RELEASE/pom) | | | |
-| [0.9.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.7.RELEASE/pom) | | | |
-| [0.9.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.6.RELEASE/pom) | | | |
-| [0.9.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.5.RELEASE/pom) | | | |
-| [0.9.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.4.RELEASE/pom) | | | |
-| [0.9.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.3.RELEASE/pom) | | | |
-| [0.9.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.9.2.RELEASE/pom) | | | |
-| [0.8.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.8.5.RELEASE/pom) | | | |
-| [0.8.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.8.0.RELEASE/pom) | | | |
-| [0.7.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.7.0.RELEASE/pom) | | | |
-| [0.6.6.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.6.RELEASE/pom) | | | |
-| [0.6.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.5.RELEASE/pom) | | | |
-| [0.6.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.4.RELEASE/pom) | | | |
-| [0.6.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.3.RELEASE/pom) | | | |
-| [0.6.2.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.2.RELEASE/pom) | | | |
-| [0.6.1.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.1.RELEASE/pom) | | | |
-| [0.6.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.6.0.RELEASE/pom) | | | |
-| [0.5.3.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.5.3.RELEASE/pom) | | | |
-| [0.3.5.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.3.5.RELEASE/pom) | | | |
-| [0.3.4.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.3.4.RELEASE/pom) | | | |
-| [0.3.0.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.3.0.RELEASE/pom) | | | |
+| [0.31.7.RELEASE](https://central.sonatype.com/artifact/com.webauthn4j/webauthn4j-core/0.31.7.RELEASE/pom) | [gradle jdk25](webauthn4j-0.31.7.RELEASE.buildspec) | [result](webauthn4j-core-0.31.7.RELEASE.buildinfo): [21 :white_check_mark: ](webauthn4j-core-0.31.7.RELEASE.buildcompare) | | 1.9M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
