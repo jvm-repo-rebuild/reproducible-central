@@ -1,0 +1,9 @@
+version=3.4
+ok=8
+ko=0
+ignored=0
+okFiles="scram-parent-3.4.pom scram-common-3.4.pom scram-common-3.4.jar scram-common-3.4-sources.jar scram-client-3.4.pom scram-client-3.4.jar scram-client-3.4-sources.jar scram-aggregator-3.4.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
