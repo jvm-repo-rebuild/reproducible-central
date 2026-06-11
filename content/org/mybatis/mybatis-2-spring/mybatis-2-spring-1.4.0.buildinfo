@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-2-spring
+group-id=org.mybatis
+artifact-id=mybatis-2-spring
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/ibatis-spring.git
+source.scm.tag=mybatis-2-spring-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-2-spring-1.4.0.pom
+outputs.0.length=4602
+outputs.0.checksums.sha512=fa6c0a74bf3327e347ff2fc1a426c422d19f6018435d0e185a53fd02fadef966fcf70721410d0a5df1107ca6a2042b2b0a6034e5b155b86a1f19054ecf5c71cb
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-2-spring-1.4.0.jar
+outputs.1.length=29345
+outputs.1.checksums.sha512=1febf9a2a414dc537b7ac722d8b663082310a737dc98cb5c5c42ae45787c8c8f7c612f0bab03822944dc0c8d937e7d67a96c415fce26c3b86a8107b12602b698
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-2-spring-1.4.0-sources.jar
+outputs.2.length=28653
+outputs.2.checksums.sha512=95ec680d004c527cd64cbf0480b39f73b660a6a6a4cb7ebad770352fbb9ed9594d4aa2f44500857841786e832c7aeb1b8a57c1a611b8b03aed3ac4fb6bca3c14
