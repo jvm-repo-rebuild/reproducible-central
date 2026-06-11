@@ -1,0 +1,17 @@
+1 / 1 target/reference/org.apache.tomee/jakartaee-api-11.0.0-M1.zip api/target/jakartaee-api-libs-11.0.0-M1.zip
+--- target/reference/org.apache.tomee/jakartaee-api-11.0.0-M1.zip
++++ api/target/jakartaee-api-libs-11.0.0-M1.zip
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 1749524 bytes, number of entries: 33
+│ --rw-rw-r--  2.0 unx    14299 b- defN 26-May-29 12:26 LICENSE
+│ --rw-rw-r--  2.0 unx      515 b- defN 26-May-29 12:26 NOTICE
+│ +-rw-r--r--  2.0 unx    14299 b- defN 26-May-29 12:26 LICENSE
+│ +-rw-r--r--  2.0 unx      515 b- defN 26-May-29 12:26 NOTICE
+│  -rw-r--r--  2.0 unx      506 b- defN 26-May-29 12:26 README.txt
+│  -rw-r--r--  2.0 unx   153929 b- defN 26-May-29 12:26 jakarta.ws.rs-api-4.0.0.jar
+│  -rw-r--r--  2.0 unx    49787 b- defN 26-May-29 12:26 jakarta.json-api-2.1.1.jar
+│  -rw-r--r--  2.0 unx    36845 b- defN 26-May-29 12:26 jakarta.json.bind-api-3.0.0.jar
+│  -rw-r--r--  2.0 unx    26378 b- defN 26-May-29 12:26 jakarta.annotation-api-3.0.0.jar
+│  -rw-r--r--  2.0 unx    61812 b- defN 26-May-29 12:26 jakarta.ejb-api-4.0.1.jar
+│  -rw-r--r--  2.0 unx    28607 b- defN 26-May-29 12:26 jakarta.transaction-api-2.0.1.jar
