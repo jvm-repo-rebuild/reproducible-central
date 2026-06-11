@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Resource Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.resourceresolver
+version=1.12.14
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-resourceresolver.git
+source.scm.tag=org.apache.sling.resourceresolver-1.12.14
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.8
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.8.0-124-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.resourceresolver-1.12.14.pom
+outputs.0.length=9627
+outputs.0.checksums.sha512=fc9e236c5d8c61d11cfe8dae1f9723a76406281451b0c9396a9a2cb61aebb996bc0cb4dbe876feb999dec007e5f0ac484d86c9855f12d5d5115adfb04494b3ff
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.resourceresolver-1.12.14.jar
+outputs.1.length=294339
+outputs.1.checksums.sha512=04a239f7af735c65a8f4181a2ba25f6531de7afbf9deb4fead37f417fba291beb9e30be487a541532cf4c9013c80c7c792d1afb3e758071aff5891d469ada7a1
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.resourceresolver-1.12.14-source-release.zip
+outputs.2.length=347163
+outputs.2.checksums.sha512=80c906ab4fd80437508a843f9f59eae429bf71666886d01577f269d6ccafe07ec43aefb914e9b3ac42f33b45141bf73ba27470578dcbecf5dbd3ddf595b0b423
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.resourceresolver-1.12.14-sources.jar
+outputs.3.length=196733
+outputs.3.checksums.sha512=6704d2f21e4c12a6340ebdc9acf60307310b3dcb8d7aace4903d3aa078d2b5d5980a6bd88b52a2f1d0e72fef430ea69d875d1e1051515ce8bc09d87fef00b5d5
