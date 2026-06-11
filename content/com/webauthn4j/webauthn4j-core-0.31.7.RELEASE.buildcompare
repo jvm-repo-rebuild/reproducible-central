@@ -1,0 +1,5 @@
+version=0.31.7.RELEASE
+ok=21
+ko=0
+okFiles="webauthn4j-appattest-0.31.7.RELEASE-sources.jar webauthn4j-appattest-0.31.7.RELEASE.jar webauthn4j-appattest-0.31.7.RELEASE.pom webauthn4j-core-async-0.31.7.RELEASE-sources.jar webauthn4j-core-async-0.31.7.RELEASE.jar webauthn4j-core-async-0.31.7.RELEASE.pom webauthn4j-core-0.31.7.RELEASE-sources.jar webauthn4j-core-0.31.7.RELEASE.jar webauthn4j-core-0.31.7.RELEASE.pom webauthn4j-metadata-async-0.31.7.RELEASE-sources.jar webauthn4j-metadata-async-0.31.7.RELEASE.jar webauthn4j-metadata-async-0.31.7.RELEASE.pom webauthn4j-metadata-0.31.7.RELEASE-sources.jar webauthn4j-metadata-0.31.7.RELEASE.jar webauthn4j-metadata-0.31.7.RELEASE.pom webauthn4j-test-0.31.7.RELEASE-sources.jar webauthn4j-test-0.31.7.RELEASE.jar webauthn4j-test-0.31.7.RELEASE.pom webauthn4j-util-0.31.7.RELEASE-sources.jar webauthn4j-util-0.31.7.RELEASE.jar webauthn4j-util-0.31.7.RELEASE.pom"
+koFiles=""
