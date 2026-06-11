@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Avaje Config Toml
+group-id=io.avaje
+artifact-id=avaje-config-toml
+version=5.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:avaje/avaje-config.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-config-toml-5.2.pom
+outputs.0.length=1804
+outputs.0.checksums.sha512=3241cc78e61d95e04a6e1960487656822e4841a10dd621baef44aaf3e7fe82de7a521a52129328e251af506ec64c9c5bf9dda30189c2330cf384b06a96bacfdd
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-config-toml-5.2.jar
+outputs.1.length=3165
+outputs.1.checksums.sha512=99f1a4ee9975fd1dc48534d63616a96ccd11b816f8a87f33c1c690af97c5b13207ea18acb4b6a44e628e41cd0c8f73cc9a2cbc77af43690794b44632df8fc6d5
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-config-toml-5.2-sources.jar
+outputs.2.length=3304
+outputs.2.checksums.sha512=3d905510219e5908e98414b4c96538d0742e146e4cdf7a0ce0df48cae5f12045fddf706f635f149cec689b9c71d730ce42c19c8870fe07299819555a582387f0
