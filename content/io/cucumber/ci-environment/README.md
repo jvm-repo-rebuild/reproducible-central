@@ -13,6 +13,7 @@ rebuilding **6 releases** of io.cucumber:ci-environment:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [14.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/14.0.0/pom) | | | |
 | [13.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/13.0.0/pom) | [mvn jdk21](ci-environment-13.0.0.buildspec) | [result](ci-environment-13.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-13.0.0.buildcompare) | | 33K |
 | [12.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/12.0.0/pom) | [mvn jdk17](ci-environment-12.0.0.buildspec) | [result](ci-environment-12.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-12.0.0.buildcompare) | | 30K |
 | [11.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/11.0.0/pom) | [mvn jdk17](ci-environment-11.0.0.buildspec) | [result](ci-environment-11.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-11.0.0.buildcompare) | | 66K |

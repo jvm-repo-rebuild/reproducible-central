@@ -27,6 +27,7 @@ rebuilding **26 releases** of com.github.psi-probe:psi-probe:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.4.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.4.0/pom) | | | |
 | [5.3.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.3.0/pom) | [mvn jdk21 w](psi-probe-5.3.0.buildspec) | [result](psi-probe-5.3.0.buildinfo): [24 :white_check_mark:  2 :warning:](psi-probe-5.3.0.buildcompare) | 2 :rotating_light: | 42M |
 | [5.2.1](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.2.1/pom) | [mvn jdk21 w](psi-probe-5.2.1.buildspec) | [result](psi-probe-5.2.1.buildinfo): [24 :white_check_mark: ](psi-probe-5.2.1.buildcompare) | | 35M |
 | [5.2.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.2.0/pom) | [mvn jdk21 w](psi-probe-5.2.0.buildspec) | [result](psi-probe-5.2.0.buildinfo): [24 :white_check_mark: ](psi-probe-5.2.0.buildcompare) | | 35M |

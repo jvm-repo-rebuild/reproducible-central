@@ -1,9 +1,18 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/ongres/scram/scram-aggregator-3.3.buildspec:3.4
-content/dev/langchain4j/langchain4j-1.16.1.buildspec:1.16.2
-content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-2.1.0.buildspec:2.2.0
-content/io/airlift/airbase/airbase-385.buildspec:386
-content/io/cucumber/gherkin/gherkin-39.1.0.buildspec:40.0.0
-content/io/cucumber/messages/messages-32.3.1.buildspec:33.0.2
-content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0.1.buildspec:11.0.0-M1
+content/com/github/hazendaz/jmockit/jmockit-2.1.0.buildspec:2.2.0
+content/io/airlift/airbase/airbase-386.buildspec:387
+content/io/avaje/config-toml/avaje-config-toml-5.0.buildspec:5.2
+content/io/cucumber/ci-environment/ci-environment-13.0.0.buildspec:14.0.0
+content/io/cucumber/cucumber-expressions/cucumber-expressions-19.0.1.buildspec:20.0.0
+content/io/cucumber/gherkin-utils/gherkin-utils-11.0.0.buildspec:12.0.0
+content/io/cucumber/html-formatter/html-formatter-23.1.0.buildspec:24.0.0
+content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.13.3.buildspec:0.14.0
+content/io/cucumber/pretty-formatter/pretty-formatter-3.3.1.buildspec:4.0.0
+content/io/cucumber/query/query-15.0.1.buildspec:16.0.0
+content/io/cucumber/tag-expressions/tag-expressions-9.1.0.buildspec:10.0.0
+content/io/github/cbarlin/aru/aru-0.10.0.buildspec:0.10.1
+content/org/apache/commons/parent/commons-parent-101.buildspec:102
+content/org/hibernate/models/hibernate-models/hibernate-models-1.1.1.buildspec:1.2.0
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.4.1.Final.buildspec:4.5.0.CR1
+content/world/convex/convex-0.8.4.buildspec:0.8.5
