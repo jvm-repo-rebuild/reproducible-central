@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gherkin
+group-id=io.cucumber
+artifact-id=gherkin
+version=40.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/gherkin.git
+source.scm.tag=v40.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.1
+java.vendor=Oracle Corporation
+os.name=Linux
+os.version=6.8.0-124-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=gherkin-40.0.0.pom
+outputs.0.length=9900
+outputs.0.checksums.sha512=464e006febe16a43e418a141ba13d3a46e78f6b4387ffa4229bf98891b0484ff26eb6b31f978ee942e38f2cea2219aef2e194551234032b75352ec43919e4b5c
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=gherkin-40.0.0.jar
+outputs.1.length=232856
+outputs.1.checksums.sha512=fdb41bdcd4f09ee851ed6521580531703b3377bda7f1ed0ef48d4d3d49f1229ed833084fcb327750a98dc6590a930aefe5497d8c646588a32353d199aa2d4864
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=gherkin-40.0.0-sources.jar
+outputs.2.length=66286
+outputs.2.checksums.sha512=1f06d63e2699d29659afae0e239e9be03d916f6be3450630d1cc620ffcd280a8b14ef24c6f036b7ff36baae9365ded22b99abf2b556ea6a1003cd950a688d9d4
