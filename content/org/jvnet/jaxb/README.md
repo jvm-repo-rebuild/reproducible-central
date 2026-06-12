@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/highsource/jaxb-tools.git)
 
-<details><summary>This project defines 42 modules:</summary>
+<details><summary>This project defines 43 modules:</summary>
 
 * [org.jvnet.jaxb:hyperjaxb3-ejb](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb/overview)
 * [org.jvnet.jaxb:hyperjaxb3-ejb-extensions](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-extensions/overview)
 * [org.jvnet.jaxb:hyperjaxb3-ejb-extensions-custom-naming](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-extensions-custom-naming/overview)
+* [org.jvnet.jaxb:hyperjaxb3-ejb-extensions-custom-naming-pre_0_6_0](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-extensions-custom-naming-pre_0_6_0/overview)
 * [org.jvnet.jaxb:hyperjaxb3-ejb-extensions-naming](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-extensions-naming/overview)
 * [org.jvnet.jaxb:hyperjaxb3-ejb-plugin](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-plugin/overview)
 * [org.jvnet.jaxb:hyperjaxb3-ejb-roundtrip](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-roundtrip/overview)
@@ -53,10 +54,10 @@ Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/h
 * [org.jvnet.jaxb:jaxb2-basics-tools](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-tools/overview)
 </details>
 
-rebuilding **8 releases** of org.jvnet.jaxb:jaxb-tools-project:
+rebuilding **9 releases** of org.jvnet.jaxb:jaxb-tools-project:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -74,7 +75,7 @@ rebuilding **8 releases** of org.jvnet.jaxb:jaxb-tools-project:
 | [4.0.3](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.3/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.2/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.0/pom) | | | |
-| [3.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.2/pom) | | | |
+| [3.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.2/pom) | [mvn jdk11](jaxb-tools-3.0.2.buildspec) | [result](jaxb-tools-project-3.0.2.buildinfo): [32 :white_check_mark:  38 :warning:](jaxb-tools-project-3.0.2.buildcompare) | 33 :recycle: 5 :rotating_light: | 6.1M |
 | [3.0.1](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.0/pom) | | | |
 | [2.0.16](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/2.0.16/pom) | [mvn jdk8](jaxb-tools-2.0.16.buildspec) | [result](jaxb-tools-project-2.0.16.buildinfo): [70 :white_check_mark: ](jaxb-tools-project-2.0.16.buildcompare) | | 5.0M |
