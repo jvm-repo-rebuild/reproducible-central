@@ -1,0 +1,18 @@
+version=0.31.6.RELEASE
+ok=14
+ko=7
+okFiles="webauthn4j-appattest-0.31.6.RELEASE-sources.jar webauthn4j-appattest-0.31.6.RELEASE.pom webauthn4j-core-async-0.31.6.RELEASE-sources.jar webauthn4j-core-async-0.31.6.RELEASE.pom webauthn4j-core-0.31.6.RELEASE-sources.jar webauthn4j-core-0.31.6.RELEASE.pom webauthn4j-metadata-async-0.31.6.RELEASE-sources.jar webauthn4j-metadata-async-0.31.6.RELEASE.pom webauthn4j-metadata-0.31.6.RELEASE-sources.jar webauthn4j-metadata-0.31.6.RELEASE.pom webauthn4j-test-0.31.6.RELEASE-sources.jar webauthn4j-test-0.31.6.RELEASE.pom webauthn4j-util-0.31.6.RELEASE-sources.jar webauthn4j-util-0.31.6.RELEASE.pom"
+koFiles="webauthn4j-appattest-0.31.6.RELEASE.jar webauthn4j-core-async-0.31.6.RELEASE.jar webauthn4j-core-0.31.6.RELEASE.jar webauthn4j-metadata-async-0.31.6.RELEASE.jar webauthn4j-metadata-0.31.6.RELEASE.jar webauthn4j-test-0.31.6.RELEASE.jar webauthn4j-util-0.31.6.RELEASE.jar"
+# diffoscope central/com/webauthn4j/webauthn4j-appattest/0.31.6.RELEASE/webauthn4j-appattest-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-appattest/0.31.6.RELEASE/webauthn4j-appattest-0.31.6.RELEASE.jar
+# diffoscope central/com/webauthn4j/webauthn4j-core-async/0.31.6.RELEASE/webauthn4j-core-async-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-core-async/0.31.6.RELEASE/webauthn4j-core-async-0.31.6.RELEASE.jar
+# diffoscope central/com/webauthn4j/webauthn4j-core/0.31.6.RELEASE/webauthn4j-core-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-core/0.31.6.RELEASE/webauthn4j-core-0.31.6.RELEASE.jar
+# diffoscope central/com/webauthn4j/webauthn4j-metadata-async/0.31.6.RELEASE/webauthn4j-metadata-async-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-metadata-async/0.31.6.RELEASE/webauthn4j-metadata-async-0.31.6.RELEASE.jar
+# diffoscope central/com/webauthn4j/webauthn4j-metadata/0.31.6.RELEASE/webauthn4j-metadata-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-metadata/0.31.6.RELEASE/webauthn4j-metadata-0.31.6.RELEASE.jar
+# diffoscope central/com/webauthn4j/webauthn4j-test/0.31.6.RELEASE/webauthn4j-test-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-test/0.31.6.RELEASE/webauthn4j-test-0.31.6.RELEASE.jar
+# diffoscope central/com/webauthn4j/webauthn4j-util/0.31.6.RELEASE/webauthn4j-util-0.31.6.RELEASE.jar repository/com/webauthn4j/webauthn4j-util/0.31.6.RELEASE/webauthn4j-util-0.31.6.RELEASE.jar
+stabilize_ok=0
+stabilize_ko=7
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="webauthn4j-appattest-0.31.6.RELEASE.jar.stabilized webauthn4j-core-async-0.31.6.RELEASE.jar.stabilized webauthn4j-core-0.31.6.RELEASE.jar.stabilized webauthn4j-metadata-async-0.31.6.RELEASE.jar.stabilized webauthn4j-metadata-0.31.6.RELEASE.jar.stabilized webauthn4j-test-0.31.6.RELEASE.jar.stabilized webauthn4j-util-0.31.6.RELEASE.jar.stabilized"
+stabilize_ignoredFiles=""
