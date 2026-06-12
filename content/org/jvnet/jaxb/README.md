@@ -54,10 +54,10 @@ Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/h
 * [org.jvnet.jaxb:jaxb2-basics-tools](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-tools/overview)
 </details>
 
-rebuilding **13 releases** of org.jvnet.jaxb:jaxb-tools-project:
+rebuilding **14 releases** of org.jvnet.jaxb:jaxb-tools-project:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 11, 0 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 12, 0 had all their differences removed :recycle:, 12 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -72,7 +72,7 @@ rebuilding **13 releases** of org.jvnet.jaxb:jaxb-tools-project:
 | [4.0.8](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.8/pom) | [mvn jdk11](jaxb-tools-4.0.8.buildspec) | [result](jaxb-tools-project-4.0.8.buildinfo): [32 :white_check_mark:  38 :warning:](jaxb-tools-project-4.0.8.buildcompare) | 25 :recycle: 13 :rotating_light: | 6.6M |
 | [4.0.7](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.7/pom) | [mvn jdk11](jaxb-tools-4.0.7.buildspec) | [result](jaxb-tools-project-4.0.7.buildinfo): [32 :white_check_mark:  38 :warning:](jaxb-tools-project-4.0.7.buildcompare) | 25 :recycle: 13 :rotating_light: | 6.6M |
 | [4.0.6](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.6/pom) | [mvn jdk11](jaxb-tools-4.0.6.buildspec) | [result](jaxb-tools-project-4.0.6.buildinfo): [32 :white_check_mark:  38 :warning:](jaxb-tools-project-4.0.6.buildcompare) | 25 :recycle: 13 :rotating_light: | 6.6M |
-| [4.0.3](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.3/pom) | | | |
+| [4.0.3](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.3/pom) | [mvn jdk11](jaxb-tools-4.0.3.buildspec) | [result](jaxb-tools-project-4.0.3.buildinfo): [32 :white_check_mark:  38 :warning:](jaxb-tools-project-4.0.3.buildcompare) | 25 :recycle: 13 :rotating_light: | 5.5M |
 | [4.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.2/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.0/pom) | | | |
 | [3.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.2/pom) | [mvn jdk11](jaxb-tools-3.0.2.buildspec) | [result](jaxb-tools-project-3.0.2.buildinfo): [32 :white_check_mark:  38 :warning:](jaxb-tools-project-3.0.2.buildcompare) | 33 :recycle: 5 :rotating_light: | 6.1M |
