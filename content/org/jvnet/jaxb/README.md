@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/highsource/jaxb-tools.git)
 
-<details><summary>This project defines 34 modules:</summary>
+<details><summary>This project defines 42 modules:</summary>
 
 * [org.jvnet.jaxb:hyperjaxb3-ejb](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb/overview)
 * [org.jvnet.jaxb:hyperjaxb3-ejb-extensions](https://central.sonatype.com/artifact/org.jvnet.jaxb/hyperjaxb3-ejb-extensions/overview)
@@ -26,6 +26,8 @@ Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/h
 * [org.jvnet.jaxb:jaxb-annotate-plugin-parent](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-annotate-plugin-parent/overview)
 * [org.jvnet.jaxb:jaxb-annox](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-annox/overview)
 * [org.jvnet.jaxb:jaxb-annox-parent](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-annox-parent/overview)
+* [org.jvnet.jaxb:jaxb-basics-annotate](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-basics-annotate/overview)
+* [org.jvnet.jaxb:jaxb-basics-project](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-basics-project/overview)
 * [org.jvnet.jaxb:jaxb-bom](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-bom/overview)
 * [org.jvnet.jaxb:jaxb-bom-parent](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-bom-parent/overview)
 * [org.jvnet.jaxb:jaxb-maven-plugin](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-maven-plugin/overview)
@@ -43,10 +45,16 @@ Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/h
 * [org.jvnet.jaxb:jaxb-tools-bom](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-bom/overview)
 * [org.jvnet.jaxb:jaxb-tools-bom-parent](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-bom-parent/overview)
 * [org.jvnet.jaxb:jaxb-tools-project](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/overview)
+* [org.jvnet.jaxb:jaxb2-basics](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics/overview)
+* [org.jvnet.jaxb:jaxb2-basics-ant](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-ant/overview)
+* [org.jvnet.jaxb:jaxb2-basics-plugins](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-plugins/overview)
+* [org.jvnet.jaxb:jaxb2-basics-runtime](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-runtime/overview)
+* [org.jvnet.jaxb:jaxb2-basics-testing](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-testing/overview)
+* [org.jvnet.jaxb:jaxb2-basics-tools](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb2-basics-tools/overview)
 </details>
 
-rebuilding **7 releases** of org.jvnet.jaxb:jaxb-tools-project:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.jvnet.jaxb:jaxb-tools-project:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -59,5 +67,16 @@ rebuilding **7 releases** of org.jvnet.jaxb:jaxb-tools-project:
 | [4.0.12](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.12/pom) | [mvn jdk21](jaxb-tools-4.0.12.buildspec) | [result](jaxb-tools-project-4.0.12.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.12.buildcompare) [:memo:](https://github.com/highsource/jaxb-tools/issues/642) | 5 :rotating_light: | 6.1M |
 | [4.0.11](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.11/pom) | [mvn jdk11](jaxb-tools-4.0.11.buildspec) | [result](jaxb-tools-project-4.0.11.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.11.buildcompare) [:mag:](jaxb-tools-project-4.0.11.diffoscope) [:memo:](https://github.com/highsource/jaxb-tools/issues/642) | 5 :rotating_light: | 6.1M |
 | [4.0.10](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.10/pom) | [mvn jdk11](jaxb-tools-4.0.10.buildspec) | [result](jaxb-tools-project-4.0.10.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.10.buildcompare) | 5 :rotating_light: | 6.1M |
+| [4.0.9](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.9/pom) | | | |
+| [4.0.8](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.8/pom) | | | |
+| [4.0.7](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.7/pom) | | | |
+| [4.0.6](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.6/pom) | | | |
+| [4.0.3](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.3/pom) | | | |
+| [4.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.2/pom) | | | |
+| [4.0.0](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.0/pom) | | | |
+| [3.0.2](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.2/pom) | | | |
+| [3.0.1](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.1/pom) | | | |
+| [3.0.0](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/3.0.0/pom) | | | |
+| [2.0.16](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/2.0.16/pom) | [mvn jdk8](jaxb-tools-2.0.16.buildspec) | [result](jaxb-tools-project-2.0.16.buildinfo): [70 :white_check_mark: ](jaxb-tools-project-2.0.16.buildcompare) [:memo:](https://github.com/highsource/jaxb-tools/issues/702) | | 5.0M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
