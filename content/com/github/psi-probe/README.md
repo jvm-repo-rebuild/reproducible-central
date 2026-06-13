@@ -20,8 +20,8 @@ Source code: [https://github.com/psi-probe/psi-probe.git](https://github.com/psi
 * [com.github.psi-probe:psi-probe-web](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-web/overview)
 </details>
 
-rebuilding **27 releases** of com.github.psi-probe:psi-probe:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of com.github.psi-probe:psi-probe:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -34,7 +34,7 @@ rebuilding **27 releases** of com.github.psi-probe:psi-probe:
 | [5.1.1](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.1.1/pom) | [mvn jdk22 w](psi-probe-5.1.1.buildspec) | [result](psi-probe-5.1.1.buildinfo): [24 :white_check_mark: ](psi-probe-5.1.1.buildcompare) | | 34M |
 | [5.1.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.1.0/pom) | [mvn jdk22 w](psi-probe-5.1.0.buildspec) | [result](psi-probe-5.1.0.buildinfo): [24 :white_check_mark: ](psi-probe-5.1.0.buildcompare) | | 34M |
 | [5.0.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.0.0/pom) | [mvn jdk22 w](psi-probe-5.0.0.buildspec) | [result](psi-probe-5.0.0.buildinfo): [24 :white_check_mark: ](psi-probe-5.0.0.buildcompare) | | 34M |
-| [4.6.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.6.0/pom) | | | |
+| [4.6.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.6.0/pom) | [mvn jdk25 w](psi-probe-4.6.0.buildspec) | [result](psi-probe-4.6.0.buildinfo): [21 :white_check_mark: ](psi-probe-4.6.0.buildcompare) | | 41M |
 | [4.5.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.5.0/pom) | [mvn jdk21 w](psi-probe-4.5.0.buildspec) | [result](psi-probe-4.5.0.buildinfo): [21 :white_check_mark: ](psi-probe-4.5.0.buildcompare) | | 40M |
 | [4.4.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.4.0/pom) | [mvn jdk21 w](psi-probe-4.4.0.buildspec) | [result](psi-probe-4.4.0.buildinfo): [19 :white_check_mark: ](psi-probe-4.4.0.buildcompare) | | 33M |
 | [4.3.2](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.3.2/pom) | [mvn jdk21 w](psi-probe-4.3.2.buildspec) | [result](psi-probe-4.3.2.buildinfo): [19 :white_check_mark: ](psi-probe-4.3.2.buildcompare) | | 33M |
