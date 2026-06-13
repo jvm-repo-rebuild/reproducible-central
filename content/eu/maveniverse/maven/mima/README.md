@@ -24,8 +24,8 @@ Source code: [https://github.com/maveniverse/mima.git](https://github.com/maveni
 * [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/overview)
 </details>
 
-rebuilding **68 releases** of eu.maveniverse.maven.mima:mima:
-- **64** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **69 releases** of eu.maveniverse.maven.mima:mima:
+- **65** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -33,7 +33,7 @@ rebuilding **68 releases** of eu.maveniverse.maven.mima:mima:
 | [3.0.0-alpha-3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-3/pom) | [mvn jdk21](mima-3.0.0-alpha-3.buildspec) | [result](mima-3.0.0-alpha-3.buildinfo): [27 :white_check_mark: ](mima-3.0.0-alpha-3.buildcompare) | | 33M |
 | [3.0.0-alpha-2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-2/pom) | [mvn jdk21](mima-3.0.0-alpha-2.buildspec) | [result](mima-3.0.0-alpha-2.buildinfo): [27 :white_check_mark: ](mima-3.0.0-alpha-2.buildcompare) | | 33M |
 | [3.0.0-alpha-1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-1/pom) | [mvn jdk21](mima-3.0.0-alpha-1.buildspec) | [result](mima-3.0.0-alpha-1.buildinfo): [27 :white_check_mark: ](mima-3.0.0-alpha-1.buildcompare) | | 26M |
-| [2.4.46](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.46/pom) | | | |
+| [2.4.46](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.46/pom) | [mvn jdk21](mima-2.4.46.buildspec) | [result](mima-2.4.46.buildinfo): [30 :white_check_mark: ](mima-2.4.46.buildcompare) | | 21M |
 | [2.4.45](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.45/pom) | [mvn jdk21](mima-2.4.45.buildspec) | [result](mima-2.4.45.buildinfo): [30 :white_check_mark: ](mima-2.4.45.buildcompare) | | 21M |
 | [2.4.44](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.44/pom) | [mvn jdk21](mima-2.4.44.buildspec) | [result](mima-2.4.44.buildinfo): [30 :white_check_mark: ](mima-2.4.44.buildcompare) | | 21M |
 | [2.4.43](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.43/pom) | [mvn jdk21](mima-2.4.43.buildspec) | [result](mima-2.4.43.buildinfo): [30 :white_check_mark: ](mima-2.4.43.buildcompare) | | 21M |
