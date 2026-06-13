@@ -1,0 +1,62 @@
+1 / 3 target/reference/org.clojure/clojure-1.12.5.jar target/clojure-1.12.5.jar
+├── zipdetails --redact --walk --utc {}
+│ @@ -1,15 +1,15 @@
+│  
+│  000000 LOCAL HEADER #1       04034B50 (67324752)
+│  000004 Extract Zip Spec      0A (10) '1.0'
+│  000005 Extract OS            00 (0) 'MS-DOS'
+│  000006 General Purpose Flag  0800 (2048)
+│         [Bit 11]              1 'Language Encoding'
+│  000008 Compression Method    0000 (0) 'Stored'
+│ -00000A Modification Time     5CAC90F5 (1554813173) 'Tue May 12 18:07:42 2026'
+│ +00000A Modification Time     5CCDA232 (1556980274) 'Sat Jun 13 20:17:36 2026'
+│  00000E CRC                   00000000 (0)
+│  000012 Compressed Size       00000000 (0)
+│  000016 Uncompressed Size     00000000 (0)
+│  00001A Filename Length       0009 (9)
+│  00001C Extra Length          0000 (0)
+│  00001E Filename              'XXXXXXXXX'
+
+2 / 3 target/reference/org.clojure/clojure-1.12.5-slim.jar target/clojure-1.12.5-slim.jar
+--- target/reference/org.clojure/clojure-1.12.5-slim.jar
++++ target/clojure-1.12.5-slim.jar
+├── zipdetails --redact --walk --utc {}
+│ @@ -1,15 +1,15 @@
+│  
+│  000000 LOCAL HEADER #1       04034B50 (67324752)
+│  000004 Extract Zip Spec      0A (10) '1.0'
+│  000005 Extract OS            00 (0) 'MS-DOS'
+│  000006 General Purpose Flag  0800 (2048)
+│         [Bit 11]              1 'Language Encoding'
+│  000008 Compression Method    0000 (0) 'Stored'
+│ -00000A Modification Time     5CAC90F6 (1554813174) 'Tue May 12 18:07:44 2026'
+│ +00000A Modification Time     5CCDA232 (1556980274) 'Sat Jun 13 20:17:36 2026'
+│  00000E CRC                   00000000 (0)
+│  000012 Compressed Size       00000000 (0)
+│  000016 Uncompressed Size     00000000 (0)
+│  00001A Filename Length       0009 (9)
+│  00001C Extra Length          0000 (0)
+│  00001E Filename              'XXXXXXXXX'
+│  #
+
+3 / 3 target/reference/org.clojure/clojure-1.12.5-sources.jar target/clojure-1.12.5-sources.jar
+--- target/reference/org.clojure/clojure-1.12.5-sources.jar
++++ target/clojure-1.12.5-sources.jar
+├── zipdetails --redact --walk --utc {}
+│ @@ -1,15 +1,15 @@
+│  
+│  00000 LOCAL HEADER #1       04034B50 (67324752)
+│  00004 Extract Zip Spec      0A (10) '1.0'
+│  00005 Extract OS            00 (0) 'MS-DOS'
+│  00006 General Purpose Flag  0800 (2048)
+│        [Bit 11]              1 'Language Encoding'
+│  00008 Compression Method    0000 (0) 'Stored'
+│ -0000A Modification Time     5CAC90F6 (1554813174) 'Tue May 12 18:07:44 2026'
+│ +0000A Modification Time     5CCDA233 (1556980275) 'Sat Jun 13 20:17:38 2026'
+│  0000E CRC                   00000000 (0)
+│  00012 Compressed Size       00000000 (0)
+│  00016 Uncompressed Size     00000000 (0)
+│  0001A Filename Length       0009 (9)
+│  0001C Extra Length          0000 (0)
+│  0001E Filename              'XXXXXXXXX'
+│  #
