@@ -1,0 +1,20 @@
+version=1.6.1
+ok=7
+ko=5
+ignored=3
+okFiles="commons-daemon-1.6.1.pom commons-daemon-1.6.1.jar commons-daemon-1.6.1-sources.jar commons-daemon-1.6.1-cyclonedx.xml commons-daemon-1.6.1-cyclonedx.json commons-daemon-1.6.1-bin.tar.gz commons-daemon-1.6.1-bin.zip"
+koFiles="commons-daemon-1.6.1-native-src.tar.gz commons-daemon-1.6.1-native-src.zip commons-daemon-1.6.1-src.tar.gz commons-daemon-1.6.1-src.zip commons-daemon-1.6.1-bin-windows.zip"
+ignoredFiles="commons-daemon-1.6.1-tests.jar commons-daemon-1.6.1-test-sources.jar commons-daemon-1.6.1.spdx.json"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-daemon/commons-daemon-1.6.1-native-src.tar.gz target/commons-daemon-1.6.1-native-src.tar.gz
+# diffoscope target/reference/commons-daemon/commons-daemon-1.6.1-native-src.zip target/commons-daemon-1.6.1-native-src.zip
+# diffoscope target/reference/commons-daemon/commons-daemon-1.6.1-src.tar.gz target/commons-daemon-1.6.1-src.tar.gz
+# diffoscope target/reference/commons-daemon/commons-daemon-1.6.1-src.zip target/commons-daemon-1.6.1-src.zip
+# diffoscope target/reference/commons-daemon/commons-daemon-1.6.1-bin-windows.zip target/commons-daemon-1.6.1-bin-windows.zip
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles="commons-daemon-1.6.1-native-src.zip.stabilized commons-daemon-1.6.1-src.zip.stabilized commons-daemon-1.6.1-bin-windows.zip.stabilized"
+stabilize_ignoredFiles="commons-daemon-1.6.1-native-src.tar.gz commons-daemon-1.6.1-src.tar.gz"
