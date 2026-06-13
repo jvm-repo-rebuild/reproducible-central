@@ -1,0 +1,59 @@
+1 / 3 central/org/hibernate/models/hibernate-models-bytebuddy/1.2.0/hibernate-models-bytebuddy-1.2.0.jar repository/org/hibernate/models/hibernate-models-bytebuddy/1.2.0/hibernate-models-bytebuddy-1.2.0.jar
+--- central/org/hibernate/models/hibernate-models-bytebuddy/1.2.0/hibernate-models-bytebuddy-1.2.0.jar
++++ repository/org/hibernate/models/hibernate-models-bytebuddy/1.2.0/hibernate-models-bytebuddy-1.2.0.jar
+├── zipinfo {}
+│ @@ -1,12 +1,12 @@
+│ -Zip file size: 67550 bytes, number of entries: 59
+│ +Zip file size: 67548 bytes, number of entries: 59
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx       25 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw-r--r--  2.0 unx    11357 b- defN 80-Feb-01 00:00 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      504 b- defN 80-Feb-01 00:00 module-info.class
+│ +-rw-r--r--  2.0 unx      500 b- defN 80-Feb-01 00:00 module-info.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/hibernate/
+│ @@ -54,8 +54,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-r--r--  2.0 unx       64 b- defN 80-Feb-01 00:00 META-INF/services/org.hibernate.models.spi.ModelsContextProvider
+│ -59 files, 154732 bytes uncompressed, 56088 bytes compressed:  63.8%
+│ +59 files, 154728 bytes uncompressed, 56086 bytes compressed:  63.8%
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -12,15 +12,15 @@
+│ │     #3 = Utf8               SourceFile
+│ │     #4 = Utf8               module-info.java
+│ │     #5 = Utf8               Module
+│ │     #6 = Module             #7             // "org.hibernate.models.bytebuddy"
+│ │     #7 = Utf8               org.hibernate.models.bytebuddy
+│ │     #8 = Module             #9             // "java.base"
+│ │     #9 = Utf8               java.base
+│ │ -  #10 = Utf8               25.0.2
+│ │ +  #10 = Utf8               25
+│ │    #11 = Module             #12            // "org.jboss.logging"
+│ │    #12 = Utf8               org.jboss.logging
+│ │    #13 = Utf8               3.6.3.Final
+│ │    #14 = Module             #15            // "net.bytebuddy"
+│ │    #15 = Utf8               net.bytebuddy
+│ │    #16 = Utf8               1.18.10
+│ │    #17 = Module             #18            // "org.hibernate.models"
+│ │ @@ -37,15 +37,15 @@
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #6,0                                    // "org.hibernate.models.bytebuddy"
+│ │    #0
+│ │    4                                       // requires
+│ │      #8,8000                                 // "java.base" ACC_MANDATED
+│ │ -    #10                                     // 25.0.2
+│ │ +    #10                                     // 25
+│ │      #11,0                                   // "org.jboss.logging"
+│ │      #13                                     // 3.6.3.Final
+│ │      #14,0                                   // "net.bytebuddy"
+│ │      #16                                     // 1.18.10
+│ │      #17,20                                  // "org.hibernate.models" ACC_TRANSITIVE
+│ │      #0
+│ │    2                                       // exports
+
+# same issue
+2 / 3 central/org/hibernate/models/hibernate-models-jandex/1.2.0/hibernate-models-jandex-1.2.0.jar repository/org/hibernate/models/hibernate-models-jandex/1.2.0/hibernate-models-jandex-1.2.0.jar
+3 / 3 central/org/hibernate/models/hibernate-models/1.2.0/hibernate-models-1.2.0.jar repository/org/hibernate/models/hibernate-models/1.2.0/hibernate-models-1.2.0.jar
