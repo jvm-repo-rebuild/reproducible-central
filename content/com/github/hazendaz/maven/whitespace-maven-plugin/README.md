@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/whitespace-maven-plugin.git](https://github.com/hazendaz/whitespace-maven-plugin.git)
 
-rebuilding **7 releases** of com.github.hazendaz.maven:whitespace-maven-plugin:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.hazendaz.maven:whitespace-maven-plugin:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.7.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.7.0/pom) | [mvn jdk25 w](whitespace-maven-plugin-1.7.0.buildspec) | [result](whitespace-maven-plugin-1.7.0.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.7.0.buildcompare) | | 157K |
 | [1.6.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.6.0/pom) | [mvn jdk25 w](whitespace-maven-plugin-1.6.0.buildspec) | [result](whitespace-maven-plugin-1.6.0.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.6.0.buildcompare) | | 148K |
 | [1.5.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.5.0/pom) | [mvn jdk21 w](whitespace-maven-plugin-1.5.0.buildspec) | [result](whitespace-maven-plugin-1.5.0.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.5.0.buildcompare) | | 158K |
 | [1.4.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.4.0/pom) | [mvn jdk22 w](whitespace-maven-plugin-1.4.0.buildspec) | [result](whitespace-maven-plugin-1.4.0.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.4.0.buildcompare) | | 153K |
