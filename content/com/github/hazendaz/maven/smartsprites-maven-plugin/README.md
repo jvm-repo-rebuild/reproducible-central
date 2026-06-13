@@ -13,6 +13,7 @@ rebuilding **4 releases** of com.github.hazendaz.maven:smartsprites-maven-plugin
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.5.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/smartsprites-maven-plugin/2.5.0/pom) | | | |
 | [2.4.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/smartsprites-maven-plugin/2.4.1/pom) | [mvn jdk25 w](smartsprites-maven-plugin-2.4.1.buildspec) | [result](smartsprites-maven-plugin-2.4.1.buildinfo): [5 :white_check_mark: ](smartsprites-maven-plugin-2.4.1.buildcompare) | | 172K |
 | [2.4.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/smartsprites-maven-plugin/2.4.0/pom) | [mvn jdk21 w](smartsprites-maven-plugin-2.4.0.buildspec) | [result](smartsprites-maven-plugin-2.4.0.buildinfo): [5 :white_check_mark: ](smartsprites-maven-plugin-2.4.0.buildcompare) | | 178K |
 | [2.3.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/smartsprites-maven-plugin/2.3.0/pom) | [mvn jdk22 w](smartsprites-maven-plugin-2.3.0.buildspec) | [result](smartsprites-maven-plugin-2.3.0.buildinfo): [5 :white_check_mark: ](smartsprites-maven-plugin-2.3.0.buildcompare) | | 171K |

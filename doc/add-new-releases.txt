@@ -1,12 +1,4 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/flowlogix/flowlogix-11.4.buildspec:11.4.1
-content/com/github/hazendaz/jmockit/jmockit-2.1.0.buildspec:2.2.0
-content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.11.1.buildspec:1.12.0
-content/com/github/hazendaz/maven/yuicompressor-maven-plugin/yuicompressor-maven-plugin-2.3.1.buildspec:2.4.0
-content/io/avaje/jex/avaje-jex-3.5.buildspec:3.6
-content/io/cucumber/ci-environment/ci-environment-13.0.0.buildspec:14.0.0
-content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.4.0.buildspec:2.5.0
-content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-4.0.0-M4.buildspec:4.0.0-M5
-content/org/hibernate/models/hibernate-models/hibernate-models-1.1.1.buildspec:1.2.0
-content/world/convex/convex-0.8.4.buildspec:0.8.5
+content/com/github/hazendaz/maven/smartsprites-maven-plugin/smartsprites-maven-plugin-2.4.1.buildspec:2.5.0
+content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.6.0.buildspec:1.7.0
