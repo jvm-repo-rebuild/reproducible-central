@@ -13,8 +13,8 @@ outputs.1.0.length=37803
 outputs.1.0.checksums.sha512=407d138a6d773217b7a2baa051a3c5d700153ea1baebb004e4febafb39141a7608b8f8167a30a7c07ac58d9f3b5a808fd3a3360401acac796fb8b5b52018b66f
 
 outputs.1.1.filename=hibernate-models-bytebuddy-1.2.0.jar
-outputs.1.1.length=67550
-outputs.1.1.checksums.sha512=7ef3db8667df3b0fd21026e92f2fc69c6f5656461b1f20bd7e064c77f89f016cbfaba482295b5099fd4f21659f0479bc8c4b106410dc2dfecc8d8beb168d5d52
+outputs.1.1.length=67548
+outputs.1.1.checksums.sha512=d364b4dec20b0acecf41f1e43b35e6b0162b4d3a8d9aa9ace6cf80eeb6cfe86fcec537f05c52cef00c4f426c2286eac4e008dcf46f09610fadbefd5abc8aa1e9
 
 outputs.1.2.filename=hibernate-models-bytebuddy-1.2.0.pom
 outputs.1.2.length=2493
@@ -28,8 +28,8 @@ outputs.2.0.length=39674
 outputs.2.0.checksums.sha512=f325bd6694931ec034a4e39fdbd688ad76626830bd5fc0cf8aadf286b7e97718abfb7e1ed0915c5eedf548656a46a7fa3c89780695b865d48c8642765de573f3
 
 outputs.2.1.filename=hibernate-models-jandex-1.2.0.jar
-outputs.2.1.length=70961
-outputs.2.1.checksums.sha512=26c0a290db6041c620c4058ffbabd4bbb6b5460bcadf36a464a5f1cd08db9751974f376b9bd5e9e7f9cf6b7916baaaf18fa94966840071c800ee87dfffc1fd86
+outputs.2.1.length=70958
+outputs.2.1.checksums.sha512=57e4f78960d1be217fa744e03478b347f56d976761eb7d318fe0c8b96aa490c11326e11d8c619a21e42ecd183b4d964dea5a18cca1cb6c51ccc3fe6fcd6d743f
 
 outputs.2.2.filename=hibernate-models-jandex-1.2.0.pom
 outputs.2.2.length=2482
@@ -43,8 +43,8 @@ outputs.3.0.length=135703
 outputs.3.0.checksums.sha512=ab926f9d1f310ad55dac27c30589721898cb62b7c8de34e2000fc1823d81a4ca9c310c872e49b36f2113c303183434b712c13352c29b33332a366d57f04c5a35
 
 outputs.3.1.filename=hibernate-models-1.2.0.jar
-outputs.3.1.length=223384
-outputs.3.1.checksums.sha512=538828792b4b2373953495dccb2ee00828c35567cce9f705cf605252fde690c9284b06379842f5b22c86391fad1c5d5f9c3676fa465788538a049b82813ccffa
+outputs.3.1.length=223381
+outputs.3.1.checksums.sha512=fbf353ebea91ea360da27df612bb70a82c56f06288be3724e73bfd209a56c940dbaeb45d8f88e1afe5da2667437f2d1535f0a242bd77a1a6e3c5e415fc765ab3
 
 outputs.3.2.filename=hibernate-models-1.2.0.pom
 outputs.3.2.length=2116

@@ -22,3 +22,5 @@ command="./gradlew --no-daemon clean publishToMavenLocal --no-build-cache -x tes
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
 buildinfo=${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
