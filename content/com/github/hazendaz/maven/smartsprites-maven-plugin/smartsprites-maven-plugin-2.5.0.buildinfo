@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=smartsprites-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=smartsprites-maven-plugin
+version=2.5.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/smartsprites-maven-plugin.git
+source.scm.tag=smartsprites-maven-plugin-2.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=smartsprites-maven-plugin-2.5.0.pom
+outputs.0.length=6427
+outputs.0.checksums.sha512=4a92166526a51b55953bb7fae2aaa8318e7b298d443e177d31c4878f632e5b4de822f34fd13fa295e50994b80ca8677ba714d47f17af5e56ff9ecc6e79228157
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=smartsprites-maven-plugin-2.5.0.jar
+outputs.1.length=20978
+outputs.1.checksums.sha512=aa30907a03b4a1a98d1c5c8841de0a4186151eec4a6ecf25ffe75d7426f8a7abaf1723186a6c7a26a959cd0e58a0d08344f90313e292c35eda2259e8514d2943
+# ignored smartsprites-maven-plugin-2.5.0-tests.jar
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=smartsprites-maven-plugin-2.5.0-sources.jar
+outputs.2.length=12211
+outputs.2.checksums.sha512=08be49e65e3e714c23a3e893f60e3fcc1efbbdfecadee9418cbd21fc775d1037986c7f78694933ec7418892842182e68174b39fd2e64a9e9ac142df99e481f18
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=smartsprites-maven-plugin-2.5.0-test-sources.jar
+outputs.3.length=7330
+outputs.3.checksums.sha512=5a1304a6292c9cec7e575bbdafa6c7c705cf913fcded4bb7d0204fe0449896008b9b77f190effdccd46eb05b79bc49c777098c801c7d87520e73534a1ae9cf18
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=smartsprites-maven-plugin-2.5.0-cyclonedx.xml
+outputs.4.length=115502
+outputs.4.checksums.sha512=83ef03b979d9acc392e740b3824dacddb42a331156b28c980b7d1fd0d455e02601aeed5e4433e1b57c4d2abe204681029cc6c7aa592b5db501f18c5f0fc40c0b
+
+outputs.5.groupId=com.github.hazendaz.maven
+outputs.5.filename=smartsprites-maven-plugin-2.5.0-cyclonedx.json
+outputs.5.length=128263
+outputs.5.checksums.sha512=6c521a48f6602280ad87c3c4adc4257044218a8d3057db9bad05574b484198f5181f8670a2e422c00151d75dff390d495ac0fbdcaa61a120165034552daa94d8
