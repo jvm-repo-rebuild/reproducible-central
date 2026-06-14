@@ -1,0 +1,9 @@
+version=2.5.0
+ok=6
+ko=0
+ignored=1
+okFiles="smartsprites-maven-plugin-2.5.0.pom smartsprites-maven-plugin-2.5.0.jar smartsprites-maven-plugin-2.5.0-sources.jar smartsprites-maven-plugin-2.5.0-test-sources.jar smartsprites-maven-plugin-2.5.0-cyclonedx.xml smartsprites-maven-plugin-2.5.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="smartsprites-maven-plugin-2.5.0-tests.jar"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
