@@ -1,0 +1,233 @@
+1 / 2 target/reference/org.clojure/test.check-1.1.3.jar target/test.check-1.1.3.jar
+--- target/reference/org.clojure/test.check-1.1.3.jar
++++ target/test.check-1.1.3.jar
+├── zipnote «TEMP»/diffoscope_0iq15tjq_target/tmpx4mhkrf5_.zip
+│ @@ -9,75 +9,75 @@
+│  
+│  Filename: clojure/test/
+│  Comment: 
+│  
+│  Filename: clojure/test/check/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/
+│ +Filename: clojure/test/check/clojure_test/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/longs/
+│ +Filename: clojure/test/check/clojure_test/assertions/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/
+│ +Filename: clojure/test/check/random/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/assertions/
+│ +Filename: clojure/test/check/random/longs/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/test.check/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random.cljs
+│ +Filename: clojure/test/check.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/doubles.cljs
+│ +Filename: clojure/test/check/rose_tree.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/longs/bit_count_impl.cljs
+│ +Filename: clojure/test/check/clojure_test/assertions.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/longs.cljs
+│ +Filename: clojure/test/check/clojure_test/assertions/cljs.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random.clj
+│ +Filename: clojure/test/check/random/longs/bit_count_impl.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test.cljc
+│ +Filename: clojure/test/check/random/longs.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/assertions/cljs.cljc
+│ +Filename: clojure/test/check/random/doubles.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/assertions.cljc
+│ +Filename: clojure/test/check/generators.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/results.cljc
+│ +Filename: clojure/test/check/properties.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/generators.cljc
+│ +Filename: clojure/test/check/random.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/impl.cljc
+│ +Filename: clojure/test/check/clojure_test.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/properties.cljc
+│ +Filename: clojure/test/check/random.clj
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/rose_tree.cljc
+│ +Filename: clojure/test/check/impl.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check.cljc
+│ +Filename: clojure/test/check/results.cljc
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/test.check/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/test.check/pom.properties
+│  Comment:
+├── zipdetails --redact --walk --utc {}
+│ @@ -1,15 +1,15 @@
+│  
+│  0000 LOCAL HEADER #1       04034B50 (67324752)
+│  0004 Extract Zip Spec      0A (10) '1.0'
+│  0005 Extract OS            00 (0) 'MS-DOS'
+│  0006 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│  0008 Compression Method    0000 (0) 'Stored'
+│ -000A Modification Time     5B9E9A94 (1537120916) 'Tue Dec 30 19:20:40 2025'
+│ +000A Modification Time     5CCEB833 (1557051443) 'Sun Jun 14 23:01:38 2026'
+│  000E CRC                   00000000 (0)
+│  0012 Compressed Size       00000000 (0)
+│  0016 Uncompressed Size     00000000 (0)
+│  001A Filename Length       0009 (9)
+│  001C Extra Length          0000 (0)
+│  001E Filename              'XXXXXXXXX'
+│  #
+
+2 / 2 target/reference/org.clojure/test.check-1.1.3-sources.jar target/test.check-1.1.3-sources.jar
+--- target/reference/org.clojure/test.check-1.1.3-sources.jar
++++ target/test.check-1.1.3-sources.jar
+├── zipnote «TEMP»/diffoscope__gm2amk2_target/tmp122n_qjg_.zip
+│ @@ -9,75 +9,75 @@
+│  
+│  Filename: clojure/test/
+│  Comment: 
+│  
+│  Filename: clojure/test/check/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/
+│ +Filename: clojure/test/check/clojure_test/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/longs/
+│ +Filename: clojure/test/check/clojure_test/assertions/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/
+│ +Filename: clojure/test/check/random/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/assertions/
+│ +Filename: clojure/test/check/random/longs/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/test.check/
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random.cljs
+│ +Filename: clojure/test/check.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/doubles.cljs
+│ +Filename: clojure/test/check/rose_tree.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/longs/bit_count_impl.cljs
+│ +Filename: clojure/test/check/clojure_test/assertions.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random/longs.cljs
+│ +Filename: clojure/test/check/clojure_test/assertions/cljs.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/random.clj
+│ +Filename: clojure/test/check/random/longs/bit_count_impl.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test.cljc
+│ +Filename: clojure/test/check/random/longs.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/assertions/cljs.cljc
+│ +Filename: clojure/test/check/random/doubles.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/clojure_test/assertions.cljc
+│ +Filename: clojure/test/check/generators.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/results.cljc
+│ +Filename: clojure/test/check/properties.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/generators.cljc
+│ +Filename: clojure/test/check/random.cljs
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/impl.cljc
+│ +Filename: clojure/test/check/clojure_test.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/properties.cljc
+│ +Filename: clojure/test/check/random.clj
+│  Comment: 
+│  
+│ -Filename: clojure/test/check/rose_tree.cljc
+│ +Filename: clojure/test/check/impl.cljc
+│  Comment: 
+│  
+│ -Filename: clojure/test/check.cljc
+│ +Filename: clojure/test/check/results.cljc
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/test.check/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.clojure/test.check/pom.properties
+│  Comment:
+├── zipdetails --redact --walk --utc {}
+│ @@ -1,15 +1,15 @@
+│  
+│  0000 LOCAL HEADER #1       04034B50 (67324752)
+│  0004 Extract Zip Spec      0A (10) '1.0'
+│  0005 Extract OS            00 (0) 'MS-DOS'
+│  0006 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│  0008 Compression Method    0000 (0) 'Stored'
+│ -000A Modification Time     5B9E9A95 (1537120917) 'Tue Dec 30 19:20:42 2025'
+│ +000A Modification Time     5CCEB833 (1557051443) 'Sun Jun 14 23:01:38 2026'
+│  000E CRC                   00000000 (0)
+│  0012 Compressed Size       00000000 (0)
+│  0016 Uncompressed Size     00000000 (0)
+│  001A Filename Length       0009 (9)
+│  001C Extra Length          0000 (0)
+│  001E Filename              'XXXXXXXXX'
+│  #

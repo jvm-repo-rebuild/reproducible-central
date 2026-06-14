@@ -1,0 +1,18 @@
+groupId=org.clojure
+artifactId=test.check
+display=${groupId}:${artifactId}
+version=1.1.3
+
+gitRepo=https://github.com/clojure/test.check.git
+gitTag=v${version}
+
+tool=mvn-3.9.11
+jdk=8
+newline=lf
+umask=022
+
+command="mvn -ntp -B clean package -Dmaven.test.skip=true -Dmaven.javadoc.skip -Dgpg.skip source:jar"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
