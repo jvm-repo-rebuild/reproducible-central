@@ -22,10 +22,9 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260613201315 --> [smartsprites-maven-plugin](../content/com/github/hazendaz/maven/smartsprites-maven-plugin/README.md) | [2.4.1](../content/com/github/hazendaz/maven/smartsprites-maven-plugin/smartsprites-maven-plugin-2.4.1.buildspec) :white_check_mark: | [2.5.0](../content/com/github/hazendaz/maven/smartsprites-maven-plugin/smartsprites-maven-plugin-2.5.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/smartsprites-maven-plugin/smartsprites-maven-plugin-2.4.1.buildspec 2.5.0` |
-| <!-- 20260613062555 --> [psi-probe](../content/com/github/psi-probe/README.md) | [5.4.0](../content/com/github/psi-probe/psi-probe-5.4.0.buildspec) :white_check_mark: | 4.6.0  | `bin/add-new-release.sh content/com/github/psi-probe/psi-probe-5.4.0.buildspec ...` |
-| <!-- 20260613062541 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | [1.6.0](../content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.6.0.buildspec) :white_check_mark: | [1.7.0](../content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.7.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.6.0.buildspec 1.7.0` |
-| <!-- 20260611145812 --> [avaje-config](../content/io/avaje/config/README.md) | [5.2](../content/io/avaje/config/avaje-config-5.2.buildspec) :white_check_mark: | 5.2-RC1  | `bin/add-new-release.sh content/io/avaje/config/avaje-config-5.2.buildspec ...` |
+| <!-- 20260614085915 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | [2.12.1](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.12.1.buildspec) :white_check_mark: | [2.12.2](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.12.2.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/javabean-tester/javabean-tester-2.12.1.buildspec 2.12.2` |
+| <!-- 20260614003716 --> [sitemesh](../content/com/github/hazendaz/sitemesh/README.md) | [2.6.2](../content/com/github/hazendaz/sitemesh/sitemesh-2.6.2.buildspec) :white_check_mark: | [2.7.0](../content/com/github/hazendaz/sitemesh/sitemesh-2.7.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/sitemesh/sitemesh-2.6.2.buildspec 2.7.0` |
+| <!-- 20260614003716 --> [sitemesh](../content/com/github/hazendaz/sitemesh/README.md) | [2.6.2](../content/com/github/hazendaz/sitemesh/sitemesh-2.6.2.buildspec) :white_check_mark: | 2.5.6  | `bin/add-new-release.sh content/com/github/hazendaz/sitemesh/sitemesh-2.6.2.buildspec ...` |
 | <!-- 20260603135540 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.18.10-jdk5](../content/net/bytebuddy/byte-buddy-1.18.10-jdk5.buildspec) :white_check_mark: | 1.18.10 1.18.9 1.18.8 1.18.7-jdk5 1.18.6-jdk6-jdk5 1.18.6-jdk5  | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.18.10-jdk5.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -37,6 +36,7 @@ Apache Release Candidate in Staging https://repository.apache.org
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20260610193222 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.resourceresolver](../content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | [2.0.2](../content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-2.0.2.buildspec) :white_check_mark: | [2.0.4](../content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-2.0.4.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-2.0.2.buildspec 2.0.4 staging` |
 | <!-- 20260602060241 --> [:mailbox:](https://lists.apache.org/list?dev@mina.apache.org:lte=1M:VOTE) | [mina-parent](../content/org/apache/mina/README.md) | [2.2.8](../content/org/apache/mina/mina-2.2.8.buildspec) :white_check_mark: | [2.2.9](../content/org/apache/mina/mina-2.2.9.buildspec)  | `bin/add-new-release.sh content/org/apache/mina/mina-2.2.8.buildspec 2.2.9 staging` |
+| <!-- 20260529053627 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-project](../content/org/apache/struts/README.md) | [7.1.1](../content/org/apache/struts/struts2-7.1.1.buildspec) :white_check_mark: | [7.2.0](../content/org/apache/struts/struts2-7.2.0.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-7.1.1.buildspec 7.2.0 staging` |
 | <!-- 20260513021215 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [1.3.1](../content/org/apache/paimon/paimon-parent-1.3.1.buildspec) :warning: [:memo:](https://github.com/apache/paimon/issues/6557) | [1.4.2](../content/org/apache/paimon/paimon-parent-1.4.2.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-1.3.1.buildspec 1.4.2 staging` |
 | <!-- 20260427075208 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20260220082543 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [slingfeature-maven-plugin](../content/org/apache/sling/slingfeature-maven-plugin/README.md) | [1.9.4](../content/org/apache/sling/slingfeature-maven-plugin/slingfeature-maven-plugin-1.9.4.buildspec) :white_check_mark: | [1.9.6](../content/org/apache/sling/slingfeature-maven-plugin/slingfeature-maven-plugin-1.9.6.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/slingfeature-maven-plugin/slingfeature-maven-plugin-1.9.4.buildspec 1.9.6 staging` |
@@ -50,6 +50,8 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260614192912 --> [avaje-metrics-parent](../content/io/avaje/metrics/README.md) | [9.16-RC8](../content/io/avaje/metrics/avaje-metrics-9.16-RC8.buildspec) :warning: | [9.16-RC9](../content/io/avaje/metrics/avaje-metrics-9.16-RC9.buildspec) | `bin/add-new-release.sh content/io/avaje/metrics/avaje-metrics-9.16-RC8.buildspec 9.16-RC9` |
+| <!-- 20260614131402 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.37](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.37.buildspec) :x: | [1.9.38](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.38.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.37.buildspec 1.9.38` |
 | <!-- 20260610054529 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.131.0](../content/org/finos/legend/engine/legend-engine-4.131.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.131.0` |
 | <!-- 20260609214727 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | [4.9.8.3](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.8.3.buildspec) :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | [4.10.2.0](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.10.2.0.buildspec) | `bin/add-new-release.sh content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.8.3.buildspec 4.10.2.0` |
 | <!-- 20260609142919 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.3.10](../content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec) :x: | [3.5.4](../content/com/hibegin/zrlog-base/zrlog-base-3.5.4.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec 3.5.4` |
@@ -89,7 +91,6 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20260612032942 --> [avaje-metrics-parent](../content/io/avaje/metrics/README.md) | 9.16-RC8 :warning: |
 | <!-- 20260611193114 --> [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 1.2.0 :warning: |
 | <!-- 20260611192538 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.6.1 :warning: |
 | <!-- 20260610074747 --> [quarkus-project](../content/io/quarkus/README.md) | 3.37.0.CR1 :warning: |
@@ -113,6 +114,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260518072422 --> [shiro-root](../content/org/apache/shiro/README.md) | 3.0.0-alpha-1 :warning: |
 | <!-- 20260518014721 --> [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 2.4.0 :warning: |
 | <!-- 20260512184128 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
+| <!-- 20260512181318 --> [clojure](../content/org/clojure/README.md) | 1.12.5 :warning: |
 | <!-- 20260512110215 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.7.0 :warning: |
 | <!-- 20260510210527 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.14 :warning: |
 | <!-- 20260509222314 --> [johnzon](../content/org/apache/johnzon/README.md) | 2.1.0 :x: |
@@ -123,7 +125,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260503111321 --> [dependency-check-parent](../content/org/owasp/dependency-check/README.md) | 12.2.2 :warning: |
 | <!-- 20260430195444 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.11 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
 | <!-- 20260430165307 --> [jreleaser](../content/org/jreleaser/README.md) | 1.24.0 :warning: |
-| <!-- 20260428173946 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.37 :x: |
 | <!-- 20260428135328 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.17.0 :warning: |
 | <!-- 20260427115930 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.13 :warning: |
 | <!-- 20260427111138 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.20 :warning: |
