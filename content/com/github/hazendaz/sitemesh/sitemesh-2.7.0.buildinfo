@@ -1,0 +1,62 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=sitemesh
+group-id=com.github.hazendaz
+artifact-id=sitemesh
+version=2.7.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/sitemesh2.git
+source.scm.tag=sitemesh-2.7.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=sitemesh-2.7.0.pom
+outputs.0.length=6133
+outputs.0.checksums.sha512=239a77c7003b51554e8005a527a9ac754a3ec85f760f38e0d15ca53dc38affddc22331fdf392c8323d954dc0afcbd6674fc7dadb57b676668dd08e5e11014bbd
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=sitemesh-2.7.0.jar
+outputs.1.length=223878
+outputs.1.checksums.sha512=9487a744f940ca347aadfa917452eca3192bb9cebb1bdfe58091ca582f5d35b6d7c8bfa3ad697a863abc9e67e1c7c1c60114acc5b40a1465f1111828058b73b0
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=sitemesh-2.7.0-tests.jar
+outputs.2.length=40602
+outputs.2.checksums.sha512=98717ba1a290a293bb19fae7c114aa1daad8e4ee950c2f77097f010bf22079a3c8a3363a79a25f782bd224ceaa154ebf1ff99ca37845013130cfb206110e417f
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=sitemesh-2.7.0-sources.jar
+outputs.3.length=184800
+outputs.3.checksums.sha512=e8ed7d3a6d267d0a03b23993146ddf71dcec2dfa3235c1987739388e9e12ae74a9d2af86fd16059c2cc2144953f8a3e830bb9345a48716e61547610dd9670817
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=sitemesh-2.7.0-test-sources.jar
+outputs.4.length=22877
+outputs.4.checksums.sha512=e328d5ceb779b0bb6663e306bd52604f1dbd7d941d447af41d543e6c6264dfa6c6baba2abf68ac0b10c9a3a80e5b87698741418b33827178cffeb7e9ba776a6b
+
+outputs.5.groupId=com.github.hazendaz
+outputs.5.filename=sitemesh-2.7.0-cyclonedx.xml
+outputs.5.length=27851
+outputs.5.checksums.sha512=f1971bbdf1fcafd528bffda161c992d00929c20e47a03784e035b8f529de5f99a619286bbbe91545097035511faf1fdfe010dbf9a048341e97d0502a5bde3f13
+
+outputs.6.groupId=com.github.hazendaz
+outputs.6.filename=sitemesh-2.7.0-cyclonedx.json
+outputs.6.length=31748
+outputs.6.checksums.sha512=8a2daea62bc5dc40d8f214600400d456dfbac93214f63b4c0f9277bec6ecf5985f7aaf7d33eb24bfbdd2a461465cf09f91610721bbd8000f47daf203bc2b23ca
