@@ -1,0 +1,9 @@
+version=2.5.6
+ok=7
+ko=0
+ignored=0
+okFiles="sitemesh-2.5.6.pom sitemesh-2.5.6.jar sitemesh-2.5.6-tests.jar sitemesh-2.5.6-sources.jar sitemesh-2.5.6-test-sources.jar sitemesh-2.5.6-cyclonedx.xml sitemesh-2.5.6-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
