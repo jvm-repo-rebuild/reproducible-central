@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/eclipse-ee4j/glassfish.git)
 
-<details><summary>This project defines 307 modules:</summary>
+<details><summary>This project defines 309 modules:</summary>
 
 * [org.glassfish.docs:distribution](https://central.sonatype.com/artifact/org.glassfish.docs/distribution/overview)
 * [org.glassfish.docs:docs](https://central.sonatype.com/artifact/org.glassfish.docs/docs/overview)
@@ -46,6 +46,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.admingui:console-jdbc-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-jdbc-plugin/overview)
 * [org.glassfish.main.admingui:console-jms-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-jms-plugin/overview)
 * [org.glassfish.main.admingui:console-jts-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-jts-plugin/overview)
+* [org.glassfish.main.admingui:console-mail-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-mail-plugin/overview)
 * [org.glassfish.main.admingui:console-plugin-service](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-plugin-service/overview)
 * [org.glassfish.main.admingui:console-web-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-web-plugin/overview)
 * [org.glassfish.main.admingui:dataprovider](https://central.sonatype.com/artifact/org.glassfish.main.admingui/dataprovider/overview)
@@ -146,6 +147,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.extras:bootstrap](https://central.sonatype.com/artifact/org.glassfish.main.extras/bootstrap/overview)
 * [org.glassfish.main.extras:command-logger](https://central.sonatype.com/artifact/org.glassfish.main.extras/command-logger/overview)
 * [org.glassfish.main.extras:embedded](https://central.sonatype.com/artifact/org.glassfish.main.extras/embedded/overview)
+* [org.glassfish.main.extras:embedded-tests-extras](https://central.sonatype.com/artifact/org.glassfish.main.extras/embedded-tests-extras/overview)
 * [org.glassfish.main.extras:extras](https://central.sonatype.com/artifact/org.glassfish.main.extras/extras/overview)
 * [org.glassfish.main.extras:glassfish-embedded-all](https://central.sonatype.com/artifact/org.glassfish.main.extras/glassfish-embedded-all/overview)
 * [org.glassfish.main.extras:glassfish-embedded-common](https://central.sonatype.com/artifact/org.glassfish.main.extras/glassfish-embedded-common/overview)
@@ -318,18 +320,18 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main:test-utils](https://central.sonatype.com/artifact/org.glassfish.main/test-utils/overview)
 </details>
 
-rebuilding **33 releases** of org.glassfish.main:glassfish-parent:
+rebuilding **35 releases** of org.glassfish.main:glassfish-parent:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 27 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 29 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [9.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M2/pom) | | | |
 | [9.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M1/pom) | | | |
 | [8.0.3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.3/pom) | | | |
-| [8.0.2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.2/pom) | | | |
-| [8.0.1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.1/pom) | | | |
+| [8.0.2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.2/pom) | [mvn jdk21](glassfish-8.0.2.buildspec) | [result](glassfish-main-aggregator-8.0.2.buildinfo): [755 :white_check_mark:  5 :warning:](glassfish-main-aggregator-8.0.2.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | 5 :rotating_light: | 485M |
+| [8.0.1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.1/pom) | [mvn jdk21](glassfish-8.0.1.buildspec) | :x: | |
 | [8.0.0-JDK17-M12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M12/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M12.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M12.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M12.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-JDK17-M12.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | 5 :rotating_light: 6 :no_entry_sign: | 550M |
 | [8.0.0-JDK17-M10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M10/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M10.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M10.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M10.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | - | 542M |
 | [8.0.0-JDK17-M9](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M9/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M9.buildspec) | :x: | |
