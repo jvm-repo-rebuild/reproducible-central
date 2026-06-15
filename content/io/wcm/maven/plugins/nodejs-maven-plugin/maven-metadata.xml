@@ -3,8 +3,8 @@
   <groupId>io.wcm.maven.plugins</groupId>
   <artifactId>nodejs-maven-plugin</artifactId>
   <versioning>
-    <latest>3.0.8</latest>
-    <release>3.0.8</release>
+    <latest>3.1.0</latest>
+    <release>3.1.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
@@ -18,7 +18,8 @@
       <version>3.0.4</version>
       <version>3.0.6</version>
       <version>3.0.8</version>
+      <version>3.1.0</version>
     </versions>
-    <lastUpdated>20240604094419</lastUpdated>
+    <lastUpdated>20260615181949</lastUpdated>
   </versioning>
 </metadata>
