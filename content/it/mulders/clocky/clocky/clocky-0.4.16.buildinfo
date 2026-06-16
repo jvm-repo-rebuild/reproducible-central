@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Clocky
+group-id=it.mulders.clocky
+artifact-id=clocky
+version=0.4.16
+
+# source information
+source.scm.uri=scm:git:https://github.com/mthmulders/clocky.git
+source.scm.tag=v0.4.16
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.31
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.15
+
+# output
+
+outputs.0.groupId=it.mulders.clocky
+outputs.0.filename=clocky-0.4.16.pom
+outputs.0.length=18417
+outputs.0.checksums.sha512=c6e91bd41ff76e351d8c9b2803fe69274751d04c82eae9840e0afc68f7c5294cf93ebd7880877b27109f3ad85ede8bf8294dd28937e59427edc19c93fc58a5d4
+
+outputs.1.groupId=it.mulders.clocky
+outputs.1.filename=clocky-0.4.16.jar
+outputs.1.length=6496
+outputs.1.checksums.sha512=d469ea15eed003440f1633a8d258b53991f64bbd968f136a2ae812e8d3652eb28a4b489a9c9057eee1f5ba6affccfa8f7890f5c2a3e881fea3d05e31fcd8e454
+
+outputs.2.groupId=it.mulders.clocky
+outputs.2.filename=clocky-0.4.16-sources.jar
+outputs.2.length=6167
+outputs.2.checksums.sha512=0c0f4e38ea34720837f112b5891976d8d5d8d1af58b9d7b88ca5d9810d6059149c41711a557463f99bb74032bcdf84bd2ec1fc45a39582804ec9804ace60582b
