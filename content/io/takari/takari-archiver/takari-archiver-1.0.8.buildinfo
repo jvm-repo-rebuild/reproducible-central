@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Provisio :: Archiver
+group-id=io.takari
+artifact-id=takari-archiver
+version=1.0.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:jvanzyl/provisio-archiver.git
+source.scm.tag=takari-archiver-1.0.8
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.takari
+outputs.0.filename=takari-archiver-1.0.8.pom
+outputs.0.length=3527
+outputs.0.checksums.sha512=567e1b785ccddadd7c18f100e1b3f55b5905036a377d8d2e4f4f6ac5d2643f08958a3b984fbbf26a05f6a2448b956ee7811bc38f2fd2b3977b67fcaa6839b96a
+
+outputs.1.groupId=io.takari
+outputs.1.filename=takari-archiver-1.0.8.jar
+outputs.1.length=57966
+outputs.1.checksums.sha512=c086635493860e22e767aedd6ef6474c67bfeeb2673a29526ea2bdbc84363b74b7490004de46b567667255d79f23aa3e9a5588039ae4ddf09da60d7f20636af5
+
+outputs.2.groupId=io.takari
+outputs.2.filename=takari-archiver-1.0.8-sources.jar
+outputs.2.length=35511
+outputs.2.checksums.sha512=9acd6ed0518fdb5f6346d3a0dc4fca4d8384be9ee33ee8659f9ffa85f7a1c0a31c488688929f80c41bdb31cc9045b02c8334a3a65ae99676d60b274784139360
