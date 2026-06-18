@@ -7,9 +7,9 @@ gitRepo=https://github.com/langchain4j/langchain4j.git
 gitTag=${version}
 gitTag=005ffda6fcff227ae7033ef787e9237f2353281f
 
-tool=mvn-3.9.11
+tool=mvn-3.9.12
 jdk=21
-newline=lf
+newline=crlf
 #umask=022
 
 # SHELL required because langchain4j/pom.xml defines a local directory as repository: it does not get mirrored in settings.xml
