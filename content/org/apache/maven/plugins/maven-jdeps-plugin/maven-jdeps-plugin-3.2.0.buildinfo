@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JDeps Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jdeps-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jdeps-plugin.git
+source.scm.tag=maven-jdeps-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-jdeps-plugin-3.2.0.pom
+outputs.0.length=4301
+outputs.0.checksums.sha512=d012a8de87aac508f19736f5d6f4c1934c5f635e9696d5e1ca1f0bec5420356cc77d96b322da1e5817bfdd24ff308373b37f8b26744dbf35233af6bd498f346e
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-jdeps-plugin-3.2.0.jar
+outputs.1.length=31233
+outputs.1.checksums.sha512=c2065dc7aac0604e86cabde9f4a323df085e5843e54c760d2f52d0b3e5970ee5fc980e0270b1e1730ba03e484b03bb32d9c9e5e396c7400d42e69241c088d3f2
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-jdeps-plugin-3.2.0-source-release.zip
+outputs.2.length=72191
+outputs.2.checksums.sha512=97e81f4b8e5e1c3ca47369b44d40f66755d74ce5e8e2fad1316053b56909694c8788c2ca2d06c88cbe8e06a1c4519842053e7a18024e66cc2b50a0a0460b20ab
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-jdeps-plugin-3.2.0-sources.jar
+outputs.3.length=20957
+outputs.3.checksums.sha512=1b42c0af50751e75026703fdb41888499c5db90fc9723be8bf934667c682a17931fc54a48b6cd270faa75b13db777a17d925501c9727f9b8c52fe1d3e026b413
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-jdeps-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=97139
+outputs.4.checksums.sha512=ae8b5aeec14a97b66165a014810ed0868c08d396a1f0b121f85367afe345e2320dfa54b8f706272db20c5c6c2bf268054d548d785223d78f76f2260410a989db
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-jdeps-plugin-3.2.0-cyclonedx.json
+outputs.5.length=105521
+outputs.5.checksums.sha512=f67defb6fbf4991d4bffaf85938f20ee4d49ff2046e3715d5374a6af0238973cd069ba2bbd759c485d039da55676a783cc923176beb0e86ecf54360eea756837
