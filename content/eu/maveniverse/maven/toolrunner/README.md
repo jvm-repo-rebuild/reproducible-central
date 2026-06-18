@@ -22,8 +22,8 @@ Source code: [https://github.com/maveniverse/toolrunner.git](https://github.com/
 * [eu.maveniverse.maven.toolrunner:toolrunner](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/overview)
 </details>
 
-rebuilding **1 releases** of eu.maveniverse.maven.toolrunner:toolrunner:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of eu.maveniverse.maven.toolrunner:toolrunner:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -37,7 +37,7 @@ rebuilding **1 releases** of eu.maveniverse.maven.toolrunner:toolrunner:
 | [0.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.1/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.0/pom) | | | |
 | [0.1.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.1.2/pom) | | | |
-| [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.1.1/pom) | | | |
+| [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.1.1/pom) | [mvn jdk21](toolrunner-0.1.1.buildspec) | [result](toolrunner-0.1.1.buildinfo): [29 :white_check_mark: ](toolrunner-0.1.1.buildcompare) | | 212K |
 | [0.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.1.0/pom) | [mvn jdk21](toolrunner-0.1.0.buildspec) | [result](toolrunner-0.1.0.buildinfo): [29 :white_check_mark: ](toolrunner-0.1.0.buildcompare) | | 211K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
