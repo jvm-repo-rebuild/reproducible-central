@@ -25,8 +25,8 @@ Source code: [https://github.com/google/mug.git](https://github.com/google/mug.g
 * [com.google.mug:mug-spanner](https://central.sonatype.com/artifact/com.google.mug/mug-spanner/overview)
 </details>
 
-rebuilding **2 releases** of com.google.mug:mug-root:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of com.google.mug:mug-root:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -38,5 +38,6 @@ rebuilding **2 releases** of com.google.mug:mug-root:
 | [10.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.1/pom) | | | |
 | [10.0.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.0.1/pom) | | | |
 | [10.0](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.0/pom) | [mvn jdk24](mug-10.0.buildspec) | [result](mug-root-10.0.buildinfo): [36 :white_check_mark: ](mug-root-10.0.buildcompare) | | 1.2M |
+| [9.9.9](https://central.sonatype.com/artifact/com.google.mug/mug-root/9.9.9/pom) | [mvn jdk24](mug-9.9.9.buildspec) | [result](mug-root-9.9.9.buildinfo): [33 :white_check_mark: ](mug-root-9.9.9.buildcompare) | | 1.1M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
