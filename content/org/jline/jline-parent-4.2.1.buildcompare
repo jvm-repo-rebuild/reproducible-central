@@ -1,0 +1,9 @@
+version=4.2.1
+ok=64
+ko=0
+ignored=0
+okFiles="jline-parent-4.2.1.pom jline-native-4.2.1.pom jline-native-4.2.1.jar jline-native-4.2.1-sources.jar jline-terminal-4.2.1.pom jline-terminal-4.2.1.jar jline-terminal-4.2.1-tests.jar jline-terminal-4.2.1-sources.jar jline-terminal-ffm-4.2.1.pom jline-terminal-ffm-4.2.1.jar jline-terminal-ffm-4.2.1-sources.jar jline-terminal-jni-4.2.1.pom jline-terminal-jni-4.2.1.jar jline-terminal-jni-4.2.1-sources.jar jline-reader-4.2.1.pom jline-reader-4.2.1.jar jline-reader-4.2.1-tests.jar jline-reader-4.2.1-sources.jar jline-shell-4.2.1.pom jline-shell-4.2.1.jar jline-shell-4.2.1-sources.jar jline-style-4.2.1.pom jline-style-4.2.1.jar jline-style-4.2.1-sources.jar jline-builtins-4.2.1.pom jline-builtins-4.2.1.jar jline-builtins-4.2.1-sources.jar jline-console-ui-4.2.1.pom jline-console-ui-4.2.1.jar jline-console-ui-4.2.1-sources.jar jline-prompt-4.2.1.pom jline-prompt-4.2.1.jar jline-prompt-4.2.1-sources.jar jline-console-4.2.1.pom jline-console-4.2.1.jar jline-console-4.2.1-sources.jar jline-picocli-4.2.1.pom jline-picocli-4.2.1.jar jline-picocli-4.2.1-sources.jar jline-groovy-4.2.1.pom jline-groovy-4.2.1.jar jline-groovy-4.2.1-sources.jar jline-remote-ssh-4.2.1.pom jline-remote-ssh-4.2.1.jar jline-remote-ssh-4.2.1-sources.jar jline-remote-telnet-4.2.1.pom jline-remote-telnet-4.2.1.jar jline-remote-telnet-4.2.1-sources.jar jline-demo-4.2.1.pom jline-demo-4.2.1.jar jline-demo-4.2.1-sources.jar jline-graal-4.2.1.pom jline-graal-4.2.1.jar jline-graal-4.2.1-sources.jar jansi-core-4.2.1.pom jansi-core-4.2.1.jar jansi-core-4.2.1-sources.jar jline-4.2.1.pom jline-4.2.1.jar jline-4.2.1-jdk11.jar jline-4.2.1-sources.jar jansi-4.2.1.pom jansi-4.2.1.jar jansi-4.2.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
