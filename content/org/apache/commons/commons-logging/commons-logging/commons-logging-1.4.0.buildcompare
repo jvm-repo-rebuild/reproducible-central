@@ -1,0 +1,9 @@
+version=1.4.0
+ok=9
+ko=0
+ignored=0
+okFiles="commons-logging-1.4.0.pom commons-logging-1.4.0.jar commons-logging-1.4.0-tests.jar commons-logging-1.4.0-api.jar commons-logging-1.4.0-adapters.jar commons-logging-1.4.0-sources.jar commons-logging-1.4.0-test-sources.jar commons-logging-1.4.0-cyclonedx.xml commons-logging-1.4.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
