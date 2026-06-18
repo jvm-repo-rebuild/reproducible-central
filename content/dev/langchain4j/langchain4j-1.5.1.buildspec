@@ -1,0 +1,21 @@
+groupId=dev.langchain4j
+artifactId=langchain4j
+display=${groupId}:${artifactId}
+version=1.5.1
+
+gitRepo=https://github.com/langchain4j/langchain4j.git
+gitTag=${version}
+gitTag=005ffda6fcff227ae7033ef787e9237f2353281f
+
+tool=mvn-3.9.12
+jdk=21
+newline=crlf
+#umask=022
+
+# SHELL required because langchain4j/pom.xml defines a local directory as repository: it does not get mirrored in settings.xml
+command="SHELL mvn -ntp package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip"
+buildinfo=target/${artifactId}-aggregator-${version}.buildinfo # need to manually rename the actual file after build as it is not the same: langchain4j release a few artifacts as beta
+execBefore="mvn -ntp clean"
+
+#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+issue=
