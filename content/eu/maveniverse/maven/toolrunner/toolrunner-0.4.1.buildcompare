@@ -1,0 +1,9 @@
+version=0.4.1
+ok=38
+ko=0
+ignored=0
+okFiles="toolrunner-0.4.1.pom shared-0.4.1.pom shared-0.4.1.jar shared-0.4.1-sources.jar tools-0.4.1.pom ant-0.4.1.pom ant-0.4.1.jar ant-0.4.1-sources.jar cosign-0.4.1.pom cosign-0.4.1.jar cosign-0.4.1-sources.jar gradle-0.4.1.pom gradle-0.4.1.jar gradle-0.4.1-sources.jar isx-0.4.1.pom isx-0.4.1.jar isx-0.4.1-sources.jar jbang-0.4.1.pom jbang-0.4.1.jar jbang-0.4.1-sources.jar jdk-0.4.1.pom jdk-0.4.1.jar jdk-0.4.1-sources.jar maven-0.4.1.pom maven-0.4.1.jar maven-0.4.1-sources.jar minisign-0.4.1.pom minisign-0.4.1.jar minisign-0.4.1-sources.jar toolrunner-0.4.1.pom toolrunner-0.4.1.jar toolrunner-0.4.1-sources.jar extension-0.4.1.pom extension-0.4.1.jar extension-0.4.1-sources.jar selfcontained-0.4.1.pom selfcontained-0.4.1.jar selfcontained-0.4.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="26 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
