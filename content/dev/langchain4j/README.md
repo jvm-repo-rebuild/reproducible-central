@@ -121,14 +121,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **51 releases** of dev.langchain4j:langchain4j:
-- **35** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **52 releases** of dev.langchain4j:langchain4j:
+- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 8, 3 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.16.3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.16.3/pom) | | | |
+| [1.16.3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.16.3/pom) | [mvn jdk25](langchain4j-1.16.3.buildspec) | [result](langchain4j-aggregator-1.16.3.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.16.3.buildcompare) | | 470M |
 | [1.16.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.16.2/pom) | [mvn jdk25](langchain4j-1.16.2.buildspec) | [result](langchain4j-aggregator-1.16.2.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.16.2.buildcompare) | | 470M |
 | [1.16.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.16.1/pom) | [mvn jdk25](langchain4j-1.16.1.buildspec) | [result](langchain4j-aggregator-1.16.1.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.16.1.buildcompare) | | 470M |
 | [1.16.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.16.0/pom) | [mvn jdk25](langchain4j-1.16.0.buildspec) | [result](langchain4j-aggregator-1.16.0.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.16.0.buildcompare) | | 470M |
