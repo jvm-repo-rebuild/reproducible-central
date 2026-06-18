@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JDeprScan Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jdeprscan-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jdeprscan-plugin.git
+source.scm.tag=maven-jdeprscan-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-jdeprscan-plugin-3.0.0.pom
+outputs.0.length=4559
+outputs.0.checksums.sha512=c854699579d94ecf448b43d7c4bdf2d8c1f7e3b25c1013f6d84884a1cb15c5a3338dabc7569aa3a1c8db0b2ad8739b7d24f13de86d9acc4c3e6034d9a459293e
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-jdeprscan-plugin-3.0.0.jar
+outputs.1.length=29617
+outputs.1.checksums.sha512=7a731cfd9e30da6dd6fc85b2bd4ea48217407890de745182cadcc045ec3fd24208f69b9ad8692e5590456466105ba37ec1dd0a59983cb9cbc47a5612bbb7fcdf
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-jdeprscan-plugin-3.0.0-source-release.zip
+outputs.2.length=60182
+outputs.2.checksums.sha512=9d32560f2aabde39f3ae7b6cc3222e430cc8389532ccc8668d7ae4319b6a53cc40f9df0dc5504e725a78a3a6fed4ac0dbb07a9f53d8153a352a4a9b07869fca1
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-jdeprscan-plugin-3.0.0-sources.jar
+outputs.3.length=21705
+outputs.3.checksums.sha512=55b405f7f31877ce839a939455b29c26ebbbb031a36eeb6ce69e9931818df6bccf2e2fafb221bcb935bd25f5fd565f38c342b075b28aef8fc7dbd45f6956215d
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-jdeprscan-plugin-3.0.0-cyclonedx.xml
+outputs.4.length=97123
+outputs.4.checksums.sha512=3587a9bda0bedeb3f52e9e58d7b056d66ec625317444d6d1cbca620587ad34b887444b86adc4ce964a4c8dff449e924d6fedde71f532a0978ee48b74f2cc31e0
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-jdeprscan-plugin-3.0.0-cyclonedx.json
+outputs.5.length=105520
+outputs.5.checksums.sha512=a381fe10d948ed32a66dad88d30b4f331e0e9bec44c048fb21606715fc37529b912f055b57036994f1c73e3aebcee103c8fa6bf1f2c298b737b2d84d385d8f2b
