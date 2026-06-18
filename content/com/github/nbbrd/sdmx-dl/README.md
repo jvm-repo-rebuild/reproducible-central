@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/nbbrd/sdmx-dl.git](https://github.com/nbbrd/sdmx-dl.git)
 
-<details><summary>This project defines 18 modules:</summary>
+<details><summary>This project defines 19 modules:</summary>
 
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-api](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-api/overview)
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-bom](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-bom/overview)
@@ -26,17 +26,18 @@ Source code: [https://github.com/nbbrd/sdmx-dl.git](https://github.com/nbbrd/sdm
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-provider-px](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-provider-px/overview)
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-provider-ri](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-provider-ri/overview)
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-standalone](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-standalone/overview)
+* [com.github.nbbrd.sdmx-dl:sdmx-dl-swing](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-swing/overview)
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-testing](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-testing/overview)
 </details>
 
-rebuilding **7 releases** of com.github.nbbrd.sdmx-dl:sdmx-dl-parent:
+rebuilding **8 releases** of com.github.nbbrd.sdmx-dl:sdmx-dl-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.1.1](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.1.1/pom) | | | |
+| [3.1.1](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.1.1/pom) | [mvn jdk21](sdmx-dl-3.1.1.buildspec) | [result](sdmx-dl-parent-3.1.1.buildinfo): [55 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.1.1.buildcompare) | 1 :rotating_light: | 65M |
 | [3.0.0](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0/pom) | [mvn jdk21](sdmx-dl-3.0.0.buildspec) | [result](sdmx-dl-parent-3.0.0.buildinfo): [52 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0.buildcompare) | 1 :rotating_light: | 65M |
 | [3.0.0-beta.18](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.18/pom) | [mvn jdk21](sdmx-dl-3.0.0-beta.18.buildspec) | [result](sdmx-dl-parent-3.0.0-beta.18.buildinfo): [52 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0-beta.18.buildcompare) | 1 :rotating_light: | 64M |
 | [3.0.0-beta.17](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.17/pom) | [mvn jdk21](sdmx-dl-3.0.0-beta.17.buildspec) | [result](sdmx-dl-parent-3.0.0-beta.17.buildinfo): [52 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0-beta.17.buildcompare) | 1 :rotating_light: | 61M |
