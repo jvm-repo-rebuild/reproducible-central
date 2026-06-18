@@ -1,0 +1,19 @@
+groupId=com.google.mug
+artifactId=mug-root
+version=10.3
+
+display=${groupId}:mug
+
+gitRepo=https://github.com/google/mug.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.12
+jdk=24
+newline=lf
+#umask=022
+
+command="mvn clean verify -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -pl !mug-safesql-java16tests"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
