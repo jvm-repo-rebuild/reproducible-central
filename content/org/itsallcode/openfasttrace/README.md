@@ -27,17 +27,17 @@ Source code: [https://github.com/itsallcode/openfasttrace.git](https://github.co
 * [org.itsallcode.openfasttrace:openfasttrace-reporter-plaintext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-plaintext/overview)
 </details>
 
-rebuilding **6 releases** of org.itsallcode.openfasttrace:openfasttrace:
+rebuilding **7 releases** of org.itsallcode.openfasttrace:openfasttrace:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 2 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [4.5.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.5.0/pom) | | | |
 | [4.4.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.4.0/pom) | | | |
 | [4.3.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.3.0/pom) | | | |
-| [4.2.2](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.2.2/pom) | | | |
+| [4.2.2](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.2.2/pom) | [mvn jdk17](openfasttrace-4.2.2.buildspec) | [result](openfasttrace-4.2.2.buildinfo): [15 :white_check_mark:  30 :warning:](openfasttrace-4.2.2.buildcompare) | 26 :recycle: 4 :rotating_light: | 1.3M |
 | [4.2.1](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.2.1/pom) | [mvn jdk17](openfasttrace-4.2.1.buildspec) | [result](openfasttrace-4.2.1.buildinfo): [43 :white_check_mark:  2 :warning:](openfasttrace-4.2.1.buildcompare) | 2 :recycle: | 1.3M |
 | [4.2.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.2.0/pom) | [mvn jdk17](openfasttrace-4.2.0.buildspec) | [result](openfasttrace-4.2.0.buildinfo): [43 :white_check_mark:  2 :warning:](openfasttrace-4.2.0.buildcompare) | 2 :recycle: | 1.3M |
 | [4.1.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.1.0/pom) | [mvn jdk17](openfasttrace-4.1.0.buildspec) | [result](openfasttrace-4.1.0.buildinfo): [44 :white_check_mark:  2 :warning:](openfasttrace-4.1.0.buildcompare) [:mag:](openfasttrace-4.1.0.diffoscope) | - | 1.3M |
