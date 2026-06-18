@@ -25,8 +25,8 @@ Source code: [https://github.com/google/mug.git](https://github.com/google/mug.g
 * [com.google.mug:mug-spanner](https://central.sonatype.com/artifact/com.google.mug/mug-spanner/overview)
 </details>
 
-rebuilding **6 releases** of com.google.mug:mug-root:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of com.google.mug:mug-root:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -34,7 +34,7 @@ rebuilding **6 releases** of com.google.mug:mug-root:
 | [10.3.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.3.1/pom) | [mvn jdk24](mug-10.3.1.buildspec) | [result](mug-root-10.3.1.buildinfo): [36 :white_check_mark: ](mug-root-10.3.1.buildcompare) | | 1.2M |
 | [10.3](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.3/pom) | [mvn jdk24](mug-10.3.buildspec) | [result](mug-root-10.3.buildinfo): [36 :white_check_mark: ](mug-root-10.3.buildcompare) | | 1.2M |
 | [10.2](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.2/pom) | [mvn jdk24](mug-10.2.buildspec) | [result](mug-root-10.2.buildinfo): [36 :white_check_mark: ](mug-root-10.2.buildcompare) | | 1.2M |
-| [10.1.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.1.1/pom) | | | |
+| [10.1.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.1.1/pom) | [mvn jdk24](mug-10.1.1.buildspec) | [result](mug-root-10.1.1.buildinfo): [36 :white_check_mark: ](mug-root-10.1.1.buildcompare) | | 1.2M |
 | [10.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.1/pom) | | | |
 | [10.0.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.0.1/pom) | [mvn jdk24](mug-10.0.1.buildspec) | [result](mug-root-10.0.1.buildinfo): [36 :white_check_mark: ](mug-root-10.0.1.buildcompare) | | 1.2M |
 | [10.0](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.0/pom) | [mvn jdk24](mug-10.0.buildspec) | [result](mug-root-10.0.buildinfo): [36 :white_check_mark: ](mug-root-10.0.buildcompare) | | 1.2M |
