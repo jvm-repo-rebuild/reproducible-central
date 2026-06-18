@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JMod Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jmod-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jmod-plugin.git
+source.scm.tag=maven-jmod-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-jmod-plugin-3.0.0.pom
+outputs.0.length=7286
+outputs.0.checksums.sha512=aa2dd3ced88ebc4da20876a85c76a4f8b2f55d07adc60ccc7397a2e24ed756c31d97725ee2b59e88ed78b53ae823372b0237020c6a3db462b5d46cf62034cb41
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-jmod-plugin-3.0.0.jar
+outputs.1.length=38769
+outputs.1.checksums.sha512=8627ac5954f119a2a790f11889e2e12d1bd677d4e757d9f2997a86716d2fa42c15637902a48a18af5671994b9790986f167df33e0579f35c3b6da0a7eea78ba4
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-jmod-plugin-3.0.0-source-release.zip
+outputs.2.length=182179
+outputs.2.checksums.sha512=3b464f9f1c6a93d316e489af50b28f590186cd96025e960e25dab343a1a1690f27969424aea5f5ec40d415038ca8d561c4b622351236e1abeedc0006e458789e
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-jmod-plugin-3.0.0-sources.jar
+outputs.3.length=27289
+outputs.3.checksums.sha512=800da6a29fde541a5bef77f6530835aab0d378a5c529727dce45b1c6aa14c917ac47f3a1528c37c8b4cbcb3cb1a5408acc719edc449148a2028d1975b0173b93
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-jmod-plugin-3.0.0-cyclonedx.xml
+outputs.4.length=101609
+outputs.4.checksums.sha512=8faeeef2421c18783a396fc300368ddcb80a6dc5f364d2242c97d686b4fa0397d82f9a17e101e11ddc016f5eef9aa5b9db403d24b20e163f9361338f0fcbea2b
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-jmod-plugin-3.0.0-cyclonedx.json
+outputs.5.length=110511
+outputs.5.checksums.sha512=634158776bae4cf2615725c7eb340d504cf813b562438ecf0a8a0b1bea2ec43306a0719b5b13126a6a9bcf79a54ed92294de0afd2fc5ff6b22dee0c3b06491c5
