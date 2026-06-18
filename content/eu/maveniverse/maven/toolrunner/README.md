@@ -22,8 +22,8 @@ Source code: [https://github.com/maveniverse/toolrunner.git](https://github.com/
 * [eu.maveniverse.maven.toolrunner:toolrunner](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/overview)
 </details>
 
-rebuilding **4 releases** of eu.maveniverse.maven.toolrunner:toolrunner:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of eu.maveniverse.maven.toolrunner:toolrunner:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -34,7 +34,7 @@ rebuilding **4 releases** of eu.maveniverse.maven.toolrunner:toolrunner:
 | [0.2.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.4/pom) | | | |
 | [0.2.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.3/pom) | | | |
 | [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.2/pom) | | | |
-| [0.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.1/pom) | | | |
+| [0.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.1/pom) | [mvn jdk21](toolrunner-0.2.1.buildspec) | [result](toolrunner-0.2.1.buildinfo): [29 :white_check_mark: ](toolrunner-0.2.1.buildcompare) | | 228K |
 | [0.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.2.0/pom) | [mvn jdk21](toolrunner-0.2.0.buildspec) | [result](toolrunner-0.2.0.buildinfo): [29 :white_check_mark: ](toolrunner-0.2.0.buildcompare) | | 228K |
 | [0.1.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.1.2/pom) | [mvn jdk21](toolrunner-0.1.2.buildspec) | [result](toolrunner-0.1.2.buildinfo): [29 :white_check_mark: ](toolrunner-0.1.2.buildcompare) | | 217K |
 | [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolrunner/toolrunner/0.1.1/pom) | [mvn jdk21](toolrunner-0.1.1.buildspec) | [result](toolrunner-0.1.1.buildinfo): [29 :white_check_mark: ](toolrunner-0.1.1.buildcompare) | | 212K |
