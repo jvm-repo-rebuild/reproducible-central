@@ -1,0 +1,45 @@
+version=4.2.2
+ok=15
+ko=30
+ignored=0
+okFiles="openfasttrace-api-4.2.2.pom openfasttrace-core-4.2.2.pom openfasttrace-exporter-common-4.2.2.pom openfasttrace-exporter-specobject-4.2.2.pom openfasttrace-importer-lightweightmarkup-4.2.2.pom openfasttrace-importer-markdown-4.2.2.pom openfasttrace-importer-restructuredtext-4.2.2.pom openfasttrace-importer-xmlparser-4.2.2.pom openfasttrace-importer-specobject-4.2.2.pom openfasttrace-importer-tag-4.2.2.pom openfasttrace-importer-zip-4.2.2.pom openfasttrace-reporter-plaintext-4.2.2.pom openfasttrace-reporter-html-4.2.2.pom openfasttrace-reporter-aspec-4.2.2.pom openfasttrace-4.2.2.pom"
+koFiles="openfasttrace-api-4.2.2.jar openfasttrace-api-4.2.2-sources.jar openfasttrace-core-4.2.2.jar openfasttrace-core-4.2.2-sources.jar openfasttrace-exporter-common-4.2.2.jar openfasttrace-exporter-common-4.2.2-sources.jar openfasttrace-exporter-specobject-4.2.2.jar openfasttrace-exporter-specobject-4.2.2-sources.jar openfasttrace-importer-lightweightmarkup-4.2.2.jar openfasttrace-importer-lightweightmarkup-4.2.2-sources.jar openfasttrace-importer-markdown-4.2.2.jar openfasttrace-importer-markdown-4.2.2-sources.jar openfasttrace-importer-restructuredtext-4.2.2.jar openfasttrace-importer-restructuredtext-4.2.2-sources.jar openfasttrace-importer-xmlparser-4.2.2.jar openfasttrace-importer-xmlparser-4.2.2-sources.jar openfasttrace-importer-specobject-4.2.2.jar openfasttrace-importer-specobject-4.2.2-sources.jar openfasttrace-importer-tag-4.2.2.jar openfasttrace-importer-tag-4.2.2-sources.jar openfasttrace-importer-zip-4.2.2.jar openfasttrace-importer-zip-4.2.2-sources.jar openfasttrace-reporter-plaintext-4.2.2.jar openfasttrace-reporter-plaintext-4.2.2-sources.jar openfasttrace-reporter-html-4.2.2.jar openfasttrace-reporter-html-4.2.2-sources.jar openfasttrace-reporter-aspec-4.2.2.jar openfasttrace-reporter-aspec-4.2.2-sources.jar openfasttrace-4.2.2.jar openfasttrace-4.2.2-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-api-4.2.2.jar api/target/openfasttrace-api-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-api-4.2.2-sources.jar api/target/openfasttrace-api-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-core-4.2.2.jar core/target/openfasttrace-core-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-core-4.2.2-sources.jar core/target/openfasttrace-core-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-exporter-common-4.2.2.jar exporter/common/target/openfasttrace-exporter-common-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-exporter-common-4.2.2-sources.jar exporter/common/target/openfasttrace-exporter-common-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject-4.2.2.jar exporter/specobject/target/openfasttrace-exporter-specobject-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject-4.2.2-sources.jar exporter/specobject/target/openfasttrace-exporter-specobject-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-lightweightmarkup-4.2.2.jar importer/lightweightmarkup/target/openfasttrace-importer-lightweightmarkup-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-lightweightmarkup-4.2.2-sources.jar importer/lightweightmarkup/target/openfasttrace-importer-lightweightmarkup-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-markdown-4.2.2.jar importer/markdown/target/openfasttrace-importer-markdown-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-markdown-4.2.2-sources.jar importer/markdown/target/openfasttrace-importer-markdown-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-restructuredtext-4.2.2.jar importer/restructuredtext/target/openfasttrace-importer-restructuredtext-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-restructuredtext-4.2.2-sources.jar importer/restructuredtext/target/openfasttrace-importer-restructuredtext-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-xmlparser-4.2.2.jar importer/xmlparser/target/openfasttrace-importer-xmlparser-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-xmlparser-4.2.2-sources.jar importer/xmlparser/target/openfasttrace-importer-xmlparser-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-specobject-4.2.2.jar importer/specobject/target/openfasttrace-importer-specobject-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-specobject-4.2.2-sources.jar importer/specobject/target/openfasttrace-importer-specobject-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-tag-4.2.2.jar importer/tag/target/openfasttrace-importer-tag-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-tag-4.2.2-sources.jar importer/tag/target/openfasttrace-importer-tag-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-zip-4.2.2.jar importer/zip/target/openfasttrace-importer-zip-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-importer-zip-4.2.2-sources.jar importer/zip/target/openfasttrace-importer-zip-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-reporter-plaintext-4.2.2.jar reporter/plaintext/target/openfasttrace-reporter-plaintext-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-reporter-plaintext-4.2.2-sources.jar reporter/plaintext/target/openfasttrace-reporter-plaintext-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-reporter-html-4.2.2.jar reporter/html/target/openfasttrace-reporter-html-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-reporter-html-4.2.2-sources.jar reporter/html/target/openfasttrace-reporter-html-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec-4.2.2.jar reporter/aspec/target/openfasttrace-reporter-aspec-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec-4.2.2-sources.jar reporter/aspec/target/openfasttrace-reporter-aspec-4.2.2-sources.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-4.2.2.jar product/target/openfasttrace-4.2.2.jar
+# diffoscope target/reference/org.itsallcode.openfasttrace/openfasttrace-4.2.2-sources.jar product/target/openfasttrace-4.2.2-sources.jar
+stabilize_ok=26
+stabilize_ko=4
+stabilize_ignored=0
+stabilize_okFiles="openfasttrace-api-4.2.2.jar.stabilized openfasttrace-api-4.2.2-sources.jar.stabilized openfasttrace-core-4.2.2.jar.stabilized openfasttrace-core-4.2.2-sources.jar.stabilized openfasttrace-exporter-common-4.2.2.jar.stabilized openfasttrace-exporter-common-4.2.2-sources.jar.stabilized openfasttrace-exporter-specobject-4.2.2.jar.stabilized openfasttrace-exporter-specobject-4.2.2-sources.jar.stabilized openfasttrace-importer-lightweightmarkup-4.2.2.jar.stabilized openfasttrace-importer-lightweightmarkup-4.2.2-sources.jar.stabilized openfasttrace-importer-markdown-4.2.2.jar.stabilized openfasttrace-importer-markdown-4.2.2-sources.jar.stabilized openfasttrace-importer-restructuredtext-4.2.2.jar.stabilized openfasttrace-importer-restructuredtext-4.2.2-sources.jar.stabilized openfasttrace-importer-xmlparser-4.2.2.jar.stabilized openfasttrace-importer-xmlparser-4.2.2-sources.jar.stabilized openfasttrace-importer-specobject-4.2.2.jar.stabilized openfasttrace-importer-specobject-4.2.2-sources.jar.stabilized openfasttrace-importer-zip-4.2.2.jar.stabilized openfasttrace-importer-zip-4.2.2-sources.jar.stabilized openfasttrace-reporter-plaintext-4.2.2.jar.stabilized openfasttrace-reporter-plaintext-4.2.2-sources.jar.stabilized openfasttrace-reporter-html-4.2.2.jar.stabilized openfasttrace-reporter-html-4.2.2-sources.jar.stabilized openfasttrace-reporter-aspec-4.2.2.jar.stabilized openfasttrace-reporter-aspec-4.2.2-sources.jar.stabilized"
+stabilize_koFiles="openfasttrace-importer-tag-4.2.2.jar.stabilized openfasttrace-importer-tag-4.2.2-sources.jar.stabilized openfasttrace-4.2.2.jar.stabilized openfasttrace-4.2.2-sources.jar.stabilized"
+stabilize_ignoredFiles=""
