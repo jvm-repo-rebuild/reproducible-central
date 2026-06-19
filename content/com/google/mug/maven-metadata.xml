@@ -3,8 +3,8 @@
   <groupId>com.google.mug</groupId>
   <artifactId>mug-root</artifactId>
   <versioning>
-    <latest>10.3.1</latest>
-    <release>10.3.1</release>
+    <latest>10.4.3</latest>
+    <release>10.4.3</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -94,7 +94,11 @@
       <version>10.2</version>
       <version>10.3</version>
       <version>10.3.1</version>
+      <version>10.4</version>
+      <version>10.4.1</version>
+      <version>10.4.2</version>
+      <version>10.4.3</version>
     </versions>
-    <lastUpdated>20260611032321</lastUpdated>
+    <lastUpdated>20260619151324</lastUpdated>
   </versioning>
 </metadata>

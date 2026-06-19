@@ -31,6 +31,7 @@ rebuilding **17 releases** of org.apache.mina:mina-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.9](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.9/pom) | | | |
 | [2.2.8](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.8/pom) | [mvn jdk25](mina-2.2.8.buildspec) | [result](mina-parent-2.2.8.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.8.buildcompare) | | 4.5M |
 | [2.2.7](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.7/pom) | [mvn jdk21](mina-2.2.7.buildspec) | [result](mina-parent-2.2.7.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.7.buildcompare) | | 4.5M |
 | [2.2.6](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.6/pom) | [mvn jdk21](mina-2.2.6.buildspec) | [result](mina-parent-2.2.6.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.6.buildcompare) | | 4.4M |
@@ -40,6 +41,7 @@ rebuilding **17 releases** of org.apache.mina:mina-parent:
 | [2.2.2](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.2/pom) | [mvn jdk11](mina-2.2.2.buildspec) | [result](mina-parent-2.2.2.buildinfo): [41 :white_check_mark: ](mina-parent-2.2.2.buildcompare) | | 3.5M |
 | [2.2.1](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.1/pom) | [mvn jdk8](mina-2.2.1.buildspec) | [result](mina-parent-2.2.1.buildinfo): [36 :white_check_mark:  2 :warning:](mina-parent-2.2.1.buildcompare) [:mag:](mina-parent-2.2.1.diffoscope) [:memo:](https://github.com/apache/mina/pull/34) | - | 3.5M |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.0/pom) | [mvn jdk8](mina-2.2.0.buildspec) | [result](mina-parent-2.2.0.buildinfo): [36 :white_check_mark:  2 :warning:](mina-parent-2.2.0.buildcompare) [:mag:](mina-parent-2.2.0.diffoscope) | - | 3.5M |
+| [2.1.14](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.14/pom) | | | |
 | [2.1.13](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.13/pom) | [mvn jdk8](mina-2.1.13.buildspec) | [result](mina-parent-2.1.13.buildinfo): [65 :white_check_mark:  2 :warning:](mina-parent-2.1.13.buildcompare) | 2 :rotating_light: | 4.2M |
 | [2.1.12](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.12/pom) | [mvn jdk8](mina-2.1.12.buildspec) | [result](mina-parent-2.1.12.buildinfo): [65 :white_check_mark:  2 :warning:](mina-parent-2.1.12.buildcompare) | 2 :rotating_light: | 4.3M |
 | [2.1.11](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.11/pom) | [mvn jdk8](mina-2.1.11.buildspec) | [result](mina-parent-2.1.11.buildinfo): [65 :white_check_mark:  2 :warning:](mina-parent-2.1.11.buildcompare) | 2 :rotating_light: | 4.3M |
