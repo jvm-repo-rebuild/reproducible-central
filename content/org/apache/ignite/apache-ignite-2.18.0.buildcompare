@@ -1,0 +1,44 @@
+version=2.18.0
+ok=58
+ko=29
+ignored=0
+okFiles="ignite-checkstyle-2.18.0.pom ignite-checkstyle-2.18.0.jar ignite-tools-2.18.0.pom ignite-tools-2.18.0.jar ignite-bom-2.18.0.pom ignite-commons-2.18.0.pom ignite-commons-2.18.0.jar ignite-binary-api-2.18.0.pom ignite-binary-api-2.18.0.jar ignite-grid-unsafe-2.18.0.pom ignite-grid-unsafe-2.18.0.jar ignite-binary-impl-2.18.0.pom ignite-binary-impl-2.18.0.jar ignite-core-2.18.0.pom ignite-core-2.18.0-tests.jar ignite-indexing-2.18.0.pom ignite-indexing-2.18.0.jar ignite-indexing-2.18.0-tests.jar ignite-compress-2.18.0.pom ignite-compress-2.18.0.jar ignite-compress-2.18.0-tests.jar ignite-direct-io-2.18.0.pom ignite-direct-io-2.18.0.jar ignite-urideploy-2.18.0.pom ignite-urideploy-2.18.0.jar ignite-log4j2-2.18.0.pom ignite-log4j2-2.18.0.jar ignite-spring-2.18.0.pom ignite-spring-2.18.0.jar ignite-json-2.18.0.pom ignite-json-2.18.0.jar ignite-rest-http-2.18.0.pom ignite-rest-http-2.18.0.jar ignite-clients-2.18.0.pom ignite-zookeeper-2.18.0.pom ignite-zookeeper-2.18.0.jar ignite-zookeeper-2.18.0-tests.jar ignite-control-utility-2.18.0.pom ignite-control-utility-2.18.0.jar ignite-control-utility-2.18.0-tests.jar ignite-web-2.18.0.pom ignite-web-2.18.0.jar ignite-jta-2.18.0.pom ignite-jta-2.18.0.jar ignite-slf4j-2.18.0.pom ignite-slf4j-2.18.0.jar ignite-jcl-2.18.0.pom ignite-jcl-2.18.0.jar ignite-calcite-2.18.0.pom ignite-calcite-2.18.0.jar ignite-calcite-2.18.0-tests.jar ignite-kubernetes-2.18.0.pom ignite-kubernetes-2.18.0.jar ignite-opencensus-2.18.0.pom ignite-opencensus-2.18.0.jar ignite-compatibility-2.18.0.pom ignite-compatibility-2.18.0.jar ignite-compatibility-2.18.0-tests.jar"
+koFiles="ignite-parent-2.18.0.pom ignite-tools-2.18.0-sources.jar ignite-commons-2.18.0-sources.jar ignite-binary-api-2.18.0-sources.jar ignite-grid-unsafe-2.18.0-sources.jar ignite-binary-impl-2.18.0-sources.jar ignite-core-2.18.0.jar ignite-core-2.18.0-sources.jar ignite-indexing-2.18.0-sources.jar ignite-compress-2.18.0-sources.jar ignite-direct-io-2.18.0-sources.jar ignite-urideploy-2.18.0-sources.jar ignite-log4j2-2.18.0-sources.jar ignite-spring-2.18.0-sources.jar ignite-json-2.18.0-sources.jar ignite-rest-http-2.18.0-sources.jar ignite-clients-2.18.0.jar ignite-clients-2.18.0-sources.jar ignite-clients-2.18.0-tests.jar ignite-zookeeper-2.18.0-sources.jar ignite-control-utility-2.18.0-sources.jar ignite-web-2.18.0-sources.jar ignite-jta-2.18.0-sources.jar ignite-slf4j-2.18.0-sources.jar ignite-jcl-2.18.0-sources.jar ignite-calcite-2.18.0-sources.jar ignite-kubernetes-2.18.0-sources.jar ignite-opencensus-2.18.0-sources.jar ignite-compatibility-2.18.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.ignite/ignite-parent-2.18.0.pom parent/pom-installed.xml
+# diffoscope target/reference/org.apache.ignite/ignite-tools-2.18.0-sources.jar modules/tools/target/ignite-tools-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-commons-2.18.0-sources.jar modules/commons/target/ignite-commons-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-binary-api-2.18.0-sources.jar modules/binary/api/target/ignite-binary-api-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-grid-unsafe-2.18.0-sources.jar modules/unsafe/target/ignite-grid-unsafe-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-binary-impl-2.18.0-sources.jar modules/binary/impl/target/ignite-binary-impl-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-core-2.18.0.jar modules/core/target/ignite-core-2.18.0.jar
+# diffoscope target/reference/org.apache.ignite/ignite-core-2.18.0-sources.jar modules/core/target/ignite-core-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-indexing-2.18.0-sources.jar modules/indexing/target/ignite-indexing-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-compress-2.18.0-sources.jar modules/compress/target/ignite-compress-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-direct-io-2.18.0-sources.jar modules/direct-io/target/ignite-direct-io-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-urideploy-2.18.0-sources.jar modules/urideploy/target/ignite-urideploy-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-log4j2-2.18.0-sources.jar modules/log4j2/target/ignite-log4j2-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-spring-2.18.0-sources.jar modules/spring/target/ignite-spring-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-json-2.18.0-sources.jar modules/json/target/ignite-json-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-rest-http-2.18.0-sources.jar modules/rest-http/target/ignite-rest-http-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-clients-2.18.0.jar modules/clients/target/ignite-clients-2.18.0.jar
+# diffoscope target/reference/org.apache.ignite/ignite-clients-2.18.0-sources.jar modules/clients/target/ignite-clients-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-clients-2.18.0-tests.jar modules/clients/target/ignite-clients-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.ignite/ignite-zookeeper-2.18.0-sources.jar modules/zookeeper/target/ignite-zookeeper-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-control-utility-2.18.0-sources.jar modules/control-utility/target/ignite-control-utility-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-web-2.18.0-sources.jar modules/web/target/ignite-web-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-jta-2.18.0-sources.jar modules/jta/target/ignite-jta-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-slf4j-2.18.0-sources.jar modules/slf4j/target/ignite-slf4j-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-jcl-2.18.0-sources.jar modules/jcl/target/ignite-jcl-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-calcite-2.18.0-sources.jar modules/calcite/target/ignite-calcite-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-kubernetes-2.18.0-sources.jar modules/kubernetes/target/ignite-kubernetes-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-opencensus-2.18.0-sources.jar modules/opencensus/target/ignite-opencensus-2.18.0-sources.jar
+# diffoscope target/reference/org.apache.ignite/ignite-compatibility-2.18.0-sources.jar modules/compatibility/target/ignite-compatibility-2.18.0-sources.jar
+stabilize_ok=24
+stabilize_ko=4
+stabilize_ignored=1
+stabilize_okFiles="ignite-tools-2.18.0-sources.jar.stabilized ignite-commons-2.18.0-sources.jar.stabilized ignite-binary-api-2.18.0-sources.jar.stabilized ignite-grid-unsafe-2.18.0-sources.jar.stabilized ignite-binary-impl-2.18.0-sources.jar.stabilized ignite-indexing-2.18.0-sources.jar.stabilized ignite-compress-2.18.0-sources.jar.stabilized ignite-direct-io-2.18.0-sources.jar.stabilized ignite-urideploy-2.18.0-sources.jar.stabilized ignite-log4j2-2.18.0-sources.jar.stabilized ignite-spring-2.18.0-sources.jar.stabilized ignite-json-2.18.0-sources.jar.stabilized ignite-rest-http-2.18.0-sources.jar.stabilized ignite-clients-2.18.0-sources.jar.stabilized ignite-zookeeper-2.18.0-sources.jar.stabilized ignite-control-utility-2.18.0-sources.jar.stabilized ignite-web-2.18.0-sources.jar.stabilized ignite-jta-2.18.0-sources.jar.stabilized ignite-slf4j-2.18.0-sources.jar.stabilized ignite-jcl-2.18.0-sources.jar.stabilized ignite-calcite-2.18.0-sources.jar.stabilized ignite-kubernetes-2.18.0-sources.jar.stabilized ignite-opencensus-2.18.0-sources.jar.stabilized ignite-compatibility-2.18.0-sources.jar.stabilized"
+stabilize_koFiles="ignite-core-2.18.0.jar.stabilized ignite-core-2.18.0-sources.jar.stabilized ignite-clients-2.18.0.jar.stabilized ignite-clients-2.18.0-tests.jar.stabilized"
+stabilize_ignoredFiles="ignite-parent-2.18.0.pom"
