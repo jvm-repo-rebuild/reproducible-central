@@ -14,10 +14,10 @@ source.scm.tag=3.3.0-rc1
 build-tool=mvn
 
 # effective build environment information
-java.version=11.0.30
+java.version=11.0.31
 java.vendor=Ubuntu
 os.name=Linux
-os.version=6.14.0-1017-azure
+os.version=6.17.0-1018-azure
 os.arch=amd64
 line.separator=\n
 
