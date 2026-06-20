@@ -15,5 +15,5 @@ command="mvn -Prelease,licenses -Drevision=${version} verify -DskipTests -Dmaven
 execBefore="mvn clean"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

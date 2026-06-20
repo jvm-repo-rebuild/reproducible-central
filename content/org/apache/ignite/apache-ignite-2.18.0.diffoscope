@@ -1,0 +1,43 @@
+1 / 29 target/reference/org.apache.ignite/ignite-parent-2.18.0.pom parent/pom-installed.xml
+--- target/reference/org.apache.ignite/ignite-parent-2.18.0.pom
++++ parent/pom-installed.xml
+│   --- target/reference/org.apache.ignite/ignite-parent-2.18.0.pom
+├── +++ parent/pom-installed.xml
+│ @@ -76,15 +76,15 @@
+│      <jna.version>4.5.2</jna.version>
+│      <jtidy.version>1.0.5</jtidy.version>
+│ -    <ignite.buildNumber>26174</ignite.buildNumber>
+│ +    <ignite.buildNumber>26256</ignite.buildNumber>
+│      <commons.collections.version>3.2.2</commons.collections.version>
+│      <h2.version>1.4.197</h2.version>
+
+2 / 29 target/reference/org.apache.ignite/ignite-tools-2.18.0-sources.jar modules/tools/target/ignite-tools-2.18.0-sources.jar
+--- target/reference/org.apache.ignite/ignite-tools-2.18.0-sources.jar
++++ modules/tools/target/ignite-tools-2.18.0-sources.jar
+├── zipinfo {}
+│ @@ -1,34 +1,34 @@
+│ -Zip file size: 34195 bytes, number of entries: 32
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-23 08:42 META-INF/
+│ --rw-r--r--  2.0 unx      126 b- defN 26-Apr-23 08:42 META-INF/MANIFEST.MF
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Apr-23 08:42 org/apache/ignite/tools/javadoc/
+│ --rw-r--r--  2.0 unx     4575 b- defN 26-Apr-23 08:42 org/apache/ignite/tools/javadoc/IgniteLinkTaglet.java
+│ -32 files, 93931 bytes uncompressed, 29297 bytes compressed:  68.8%
+│ +Zip file size: 34193 bytes, number of entries: 32
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-20 07:04 META-INF/
+│ +-rw-r--r--  2.0 unx      124 b- defN 26-Jun-20 07:04 META-INF/MANIFEST.MF
+...
+│ +drwxrwxr-x  2.0 unx        0 b- stor 26-Jun-20 07:01 org/apache/ignite/tools/javadoc/
+│ +-rw-rw-r--  2.0 unx     4575 b- defN 26-Jun-20 07:01 org/apache/ignite/tools/javadoc/IgniteLinkTaglet.java
+│ +32 files, 93929 bytes uncompressed, 29295 bytes compressed:  68.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│  Created-By: Apache Maven
+│ -Built-By: teamcity
+│ -Build-Jdk: 11.0.30
+│ +Built-By: runner
+│ +Build-Jdk: 11.0.31
+
+...
