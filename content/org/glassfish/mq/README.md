@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/eclipse-ee4j/openmq.git)
 
-<details><summary>This project defines 41 modules:</summary>
+<details><summary>This project defines 44 modules:</summary>
 
 * [org.glassfish.mq:bridge](https://central.sonatype.com/artifact/org.glassfish.mq/bridge/overview)
 * [org.glassfish.mq:helpfiles](https://central.sonatype.com/artifact/org.glassfish.mq/helpfiles/overview)
@@ -36,6 +36,9 @@ Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/ecl
 * [org.glassfish.mq:mqbroker-comm](https://central.sonatype.com/artifact/org.glassfish.mq/mqbroker-comm/overview)
 * [org.glassfish.mq:mqbroker-core](https://central.sonatype.com/artifact/org.glassfish.mq/mqbroker-core/overview)
 * [org.glassfish.mq:mqcomm-io](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-io/overview)
+* [org.glassfish.mq:mqcomm-lists](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-lists/overview)
+* [org.glassfish.mq:mqcomm-options](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-options/overview)
+* [org.glassfish.mq:mqcomm-selector](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-selector/overview)
 * [org.glassfish.mq:mqcomm-util](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-util/overview)
 * [org.glassfish.mq:mqdisk-io](https://central.sonatype.com/artifact/org.glassfish.mq/mqdisk-io/overview)
 * [org.glassfish.mq:mqhttp-tunnel](https://central.sonatype.com/artifact/org.glassfish.mq/mqhttp-tunnel/overview)
@@ -52,14 +55,14 @@ Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/ecl
 * [org.glassfish.mq:project](https://central.sonatype.com/artifact/org.glassfish.mq/project/overview)
 </details>
 
-rebuilding **2 releases** of org.glassfish.mq:project:
+rebuilding **3 releases** of org.glassfish.mq:project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.9.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.9.0/pom) | | | |
+| [6.9.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.9.0/pom) | [mvn jdk25](openmq-6.9.0.buildspec) | [result](project-6.9.0.buildinfo): [44 :white_check_mark:  35 :warning:](project-6.9.0.buildcompare) | 1 :recycle: 34 :rotating_light: | 28M |
 | [6.8.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.8.0/pom) | [mvn jdk25](openmq-6.8.0.buildspec) | [result](project-6.8.0.buildinfo): [41 :white_check_mark:  32 :warning:](project-6.8.0.buildcompare) | 1 :recycle: 31 :rotating_light: | 32M |
 | [6.7.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.7.0/pom) | [mvn jdk21](openmq-6.7.0.buildspec) | [result](project-6.7.0.buildinfo): [41 :white_check_mark:  32 :warning:](project-6.7.0.buildcompare) | 1 :recycle: 31 :rotating_light: | 29M |
 
