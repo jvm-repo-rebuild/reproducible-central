@@ -289,6 +289,11 @@
       <url>https://jindodata-binary.oss-cn-shanghai.aliyuncs.com/mvn-repo/</url>
     </mirror>
     <mirror>
+      <id>lumina</id>
+      <mirrorOf>lumina</mirrorOf>
+      <url>https://lumina-binary.oss-cn-shanghai.aliyuncs.com/mvn-repo/</url>
+    </mirror>
+    <mirror>
       <id>opensaml</id>
       <mirrorOf>opensaml</mirrorOf>
       <url>https://build.shibboleth.net/maven/releases/</url>
@@ -298,5 +303,5 @@
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
     </mirror>
-</mirrors>
+  </mirrors>
 </settings>
