@@ -7,16 +7,21 @@
 
 Source code: [https://github.com/apache/ignite.git](https://github.com/apache/ignite.git)
 
-<details><summary>This project defines 23 modules:</summary>
+<details><summary>This project defines 28 modules:</summary>
 
+* [org.apache.ignite:ignite-binary-api](https://central.sonatype.com/artifact/org.apache.ignite/ignite-binary-api/overview)
+* [org.apache.ignite:ignite-binary-impl](https://central.sonatype.com/artifact/org.apache.ignite/ignite-binary-impl/overview)
 * [org.apache.ignite:ignite-bom](https://central.sonatype.com/artifact/org.apache.ignite/ignite-bom/overview)
 * [org.apache.ignite:ignite-calcite](https://central.sonatype.com/artifact/org.apache.ignite/ignite-calcite/overview)
 * [org.apache.ignite:ignite-checkstyle](https://central.sonatype.com/artifact/org.apache.ignite/ignite-checkstyle/overview)
 * [org.apache.ignite:ignite-clients](https://central.sonatype.com/artifact/org.apache.ignite/ignite-clients/overview)
+* [org.apache.ignite:ignite-commons](https://central.sonatype.com/artifact/org.apache.ignite/ignite-commons/overview)
+* [org.apache.ignite:ignite-compatibility](https://central.sonatype.com/artifact/org.apache.ignite/ignite-compatibility/overview)
 * [org.apache.ignite:ignite-compress](https://central.sonatype.com/artifact/org.apache.ignite/ignite-compress/overview)
 * [org.apache.ignite:ignite-control-utility](https://central.sonatype.com/artifact/org.apache.ignite/ignite-control-utility/overview)
 * [org.apache.ignite:ignite-core](https://central.sonatype.com/artifact/org.apache.ignite/ignite-core/overview)
 * [org.apache.ignite:ignite-direct-io](https://central.sonatype.com/artifact/org.apache.ignite/ignite-direct-io/overview)
+* [org.apache.ignite:ignite-grid-unsafe](https://central.sonatype.com/artifact/org.apache.ignite/ignite-grid-unsafe/overview)
 * [org.apache.ignite:ignite-indexing](https://central.sonatype.com/artifact/org.apache.ignite/ignite-indexing/overview)
 * [org.apache.ignite:ignite-jcl](https://central.sonatype.com/artifact/org.apache.ignite/ignite-jcl/overview)
 * [org.apache.ignite:ignite-json](https://central.sonatype.com/artifact/org.apache.ignite/ignite-json/overview)
@@ -34,13 +39,14 @@ Source code: [https://github.com/apache/ignite.git](https://github.com/apache/ig
 * [org.apache.ignite:ignite-zookeeper](https://central.sonatype.com/artifact/org.apache.ignite/ignite-zookeeper/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.ignite:apache-ignite:
+rebuilding **2 releases** of org.apache.ignite:apache-ignite:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.18.0](https://central.sonatype.com/artifact/org.apache.ignite/ignite-parent/2.18.0/pom) | | | |
+| [2.18.0](https://central.sonatype.com/artifact/org.apache.ignite/apache-ignite/2.18.0/pom) | [mvn jdk11](ignite-2.18.0.buildspec) | [result](apache-ignite-2.18.0.buildinfo): [58 :white_check_mark:  29 :warning:](apache-ignite-2.18.0.buildcompare) [:mag:](apache-ignite-2.18.0.diffoscope) | 24 :recycle: 4 :rotating_light: 1 :no_entry_sign: | 52M |
 | [2.17.0](https://central.sonatype.com/artifact/org.apache.ignite/apache-ignite/2.17.0/pom) | [mvn jdk11](ignite-2.17.0.buildspec) | [result](apache-ignite-2.17.0.buildinfo): [20 :white_check_mark:  50 :warning:](apache-ignite-2.17.0.buildcompare) | - | 49M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
