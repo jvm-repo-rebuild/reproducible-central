@@ -16,4 +16,4 @@ execBefore="mvn clean"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/ignite/pull/12982
