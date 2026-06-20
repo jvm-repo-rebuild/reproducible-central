@@ -1,0 +1,62 @@
+# use Eclipse CBI jarsign: https://github.com/eclipse-ee4j/openmq/blob/master/pom.xml#L369
+# need to ignore signature (or inject from reference build)
+1 / 35 target/reference/org.glassfish.mq/mqcomm-lists-6.9.0.jar mq/main/mqcomm-lists/target/mqcomm-lists.jar
+--- target/reference/org.glassfish.mq/mqcomm-lists-6.9.0.jar
++++ mq/main/mqcomm-lists/target/mqcomm-lists.jar
+├── META-INF/MANIFEST.MF
+│ @@ -15,136 +15,7 @@
+│  Bundle-Version: 6.9.0
+│  Import-Package: java.io,java.lang,java.lang.invoke,java.lang.ref,java.ut
+│   il,java.util.concurrent.locks,java.util.function
+│  Private-Package: com.sun.messaging.jmq.util.lists
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=21))"
+│  Tool: Bnd-7.0.0.202310060912
+│  
+│ -Name: com/sun/messaging/jmq/util/lists/WeakValueHashMap$EntrySet.class
+│ -SHA-256-Digest: Ooh+IUl18XV9wzQGwzLW83zp6KpnFB5lyg1dSRZkqY0=
+│ -
+│ -Name: com/sun/messaging/jmq/util/lists/Ordered.class
+│ -SHA-256-Digest: pBU+/L3q0fdUCkuNRlgb2eXJ41egI/4o0jG231JNmUI=
+...
+
+4 / 35 target/reference/org.glassfish.mq/mq-share-6.9.0.jar mq/main/mq-share/target/mq-share.jar
+--- target/reference/org.glassfish.mq/mq-share-6.9.0.jar
++++ mq/main/mq-share/target/mq-share.jar
+├── META-INF/MANIFEST.MF
+│ @@ -19,87 +19,7 @@
+│  Private-Package: com.sun.messaging.jmq,com.sun.messaging.jmq.auth.api,co
+│   m.sun.messaging.jmq.auth.api.client,com.sun.messaging.jmq.auth.api.serv
+│   er,com.sun.messaging.jmq.auth.api.server.model,com.sun.messaging.jmq.au
+│   th.handlers,com.sun.messaging.jmq.auth.jaas
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=21))"
+│  Tool: Bnd-7.0.0.202310060912
+│  
+│ -Name: com/sun/messaging/jmq/ClientConstants.class
+│ -SHA-256-Digest: 2vsuj/Yq7ei1ZuKfd6N/XpJB3Q7VcaL3R+I2kp6vEYg=
+│ -
+│ -Name: com/sun/messaging/jmq/auth/api/FailedLoginException.class
+│ -SHA-256-Digest: ww79u6KYigT7+IV/e4ZhzS9fIi+RkH3NBb2wZ1QPxag=
+│ -
+...
+├── com/sun/messaging/jmq/version.properties
+│ @@ -23,17 +23,17 @@
+│  imq.product.name=Message Queue
+│  imq.product.jarname=Eclipse OpenMQ(tm)
+│  imq.product.name.abbrev=MQ
+│  imq.product.name.abbrev.lowercase=mq
+│  imq.product.name.short=Message Queue
+│  imq.product.releaseqid=6.9.0
+│  imq.product.companyname=Eclipse Foundation
+│ -imq.build.date=May 2 2026
+│ -imq.build.number=4826a040b1b5d0f5c66f67208b89e0092d1407b8/22
+│ -imq.build.letter=r
+│ +imq.build.date=June 20 2026
+│ +imq.build.number=1
+│ +imq.build.letter=a
+│  imq.build.milestone=
+│  imq.product.major=6
+│  imq.product.minor=9
+│  imq.product.micro=0
+│  imq.product.servicepack=
+│  imq.product.version=6.9.0
+│  imq.product.versionstr=MQ 6.9.0
