@@ -283,10 +283,17 @@
       <mirrorOf>google</mirrorOf>
       <url>https://maven.google.com/</url>
     </mirror>
+    <!-- https://github.com/apache/paimon/blob/master/paimon-lumina/pom.xml -->
     <mirror>
       <id>jindodata</id>
       <mirrorOf>jindodata</mirrorOf>
-      <url>https://jindodata-binary.oss-cn-shanghai.aliyuncs.com/mvn-repo/</url>
+      <url>https://jindodata-binary.oss-accelerate.aliyuncs.com/mvn-repo/</url>
+    </mirror>
+    <!-- https://github.com/apache/paimon/blob/master/paimon-lumina/pom.xml -->
+    <mirror>
+      <id>lumina</id>
+      <mirrorOf>lumina</mirrorOf>
+      <url>https://dlf-mvn-repo.oss-accelerate.aliyuncs.com/mvn-repo/release</url>
     </mirror>
     <mirror>
       <id>opensaml</id>
@@ -298,5 +305,5 @@
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
     </mirror>
-</mirrors>
+  </mirrors>
 </settings>
