@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/cucumber/gherkin.git](https://github.com/cucumber/gherkin.git)
 
-rebuilding **35 releases** of io.cucumber:gherkin:
+rebuilding **36 releases** of io.cucumber:gherkin:
 - **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [41.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/41.0.0/pom) | | | |
+| [41.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/41.0.0/pom) | [mvn jdk21](gherkin-41.0.0.buildspec) | [result](gherkin-41.0.0.buildinfo): [2 :white_check_mark:  1 :warning:](gherkin-41.0.0.buildcompare) | 1 :no_entry_sign: | 302K |
 | [40.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/40.0.0/pom) | [mvn jdk21](gherkin-40.0.0.buildspec) | [result](gherkin-40.0.0.buildinfo): [3 :white_check_mark: ](gherkin-40.0.0.buildcompare) | | 302K |
 | [39.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/39.1.0/pom) | [mvn jdk21](gherkin-39.1.0.buildspec) | [result](gherkin-39.1.0.buildinfo): [3 :white_check_mark: ](gherkin-39.1.0.buildcompare) | | 302K |
 | [39.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/39.0.0/pom) | [mvn jdk21](gherkin-39.0.0.buildspec) | [result](gherkin-39.0.0.buildinfo): [3 :white_check_mark: ](gherkin-39.0.0.buildcompare) | | 298K |
