@@ -13,6 +13,7 @@ rebuilding **7 releases** of io.cucumber:messages-ndjson:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.5.0](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.5.0/pom) | | | |
 | [0.4.1](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.4.1/pom) | [mvn jdk21](messages-ndjson-0.4.1.buildspec) | [result](messages-ndjson-0.4.1.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.4.1.buildcompare) | | 2.5M |
 | [0.4.0](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.4.0/pom) | [mvn jdk21](messages-ndjson-0.4.0.buildspec) | [result](messages-ndjson-0.4.0.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.4.0.buildcompare) | | 2.5M |
 | [0.3.2](https://central.sonatype.com/artifact/io.cucumber/messages-ndjson/0.3.2/pom) | [mvn jdk17](messages-ndjson-0.3.2.buildspec) | [result](messages-ndjson-0.3.2.buildinfo): [3 :white_check_mark: ](messages-ndjson-0.3.2.buildcompare) | | 2.5M |

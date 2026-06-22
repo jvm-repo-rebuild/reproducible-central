@@ -1,7 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-8.buildspec:11.4.0
-content/io/cucumber/gherkin-utils/gherkin-utils-12.0.0.buildspec:12.0.1
+content/eu/maveniverse/maven/scalpel/scalpel-0.3.4.buildspec:0.3.5
+content/io/cucumber/messages-ndjson/messages-ndjson-0.4.1.buildspec:0.5.0
 content/io/cucumber/query/query-16.0.0.buildspec:16.0.1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1-beta-1.buildspec:5.17.1-beta-2
-content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.32.buildspec:0.0.33
+content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.5.buildspec:1.0.8
+content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.0.Final.buildspec:9.1.1.Final
+content/world/convex/convex-0.8.5.buildspec:0.8.6
