@@ -979,15 +979,15 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **36 releases** of org.apache.nifi:nifi:
+rebuilding **37 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 36 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 37 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.10.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.10.0/pom) | [mvn jdk21 osx aarm64](nifi-2.10.0.buildspec) | [result](nifi-2.10.0.buildinfo): [1805 :white_check_mark:  11 :warning:](nifi-2.10.0.buildcompare) | 6 :rotating_light: 5 :no_entry_sign: | 1.7G |
-| [2.9.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.9.0/pom) | | | |
+| [2.9.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.9.0/pom) | [mvn jdk21 osx aarm64](nifi-2.9.0.buildspec) | [result](nifi-2.9.0.buildinfo): [1791 :white_check_mark:  25 :warning:](nifi-2.9.0.buildcompare) | 6 :rotating_light: 19 :no_entry_sign: | 1.6G |
 | [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.8.0/pom) | [mvn jdk21 osx aarm64](nifi-2.8.0.buildspec) | [result](nifi-2.8.0.buildinfo): [1746 :white_check_mark:  24 :warning:](nifi-2.8.0.buildcompare) | 6 :rotating_light: 18 :no_entry_sign: | 1.6G |
 | [2.7.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.2/pom) | [mvn jdk21](nifi-2.7.2.buildspec) | [result](nifi-2.7.2.buildinfo): [1767 :white_check_mark:  11 :warning:](nifi-2.7.2.buildcompare) [:mag:](nifi-2.7.2.diffoscope) | 6 :rotating_light: 5 :no_entry_sign: | 1.6G |
 | [2.7.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.1/pom) | [mvn jdk21](nifi-2.7.1.buildspec) | [result](nifi-2.7.1.buildinfo): [1769 :white_check_mark:  9 :warning:](nifi-2.7.1.buildcompare) | 6 :rotating_light: 3 :no_entry_sign: | 1.6G |
