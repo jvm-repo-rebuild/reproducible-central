@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 949 modules:</summary>
+<details><summary>This project defines 968 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -230,10 +230,22 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-confluent-protobuf-antlr-parser](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-protobuf-antlr-parser/overview)
 * [org.apache.nifi:nifi-confluent-protobuf-message-name-resolver](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-protobuf-message-name-resolver/overview)
 * [org.apache.nifi:nifi-confluent-schema-registry-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-schema-registry-service/overview)
+* [org.apache.nifi:nifi-connector-common](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-common/overview)
+* [org.apache.nifi:nifi-connector-mock](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock/overview)
+* [org.apache.nifi:nifi-connector-mock-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-api/overview)
+* [org.apache.nifi:nifi-connector-mock-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-bundle/overview)
+* [org.apache.nifi:nifi-connector-mock-integration-tests](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-integration-tests/overview)
+* [org.apache.nifi:nifi-connector-mock-server](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-server/overview)
+* [org.apache.nifi:nifi-connector-mock-server-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-server-nar/overview)
+* [org.apache.nifi:nifi-connector-mock-test-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-test-bundle/overview)
+* [org.apache.nifi:nifi-connector-mock-test-connectors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-test-connectors/overview)
+* [org.apache.nifi:nifi-connector-mock-test-connectors-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connector-mock-test-connectors-nar/overview)
+* [org.apache.nifi:nifi-connectors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-connectors/overview)
 * [org.apache.nifi:nifi-content-viewer-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-content-viewer-utils/overview)
 * [org.apache.nifi:nifi-couchbase-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-bundle/overview)
 * [org.apache.nifi:nifi-couchbase-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-nar/overview)
 * [org.apache.nifi:nifi-couchbase-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-processors/overview)
+* [org.apache.nifi:nifi-couchbase-services](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-services/overview)
 * [org.apache.nifi:nifi-couchbase-services-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-services-api/overview)
 * [org.apache.nifi:nifi-couchbase-services-api-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-services-api-nar/overview)
 * [org.apache.nifi:nifi-couchbase-standard-services](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-standard-services/overview)
@@ -470,6 +482,8 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-iceberg-azure-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-azure-nar/overview)
 * [org.apache.nifi:nifi-iceberg-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-bundle/overview)
 * [org.apache.nifi:nifi-iceberg-common](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-common/overview)
+* [org.apache.nifi:nifi-iceberg-gcs](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-gcs/overview)
+* [org.apache.nifi:nifi-iceberg-gcs-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-gcs-nar/overview)
 * [org.apache.nifi:nifi-iceberg-parquet-writer](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-parquet-writer/overview)
 * [org.apache.nifi:nifi-iceberg-parquet-writer-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-parquet-writer-nar/overview)
 * [org.apache.nifi:nifi-iceberg-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-processors/overview)
@@ -519,6 +533,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-json-schema-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-json-schema-api/overview)
 * [org.apache.nifi:nifi-json-schema-shared](https://central.sonatype.com/artifact/org.apache.nifi/nifi-json-schema-shared/overview)
 * [org.apache.nifi:nifi-json-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-json-utils/overview)
+* [org.apache.nifi:nifi-json-validator](https://central.sonatype.com/artifact/org.apache.nifi/nifi-json-validator/overview)
 * [org.apache.nifi:nifi-kafka-1-0-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-1-0-nar/overview)
 * [org.apache.nifi:nifi-kafka-1-0-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-1-0-processors/overview)
 * [org.apache.nifi:nifi-kafka-2-0-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-2-0-nar/overview)
@@ -543,6 +558,10 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-kafka-service-aws-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-service-aws-nar/overview)
 * [org.apache.nifi:nifi-kafka-service-shared](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-service-shared/overview)
 * [org.apache.nifi:nifi-kafka-shared](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-shared/overview)
+* [org.apache.nifi:nifi-kafka-to-s3-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-to-s3-bundle/overview)
+* [org.apache.nifi:nifi-kafka-to-s3-connector](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-to-s3-connector/overview)
+* [org.apache.nifi:nifi-kafka-to-s3-integration-tests](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-to-s3-integration-tests/overview)
+* [org.apache.nifi:nifi-kafka-to-s3-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kafka-to-s3-nar/overview)
 * [org.apache.nifi:nifi-kerberos-credentials-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kerberos-credentials-service/overview)
 * [org.apache.nifi:nifi-kerberos-credentials-service-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kerberos-credentials-service-api/overview)
 * [org.apache.nifi:nifi-kerberos-credentials-service-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-kerberos-credentials-service-bundle/overview)
@@ -960,14 +979,14 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **35 releases** of org.apache.nifi:nifi:
+rebuilding **36 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 35 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 36 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.10.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.10.0/pom) | | | |
+| [2.10.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.10.0/pom) | [mvn jdk21 osx aarm64](nifi-2.10.0.buildspec) | [result](nifi-2.10.0.buildinfo): [1805 :white_check_mark:  11 :warning:](nifi-2.10.0.buildcompare) | 6 :rotating_light: 5 :no_entry_sign: | 1.7G |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.9.0/pom) | | | |
 | [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.8.0/pom) | [mvn jdk21 osx aarm64](nifi-2.8.0.buildspec) | [result](nifi-2.8.0.buildinfo): [1746 :white_check_mark:  24 :warning:](nifi-2.8.0.buildcompare) | 6 :rotating_light: 18 :no_entry_sign: | 1.6G |
 | [2.7.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.2/pom) | [mvn jdk21](nifi-2.7.2.buildspec) | [result](nifi-2.7.2.buildinfo): [1767 :white_check_mark:  11 :warning:](nifi-2.7.2.buildcompare) [:mag:](nifi-2.7.2.diffoscope) | 6 :rotating_light: 5 :no_entry_sign: | 1.6G |
