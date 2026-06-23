@@ -1,0 +1,9 @@
+version=1.0.0-alpha-1
+ok=6
+ko=0
+ignored=0
+okFiles="atr-maven-plugin-1.0.0-alpha-1.pom atr-maven-plugin-1.0.0-alpha-1.jar atr-maven-plugin-1.0.0-alpha-1-source-release.zip atr-maven-plugin-1.0.0-alpha-1-sources.jar atr-maven-plugin-1.0.0-alpha-1-tests.jar atr-maven-plugin-1.0.0-alpha-1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
