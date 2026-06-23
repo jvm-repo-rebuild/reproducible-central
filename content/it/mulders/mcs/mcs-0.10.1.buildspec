@@ -1,0 +1,16 @@
+groupId=it.mulders
+artifactId=mcs
+display=${groupId}:${artifactId}
+version=0.10.1
+
+gitRepo=https://github.com/mthmulders/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.15
+jdk=25
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=https://github.com/mthmulders/mcs/issues/735
