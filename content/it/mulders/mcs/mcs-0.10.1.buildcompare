@@ -1,0 +1,17 @@
+version=0.10.1
+ok=1
+ko=2
+ignored=0
+okFiles="mcs-0.10.1.pom"
+koFiles="mcs-0.10.1.jar mcs-0.10.1-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/it.mulders/mcs-0.10.1.jar target/mcs-0.10.1.jar
+# diffoscope target/reference/it.mulders/mcs-0.10.1-sources.jar target/mcs-0.10.1-sources.jar
+stabilize_ok=1
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles="mcs-0.10.1.jar.stabilized"
+stabilize_koFiles="mcs-0.10.1-sources.jar.stabilized"
+stabilize_ignoredFiles=""

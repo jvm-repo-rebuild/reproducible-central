@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>it.mulders</groupId>
+  <artifactId>mcs</artifactId>
+  <versioning>
+    <latest>0.10.1</latest>
+    <release>0.10.1</release>
+    <versions>
+      <version>0.9.2-rc-6</version>
+      <version>0.9.2-rc-7</version>
+      <version>0.9.2-rc-8</version>
+      <version>0.9.2-rc-9</version>
+      <version>0.9.2-rc-10</version>
+      <version>0.9.2</version>
+      <version>0.9.3</version>
+      <version>0.9.4</version>
+      <version>0.9.5</version>
+      <version>0.9.6</version>
+      <version>0.9.7</version>
+      <version>0.10.0</version>
+      <version>0.10.1</version>
+    </versions>
+    <lastUpdated>20260623082930</lastUpdated>
+  </versioning>
+</metadata>
