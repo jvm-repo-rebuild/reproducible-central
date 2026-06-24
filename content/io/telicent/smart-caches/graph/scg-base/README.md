@@ -16,13 +16,13 @@ Source code: [https://github.com/Telicent-oss/smart-cache-graph](https://github.
 * [io.telicent.smart-caches.graph:scg-system](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-system/overview)
 </details>
 
-rebuilding **72 releases** of io.telicent.smart-caches.graph:scg-base:
-- **72** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **73 releases** of io.telicent.smart-caches.graph:scg-base:
+- **73** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.9](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.0.9/pom) | | | |
+| [1.0.9](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.0.9/pom) | [mvn jdk21](scg-base-1.0.9.buildspec) | [result](scg-base-1.0.9.buildinfo): [15 :white_check_mark: ](scg-base-1.0.9.buildcompare) | | 155M |
 | [1.0.8](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.0.8/pom) | [mvn jdk21](scg-base-1.0.8.buildspec) | [result](scg-base-1.0.8.buildinfo): [15 :white_check_mark: ](scg-base-1.0.8.buildcompare) | | 155M |
 | [1.0.5](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.0.5/pom) | [mvn jdk21](scg-base-1.0.5.buildspec) | [result](scg-base-1.0.5.buildinfo): [23 :white_check_mark: ](scg-base-1.0.5.buildcompare) | | 155M |
 | [1.0.4](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.0.4/pom) | [mvn jdk21](scg-base-1.0.4.buildspec) | [result](scg-base-1.0.4.buildinfo): [23 :white_check_mark: ](scg-base-1.0.4.buildcompare) | | 155M |
