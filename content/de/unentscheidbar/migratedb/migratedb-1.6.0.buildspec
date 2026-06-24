@@ -1,0 +1,20 @@
+groupId=de.unentscheidbar
+artifactId=migratedb
+version=1.6.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/daniel-huss/migratedb.git
+gitTag=v${version}
+
+tool=mvn-3.9.12
+jdk=21
+toolchains="21|17"
+newline=lf
+
+command="mvn clean verify -DskipTests -Dgpg.skip -Djavadoc.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="sed -i 's_<localRepository>.*</localRepository>__' ../../../../../../m2/settings.xml"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
