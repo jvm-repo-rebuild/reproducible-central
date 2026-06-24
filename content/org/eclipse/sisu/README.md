@@ -23,6 +23,7 @@ rebuilding **2 releases** of org.eclipse.sisu:sisu-inject:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.1](https://central.sonatype.com/artifact/org.eclipse.sisu/sisu-inject/1.0.1/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/org.eclipse.sisu/sisu-inject/1.0.0/pom) | [mvn jdk21](sisu-1.0.0.buildspec) | [result](sisu-inject-1.0.0.buildinfo): [11 :white_check_mark: ](sisu-inject-1.0.0.buildcompare) | | 600K |
 | [0.9.0.M4](https://central.sonatype.com/artifact/org.eclipse.sisu/sisu-inject/0.9.0.M4/pom) | [mvn jdk21](sisu-0.9.0.M4.buildspec) | [result](sisu-inject-0.9.0.M4.buildinfo): [11 :white_check_mark: ](sisu-inject-0.9.0.M4.buildcompare) | | 598K |
 
