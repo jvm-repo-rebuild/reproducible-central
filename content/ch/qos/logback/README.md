@@ -17,13 +17,13 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 * [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/overview)
 </details>
 
-rebuilding **77 releases** of ch.qos.logback:logback-parent:
-- **62** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **78 releases** of ch.qos.logback:logback-parent:
+- **63** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.36](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.36/pom) | | | |
+| [1.5.36](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.36/pom) | [mvn jdk21](logback-1.5.36.buildspec) | [result](logback-parent-1.5.36.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.36.buildcompare) | | 3.1M |
 | [1.5.35](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.35/pom) | [mvn jdk21](logback-1.5.35.buildspec) | [result](logback-parent-1.5.35.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.35.buildcompare) | | 3.1M |
 | [1.5.34](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.34/pom) | [mvn jdk21](logback-1.5.34.buildspec) | [result](logback-parent-1.5.34.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.34.buildcompare) | | 3.1M |
 | [1.5.33](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.33/pom) | [mvn jdk21](logback-1.5.33.buildspec) | [result](logback-parent-1.5.33.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.33.buildcompare) | | 3.0M |
