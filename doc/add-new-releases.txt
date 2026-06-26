@@ -1,7 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.5.34.buildspec:1.5.36
-content/com/google/mug/mug-10.4.3.buildspec:10.5
+content/ch/qos/logback/logback-1.5.36.buildspec:1.5.37
+content/com/github/hazendaz/git/github-desktop/github-desktop-3.5.12.buildspec:3.6.1
 content/de/unentscheidbar/migratedb/migratedb-1.5.0.buildspec:1.6.0
-content/io/cucumber/query/query-16.0.0.buildspec:16.0.1
-content/org/spdx/spdx-java-core/spdx-java-core-1.0.3.buildspec:1.0.4
+content/dev/langchain4j/langchain4j-1.16.3.buildspec:1.17.0
+content/eu/maveniverse/maven/scalpel/scalpel-0.3.5.buildspec:0.3.7
+content/io/avaje/jex/avaje-jex-3.6.buildspec:3.7-RC1
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.3.buildspec:7.34.4
+content/io/wcm/tooling/wcm-parent_toplevel-2.8.0.buildspec:2.9.0

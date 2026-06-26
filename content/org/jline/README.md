@@ -48,6 +48,7 @@ rebuilding **42 releases** of org.jline:jline:
 | [4.1.2](https://central.sonatype.com/artifact/org.jline/jline/4.1.2/pom) | [mvn jdk22](jline-4.1.2.buildspec) | [result](jline-parent-4.1.2.buildinfo): [21 :white_check_mark:  42 :warning:](jline-parent-4.1.2.buildcompare) | 42 :recycle: | 9.0M |
 | [4.1.1](https://central.sonatype.com/artifact/org.jline/jline/4.1.1/pom) | [mvn jdk22](jline-4.1.1.buildspec) | [result](jline-parent-4.1.1.buildinfo): [21 :white_check_mark:  42 :warning:](jline-parent-4.1.1.buildcompare) | 42 :recycle: | 9.0M |
 | [4.1.0](https://central.sonatype.com/artifact/org.jline/jline/4.1.0/pom) | [mvn jdk22](jline-4.1.0.buildspec) | [result](jline-parent-4.1.0.buildinfo): [21 :white_check_mark:  42 :warning:](jline-parent-4.1.0.buildcompare) | 42 :recycle: | 9.0M |
+| [4.0.16](https://central.sonatype.com/artifact/org.jline/jline/4.0.16/pom) | | | |
 | [4.0.15](https://central.sonatype.com/artifact/org.jline/jline/4.0.15/pom) | [mvn jdk22](jline-4.0.15.buildspec) | :x: | |
 | [4.0.14](https://central.sonatype.com/artifact/org.jline/jline/4.0.14/pom) | [mvn jdk22](jline-4.0.14.buildspec) | :x: | |
 | [4.0.13](https://central.sonatype.com/artifact/org.jline/jline/4.0.13/pom) | [mvn jdk22](jline-4.0.13.buildspec) | :x: | |
@@ -63,6 +64,7 @@ rebuilding **42 releases** of org.jline:jline:
 | [4.0.3](https://central.sonatype.com/artifact/org.jline/jline/4.0.3/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.jline/jline/4.0.2/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.jline/jline/4.0.0/pom) | [mvn jdk22](jline-4.0.0.buildspec) | [result](jline-parent-4.0.0.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.0.buildcompare) | 41 :recycle: | 8.9M |
+| [3.30.14](https://central.sonatype.com/artifact/org.jline/jline/3.30.14/pom) | | | |
 | [3.30.13](https://central.sonatype.com/artifact/org.jline/jline/3.30.13/pom) | [mvn jdk22](jline-3.30.13.buildspec) | [result](jline-parent-3.30.13.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.13.buildcompare) | | 8.2M |
 | [3.30.12](https://central.sonatype.com/artifact/org.jline/jline/3.30.12/pom) | [mvn jdk22](jline-3.30.12.buildspec) | [result](jline-parent-3.30.12.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.12.buildcompare) | | 8.2M |
 | [3.30.11](https://central.sonatype.com/artifact/org.jline/jline/3.30.11/pom) | [mvn jdk22](jline-3.30.11.buildspec) | [result](jline-parent-3.30.11.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.11.buildcompare) | | 8.2M |
