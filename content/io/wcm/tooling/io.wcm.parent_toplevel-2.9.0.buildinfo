@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Toplevel Parent
+group-id=io.wcm
+artifact-id=io.wcm.parent_toplevel
+version=2.9.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-tooling.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.parent_toplevel-2.9.0.pom
+outputs.0.length=18462
+outputs.0.checksums.sha512=144606f0043bb04d72b518b41659856bb2f10bf761b9e150d00dcd29a176599973451bc006d9a99e8e63e3096299617f9dfc3e3dd0b3d330fc20cb674a2a8c53
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.parent_toplevel-2.9.0-site.xml
+outputs.1.length=5369
+outputs.1.checksums.sha512=2cc56bb1165f79265b016f2bf79903f782b26038453c976538f6ffd62407ad0225b4ae1e2ad43c0018cd0bf8521359114a093f335cfdd5cc935df1045d66af76
