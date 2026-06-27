@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/messages.git](https://github.com/cucumber/messages.git)
 
-rebuilding **35 releases** of io.cucumber:messages:
-- **35** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **36 releases** of io.cucumber:messages:
+- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [33.0.4](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.4/pom) | | | |
+| [33.0.4](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.4/pom) | [mvn jdk21](messages-33.0.4.buildspec) | [result](messages-33.0.4.buildinfo): [3 :white_check_mark: ](messages-33.0.4.buildcompare) | | 198K |
 | [33.0.3](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.3/pom) | [mvn jdk21](messages-33.0.3.buildspec) | [result](messages-33.0.3.buildinfo): [3 :white_check_mark: ](messages-33.0.3.buildcompare) | | 198K |
 | [33.0.2](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.2/pom) | [mvn jdk21](messages-33.0.2.buildspec) | [result](messages-33.0.2.buildinfo): [3 :white_check_mark: ](messages-33.0.2.buildcompare) | | 198K |
 | [33.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.1/pom) | [mvn jdk21](messages-33.0.1.buildspec) | [result](messages-33.0.1.buildinfo): [3 :white_check_mark: ](messages-33.0.1.buildcompare) | | 198K |
