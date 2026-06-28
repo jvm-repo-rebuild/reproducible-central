@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/daniel-huss/migratedb.git](https://github.com/daniel-huss/migratedb.git)
 
-<details><summary>This project defines 13 modules:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
 * [de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/overview)
 * [de.unentscheidbar:migratedb-commandline](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-commandline/overview)
@@ -17,20 +17,25 @@ Source code: [https://github.com/daniel-huss/migratedb.git](https://github.com/d
 * [de.unentscheidbar:migratedb-integration-tests](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-integration-tests/overview)
 * [de.unentscheidbar:migratedb-maven-plugin](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-maven-plugin/overview)
 * [de.unentscheidbar:migratedb-scanner](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-scanner/overview)
+* [de.unentscheidbar:migratedb-spring-boot](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot/overview)
+* [de.unentscheidbar:migratedb-spring-boot-shared](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-shared/overview)
 * [de.unentscheidbar:migratedb-spring-boot-v3](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3/overview)
 * [de.unentscheidbar:migratedb-spring-boot-v3-autoconfig](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3-autoconfig/overview)
 * [de.unentscheidbar:migratedb-spring-boot-v3-starter](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3-starter/overview)
+* [de.unentscheidbar:migratedb-spring-boot-v4](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v4/overview)
+* [de.unentscheidbar:migratedb-spring-boot-v4-autoconfig](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v4-autoconfig/overview)
+* [de.unentscheidbar:migratedb-spring-boot-v4-starter](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v4-starter/overview)
 * [de.unentscheidbar:migratedb-test-report-aggregator](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-test-report-aggregator/overview)
 * [de.unentscheidbar:migratedb-testlib](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-testlib/overview)
 </details>
 
-rebuilding **10 releases** of de.unentscheidbar:migratedb:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of de.unentscheidbar:migratedb:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.6.0/pom) | | | |
+| [1.6.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.6.0/pom) | [mvn jdk21](migratedb-1.6.0.buildspec) | [result](migratedb-1.6.0.buildinfo): [29 :white_check_mark: ](migratedb-1.6.0.buildcompare) | | 1.4M |
 | [1.5.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.5.0/pom) | [mvn jdk17](migratedb-1.5.0.buildspec) | [result](migratedb-1.5.0.buildinfo): [14 :white_check_mark: ](migratedb-1.5.0.buildcompare) | | 801K |
 | [1.4.1](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.4.1/pom) | [mvn jdk17](migratedb-1.4.1.buildspec) | [result](migratedb-1.4.1.buildinfo): [14 :white_check_mark: ](migratedb-1.4.1.buildcompare) | | 801K |
 | [1.4.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.4.0/pom) | [mvn jdk17](migratedb-1.4.0.buildspec) | [result](migratedb-1.4.0.buildinfo): [14 :white_check_mark: ](migratedb-1.4.0.buildcompare) | | 801K |
