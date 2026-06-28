@@ -14,6 +14,6 @@ rebuilding **1 releases** of it.mulders:mcs:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.10.1](https://central.sonatype.com/artifact/it.mulders/mcs/0.10.1/pom) | [mvn jdk25](mcs-0.10.1.buildspec) | [result](mcs-0.10.1.buildinfo): [1 :white_check_mark:  2 :warning:](mcs-0.10.1.buildcompare) [:memo:](https://github.com/mthmulders/mcs/issues/735) | 1 :recycle: 1 :rotating_light: | 1.4M |
+| [0.10.1](https://central.sonatype.com/artifact/it.mulders/mcs/0.10.1/pom) | [mvn jdk25](mcs-0.10.1.buildspec) | [result](mcs-0.10.1.buildinfo): [1 :white_check_mark:  2 :warning:](mcs-0.10.1.buildcompare) [:mag:](mcs-0.10.1.diffoscope) [:memo:](https://github.com/mthmulders/mcs/issues/735) | 1 :recycle: 1 :rotating_light: | 1.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

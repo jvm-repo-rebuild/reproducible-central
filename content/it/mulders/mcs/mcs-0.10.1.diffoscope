@@ -1,0 +1,119 @@
+1 / 2 target/reference/it.mulders/mcs-0.10.1.jar target/mcs-0.10.1.jar
+--- target/reference/it.mulders/mcs-0.10.1.jar
++++ target/mcs-0.10.1.jar
+├── zipinfo {}
+│ @@ -179,14 +179,15 @@
+│  -rw----     2.0 fat     7179 bl defN 26-May-31 17:08 com/fasterxml/jackson/jr/type/TypeResolver.class
+│  -rw----     2.0 fat        0 bl defN 26-May-31 17:08 META-INF/versions/
+│  -rw----     2.0 fat        0 bl defN 26-May-31 17:08 META-INF/versions/9/
+│  -rw----     2.0 fat      384 bl defN 26-May-31 17:08 META-INF/versions/9/module-info.class
+│  -rw----     2.0 fat     3228 bl defN 26-May-31 16:55 META-INF/FastDoubleParser-LICENSE
+│  -rw----     2.0 fat     4578 bl defN 26-May-31 16:55 META-INF/FastDoubleParser-ThirdParty-LICENSE
+│  -rw----     2.0 fat     1064 bl defN 26-May-31 16:55 META-INF/Schubfach-LICENSE
+│ +-rw----     2.0 fat        0 bl defN 26-May-31 16:55 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/
+│  -rw----     2.0 fat     1372 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+│  -rw----     2.0 fat    12894 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/Base64Variant.class
+│  -rw----     2.0 fat     2131 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/Base64Variants.class
+│  -rw----     2.0 fat     1433 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/ErrorReportConfiguration$Builder.class
+│  -rw----     2.0 fat     2353 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/ErrorReportConfiguration.class
+│  -rw----     2.0 fat      272 bl defN 26-May-31 16:55 com/fasterxml/jackson/core/FormatFeature.class
+│ @@ -808,10 +809,9 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/jspecify/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/jspecify/annotations/
+│  -rw----     2.0 fat      434 bl defN 80-Feb-01 00:00 org/jspecify/annotations/NonNull.class
+│  -rw----     2.0 fat      498 bl defN 80-Feb-01 00:00 org/jspecify/annotations/NullMarked.class
+│  -rw----     2.0 fat      488 bl defN 80-Feb-01 00:00 org/jspecify/annotations/NullUnmarked.class
+│  -rw----     2.0 fat      436 bl defN 80-Feb-01 00:00 org/jspecify/annotations/Nullable.class
+│ --rw----     2.0 fat        0 bl defN 26-May-31 16:55 META-INF/services/
+│  -rw----     2.0 fat       39 bl defN 26-May-31 16:55 META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  815 files, 2707734 bytes uncompressed, 1141011 bytes compressed:  57.9%
+├── zipnote «TEMP»/diffoscope_ybfmrjng_target/tmpi77t1t03_.zip
+│ @@ -546,14 +546,17 @@
+│  
+│  Filename: META-INF/FastDoubleParser-ThirdParty-LICENSE
+│  Comment: 
+│  
+│  Filename: META-INF/Schubfach-LICENSE
+│  Comment: 
+│  
+│ +Filename: META-INF/services/
+│ +Comment: 
+│ +
+│  Filename: com/fasterxml/jackson/core/
+│  Comment: 
+│  
+│  Filename: com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+│  Comment: 
+│  
+│  Filename: com/fasterxml/jackson/core/Base64Variant.class
+│ @@ -2433,14 +2436,11 @@
+│  
+│  Filename: org/jspecify/annotations/NullUnmarked.class
+│  Comment: 
+│  
+│  Filename: org/jspecify/annotations/Nullable.class
+│  Comment: 
+│  
+│ -Filename: META-INF/services/
+│ -Comment: 
+│ -
+│  Filename: META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  Comment: 
+│  
+│  Zip file comment:
+
+2 / 2 target/reference/it.mulders/mcs-0.10.1-sources.jar target/mcs-0.10.1-sources.jar
+--- target/reference/it.mulders/mcs-0.10.1-sources.jar
++++ target/mcs-0.10.1-sources.jar
+├── zipinfo {}
+│ @@ -1,17 +1,16 @@
+│ -Zip file size: 44674 bytes, number of entries: 80
+│ +Zip file size: 44542 bytes, number of entries: 79
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 26-Jun-22 07:57 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/dagger/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/dagger/dummy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/printer/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/search/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/search/artifact/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 it/mulders/mcs/search/vulnerability/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 META-INF/maven/it.mulders/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jun-22 07:57 META-INF/maven/it.mulders/mcs/
+│ @@ -75,8 +74,8 @@
+│  -rw-r--r--  2.0 unx     1033 b- defN 26-Jun-22 07:57 it/mulders/mcs/printer/OutputFactory_Factory.java
+│  -rw-r--r--  2.0 unx     2152 b- defN 26-Jun-22 07:57 it/mulders/mcs/search/SearchCommandHandler_Factory.java
+│  -rw-r--r--  2.0 unx     1237 b- defN 26-Jun-22 07:57 it/mulders/mcs/search/artifact/SearchClient_Factory.java
+│  -rw-r--r--  2.0 unx     1314 b- defN 26-Jun-22 07:57 it/mulders/mcs/search/vulnerability/ComponentReportClient_Factory.java
+│  -rw-r--r--  2.0 unx       30 b- defN 26-Jun-22 07:57 mcs.properties
+│  -rw-r--r--  2.0 unx    24861 b- defN 26-Jun-22 07:57 META-INF/maven/it.mulders/mcs/pom.xml
+│  -rw-r--r--  2.0 unx       49 b- defN 26-Jun-22 07:57 META-INF/maven/it.mulders/mcs/pom.properties
+│ -80 files, 107448 bytes uncompressed, 32010 bytes compressed:  70.2%
+│ +79 files, 107448 bytes uncompressed, 32010 bytes compressed:  70.2%
+├── zipnote «TEMP»/diffoscope_bkj2rqry_target/tmpdtvcdh0f_.zip
+│ @@ -18,17 +18,14 @@
+│  
+│  Filename: it/mulders/mcs/common/
+│  Comment: 
+│  
+│  Filename: it/mulders/mcs/dagger/
+│  Comment: 
+│  
+│ -Filename: it/mulders/mcs/dagger/dummy/
+│ -Comment: 
+│ -
+│  Filename: it/mulders/mcs/printer/
+│  Comment: 
+│  
+│  Filename: it/mulders/mcs/search/
+│  Comment: 
+│  
+│  Filename: it/mulders/mcs/search/artifact/
+
