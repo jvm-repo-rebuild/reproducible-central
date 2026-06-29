@@ -7,10 +7,11 @@
 
 Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika.git)
 
-<details><summary>This project defines 115 modules:</summary>
+<details><summary>This project defines 158 modules:</summary>
 
 * [org.apache.tika:tika](https://central.sonatype.com/artifact/org.apache.tika/tika/overview)
 * [org.apache.tika:tika-age-recogniser](https://central.sonatype.com/artifact/org.apache.tika/tika-age-recogniser/overview)
+* [org.apache.tika:tika-annotation-processor](https://central.sonatype.com/artifact/org.apache.tika/tika-annotation-processor/overview)
 * [org.apache.tika:tika-app](https://central.sonatype.com/artifact/org.apache.tika/tika-app/overview)
 * [org.apache.tika:tika-async-cli](https://central.sonatype.com/artifact/org.apache.tika/tika-async-cli/overview)
 * [org.apache.tika:tika-batch](https://central.sonatype.com/artifact/org.apache.tika/tika-batch/overview)
@@ -31,6 +32,11 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-emitter-s3](https://central.sonatype.com/artifact/org.apache.tika/tika-emitter-s3/overview)
 * [org.apache.tika:tika-emitter-solr](https://central.sonatype.com/artifact/org.apache.tika/tika-emitter-solr/overview)
 * [org.apache.tika:tika-emitters](https://central.sonatype.com/artifact/org.apache.tika/tika-emitters/overview)
+* [org.apache.tika:tika-encoding-detector-html](https://central.sonatype.com/artifact/org.apache.tika/tika-encoding-detector-html/overview)
+* [org.apache.tika:tika-encoding-detector-icu4j](https://central.sonatype.com/artifact/org.apache.tika/tika-encoding-detector-icu4j/overview)
+* [org.apache.tika:tika-encoding-detector-mojibuster](https://central.sonatype.com/artifact/org.apache.tika/tika-encoding-detector-mojibuster/overview)
+* [org.apache.tika:tika-encoding-detector-universal](https://central.sonatype.com/artifact/org.apache.tika/tika-encoding-detector-universal/overview)
+* [org.apache.tika:tika-encoding-detectors](https://central.sonatype.com/artifact/org.apache.tika/tika-encoding-detectors/overview)
 * [org.apache.tika:tika-eval](https://central.sonatype.com/artifact/org.apache.tika/tika-eval/overview)
 * [org.apache.tika:tika-eval-app](https://central.sonatype.com/artifact/org.apache.tika/tika-eval-app/overview)
 * [org.apache.tika:tika-eval-core](https://central.sonatype.com/artifact/org.apache.tika/tika-eval-core/overview)
@@ -45,16 +51,24 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-grpc](https://central.sonatype.com/artifact/org.apache.tika/tika-grpc/overview)
 * [org.apache.tika:tika-handler-boilerpipe](https://central.sonatype.com/artifact/org.apache.tika/tika-handler-boilerpipe/overview)
 * [org.apache.tika:tika-handlers](https://central.sonatype.com/artifact/org.apache.tika/tika-handlers/overview)
+* [org.apache.tika:tika-http-jdk](https://central.sonatype.com/artifact/org.apache.tika/tika-http-jdk/overview)
 * [org.apache.tika:tika-httpclient-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-httpclient-commons/overview)
+* [org.apache.tika:tika-inference](https://central.sonatype.com/artifact/org.apache.tika/tika-inference/overview)
 * [org.apache.tika:tika-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-integration-tests/overview)
 * [org.apache.tika:tika-java7](https://central.sonatype.com/artifact/org.apache.tika/tika-java7/overview)
 * [org.apache.tika:tika-langdetect](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect/overview)
+* [org.apache.tika:tika-langdetect-charsoup](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-charsoup/overview)
+* [org.apache.tika:tika-langdetect-charsoup-core](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-charsoup-core/overview)
 * [org.apache.tika:tika-langdetect-lingo24](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-lingo24/overview)
 * [org.apache.tika:tika-langdetect-mitll-text](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-mitll-text/overview)
 * [org.apache.tika:tika-langdetect-opennlp](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-opennlp/overview)
 * [org.apache.tika:tika-langdetect-optimaize](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-optimaize/overview)
 * [org.apache.tika:tika-langdetect-test-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-test-commons/overview)
 * [org.apache.tika:tika-langdetect-tika](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-tika/overview)
+* [org.apache.tika:tika-ml](https://central.sonatype.com/artifact/org.apache.tika/tika-ml/overview)
+* [org.apache.tika:tika-ml-chardetect](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-chardetect/overview)
+* [org.apache.tika:tika-ml-core](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-core/overview)
+* [org.apache.tika:tika-ml-junkdetect](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-junkdetect/overview)
 * [org.apache.tika:tika-parent](https://central.sonatype.com/artifact/org.apache.tika/tika-parent/overview)
 * [org.apache.tika:tika-parser-advancedmedia-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-advancedmedia-module/overview)
 * [org.apache.tika:tika-parser-advancedmedia-package](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-advancedmedia-package/overview)
@@ -76,6 +90,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-parser-news-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-news-module/overview)
 * [org.apache.tika:tika-parser-nlp-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-nlp-module/overview)
 * [org.apache.tika:tika-parser-nlp-package](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-nlp-package/overview)
+* [org.apache.tika:tika-parser-ocr-encode-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-ocr-encode-module/overview)
 * [org.apache.tika:tika-parser-ocr-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-ocr-module/overview)
 * [org.apache.tika:tika-parser-pdf-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-pdf-module/overview)
 * [org.apache.tika:tika-parser-pkg-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-pkg-module/overview)
@@ -83,6 +98,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-parser-scientific-package](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-scientific-package/overview)
 * [org.apache.tika:tika-parser-sqlite3-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-sqlite3-module/overview)
 * [org.apache.tika:tika-parser-sqlite3-package](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-sqlite3-package/overview)
+* [org.apache.tika:tika-parser-tess4j-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-tess4j-module/overview)
 * [org.apache.tika:tika-parser-text-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-text-module/overview)
 * [org.apache.tika:tika-parser-webarchive-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-webarchive-module/overview)
 * [org.apache.tika:tika-parser-xml-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-xml-module/overview)
@@ -93,10 +109,26 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-parsers-extended-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-parsers-extended-integration-tests/overview)
 * [org.apache.tika:tika-parsers-ml](https://central.sonatype.com/artifact/org.apache.tika/tika-parsers-ml/overview)
 * [org.apache.tika:tika-parsers-standard](https://central.sonatype.com/artifact/org.apache.tika/tika-parsers-standard/overview)
+* [org.apache.tika:tika-parsers-standard-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-parsers-standard-integration-tests/overview)
 * [org.apache.tika:tika-parsers-standard-modules](https://central.sonatype.com/artifact/org.apache.tika/tika-parsers-standard-modules/overview)
 * [org.apache.tika:tika-parsers-standard-package](https://central.sonatype.com/artifact/org.apache.tika/tika-parsers-standard-package/overview)
 * [org.apache.tika:tika-pipes](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes/overview)
+* [org.apache.tika:tika-pipes-api](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-api/overview)
+* [org.apache.tika:tika-pipes-atlassian-jwt](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-atlassian-jwt/overview)
+* [org.apache.tika:tika-pipes-az-blob](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-az-blob/overview)
+* [org.apache.tika:tika-pipes-config-store-ignite](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-config-store-ignite/overview)
+* [org.apache.tika:tika-pipes-core](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-core/overview)
+* [org.apache.tika:tika-pipes-csv](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-csv/overview)
+* [org.apache.tika:tika-pipes-es](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-es/overview)
+* [org.apache.tika:tika-pipes-es-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-es-integration-tests/overview)
+* [org.apache.tika:tika-pipes-file-system](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-file-system/overview)
+* [org.apache.tika:tika-pipes-fork-parser](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-fork-parser/overview)
+* [org.apache.tika:tika-pipes-gcs](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-gcs/overview)
+* [org.apache.tika:tika-pipes-google-drive](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-google-drive/overview)
+* [org.apache.tika:tika-pipes-http](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-http/overview)
+* [org.apache.tika:tika-pipes-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-integration-tests/overview)
 * [org.apache.tika:tika-pipes-iterator-az-blob](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-az-blob/overview)
+* [org.apache.tika:tika-pipes-iterator-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-commons/overview)
 * [org.apache.tika:tika-pipes-iterator-csv](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-csv/overview)
 * [org.apache.tika:tika-pipes-iterator-gcs](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-gcs/overview)
 * [org.apache.tika:tika-pipes-iterator-jdbc](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-jdbc/overview)
@@ -105,14 +137,24 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-pipes-iterator-s3](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-s3/overview)
 * [org.apache.tika:tika-pipes-iterator-solr](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-solr/overview)
 * [org.apache.tika:tika-pipes-iterators](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterators/overview)
+* [org.apache.tika:tika-pipes-jdbc](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-jdbc/overview)
+* [org.apache.tika:tika-pipes-json](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-json/overview)
+* [org.apache.tika:tika-pipes-kafka](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-kafka/overview)
 * [org.apache.tika:tika-pipes-kafka-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-kafka-integration-tests/overview)
+* [org.apache.tika:tika-pipes-microsoft-graph](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-microsoft-graph/overview)
+* [org.apache.tika:tika-pipes-opensearch](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-opensearch/overview)
 * [org.apache.tika:tika-pipes-opensearch-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-opensearch-integration-tests/overview)
+* [org.apache.tika:tika-pipes-plugins](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-plugins/overview)
+* [org.apache.tika:tika-pipes-reporter-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-reporter-commons/overview)
 * [org.apache.tika:tika-pipes-reporter-fs-status](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-reporter-fs-status/overview)
 * [org.apache.tika:tika-pipes-reporter-jdbc](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-reporter-jdbc/overview)
 * [org.apache.tika:tika-pipes-reporter-opensearch](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-reporter-opensearch/overview)
 * [org.apache.tika:tika-pipes-reporters](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-reporters/overview)
+* [org.apache.tika:tika-pipes-s3](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-s3/overview)
 * [org.apache.tika:tika-pipes-s3-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-s3-integration-tests/overview)
+* [org.apache.tika:tika-pipes-solr](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-solr/overview)
 * [org.apache.tika:tika-pipes-solr-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-solr-integration-tests/overview)
+* [org.apache.tika:tika-plugins-core](https://central.sonatype.com/artifact/org.apache.tika/tika-plugins-core/overview)
 * [org.apache.tika:tika-resource-loading-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-resource-loading-tests/overview)
 * [org.apache.tika:tika-serialization](https://central.sonatype.com/artifact/org.apache.tika/tika-serialization/overview)
 * [org.apache.tika:tika-server](https://central.sonatype.com/artifact/org.apache.tika/tika-server/overview)
@@ -122,18 +164,19 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-server-standard](https://central.sonatype.com/artifact/org.apache.tika/tika-server-standard/overview)
 * [org.apache.tika:tika-transcribe-aws](https://central.sonatype.com/artifact/org.apache.tika/tika-transcribe-aws/overview)
 * [org.apache.tika:tika-translate](https://central.sonatype.com/artifact/org.apache.tika/tika-translate/overview)
+* [org.apache.tika:tika-vlm](https://central.sonatype.com/artifact/org.apache.tika/tika-vlm/overview)
 * [org.apache.tika:tika-woodstox-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-woodstox-tests/overview)
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **25 releases** of org.apache.tika:tika:
+rebuilding **26 releases** of org.apache.tika:tika:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 25 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 26 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-alpha-1/pom) | | | |
+| [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-alpha-1/pom) | [mvn jdk17](tika-4.0.0-alpha-1.buildspec) | [result](tika-4.0.0-alpha-1.buildinfo): [366 :white_check_mark:  7 :warning:](tika-4.0.0-alpha-1.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.4G |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.1/pom) | [mvn jdk25](tika-3.3.1.buildspec) | [result](tika-3.3.1.buildinfo): [329 :white_check_mark:  7 :warning:](tika-3.3.1.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.7G |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.0/pom) | [mvn jdk11](tika-3.3.0.buildspec) | [result](tika-3.3.0.buildinfo): [329 :white_check_mark:  7 :warning:](tika-3.3.0.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.7G |
 | [3.2.3](https://central.sonatype.com/artifact/org.apache.tika/tika/3.2.3/pom) | [mvn jdk11](tika-3.2.3.buildspec) | [result](tika-3.2.3.buildinfo): [370 :white_check_mark:  1 :warning:](tika-3.2.3.buildcompare) [:memo:](https://issues.apache.org/jira/browse/TIKA-4470) | 1 :rotating_light: | 1.6G |
