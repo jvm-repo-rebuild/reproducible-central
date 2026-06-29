@@ -13,6 +13,7 @@ rebuilding **12 releases** of org.spdx:java-spdx-library:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.4](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/2.0.4/pom) | | | |
 | [2.0.3](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/2.0.3/pom) | [mvn jdk23 w](java-spdx-library-2.0.3.buildspec) | [result](java-spdx-library-2.0.3.buildinfo): [3 :white_check_mark: ](java-spdx-library-2.0.3.buildcompare) | | 7.6M |
 | [2.0.2](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/2.0.2/pom) | [mvn jdk23 w](java-spdx-library-2.0.2.buildspec) | [result](java-spdx-library-2.0.2.buildinfo): [3 :white_check_mark: ](java-spdx-library-2.0.2.buildcompare) | | 7.4M |
 | [2.0.1](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/2.0.1/pom) | [mvn jdk23 w](java-spdx-library-2.0.1.buildspec) | [result](java-spdx-library-2.0.1.buildinfo): [3 :white_check_mark: ](java-spdx-library-2.0.1.buildcompare) | | 7.4M |

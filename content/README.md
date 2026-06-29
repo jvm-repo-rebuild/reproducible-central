@@ -255,7 +255,7 @@ Reproducible Builds for Maven Central Repository
 | de.knightsoft-net | [gwt-commons-codec](../content/de/knightsoft-net/gwt-commons-codec/README.md) | 6 | 6 :white_check_mark: |
 | | [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | 7 | 7 :white_check_mark: |
 | | [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 4 | 4 :warning: |
-| de.unentscheidbar | [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
+| de.unentscheidbar | [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | dev.langchain4j | [langchain4j](../content/dev/langchain4j/README.md) | 56 | 38 :white_check_mark: / 18 :warning: |
 | dev.aspectj | [aspectj-maven-plugin](../content/dev/aspectj/aspectj-maven-plugin/README.md) | 2 | 2 :warning: |
 | dev.cdevents | [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
@@ -322,7 +322,7 @@ Reproducible Builds for Maven Central Repository
 | | [gherkin-utils](../content/io/cucumber/gherkin-utils/README.md) | 13 | 13 :white_check_mark: |
 | | [html-formatter](../content/io/cucumber/html-formatter/README.md) | 29 | 27 :white_check_mark: / 2 :warning: |
 | | [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 20 | 18 :white_check_mark: / 2 :warning: |
-| | [messages](../content/io/cucumber/messages/README.md) | 35 | 35 :white_check_mark: |
+| | [messages](../content/io/cucumber/messages/README.md) | 36 | 36 :white_check_mark: |
 | | [messages-ndjson](../content/io/cucumber/messages-ndjson/README.md) | 10 | 10 :white_check_mark: |
 | | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 16 | 16 :white_check_mark: |
 | | [query](../content/io/cucumber/query/README.md) | 28 | 28 :white_check_mark: |
@@ -471,7 +471,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache | [jdo](../content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.johnzon | [johnzon](../content/org/apache/johnzon/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | org.apache.jspwiki | [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 11 | 1 :white_check_mark: / 10 :warning: |
-| org.apache.mina | [mina-parent](../content/org/apache/mina/README.md) | 19 | 8 :white_check_mark: / 11 :warning: |
+| org.apache.mina | [mina-parent](../content/org/apache/mina/README.md) | 20 | 8 :white_check_mark: / 12 :warning: |
 | org.apache.orc | [orc](../content/org/apache/orc/README.md) | 41 | 24 :white_check_mark: / 17 :warning: |
 | org.apache.paimon | [paimon-parent](../content/org/apache/paimon/README.md) | 13 | 4 :white_check_mark: / 9 :warning: |
 | org.apache.pinot | [pinot](../content/org/apache/pinot/README.md) | 1 | 1 :warning: |
@@ -618,7 +618,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.maven.reporting | [maven-reporting-api](../content/org/apache/maven/reporting/maven-reporting-api/README.md) | 15 | 15 :white_check_mark: |
 | | [maven-reporting-exec](../content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 18 | 18 :white_check_mark: |
 | | [maven-reporting-impl](../content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 18 | 18 :white_check_mark: |
-| org.apache.maven.resolver | [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 63 | 56 :white_check_mark: / 7 :warning: |
+| org.apache.maven.resolver | [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 64 | 56 :white_check_mark: / 8 :warning: |
 | | [maven-resolver-ant-tasks](../content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
 | org.apache.maven | [maven-archiver](../content/org/apache/maven/shared/archiver/README.md) | 10 | 10 :white_check_mark: |
 | org.apache.maven.shared | [file-management](../content/org/apache/maven/shared/file-management/README.md) | 2 | 2 :white_check_mark: |
@@ -987,7 +987,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 26 | 5 :white_check_mark: / 21 :warning: |
-| **Count:** | **973** | **11428** | **8406** :white_check_mark:<br>**3022** :warning: |
+| **Count:** | **973** | **11432** | **8408** :white_check_mark:<br>**3024** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1071,15 +1071,15 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     127 mvn-3.9.11   8
     111 mvn-3.9.11  11
     246 mvn-3.9.11  17
-    391 mvn-3.9.11  21
+    392 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     109 mvn-3.9.11  25
       2 mvn-3.9.11  26
-     12 mvn-3.9.12   8
+     13 mvn-3.9.12   8
      34 mvn-3.9.12  11
      48 mvn-3.9.12  17
-    229 mvn-3.9.12  21
+    231 mvn-3.9.12  21
       2 mvn-3.9.12  22
      13 mvn-3.9.12  24
      98 mvn-3.9.12  25
