@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-cdi
+group-id=org.mybatis
+artifact-id=mybatis-cdi
+version=2.1.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/cdi.git
+source.scm.tag=mybatis-cdi-2.1.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-cdi-2.1.2.pom
+outputs.0.length=9072
+outputs.0.checksums.sha512=a0f1f4dd34a699905d3409a7288310054d52b6939af87f54309a2ae590181645116e3c406ad13c7d324463827ed35c9d070c8c954f7b44b79120c56c106946e4
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-cdi-2.1.2.jar
+outputs.1.length=29930
+outputs.1.checksums.sha512=bcff7a547b3d63a301379c6daa57b3a484e25cfca2ca4744dad5de4e70ea947a63dbad3452f356888c947170bfb00a6e560d3a053300cc8e0077b29c31f394ab
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-cdi-2.1.2-sources.jar
+outputs.2.length=24164
+outputs.2.checksums.sha512=46f8affa9c4d64c0744b08db23a3d2c31cab0a879ffee822edcfda0cdc67741f27e9e7b99951c7cca8b1aa24fbdc64321f700aabd1b3d9cb702675c923658628
