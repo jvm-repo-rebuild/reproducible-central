@@ -1,14 +1,33 @@
 #!/usr/bin/env bash
 
 # path to .buildcompare file
-compare=$1
+compare=${1:-./default.buildcompare}
 # relative path to source code, usually buildcache/${artifactId}
-builddir=$2
+builddir=${2:-./}
 
 diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildcompare).diffoscope
 count="$(grep "^# diffoscope" ${compare} | wc -l)"
 
-[ $count -eq 0 ] && echo "No diffoscope command listed in $compare" && exit
+run_diffoscope() {
+  if $(which -s diffoscope)
+  then
+    (
+      cd $(pwd)/$(dirname ${compare})/${builddir}
+      diffoscope $1
+    )
+  else
+    docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro ghcr.io/jvm-repo-rebuild/diffoscope $1
+  fi
+}
+
+if [ $count -eq 0 ]
+then
+  echo "No diffoscope command listed in '$1'"
+  echo
+  echo "diffoscope --version (https://diffoscope.org/ https://salsa.debian.org/reproducible-builds/diffoscope/-/tags)"
+  run_diffoscope --version
+  exit
+fi
 
 echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m for $count issues"
 
@@ -24,15 +43,7 @@ grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //' | ( while read -
 do
   ((counter++))
   echo -e "$counter / $count \033[1m$line\033[0m"
-  if $(which -s diffoscope)
-  then
-    (
-      cd $(pwd)/$(dirname ${compare})/${builddir}
-      diffoscope --no-progress --exclude META-INF/jandex.idx $line
-    )
-  else
-    docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro ghcr.io/jvm-repo-rebuild/diffoscope --no-progress --exclude META-INF/jandex.idx $line
-  fi
+  run_diffoscope --no-progress --exclude META-INF/jandex.idx $line
   echo
 done ) | tee ${diffoscope_file}
 
