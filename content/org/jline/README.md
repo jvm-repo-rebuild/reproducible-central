@@ -35,15 +35,15 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **43 releases** of org.jline:jline:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **44 releases** of org.jline:jline:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 6, 6 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [4.3.1](https://central.sonatype.com/artifact/org.jline/jline/4.3.1/pom) | [mvn jdk22](jline-4.3.1.buildspec) | [result](jline-parent-4.3.1.buildinfo): [64 :white_check_mark: ](jline-parent-4.3.1.buildcompare) | | 9.2M |
-| [4.3.0](https://central.sonatype.com/artifact/org.jline/jline/4.3.0/pom) | | | |
+| [4.3.0](https://central.sonatype.com/artifact/org.jline/jline/4.3.0/pom) | [mvn jdk22](jline-4.3.0.buildspec) | [result](jline-parent-4.3.0.buildinfo): [64 :white_check_mark: ](jline-parent-4.3.0.buildcompare) | | 9.2M |
 | [4.2.1](https://central.sonatype.com/artifact/org.jline/jline/4.2.1/pom) | [mvn jdk22](jline-4.2.1.buildspec) | [result](jline-parent-4.2.1.buildinfo): [64 :white_check_mark: ](jline-parent-4.2.1.buildcompare) | | 9.1M |
 | [4.2.0](https://central.sonatype.com/artifact/org.jline/jline/4.2.0/pom) | [mvn jdk22](jline-4.2.0.buildspec) | [result](jline-parent-4.2.0.buildinfo): [64 :white_check_mark: ](jline-parent-4.2.0.buildcompare) | | 9.1M |
 | [4.1.3](https://central.sonatype.com/artifact/org.jline/jline/4.1.3/pom) | [mvn jdk22](jline-4.1.3.buildspec) | [result](jline-parent-4.1.3.buildinfo): [21 :white_check_mark:  42 :warning:](jline-parent-4.1.3.buildcompare) [:memo:](https://github.com/jline/jline3/pull/1932) | 42 :recycle: | 9.1M |
