@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spdx-maven-plugin Maven Plugin
+group-id=org.spdx
+artifact-id=spdx-maven-plugin
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:spdx/spdx-maven-plugin.git
+source.scm.tag=v1.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-124-generic
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.spdx
+outputs.0.filename=spdx-maven-plugin-1.0.4.pom
+outputs.0.length=14191
+outputs.0.checksums.sha512=df1518b1cf4c14c92b5c79c38c2cda68bec2141907d1aa104ff16ab315783a357fb69b713a116e0c992b6b0ba4486ce48063d42ed46b4685a0e31477d7779ff3
+
+outputs.1.groupId=org.spdx
+outputs.1.filename=spdx-maven-plugin-1.0.4.jar
+outputs.1.length=180516
+outputs.1.checksums.sha512=09fc5badbd7d250d08c10fd4bf7de23d0deca1cba4c52d0e347284eee6c6255fa650e50b73887162e05dd4c937b658511b376ca3778d325a336a5b436f33b6e5
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=spdx-maven-plugin-1.0.4-sources.jar
+outputs.2.length=122309
+outputs.2.checksums.sha512=81367c3fbdda3e46342c47e6a44a1e02aeae7fb14fb42efa6e653c088b3c756bc9ddd2ce74775194ca71d39ce1ac62cb4ec2bd20ec5c39ce1894b4ca140e327f
