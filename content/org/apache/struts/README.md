@@ -56,13 +56,13 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **33 releases** of org.apache.struts:struts2-parent:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **34 releases** of org.apache.struts:struts2-parent:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.2.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.2.1/pom) | | | |
+| [7.2.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.2.1/pom) | [mvn jdk17](struts2-7.2.1.buildspec) | [result](struts2-project-7.2.1.buildinfo): [73 :white_check_mark: ](struts2-project-7.2.1.buildcompare) | | 47M |
 | [7.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.1.1/pom) | [mvn jdk17](struts2-7.1.1.buildspec) | [result](struts2-project-7.1.1.buildinfo): [74 :white_check_mark: ](struts2-project-7.1.1.buildcompare) | | 46M |
 | [7.0.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.3/pom) | [mvn jdk17](struts2-7.0.3.buildspec) | [result](struts2-parent-7.0.3.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.3.buildcompare) | | 45M |
 | [7.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.0/pom) | [mvn jdk17](struts2-7.0.0.buildspec) | [result](struts2-parent-7.0.0.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.0.buildcompare) | | 45M |
