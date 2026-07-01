@@ -1,11 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/dev/langchain4j/langchain4j-1.17.0.buildspec:1.17.1
-content/dev/langchain4j/cdi/langchain4j-cdi-1.3.3.buildspec:1.3.4
-content/io/avaje/jex/avaje-jex-3.7-RC1.buildspec:3.7-RC2
-content/org/jline/jline-4.2.1.buildspec:4.3.1
-content/org/apache/apache/apache-38.buildspec:39
-content/org/apache/struts/struts2-7.1.1.buildspec:7.2.1
-content/org/apache/maven/parent/maven-parent-48.buildspec:49
+content/com/webauthn4j/webauthn4j-0.31.7.RELEASE.buildspec:0.31.8.RELEASE
+content/io/jooby/jooby-4.5.2.buildspec:4.5.3
+content/io/avaje/http/avaje-http-3.9.buildspec:3.10-RC1
+content/org/apache/sling/org.apache.sling.commons.log/org.apache.sling.commons.log-6.1.0.buildspec:6.2.0
 content/org/junit/junit5/junit5-6.1.0.buildspec:6.1.1
-content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-1.0.3.buildspec:1.0.4
