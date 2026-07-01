@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-ehcache
+group-id=org.mybatis.caches
+artifact-id=mybatis-ehcache
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/ehcache-cache.git
+source.scm.tag=mybatis-ehcache-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-ehcache-1.4.0.pom
+outputs.0.length=3789
+outputs.0.checksums.sha512=71f62eb87893cf539df4a8ef7e98b8aa098df6f74be5b80cc1b60911abe550411a97adebcce3befa413edd1225bf9b385415aac6b782da40568995b561e046c0
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-ehcache-1.4.0.jar
+outputs.1.length=14047
+outputs.1.checksums.sha512=5d3f550a546316909b65588681449524cf5ee55fe3ac7b0ec8cf352da8a4b8a0362598624aea3c89d923e63debbb595acb2e82c79d04bc7ba5a670b2189b7e97
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-ehcache-1.4.0-sources.jar
+outputs.2.length=14040
+outputs.2.checksums.sha512=4807546fdc46c8c1d11d99298f7ef079f1b573c9a0b42fffd3d67cf3d3d42581eca3f89961c4242d34d89059c0122eba0bf2d27c5fced4abba3f3181b451a30e
