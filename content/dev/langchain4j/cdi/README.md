@@ -25,13 +25,13 @@ Source code: [https://github.com/langchain4j/langchain4j-cdi.git](https://github
 * [dev.langchain4j.cdi:langchain4j-cdi-portable-ext](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-portable-ext/overview)
 </details>
 
-rebuilding **7 releases** of dev.langchain4j.cdi:langchain4j-cdi-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of dev.langchain4j.cdi:langchain4j-cdi-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.4](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.3.4/pom) | | | |
+| [1.3.4](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.3.4/pom) | [mvn jdk21](langchain4j-cdi-1.3.4.buildspec) | [result](langchain4j-cdi-parent-1.3.4.buildinfo): [36 :white_check_mark: ](langchain4j-cdi-parent-1.3.4.buildcompare) | | 510K |
 | [1.3.3](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.3.3/pom) | [mvn jdk21](langchain4j-cdi-1.3.3.buildspec) | [result](langchain4j-cdi-parent-1.3.3.buildinfo): [36 :white_check_mark: ](langchain4j-cdi-parent-1.3.3.buildcompare) | | 475K |
 | [1.3.2](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.3.2/pom) | [mvn jdk21](langchain4j-cdi-1.3.2.buildspec) | [result](langchain4j-cdi-parent-1.3.2.buildinfo): [36 :white_check_mark: ](langchain4j-cdi-parent-1.3.2.buildcompare) | | 472K |
 | [1.3.1](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.3.1/pom) | [mvn jdk21](langchain4j-cdi-1.3.1.buildspec) | [result](langchain4j-cdi-parent-1.3.1.buildinfo): [36 :white_check_mark: ](langchain4j-cdi-parent-1.3.1.buildcompare) | | 462K |
