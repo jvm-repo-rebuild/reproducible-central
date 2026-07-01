@@ -1,0 +1,7 @@
+version=49
+ok=21
+ko=0
+ignored=0
+okFiles="maven-parent-49.pom maven-parent-49-source-release.zip maven-parent-49-site.xml maven-parent-49-cyclonedx.xml maven-parent-49-cyclonedx.json maven-extensions-49.pom maven-extensions-49-site.xml maven-extensions-49-cyclonedx.xml maven-extensions-49-cyclonedx.json maven-plugins-49.pom maven-plugins-49-site.xml maven-plugins-49-cyclonedx.xml maven-plugins-49-cyclonedx.json maven-shared-components-49.pom maven-shared-components-49-site.xml maven-shared-components-49-cyclonedx.xml maven-shared-components-49-cyclonedx.json maven-skins-49.pom maven-skins-49-site.xml maven-skins-49-cyclonedx.xml maven-skins-49-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
