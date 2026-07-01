@@ -13,10 +13,10 @@ run_diffoscope() {
   then
     (
       cd $(pwd)/$(dirname ${compare})/${builddir}
-      diffoscope $1
+      diffoscope $*
     )
   else
-    docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro ghcr.io/jvm-repo-rebuild/diffoscope $1
+    docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro ghcr.io/jvm-repo-rebuild/diffoscope $*
   fi
 }
 
