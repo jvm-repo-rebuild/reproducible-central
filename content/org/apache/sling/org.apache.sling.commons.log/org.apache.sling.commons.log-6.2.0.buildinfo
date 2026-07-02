@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log
+version=6.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log.git
+source.scm.tag=org.apache.sling.commons.log-6.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.11
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+os.version=26.5.2
+os.arch=aarch64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.log-6.2.0.pom
+outputs.0.length=16318
+outputs.0.checksums.sha512=9c47d3a3ed03fde66893e25ecb4e06ef71cb859f18ebe1d35a72b8ccb0ac368213e480c9a47eda0624bd5a799dd36ec9d4f365fcb854d3adbfe6687c0f31209e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.log-6.2.0.jar
+outputs.1.length=168697
+outputs.1.checksums.sha512=4fb281d8bcc14513a1259ec22faaaf3c80aeac24f1964df6c5fb46a9255d72aa4d0b89e8eb9b86c29d20f2318e4bd2f5ba7f0884c3cc5e9132b21f13521dadbd
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.log-6.2.0-source-release.zip
+outputs.2.length=317915
+outputs.2.checksums.sha512=2552de3d07c62c46f71b879f4d8f2a2e668be21cc8b710ffe4737f7e746e2cd300fe315746913bf2b0cc6572a46232f6c4b00defc4ffef0f050de31b46af62d2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.log-6.2.0-sources.jar
+outputs.3.length=134041
+outputs.3.checksums.sha512=92c015a38f2f79b901115cdfc1887b61fc0acde3266ade543e1be2f7b09f55486fa481f429834026b17f09217a1194e411796db2bc90d14f92ad1c27ca275224
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.log-6.2.0-all.jar
+outputs.4.length=1172239
+outputs.4.checksums.sha512=f2566b492ddd05d7e0766554a729639dfc1788262ad054b2867f736ee8070f8c183a614a0172934eb5fb892b1b2093fb55fe8e28839a9b6291954b8340219cf8
