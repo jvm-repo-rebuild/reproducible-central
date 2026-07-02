@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons JEXL
+group-id=org.apache.commons
+artifact-id=commons-jexl3
+version=3.7.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-jexl.git
+source.scm.tag=rel/commons-jexl-3.7.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-jexl3-3.7.0.pom
+outputs.0.length=22906
+outputs.0.checksums.sha512=c20f76f9a75c0856e3704e888ec8142ce1aaa8e0b4844a36705d0887bd82d342a3d22a6a0283c384ad04331b1b711da65149f21ea4ea05f69442f7fbe43520bf
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-jexl3-3.7.0.jar
+outputs.1.length=604836
+outputs.1.checksums.sha512=0bfc96717569a124a32be24fde227355f9cbee3cc08e0f62d70fe277f000fb248f08381503ff9384cfe68a112cb5d3476e606cba037c709b20bd4134b444e8f7
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-jexl3-3.7.0-tests.jar
+outputs.2.length=621623
+outputs.2.checksums.sha512=07b1d140fbae58769588539fa2c9e1e0bd57e8aedffebfd29aee18e20f6e4dea9048f785aedbc0276663a2cb9ecb050c1b3f18318fa30b2cadd918e32be227ae
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-jexl3-3.7.0-sources.jar
+outputs.3.length=479163
+outputs.3.checksums.sha512=94e440855fe18e78311097a19e208fc73a4d6f345e3f1b7100d44545ee9633066855bbe068e2f101e0235f7ebbfda232ee3538d9fc057b1a3e37088a5f14caec
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-jexl3-3.7.0-test-sources.jar
+outputs.4.length=275610
+outputs.4.checksums.sha512=4cafddf23c7b1e3f49eb03f6c33865f04ade050f90ed285bf6e048e99ee34afc00aeb8d62d81653f23c241e3f70dd08c57f219be5a152082fb7ea45a9d6bbb92
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-jexl3-3.7.0-cyclonedx.xml
+outputs.5.length=6249
+outputs.5.checksums.sha512=5468ad1cc20a8b57a9b295707dbb7b6e51a0d8fbf4a404cd91403b6c5736ba90cb7b6ae3f5e56d03c647490842bbdfa2c15bee77314a8d171b4fc5294110ea37
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-jexl3-3.7.0-cyclonedx.json
+outputs.6.length=6835
+outputs.6.checksums.sha512=0ffd588566c846e96171f07aded54412d6a29dffd39c2c54e03e59c664ca2e02b1b3e0005084aa4cfb2da57b7bdabfd460f4b367179f21463514d25b9bb3e122
+# ignored commons-jexl3-3.7.0.spdx.json
