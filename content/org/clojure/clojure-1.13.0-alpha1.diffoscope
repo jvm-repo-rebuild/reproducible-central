@@ -1,0 +1,78 @@
+1 / 1 target/reference/org.clojure/clojure-1.13.0-alpha1.jar target/clojure-1.13.0-alpha1.jar
+--- target/reference/org.clojure/clojure-1.13.0-alpha1.jar
++++ target/clojure-1.13.0-alpha1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4231674 bytes, number of entries: 3774
+│ +Zip file size: 4231663 bytes, number of entries: 3774
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jul-02 17:10 META-INF/
+│  -rw-r--r--  2.0 unx       99 b- defN 26-Jul-02 17:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jul-02 17:10 clojure/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jul-02 17:10 clojure/asm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jul-02 17:10 clojure/asm/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jul-02 17:10 clojure/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jul-02 17:10 clojure/core/protocols/
+│ @@ -87,17 +87,17 @@
+│  -rw-r--r--  2.0 unx     1766 b- defN 26-Jul-02 17:10 clojure/core/Eduction.class
+│  -rw-r--r--  2.0 unx      476 b- defN 26-Jul-02 17:10 clojure/core/IVecImpl.class
+│  -rw-r--r--  2.0 unx      148 b- defN 26-Jul-02 17:10 clojure/core/Inst.class
+│  -rw-r--r--  2.0 unx      836 b- defN 26-Jul-02 17:10 clojure/core/Vec$fn__8389.class
+│  -rw-r--r--  2.0 unx      819 b- defN 26-Jul-02 17:10 clojure/core/Vec$fn__8391.class
+│  -rw-r--r--  2.0 unx     2611 b- defN 26-Jul-02 17:10 clojure/core/Vec$reify__8394.class
+│  -rw-r--r--  2.0 unx     1858 b- defN 26-Jul-02 17:10 clojure/core/Vec$reify__8396.class
+│ --rw-r--r--  2.0 unx    20674 b- defN 26-Jul-02 17:10 clojure/core/Vec.class
+│ +-rw-r--r--  2.0 unx    20597 b- defN 26-Jul-02 17:10 clojure/core/Vec.class
+│  -rw-r--r--  2.0 unx      824 b- defN 26-Jul-02 17:10 clojure/core/VecNode.class
+│ --rw-r--r--  2.0 unx     1472 b- defN 26-Jul-02 17:10 clojure/core/VecSeq$fn__8373.class
+│ +-rw-r--r--  2.0 unx     1473 b- defN 26-Jul-02 17:10 clojure/core/VecSeq$fn__8373.class
+│  -rw-r--r--  2.0 unx     7793 b- defN 26-Jul-02 17:10 clojure/core/VecSeq.class
+│  -rw-r--r--  2.0 unx      252 b- defN 26-Jul-02 17:10 clojure/core/protocols/CollReduce.class
+│  -rw-r--r--  2.0 unx      162 b- defN 26-Jul-02 17:10 clojure/core/protocols/Datafiable.class
+│  -rw-r--r--  2.0 unx      200 b- defN 26-Jul-02 17:10 clojure/core/protocols/IKVReduce.class
+│  -rw-r--r--  2.0 unx      211 b- defN 26-Jul-02 17:10 clojure/core/protocols/InternalReduce.class
+│  -rw-r--r--  2.0 unx      194 b- defN 26-Jul-02 17:10 clojure/core/protocols/Navigable.class
+│  -rw-r--r--  2.0 unx     1379 b- defN 26-Jul-02 17:10 clojure/core/protocols$fn__8206.class
+│ @@ -247,15 +247,15 @@
+│  -rw-r--r--  2.0 unx     1288 b- defN 26-Jul-02 17:10 clojure/core/server$repl.class
+│  -rw-r--r--  2.0 unx     1300 b- defN 26-Jul-02 17:10 clojure/core/server$repl_init.class
+│  -rw-r--r--  2.0 unx     2071 b- defN 26-Jul-02 17:10 clojure/core/server$repl_read.class
+│  -rw-r--r--  2.0 unx     1186 b- defN 26-Jul-02 17:10 clojure/core/server$required.class
+│  -rw-r--r--  2.0 unx     1606 b- defN 26-Jul-02 17:10 clojure/core/server$resolve_fn.class
+│  -rw-r--r--  2.0 unx     1981 b- defN 26-Jul-02 17:10 clojure/core/server$start_server$fn__9050.class
+│  -rw-r--r--  2.0 unx     1674 b- defN 26-Jul-02 17:10 clojure/core/server$start_server$fn__9053$fn__9054$fn__9056.class
+│ --rw-r--r--  2.0 unx     2738 b- defN 26-Jul-02 17:10 clojure/core/server$start_server$fn__9053$fn__9054.class
+│ +-rw-r--r--  2.0 unx     2737 b- defN 26-Jul-02 17:10 clojure/core/server$start_server$fn__9053$fn__9054.class
+│  -rw-r--r--  2.0 unx     1438 b- defN 26-Jul-02 17:10 clojure/core/server$start_server$fn__9053$fn__9059.class
+│  -rw-r--r--  2.0 unx     2210 b- defN 26-Jul-02 17:10 clojure/core/server$start_server$fn__9053.class
+│  -rw-r--r--  2.0 unx     3889 b- defN 26-Jul-02 17:10 clojure/core/server$start_server.class
+│  -rw-r--r--  2.0 unx     1774 b- defN 26-Jul-02 17:10 clojure/core/server$start_servers.class
+│  -rw-r--r--  2.0 unx     2761 b- defN 26-Jul-02 17:10 clojure/core/server$stop_server.class
+│  -rw-r--r--  2.0 unx      709 b- defN 26-Jul-02 17:10 clojure/core/server$stop_servers$fn__9072.class
+│  -rw-r--r--  2.0 unx      709 b- defN 26-Jul-02 17:10 clojure/core/server$stop_servers$fn__9074.class
+│ @@ -1194,15 +1194,15 @@
+│  -rw-r--r--  2.0 unx     1996 b- defN 26-Jul-02 17:10 clojure/core$partial$fn__5933.class
+│  -rw-r--r--  2.0 unx     2199 b- defN 26-Jul-02 17:10 clojure/core$partial$fn__5935.class
+│  -rw-r--r--  2.0 unx     1135 b- defN 26-Jul-02 17:10 clojure/core$partial$fn__5937.class
+│  -rw-r--r--  2.0 unx     2302 b- defN 26-Jul-02 17:10 clojure/core$partial.class
+│  -rw-r--r--  2.0 unx     1558 b- defN 26-Jul-02 17:10 clojure/core$partition$fn__6084.class
+│  -rw-r--r--  2.0 unx     1905 b- defN 26-Jul-02 17:10 clojure/core$partition$fn__6087.class
+│  -rw-r--r--  2.0 unx     1487 b- defN 26-Jul-02 17:10 clojure/core$partition.class
+│ --rw-r--r--  2.0 unx     1663 b- defN 26-Jul-02 17:10 clojure/core$partition_all$fn__8665$fn__8666.class
+│ +-rw-r--r--  2.0 unx     1664 b- defN 26-Jul-02 17:10 clojure/core$partition_all$fn__8665$fn__8666.class
+│  -rw-r--r--  2.0 unx      832 b- defN 26-Jul-02 17:10 clojure/core$partition_all$fn__8665.class
+│  -rw-r--r--  2.0 unx     1351 b- defN 26-Jul-02 17:10 clojure/core$partition_all$fn__8669.class
+│  -rw-r--r--  2.0 unx     1497 b- defN 26-Jul-02 17:10 clojure/core$partition_all.class
+│  -rw-r--r--  2.0 unx     2406 b- defN 26-Jul-02 17:10 clojure/core$partition_by$fn__8641$fn__8642.class
+│  -rw-r--r--  2.0 unx     1119 b- defN 26-Jul-02 17:10 clojure/core$partition_by$fn__8641.class
+│  -rw-r--r--  2.0 unx      953 b- defN 26-Jul-02 17:10 clojure/core$partition_by$fn__8646$fn__8647.class
+│  -rw-r--r--  2.0 unx      899 b- defN 26-Jul-02 17:10 clojure/core$partition_by$fn__8646$fn__8649.class
+│ @@ -3769,8 +3769,8 @@
+│  -rw-r--r--  2.0 unx     1457 b- defN 26-Jul-02 17:10 clojure/zip$xml_zip$fn__9513.class
+│  -rw-r--r--  2.0 unx     1411 b- defN 26-Jul-02 17:10 clojure/zip$xml_zip.class
+│  -rw-r--r--  2.0 unx     1449 b- defN 26-Jul-02 17:10 clojure/zip$zipper.class
+│  -rw-r--r--  2.0 unx     9539 b- defN 26-Jul-02 17:10 clojure/zip.clj
+│  -rw-r--r--  2.0 unx    13784 b- defN 26-Jul-02 17:10 clojure/zip__init.class
+│  -rw-r--r--  2.0 unx    10210 b- defN 26-Jul-02 17:10 META-INF/maven/org.clojure/clojure/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 26-Jul-02 17:10 META-INF/maven/org.clojure/clojure/pom.properties
+│ -3774 files, 8131488 bytes uncompressed, 3683068 bytes compressed:  54.7%
+│ +3774 files, 8131412 bytes uncompressed, 3683057 bytes compressed:  54.7%
