@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log
+version=6.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log.git
+source.scm.tag=org.apache.sling.commons.log-6.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.log-6.2.0.pom
+outputs.0.length=16318
+outputs.0.checksums.sha512=9c47d3a3ed03fde66893e25ecb4e06ef71cb859f18ebe1d35a72b8ccb0ac368213e480c9a47eda0624bd5a799dd36ec9d4f365fcb854d3adbfe6687c0f31209e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.log-6.2.0.jar
+outputs.1.length=168805
+outputs.1.checksums.sha512=da08e7ba639c1aae852bc4bce5f7f776929226f1506689d3cf37980c16ae43b4ab4db8313e2e5f66c822c6b7fe20cb2ecebf78c8c064b6a8be446ca001c642de
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.log-6.2.0-source-release.zip
+outputs.2.length=317915
+outputs.2.checksums.sha512=2552de3d07c62c46f71b879f4d8f2a2e668be21cc8b710ffe4737f7e746e2cd300fe315746913bf2b0cc6572a46232f6c4b00defc4ffef0f050de31b46af62d2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.log-6.2.0-sources.jar
+outputs.3.length=134041
+outputs.3.checksums.sha512=92c015a38f2f79b901115cdfc1887b61fc0acde3266ade543e1be2f7b09f55486fa481f429834026b17f09217a1194e411796db2bc90d14f92ad1c27ca275224
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.log-6.2.0-all.jar
+outputs.4.length=1172347
+outputs.4.checksums.sha512=dcc66c57c7936dddff7f3fc2d17d8f85c1f82dd9537748b8050f8370039ae4d8d2d5188fd353a20b6f673712c4e5ef12cd3fbf5df52d88ce4edc4580274bff69
