@@ -14,6 +14,7 @@ rebuilding **28 releases** of com.hibegin:common-dao:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.10](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.10/pom) | | | |
 | [1.1.9](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.9/pom) | [mvn jdk11](common-dao-1.1.9.buildspec) | [result](common-dao-1.1.9.buildinfo): [3 :white_check_mark: ](common-dao-1.1.9.buildcompare) | | 73K |
 | [1.1.8](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.8/pom) | [mvn jdk11](common-dao-1.1.8.buildspec) | [result](common-dao-1.1.8.buildinfo): [3 :white_check_mark: ](common-dao-1.1.8.buildcompare) | | 71K |
 | [1.1.7](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.7/pom) | [mvn jdk11](common-dao-1.1.7.buildspec) | [result](common-dao-1.1.7.buildinfo): [3 :white_check_mark: ](common-dao-1.1.7.buildcompare) | | 67K |

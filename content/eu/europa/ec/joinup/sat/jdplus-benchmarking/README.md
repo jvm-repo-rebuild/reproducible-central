@@ -31,6 +31,7 @@ rebuilding **5 releases** of eu.europa.ec.joinup.sat:jdplus-benchmarking:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/2.2.0/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/2.1.0/pom) | [mvn jdk21](jdplus-benchmarking-2.1.0.buildspec) | [result](jdplus-benchmarking-2.1.0.buildinfo): [27 :white_check_mark:  1 :warning:](jdplus-benchmarking-2.1.0.buildcompare) | 1 :no_entry_sign: | 1.5M |
 | [2.0.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/2.0.1/pom) | [mvn jdk21](jdplus-benchmarking-2.0.1.buildspec) | [result](jdplus-benchmarking-2.0.1.buildinfo): [27 :white_check_mark:  1 :warning:](jdplus-benchmarking-2.0.1.buildcompare) | - | 1.5M |
 | [2.0.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/2.0.0/pom) | [mvn jdk21](jdplus-benchmarking-2.0.0.buildspec) | [result](jdplus-benchmarking-2.0.0.buildinfo): [27 :white_check_mark:  1 :warning:](jdplus-benchmarking-2.0.0.buildcompare) | - | 1.5M |

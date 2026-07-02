@@ -23,6 +23,7 @@ rebuilding **42 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [10.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0-beta0003/pom) | | | |
 | [10.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0-beta0002/pom) | | | |
 | [10.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0-beta0001/pom) | | | |
 | [9.2.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/9.2.0/pom) | [mvn jdk21](com.io7m.primogenitor-9.2.0.buildspec) | [result](com.io7m.primogenitor-9.2.0.buildinfo): [9 :white_check_mark:  7 :warning:](com.io7m.primogenitor-9.2.0.buildcompare) | 6 :recycle: 1 :no_entry_sign: | 2.8M |

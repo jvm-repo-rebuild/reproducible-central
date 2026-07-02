@@ -1,7 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/webauthn4j/webauthn4j-0.31.7.RELEASE.buildspec:0.31.8.RELEASE
-content/io/jooby/jooby-4.5.2.buildspec:4.5.3
-content/io/avaje/http/avaje-http-3.9.buildspec:3.10-RC1
-content/org/apache/sling/org.apache.sling.commons.log/org.apache.sling.commons.log-6.1.0.buildspec:6.2.0
-content/org/junit/junit5/junit5-6.1.0.buildspec:6.1.1
+content/com/hibegin/common-dao/common-dao-1.1.9.buildspec:1.1.10
+content/com/sap/ai/sdk/sdk-1.20.0.buildspec:1.21.0
+content/org/jdbi/jdbi3-root-3.53.0.buildspec:3.54.0
+content/org/apache/commons/commons-jexl3/commons-jexl3-3.6.4.buildspec:3.7.0
+content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.4.0.buildspec:1.4.1
+content/org/mybatis/mybatis2/mybatis2-2.8.0.buildspec:2.8.1

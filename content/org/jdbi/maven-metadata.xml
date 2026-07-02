@@ -3,8 +3,8 @@
   <groupId>org.jdbi.internal</groupId>
   <artifactId>jdbi3-root</artifactId>
   <versioning>
-    <latest>3.53.0</latest>
-    <release>3.53.0</release>
+    <latest>3.54.0</latest>
+    <release>3.54.0</release>
     <versions>
       <version>3.38.3</version>
       <version>3.39.0</version>
@@ -41,7 +41,8 @@
       <version>3.52.0</version>
       <version>3.52.1</version>
       <version>3.53.0</version>
+      <version>3.54.0</version>
     </versions>
-    <lastUpdated>20260428005317</lastUpdated>
+    <lastUpdated>20260701212555</lastUpdated>
   </versioning>
 </metadata>
