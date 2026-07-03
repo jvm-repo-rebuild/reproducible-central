@@ -3,8 +3,8 @@
   <groupId>org.clojure</groupId>
   <artifactId>clojure</artifactId>
   <versioning>
-    <latest>1.13.0-alpha1</latest>
-    <release>1.13.0-alpha1</release>
+    <latest>1.13.0-alpha2</latest>
+    <release>1.13.0-alpha2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -197,7 +197,8 @@
       <version>1.12.5-rc1</version>
       <version>1.12.5</version>
       <version>1.13.0-alpha1</version>
+      <version>1.13.0-alpha2</version>
     </versions>
-    <lastUpdated>20260702173555</lastUpdated>
+    <lastUpdated>20260702220724</lastUpdated>
   </versioning>
 </metadata>
