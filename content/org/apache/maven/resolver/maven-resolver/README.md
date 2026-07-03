@@ -46,13 +46,14 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/overview)
 </details>
 
-rebuilding **64 releases** of org.apache.maven.resolver:maven-resolver:
+rebuilding **65 releases** of org.apache.maven.resolver:maven-resolver:
 - **56** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.20](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.20/pom) | [mvn jdk21](maven-resolver-2.0.20.buildspec) | [result](maven-resolver-2.0.20.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.20.buildcompare) | 2 :no_entry_sign: | 15M |
 | [2.0.18](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.18/pom) | [mvn jdk21](maven-resolver-2.0.18.buildspec) | [result](maven-resolver-2.0.18.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.18.buildcompare) | 2 :no_entry_sign: | 15M |
 | [2.0.17](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.17/pom) | [mvn jdk21](maven-resolver-2.0.17.buildspec) | [result](maven-resolver-2.0.17.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.17.buildcompare) | 2 :no_entry_sign: | 15M |
 | [2.0.16](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.16/pom) | [mvn jdk21](maven-resolver-2.0.16.buildspec) | [result](maven-resolver-2.0.16.buildinfo): [133 :white_check_mark:  2 :warning:](maven-resolver-2.0.16.buildcompare) | 2 :no_entry_sign: | 15M |
