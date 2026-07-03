@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Filtering
+group-id=org.apache.maven.shared
+artifact-id=maven-filtering
+version=3.5.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-filtering.git
+source.scm.tag=maven-filtering-3.5.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-filtering-3.5.1.pom
+outputs.0.length=6177
+outputs.0.checksums.sha512=531445716cc1136f957a3419c51155593e6347aef286ae2b9cf590d36fe2f16d4b842a4dc74b50ee0eb46b213c637aee853c5499528b327721edad764fa59105
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-filtering-3.5.1.jar
+outputs.1.length=60963
+outputs.1.checksums.sha512=fb18be0f338c82b16924a339c5bc7a8b1b41210f9abf99d9bb5074f6917187e9a27f2b4de3019b28aacf11beb363bd919e92ab9581c60dc5b3ffc6cd5cb7678b
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-filtering-3.5.1-source-release.zip
+outputs.2.length=177460
+outputs.2.checksums.sha512=adb61055c9d1e74051bd0ce0c3a7b0c20f9323deb32c8c06cd3619439c22dd2ed8b591782d0b413c0215ba65ea35a2c628482b0008de45f84b44caad4da421db
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-filtering-3.5.1-sources.jar
+outputs.3.length=54668
+outputs.3.checksums.sha512=85207d52d5e8a0202805922ed5ffe1511ea9736fd6186b1d0529414193eab74fc77388d6d73c21ca5cc2f97500072645bdd5e4308a563a14306bd113bed44959
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-filtering-3.5.1-cyclonedx.xml
+outputs.4.length=96628
+outputs.4.checksums.sha512=7683f686afb9dec2052d462e7b7c46a94f5e1b231a423582716d4d97d528de4523b839a41a3d2296796f7245e7f20b86d13056609486f4d086c1d9533a7e0134
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-filtering-3.5.1-cyclonedx.json
+outputs.5.length=104933
+outputs.5.checksums.sha512=502cf06db6b427abb7b8a93c95516692f0097e7b5be434dd18c8bd70aa4f17a60db41758a255a3cda75e88117eb03b0dd48ae846a5b7d0e96ef738a29088bb6c
