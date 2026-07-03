@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Help Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-help-plugin
+version=3.5.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-help-plugin.git
+source.scm.tag=maven-help-plugin-3.5.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-help-plugin-3.5.2.pom
+outputs.0.length=10385
+outputs.0.checksums.sha512=1cd0a2713d14859415f41cde2d8e2483e0e19bb090891b6fb0ef21086f2b37c1a97d370487e227e59ec9a2d5693d7cc1d68f2e6b351ca0349c6046503fddbb59
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-help-plugin-3.5.2.jar
+outputs.1.length=72340
+outputs.1.checksums.sha512=476da3598899720e29e2d53a981a74ff8c6870a6b145ec37a6f67df96a2e009ac9fdaeec266c68fb81cf4b47d23e4b8f6e43c00610ac8c1ed6603cad4f1ec398
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-help-plugin-3.5.2-source-release.zip
+outputs.2.length=180743
+outputs.2.checksums.sha512=4a294277b32f3a5dbf59753cd6a58932e7c53a2f579823629fa083f0ce3d1a7032fdc9ec494ecefe7a4d784576e987df92b36128f4f3295e8984b1ea82fc532f
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-help-plugin-3.5.2-sources.jar
+outputs.3.length=47710
+outputs.3.checksums.sha512=22ecac461b0896de658e64127ea06965f9fc1e2c8554f35331c51e34adbb62e9b3cd31e55d45e9f45c016f6944c01dd11ee503631e136d0e358cf9b4c43ee56d
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-help-plugin-3.5.2-cyclonedx.xml
+outputs.4.length=117123
+outputs.4.checksums.sha512=73568c45bf49d334b3a4b80f4ce5aeeceed9463e6a03776b7dfb832338d829c1204137e71b9dd6d47835b2e5292bb55024f01eecb8f94ff3aba72b3637ebb48a
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-help-plugin-3.5.2-cyclonedx.json
+outputs.5.length=127585
+outputs.5.checksums.sha512=9abf998b462e5acb79af9c4833e5cd2b1719023de7c19ff9d47ee03b1bdf23ff2fe2b6d5ac0062bd8a6f2cc3c177e3ba16e947cb8ce165cc8c25b9849a6d62b9
