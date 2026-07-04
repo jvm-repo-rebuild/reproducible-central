@@ -18,4 +18,4 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 execBefore="sed -i -e '0,/<version>/{s/-jdk5//}' -e 's/1783026613/1783026761/' pom.xml */pom.xml"
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/raphw/byte-buddy/issues/1921
