@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=7zip
+group-id=com.github.hazendaz.7zip
+artifact-id=7zip
+version=26.02
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/7-zip.git
+source.scm.tag=7zip-26.02
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.7zip
+outputs.0.filename=7zip-26.02.pom
+outputs.0.length=5247
+outputs.0.checksums.sha512=9dacb928d9ba8cff323431e20958ce63ec15b7c710befa2fa8952769e51d79045290ea62bd06da15437ae22c62aac8965d4dc903a7851d90682dcdb9d964b59e
+
+outputs.1.groupId=com.github.hazendaz.7zip
+outputs.1.filename=7zip-26.02-cyclonedx.xml
+outputs.1.length=18085
+outputs.1.checksums.sha512=f04c2259e4064650de4a1a6abc3db84d1b4902413347653e577f85b9235004ad75fe3a9178b502a54f836399ac6800bc44e34cfa1e6347dcdcedfdb13c9fdfd8
+
+outputs.2.groupId=com.github.hazendaz.7zip
+outputs.2.filename=7zip-26.02-cyclonedx.json
+outputs.2.length=20733
+outputs.2.checksums.sha512=dec95b26b28a386c289a3072da4c5808f36763570ab483b2e05e816fb948c1c6ab4624329fbbb2e11c53e936ff748f34198b546dce6522e86621f91bbf0612f2
+
+outputs.3.groupId=com.github.hazendaz.7zip
+outputs.3.filename=7zip-26.02-installer.tar.gz
+outputs.3.length=1637011
+outputs.3.checksums.sha512=42a941f100fde38692a717d33049ef11727a29804095753e11f0cf57fe82ef089547cd775e7598ae2ded238f58028c65b9d66d51543cefa82db9d96b4200d26c
