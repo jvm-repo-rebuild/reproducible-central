@@ -1,7 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/sap/ai/sdk/sdk-1.20.0.buildspec:1.21.0
-content/io/avaje/inject/avaje-inject-12.6-javax.buildspec:12.7-RC1
-content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-4.0.0-M5.buildspec:4.0.0-M6
-content/net/bytebuddy/byte-buddy-1.18.10-jdk5.buildspec:1.18.11-jdk5
-content/org/mybatis/mybatis2/mybatis2-2.8.0.buildspec:2.8.1
+content/com/github/hazendaz/7zip/7zip-26.01.buildspec:26.02
+content/com/github/hazendaz/git/github-desktop/github-desktop-3.6.1.buildspec:3.6.2
+content/com/hibegin/common-dao/common-dao-1.1.10.buildspec:1.1.11
