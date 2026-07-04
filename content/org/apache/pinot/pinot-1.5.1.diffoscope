@@ -1,0 +1,19 @@
+1 / 169 target/reference/org.apache.pinot/pinot-dependency-verifier-1.5.1.jar pinot-dependency-verifier/target/pinot-dependency-verifier-1.5.1.jar
+--- target/reference/org.apache.pinot/pinot-dependency-verifier-1.5.1.jar
++++ pinot-dependency-verifier/target/pinot-dependency-verifier-1.5.1.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,14 +1,14 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.5.0
+│  Java-Version: 11
+│  Build-Jdk-Spec: 21
+│  Specification-Title: Pinot Dependency Verifier
+│  Specification-Version: 1.5
+│  Specification-Vendor: Apache Software Foundation
+│ -Build-Time: 2026-06-04T23:41:54Z
+│ +Build-Time: 2026-07-04T07:38:08Z
+│  Implementation-Branch: UNKNOWN
+│  Implementation-Title: pinot-dependency-verifier
+│  Implementation-Vendor: Apache Software Foundation
+│  Implementation-Vendor-Id: org.apache.pinot
+│  Implementation-Version: 1.5.1-020ff0d0538b2079d4cf4cb2676a191c87c95d4d
