@@ -98,7 +98,7 @@ rebuilding **2 releases** of org.apache.pinot:pinot:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.1](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.5.1/pom) | [mvn jdk21](pinot-1.5.1.buildspec) | [result](pinot-1.5.1.buildinfo): [144 :white_check_mark:  170 :warning:](pinot-1.5.1.buildcompare) | 159 :recycle: 10 :rotating_light: | 2.4G |
+| [1.5.1](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.5.1/pom) | [mvn jdk21](pinot-1.5.1.buildspec) | [result](pinot-1.5.1.buildinfo): [144 :white_check_mark:  170 :warning:](pinot-1.5.1.buildcompare) [:mag:](pinot-1.5.1.diffoscope) [:memo:](https://github.com/apache/pinot/pull/18812) | 159 :recycle: 10 :rotating_light: | 2.4G |
 | [1.5.0](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.5.0/pom) | [mvn jdk11](pinot-1.5.0.buildspec) | [result](pinot-1.5.0.buildinfo): [139 :white_check_mark:  175 :warning:](pinot-1.5.0.buildcompare) [:mag:](pinot-1.5.0.diffoscope) [:memo:](https://github.com/apache/pinot/pull/18812) | 79 :recycle: 95 :rotating_light: | 2.4G |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
