@@ -20,9 +20,8 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 </details>
 
 rebuilding **69 releases** of net.bytebuddy:byte-buddy-parent:
-- **61** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **62** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -35,7 +34,7 @@ rebuilding **69 releases** of net.bytebuddy:byte-buddy-parent:
 | [1.18.8-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.8-jdk5/pom) | [mvn jdk8](byte-buddy-1.18.8-jdk5.buildspec) | [result](byte-buddy-parent-1.18.8-jdk5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.8-jdk5.buildcompare) | | 36M |
 | [1.18.8](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.8/pom) | [mvn jdk8](byte-buddy-1.18.8.buildspec) | [result](byte-buddy-parent-1.18.8.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.8.buildcompare) | | 21M |
 | [1.18.7-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.7-jdk5/pom) | | | |
-| [1.18.7](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.7/pom) | [mvn jdk8](byte-buddy-1.18.7.buildspec) | [result](byte-buddy-parent-1.18.7.buildinfo): [13 :white_check_mark:  9 :warning:](byte-buddy-parent-1.18.7.buildcompare) | 9 :rotating_light: | 36M |
+| [1.18.7](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.7/pom) | [mvn jdk8](byte-buddy-1.18.7.buildspec) | [result](byte-buddy-parent-1.18.7.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.7.buildcompare) | | 21M |
 | [1.18.6-jdk6-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.6-jdk6-jdk5/pom) | [mvn jdk8](byte-buddy-1.18.6-jdk6-jdk5.buildspec) | :x: | |
 | [1.18.6-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.6-jdk5/pom) | | | |
 | [1.18.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.5/pom) | [mvn jdk8](byte-buddy-1.18.5.buildspec) | [result](byte-buddy-parent-1.18.5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.5.buildcompare) | | 36M |
