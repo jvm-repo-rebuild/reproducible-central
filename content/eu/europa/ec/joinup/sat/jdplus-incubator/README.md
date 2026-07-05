@@ -7,13 +7,17 @@
 
 Source code: [https://github.com/jdemetra/jdplus-incubator.git](https://github.com/jdemetra/jdplus-incubator.git)
 
-<details><summary>This project defines 38 modules:</summary>
+<details><summary>This project defines 42 modules:</summary>
 
 * [eu.europa.ec.joinup.sat:jdplus-advancedsa-base-api](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-advancedsa-base-api/overview)
 * [eu.europa.ec.joinup.sat:jdplus-advancedsa-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-advancedsa-base-core/overview)
 * [eu.europa.ec.joinup.sat:jdplus-advancedsa-base-parent](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-advancedsa-base-parent/overview)
 * [eu.europa.ec.joinup.sat:jdplus-advancedsa-base-r](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-advancedsa-base-r/overview)
 * [eu.europa.ec.joinup.sat:jdplus-advancedsa-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-advancedsa-desktop-plugin/overview)
+* [eu.europa.ec.joinup.sat:jdplus-eurostat-base-api](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-eurostat-base-api/overview)
+* [eu.europa.ec.joinup.sat:jdplus-eurostat-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-eurostat-base-core/overview)
+* [eu.europa.ec.joinup.sat:jdplus-eurostat-base-parent](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-eurostat-base-parent/overview)
+* [eu.europa.ec.joinup.sat:jdplus-eurostat-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-eurostat-desktop-plugin/overview)
 * [eu.europa.ec.joinup.sat:jdplus-filters-base-api](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-filters-base-api/overview)
 * [eu.europa.ec.joinup.sat:jdplus-filters-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-filters-base-core/overview)
 * [eu.europa.ec.joinup.sat:jdplus-filters-base-parent](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-filters-base-parent/overview)
@@ -49,14 +53,14 @@ Source code: [https://github.com/jdemetra/jdplus-incubator.git](https://github.c
 * [eu.europa.ec.joinup.sat:jdplus-x12plus-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-x12plus-desktop-plugin/overview)
 </details>
 
-rebuilding **5 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
+rebuilding **6 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.5.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.5.2/pom) | | | |
+| [2.5.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.5.2/pom) | [mvn jdk21](jdplus-incubator-2.5.2.buildspec) | [result](jdplus-incubator-2.5.2.buildinfo): [102 :white_check_mark:  6 :warning:](jdplus-incubator-2.5.2.buildcompare) | 6 :no_entry_sign: | 3.9M |
 | [2.5.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.5.1/pom) | | | |
 | [2.4.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.4.1/pom) | [mvn jdk21](jdplus-incubator-2.4.1.buildspec) | [result](jdplus-incubator-2.4.1.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.4.1.buildcompare) | 5 :no_entry_sign: | 3.7M |
 | [2.4.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.4.0/pom) | [mvn jdk21](jdplus-incubator-2.4.0.buildspec) | [result](jdplus-incubator-2.4.0.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.4.0.buildcompare) | 5 :no_entry_sign: | 3.8M |
