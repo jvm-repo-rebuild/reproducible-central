@@ -1,5 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/hazendaz/7zip/7zip-26.01.buildspec:26.02
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.6.1.buildspec:3.6.2
-content/com/hibegin/common-dao/common-dao-1.1.10.buildspec:1.1.11
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-1.buildspec:11.4.1-beta-2
+content/io/cucumber/messages/messages-33.0.4.buildspec:34.0.1
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1-beta-3.buildspec:5.17.1-beta-4
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.0.Final.buildspec:4.5.1.Final
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.29.0.buildspec:0.30.0
