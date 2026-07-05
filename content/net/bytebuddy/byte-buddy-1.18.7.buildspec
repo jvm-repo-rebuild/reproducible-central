@@ -15,8 +15,6 @@ workdir="/home/runner/work/byte-buddy/byte-buddy/target/checkout/byte-buddy"
 
 command="SHELL mvn -Pextras,gradle-release,upgrade-release,publish-jdk8 clean package -DskipTests -Dmaven.javadoc.skip -Duser.timezone=Etc/UTC -Dcyclonedx.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
-# wget https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/${version}/byte-buddy-parent-${version}.pom ; diff byte-buddy-parent-${version}.pom pom.xml
-execBefore="sed -i -e '0,/<version>/{s/-jdk5//}' -e 's/1783026613/1783026761/' pom.xml */pom.xml"
 
 #diffoscope=${artifactId}-${version}.diffoscope
 #issue=https://github.com/raphw/byte-buddy/issues/1921
