@@ -14,11 +14,11 @@ source.scm.tag=HEAD
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_412
+java.version=1.8.0_345
 java.vendor=Azul Systems, Inc.
-os.name=Mac OS X
-os.version=26.5.2
-os.arch=aarch64
+os.name=Linux
+os.version=6.8.0-124-generic
+os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
@@ -43,13 +43,13 @@ outputs.1.0.checksums.sha512=909d1c50252f11d38c4a7dc5233833cb67c520e3aa67722dfef
 
 outputs.1.1.groupId=net.bytebuddy
 outputs.1.1.filename=byte-buddy-agent-1.18.11.jar
-outputs.1.1.length=367876
-outputs.1.1.checksums.sha512=6ee243066bef24f7e07a1c95fb7892537dab6d3bf5fe6094e67311c0d57cafce92a38dad80d92ab28fa2708973fe473ded08a819ffdc784877d73dc4fc760d8b
+outputs.1.1.length=267557
+outputs.1.1.checksums.sha512=fa5fd20eb2fcc13fc60d71e4793d5b6b5ebdee82a1cce1ea77def386631634fad4110d7c55b21deb42fea938469a56ceb551ed490996735cf5501b84e7ebdf26
 
 outputs.1.2.groupId=net.bytebuddy
 outputs.1.2.filename=byte-buddy-agent-1.18.11-sources.jar
-outputs.1.2.length=251480
-outputs.1.2.checksums.sha512=4ae46cc0f393acd1db5991451b2590341cf836ffc8467b94077ab014d5b415338b2275f4b66b8ffdc1311dc706c28716a4521d2c663c5ce5f6b07a5cd4221983
+outputs.1.2.length=207983
+outputs.1.2.checksums.sha512=883168dcbf817a1fffd638b51522d9629008e8abd44d8de89d5f4f14985b1f478baf2e16481ef9a25306bf331fe7e04478f1bfadf0cc306e4ab2f018a3483953
 
 outputs.2.coordinates=net.bytebuddy:byte-buddy-dep
 
@@ -60,13 +60,13 @@ outputs.2.0.checksums.sha512=793cce3c151033408fb2599ef9ba41939449a66ef1cc3d040fc
 
 outputs.2.1.groupId=net.bytebuddy
 outputs.2.1.filename=byte-buddy-dep-1.18.11.jar
-outputs.2.1.length=8738184
-outputs.2.1.checksums.sha512=d97729c51064d011b636b0c9224b092cdd9d6a63696889fbf531169ce5c5b1d557db1b0e8171d115b165bb5414475595ac31df5dd47b9be4cd68989537640552
+outputs.2.1.length=4355724
+outputs.2.1.checksums.sha512=352c08297768010ec258eb1c6b5f971a5b245d953bb5f39773d65d85f69ea9ee629b2dce0097bb445acd415ec699209ececa83fed256643f4e6e8385811d986a
 
 outputs.2.2.groupId=net.bytebuddy
 outputs.2.2.filename=byte-buddy-dep-1.18.11-sources.jar
-outputs.2.2.length=2567698
-outputs.2.2.checksums.sha512=88663af9627540478bfa3ee7663b9fc359dedc7b8ed0aec57a0612e55798093a0feb9430f0694808738107fb95fcd9c669c8a6509ec0122a60c5c2af24f0aab2
+outputs.2.2.length=1273870
+outputs.2.2.checksums.sha512=c1283f4810f77053a5136b6dcf5e701df16896605d0493c728a5845f6e8bfdd2cb9424e086041766287495136dce46158ad9b87bd3e93880588f2196228496ac
 
 outputs.3.coordinates=net.bytebuddy:byte-buddy
 
@@ -77,13 +77,13 @@ outputs.3.0.checksums.sha512=620cc1a7d412378ab54caafc669af04138aaf64126089b5c6e9
 
 outputs.3.1.groupId=net.bytebuddy
 outputs.3.1.filename=byte-buddy-1.18.11.jar
-outputs.3.1.length=9234167
-outputs.3.1.checksums.sha512=eea5dc61adc97514747118cdd6463c726ff731585b1888d0dca5b677e7311b4ffd74df4c26e4ef71b72f822190589be0e2b58e9d74000f670f34eaf37755f620
+outputs.3.1.length=4656510
+outputs.3.1.checksums.sha512=577165c637cd3e0020334cbbbd41090137db49c62a56177171da63442b34c9bbc3e9d7cca7ba030bdeebf205cb7a1e47c1ac1ec112c3cfb78df060a7dc016281
 
 outputs.3.2.groupId=net.bytebuddy
 outputs.3.2.filename=byte-buddy-1.18.11-sources.jar
-outputs.3.2.length=2785204
-outputs.3.2.checksums.sha512=6c3f391a9e3eac8245899a76eea417508121dd1d5f00368be7f85807c939221e3c7c85f01b6944740d1cab232d0fe7ed3291bab52a967642ae32f052b19e25e8
+outputs.3.2.length=1486004
+outputs.3.2.checksums.sha512=b122f91858668d981a2509350ce70b16bebba6e6b3056cfbc67c12ba5abf30c4fd3c21811a41e3670c30eeb5e92de4ddb3e7eef74e503752070a8c1d60167060
 
 outputs.4.coordinates=net.bytebuddy:byte-buddy-benchmark
 
@@ -94,8 +94,8 @@ outputs.4.0.checksums.sha512=1f591ca8e0d5756abb4c20e26f024fcb48621da905f0de9430a
 
 outputs.4.1.groupId=net.bytebuddy
 outputs.4.1.filename=byte-buddy-benchmark-1.18.11.jar
-outputs.4.1.length=13098673
-outputs.4.1.checksums.sha512=c3b7040cd3dda59e067c66044ab5314e36239cd69b88bd420d2e6c1f08d81a3fc1b19f9f819518dc898d74a17a4eae3bcbabf495439bb13672567168815d1480
+outputs.4.1.length=8675420
+outputs.4.1.checksums.sha512=c2fb494a0ce0119c9439c060e89a3d86123de8e232656e865f096093770020c1adcdba050bf18dc0e36e1638fac7c3342b06bdc2bf4be9218de00fc4291245dc
 
 outputs.4.2.groupId=net.bytebuddy
 outputs.4.2.filename=byte-buddy-benchmark-1.18.11-sources.jar
@@ -111,8 +111,8 @@ outputs.5.0.checksums.sha512=1d38638c35cfd36a01efbc4c75cbf10d338ddc921f740697f09
 
 outputs.5.1.groupId=net.bytebuddy
 outputs.5.1.filename=byte-buddy-android-1.18.11.jar
-outputs.5.1.length=29696
-outputs.5.1.checksums.sha512=9d25bfecf1525078b926eaad90e408acef5fe74dfc5de93a7518ce8d7f163fc498c9b0c5c33a7c65e48a9e527c369c743555cd9a7ec8f524c5cdb9705b5df452
+outputs.5.1.length=30240
+outputs.5.1.checksums.sha512=03b31e2a1f61dbdf0560375ca56757cbd3636ebd1b30bebe5a02d4a21eccd3773b4e971dd24d58599ca53d4ec9e2b1839c6c25342c9e570b1d636e31dbebc697
 
 outputs.5.2.groupId=net.bytebuddy
 outputs.5.2.filename=byte-buddy-android-1.18.11-sources.jar
@@ -128,8 +128,8 @@ outputs.6.0.checksums.sha512=748f29710e8847b7a88d8a6c4aa09c17c691bdd8ed338b1095c
 
 outputs.6.1.groupId=net.bytebuddy
 outputs.6.1.filename=byte-buddy-maven-plugin-1.18.11.jar
-outputs.6.1.length=66789
-outputs.6.1.checksums.sha512=066345b4ce50ad230137cb323c914c352b2d7007970b1169100a3105f19385a077eeba8ac5b428301a0441d3690f4596bd36da92adbc22dcfe8e561badd8c2f8
+outputs.6.1.length=68437
+outputs.6.1.checksums.sha512=09fac1145ae922e1e9ce6146934c479dd0bb73921bb3a6534414cdc5aa0a3f839e11b7d3da04f2b8e114a8e56a126ff003604792ccc09ccd9f9141c16b9ede8b
 
 outputs.6.2.groupId=net.bytebuddy
 outputs.6.2.filename=byte-buddy-maven-plugin-1.18.11-sources.jar

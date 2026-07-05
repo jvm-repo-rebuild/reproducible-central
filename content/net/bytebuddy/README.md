@@ -20,14 +20,14 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 </details>
 
 rebuilding **66 releases** of net.bytebuddy:byte-buddy-parent:
-- **57** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **58** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.18.11-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.11-jdk5/pom) | [mvn jdk8](byte-buddy-1.18.11-jdk5.buildspec) | [result](byte-buddy-parent-1.18.11-jdk5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.11-jdk5.buildcompare) | | 36M |
-| [1.18.11](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.11/pom) | [mvn jdk8](byte-buddy-1.18.11.buildspec) | [result](byte-buddy-parent-1.18.11.buildinfo): [13 :white_check_mark:  9 :warning:](byte-buddy-parent-1.18.11.buildcompare) [:memo:](https://github.com/raphw/byte-buddy/issues/1921) | 9 :rotating_light: | 36M |
+| [1.18.11](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.11/pom) | [mvn jdk8](byte-buddy-1.18.11.buildspec) | [result](byte-buddy-parent-1.18.11.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.11.buildcompare) | | 21M |
 | [1.18.10-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.10-jdk5/pom) | [mvn jdk8](byte-buddy-1.18.10-jdk5.buildspec) | [result](byte-buddy-parent-1.18.10-jdk5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.10-jdk5.buildcompare) | | 36M |
 | [1.18.10](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.10/pom) | | | |
 | [1.18.9-jdk5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.18.9-jdk5/pom) | [mvn jdk8](byte-buddy-1.18.9-jdk5.buildspec) | [result](byte-buddy-parent-1.18.9-jdk5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.18.9-jdk5.buildcompare) | | 36M |
