@@ -1,7 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-1.buildspec:11.4.1-beta-2
-content/io/cucumber/messages/messages-33.0.4.buildspec:34.0.1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1-beta-3.buildspec:5.17.1-beta-4
+content/com/google/mug/mug-10.5.1.buildspec:10.6
+content/dev/langchain4j/langchain4j-1.17.1.buildspec:1.17.2
+content/io/airlift/airbase/airbase-392.buildspec:393
+content/io/avaje/http/avaje-http-3.10-RC1.buildspec:3.10
+content/org/apache/sling/org.apache.sling.event/org.apache.sling.event-4.4.0.buildspec:4.4.2
 content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.0.Final.buildspec:4.5.1.Final
-content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.29.0.buildspec:0.30.0
+content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.1.Final.buildspec:9.1.2.Final

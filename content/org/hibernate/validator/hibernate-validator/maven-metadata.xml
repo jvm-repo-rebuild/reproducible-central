@@ -3,8 +3,8 @@
   <groupId>org.hibernate.validator</groupId>
   <artifactId>hibernate-validator</artifactId>
   <versioning>
-    <latest>9.1.1.Final</latest>
-    <release>9.1.1.Final</release>
+    <latest>9.1.2.Final</latest>
+    <release>9.1.2.Final</release>
     <versions>
       <version>6.0.0.Alpha1</version>
       <version>6.0.0.Alpha2</version>
@@ -93,7 +93,8 @@
       <version>9.1.0.CR1</version>
       <version>9.1.0.Final</version>
       <version>9.1.1.Final</version>
+      <version>9.1.2.Final</version>
     </versions>
-    <lastUpdated>20260622125124</lastUpdated>
+    <lastUpdated>20260706074748</lastUpdated>
   </versioning>
 </metadata>
