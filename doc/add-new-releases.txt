@@ -1,9 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/google/mug/mug-10.5.1.buildspec:10.6
-content/dev/langchain4j/langchain4j-1.17.1.buildspec:1.17.2
-content/io/airlift/airbase/airbase-392.buildspec:393
-content/io/avaje/http/avaje-http-3.10-RC1.buildspec:3.10
-content/org/apache/sling/org.apache.sling.event/org.apache.sling.event-4.4.0.buildspec:4.4.2
+content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.30.buildspec:0.31
+content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-1.1.buildspec:1.2
+content/de/cuioss/cui-java-tools/cui-java-tools-2.6.2.buildspec:2.7.0
+content/land/oras/oras-java-sdk/oras-java-sdk-0.7.0.buildspec:0.8.0
+content/org/apache/helix/helix-2.0.0.buildspec:2.0.1
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.10.buildspec:12.1.11
 content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.0.Final.buildspec:4.5.1.Final
-content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.1.Final.buildspec:9.1.2.Final
