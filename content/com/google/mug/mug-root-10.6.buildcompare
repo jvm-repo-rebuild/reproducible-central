@@ -1,0 +1,9 @@
+version=10.6
+ok=36
+ko=0
+ignored=0
+okFiles="mug-root-10.6.pom mug-10.6.pom mug-10.6.jar mug-10.6-sources.jar mug-guava-10.6.pom mug-guava-10.6.jar mug-guava-10.6-sources.jar dot-parse-10.6.pom dot-parse-10.6.jar dot-parse-10.6-sources.jar mug-errorprone-10.6.pom mug-errorprone-10.6.jar mug-errorprone-10.6-sources.jar mug-bom-10.6.pom mug-benchmarks-10.6.pom mug-benchmarks-10.6.jar mug-safesql-10.6.pom mug-safesql-10.6.jar mug-safesql-10.6-sources.jar mug-examples-10.6.pom mug-examples-10.6.jar mug-protobuf-10.6.pom mug-protobuf-10.6.jar mug-protobuf-10.6-sources.jar mug-bigquery-10.6.pom mug-bigquery-10.6.jar mug-bigquery-10.6-sources.jar mug-spanner-10.6.pom mug-spanner-10.6.jar mug-spanner-10.6-sources.jar mug-concurrent-testing-10.6.pom mug-concurrent-testing-10.6.jar mug-concurrent-testing-10.6-sources.jar mug-concurrent24-10.6.pom mug-concurrent24-10.6.jar mug-concurrent24-10.6-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
