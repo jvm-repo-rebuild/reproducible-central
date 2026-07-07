@@ -53,15 +53,15 @@ Source code: [https://github.com/jdemetra/jdplus-incubator.git](https://github.c
 * [eu.europa.ec.joinup.sat:jdplus-x12plus-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-x12plus-desktop-plugin/overview)
 </details>
 
-rebuilding **6 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
+rebuilding **7 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.5.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.5.2/pom) | [mvn jdk21](jdplus-incubator-2.5.2.buildspec) | [result](jdplus-incubator-2.5.2.buildinfo): [102 :white_check_mark:  6 :warning:](jdplus-incubator-2.5.2.buildcompare) | 6 :no_entry_sign: | 3.9M |
-| [2.5.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.5.1/pom) | | | |
+| [2.5.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.5.1/pom) | [mvn jdk21](jdplus-incubator-2.5.1.buildspec) | [result](jdplus-incubator-2.5.1.buildinfo): [102 :white_check_mark:  6 :warning:](jdplus-incubator-2.5.1.buildcompare) | 6 :no_entry_sign: | 3.9M |
 | [2.4.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.4.1/pom) | [mvn jdk21](jdplus-incubator-2.4.1.buildspec) | [result](jdplus-incubator-2.4.1.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.4.1.buildcompare) | 5 :no_entry_sign: | 3.7M |
 | [2.4.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.4.0/pom) | [mvn jdk21](jdplus-incubator-2.4.0.buildspec) | [result](jdplus-incubator-2.4.0.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.4.0.buildcompare) | 5 :no_entry_sign: | 3.8M |
 | [2.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.3.0/pom) | [mvn jdk21](jdplus-incubator-2.3.0.buildspec) | [result](jdplus-incubator-2.3.0.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.3.0.buildcompare) | - | 3.5M |
