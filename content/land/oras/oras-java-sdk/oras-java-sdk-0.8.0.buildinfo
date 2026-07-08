@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=land.oras:oras-java-sdk
+group-id=land.oras
+artifact-id=oras-java-sdk
+version=0.8.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:oras-project/oras-java.git
+source.scm.tag=0.8.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=land.oras
+outputs.0.filename=oras-java-sdk-0.8.0.pom
+outputs.0.length=27143
+outputs.0.checksums.sha512=d80714c61bdaa7c3fbd5093d94cdc5e42d01251c12046a54a734508f0d2fe7e5ac08b9ee803462cd20ae032cc7ef54ea2491c251f9835c0b1b9582baabac8000
+
+outputs.1.groupId=land.oras
+outputs.1.filename=oras-java-sdk-0.8.0.jar
+outputs.1.length=220822
+outputs.1.checksums.sha512=bb5c727123a8d49c54947690b1ca0e203000ee2ad4937a00364c2193ec76411803d3bd1e12b118245b76e3b93c549ed598255969568f90b52774e05bad6d456e
+
+outputs.2.groupId=land.oras
+outputs.2.filename=oras-java-sdk-0.8.0-tests.jar
+outputs.2.length=239143
+outputs.2.checksums.sha512=ef408978403978d0e2919a54921f47a4e1f7f8088e53dae5ddc651a84ea77fa263b689de0cea4b9b4665cba11fbfc89e9e148affdf88fa661b9df448f145d340
+
+outputs.3.groupId=land.oras
+outputs.3.filename=oras-java-sdk-0.8.0-sources.jar
+outputs.3.length=139461
+outputs.3.checksums.sha512=2e85e5fd740ec532cd1b67893dc1a3174ad70fb48ce22669de3ee2139842a9588c277ae107a0b1a86451e97e13aa9a8db710f00a83dc0b6e0a974a15036b17c2
