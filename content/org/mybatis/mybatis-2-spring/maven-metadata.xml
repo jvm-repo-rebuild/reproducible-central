@@ -3,8 +3,8 @@
   <groupId>org.mybatis</groupId>
   <artifactId>mybatis-2-spring</artifactId>
   <versioning>
-    <latest>1.4.1</latest>
-    <release>1.4.1</release>
+    <latest>1.4.2</latest>
+    <release>1.4.2</release>
     <versions>
       <version>1.0.1</version>
       <version>1.0.2</version>
@@ -16,7 +16,8 @@
       <version>1.3.0</version>
       <version>1.4.0</version>
       <version>1.4.1</version>
+      <version>1.4.2</version>
     </versions>
-    <lastUpdated>20260701223716</lastUpdated>
+    <lastUpdated>20260708225935</lastUpdated>
   </versioning>
 </metadata>

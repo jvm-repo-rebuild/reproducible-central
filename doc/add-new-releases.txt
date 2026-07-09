@@ -1,18 +1,11 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/jackson/core/jackson-core-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/databind/jackson-databind-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/jr/jackson-jr-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.22.0.buildspec:2.22.1
-content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.22.0.buildspec:2.22.1
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.4.5.buildspec:1.5.0
-content/eu/maveniverse/maven/domtrip/domtrip-1.5.2.buildspec:1.6.0
-content/io/airlift/airbase/airbase-393.buildspec:394
+content/ch/qos/logback/logback-1.5.37.buildspec:1.5.38
+content/ch/qos/logback/access/access-2.0.12.buildspec:2.0.13
+content/com/sap/ai/sdk/sdk-1.21.0.buildspec:1.22.0
 content/io/telicent/jena/jena-kafka/jena-kafka-3.0.4.buildspec:3.0.5
+content/org/apache/sshd/sshd-3.0.0-M4.buildspec:3.0.0-M5
 content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.0.Final.buildspec:4.5.1.Final
+content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.4.1.buildspec:1.4.2
+content/org/mybatis/caches/mybatis-ignite/mybatis-ignite-1.2.0.buildspec:2.0.0
 content/org/webjars/font-awesome/font-awesome-7.2.0.buildspec:7.3.0

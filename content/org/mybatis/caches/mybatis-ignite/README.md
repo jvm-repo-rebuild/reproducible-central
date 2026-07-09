@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.mybatis.caches:mybatis-ignite:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/2.0.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/1.2.0/pom) | [mvn jdk25 w](mybatis-ignite-1.2.0.buildspec) | [result](mybatis-ignite-1.2.0.buildinfo): [3 :white_check_mark: ](mybatis-ignite-1.2.0.buildcompare) | | 27K |
 | [1.1.1](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/1.1.1/pom) | [mvn jdk17 w](mybatis-ignite-1.1.1.buildspec) | [result](mybatis-ignite-1.1.1.buildinfo): [3 :white_check_mark: ](mybatis-ignite-1.1.1.buildcompare) | | 28K |
 
