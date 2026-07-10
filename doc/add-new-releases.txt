@@ -1,11 +1,25 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/ch/qos/logback/logback-1.5.37.buildspec:1.5.38
-content/ch/qos/logback/access/access-2.0.12.buildspec:2.0.13
 content/com/sap/ai/sdk/sdk-1.21.0.buildspec:1.22.0
+content/io/avaje/jex/avaje-jex-3.7-RC2.buildspec:3.7-RC3
+content/io/avaje/jsonb/avaje-jsonb-3.14.buildspec:3.15-RC1
+content/io/opentelemetry/java/opentelemetry-sdk-1.63.0.buildspec:1.64.0
 content/io/telicent/jena/jena-kafka/jena-kafka-3.0.4.buildspec:3.0.5
-content/org/apache/sshd/sshd-3.0.0-M4.buildspec:3.0.0-M5
+content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-2.0.2.buildspec:2.0.4
 content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.0.Final.buildspec:4.5.1.Final
-content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.4.1.buildspec:1.4.2
+content/org/infinispan/protostream/protostream-6.0.9.buildspec:6.0.10
+content/org/mybatis/jpetstore/jpetstore-6.2.0.buildspec:6.3.0
 content/org/mybatis/caches/mybatis-ignite/mybatis-ignite-1.2.0.buildspec:2.0.0
+content/org/mybatis/caches/mybatis-memcached/mybatis-memcached-1.2.0.buildspec:1.2.1
 content/org/webjars/font-awesome/font-awesome-7.2.0.buildspec:7.3.0
+content/tools/jackson/jackson-bom/jackson-bom-3.2.0.buildspec:3.2.1
+content/tools/jackson/jr/jackson-jr-3.2.0.buildspec:3.2.1
+content/tools/jackson/core/jackson-core/jackson-core-3.2.0.buildspec:3.2.1
+content/tools/jackson/core/jackson-databind/jackson-databind-3.2.0.buildspec:3.2.1
+content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.2.0.buildspec:3.2.1
+content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.2.0.buildspec:3.2.1
+content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.2.0.buildspec:3.2.1
+content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.2.0.buildspec:3.2.1
+content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.2.0.buildspec:3.2.1
+content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.2.0.buildspec:3.2.1

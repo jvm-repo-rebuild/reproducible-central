@@ -3,8 +3,8 @@
   <groupId>tools.jackson.core</groupId>
   <artifactId>jackson-databind</artifactId>
   <versioning>
-    <latest>3.2.0</latest>
-    <release>3.2.0</release>
+    <latest>3.2.1</latest>
+    <release>3.2.1</release>
     <versions>
       <version>3.0.0-rc1</version>
       <version>3.0.0-rc2</version>
@@ -29,7 +29,8 @@
       <version>3.1.4</version>
       <version>3.1.5</version>
       <version>3.2.0</version>
+      <version>3.2.1</version>
     </versions>
-    <lastUpdated>20260708013728</lastUpdated>
+    <lastUpdated>20260710171432</lastUpdated>
   </versioning>
 </metadata>

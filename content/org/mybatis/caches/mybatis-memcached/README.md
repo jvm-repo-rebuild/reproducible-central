@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.mybatis.caches:mybatis-memcached:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.1](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-memcached/1.2.1/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-memcached/1.2.0/pom) | [mvn jdk25 w](mybatis-memcached-1.2.0.buildspec) | [result](mybatis-memcached-1.2.0.buildinfo): [3 :white_check_mark: ](mybatis-memcached-1.2.0.buildcompare) | | 63K |
 | [1.1.1](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-memcached/1.1.1/pom) | [mvn jdk17 w](mybatis-memcached-1.1.1.buildspec) | [result](mybatis-memcached-1.1.1.buildinfo): [3 :white_check_mark: ](mybatis-memcached-1.1.1.buildcompare) | | 62K |
 

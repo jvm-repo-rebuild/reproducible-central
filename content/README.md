@@ -19,7 +19,7 @@ Reproducible Builds for Maven Central Repository
 | ch.galinet | [reproducible-build-maven-plugin](../content/ch/galinet/reproducible-build-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | ch.qos.logback | [logback](../content/ch/qos/logback/README.md) | 79 | 64 :white_check_mark: / 15 :warning: |
 | ch.qos.reload4j | [reload4j](../content/ch/qos/reload4j/README.md) | 9 | 1 :white_check_mark: / 8 :warning: |
-| ch.qos.logback.access | [logback-access](../content/ch/qos/logback/access/README.md) | 13 | 13 :white_check_mark: |
+| ch.qos.logback.access | [logback-access](../content/ch/qos/logback/access/README.md) | 14 | 14 :white_check_mark: |
 | ch.qos.logback.db | [logback-db](../content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
 | ch.vorburger.mariaDB4j | [mariaDB4j](../content/ch/vorburger/mariaDB4j/README.md) | 4 | 4 :white_check_mark: |
 | com.flowlogix | [flowlogix](../content/com/flowlogix/README.md) | 43 | 32 :white_check_mark: / 11 :warning: |
@@ -480,7 +480,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.ratis | [ratis](../content/org/apache/ratis/README.md) | 11 | 3 :white_check_mark: / 8 :warning: |
 | org.apache.shiro | [shiro-root](../content/org/apache/shiro/README.md) | 22 | 6 :white_check_mark: / 16 :warning: |
 | org.apache.sis | [parent](../content/org/apache/sis/README.md) | 1 | 1 :warning: |
-| org.apache.sshd | [sshd](../content/org/apache/sshd/README.md) | 23 | 7 :white_check_mark: / 16 :warning: |
+| org.apache.sshd | [sshd](../content/org/apache/sshd/README.md) | 24 | 8 :white_check_mark: / 16 :warning: |
 | org.apache.stormcrawler | [stormcrawler](../content/org/apache/stormcrawler/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
 | org.apache.struts | [struts2](../content/org/apache/struts/README.md) | 34 | 15 :white_check_mark: / 19 :warning: |
 | org.apache.synapse | [Apache-Synapse](../content/org/apache/synapse/README.md) | 1 | 1 :warning: |
@@ -905,7 +905,7 @@ Reproducible Builds for Maven Central Repository
 | | [jpetstore](../content/org/mybatis/jpetstore/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis-migrations](../content/org/mybatis/migrations/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis](../content/org/mybatis/mybatis/README.md) | 10 | 4 :white_check_mark: / 6 :warning: |
-| | [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
+| | [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
 | | [mybatis-spring](../content/org/mybatis/mybatis-spring/README.md) | 11 | 6 :white_check_mark: / 5 :warning: |
 | | [mybatis-typehandlers-t*-extra](../content/org/mybatis/mybatis-typehandlers-threeten-extra/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis2](../content/org/mybatis/mybatis2/README.md) | 12 | 12 :white_check_mark: |
@@ -987,7 +987,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 27 | 5 :white_check_mark: / 22 :warning: |
-| **Count:** | **973** | **11550** | **8509** :white_check_mark:<br>**3041** :warning: |
+| **Count:** | **973** | **11553** | **8512** :white_check_mark:<br>**3041** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1024,7 +1024,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    891 mvn        21
+    892 mvn        21
      15 mvn        22
      22 mvn        23
      41 mvn        24
@@ -1088,7 +1088,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.13  25
       2 mvn-3.9.14  17
       6 mvn-3.9.14  21
-      3 mvn-3.9.14  25
+      4 mvn-3.9.14  25
       1 mvn-3.9.15  11
       4 mvn-3.9.15  17
       4 mvn-3.9.15  21
@@ -1096,7 +1096,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.16  17
       5 mvn-3.9.16  21
      11 mvn-3.9.16  22
-     24 mvn-3.9.16  25
+     25 mvn-3.9.16  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       9 mvn-3.9.2  21
