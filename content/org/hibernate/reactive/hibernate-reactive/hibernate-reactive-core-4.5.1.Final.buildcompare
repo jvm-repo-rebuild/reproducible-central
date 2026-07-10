@@ -1,0 +1,12 @@
+version=4.5.1.Final
+ok=2
+ko=1
+okFiles="hibernate-reactive-core-4.5.1.Final-sources.jar hibernate-reactive-core-4.5.1.Final.pom"
+koFiles="hibernate-reactive-core-4.5.1.Final.jar"
+# diffoscope central/org/hibernate/reactive/hibernate-reactive-core/4.5.1.Final/hibernate-reactive-core-4.5.1.Final.jar repository/org/hibernate/reactive/hibernate-reactive-core/4.5.1.Final/hibernate-reactive-core-4.5.1.Final.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="hibernate-reactive-core-4.5.1.Final.jar.stabilized"
+stabilize_ignoredFiles=""
