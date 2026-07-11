@@ -7,8 +7,15 @@
 
 Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/FasterXML/jackson-jr.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 14 modules:</summary>
 
+* [com.fasterxml.jackson.jr:jackson-jr-all](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-all/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-annotation-support](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-annotation-support/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-extension-javatime](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-extension-javatime/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-objects](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-objects/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-retrofit2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-retrofit2/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-stree](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-stree/overview)
 * [tools.jackson.jr:jackson-jr-all](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-all/overview)
 * [tools.jackson.jr:jackson-jr-annotation-support](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-annotation-support/overview)
 * [tools.jackson.jr:jackson-jr-extension-javatime](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-extension-javatime/overview)
