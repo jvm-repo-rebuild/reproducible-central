@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/FasterXML/jackson-core.git](https://github.com/FasterXML/jackson-core.git)
 
-rebuilding **54 releases** of com.fasterxml.jackson.core:jackson-core:
-- **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **55 releases** of com.fasterxml.jackson.core:jackson-core:
+- **43** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -32,7 +32,7 @@ rebuilding **54 releases** of com.fasterxml.jackson.core:jackson-core:
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.19.0/pom) | [mvn jdk8](jackson-core-2.19.0.buildspec) | [result](jackson-core-2.19.0.buildinfo): [6 :white_check_mark: ](jackson-core-2.19.0.buildcompare) | | 1.1M |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.19.0-rc2/pom) | [mvn jdk8](jackson-core-2.19.0-rc2.buildspec) | [result](jackson-core-2.19.0-rc2.buildinfo): [4 :white_check_mark: ](jackson-core-2.19.0-rc2.buildcompare) | | 1.1M |
 | [2.19.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.19.0-rc1/pom) | [mvn jdk8](jackson-core-2.19.0-rc1.buildspec) | [result](jackson-core-2.19.0-rc1.buildinfo): [4 :white_check_mark: ](jackson-core-2.19.0-rc1.buildcompare) | | 1.1M |
-| [2.18.9](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.18.9/pom) | | | |
+| [2.18.9](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.18.9/pom) | [mvn jdk8](jackson-core-2.18.9.buildspec) | [result](jackson-core-2.18.9.buildinfo): [4 :white_check_mark: ](jackson-core-2.18.9.buildcompare) | | 1.1M |
 | [2.18.8](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.18.8/pom) | [mvn jdk8](jackson-core-2.18.8.buildspec) | [result](jackson-core-2.18.8.buildinfo): [4 :white_check_mark: ](jackson-core-2.18.8.buildcompare) | | 1.1M |
 | [2.18.7](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.18.7/pom) | [mvn jdk8](jackson-core-2.18.7.buildspec) | [result](jackson-core-2.18.7.buildinfo): [4 :white_check_mark: ](jackson-core-2.18.7.buildcompare) | | 1.1M |
 | [2.18.6](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.18.6/pom) | [mvn jdk8](jackson-core-2.18.6.buildspec) | [result](jackson-core-2.18.6.buildinfo): [4 :white_check_mark: ](jackson-core-2.18.6.buildcompare) | | 1.1M |
