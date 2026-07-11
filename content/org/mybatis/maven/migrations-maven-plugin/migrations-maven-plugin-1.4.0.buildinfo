@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Migrations Maven plugin
+group-id=org.mybatis.maven
+artifact-id=migrations-maven-plugin
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/migrations-maven-plugin.git
+source.scm.tag=migrations-maven-plugin-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis.maven
+outputs.0.filename=migrations-maven-plugin-1.4.0.pom
+outputs.0.length=13107
+outputs.0.checksums.sha512=68a2a2d2d1501f70623c6a5c9a9e69be1aba3b38d5249af210680338147bf0a5131070cff798b84ac4c1720b9b4d03afad510a81dfacef5b7c00a80b2d1efff5
+
+outputs.1.groupId=org.mybatis.maven
+outputs.1.filename=migrations-maven-plugin-1.4.0.jar
+outputs.1.length=49358
+outputs.1.checksums.sha512=d5197e6244b37b098b3b1fde2682d76a9eb9105926b92bc874bac2f67b8f958878d5c81cfa3fcf26f04c93329e8ae9d1f6e9c7dea5388497217cab9f5e76200d
+
+outputs.2.groupId=org.mybatis.maven
+outputs.2.filename=migrations-maven-plugin-1.4.0-sources.jar
+outputs.2.length=35763
+outputs.2.checksums.sha512=8c61b6fd9c8366472c804df51c6e7bd538b2ab2b347cc14c37a62467d15a436359fb0c6de92d32c9000c2a39929b5124796e6c1bc2075ade063ac51a50142b57
