@@ -15,6 +15,7 @@ rebuilding **11 releases** of org.mybatis:mybatis-spring:
 | -- | --------- | ------ | ------ | -- |
 | [4.1.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/4.1.0/pom) | [mvn jdk25 w](mybatis-spring-4.1.0.buildspec) | [result](mybatis-spring-4.1.0.buildinfo): [3 :white_check_mark: ](mybatis-spring-4.1.0.buildcompare) | | 168K |
 | [4.0.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/4.0.0/pom) | [mvn jdk25 w](mybatis-spring-4.0.0.buildspec) | [result](mybatis-spring-4.0.0.buildinfo): [3 :white_check_mark: ](mybatis-spring-4.0.0.buildcompare) | | 167K |
+| [3.0.6](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.6/pom) | | | |
 | [3.0.5](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.5/pom) | [mvn jdk17](mybatis-spring-3.0.5.buildspec) | [result](mybatis-spring-3.0.5.buildinfo): [3 :white_check_mark: ](mybatis-spring-3.0.5.buildcompare) | | 165K |
 | [3.0.4](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.4/pom) | [mvn jdk22 w](mybatis-spring-3.0.4.buildspec) | [result](mybatis-spring-3.0.4.buildinfo): [3 :white_check_mark: ](mybatis-spring-3.0.4.buildcompare) | | 165K |
 | [3.0.3](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.3/pom) | [mvn jdk17](mybatis-spring-3.0.3.buildspec) | [result](mybatis-spring-3.0.3.buildinfo): [3 :white_check_mark: ](mybatis-spring-3.0.3.buildcompare) | | 156K |

@@ -18,8 +18,8 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 * [tools.jackson.jr:jackson-jr-stree](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-stree/overview)
 </details>
 
-rebuilding **23 releases** of tools.jackson.jr:jackson-jr-parent:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **24 releases** of tools.jackson.jr:jackson-jr-parent:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
