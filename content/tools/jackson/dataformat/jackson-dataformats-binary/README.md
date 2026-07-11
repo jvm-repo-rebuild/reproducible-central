@@ -7,8 +7,14 @@
 
 Source code: [https://github.com/FasterXML/jackson-dataformats-binary.git](https://github.com/FasterXML/jackson-dataformats-binary.git)
 
-<details><summary>This project defines 6 modules:</summary>
+<details><summary>This project defines 12 modules:</summary>
 
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-avro](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-avro/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-cbor](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-ion](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-ion/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-smile](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformats-binary](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/overview)
 * [tools.jackson.dataformat:jackson-dataformat-avro](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-avro/overview)
 * [tools.jackson.dataformat:jackson-dataformat-cbor](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-cbor/overview)
 * [tools.jackson.dataformat:jackson-dataformat-ion](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformat-ion/overview)
