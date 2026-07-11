@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPetStore Demo 6
+group-id=org.mybatis
+artifact-id=jpetstore
+version=6.3.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/jpetstore-6.git
+source.scm.tag=jpetstore-6.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=jpetstore-6.3.0.pom
+outputs.0.length=20482
+outputs.0.checksums.sha512=8ef2923a5ab4a1322ddba7370820913ab26a1ee09f8740fe12e09a5c24f2457ec6c7ec9b2401ce1e4324704ad8e6c6869305c06f2de052451d63209574be7105
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=jpetstore-6.3.0.war
+outputs.1.length=11935547
+outputs.1.checksums.sha512=ed336cc65048fb84061d2588c33344107fd308a7eec311689ea594298efe78a60d76141be34c6734d1e684da7ff9ea2134085215ad62c494adc860a8f9d75a56
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=jpetstore-6.3.0-sources.jar
+outputs.2.length=52559
+outputs.2.checksums.sha512=f1334696742e560b65c4c8f3dfb1ea7f11b6be83ea72ce9a88929fbcd5f608b21c17c576371bc3ed6d2666ec070bd4c208b40e9b8f2226c1d692543239189eaf
