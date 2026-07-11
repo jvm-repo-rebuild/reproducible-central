@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Migrations
+group-id=org.mybatis
+artifact-id=mybatis-migrations
+version=3.6.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/migrations.git
+source.scm.tag=mybatis-migrations-3.6.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.2
+java.vendor=Oracle Corporation
+os.name=Linux
+os.version=6.8.0-124-generic
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-migrations-3.6.0.pom
+outputs.0.length=7343
+outputs.0.checksums.sha512=48f9a6c788539a0ca1d22c64b6e03cd6da4e7de02e1c0b86a7f6f1a0af2feff120df7f5e781ae122cb6278cc38670b12c2bbd54677ca6eb4a6687110549fd758
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-migrations-3.6.0.jar
+outputs.1.length=154996
+outputs.1.checksums.sha512=a3360d34820ec62db3d79952da5f4f464120dba961e1692dd4b858d0b6156e7fe5f1e16c5e6f2cfc2ce35d049d1bfde86139d1ca3e04c7ef92ad5d305c256070
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-migrations-3.6.0-sources.jar
+outputs.2.length=107810
+outputs.2.checksums.sha512=b8bf43a10c2727e75ed23a7ab4a6ab41ffc82c096beb260d60aec84c2fe21c488240ea7aacd473f0edf49fce35ac86b30fd4556645101396bacf398d41b41ace
+
+outputs.3.groupId=org.mybatis
+outputs.3.filename=mybatis-migrations-3.6.0-bundle.zip
+outputs.3.length=152108
+outputs.3.checksums.sha512=8fb3f51516d10ec1201356da8f9bcde988e74124bcda8b47e8dfcca2dbe51174a163ef9d676fb7dafdb72733fcc98edf1a784ce60f94568da51cf0680e500209
