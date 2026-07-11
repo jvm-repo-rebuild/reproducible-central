@@ -1,0 +1,25 @@
+version=2.18.9
+ok=6
+ko=10
+ignored=5
+okFiles="jackson-datatypes-misc-parent-2.18.9.pom jackson-datatype-joda-money-2.18.9.pom jackson-datatype-json-org-2.18.9.pom jackson-datatype-jsr353-2.18.9.pom jackson-datatype-jakarta-jsonp-2.18.9.pom jackson-datatype-jakarta-mail-2.18.9.pom"
+koFiles="jackson-datatype-joda-money-2.18.9.jar jackson-datatype-joda-money-2.18.9-sources.jar jackson-datatype-json-org-2.18.9.jar jackson-datatype-json-org-2.18.9-sources.jar jackson-datatype-jsr353-2.18.9.jar jackson-datatype-jsr353-2.18.9-sources.jar jackson-datatype-jakarta-jsonp-2.18.9.jar jackson-datatype-jakarta-jsonp-2.18.9-sources.jar jackson-datatype-jakarta-mail-2.18.9.jar jackson-datatype-jakarta-mail-2.18.9-sources.jar"
+ignoredFiles="jackson-datatype-joda-money-2.18.9.module jackson-datatype-json-org-2.18.9.module jackson-datatype-jsr353-2.18.9.module jackson-datatype-jakarta-jsonp-2.18.9.module jackson-datatype-jakarta-mail-2.18.9.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-joda-money-2.18.9.jar joda-money/target/jackson-datatype-joda-money-2.18.9.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-joda-money-2.18.9-sources.jar joda-money/target/jackson-datatype-joda-money-2.18.9-sources.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-json-org-2.18.9.jar json-org/target/jackson-datatype-json-org-2.18.9.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-json-org-2.18.9-sources.jar json-org/target/jackson-datatype-json-org-2.18.9-sources.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jsr353-2.18.9.jar jsr-353/target/jackson-datatype-jsr353-2.18.9.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jsr353-2.18.9-sources.jar jsr-353/target/jackson-datatype-jsr353-2.18.9-sources.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp-2.18.9.jar jakarta-jsonp/target/jackson-datatype-jakarta-jsonp-2.18.9.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp-2.18.9-sources.jar jakarta-jsonp/target/jackson-datatype-jakarta-jsonp-2.18.9-sources.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail-2.18.9.jar jakarta-mail/target/jackson-datatype-jakarta-mail-2.18.9.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail-2.18.9-sources.jar jakarta-mail/target/jackson-datatype-jakarta-mail-2.18.9-sources.jar
+stabilize_ok=0
+stabilize_ko=10
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="jackson-datatype-joda-money-2.18.9.jar.stabilized jackson-datatype-joda-money-2.18.9-sources.jar.stabilized jackson-datatype-json-org-2.18.9.jar.stabilized jackson-datatype-json-org-2.18.9-sources.jar.stabilized jackson-datatype-jsr353-2.18.9.jar.stabilized jackson-datatype-jsr353-2.18.9-sources.jar.stabilized jackson-datatype-jakarta-jsonp-2.18.9.jar.stabilized jackson-datatype-jakarta-jsonp-2.18.9-sources.jar.stabilized jackson-datatype-jakarta-mail-2.18.9.jar.stabilized jackson-datatype-jakarta-mail-2.18.9-sources.jar.stabilized"
+stabilize_ignoredFiles=""
