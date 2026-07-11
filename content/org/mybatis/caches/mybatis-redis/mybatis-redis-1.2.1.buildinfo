@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-redis
+group-id=org.mybatis.caches
+artifact-id=mybatis-redis
+version=1.2.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/redis-cache.git
+source.scm.tag=mybatis-redis-1.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-redis-1.2.1.pom
+outputs.0.length=5031
+outputs.0.checksums.sha512=609edc3a5cf58ad4d8d66bd92dd71ce6608f463d9db5bb4131dcc5cb59aa22ebe7ab20b671f08a095feadd9bca82d75d5e0c9360249d75fead58d932b5e4c933
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-redis-1.2.1.jar
+outputs.1.length=21884
+outputs.1.checksums.sha512=10d377b5420892e23e98a7fed379a61399299a56162dd244816ab592d418f448025772c473fa3047b0c1dc5cd0dd80156761476ae4af8683a0b0cbd960ce468d
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-redis-1.2.1-sources.jar
+outputs.2.length=18344
+outputs.2.checksums.sha512=765e84b3796947cc59cababaa7f54ac25556ed8e612eba4e0f0fc2477e1e3ec30fe70b62ad9f2f2b11822dd846bbd9dcee692cd9ca9b1ab6d363192a39bf1054
