@@ -7,8 +7,10 @@
 
 Source code: [https://github.com/FasterXML/jackson-bom.git](https://github.com/FasterXML/jackson-bom.git)
 
-<details><summary>This project defines 2 modules:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
+* [com.fasterxml.jackson:jackson-base](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-base/overview)
+* [com.fasterxml.jackson:jackson-bom](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/overview)
 * [tools.jackson:jackson-base](https://central.sonatype.com/artifact/tools.jackson/jackson-base/overview)
 * [tools.jackson:jackson-bom](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/overview)
 </details>
