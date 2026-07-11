@@ -1,0 +1,17 @@
+version=2.18.9
+ok=1
+ko=2
+ignored=1
+okFiles="jackson-dataformat-xml-2.18.9.pom"
+koFiles="jackson-dataformat-xml-2.18.9.jar jackson-dataformat-xml-2.18.9-sources.jar"
+ignoredFiles="jackson-dataformat-xml-2.18.9.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-xml-2.18.9.jar target/jackson-dataformat-xml-2.18.9.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-xml-2.18.9-sources.jar target/jackson-dataformat-xml-2.18.9-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="jackson-dataformat-xml-2.18.9.jar.stabilized jackson-dataformat-xml-2.18.9-sources.jar.stabilized"
+stabilize_ignoredFiles=""
