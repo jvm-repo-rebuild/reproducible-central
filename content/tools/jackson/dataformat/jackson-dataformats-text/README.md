@@ -16,15 +16,15 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-text.git](https:/
 * [tools.jackson.dataformat:jackson-dataformats-text](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/overview)
 </details>
 
-rebuilding **23 releases** of tools.jackson.dataformat:jackson-dataformats-text:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **24 releases** of tools.jackson.dataformat:jackson-dataformats-text:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.2.1/pom) | [mvn jdk17](jackson-dataformats-text-3.2.1.buildspec) | [result](jackson-dataformats-text-3.2.1.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.2.1.buildcompare) | | 606K |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.2.0/pom) | [mvn jdk17](jackson-dataformats-text-3.2.0.buildspec) | [result](jackson-dataformats-text-3.2.0.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.2.0.buildcompare) | | 606K |
-| [3.1.5](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.5/pom) | | | |
+| [3.1.5](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.5/pom) | [mvn jdk17](jackson-dataformats-text-3.1.5.buildspec) | [result](jackson-dataformats-text-3.1.5.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.5.buildcompare) | | 589K |
 | [3.1.4](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.4/pom) | [mvn jdk17](jackson-dataformats-text-3.1.4.buildspec) | [result](jackson-dataformats-text-3.1.4.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.4.buildcompare) | | 588K |
 | [3.1.3](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.3/pom) | [mvn jdk17](jackson-dataformats-text-3.1.3.buildspec) | [result](jackson-dataformats-text-3.1.3.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.3.buildcompare) | | 588K |
 | [3.1.2](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.2/pom) | [mvn jdk17](jackson-dataformats-text-3.1.2.buildspec) | [result](jackson-dataformats-text-3.1.2.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.1.2.buildcompare) | | 588K |
