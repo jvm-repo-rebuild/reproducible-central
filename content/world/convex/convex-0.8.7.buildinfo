@@ -14,10 +14,10 @@ source.scm.tag=HEAD
 build-tool=mvn
 
 # effective build environment information
-java.version=25.0.3
+java.version=25
 java.vendor=Azul Systems, Inc.
 os.name=Linux
-os.version=6.17.0-1018-azure
+os.version=6.8.0-124-generic
 os.arch=amd64
 line.separator=\r\n
 
@@ -31,8 +31,8 @@ outputs.0.coordinates=world.convex:convex
 
 outputs.0.0.groupId=world.convex
 outputs.0.0.filename=convex-0.8.7.pom
-outputs.0.0.length=8791
-outputs.0.0.checksums.sha512=06a958719771a82c2ed081b645e0dde88181bc28c8928de7ccf5ab2a128e62c4fb13ba966365f6b3c4d77c2a2885069b5ffc12cffa733ff237a5802d797bd676
+outputs.0.0.length=9073
+outputs.0.0.checksums.sha512=12ab1828c17f4f81eb0045b548d3ed7544848a60adb4b7b4b74c13d8ab7e4de3fde1d63af87398fc355f101aed1b24c122a25b85342767c53e4dc67c18a51321
 
 outputs.1.coordinates=world.convex:convex-core
 

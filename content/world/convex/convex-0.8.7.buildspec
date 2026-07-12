@@ -12,7 +12,6 @@ jdk=25
 newline=crlf
 
 command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-execBefore="git restore pom.xml"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 

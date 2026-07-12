@@ -1,0 +1,39 @@
+1 / 1 target/reference/world.convex/convex-db-0.8.3-sources.jar convex-db/target/convex-db-0.8.3-sources.jar
+--- target/reference/world.convex/convex-db-0.8.3-sources.jar
++++ convex-db/target/convex-db-0.8.3-sources.jar
+├── zipinfo {}
+│ @@ -1,23 +1,22 @@
+│ -Zip file size: 88459 bytes, number of entries: 90
+│ +Zip file size: 88349 bytes, number of entries: 89
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Mar-02 12:01 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/calcite/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/calcite/convention/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/calcite/eval/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/calcite/pgcatalog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/calcite/rel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/calcite/rules/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/jdbc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/lattice/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/psql/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/psql/msg/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/server/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 convex/db/sql/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 META-INF/maven/world.convex/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Mar-02 12:01 META-INF/maven/world.convex/convex-db/
+│  -rw-r--r--  2.0 unx      620 b- defN 26-Mar-02 12:01 convex/db/ConvexDB.java
+│  -rw-r--r--  2.0 unx     5965 b- defN 26-Mar-02 12:01 convex/db/calcite/ConvexColumnType.java
+│ @@ -85,8 +84,8 @@
+│  -rw-r--r--  2.0 unx      537 b- defN 26-Mar-02 12:01 convex/db/psql/msg/ParseComplete.java
+│  -rw-r--r--  2.0 unx      911 b- defN 26-Mar-02 12:01 convex/db/psql/msg/ReadyForQuery.java
+│  -rw-r--r--  2.0 unx     2851 b- defN 26-Mar-02 12:01 convex/db/psql/msg/RowDescription.java
+│  -rw-r--r--  2.0 unx      812 b- defN 26-Mar-02 12:01 convex/db/sql/package-info.java
+│  -rw-r--r--  2.0 unx       29 b- defN 26-Mar-02 12:01 META-INF/services/java.sql.Driver
+│  -rw-r--r--  2.0 unx     2588 b- defN 26-Mar-02 12:01 META-INF/maven/world.convex/convex-db/pom.xml
+│  -rw-r--r--  2.0 unx       59 b- defN 26-Mar-02 12:01 META-INF/maven/world.convex/convex-db/pom.properties
+│ -90 files, 243478 bytes uncompressed, 75327 bytes compressed:  69.1%
+│ +89 files, 243478 bytes uncompressed, 75327 bytes compressed:  69.1%
