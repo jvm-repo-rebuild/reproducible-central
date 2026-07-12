@@ -1,0 +1,9 @@
+version=3.0.5
+ok=11
+ko=0
+ignored=0
+okFiles="jena-kafka-3.0.5.pom jena-kafka-3.0.5-cyclonedx.json jena-kafka-connector-3.0.5.pom jena-kafka-connector-3.0.5.jar jena-kafka-connector-3.0.5-sources.jar jena-kafka-connector-3.0.5-cyclonedx.json jena-fuseki-kafka-module-3.0.5.pom jena-fuseki-kafka-module-3.0.5.jar jena-fuseki-kafka-module-3.0.5-tests.jar jena-fuseki-kafka-module-3.0.5-sources.jar jena-fuseki-kafka-module-3.0.5-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
