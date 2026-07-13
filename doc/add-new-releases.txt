@@ -1,4 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-2.buildspec:11.4.1-beta-3
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1-beta-4.buildspec:5.17.1-beta-5
+content/io/airlift/airbase/airbase-394.buildspec:395
+content/io/avaje/jsonb/avaje-jsonb-3.15-RC1.buildspec:3.15-RC2
+content/io/cucumber/html-formatter/html-formatter-24.0.0.buildspec:24.1.0
+content/io/cucumber/messages/messages-34.0.1.buildspec:34.0.2
