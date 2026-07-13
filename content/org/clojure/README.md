@@ -16,7 +16,7 @@ rebuilding **3 releases** of org.clojure:clojure:
 | -- | --------- | ------ | ------ | -- |
 | [1.13.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha3/pom) | [mvn jdk8](clojure-1.13.0-alpha3.buildspec) | [result](clojure-1.13.0-alpha3.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.13.0-alpha3.buildcompare) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 2 :recycle: 1 :rotating_light: | 5.8M |
 | [1.13.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha2/pom) | [mvn jdk8](clojure-1.13.0-alpha2.buildspec) | [result](clojure-1.13.0-alpha2.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.13.0-alpha2.buildcompare) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 2 :recycle: 1 :rotating_light: | 5.8M |
-| [1.13.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha1/pom) | | | |
+| [1.13.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha1/pom) | [mvn jdk8](clojure-1.13.0-alpha1.buildspec) | [result](clojure-1.13.0-alpha1.buildinfo): [3 :white_check_mark:  1 :warning:](clojure-1.13.0-alpha1.buildcompare) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 1 :rotating_light: | 5.8M |
 | [1.12.5](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.5/pom) | [mvn jdk8](clojure-1.12.5.buildspec) | [result](clojure-1.12.5.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.5.buildcompare) [:mag:](clojure-1.12.5.diffoscope) | 2 :recycle: 1 :rotating_light: | 5.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
