@@ -25,13 +25,14 @@ Source code: [https://github.com/io7m/certusine.git](https://github.com/io7m/cer
 * [com.io7m.certusine:com.io7m.certusine.vultr](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vultr/overview)
 </details>
 
-rebuilding **5 releases** of com.io7m.certusine:com.io7m.certusine:
+rebuilding **6 releases** of com.io7m.certusine:com.io7m.certusine:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0-beta0004](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/4.0.0-beta0004/pom) | | | |
+| [4.0.0-beta0004](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/4.0.0-beta0004/pom) | [mvn jdk21](com.io7m.certusine-4.0.0-beta0004.buildspec) | [result](com.io7m.certusine-4.0.0-beta0004.buildinfo): [13 :white_check_mark:  36 :warning:](com.io7m.certusine-4.0.0-beta0004.buildcompare) | 28 :recycle: 8 :rotating_light: | 1.1M |
 | [4.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/4.0.0-beta0003/pom) | | | |
 | [4.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/4.0.0-beta0002/pom) | | | |
 | [4.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/4.0.0-beta0001/pom) | | | |
