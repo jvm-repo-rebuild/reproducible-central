@@ -19,13 +19,14 @@ Source code: [https://github.com/io7m/quarrel.git](https://github.com/io7m/quarr
 * [com.io7m.quarrel:com.io7m.quarrel.tests](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.tests/overview)
 </details>
 
-rebuilding **13 releases** of com.io7m.quarrel:com.io7m.quarrel:
+rebuilding **14 releases** of com.io7m.quarrel:com.io7m.quarrel:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.8.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.8.1/pom) | | | |
+| [1.8.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.8.1/pom) | [mvn jdk21](com.io7m.quarrel-1.8.1.buildspec) | [result](com.io7m.quarrel-1.8.1.buildinfo): [11 :white_check_mark:  26 :warning:](com.io7m.quarrel-1.8.1.buildcompare) | 17 :recycle: 4 :rotating_light: 5 :no_entry_sign: | 2.7M |
 | [1.8.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.8.0/pom) | [mvn jdk21](com.io7m.quarrel-1.8.0.buildspec) | [result](com.io7m.quarrel-1.8.0.buildinfo): [11 :white_check_mark:  26 :warning:](com.io7m.quarrel-1.8.0.buildcompare) | - | 2.7M |
 | [1.7.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.7.0/pom) | [mvn jdk21](com.io7m.quarrel-1.7.0.buildspec) | [result](com.io7m.quarrel-1.7.0.buildinfo): [11 :white_check_mark:  26 :warning:](com.io7m.quarrel-1.7.0.buildcompare) | - | 2.7M |
 | [1.6.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.1/pom) | [mvn jdk21](com.io7m.quarrel-1.6.1.buildspec) | [result](com.io7m.quarrel-1.6.1.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.6.1.buildcompare) | | 2.6M |
