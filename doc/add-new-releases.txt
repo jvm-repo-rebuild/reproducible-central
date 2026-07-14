@@ -1,6 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-394.buildspec:395
-content/io/avaje/jsonb/avaje-jsonb-3.15-RC1.buildspec:3.15-RC2
-content/io/cucumber/html-formatter/html-formatter-24.0.0.buildspec:24.1.0
-content/io/cucumber/messages/messages-34.0.1.buildspec:34.0.2
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-3.buildspec:11.5.0
+content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.9.buildspec:1.0.10
+content/org/apache/jackrabbit/oak/jackrabbit-oak-2.2.0.buildspec:2.4.0

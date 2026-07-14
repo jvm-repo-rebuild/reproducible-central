@@ -22,10 +22,9 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260713173928 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [24.0.0](../content/io/cucumber/html-formatter/html-formatter-24.0.0.buildspec) :white_check_mark: | [24.1.0](../content/io/cucumber/html-formatter/html-formatter-24.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-24.0.0.buildspec 24.1.0` |
-| <!-- 20260713172936 --> [messages](../content/io/cucumber/messages/README.md) | [34.0.1](../content/io/cucumber/messages/messages-34.0.1.buildspec) :white_check_mark: | [34.0.2](../content/io/cucumber/messages/messages-34.0.2.buildspec) | `bin/add-new-release.sh content/io/cucumber/messages/messages-34.0.1.buildspec 34.0.2` |
-| <!-- 20260713102715 --> [airbase](../content/io/airlift/airbase/README.md) | [394](../content/io/airlift/airbase/airbase-394.buildspec) :white_check_mark: | [395](../content/io/airlift/airbase/airbase-395.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-394.buildspec 395` |
-| <!-- 20260712212916 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.15-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.15-RC1.buildspec) :white_check_mark: | [3.15-RC2](../content/io/avaje/jsonb/avaje-jsonb-3.15-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.15-RC1.buildspec 3.15-RC2` |
+| <!-- 20260714150539 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [2.2.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-2.2.0.buildspec) :white_check_mark: | [2.4.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-2.4.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-2.2.0.buildspec 2.4.0` |
+| <!-- 20260714124520 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.4.1-beta-3](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-3.buildspec) :white_check_mark: | [11.5.0](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.0.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-3.buildspec 11.5.0` |
+| <!-- 20260714073831 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [1.0.9](../content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.9.buildspec) :white_check_mark: | [1.0.10](../content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.10.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.9.buildspec 1.0.10` |
 | <!-- 20260630195218 --> [jline](../content/org/jline/README.md) | [4.3.1](../content/org/jline/jline-4.3.1.buildspec) :white_check_mark: | 4.0.16 4.0.11 4.0.9 4.0.8 4.0.7 4.0.6 4.0.5 4.0.4 4.0.3 4.0.2 3.30.15 3.30.14  | `bin/add-new-release.sh content/org/jline/jline-4.3.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -50,9 +49,8 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260713011518 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | [4.10.2.0](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.10.2.0.buildspec) :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | [4.10.3.0](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.10.3.0.buildspec) | `bin/add-new-release.sh content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.10.2.0.buildspec 4.10.3.0` |
+| <!-- 20260714161009 --> [clojure](../content/org/clojure/README.md) | [1.13.0-alpha3](../content/org/clojure/clojure-1.13.0-alpha3.buildspec) :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | [1.13.0-alpha4](../content/org/clojure/clojure-1.13.0-alpha4.buildspec) | `bin/add-new-release.sh content/org/clojure/clojure-1.13.0-alpha3.buildspec 1.13.0-alpha4` |
 | <!-- 20260710121448 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.133.0](../content/org/finos/legend/engine/legend-engine-4.133.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.133.0` |
-| <!-- 20260707182523 --> [clojure](../content/org/clojure/README.md) | [1.12.5](../content/org/clojure/clojure-1.12.5.buildspec) :warning: | [1.13.0-alpha3](../content/org/clojure/clojure-1.13.0-alpha3.buildspec) | `bin/add-new-release.sh content/org/clojure/clojure-1.12.5.buildspec 1.13.0-alpha3` |
 | <!-- 20260706101801 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.11.0](../content/at/yawk/lz4/lz4-java/lz4-java-1.11.0.buildspec) :warning: | [1.11.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.11.1.buildspec) | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.11.0.buildspec 1.11.1` |
 | <!-- 20260706084731 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.2.2](../content/org/apache/pulsar/pulsar-4.2.2.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/issues/24718) | [5.0.0-M1](../content/org/apache/pulsar/pulsar-5.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.2.2.buildspec 5.0.0-M1` |
 | <!-- 20260704130113 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.3.10](../content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec) :x: | [3.5.7](../content/com/hibegin/zrlog-base/zrlog-base-3.5.7.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec 3.5.7` |
@@ -74,10 +72,7 @@ New Release of non-Reproducible Previous
 | <!-- 20260425140851 --> [com.io7m.quarrel](../content/com/io7m/quarrel/README.md) | [1.8.0](../content/com/io7m/quarrel/com.io7m.quarrel-1.8.0.buildspec) :warning: | [1.8.1](../content/com/io7m/quarrel/com.io7m.quarrel-1.8.1.buildspec) | `bin/add-new-release.sh content/com/io7m/quarrel/com.io7m.quarrel-1.8.0.buildspec 1.8.1` |
 | <!-- 20260417195940 --> [com.io7m.xstructural](../content/com/io7m/xstructural/README.md) | [2.0.1](../content/com/io7m/xstructural/com.io7m.xstructural-2.0.1.buildspec) :warning: | [2.1.0](../content/com/io7m/xstructural/com.io7m.xstructural-2.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/xstructural/com.io7m.xstructural-2.0.1.buildspec 2.1.0` |
 | <!-- 20260403090725 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | [9.0.0](../content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec) :x: | [10.0.0](../content/io/github/git-commit-id/git-commit-id-maven-plugin-10.0.0.buildspec) | `bin/add-new-release.sh content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec 10.0.0` |
-| <!-- 20260326141808 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | [2.0.0-alpha.5](../content/eu/europa/ted/eforms/efx-toolkit-java/efx-toolkit-java-2.0.0-alpha.5.buildspec) :warning: | [2.0.0-alpha.6](../content/eu/europa/ted/eforms/efx-toolkit-java/efx-toolkit-java-2.0.0-alpha.6.buildspec) | `bin/add-new-release.sh content/eu/europa/ted/eforms/efx-toolkit-java/efx-toolkit-java-2.0.0-alpha.5.buildspec 2.0.0-alpha.6` |
-| <!-- 20260317154519 --> [logback-parent-db](../content/ch/qos/logback/db/README.md) | [1.2.11](../content/ch/qos/logback/db/logback-db-1.2.11.buildspec) :warning: [:memo:](https://github.com/qos-ch/logback-db/pull/2) | [1.5.32](../content/ch/qos/logback/db/logback-db-1.5.32.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/db/logback-db-1.2.11.buildspec 1.5.32` |
 | <!-- 20260130221056 --> [parent](../content/org/apache/sis/README.md) | [1.3](../content/org/apache/sis/parent-1.3.buildspec) :warning: [:memo:](https://github.com/apache/sis/pull/36) | [1.6](../content/org/apache/sis/parent-1.6.buildspec) | `bin/add-new-release.sh content/org/apache/sis/parent-1.3.buildspec 1.6` |
-| <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | [1.2.4](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec) :warning: | [1.2.5](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.5.buildspec) | `bin/add-new-release.sh content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec 1.2.5` |
 | <!-- 20251022112208 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.107](../content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec) :x: | [2.9.114-1](../content/org/webjars/flexmonster/flexmonster-2.9.114-1.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec 2.9.114-1` |
 <!-- END GENERATED ADD KO -->
 
@@ -88,6 +83,7 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260713011518 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.10.3.0 :warning: |
 | <!-- 20260709212922 --> [convex](../content/world/convex/README.md) | 0.8.8 :warning: |
 | <!-- 20260709051859 --> [orc](../content/org/apache/orc/README.md) | 2.3.0 :warning: |
 | <!-- 20260708170517 --> [font-awesome](../content/org/webjars/font-awesome/README.md) | 7.3.0 :x: |
@@ -149,6 +145,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260408223853 --> [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 2.12.4 :warning: |
 | <!-- 20260408152748 --> [mybatis-generator](../content/org/mybatis/generator/README.md) | 2.0.0 :warning: |
 | <!-- 20260404032907 --> [ratis](../content/org/apache/ratis/README.md) | 3.2.2 :warning: |
+| <!-- 20260326141808 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.6 :warning: |
 | <!-- 20260326135347 --> [eforms-core-java](../content/eu/europa/ted/eforms/eforms-core-java/README.md) | 1.6.0 :warning: |
 | <!-- 20260323120711 --> [fediz](../content/org/apache/cxf/fediz/README.md) | 1.7.2 :warning: |
 | <!-- 20260320142559 --> [apache-rat-project](../content/org/apache/rat/README.md) | 0.18 :warning: [:memo:](https://issues.apache.org/jira/browse/RAT-536) |
@@ -178,6 +175,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
 | <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
+| <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | 1.2.5 :x: |
 | <!-- 20251210184449 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 2.2 :warning: |
 | <!-- 20251210155324 --> [com.io7m.dixmont](../content/com/io7m/dixmont/README.md) | 3.1.0 :warning: |
 | <!-- 20251207221548 --> [commons-text](../content/org/apache/commons/commons-text/README.md) | 1.15.0 :warning: |
