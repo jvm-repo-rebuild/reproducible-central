@@ -50,14 +50,14 @@ Source code: [https://github.com/apache/jackrabbit-oak.git](https://github.com/a
 * [org.apache.jackrabbit:oak-upgrade](https://central.sonatype.com/artifact/org.apache.jackrabbit/oak-upgrade/overview)
 </details>
 
-rebuilding **19 releases** of org.apache.jackrabbit:jackrabbit-oak:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of org.apache.jackrabbit:jackrabbit-oak:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.4.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/oak-parent/2.4.0/pom) | | | |
+| [2.4.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/2.4.0/pom) | [mvn jdk17 w](jackrabbit-oak-2.4.0.buildspec) | [result](jackrabbit-oak-2.4.0.buildinfo): [142 :white_check_mark: ](jackrabbit-oak-2.4.0.buildcompare) | | 411M |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/2.2.0/pom) | [mvn jdk17 w](jackrabbit-oak-2.2.0.buildspec) | [result](jackrabbit-oak-2.2.0.buildinfo): [142 :white_check_mark: ](jackrabbit-oak-2.2.0.buildcompare) | | 412M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/2.0.0/pom) | [mvn jdk17 w](jackrabbit-oak-2.0.0.buildspec) | [result](jackrabbit-oak-2.0.0.buildinfo): [142 :white_check_mark: ](jackrabbit-oak-2.0.0.buildcompare) | | 412M |
 | [1.92.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.92.0/pom) | [mvn jdk11 w](jackrabbit-oak-1.92.0.buildspec) | [result](jackrabbit-oak-1.92.0.buildinfo): [142 :white_check_mark: ](jackrabbit-oak-1.92.0.buildcompare) | | 412M |
