@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=EFX Toolkit for Java
+group-id=eu.europa.ted.eforms
+artifact-id=efx-toolkit-java
+version=2.0.0-alpha.6
+
+# source information
+source.scm.uri=scm:git:git://github.com/OP-TED/efx-toolkit-java.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.31
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=eu.europa.ted.eforms
+outputs.0.filename=efx-toolkit-java-2.0.0-alpha.6.pom
+outputs.0.length=15705
+outputs.0.checksums.sha512=415aed63727f5e50eba327b7afb2c465965389749a2f0ec938c37cba39ec0ec3c4c9d8c4d57e5af7f69125121a0f8bfa50286c3749fe3c9a27ce23fe859a5cff
+
+outputs.1.groupId=eu.europa.ted.eforms
+outputs.1.filename=efx-toolkit-java-2.0.0-alpha.6.jar
+outputs.1.length=1516720
+outputs.1.checksums.sha512=9c2e55c74b8085f4cac229ab53517f4ca3a1a9abba97f8fbd25d2cf3d2da1ad0450998be693961f0032d367b2770be3f2ea154d98053489a03249b0f03a77669
+
+outputs.2.groupId=eu.europa.ted.eforms
+outputs.2.filename=efx-toolkit-java-2.0.0-alpha.6-sources.jar
+outputs.2.length=629182
+outputs.2.checksums.sha512=f74ba63cb79db531d5710a4350363cba1878b26587b6277e8ed62518a3dd0005e7a6f734941c21a055a9791b54e10ff3f9513b2577f19ccdfdcf40b54902ff93
