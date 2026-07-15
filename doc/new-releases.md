@@ -22,9 +22,8 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260714150539 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [2.2.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-2.2.0.buildspec) :white_check_mark: | [2.4.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-2.4.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-2.2.0.buildspec 2.4.0` |
-| <!-- 20260714124520 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.4.1-beta-3](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-3.buildspec) :white_check_mark: | [11.5.0](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.0.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-3.buildspec 11.5.0` |
-| <!-- 20260714073831 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [1.0.9](../content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.9.buildspec) :white_check_mark: | [1.0.10](../content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.10.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.9.buildspec 1.0.10` |
+| <!-- 20260715091900 --> [messages](../content/io/cucumber/messages/README.md) | [34.0.2](../content/io/cucumber/messages/messages-34.0.2.buildspec) :white_check_mark: | [34.1.0](../content/io/cucumber/messages/messages-34.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/messages/messages-34.0.2.buildspec 34.1.0` |
+| <!-- 20260715023513 --> [webjars-locator-lite](../content/org/webjars/webjars-locator-lite/README.md) | [1.1.3](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.3.buildspec) :white_check_mark: | [1.1.4](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.4.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.3.buildspec 1.1.4` |
 | <!-- 20260630195218 --> [jline](../content/org/jline/README.md) | [4.3.1](../content/org/jline/jline-4.3.1.buildspec) :white_check_mark: | 4.0.16 4.0.11 4.0.9 4.0.8 4.0.7 4.0.6 4.0.5 4.0.4 4.0.3 4.0.2 3.30.15 3.30.14  | `bin/add-new-release.sh content/org/jline/jline-4.3.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -49,6 +48,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260715094346 --> [quarkus-project](../content/io/quarkus/README.md) | [3.37.2](../content/io/quarkus/quarkus-3.37.2.buildspec) :warning: | [3.38.0.CR1](../content/io/quarkus/quarkus-3.38.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.37.2.buildspec 3.38.0.CR1` |
 | <!-- 20260714161009 --> [clojure](../content/org/clojure/README.md) | [1.13.0-alpha3](../content/org/clojure/clojure-1.13.0-alpha3.buildspec) :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | [1.13.0-alpha4](../content/org/clojure/clojure-1.13.0-alpha4.buildspec) | `bin/add-new-release.sh content/org/clojure/clojure-1.13.0-alpha3.buildspec 1.13.0-alpha4` |
 | <!-- 20260710121448 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.133.0](../content/org/finos/legend/engine/legend-engine-4.133.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.133.0` |
 | <!-- 20260706101801 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.11.0](../content/at/yawk/lz4/lz4-java/lz4-java-1.11.0.buildspec) :warning: | [1.11.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.11.1.buildspec) | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.11.0.buildspec 1.11.1` |
@@ -66,11 +66,7 @@ New Release of non-Reproducible Previous
 | <!-- 20260623062355 --> [paimon-parent](../content/org/apache/paimon/README.md) | [1.3.1](../content/org/apache/paimon/paimon-parent-1.3.1.buildspec) :warning: [:memo:](https://github.com/apache/paimon/issues/6557) | [1.4.2](../content/org/apache/paimon/paimon-parent-1.4.2.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-1.3.1.buildspec 1.4.2` |
 | <!-- 20260619030223 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.25.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.25.0.buildspec) :x: | [2.29.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.29.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.25.0.buildspec 2.29.0` |
 | <!-- 20260603202213 --> [jquery-ui](../content/org/webjars/jquery-ui/README.md) | [1.14.2](../content/org/webjars/jquery-ui/jquery-ui-1.14.2.buildspec) :x: | [1.14.2+1](../content/org/webjars/jquery-ui/jquery-ui-1.14.2+1.buildspec) | `bin/add-new-release.sh content/org/webjars/jquery-ui/jquery-ui-1.14.2.buildspec 1.14.2+1` |
-| <!-- 20260531180545 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | [3.2.0](../content/com/io7m/certusine/com.io7m.certusine-3.2.0.buildspec) :warning: | [4.0.0-beta0004](../content/com/io7m/certusine/com.io7m.certusine-4.0.0-beta0004.buildspec) | `bin/add-new-release.sh content/com/io7m/certusine/com.io7m.certusine-3.2.0.buildspec 4.0.0-beta0004` |
 | <!-- 20260523130339 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.13](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.13.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.13` |
-| <!-- 20260501183711 --> [com.io7m.jbssio](../content/com/io7m/jbssio/README.md) | [3.0.0](../content/com/io7m/jbssio/com.io7m.jbssio-3.0.0.buildspec) :warning: | [4.0.0](../content/com/io7m/jbssio/com.io7m.jbssio-4.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/jbssio/com.io7m.jbssio-3.0.0.buildspec 4.0.0` |
-| <!-- 20260425140851 --> [com.io7m.quarrel](../content/com/io7m/quarrel/README.md) | [1.8.0](../content/com/io7m/quarrel/com.io7m.quarrel-1.8.0.buildspec) :warning: | [1.8.1](../content/com/io7m/quarrel/com.io7m.quarrel-1.8.1.buildspec) | `bin/add-new-release.sh content/com/io7m/quarrel/com.io7m.quarrel-1.8.0.buildspec 1.8.1` |
-| <!-- 20260417195940 --> [com.io7m.xstructural](../content/com/io7m/xstructural/README.md) | [2.0.1](../content/com/io7m/xstructural/com.io7m.xstructural-2.0.1.buildspec) :warning: | [2.1.0](../content/com/io7m/xstructural/com.io7m.xstructural-2.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/xstructural/com.io7m.xstructural-2.0.1.buildspec 2.1.0` |
 | <!-- 20260403090725 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | [9.0.0](../content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec) :x: | [10.0.0](../content/io/github/git-commit-id/git-commit-id-maven-plugin-10.0.0.buildspec) | `bin/add-new-release.sh content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec 10.0.0` |
 | <!-- 20260130221056 --> [parent](../content/org/apache/sis/README.md) | [1.3](../content/org/apache/sis/parent-1.3.buildspec) :warning: [:memo:](https://github.com/apache/sis/pull/36) | [1.6](../content/org/apache/sis/parent-1.6.buildspec) | `bin/add-new-release.sh content/org/apache/sis/parent-1.3.buildspec 1.6` |
 | <!-- 20251022112208 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.107](../content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec) :x: | [2.9.114-1](../content/org/webjars/flexmonster/flexmonster-2.9.114-1.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec 2.9.114-1` |
@@ -83,11 +79,11 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260715132716 --> [eforms-sdk](../content/eu/europa/ted/eforms/eforms-sdk/README.md) | 2.0.0-alpha.2 :warning: |
 | <!-- 20260713011518 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.10.3.0 :warning: |
 | <!-- 20260709212922 --> [convex](../content/world/convex/README.md) | 0.8.8 :warning: |
 | <!-- 20260709051859 --> [orc](../content/org/apache/orc/README.md) | 2.3.0 :warning: |
 | <!-- 20260708170517 --> [font-awesome](../content/org/webjars/font-awesome/README.md) | 7.3.0 :x: |
-| <!-- 20260708100105 --> [quarkus-project](../content/io/quarkus/README.md) | 3.37.2 :warning: |
 | <!-- 20260706112336 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.10 :warning: |
 | <!-- 20260705011431 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 4.5.1.Final :warning: |
 | <!-- 20260703151031 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.20 :warning: |
@@ -117,6 +113,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260605030317 --> [dbunit](../content/org/dbunit/README.md) | 3.2.0 :warning: |
 | <!-- 20260602174153 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.6 :warning: |
 | <!-- 20260601135129 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.5.0 :warning: |
+| <!-- 20260531180545 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | 4.0.0-beta0004 :warning: |
 | <!-- 20260529043339 --> [tycho](../content/org/eclipse/tycho/README.md) | 5.0.3 :warning: |
 | <!-- 20260526092935 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.15.0 :warning: |
 | <!-- 20260526075016 --> [bitcoin-commons](../content/net/osslabz/bitcoin-commons/README.md) | 0.3.0 :warning: |
@@ -132,6 +129,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260508145202 --> [parent](../content/org/phoebus/README.md) | 5.0.5 :warning: |
 | <!-- 20260503153112 --> [com.io7m.wendover](../content/com/io7m/wendover/README.md) | 1.1.1 :warning: |
 | <!-- 20260503111321 --> [dependency-check-parent](../content/org/owasp/dependency-check/README.md) | 12.2.2 :warning: |
+| <!-- 20260501183711 --> [com.io7m.jbssio](../content/com/io7m/jbssio/README.md) | 4.0.0 :warning: |
 | <!-- 20260430195444 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.11 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
 | <!-- 20260428135328 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.17.0 :warning: |
 | <!-- 20260427115930 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.13 :warning: |
@@ -140,8 +138,9 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260426190913 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.6 :warning: |
 | <!-- 20260425195712 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.10 :warning: |
 | <!-- 20260425180713 --> [com.io7m.calino](../content/com/io7m/calino/README.md) | 1.0.0 :warning: |
+| <!-- 20260425140851 --> [com.io7m.quarrel](../content/com/io7m/quarrel/README.md) | 1.8.1 :warning: |
 | <!-- 20260420152020 --> [jakarta.activation-api](../content/jakarta/activation/jakarta.activation-api/README.md) | 2.2.0-M2 :warning: |
-| <!-- 20260415100521 --> [eforms-sdk](../content/eu/europa/ted/eforms/eforms-sdk/README.md) | 2.0.0-alpha.2 :warning: |
+| <!-- 20260417195940 --> [com.io7m.xstructural](../content/com/io7m/xstructural/README.md) | 2.1.0 :warning: |
 | <!-- 20260408223853 --> [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 2.12.4 :warning: |
 | <!-- 20260408152748 --> [mybatis-generator](../content/org/mybatis/generator/README.md) | 2.0.0 :warning: |
 | <!-- 20260404032907 --> [ratis](../content/org/apache/ratis/README.md) | 3.2.2 :warning: |

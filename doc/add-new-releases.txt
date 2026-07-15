@@ -1,5 +1,4 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.4.1-beta-3.buildspec:11.5.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.9.buildspec:1.0.10
-content/org/apache/jackrabbit/oak/jackrabbit-oak-2.2.0.buildspec:2.4.0
+content/io/cucumber/messages/messages-34.0.2.buildspec:34.1.0
+content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.3.buildspec:1.1.4
