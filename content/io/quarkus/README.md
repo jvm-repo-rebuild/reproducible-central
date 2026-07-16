@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1135 modules:</summary>
+<details><summary>This project defines 1147 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -41,6 +41,16 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus.vertx.utils:quarkus-vertx-utils](https://central.sonatype.com/artifact/io.quarkus.vertx.utils/quarkus-vertx-utils/overview)
 * [io.quarkus:benchmarks](https://central.sonatype.com/artifact/io.quarkus/benchmarks/overview)
 * [io.quarkus:io.quarkus.gradle.plugin.parent](https://central.sonatype.com/artifact/io.quarkus/io.quarkus.gradle.plugin.parent/overview)
+* [io.quarkus:quarkus-aesh](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh/overview)
+* [io.quarkus:quarkus-aesh-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-deployment/overview)
+* [io.quarkus:quarkus-aesh-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-dev/overview)
+* [io.quarkus:quarkus-aesh-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-parent/overview)
+* [io.quarkus:quarkus-aesh-ssh](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-ssh/overview)
+* [io.quarkus:quarkus-aesh-ssh-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-ssh-deployment/overview)
+* [io.quarkus:quarkus-aesh-ssh-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-ssh-parent/overview)
+* [io.quarkus:quarkus-aesh-websocket](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-websocket/overview)
+* [io.quarkus:quarkus-aesh-websocket-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-websocket-deployment/overview)
+* [io.quarkus:quarkus-aesh-websocket-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-aesh-websocket-parent/overview)
 * [io.quarkus:quarkus-agroal](https://central.sonatype.com/artifact/io.quarkus/quarkus-agroal/overview)
 * [io.quarkus:quarkus-agroal-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-agroal-deployment/overview)
 * [io.quarkus:quarkus-agroal-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-agroal-dev/overview)
@@ -1065,6 +1075,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-swagger-ui](https://central.sonatype.com/artifact/io.quarkus/quarkus-swagger-ui/overview)
 * [io.quarkus:quarkus-swagger-ui-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-swagger-ui-deployment/overview)
 * [io.quarkus:quarkus-swagger-ui-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-swagger-ui-parent/overview)
+* [io.quarkus:quarkus-test-aesh](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-aesh/overview)
 * [io.quarkus:quarkus-test-amazon-lambda](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-amazon-lambda/overview)
 * [io.quarkus:quarkus-test-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-common/overview)
 * [io.quarkus:quarkus-test-derby](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-derby/overview)
@@ -1086,6 +1097,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-test-security-jwt](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security-jwt/overview)
 * [io.quarkus:quarkus-test-security-oidc](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security-oidc/overview)
 * [io.quarkus:quarkus-test-security-webauthn](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security-webauthn/overview)
+* [io.quarkus:quarkus-test-spring](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-spring/overview)
 * [io.quarkus:quarkus-test-vertx](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-vertx/overview)
 * [io.quarkus:quarkus-tls-registry](https://central.sonatype.com/artifact/io.quarkus/quarkus-tls-registry/overview)
 * [io.quarkus:quarkus-tls-registry-cli](https://central.sonatype.com/artifact/io.quarkus/quarkus-tls-registry-cli/overview)
@@ -1146,14 +1158,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **195 releases** of io.quarkus:quarkus-project:
+rebuilding **196 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 195 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 106, 0 had all their differences removed :recycle:, 106 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 196 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 107, 0 had all their differences removed :recycle:, 107 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.38.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.38.0.CR1/pom) | | | |
+| [3.38.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.38.0.CR1/pom) | [mvn jdk21](quarkus-3.38.0.CR1.buildspec) | [result](quarkus-project-3.38.0.CR1.buildinfo): [2482 :white_check_mark:  3 :warning:](quarkus-project-3.38.0.CR1.buildcompare) | 3 :rotating_light: | 153M |
 | [3.37.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.3/pom) | [mvn jdk21](quarkus-3.37.3.buildspec) | [result](quarkus-project-3.37.3.buildinfo): [2452 :white_check_mark:  3 :warning:](quarkus-project-3.37.3.buildcompare) | 3 :rotating_light: | 152M |
 | [3.37.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.2/pom) | [mvn jdk21](quarkus-3.37.2.buildspec) | [result](quarkus-project-3.37.2.buildinfo): [2453 :white_check_mark:  2 :warning:](quarkus-project-3.37.2.buildcompare) | 2 :rotating_light: | 152M |
 | [3.37.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.1/pom) | [mvn jdk21](quarkus-3.37.1.buildspec) | [result](quarkus-project-3.37.1.buildinfo): [2453 :white_check_mark:  2 :warning:](quarkus-project-3.37.1.buildcompare) | 2 :rotating_light: | 152M |
