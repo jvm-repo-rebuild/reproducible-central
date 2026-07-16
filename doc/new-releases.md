@@ -22,8 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260715091900 --> [messages](../content/io/cucumber/messages/README.md) | [34.0.2](../content/io/cucumber/messages/messages-34.0.2.buildspec) :white_check_mark: | [34.1.0](../content/io/cucumber/messages/messages-34.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/messages/messages-34.0.2.buildspec 34.1.0` |
-| <!-- 20260715023513 --> [webjars-locator-lite](../content/org/webjars/webjars-locator-lite/README.md) | [1.1.3](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.3.buildspec) :white_check_mark: | [1.1.4](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.4.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.3.buildspec 1.1.4` |
+| <!-- 20260716172137 --> [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | [12.2.0](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-12.2.0.buildspec) :white_check_mark: | [13.0.0](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-13.0.0.buildspec) | `bin/add-new-release.sh content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-12.2.0.buildspec 13.0.0` |
+| <!-- 20260716105459 --> [jsign](../content/net/jsign/README.md) | [7.4](../content/net/jsign/jsign-7.4.buildspec) :white_check_mark: | [7.5](../content/net/jsign/jsign-7.5.buildspec) | `bin/add-new-release.sh content/net/jsign/jsign-7.4.buildspec 7.5` |
+| <!-- 20260716094916 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | [0.1.26](../content/com/cognite/units/units-catalog/units-catalog-0.1.26.buildspec) :white_check_mark: | [0.1.27](../content/com/cognite/units/units-catalog/units-catalog-0.1.27.buildspec) | `bin/add-new-release.sh content/com/cognite/units/units-catalog/units-catalog-0.1.26.buildspec 0.1.27` |
+| <!-- 20260715214917 --> [openapi-maven-plugin](../content/io/github/kbuntrock/openapi-maven-plugin/README.md) | [0.0.33](../content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.33.buildspec) :white_check_mark: | [0.0.34](../content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.34.buildspec) | `bin/add-new-release.sh content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.33.buildspec 0.0.34` |
 | <!-- 20260630195218 --> [jline](../content/org/jline/README.md) | [4.3.1](../content/org/jline/jline-4.3.1.buildspec) :white_check_mark: | 4.0.16 4.0.11 4.0.9 4.0.8 4.0.7 4.0.6 4.0.5 4.0.4 4.0.3 4.0.2 3.30.15 3.30.14  | `bin/add-new-release.sh content/org/jline/jline-4.3.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -33,7 +35,6 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20260709051859 --> [:mailbox:](https://lists.apache.org/list?dev@orc.apache.org:lte=1M:VOTE) | [orc](../content/org/apache/orc/README.md) | [2.3.0](../content/org/apache/orc/orc-2.3.0.buildspec) :warning: | [2.3.1](../content/org/apache/orc/orc-2.3.1.buildspec)  | `bin/add-new-release.sh content/org/apache/orc/orc-2.3.0.buildspec 2.3.1 staging` |
 | <!-- 20260602083604 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.feature.analyser](../content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | [2.0.16](../content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.16.buildspec) :white_check_mark: | [2.0.18](../content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.18.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.16.buildspec 2.0.18 staging` |
 | <!-- 20260427075208 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.18.0](../content/org/apache/ignite/ignite-2.18.0.buildspec) :warning: [:memo:](https://github.com/apache/ignite/pull/12982) | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.18.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20260216191002 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | [1.0.11](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.11.buildspec) :white_check_mark: | [1.1.0](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.11.buildspec 1.1.0 staging` |
@@ -48,9 +49,10 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260715094346 --> [quarkus-project](../content/io/quarkus/README.md) | [3.37.2](../content/io/quarkus/quarkus-3.37.2.buildspec) :warning: | [3.38.0.CR1](../content/io/quarkus/quarkus-3.38.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.37.2.buildspec 3.38.0.CR1` |
-| <!-- 20260714161009 --> [clojure](../content/org/clojure/README.md) | [1.13.0-alpha3](../content/org/clojure/clojure-1.13.0-alpha3.buildspec) :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | [1.13.0-alpha4](../content/org/clojure/clojure-1.13.0-alpha4.buildspec) | `bin/add-new-release.sh content/org/clojure/clojure-1.13.0-alpha3.buildspec 1.13.0-alpha4` |
-| <!-- 20260710121448 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.133.0](../content/org/finos/legend/engine/legend-engine-4.133.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.133.0` |
+| <!-- 20260716181142 --> [orc](../content/org/apache/orc/README.md) | [2.3.0](../content/org/apache/orc/orc-2.3.0.buildspec) :warning: | [2.3.1](../content/org/apache/orc/orc-2.3.1.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-2.3.0.buildspec 2.3.1` |
+| <!-- 20260716173529 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | [1.14.0](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/eforms-sdk-analyzer-1.14.0.buildspec) :warning: | [1.15.0](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/eforms-sdk-analyzer-1.15.0.buildspec) | `bin/add-new-release.sh content/eu/europa/ted/eforms/eforms-sdk-analyzer/eforms-sdk-analyzer-1.14.0.buildspec 1.15.0` |
+| <!-- 20260716130751 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | [4.0.1](../content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.1.buildspec) :warning: | [4.1.0](../content/org/mybatis/spring/boot/mybatis-spring-boot-4.1.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.1.buildspec 4.1.0` |
+| <!-- 20260715231837 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.134.0](../content/org/finos/legend/engine/legend-engine-4.134.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.134.0` |
 | <!-- 20260706101801 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.11.0](../content/at/yawk/lz4/lz4-java/lz4-java-1.11.0.buildspec) :warning: | [1.11.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.11.1.buildspec) | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.11.0.buildspec 1.11.1` |
 | <!-- 20260706084731 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.2.2](../content/org/apache/pulsar/pulsar-4.2.2.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/issues/24718) | [5.0.0-M1](../content/org/apache/pulsar/pulsar-5.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.2.2.buildspec 5.0.0-M1` |
 | <!-- 20260704130113 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.3.10](../content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec) :x: | [3.5.7](../content/com/hibegin/zrlog-base/zrlog-base-3.5.7.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec 3.5.7` |
@@ -80,9 +82,10 @@ or maybe Reproducible but we were not able to reproduce...
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20260715132716 --> [eforms-sdk](../content/eu/europa/ted/eforms/eforms-sdk/README.md) | 2.0.0-alpha.2 :warning: |
+| <!-- 20260715094346 --> [quarkus-project](../content/io/quarkus/README.md) | 3.38.0.CR1 :warning: |
+| <!-- 20260714161009 --> [clojure](../content/org/clojure/README.md) | 1.13.0-alpha4 :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) |
 | <!-- 20260713011518 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.10.3.0 :warning: |
 | <!-- 20260709212922 --> [convex](../content/world/convex/README.md) | 0.8.8 :warning: |
-| <!-- 20260709051859 --> [orc](../content/org/apache/orc/README.md) | 2.3.0 :warning: |
 | <!-- 20260708170517 --> [font-awesome](../content/org/webjars/font-awesome/README.md) | 7.3.0 :x: |
 | <!-- 20260706112336 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.10 :warning: |
 | <!-- 20260705011431 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 4.5.1.Final :warning: |
@@ -171,7 +174,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260104100712 --> [com.io7m.seltzer](../content/com/io7m/seltzer/README.md) | 1.3.0 :warning: |
 | <!-- 20251230192514 --> [test.check](../content/org/clojure/test.check/README.md) | 1.1.3 :warning: |
 | <!-- 20251229095723 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 0.1.6 :warning: |
-| <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
 | <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
 | <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | 1.2.5 :x: |
@@ -180,7 +182,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251207221548 --> [commons-text](../content/org/apache/commons/commons-text/README.md) | 1.15.0 :warning: |
 | <!-- 20251130174727 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 4.0.0 :warning: |
 | <!-- 20251128133200 --> [hugegraph](../content/org/apache/hugegraph/README.md) | 1.7.0 :warning: |
-| <!-- 20251128083720 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1.14.0 :warning: |
 | <!-- 20251126094339 --> [dubbo](../content/org/apache/dubbo/README.md) | 3.3.6 :warning: |
 | <!-- 20251123193609 --> [hive](../content/org/apache/hive/README.md) | 4.2.0 :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) |
 | <!-- 20251119204747 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.10.1-0 :warning: |

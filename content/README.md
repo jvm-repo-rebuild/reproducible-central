@@ -296,7 +296,7 @@ Reproducible Builds for Maven Central Repository
 | fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](../content/io/jooby/README.md) | 85 | 33 :white_check_mark: / 52 :warning: |
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 89 | 88 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 194 | 194 :warning: |
+| io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 196 | 196 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
 | io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 241 | 234 :white_check_mark: / 7 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
@@ -322,7 +322,7 @@ Reproducible Builds for Maven Central Repository
 | | [gherkin-utils](../content/io/cucumber/gherkin-utils/README.md) | 13 | 13 :white_check_mark: |
 | | [html-formatter](../content/io/cucumber/html-formatter/README.md) | 30 | 28 :white_check_mark: / 2 :warning: |
 | | [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 20 | 18 :white_check_mark: / 2 :warning: |
-| | [messages](../content/io/cucumber/messages/README.md) | 39 | 39 :white_check_mark: |
+| | [messages](../content/io/cucumber/messages/README.md) | 40 | 40 :white_check_mark: |
 | | [messages-ndjson](../content/io/cucumber/messages-ndjson/README.md) | 10 | 10 :white_check_mark: |
 | | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 16 | 16 :white_check_mark: |
 | | [query](../content/io/cucumber/query/README.md) | 28 | 28 :white_check_mark: |
@@ -399,6 +399,7 @@ Reproducible Builds for Maven Central Repository
 | io.yupiik.fusion | [fusion](../content/io/yupiik/fusion/README.md) | 20 | 20 :white_check_mark: |
 | io.yupiik.maven | [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 11 | 11 :warning: |
 | it.mulders | [mcs](../content/it/mulders/mcs/README.md) | 1 | 1 :warning: |
+| it.mulders.stryker | [pit-dashboard-reporter](../content/it/mulders/stryker/README.md) | 1 | 1 :white_check_mark: |
 | it.mulders.clocky | [clocky](../content/it/mulders/clocky/clocky/README.md) | 1 | 1 :white_check_mark: |
 | jakarta.activation | [jakarta.activation-api](../content/jakarta/activation/jakarta.activation-api/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | jakarta.annotation | [jakarta.annotation-api](../content/jakarta/annotation/jakarta.annotation-api/README.md) | 2 | 2 :white_check_mark: |
@@ -440,7 +441,7 @@ Reproducible Builds for Maven Central Repository
 | nl.hsac | [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 111 | 79 :white_check_mark: / 32 :warning: |
 | | [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | | [hsac-fitnesse-plugin](../content/nl/hsac/hsac-fitnesse-plugin/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
-| org.clojure | [clojure](../content/org/clojure/README.md) | 4 | 4 :warning: |
+| org.clojure | [clojure](../content/org/clojure/README.md) | 5 | 5 :warning: |
 | org.dbunit | [dbunit](../content/org/dbunit/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | org.jdbi.internal | [jdbi3-root](../content/org/jdbi/README.md) | 21 | 11 :white_check_mark: / 10 :warning: |
 | org.jline | [jline](../content/org/jline/README.md) | 44 | 32 :white_check_mark: / 12 :warning: |
@@ -969,7 +970,7 @@ Reproducible Builds for Maven Central Repository
 | | [uswds](../content/org/webjars/uswds/README.md) | 1 | 1 :white_check_mark: |
 | | [webjars-locator](../content/org/webjars/webjars-locator/README.md) | 7 | 7 :white_check_mark: |
 | | [webjars-locator-core](../content/org/webjars/webjars-locator-core/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
-| | [webjars-locator-lite](../content/org/webjars/webjars-locator-lite/README.md) | 12 | 12 :white_check_mark: |
+| | [webjars-locator-lite](../content/org/webjars/webjars-locator-lite/README.md) | 13 | 13 :white_check_mark: |
 | pl.com.labaj | [auto-record](../content/pl/com/labaj/auto-record/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | pl.com.labaj.autorecord | [auto-record](../content/pl/com/labaj/autorecord/auto-record/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | tech.picnic.error-prone-support | [error-prone-support](../content/tech/picnic/error-prone-support/error-prone-support/README.md) | 30 | 29 :white_check_mark: / 1 :warning: |
@@ -987,7 +988,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 28 | 5 :white_check_mark: / 23 :warning: |
-| **Count:** | **973** | **11635** | **8580** :white_check_mark:<br>**3055** :warning: |
+| **Count:** | **974** | **11641** | **8583** :white_check_mark:<br>**3058** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1071,12 +1072,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     152 mvn-3.9.11   8
     115 mvn-3.9.11  11
     262 mvn-3.9.11  17
-    404 mvn-3.9.11  21
+    408 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     110 mvn-3.9.11  25
       2 mvn-3.9.11  26
-     22 mvn-3.9.12   8
+     23 mvn-3.9.12   8
      36 mvn-3.9.12  11
      56 mvn-3.9.12  17
     251 mvn-3.9.12  21
@@ -1093,6 +1094,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.15  17
       4 mvn-3.9.15  21
       5 mvn-3.9.15  25
+      1 mvn-3.9.16  11
       4 mvn-3.9.16  17
       6 mvn-3.9.16  21
      11 mvn-3.9.16  22
