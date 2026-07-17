@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/cognitedata/units-catalog.git](https://github.com/cognitedata/units-catalog.git)
 
-rebuilding **27 releases** of com.cognite.units:units-catalog:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of com.cognite.units:units-catalog:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.1.27](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.27/pom) | | | |
+| [0.1.27](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.27/pom) | [mvn jdk17](units-catalog-0.1.27.buildspec) | [result](units-catalog-0.1.27.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.27.buildcompare) | | 119K |
 | [0.1.26](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.26/pom) | [mvn jdk17](units-catalog-0.1.26.buildspec) | [result](units-catalog-0.1.26.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.26.buildcompare) | | 118K |
 | [0.1.25](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.25/pom) | [mvn jdk17](units-catalog-0.1.25.buildspec) | [result](units-catalog-0.1.25.buildinfo): [1 :white_check_mark:  2 :warning:](units-catalog-0.1.25.buildcompare) | 2 :rotating_light: | 118K |
 | [0.1.24](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.24/pom) | [mvn jdk17](units-catalog-0.1.24.buildspec) | [result](units-catalog-0.1.24.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.24.buildcompare) | | 117K |
