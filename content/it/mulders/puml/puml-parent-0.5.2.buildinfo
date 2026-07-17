@@ -1,0 +1,86 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PlantUML Maven Plugin :: Parent
+group-id=it.mulders.puml
+artifact-id=puml-parent
+version=0.5.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/mthmulders/puml-maven-plugin.git
+source.scm.tag=v0.5.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+mvn.aggregate.artifact-id=plantuml-v1-adapter
+
+# aggregated output
+
+outputs.0.coordinates=it.mulders.puml:puml-parent
+
+outputs.0.0.groupId=it.mulders.puml
+outputs.0.0.filename=puml-parent-0.5.2.pom
+outputs.0.0.length=17390
+outputs.0.0.checksums.sha512=5c294a2ede8cfcb1fcb61e06370773a8bfc9ec59ef0adb2dde78b6fd9f2bc4fa1b60dcdaf1d3cd42ecb31c30ca40238d0eae1ccfd6c73ca14b445b74ca8f4585
+
+outputs.1.coordinates=it.mulders.puml:plantuml-api
+
+outputs.1.0.groupId=it.mulders.puml
+outputs.1.0.filename=plantuml-api-0.5.2.pom
+outputs.1.0.length=1838
+outputs.1.0.checksums.sha512=1a170aedf9fdb7626a7abf9216a3753e8e29065ca1feffa4b8d913cbed23fcd2470c93975eff79d2a131c7c7d50cc25864a1388b9726bbb223bb76c9cdfffc24
+
+outputs.1.1.groupId=it.mulders.puml
+outputs.1.1.filename=plantuml-api-0.5.2.jar
+outputs.1.1.length=8455
+outputs.1.1.checksums.sha512=421d1d3798cd0f47afe0dc28f19620f6f6422b99a8cbb2d51ab61535cc5a13e0966363f3d7861c1961a8d99cf81fea651b98667bb9985fb426be42b80a442d84
+
+outputs.1.2.groupId=it.mulders.puml
+outputs.1.2.filename=plantuml-api-0.5.2-sources.jar
+outputs.1.2.length=5331
+outputs.1.2.checksums.sha512=1898f1c7df71a16f664e8de7392ae217f8713c0c64a72b80cb620a313f412ff74e816e0588f69ad5aa2922d2ed64bd2b5180726a660202284e99524ca9355849
+
+outputs.2.coordinates=it.mulders.puml:plantuml-maven-plugin
+
+outputs.2.0.groupId=it.mulders.puml
+outputs.2.0.filename=plantuml-maven-plugin-0.5.2.pom
+outputs.2.0.length=4465
+outputs.2.0.checksums.sha512=2eeb46a113d295242a3ac57b604fd2ebceb96c9dd79e24b5fd7f52c35f2790021d0225f17548c29fb3fe5af84bca9d6a796aa4c19902e7dc2361f51d4edbdaab
+
+outputs.2.1.groupId=it.mulders.puml
+outputs.2.1.filename=plantuml-maven-plugin-0.5.2.jar
+outputs.2.1.length=12936
+outputs.2.1.checksums.sha512=60fff8b254038f7ef4f40384c5c1e0c7cb2bda88d2cb54ffa72e57829885c926c2d6ea03735b4a81ec8c2fefde3b3e07f940e419508a73d9f73885e8dd98ae62
+
+outputs.2.2.groupId=it.mulders.puml
+outputs.2.2.filename=plantuml-maven-plugin-0.5.2-sources.jar
+outputs.2.2.length=8845
+outputs.2.2.checksums.sha512=129a593485b34a29bde7d1b79f854a503f672889ea99e0e4ed177e5c62b2a17a5d88fccb62674de6558dd51a2f024ba6fb52995915acc828c865991644d4feb9
+
+outputs.3.coordinates=it.mulders.puml:plantuml-v1-adapter
+
+outputs.3.0.groupId=it.mulders.puml
+outputs.3.0.filename=plantuml-v1-adapter-0.5.2.pom
+outputs.3.0.length=2828
+outputs.3.0.checksums.sha512=caa9f334043dd0d3fc48204bb7fa9f579797626cdc75930285134c9bcd586219fe4bf4c16de7ded804f631a8427ec23c18280cd64fb9c2de6ea20888ddb2604e
+
+outputs.3.1.groupId=it.mulders.puml
+outputs.3.1.filename=plantuml-v1-adapter-0.5.2.jar
+outputs.3.1.length=14231
+outputs.3.1.checksums.sha512=28a6784b6d1604c0fd3e28028ced762749277029fe3c22e43ff71898a08e1ba08eb827a40a5949f976c66e4615e4cf210747c09dcb759d8ba18ff6c192fac316
+
+outputs.3.2.groupId=it.mulders.puml
+outputs.3.2.filename=plantuml-v1-adapter-0.5.2-sources.jar
+outputs.3.2.length=8750
+outputs.3.2.checksums.sha512=406989fa3c6833bfedd2a1c964c12dbc9497bbcb074c07df99e1b1350d0411058f2d997f15b8edfc4c8519744f3da49684874a3e0d0fe3eed9e74960c4760d91
