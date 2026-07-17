@@ -1,6 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/cognite/units/units-catalog/units-catalog-0.1.26.buildspec:0.1.27
-content/io/github/kbuntrock/openapi-maven-plugin/openapi-maven-plugin-0.0.33.buildspec:0.0.34
-content/net/jsign/jsign-7.4.buildspec:7.5
-content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-12.2.0.buildspec:13.0.0
+content/com/github/hazendaz/git/github-desktop/github-desktop-3.6.2.buildspec:3.6.3
+content/dev/langchain4j/langchain4j-1.17.2.buildspec:1.18.0
+content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.11.buildspec:1.1.0
+content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.16.buildspec:2.0.18
