@@ -1,0 +1,45 @@
+1 /        1 target/reference/at.yawk.lz4/lz4-java-1.11.1.jar target/lz4-java-1.11.1.jar
+--- target/reference/at.yawk.lz4/lz4-java-1.11.1.jar
++++ target/lz4-java-1.11.1.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 896992 bytes, number of entries: 118
+│ +Zip file size: 897007 bytes, number of entries: 118
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 META-INF/
+│ --rw-r--r--  2.0 unx     1779 b- defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     1856 b- defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 net/jpountz/
+│ @@ -113,8 +113,8 @@
+│  -rw-r--r--  2.0 unx    49618 b- defN 80-Jan-01 00:00 META-INF/maven/at.yawk.lz4/lz4-java/pom.xml
+│  -rw-r--r--  2.0 unx       55 b- defN 80-Jan-01 00:00 META-INF/maven/at.yawk.lz4/lz4-java/pom.properties
+│ -118 files, 1953270 bytes uncompressed, 878566 bytes compressed:  55.0%
+│ +118 files, 1953347 bytes uncompressed, 878581 bytes compressed:  55.0%
+├── META-INF/MANIFEST.MF
+│ @@ -13,22 +13,23 @@
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: LZ4 Java Compression
+│  Bundle-SCM: url="https://github.com/yawkat/lz4-java",connection="https:/
+│   /github.com/yawkat/lz4-java.git",developer-connection="git@github.com:y
+│   awkat/lz4-java.git",tag=HEAD
+│  Bundle-SymbolicName: lz4-java
+│  Bundle-Version: 1.11.1
+│ -Export-Package: net.jpountz.lz4;version:="1.11.1";uses:="net.jpountz.xxh
+│ - ash";version="1.11.1",net.jpountz.util;version:="1.11.1";version="1.11.
+│ +Export-Package: net.jpountz.lz4;version:="1.11.1";version="1.11.1";uses:
+│ + ="net.jpountz.xxhash",net.jpountz.util;version:="1.11.1";version="1.11.
+│   1",net.jpountz.util.darwin.aarch64;version:="1.11.1";version="1.11.1",n
+│   et.jpountz.util.darwin.x86_64;version:="1.11.1";version="1.11.1",net.jp
+│   ountz.util.linux.aarch64;version:="1.11.1";version="1.11.1",net.jpountz
+│   .util.linux.amd64;version:="1.11.1";version="1.11.1",net.jpountz.util.l
+│   inux.i386;version:="1.11.1";version="1.11.1",net.jpountz.util.linux.ppc
+│   64le;version:="1.11.1";version="1.11.1",net.jpountz.util.linux.riscv64;
+│   version:="1.11.1";version="1.11.1",net.jpountz.util.linux.s390x;version
+│   :="1.11.1";version="1.11.1",net.jpountz.util.windows.amd64;version:="1.
+│   11.1";version="1.11.1",net.jpountz.xxhash;version:="1.11.1";version="1.
+│   11.1"
+│  Import-Package: java.io,java.lang,java.lang.reflect,java.nio,java.util,j
+│ - ava.util.concurrent.locks,java.util.zip,sun.misc
+│ + ava.util.concurrent.locks,java.util.zip,net.jpountz.util;version="[1.11
+│ + ,2)",net.jpountz.xxhash;version="[1.11,2)",sun.misc
+
