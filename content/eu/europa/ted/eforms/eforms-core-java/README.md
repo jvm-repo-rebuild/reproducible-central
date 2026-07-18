@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/OP-TED/eforms-core-java.git](https://github.com/OP-TED/eforms-core-java.git)
 
-rebuilding **11 releases** of eu.europa.ted.eforms:eforms-core-java:
+rebuilding **12 releases** of eu.europa.ted.eforms:eforms-core-java:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.7.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.7.0/pom) | [mvn jdk11](eforms-core-java-1.7.0.buildspec) | [result](eforms-core-java-1.7.0.buildinfo): [2 :white_check_mark:  1 :warning:](eforms-core-java-1.7.0.buildcompare) | 1 :rotating_light: | 349K |
 | [1.6.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.6.0/pom) | [mvn jdk11](eforms-core-java-1.6.0.buildspec) | [result](eforms-core-java-1.6.0.buildinfo): [2 :white_check_mark:  1 :warning:](eforms-core-java-1.6.0.buildcompare) [:mag:](eforms-core-java-1.6.0.diffoscope) | 1 :rotating_light: | 347K |
 | [1.5.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.5.0/pom) | [mvn jdk11](eforms-core-java-1.5.0.buildspec) | [result](eforms-core-java-1.5.0.buildinfo): [3 :white_check_mark: ](eforms-core-java-1.5.0.buildcompare) | | 309K |
 | [1.4.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.4.0/pom) | [mvn jdk11](eforms-core-java-1.4.0.buildspec) | [result](eforms-core-java-1.4.0.buildinfo): [3 :white_check_mark: ](eforms-core-java-1.4.0.buildcompare) | | 309K |
