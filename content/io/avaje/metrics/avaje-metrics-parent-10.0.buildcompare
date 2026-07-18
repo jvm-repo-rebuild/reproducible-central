@@ -1,0 +1,15 @@
+version=10.0
+ok=30
+ko=1
+ignored=0
+okFiles="avaje-metrics-parent-10.0.pom avaje-metrics-10.0.pom avaje-metrics-10.0.jar avaje-metrics-10.0-sources.jar avaje-metrics-graphite-10.0.pom avaje-metrics-graphite-10.0.jar avaje-metrics-graphite-10.0-sources.jar avaje-metrics-ebean-10.0.pom avaje-metrics-ebean-10.0.jar avaje-metrics-ebean-10.0-sources.jar avaje-metrics-ebean-insight-10.0.pom avaje-metrics-ebean-insight-10.0.jar avaje-metrics-ebean-insight-10.0-sources.jar avaje-metrics-statsd-10.0.pom avaje-metrics-statsd-10.0.jar avaje-metrics-statsd-10.0-sources.jar avaje-metrics-prometheus-10.0.pom avaje-metrics-prometheus-10.0.jar avaje-metrics-prometheus-10.0-sources.jar avaje-metrics-otel-trace-10.0.pom avaje-metrics-otel-trace-10.0.jar avaje-metrics-otel-trace-10.0-sources.jar avaje-metrics-otel-reporter-10.0.pom avaje-metrics-otel-reporter-10.0.jar avaje-metrics-otel-producer-10.0.pom avaje-metrics-otel-producer-10.0.jar avaje-metrics-otel-producer-10.0-sources.jar avaje-metrics-otel-10.0.pom avaje-metrics-otel-10.0.jar avaje-metrics-otel-10.0-sources.jar"
+koFiles="avaje-metrics-otel-reporter-10.0-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-metrics-otel-reporter-10.0-sources.jar metrics-otel-reporter/target/avaje-metrics-otel-reporter-10.0-sources.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="avaje-metrics-otel-reporter-10.0-sources.jar.stabilized"
+stabilize_ignoredFiles=""
