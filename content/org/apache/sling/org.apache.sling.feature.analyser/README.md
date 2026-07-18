@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-analyser.git](https://github.com/apache/sling-org-apache-sling-feature-analyser.git)
 
-rebuilding **18 releases** of org.apache.sling:org.apache.sling.feature.analyser:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **19 releases** of org.apache.sling:org.apache.sling.feature.analyser:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.18/pom) | | | |
+| [2.0.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.18/pom) | [mvn jdk25](org.apache.sling.feature.analyser-2.0.18.buildspec) | [result](org.apache.sling.feature.analyser-2.0.18.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.18.buildcompare) | | 595K |
 | [2.0.16](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.16/pom) | [mvn jdk21](org.apache.sling.feature.analyser-2.0.16.buildspec) | [result](org.apache.sling.feature.analyser-2.0.16.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.16.buildcompare) | | 595K |
 | [2.0.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.14/pom) | [mvn jdk21](org.apache.sling.feature.analyser-2.0.14.buildspec) | [result](org.apache.sling.feature.analyser-2.0.14.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.14.buildcompare) | | 577K |
 | [2.0.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.12/pom) | [mvn jdk17](org.apache.sling.feature.analyser-2.0.12.buildspec) | [result](org.apache.sling.feature.analyser-2.0.12.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.12.buildcompare) | | 579K |
