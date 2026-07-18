@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/OP-TED/eforms-sdk-analyzer.git](https://github.com/OP-TED/eforms-sdk-analyzer.git)
 
-rebuilding **4 releases** of eu.europa.ted.eforms:eforms-sdk-analyzer:
+rebuilding **5 releases** of eu.europa.ted.eforms:eforms-sdk-analyzer:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.15.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.15.1/pom) | | | |
+| [1.15.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.15.1/pom) | [mvn jdk11](eforms-sdk-analyzer-1.15.1.buildspec) | [result](eforms-sdk-analyzer-1.15.1.buildinfo): [2 :white_check_mark:  2 :warning:](eforms-sdk-analyzer-1.15.1.buildcompare) | 2 :rotating_light: | 42M |
 | [1.15.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.15.0/pom) | [mvn jdk11](eforms-sdk-analyzer-1.15.0.buildspec) | [result](eforms-sdk-analyzer-1.15.0.buildinfo): [2 :white_check_mark:  2 :warning:](eforms-sdk-analyzer-1.15.0.buildcompare) | 2 :rotating_light: | 43M |
 | [1.14.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.14.0/pom) | [mvn jdk11](eforms-sdk-analyzer-1.14.0.buildspec) | [result](eforms-sdk-analyzer-1.14.0.buildinfo): [2 :white_check_mark:  2 :warning:](eforms-sdk-analyzer-1.14.0.buildcompare) | 2 :rotating_light: | 40M |
 | [1.13.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.13.1/pom) | [mvn jdk11](eforms-sdk-analyzer-1.13.1.buildspec) | [result](eforms-sdk-analyzer-1.13.1.buildinfo): [2 :white_check_mark:  2 :warning:](eforms-sdk-analyzer-1.13.1.buildcompare) | - | 39M |
