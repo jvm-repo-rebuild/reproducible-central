@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/mthmulders/mcs.git](https://github.com/mthmulders/mcs.git)
 
-rebuilding **1 releases** of it.mulders:mcs:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of it.mulders:mcs:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.10.2](https://central.sonatype.com/artifact/it.mulders/mcs/0.10.2/pom) | | | |
+| [0.10.2](https://central.sonatype.com/artifact/it.mulders/mcs/0.10.2/pom) | [mvn jdk25](mcs-0.10.2.buildspec) | [result](mcs-0.10.2.buildinfo): [3 :white_check_mark: ](mcs-0.10.2.buildcompare) | | 1.4M |
 | [0.10.1](https://central.sonatype.com/artifact/it.mulders/mcs/0.10.1/pom) | [mvn jdk25](mcs-0.10.1.buildspec) | [result](mcs-0.10.1.buildinfo): [1 :white_check_mark:  2 :warning:](mcs-0.10.1.buildcompare) [:mag:](mcs-0.10.1.diffoscope) [:memo:](https://github.com/mthmulders/mcs/issues/735) | 1 :recycle: 1 :rotating_light: | 1.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
