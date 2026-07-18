@@ -1,0 +1,18 @@
+version=1.2.15
+ok=36
+ko=3
+ignored=0
+okFiles="yupiik-tools-maven-plugin-parent-1.2.15.pom codec-core-1.2.15.pom codec-core-1.2.15.jar codec-core-1.2.15-sources.jar yupiik-tools-common-1.2.15.pom yupiik-tools-common-1.2.15.jar yupiik-tools-common-1.2.15-sources.jar ascii2svg-1.2.15.pom ascii2svg-1.2.15.jar ascii2svg-1.2.15-sources.jar asciidoc-java-1.2.15.pom asciidoc-java-1.2.15.jar asciidoc-java-1.2.15-sources.jar minisite-core-1.2.15.pom minisite-core-1.2.15-sources.jar generic-static-generator-1.2.15.pom generic-static-generator-1.2.15.jar generic-static-generator-1.2.15-sources.jar generic-static-generator-1.2.15-fatjar.jar slides-core-1.2.15.pom slides-core-1.2.15.jar slides-core-1.2.15-sources.jar html-versioning-injector-1.2.15.pom html-versioning-injector-1.2.15.jar html-versioning-injector-1.2.15-sources.jar yupiik-tools-maven-plugin-1.2.15.pom yupiik-tools-maven-plugin-1.2.15.jar yupiik-tools-maven-plugin-1.2.15-sources.jar yupiik-tools-cli-1.2.15.pom yupiik-tools-cli-1.2.15-sources.jar env-manager-1.2.15.pom env-manager-1.2.15.jar env-manager-1.2.15-sources.jar _documentation-1.2.15.pom _documentation-1.2.15.jar _documentation-1.2.15-sources.jar"
+koFiles="minisite-core-1.2.15.jar yupiik-tools-cli-1.2.15.jar yupiik-tools-cli-1.2.15-fatjar.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.yupiik.maven/minisite-core-1.2.15.jar minisite-core/target/minisite-core-1.2.15.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.15.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.15.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.15-fatjar.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.15-fatjar.jar
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="minisite-core-1.2.15.jar.stabilized yupiik-tools-cli-1.2.15.jar.stabilized yupiik-tools-cli-1.2.15-fatjar.jar.stabilized"
+stabilize_ignoredFiles=""
