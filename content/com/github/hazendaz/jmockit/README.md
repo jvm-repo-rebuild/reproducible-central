@@ -19,14 +19,14 @@ Source code: [https://github.com/hazendaz/jmockit1.git](https://github.com/hazen
 * [com.github.hazendaz.jmockit:tutorial](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/tutorial/overview)
 </details>
 
-rebuilding **10 releases** of com.github.hazendaz.jmockit:jmockit-parent:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of com.github.hazendaz.jmockit:jmockit-parent:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.3.0/pom) | | | |
+| [2.3.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.3.0/pom) | [mvn jdk25 w](jmockit-2.3.0.buildspec) | [result](jmockit-parent-2.3.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-2.3.0.buildcompare) | | 27M |
 | [2.2.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.2.0/pom) | [mvn jdk25 w](jmockit-2.2.0.buildspec) | [result](jmockit-parent-2.2.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-2.2.0.buildcompare) | | 27M |
 | [2.1.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.1.0/pom) | [mvn jdk25 w](jmockit-2.1.0.buildspec) | [result](jmockit-parent-2.1.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-2.1.0.buildcompare) | | 29M |
 | [2.0.1](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.0.1/pom) | [mvn jdk25 w](jmockit-2.0.1.buildspec) | [result](jmockit-parent-2.0.1.buildinfo): [48 :white_check_mark: ](jmockit-parent-2.0.1.buildcompare) | | 29M |
