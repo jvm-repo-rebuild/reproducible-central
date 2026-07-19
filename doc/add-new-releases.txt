@@ -1,3 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/hazendaz/jmockit/jmockit-2.2.0.buildspec:2.3.0
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.5.1.buildspec:1.5.3
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.0.buildspec:11.5.1-beta-1
+content/io/cucumber/messages/messages-34.1.0.buildspec:34.2.0
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1-beta-5.buildspec:5.17.1-beta-6

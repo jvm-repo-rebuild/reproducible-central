@@ -20,6 +20,7 @@ rebuilding **189 releases** of fr.inria.gforge.spoon:spoon-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [11.5.1-beta-1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.5.1-beta-1/pom) | | | |
 | [11.5.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.5.0/pom) | [mvn jdk21](spoon-core-11.5.0.buildspec) | [result](spoon-pom-11.5.0.buildinfo): [8 :white_check_mark: ](spoon-pom-11.5.0.buildcompare) | | 18M |
 | [11.4.1-beta-3](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.4.1-beta-3/pom) | [mvn jdk21](spoon-core-11.4.1-beta-3.buildspec) | [result](spoon-pom-11.4.1-beta-3.buildinfo): [8 :white_check_mark: ](spoon-pom-11.4.1-beta-3.buildcompare) | | 18M |
 | [11.4.1-beta-2](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.4.1-beta-2/pom) | [mvn jdk21](spoon-core-11.4.1-beta-2.buildspec) | [result](spoon-pom-11.4.1-beta-2.buildinfo): [8 :white_check_mark: ](spoon-pom-11.4.1-beta-2.buildcompare) | | 18M |

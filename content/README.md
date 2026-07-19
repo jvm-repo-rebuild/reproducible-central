@@ -57,7 +57,7 @@ Reproducible Builds for Maven Central Repository
 | com.github.hazendaz | [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | 27 | 24 :white_check_mark: / 3 :warning: |
 | | [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 20 | 20 :warning: |
 | | [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | 25 | 22 :white_check_mark: / 3 :warning: |
-| | [jmockit](../content/com/github/hazendaz/jmockit/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
+| | [jmockit](../content/com/github/hazendaz/jmockit/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | | [sitemesh](../content/com/github/hazendaz/sitemesh/README.md) | 12 | 12 :white_check_mark: |
 | | [smartsprites](../content/com/github/hazendaz/smartsprites/README.md) | 4 | 4 :white_check_mark: |
 | com.github.hazendaz.git | [github-desktop](../content/com/github/hazendaz/git/github-desktop/README.md) | 57 | 21 :white_check_mark: / 36 :warning: |
@@ -923,7 +923,7 @@ Reproducible Builds for Maven Central Repository
 | org.mybatis.scripting | [mybatis-freemarker](../content/org/mybatis/scripting/mybatis-freemarker/README.md) | 4 | 4 :white_check_mark: |
 | | [mybatis-thymeleaf](../content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | 3 | 3 :white_check_mark: |
 | | [mybatis-velocity](../content/org/mybatis/scripting/mybatis-velocity/README.md) | 4 | 4 :white_check_mark: |
-| org.mybatis.spring.boot | [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 11 | 11 :warning: |
+| org.mybatis.spring.boot | [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 12 | 12 :warning: |
 | org.nlpub | [watset](../content/org/nlpub/watset/README.md) | 14 | 11 :white_check_mark: / 3 :warning: |
 | org.openapitools.openapidiff | [openapi-diff-parent](../content/org/openapitools/openapidiff/README.md) | 21 | 21 :white_check_mark: |
 | org.osgi | [test](../content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
@@ -989,7 +989,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 29 | 5 :white_check_mark: / 24 :warning: |
-| **Count:** | **975** | **11662** | **8595** :white_check_mark:<br>**3067** :warning: |
+| **Count:** | **975** | **11664** | **8596** :white_check_mark:<br>**3068** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1084,7 +1084,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     254 mvn-3.9.12  21
       2 mvn-3.9.12  22
      15 mvn-3.9.12  24
-    112 mvn-3.9.12  25
+    113 mvn-3.9.12  25
       2 mvn-3.9.12  26
       1 mvn-3.9.13  17
       2 mvn-3.9.13  25
@@ -1099,7 +1099,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.16  17
       7 mvn-3.9.16  21
      11 mvn-3.9.16  22
-     32 mvn-3.9.16  25
+     33 mvn-3.9.16  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       9 mvn-3.9.2  21
