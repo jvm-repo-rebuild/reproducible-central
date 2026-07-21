@@ -10,6 +10,9 @@ tool=mvn-3.9.12
 jdk=21
 newline=lf
 umask=022
+# for example in META-INF/DEPENDENCIES of maven-resolver-test-http-$version.jar: Brotli4j (https://github.com/hyperxpro/Brotli4j/natives/native-linux-x86_64) com.aayushatharva.brotli4j:native-linux-x86_64:jar
+os=linux
+arch=x86_64
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
