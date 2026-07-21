@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/google/mug.git](https://github.com/google/mug.git)
 
-<details><summary>This project defines 14 modules:</summary>
+<details><summary>This project defines 15 modules:</summary>
 
+* [com.google.mug:dot-cel](https://central.sonatype.com/artifact/com.google.mug/dot-cel/overview)
 * [com.google.mug:dot-parse](https://central.sonatype.com/artifact/com.google.mug/dot-parse/overview)
 * [com.google.mug:mug](https://central.sonatype.com/artifact/com.google.mug/mug/overview)
 * [com.google.mug:mug-benchmarks](https://central.sonatype.com/artifact/com.google.mug/mug-benchmarks/overview)
@@ -25,13 +26,13 @@ Source code: [https://github.com/google/mug.git](https://github.com/google/mug.g
 * [com.google.mug:mug-spanner](https://central.sonatype.com/artifact/com.google.mug/mug-spanner/overview)
 </details>
 
-rebuilding **15 releases** of com.google.mug:mug-root:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of com.google.mug:mug-root:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [10.7](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.7/pom) | | | |
+| [10.7](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.7/pom) | [mvn jdk24](mug-10.7.buildspec) | [result](mug-root-10.7.buildinfo): [39 :white_check_mark: ](mug-root-10.7.buildcompare) | | 1.4M |
 | [10.6](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.6/pom) | [mvn jdk24](mug-10.6.buildspec) | [result](mug-root-10.6.buildinfo): [36 :white_check_mark: ](mug-root-10.6.buildcompare) | | 1.2M |
 | [10.5.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.5.1/pom) | [mvn jdk24](mug-10.5.1.buildspec) | [result](mug-root-10.5.1.buildinfo): [36 :white_check_mark: ](mug-root-10.5.1.buildcompare) | | 1.2M |
 | [10.5](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.5/pom) | [mvn jdk24](mug-10.5.buildspec) | [result](mug-root-10.5.buildinfo): [36 :white_check_mark: ](mug-root-10.5.buildcompare) | | 1.2M |
