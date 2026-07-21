@@ -21,7 +21,11 @@ rebuilding **11 releases** of org.hibernate.models:hibernate-models:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/2.0.0.Alpha2/pom) | | | |
+| [2.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/2.0.0.Alpha1/pom) | | | |
+| [1.3.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.3.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.2.0/pom) | [gradle jdk25](hibernate-models-1.2.0.buildspec) | [result](hibernate-models-1.2.0.buildinfo): [6 :white_check_mark:  3 :warning:](hibernate-models-1.2.0.buildcompare) [:mag:](hibernate-models-1.2.0.diffoscope) | 3 :rotating_light: | 569K |
+| [1.1.2](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.1.2/pom) | | | |
 | [1.1.1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.1.1/pom) | [gradle jdk25](hibernate-models-1.1.1.buildspec) | [result](hibernate-models-1.1.1.buildinfo): [9 :white_check_mark: ](hibernate-models-1.1.1.buildcompare) | | 566K |
 | [1.1.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.1.0/pom) | [gradle jdk25](hibernate-models-1.1.0.buildspec) | [result](hibernate-models-1.1.0.buildinfo): [9 :white_check_mark: ](hibernate-models-1.1.0.buildcompare) | | 566K |
 | [1.0.1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.1/pom) | [gradle jdk21](hibernate-models-1.0.1.buildspec) | [result](hibernate-models-1.0.1.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.1.buildcompare) | | 553K |

@@ -66,6 +66,7 @@ rebuilding **44 releases** of org.jline:jline:
 | [4.0.3](https://central.sonatype.com/artifact/org.jline/jline/4.0.3/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.jline/jline/4.0.2/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.jline/jline/4.0.0/pom) | [mvn jdk22](jline-4.0.0.buildspec) | [result](jline-parent-4.0.0.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.0.buildcompare) | 41 :recycle: | 8.9M |
+| [3.30.16](https://central.sonatype.com/artifact/org.jline/jline/3.30.16/pom) | | | |
 | [3.30.15](https://central.sonatype.com/artifact/org.jline/jline/3.30.15/pom) | | | |
 | [3.30.14](https://central.sonatype.com/artifact/org.jline/jline/3.30.14/pom) | | | |
 | [3.30.13](https://central.sonatype.com/artifact/org.jline/jline/3.30.13/pom) | [mvn jdk22](jline-3.30.13.buildspec) | [result](jline-parent-3.30.13.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.13.buildcompare) | | 8.2M |
