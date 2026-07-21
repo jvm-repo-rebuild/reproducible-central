@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Velocity
+group-id=org.mybatis.scripting
+artifact-id=mybatis-velocity
+version=2.3.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/velocity-scripting.git
+source.scm.tag=mybatis-velocity-2.3.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.mybatis.scripting
+outputs.0.filename=mybatis-velocity-2.3.2.pom
+outputs.0.length=4280
+outputs.0.checksums.sha512=b06206185f8afc3f5f2e9a43f4afa3d0d6a7fb1c5795198afcce543821262e014c6023d36ba2e13fb5b33df5c5ceb7b4823dc29d421d9440966fba9da685ad4c
+
+outputs.1.groupId=org.mybatis.scripting
+outputs.1.filename=mybatis-velocity-2.3.2.jar
+outputs.1.length=44789
+outputs.1.checksums.sha512=db0a6f742255098b5548110f84a2e62980718a72bdb63389c0530c3fee550ab10e4b86d23ee20302056002b05cc555c9bd961df60e0efbec1ca809d93b944182
+
+outputs.2.groupId=org.mybatis.scripting
+outputs.2.filename=mybatis-velocity-2.3.2-sources.jar
+outputs.2.length=28891
+outputs.2.checksums.sha512=4dc918037d8c6de4fdeaee4007b00ce0aaab2bbaac04b2c3bfab5704e4e8c35b316d55501c25557bc9f2f5a42e97064263a573878a5d3b7ac73ec5047858b737
