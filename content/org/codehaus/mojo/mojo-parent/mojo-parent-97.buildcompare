@@ -1,0 +1,8 @@
+version=97
+ok=4
+ko=0
+ignored=0
+okFiles="mojo-parent-97.pom mojo-parent-97-site.xml mojo-parent-97-config.jar mojo-parent-97-source-release.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
