@@ -171,10 +171,10 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope:syncope-wa](https://central.sonatype.com/artifact/org.apache.syncope/syncope-wa/overview)
 </details>
 
-rebuilding **33 releases** of org.apache.syncope:syncope:
+rebuilding **34 releases** of org.apache.syncope:syncope:
 - **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 23 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 10, 0 had all their differences removed :recycle:, 10 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 24 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 11, 0 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -182,7 +182,7 @@ rebuilding **33 releases** of org.apache.syncope:syncope:
 | [4.1.1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.1.1/pom) | [mvn jdk21](syncope-4.1.1.buildspec) | [result](syncope-4.1.1.buildinfo): [510 :white_check_mark:  1 :warning:](syncope-4.1.1.buildcompare) | 1 :rotating_light: | 479M |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.1.0/pom) | [mvn jdk21](syncope-4.1.0.buildspec) | [result](syncope-4.1.0.buildinfo): [481 :white_check_mark:  30 :warning:](syncope-4.1.0.buildcompare) | 5 :recycle: 1 :rotating_light: 24 :no_entry_sign: | 477M |
 | [4.1.0-M0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.1.0-M0/pom) | [mvn jdk21](syncope-4.1.0-M0.buildspec) | [result](syncope-4.1.0-M0.buildinfo): [510 :white_check_mark:  1 :warning:](syncope-4.1.0-M0.buildcompare) | 1 :rotating_light: | 479M |
-| [4.0.7](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.7/pom) | | | |
+| [4.0.7](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.7/pom) | [mvn jdk21](syncope-4.0.7.buildspec) | [result](syncope-4.0.7.buildinfo): [510 :white_check_mark:  1 :warning:](syncope-4.0.7.buildcompare) | 1 :rotating_light: | 473M |
 | [4.0.6](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.6/pom) | [mvn jdk21](syncope-4.0.6.buildspec) | [result](syncope-4.0.6.buildinfo): [510 :white_check_mark:  1 :warning:](syncope-4.0.6.buildcompare) | 1 :rotating_light: | 472M |
 | [4.0.5](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.5/pom) | [mvn jdk21](syncope-4.0.5.buildspec) | [result](syncope-4.0.5.buildinfo): [510 :white_check_mark:  1 :warning:](syncope-4.0.5.buildcompare) | 1 :rotating_light: | 472M |
 | [4.0.4](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.4/pom) | [mvn jdk21](syncope-4.0.4.buildspec) | [result](syncope-4.0.4.buildinfo): [510 :white_check_mark:  1 :warning:](syncope-4.0.4.buildcompare) | 1 :rotating_light: | 474M |
