@@ -1,0 +1,5 @@
+version=2.0.0.Alpha1
+ok=9
+ko=0
+okFiles="hibernate-models-bytebuddy-2.0.0.Alpha1-sources.jar hibernate-models-bytebuddy-2.0.0.Alpha1.jar hibernate-models-bytebuddy-2.0.0.Alpha1.pom hibernate-models-jandex-2.0.0.Alpha1-sources.jar hibernate-models-jandex-2.0.0.Alpha1.jar hibernate-models-jandex-2.0.0.Alpha1.pom hibernate-models-2.0.0.Alpha1-sources.jar hibernate-models-2.0.0.Alpha1.jar hibernate-models-2.0.0.Alpha1.pom"
+koFiles=""
