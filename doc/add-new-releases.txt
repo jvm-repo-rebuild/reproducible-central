@@ -1,8 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/google/mug/mug-10.6.buildspec:10.7
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.5.3.buildspec:1.5.4
-content/io/takari/takari-archiver/takari-archiver-1.0.9.buildspec:2.0.0
-content/org/apache/maven/resolver/maven-resolver-ant-tasks/maven-resolver-ant-tasks-1.6.0.buildspec:1.6.1
-content/org/eclipse/jkube/jkube-1.19.0.buildspec:1.20.0
-content/org/sentrysoftware/maven/maven-skin-tools/maven-skin-tools-1.8.00.buildspec:1.8.01
+content/io/airlift/airbase/airbase-395.buildspec:396
+content/io/telicent/jena/jena-kafka/jena-kafka-3.0.5.buildspec:3.1.0
+content/org/apache/commons/parent/commons-parent-102.buildspec:103

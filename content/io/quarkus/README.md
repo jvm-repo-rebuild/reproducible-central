@@ -1165,7 +1165,9 @@ rebuilding **196 releases** of io.quarkus:quarkus-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.38.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.38.0/pom) | | | |
 | [3.38.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.38.0.CR1/pom) | [mvn jdk21](quarkus-3.38.0.CR1.buildspec) | [result](quarkus-project-3.38.0.CR1.buildinfo): [2482 :white_check_mark:  3 :warning:](quarkus-project-3.38.0.CR1.buildcompare) | 3 :rotating_light: | 153M |
+| [3.37.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.4/pom) | | | |
 | [3.37.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.3/pom) | [mvn jdk21](quarkus-3.37.3.buildspec) | [result](quarkus-project-3.37.3.buildinfo): [2452 :white_check_mark:  3 :warning:](quarkus-project-3.37.3.buildcompare) | 3 :rotating_light: | 152M |
 | [3.37.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.2/pom) | [mvn jdk21](quarkus-3.37.2.buildspec) | [result](quarkus-project-3.37.2.buildinfo): [2453 :white_check_mark:  2 :warning:](quarkus-project-3.37.2.buildcompare) | 2 :rotating_light: | 152M |
 | [3.37.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.37.1/pom) | [mvn jdk21](quarkus-3.37.1.buildspec) | [result](quarkus-project-3.37.1.buildinfo): [2453 :white_check_mark:  2 :warning:](quarkus-project-3.37.1.buildcompare) | 2 :rotating_light: | 152M |
@@ -1232,6 +1234,7 @@ rebuilding **196 releases** of io.quarkus:quarkus-project:
 | [3.28.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.1/pom) | [mvn jdk21](quarkus-3.28.1.buildspec) | [result](quarkus-project-3.28.1.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.28.1.buildcompare) | 1 :rotating_light: | 134M |
 | [3.28.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.0/pom) | [mvn jdk21](quarkus-3.28.0.buildspec) | [result](quarkus-project-3.28.0.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.28.0.buildcompare) | 1 :rotating_light: | 134M |
 | [3.28.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.0.CR1/pom) | [mvn jdk21](quarkus-3.28.0.CR1.buildspec) | [result](quarkus-project-3.28.0.CR1.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.28.0.CR1.buildcompare) | 1 :rotating_light: | 135M |
+| [3.27.5](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.27.5/pom) | | | |
 | [3.27.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.27.4/pom) | [mvn jdk21](quarkus-3.27.4.buildspec) | [result](quarkus-project-3.27.4.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.27.4.buildcompare) | 1 :rotating_light: | 135M |
 | [3.27.4.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.27.4.1/pom) | [mvn jdk21](quarkus-3.27.4.1.buildspec) | [result](quarkus-project-3.27.4.1.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.27.4.1.buildcompare) | 1 :rotating_light: | 135M |
 | [3.27.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.27.3/pom) | [mvn jdk21](quarkus-3.27.3.buildspec) | [result](quarkus-project-3.27.3.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.27.3.buildcompare) | 1 :rotating_light: | 134M |
