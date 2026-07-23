@@ -3,7 +3,7 @@ group-id=org.hibernate.reactive
 artifact-id=hibernate-reactive-core
 
 build-tool=gradle
-java.version=17
+java.version=25
 os.name=lf
 
 outputs.1.coordinates=org.hibernate.reactive:hibernate-reactive-core
@@ -13,8 +13,8 @@ outputs.1.0.length=695109
 outputs.1.0.checksums.sha512=4ffe6676db2680e98e7c521cd96f7084012f7827b594127820ad21129d55f7a1232a1ba2a80d3183a5a77c0a2da2bda1086f2ddc42645f745db905bd2aba58f8
 
 outputs.1.1.filename=hibernate-reactive-core-4.5.1.Final.jar
-outputs.1.1.length=1402168
-outputs.1.1.checksums.sha512=202307b1bf64b1bef55389962ed3ebd276cb170c861e239b9e41a129af45dfd06295db4c7869c9678ab7c9f6216170cb0dbf998bdc1a8d9c077ea433a0b444f6
+outputs.1.1.length=1402294
+outputs.1.1.checksums.sha512=d35b93694bc0c86aaf3c5955f6e30907b01868c8cc890a4f5a97aa0dd53d5879c8bffcc9ad8f7fb4ab8bb875856dad31e5908ada9ec42d0084d508740e790af8
 
 outputs.1.2.filename=hibernate-reactive-core-4.5.1.Final.pom
 outputs.1.2.length=2807
