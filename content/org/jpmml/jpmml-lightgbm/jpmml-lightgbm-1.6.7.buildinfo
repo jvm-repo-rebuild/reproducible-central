@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-LightGBM
+group-id=org.jpmml
+artifact-id=jpmml-lightgbm
+version=1.6.7
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-lightgbm.git
+source.scm.tag=1.6.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.31
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=pmml-lightgbm-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-lightgbm
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-lightgbm-1.6.7.pom
+outputs.0.0.length=4240
+outputs.0.0.checksums.sha512=e52b5b345960a6243db100771179b8139c5c9d81351859d086dd6a0b067be718447bb127c70938b82d9d61ee069eb27b2159180b05aff97c8c8a435396102a62
+
+outputs.1.coordinates=org.jpmml:pmml-lightgbm
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-lightgbm-1.6.7.pom
+outputs.1.0.length=3001
+outputs.1.0.checksums.sha512=9d839931ace50642c414ae73688e10980d321021273f3b6d0b2be57a8b313978c2d9be498fedc9a252015dc942ce0521bfdb9d8d2edf9d605c3e9f88ee73d31d
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-lightgbm-1.6.7.jar
+outputs.1.1.length=51788
+outputs.1.1.checksums.sha512=203f733cddfcb315a26cc5d3a97f91cddc7a3d85051f6a44fad235cb782d611d4f4619d2696b394693be5b24b9883e19b86d937f4f4170831c2af2f5ad01820a
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-lightgbm-1.6.7-sources.jar
+outputs.1.2.length=32179
+outputs.1.2.checksums.sha512=2fd2744d6363aaeb0fffb1ae1c675e9a22d3a8ec35c30492caf906f1fc05c1b76cd1073ccab275a7cc5bee352be9a0e7cf9d8b66868eb4782b77d213a163d66d
+
+outputs.2.coordinates=org.jpmml:pmml-lightgbm-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-lightgbm-example-1.6.7.pom
+outputs.2.0.length=3263
+outputs.2.0.checksums.sha512=3dc00731c2be49b2913023a9d403a3d15746f0c1aec59ebe6344098f7dbc5543133688551ba74fd51d2e64d3b638f5ebe73fb9c64dcf2d0c716f23aa3fbdacb5
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-lightgbm-example-1.6.7.jar
+outputs.2.1.length=6070
+outputs.2.1.checksums.sha512=8bb1d24d59710d096e6c7464fb15bb570f1b2748803b68344c41b4358796d08021d0ca0ccd03a0fda6882f88d98ff976c4c699fd64809103f0ed3f13ff784fe9
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-lightgbm-example-1.6.7-sources.jar
+outputs.2.2.length=4628
+outputs.2.2.checksums.sha512=8da60e230df6175f23cc13a7470b042579843fe445d38430bbfae30faf52418205031743c4fb627e6e2953e187086c1bb4fd05973ff573a6c65a0e83f7adc294

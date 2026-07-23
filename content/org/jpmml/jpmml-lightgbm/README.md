@@ -14,14 +14,14 @@ Source code: [https://github.com/jpmml/jpmml-lightgbm.git](https://github.com/jp
 * [org.jpmml:pmml-lightgbm-example](https://central.sonatype.com/artifact/org.jpmml/pmml-lightgbm-example/overview)
 </details>
 
-rebuilding **11 releases** of org.jpmml:jpmml-lightgbm:
+rebuilding **12 releases** of org.jpmml:jpmml-lightgbm:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 5 had all their differences removed :recycle:
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 6 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.7/pom) | | | |
+| [1.6.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.7/pom) | [mvn jdk11](jpmml-lightgbm-1.6.7.buildspec) | [result](jpmml-lightgbm-1.6.7.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-lightgbm-1.6.7.buildcompare) | 4 :recycle: | 103K |
 | [1.6.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.6/pom) | [mvn jdk11](jpmml-lightgbm-1.6.6.buildspec) | [result](jpmml-lightgbm-1.6.6.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-lightgbm-1.6.6.buildcompare) | 4 :recycle: | 103K |
 | [1.6.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.5/pom) | [mvn jdk11](jpmml-lightgbm-1.6.5.buildspec) | [result](jpmml-lightgbm-1.6.5.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-lightgbm-1.6.5.buildcompare) | 2 :recycle: | 64K |
 | [1.6.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.4/pom) | [mvn jdk11](jpmml-lightgbm-1.6.4.buildspec) | [result](jpmml-lightgbm-1.6.4.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-lightgbm-1.6.4.buildcompare) | 2 :recycle: | 64K |
