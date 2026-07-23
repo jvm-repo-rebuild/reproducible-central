@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=dbUnit Extension
+group-id=org.dbunit
+artifact-id=dbunit
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/dbunit/dbunit-extension.git
+source.scm.tag=dbunit-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.dbunit
+outputs.0.filename=dbunit-3.3.0.pom
+outputs.0.length=75299
+outputs.0.checksums.sha512=1402c5a76892cbc181906fa4d390f4acb0aefd96a9adf1fc238c03fa62bd9defecdb6b5f556d1d71e80921576e4a4b6b8fa10304fa3311849f9ef84a17188e52
+
+outputs.1.groupId=org.dbunit
+outputs.1.filename=dbunit-3.3.0.jar
+outputs.1.length=669321
+outputs.1.checksums.sha512=a4e7c68eb888338963bb15024e6248691a214ad5e210ace031bf3474511536e6ad74f43dc09dec7796d124a96b22016fa53f8c11c3d5be278a800d488aa5d578
+
+outputs.2.groupId=org.dbunit
+outputs.2.filename=dbunit-3.3.0-sources.jar
+outputs.2.length=623995
+outputs.2.checksums.sha512=ca2825d85311de5cb995b78778004c8ea9e81cf9631701a39123db655370ebffca054bde5089179ea100091c650b7c1fe846deaf2e088a7c4a615decbe6dc8e6
