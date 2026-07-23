@@ -24,6 +24,7 @@ rebuilding **53 releases** of io.micronaut.maven:micronaut-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.0.2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.2/pom) | | | |
 | [5.0.0](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0/pom) | [mvn jdk25](micronaut-maven-plugin-5.0.0.buildspec) | [result](micronaut-maven-plugin-parent-5.0.0.buildinfo): [19 :white_check_mark: ](micronaut-maven-plugin-parent-5.0.0.buildcompare) | | 555K |
 | [5.0.0-RC1](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0-RC1/pom) | [mvn jdk25](micronaut-maven-plugin-5.0.0-RC1.buildspec) | [result](micronaut-maven-plugin-parent-5.0.0-RC1.buildinfo): [19 :white_check_mark: ](micronaut-maven-plugin-parent-5.0.0-RC1.buildcompare) | | 530K |
 | [5.0.0-M3](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/5.0.0-M3/pom) | [mvn jdk25](micronaut-maven-plugin-5.0.0-M3.buildspec) | [result](micronaut-maven-plugin-parent-5.0.0-M3.buildinfo): [19 :white_check_mark: ](micronaut-maven-plugin-parent-5.0.0-M3.buildcompare) | | 525K |

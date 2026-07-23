@@ -1,5 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-395.buildspec:396
-content/io/telicent/jena/jena-kafka/jena-kafka-3.0.5.buildspec:3.1.0
-content/org/apache/commons/parent/commons-parent-102.buildspec:103
+content/ch/qos/logback/logback-1.5.38.buildspec:1.6.0
+content/ch/qos/logback/access/access-2.0.13.buildspec:2.0.14
+content/io/airlift/airbase/airbase-396.buildspec:397
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.4.buildspec:7.34.5
+content/io/cucumber/tag-expressions/tag-expressions-10.0.0.buildspec:11.0.0
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-5.0.0.buildspec:5.0.2
+content/land/oras/oras-java-sdk/oras-java-sdk-0.8.0.buildspec:0.8.1

@@ -24,6 +24,7 @@ rebuilding **107 releases** of com.hibegin:zrlog-base:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.8](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.8/pom) | | | |
 | [3.5.7](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.7/pom) | | | |
 | [3.5.6](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.6/pom) | | | |
 | [3.5.5](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.5/pom) | | | |

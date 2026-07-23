@@ -3,8 +3,8 @@
   <groupId>land.oras</groupId>
   <artifactId>oras-java-sdk</artifactId>
   <versioning>
-    <latest>0.8.0</latest>
-    <release>0.8.0</release>
+    <latest>0.8.1</latest>
+    <release>0.8.1</release>
     <versions>
       <version>0.2.0</version>
       <version>0.2.1</version>
@@ -41,7 +41,8 @@
       <version>0.6.5</version>
       <version>0.7.0</version>
       <version>0.8.0</version>
+      <version>0.8.1</version>
     </versions>
-    <lastUpdated>20260707062357</lastUpdated>
+    <lastUpdated>20260723133140</lastUpdated>
   </versioning>
 </metadata>

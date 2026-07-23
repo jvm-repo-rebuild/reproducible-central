@@ -13,6 +13,7 @@ rebuilding **35 releases** of land.oras:oras-java-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.8.1](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.8.1/pom) | | | |
 | [0.8.0](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.8.0/pom) | [mvn jdk17](oras-java-sdk-0.8.0.buildspec) | [result](oras-java-sdk-0.8.0.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.8.0.buildcompare) | | 612K |
 | [0.7.0](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.7.0/pom) | [mvn jdk17](oras-java-sdk-0.7.0.buildspec) | [result](oras-java-sdk-0.7.0.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.7.0.buildcompare) | | 6.9M |
 | [0.6.5](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.6.5/pom) | [mvn jdk17](oras-java-sdk-0.6.5.buildspec) | [result](oras-java-sdk-0.6.5.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.6.5.buildcompare) | | 6.9M |
