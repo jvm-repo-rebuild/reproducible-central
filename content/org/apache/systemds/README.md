@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.systemds:systemds:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.4.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.4.0/pom) | | | |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.3.0/pom) | [mvn jdk11](systemds-3.3.0.buildspec) | [result](systemds-3.3.0.buildinfo): [4 :white_check_mark:  5 :warning:](systemds-3.3.0.buildcompare) [:mag:](systemds-3.3.0.diffoscope) [:memo:](https://github.com/apache/systemds/pull/2257) | - | 246M |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.2.0/pom) | [mvn jdk11](systemds-3.2.0.buildspec) | [result](systemds-3.2.0.buildinfo): [3 :white_check_mark:  7 :warning:](systemds-3.2.0.buildcompare) | - | 238M |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.1.0/pom) | | | |
