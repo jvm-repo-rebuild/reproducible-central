@@ -29,14 +29,14 @@ Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/niels
 * [nl.basjes.parse.useragent:yauaa-webapp](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-webapp/overview)
 </details>
 
-rebuilding **26 releases** of nl.basjes.parse.useragent:yauaa:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of nl.basjes.parse.useragent:yauaa:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.2.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/8.2.0/pom) | | | |
+| [8.2.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/8.2.0/pom) | [mvn jdk25](yauaa-8.2.0.buildspec) | [result](yauaa-parent-8.2.0.buildinfo): [39 :white_check_mark: ](yauaa-parent-8.2.0.buildcompare) | | 66M |
 | [8.1.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/8.1.1/pom) | [mvn jdk25](yauaa-8.1.1.buildspec) | [result](yauaa-parent-8.1.1.buildinfo): [39 :white_check_mark: ](yauaa-parent-8.1.1.buildcompare) | | 66M |
 | [8.1.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/8.1.0/pom) | [mvn jdk25](yauaa-8.1.0.buildspec) | [result](yauaa-parent-8.1.0.buildinfo): [39 :white_check_mark: ](yauaa-parent-8.1.0.buildcompare) | | 66M |
 | [8.0.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/8.0.0/pom) | [mvn jdk25](yauaa-8.0.0.buildspec) | [result](yauaa-parent-8.0.0.buildinfo): [39 :white_check_mark: ](yauaa-parent-8.0.0.buildcompare) | | 65M |
