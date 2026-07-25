@@ -69,6 +69,7 @@ jobs:
               [ -n "$display" ] || display="$groupId:$artifactId"
               badge="![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/$(dirname $file)/badge.json)"
               echo "- [$display $badge](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md) $version" >> PRcomment.txt
+              echo "  ${gitRepo} `${gitTag}` `${sourceDistribution}`" >> PRcomment.txt
               echo >> PRcomment.txt
               if [[ "$command" == SHELL* ]]
               then
