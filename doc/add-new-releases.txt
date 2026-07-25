@@ -1,7 +1,3 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/liftwizard/liftwizard-2.1.47.buildspec:2.1.48
-content/io/airlift/airbase/airbase-397.buildspec:398
-content/nl/basjes/parse/useragent/yauaa/yauaa-8.1.1.buildspec:8.2.0
-content/org/codehaus/mojo/flatten-maven-plugin/flatten-maven-plugin-1.7.3.buildspec:1.8.0
-content/org/eclipse/ee4j/project/project-2.0.4.buildspec:2.0.5
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.5.buildspec:7.34.6

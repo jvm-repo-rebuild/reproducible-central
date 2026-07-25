@@ -281,7 +281,7 @@ Reproducible Builds for Maven Central Repository
 | | [heimdall](../content/eu/maveniverse/maven/heimdall/README.md) | 4 | 4 :white_check_mark: |
 | | [ipfs](../content/eu/maveniverse/maven/ipfs/README.md) | 9 | 9 :white_check_mark: |
 | | [maven-boms](../content/eu/maveniverse/maven/maven-boms/README.md) | 6 | 6 :white_check_mark: |
-| | [mima](../content/eu/maveniverse/maven/mima/README.md) | 69 | 65 :white_check_mark: / 4 :warning: |
+| | [mima](../content/eu/maveniverse/maven/mima/README.md) | 70 | 66 :white_check_mark: / 4 :warning: |
 | | [mimir](../content/eu/maveniverse/maven/mimir/README.md) | 46 | 45 :white_check_mark: / 1 :warning: |
 | | [nisse](../content/eu/maveniverse/maven/nisse/README.md) | 32 | 32 :white_check_mark: |
 | | [njord](../content/eu/maveniverse/maven/njord/README.md) | 44 | 44 :white_check_mark: |
@@ -295,10 +295,10 @@ Reproducible Builds for Maven Central Repository
 | fr.marcwrobel | [jbanking](../content/fr/marcwrobel/jbanking/README.md) | 3 | 3 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](../content/io/jooby/README.md) | 85 | 33 :white_check_mark: / 52 :warning: |
-| io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 89 | 88 :white_check_mark: / 1 :warning: |
+| io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 90 | 89 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 198 | 198 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
-| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 243 | 236 :white_check_mark: / 7 :warning: |
+| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 244 | 237 :white_check_mark: / 7 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](../content/io/avaje/config/README.md) | 12 | 4 :white_check_mark: / 8 :warning: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
@@ -437,7 +437,7 @@ Reproducible Builds for Maven Central Repository
 | nl.basjes.modbus | [modbus-schema-parent](../content/nl/basjes/modbus/modbus-schema-parent/README.md) | 15 | 15 :white_check_mark: |
 | nl.basjes.modbus.devices | [modbus-devices-parent](../content/nl/basjes/modbus/devices/modbus-devices-parent/README.md) | 12 | 12 :white_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](../content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 4 | 4 :white_check_mark: |
-| nl.basjes.parse.useragent | [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 26 | 21 :white_check_mark: / 5 :warning: |
+| nl.basjes.parse.useragent | [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 27 | 22 :white_check_mark: / 5 :warning: |
 | nl.basjes.sunspec | [sunspec-device-parent](../content/nl/basjes/sunspec/sunspec-device-parent/README.md) | 12 | 12 :white_check_mark: |
 | nl.hsac | [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 111 | 79 :white_check_mark: / 32 :warning: |
 | | [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
@@ -487,7 +487,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.struts | [struts2](../content/org/apache/struts/README.md) | 34 | 15 :white_check_mark: / 19 :warning: |
 | org.apache.synapse | [Apache-Synapse](../content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | [syncope](../content/org/apache/syncope/README.md) | 34 | 10 :white_check_mark: / 24 :warning: |
-| org.apache.systemds | [systemds](../content/org/apache/systemds/README.md) | 3 | 3 :warning: |
+| org.apache.systemds | [systemds](../content/org/apache/systemds/README.md) | 5 | 5 :warning: |
 | org.apache.tika | [tika](../content/org/apache/tika/README.md) | 26 | 26 :warning: |
 | org.apache.wayang | [wayang](../content/org/apache/wayang/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | org.apache.wicket | [wicket](../content/org/apache/wicket/README.md) | 10 | 10 :white_check_mark: |
@@ -798,7 +798,7 @@ Reproducible Builds for Maven Central Repository
 | | [cassandra-maven-plugin](../content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [exec-maven-plugin](../content/org/codehaus/mojo/exec-maven-plugin/README.md) | 12 | 12 :white_check_mark: |
 | | [extra-enforcer-rules](../content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 12 | 12 :white_check_mark: |
-| | [flatten-maven-plugin](../content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 10 | 7 :white_check_mark: / 3 :warning: |
+| | [flatten-maven-plugin](../content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 11 | 8 :white_check_mark: / 3 :warning: |
 | | [jaxb2-maven-plugin](../content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | | [l10n-maven-plugin](../content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
@@ -841,7 +841,7 @@ Reproducible Builds for Maven Central Repository
 | org.eclipse.tycho | [tycho](../content/org/eclipse/tycho/README.md) | 4 | 4 :warning: |
 | org.eclipse.angus | [angus-activation-project](../content/org/eclipse/angus/activation/README.md) | 3 | 3 :warning: |
 | org.eclipse.daanse | [*.pom.parent](../content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/README.md) | 7 | 7 :white_check_mark: |
-| org.eclipse.ee4j | [project](../content/org/eclipse/ee4j/project/README.md) | 8 | 8 :white_check_mark: |
+| org.eclipse.ee4j | [project](../content/org/eclipse/ee4j/project/README.md) | 9 | 9 :white_check_mark: |
 | org.eclipse.jetty | [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 56 | 38 :white_check_mark: / 18 :warning: |
 | org.finos.legend.engine | [legend-engine](../content/org/finos/legend/engine/README.md) | 11 | 11 :warning: |
 | org.fusesource.jansi | [jansi](../content/org/fusesource/jansi/jansi/README.md) | 11 | 6 :white_check_mark: / 5 :warning: |
@@ -989,7 +989,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 29 | 5 :white_check_mark: / 24 :warning: |
-| **Count:** | **975** | **11710** | **8632** :white_check_mark:<br>**3078** :warning: |
+| **Count:** | **975** | **11718** | **8638** :white_check_mark:<br>**3080** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1026,7 +1026,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    899 mvn        21
+    900 mvn        21
      15 mvn        22
      22 mvn        23
      41 mvn        24
@@ -1067,24 +1067,24 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.1  19
       7 mvn-3.9.1  20
     128 mvn-3.9.1  21
-      1 mvn-3.9.1  25
+      2 mvn-3.9.1  25
       5 mvn-3.9.10  17
       1 mvn-3.9.10  21
     152 mvn-3.9.11   8
     115 mvn-3.9.11  11
     264 mvn-3.9.11  17
-    415 mvn-3.9.11  21
+    416 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     111 mvn-3.9.11  25
       2 mvn-3.9.11  26
      23 mvn-3.9.12   8
      37 mvn-3.9.12  11
-     59 mvn-3.9.12  17
+     60 mvn-3.9.12  17
     261 mvn-3.9.12  21
       2 mvn-3.9.12  22
      16 mvn-3.9.12  24
-    116 mvn-3.9.12  25
+    118 mvn-3.9.12  25
       2 mvn-3.9.12  26
       1 mvn-3.9.13  17
       2 mvn-3.9.13  25
@@ -1097,7 +1097,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 mvn-3.9.15  25
       1 mvn-3.9.16  11
       6 mvn-3.9.16  17
-      7 mvn-3.9.16  21
+      8 mvn-3.9.16  21
      11 mvn-3.9.16  22
      39 mvn-3.9.16  25
      36 mvn-3.9.2   8
@@ -1159,7 +1159,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.7  21
       2 mvn-3.9.7  22
      19 mvn-3.9.8   8
-     31 mvn-3.9.8  11
+     32 mvn-3.9.8  11
       5 mvn-3.9.8  16
     260 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
