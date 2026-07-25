@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/systemds.git](https://github.com/apache/systemds.git)
 
-rebuilding **3 releases** of org.apache.systemds:systemds:
+rebuilding **4 releases** of org.apache.systemds:systemds:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.4.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.4.0/pom) | | | |
+| [3.4.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.4.0/pom) | [mvn jdk17](systemds-3.4.0.buildspec) | [result](systemds-3.4.0.buildinfo): [5 :white_check_mark:  4 :warning:](systemds-3.4.0.buildcompare) [:mag:](systemds-3.4.0.diffoscope) | 1 :recycle: 1 :rotating_light: 2 :no_entry_sign: | 353M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.3.0/pom) | [mvn jdk11](systemds-3.3.0.buildspec) | [result](systemds-3.3.0.buildinfo): [4 :white_check_mark:  5 :warning:](systemds-3.3.0.buildcompare) [:mag:](systemds-3.3.0.diffoscope) [:memo:](https://github.com/apache/systemds/pull/2257) | - | 246M |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.2.0/pom) | [mvn jdk11](systemds-3.2.0.buildspec) | [result](systemds-3.2.0.buildinfo): [3 :white_check_mark:  7 :warning:](systemds-3.2.0.buildcompare) | - | 238M |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.systemds/systemds/3.1.0/pom) | | | |
