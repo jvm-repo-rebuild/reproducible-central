@@ -1,0 +1,19 @@
+version=3.4.0
+ok=5
+ko=4
+ignored=0
+okFiles="systemds-3.4.0.pom systemds-3.4.0.jar systemds-3.4.0-ropt.jar systemds-3.4.0-shaded.jar systemds-3.4.0-extra.jar"
+koFiles="systemds-3.4.0-src.tgz systemds-3.4.0-src.zip systemds-3.4.0-bin.tgz systemds-3.4.0-bin.zip"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.systemds/systemds-3.4.0-src.tgz target/systemds-3.4.0-src.tgz
+# diffoscope target/reference/org.apache.systemds/systemds-3.4.0-src.zip target/systemds-3.4.0-src.zip
+# diffoscope target/reference/org.apache.systemds/systemds-3.4.0-bin.tgz target/systemds-3.4.0-bin.tgz
+# diffoscope target/reference/org.apache.systemds/systemds-3.4.0-bin.zip target/systemds-3.4.0-bin.zip
+stabilize_ok=1
+stabilize_ko=1
+stabilize_ignored=2
+stabilize_okFiles="systemds-3.4.0-bin.zip.stabilized"
+stabilize_koFiles="systemds-3.4.0-src.zip.stabilized"
+stabilize_ignoredFiles="systemds-3.4.0-src.tgz systemds-3.4.0-bin.tgz"

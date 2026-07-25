@@ -1,0 +1,72 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache SystemDS
+group-id=org.apache.systemds
+artifact-id=systemds
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git/systemds
+source.scm.tag=3.4.0-rc2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.systemds
+outputs.0.filename=systemds-3.4.0.pom
+outputs.0.length=52506
+outputs.0.checksums.sha512=50d422f9b2d21533d7004f65517422473722bc295b5e27ae5386b2c268004adf7aa037f5f24eb5c16c139d674551a8dcf718f32785e8c0e670abc0c4681d0093
+
+outputs.1.groupId=org.apache.systemds
+outputs.1.filename=systemds-3.4.0.jar
+outputs.1.length=9797722
+outputs.1.checksums.sha512=cffc67a87956b838f2dfb651e0eef86e3c3726b0a6c75beba615bb44e06718acfeab35f8b580a044e6f8c2a01383ace04ae961dbeef87fd699de8ee0f71ccff3
+
+outputs.2.groupId=org.apache.systemds
+outputs.2.filename=systemds-3.4.0-ropt.jar
+outputs.2.length=9268810
+outputs.2.checksums.sha512=986c4801e04df499cbe673a0f4cd2dc0dc68059fad6a731682206f11d1208d3ce848bbc1a7d99c2b48c589e152de0bfe5f08158daa65f39f2af80b01c3dc2ac4
+
+outputs.3.groupId=org.apache.systemds
+outputs.3.filename=systemds-3.4.0-shaded.jar
+outputs.3.length=9797722
+outputs.3.checksums.sha512=cffc67a87956b838f2dfb651e0eef86e3c3726b0a6c75beba615bb44e06718acfeab35f8b580a044e6f8c2a01383ace04ae961dbeef87fd699de8ee0f71ccff3
+
+outputs.4.groupId=org.apache.systemds
+outputs.4.filename=systemds-3.4.0-src.tgz
+outputs.4.length=28573394
+outputs.4.checksums.sha512=ca27d4c7fb924176c0fa2950e4c7d63796b1e05266962f8a1e5b44da12629568046f9aab46b640dba8b41b0e726a77a96b856e090f3ed71ec0e1dace4f767ee9
+
+outputs.5.groupId=org.apache.systemds
+outputs.5.filename=systemds-3.4.0-src.zip
+outputs.5.length=35618515
+outputs.5.checksums.sha512=ee7ba2e39ff05cb688e136c98f463118903964476e4c8b793fb17034cfec84105e2c1a036024e1a51c40a96f11f1a1b5190fec38cb92706c017ee8020c482f41
+
+outputs.6.groupId=org.apache.systemds
+outputs.6.filename=systemds-3.4.0-extra.jar
+outputs.6.length=20283929
+outputs.6.checksums.sha512=546e6629567d75d7532e55a2eaadff7ad890b33471868b77dc92cdb75632e475960627c67b932588453b28e386a14209c6d4f9ad61063b99d2671101400acf8a
+
+outputs.7.groupId=org.apache.systemds
+outputs.7.filename=systemds-3.4.0-bin.tgz
+outputs.7.length=128007107
+outputs.7.checksums.sha512=a6be820db4a993e50f41a6c1ee2787bc6d69e2cc35380f9d59108e6680ed132d69a22db60ef68fee38346851b5c66f102ed4873e071efd76c95c4e3e51588f1e
+
+outputs.8.groupId=org.apache.systemds
+outputs.8.filename=systemds-3.4.0-bin.zip
+outputs.8.length=128420205
+outputs.8.checksums.sha512=54c92d490904dc379f1cb336a6a792c76924f9a0477348d6080de0fc81b1936cfe288f009090a1b1e57523f13fb9dffbc124f65d4deb21ee8b3feb5bdfa67b0f
