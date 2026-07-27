@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Toolchains Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-toolchains-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-toolchains-plugin.git
+source.scm.tag=maven-toolchains-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-toolchains-plugin-3.3.0.pom
+outputs.0.length=5107
+outputs.0.checksums.sha512=0c2fbd448cf07dbff527b93dfcf9067ea1b214111b16074f87a958c4c082baf032414200fd06a61e0d3291989fbee8d37c7d646bae842970e8d6c869fae213bf
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-toolchains-plugin-3.3.0.jar
+outputs.1.length=47034
+outputs.1.checksums.sha512=73e1feebc1567b7c52b49d5ddc923d03b53f2061f2e01479f43d08a4f63e5457d04b46cf3028ea8a50f24e9837bcabbdbb8c9757e746f0c23a493d932c8d05a5
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-toolchains-plugin-3.3.0-source-release.zip
+outputs.2.length=83196
+outputs.2.checksums.sha512=5c37ac85222af4302bc18ced4bd2041bb85e9b0acf8068f0aab4ad13fa184314c03e79f228f129c8782d8d13804114cd1a895be09e222f91301939f4f889df68
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-toolchains-plugin-3.3.0-sources.jar
+outputs.3.length=29499
+outputs.3.checksums.sha512=288acf29747ea0ce9b9e28646bccc62b26758731a3e482f3cd2b0c95ba1bc5c31a52508573e234930fae1cc0d1322188f85054427184fb4b8c44482495eaa1d7
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-toolchains-plugin-3.3.0-cyclonedx.xml
+outputs.4.length=96778
+outputs.4.checksums.sha512=cbbe1cde3e97fedabf85a7ca3b0931e25608e11409f3f8e752c926ab77903d08dc34fa22c7737313eea5cd0d59ea0dc2da43cd5dbdc428a645f7cc18b547b38b
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-toolchains-plugin-3.3.0-cyclonedx.json
+outputs.5.length=105163
+outputs.5.checksums.sha512=adde7eb97aa491c830f31683d96fbcb8ce2c71b3694e85aa536dada5ac9e0519991be0ff7403c2353e06c4c5206256dbb757c23d3dd2420cbf2580f052228841
