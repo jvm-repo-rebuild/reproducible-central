@@ -45,6 +45,7 @@ jobs:
               . $file
               [ -n "$display" ] || display="$groupId:$artifactId"
               echo "- \`$file\` [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md)" >> PRcomment.txt
+              echo "  ${gitRepo} \`${gitTag}\` \`${sourceDistribution}\`" >> PRcomment.txt
               echo '```' >> PRcomment.txt
               cat $file >> PRcomment.txt
               echo '```' >> PRcomment.txt
