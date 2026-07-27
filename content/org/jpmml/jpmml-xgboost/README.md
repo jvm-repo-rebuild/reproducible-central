@@ -14,14 +14,14 @@ Source code: [https://github.com/jpmml/jpmml-xgboost.git](https://github.com/jpm
 * [org.jpmml:pmml-xgboost-example](https://central.sonatype.com/artifact/org.jpmml/pmml-xgboost-example/overview)
 </details>
 
-rebuilding **14 releases** of org.jpmml:jpmml-xgboost:
+rebuilding **15 releases** of org.jpmml:jpmml-xgboost:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 12, 11 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 13, 12 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.9.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.9/pom) | | | |
+| [1.9.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.9/pom) | [mvn jdk11](jpmml-xgboost-1.9.9.buildspec) | [result](jpmml-xgboost-1.9.9.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-xgboost-1.9.9.buildcompare) | 4 :recycle: | 166K |
 | [1.9.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.8/pom) | [mvn jdk11](jpmml-xgboost-1.9.8.buildspec) | [result](jpmml-xgboost-1.9.8.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-xgboost-1.9.8.buildcompare) | 4 :recycle: | 165K |
 | [1.9.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.7/pom) | [mvn jdk11](jpmml-xgboost-1.9.7.buildspec) | [result](jpmml-xgboost-1.9.7.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-xgboost-1.9.7.buildcompare) | 4 :recycle: | 158K |
 | [1.9.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.6/pom) | [mvn jdk11](jpmml-xgboost-1.9.6.buildspec) | [result](jpmml-xgboost-1.9.6.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-xgboost-1.9.6.buildcompare) | 4 :recycle: | 154K |
