@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=maven-lockfile-plugin
+group-id=io.github.chains-project
+artifact-id=maven-lockfile
+version=5.17.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/chains-project/maven-lockfile
+source.scm.tag=v5.17.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=io.github.chains-project
+outputs.0.filename=maven-lockfile-5.17.1.pom
+outputs.0.length=16317
+outputs.0.checksums.sha512=a7af9e132ac2798e8e1f1837472748f9ccc7846f816cd1efbcbcfd30f7cc7a7383a43cc15ca99e09806f1600c7e5ec733592be62c4f0180e34e611cdddef0153
+
+outputs.1.groupId=io.github.chains-project
+outputs.1.filename=maven-lockfile-5.17.1.jar
+outputs.1.length=134718
+outputs.1.checksums.sha512=8c6e5791f65492df1833a528bcbf63b1fe2cf59e9fd169e07a8dcc5dcba199cbd4fa8783b964700200d0e5c027a07b8b59fa69ad8755c1dc89b0c98f2e4c12ea
+
+outputs.2.groupId=io.github.chains-project
+outputs.2.filename=maven-lockfile-5.17.1-cyclonedx.xml
+outputs.2.length=190064
+outputs.2.checksums.sha512=50a3b4da56ab781dff776492afd69bee886c2566eca29c5bff009d7941315916ea396d51ef1c0f44409be7765efa680e5b1081c6ec1f66729a287d087864d613
+
+outputs.3.groupId=io.github.chains-project
+outputs.3.filename=maven-lockfile-5.17.1-cyclonedx.json
+outputs.3.length=207523
+outputs.3.checksums.sha512=1ac7f2c7c5b7754b0035809a86038b73f04c507571e55f17e0e9e25eac0c40a2731a35a638a387013e4645c31c8e36fe8aefd87e681a79c7c1e769ad17efbe4e
+
+outputs.4.groupId=io.github.chains-project
+outputs.4.filename=maven-lockfile-5.17.1-sources.jar
+outputs.4.length=62411
+outputs.4.checksums.sha512=68bca485e9e5dda95cf808071f3da50008ac202a05b59b5784d4c2e5ab0875bebac40976b66123eac696634636cb7d4d5a6a6e896de09ab2cfb9fbee67e139a9
+
+outputs.5.groupId=io.github.chains-project
+outputs.5.filename=maven-lockfile-5.17.1-tests.jar
+outputs.5.length=61199
+outputs.5.checksums.sha512=07a723b925142f77b8831f9eff5c14a5b217d5823a7bbefa25cf9d0279e2244e8e1cedf15901ca20fd380ab5ec5513f3680587a74fb02c1ce388b6dc045dc380
