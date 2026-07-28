@@ -1,0 +1,23 @@
+# is there a version range somewhere in the dependency tree?
+1 / 1 target/reference/org.apache.activemq/activemq-karaf-itest-6.3.0.jar activemq-karaf-itest/target/activemq-karaf-itest-6.3.0.jar
+--- target/reference/org.apache.activemq/activemq-karaf-itest-6.3.0.jar
++++ activemq-karaf-itest/target/activemq-karaf-itest-6.3.0.jar
+├── META-INF/maven/dependencies.properties
+│ @@ -920,15 +920,15 @@
+│  org.ops4j.pax.swissbox/pax-swissbox-tracker/extension = jar
+│  
+│  org.ops4j.pax.tinybundles/tinybundles/version = 4.0.0
+│  org.ops4j.pax.tinybundles/tinybundles/type = jar
+│  org.ops4j.pax.tinybundles/tinybundles/scope = test
+│  org.ops4j.pax.tinybundles/tinybundles/extension = jar
+│  
+│ -org.ops4j.pax.url/pax-url-aether/version = 2.7.0
+│ +org.ops4j.pax.url/pax-url-aether/version = 2.7.1
+│  org.ops4j.pax.url/pax-url-aether/type = jar
+│  org.ops4j.pax.url/pax-url-aether/scope = test
+│  org.ops4j.pax.url/pax-url-aether/extension = jar
+│  
+│  org.osgi/org.osgi.compendium/version = 5.0.0
+│  org.osgi/org.osgi.compendium/type = jar
+│  org.osgi/org.osgi.compendium/scope = test
+
