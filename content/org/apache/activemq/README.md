@@ -66,7 +66,7 @@ rebuilding **50 releases** of org.apache.activemq:activemq-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.3.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.3.0/pom) | [mvn jdk25](activemq-6.3.0.buildspec) | [result](activemq-parent-6.3.0.buildinfo): [134 :white_check_mark:  1 :warning:](activemq-parent-6.3.0.buildcompare) | 1 :rotating_light: | 239M |
+| [6.3.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.3.0/pom) | [mvn jdk25](activemq-6.3.0.buildspec) | [result](activemq-parent-6.3.0.buildinfo): [134 :white_check_mark:  1 :warning:](activemq-parent-6.3.0.buildcompare) [:mag:](activemq-parent-6.3.0.diffoscope) | 1 :rotating_light: | 239M |
 | [6.2.8](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.8/pom) | | | |
 | [6.2.7](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.7/pom) | [mvn jdk17](activemq-6.2.7.buildspec) | [result](activemq-parent-6.2.7.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.7.buildcompare) | | 221M |
 | [6.2.6](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.6/pom) | [mvn jdk17](activemq-6.2.6.buildspec) | [result](activemq-parent-6.2.6.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.6.buildcompare) | | 220M |
