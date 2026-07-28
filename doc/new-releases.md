@@ -22,12 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260727170322 --> [sisu-inject](../content/org/eclipse/sisu/README.md) | [1.0.1](../content/org/eclipse/sisu/sisu-1.0.1.buildspec) :white_check_mark: | [1.1.0](../content/org/eclipse/sisu/sisu-1.1.0.buildspec) | `bin/add-new-release.sh content/org/eclipse/sisu/sisu-1.0.1.buildspec 1.1.0` |
-| <!-- 20260727162125 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.18.0](../content/dev/langchain4j/langchain4j-1.18.0.buildspec) :white_check_mark: | 1.11.9 1.5.2  | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.18.0.buildspec ...` |
-| <!-- 20260727155308 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.2.7](../content/org/apache/activemq/activemq-6.2.7.buildspec) :white_check_mark: | [6.3.0](../content/org/apache/activemq/activemq-6.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.2.7.buildspec 6.3.0` |
-| <!-- 20260727155308 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.2.7](../content/org/apache/activemq/activemq-6.2.7.buildspec) :white_check_mark: | 6.2.8 5.19.9  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.2.7.buildspec ...` |
-| <!-- 20260727091355 --> [query](../content/io/cucumber/query/README.md) | [16.0.1](../content/io/cucumber/query/query-16.0.1.buildspec) :white_check_mark: | [16.1.0](../content/io/cucumber/query/query-16.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/query/query-16.0.1.buildspec 16.1.0` |
-| <!-- 20260727070323 --> [airbase](../content/io/airlift/airbase/README.md) | [398](../content/io/airlift/airbase/airbase-398.buildspec) :white_check_mark: | [399](../content/io/airlift/airbase/airbase-399.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-398.buildspec 399` |
+| <!-- 20260728161542 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.17.1](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1.buildspec) :white_check_mark: | [5.17.3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.3.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1.buildspec 5.17.3` |
+| <!-- 20260728161542 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.17.1](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1.buildspec) :white_check_mark: | 5.17.2  | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1.buildspec ...` |
+| <!-- 20260728093124 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.6.0](../content/ch/qos/logback/logback-1.6.0.buildspec) :white_check_mark: | [1.6.1](../content/ch/qos/logback/logback-1.6.1.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.6.0.buildspec 1.6.1` |
+| <!-- 20260727162125 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.18.0](../content/dev/langchain4j/langchain4j-1.18.0.buildspec) :white_check_mark: | 1.11.9  | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.18.0.buildspec ...` |
 | <!-- 20260721152122 --> [jline](../content/org/jline/README.md) | [4.3.1](../content/org/jline/jline-4.3.1.buildspec) :white_check_mark: | 4.0.16 4.0.11 4.0.9 4.0.8 4.0.7 4.0.6 4.0.5 4.0.4 4.0.3 4.0.2 3.30.16 3.30.15 3.30.14  | `bin/add-new-release.sh content/org/jline/jline-4.3.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -53,6 +51,8 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260728175734 --> [clojure](../content/org/clojure/README.md) | [1.13.0-alpha5](../content/org/clojure/clojure-1.13.0-alpha5.buildspec) :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | [1.13.0-alpha6](../content/org/clojure/clojure-1.13.0-alpha6.buildspec) | `bin/add-new-release.sh content/org/clojure/clojure-1.13.0-alpha5.buildspec 1.13.0-alpha6` |
+| <!-- 20260728085422 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | [4.6.0](../content/org/itsallcode/openfasttrace/openfasttrace-4.6.0.buildspec) :warning: | [4.7.0](../content/org/itsallcode/openfasttrace/openfasttrace-4.7.0.buildspec) | `bin/add-new-release.sh content/org/itsallcode/openfasttrace/openfasttrace-4.6.0.buildspec 4.7.0` |
 | <!-- 20260724155732 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.136.0](../content/org/finos/legend/engine/legend-engine-4.136.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.136.0` |
 | <!-- 20260723112525 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.3.10](../content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec) :x: | [3.5.8](../content/com/hibegin/zrlog-base/zrlog-base-3.5.8.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec 3.5.8` |
 | <!-- 20260722225426 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.25.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.25.0.buildspec) :x: | [2.30.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.25.0.buildspec 2.30.0` |
@@ -81,16 +81,15 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260727155308 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.3.0 :warning: |
 | <!-- 20260726182134 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.9 :warning: |
 | <!-- 20260725115725 --> [convex](../content/world/convex/README.md) | 0.8.10 :warning: |
 | <!-- 20260724154657 --> [systemds](../content/org/apache/systemds/README.md) | 3.4.0 :warning: |
 | <!-- 20260724091534 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.21 :warning: |
 | <!-- 20260723074209 --> [quarkus-project](../content/io/quarkus/README.md) | 3.38.0 :warning: |
 | <!-- 20260722185534 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.7 :warning: |
-| <!-- 20260721191118 --> [clojure](../content/org/clojure/README.md) | 1.13.0-alpha5 :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) |
 | <!-- 20260720130152 --> [eforms-sdk](../content/eu/europa/ted/eforms/eforms-sdk/README.md) | 2.0.0-alpha.2 :warning: |
 | <!-- 20260720084710 --> [syncope](../content/org/apache/syncope/README.md) | 4.1.2 :warning: |
-| <!-- 20260719102320 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.6.0 :warning: |
 | <!-- 20260717160839 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.15 :warning: |
 | <!-- 20260717105919 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1.15.1 :warning: |
 | <!-- 20260717090335 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.7 :warning: |
