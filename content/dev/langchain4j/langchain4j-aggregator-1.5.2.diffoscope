@@ -1,0 +1,222 @@
+1 / 8 target/reference/dev.langchain4j/langchain4j-core-1.5.2-sources.jar langchain4j-core/target/langchain4j-core-1.5.2-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-core-1.5.2-sources.jar
++++ langchain4j-core/target/langchain4j-core-1.5.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 234289 bytes, number of entries: 324
+│ +Zip file size: 234155 bytes, number of entries: 323
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│ @@ -38,15 +38,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/rag/content/injector/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/rag/content/retriever/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/rag/listener/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/rag/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/rag/query/router/
+│ @@ -319,8 +318,8 @@
+│  -rw-r--r--  2.0 unx     2380 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-core/pom.xml
+│  -rw-r--r--  2.0 unx       69 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-core/pom.properties
+│ -324 files, 704436 bytes uncompressed, 178261 bytes compressed:  74.7%
+│ +323 files, 704436 bytes uncompressed, 178261 bytes compressed:  74.7%
+
+2 / 8 target/reference/dev.langchain4j/langchain4j-core-1.5.2-test-sources.jar langchain4j-core/target/langchain4j-core-1.5.2-test-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-core-1.5.2-test-sources.jar
++++ langchain4j-core/target/langchain4j-core-1.5.2-test-sources.jar
+├── zipinfo {}
+│ @@ -1,35 +1,32 @@
+│ -Zip file size: 155802 bytes, number of entries: 206
+│ +Zip file size: 154986 bytes, number of entries: 200
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/agent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/agent/tool/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/classinstance/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/audio/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/document/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/document/loader/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/document/parser/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/embedding/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/message/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/data/segment/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/guardrail/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/audio/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/chat/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/chat/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/chat/mock/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/chat/request/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/chat/response/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/embedding/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/embedding/mock/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/input/
+│ @@ -50,17 +47,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/test/guardrail/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/
+│ @@ -201,8 +195,8 @@
+│  -rw-r--r--  2.0 unx     2380 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-core/pom.xml
+│  -rw-r--r--  2.0 unx       69 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-core/pom.properties
+│ -206 files, 722186 bytes uncompressed, 120164 bytes compressed:  83.4%
+│ +200 files, 722186 bytes uncompressed, 120164 bytes compressed:  83.4%
+
+3 / 8 target/reference/dev.langchain4j/langchain4j-test-1.5.2-beta11-sources.jar langchain4j-test/target/langchain4j-test-1.5.2-beta11-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-test-1.5.2-beta11-sources.jar
++++ langchain4j-test/target/langchain4j-test-1.5.2-beta11-sources.jar
+├── zipinfo {}
+│ @@ -1,20 +1,17 @@
+│ -Zip file size: 6440 bytes, number of entries: 18
+│ +Zip file size: 6074 bytes, number of entries: 15
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/test/guardrail/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-test/
+│  -rw-r--r--  2.0 unx     1253 b- defN 24-Apr-29 09:19 dev/langchain4j/test/guardrail/GuardrailAssertions.java
+│  -rw-r--r--  2.0 unx     6640 b- defN 24-Apr-29 09:19 dev/langchain4j/test/guardrail/GuardrailResultAssert.java
+│  -rw-r--r--  2.0 unx      849 b- defN 24-Apr-29 09:19 dev/langchain4j/test/guardrail/InputGuardrailResultAssert.java
+│  -rw-r--r--  2.0 unx     2240 b- defN 24-Apr-29 09:19 dev/langchain4j/test/guardrail/OutputGuardrailResultAssert.java
+│  -rw-r--r--  2.0 unx     1796 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-test/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-test/pom.properties
+│ -18 files, 12918 bytes uncompressed, 3814 bytes compressed:  70.5%
+│ +15 files, 12918 bytes uncompressed, 3814 bytes compressed:  70.5%
+
+4 / 8 target/reference/dev.langchain4j/langchain4j-http-client-1.5.2-sources.jar langchain4j-http-client/target/langchain4j-http-client-1.5.2-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-http-client-1.5.2-sources.jar
++++ langchain4j-http-client/target/langchain4j-http-client-1.5.2-sources.jar
+├── zipinfo {}
+│ @@ -1,16 +1,15 @@
+│ -Zip file size: 12036 bytes, number of entries: 29
+│ +Zip file size: 11890 bytes, number of entries: 28
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/client/log/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/client/ndjson/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/client/sse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/
+│ @@ -24,8 +23,8 @@
+│  -rw-r--r--  2.0 unx     1812 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-http-client/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-http-client/pom.properties
+│ -29 files, 24814 bytes uncompressed, 7330 bytes compressed:  70.5%
+│ +28 files, 24814 bytes uncompressed, 7330 bytes compressed:  70.5%
+
+5 / 8 target/reference/dev.langchain4j/langchain4j-http-client-jdk-1.5.2-sources.jar http-clients/langchain4j-http-client-jdk/target/langchain4j-http-client-jdk-1.5.2-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-http-client-jdk-1.5.2-sources.jar
++++ http-clients/langchain4j-http-client-jdk/target/langchain4j-http-client-jdk-1.5.2-sources.jar
+├── zipinfo {}
+│ @@ -1,22 +1,19 @@
+│ -Zip file size: 5551 bytes, number of entries: 20
+│ +Zip file size: 5185 bytes, number of entries: 17
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/http/client/jdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-http-client-jdk/
+│  -rw-r--r--  2.0 unx     5859 b- defN 24-Apr-29 09:19 dev/langchain4j/http/client/jdk/JdkHttpClient.java
+│  -rw-r--r--  2.0 unx     1251 b- defN 24-Apr-29 09:19 dev/langchain4j/http/client/jdk/JdkHttpClientBuilder.java
+│  -rw-r--r--  2.0 unx      300 b- defN 24-Apr-29 09:19 dev/langchain4j/http/client/jdk/JdkHttpClientBuilderFactory.java
+│  -rw-r--r--  2.0 unx       61 b- defN 24-Apr-29 09:19 META-INF/services/dev.langchain4j.http.client.HttpClientBuilderFactory
+│  -rw-r--r--  2.0 unx     1887 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-http-client-jdk/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-http-client-jdk/pom.properties
+│ -20 files, 9502 bytes uncompressed, 2605 bytes compressed:  72.6%
+│ +17 files, 9502 bytes uncompressed, 2605 bytes compressed:  72.6%
+
+6 / 8 target/reference/dev.langchain4j/langchain4j-open-ai-official-1.5.2-beta11-sources.jar langchain4j-open-ai-official/target/langchain4j-open-ai-official-1.5.2-beta11-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-open-ai-official-1.5.2-beta11-sources.jar
++++ langchain4j-open-ai-official/target/langchain4j-open-ai-official-1.5.2-beta11-sources.jar
+├── zipinfo {}
+│ @@ -1,17 +1,14 @@
+│ -Zip file size: 25634 bytes, number of entries: 25
+│ +Zip file size: 25268 bytes, number of entries: 22
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/openaiofficial/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/
+│ @@ -20,8 +17,8 @@
+│  -rw-r--r--  2.0 unx     2100 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-open-ai-official/pom.xml
+│  -rw-r--r--  2.0 unx       88 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-open-ai-official/pom.properties
+│ -25 files, 114818 bytes uncompressed, 21300 bytes compressed:  81.4%
+│ +22 files, 114818 bytes uncompressed, 21300 bytes compressed:  81.4%
+
+7 / 8 target/reference/dev.langchain4j/langchain4j-vertex-ai-1.5.2-beta11-sources.jar langchain4j-vertex-ai/target/langchain4j-vertex-ai-1.5.2-beta11-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-vertex-ai-1.5.2-beta11-sources.jar
++++ langchain4j-vertex-ai/target/langchain4j-vertex-ai-1.5.2-beta11-sources.jar
+├── zipinfo {}
+│ @@ -1,16 +1,14 @@
+│ -Zip file size: 24775 bytes, number of entries: 34
+│ +Zip file size: 24463 bytes, number of entries: 32
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/vertexai/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/vertexai/gemini/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/vertexai/gemini/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/vertexai/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/native-image/
+│ @@ -29,8 +27,8 @@
+│  -rw-r--r--  2.0 unx     2074 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-vertex-ai/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-vertex-ai/pom.properties
+│ -34 files, 76957 bytes uncompressed, 18957 bytes compressed:  75.4%
+│ +32 files, 76957 bytes uncompressed, 18957 bytes compressed:  75.4%
+
+8 / 8 target/reference/dev.langchain4j/langchain4j-watsonx-1.5.2-beta11-sources.jar langchain4j-watsonx/target/langchain4j-watsonx-1.5.2-beta11-sources.jar
+--- target/reference/dev.langchain4j/langchain4j-watsonx-1.5.2-beta11-sources.jar
++++ langchain4j-watsonx/target/langchain4j-watsonx-1.5.2-beta11-sources.jar
+├── zipinfo {}
+│ @@ -1,17 +1,14 @@
+│ -Zip file size: 20938 bytes, number of entries: 28
+│ +Zip file size: 20572 bytes, number of entries: 25
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-29 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 dev/langchain4j/model/watsonx/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-29 09:19 META-INF/maven/
+│ @@ -23,8 +20,8 @@
+│  -rw-r--r--  2.0 unx     1827 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-watsonx/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 24-Apr-29 09:19 META-INF/maven/dev.langchain4j/langchain4j-watsonx/pom.properties
+│ -28 files, 69386 bytes uncompressed, 16504 bytes compressed:  76.2%
+│ +25 files, 69386 bytes uncompressed, 16504 bytes compressed:  76.2%
