@@ -1,4 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.6.0.buildspec:1.6.1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.1.buildspec:5.17.3
+content/dev/langchain4j/langchain4j-1.18.0.buildspec:1.18.1
+content/io/jooby/jooby-4.5.3.buildspec:4.5.4
+content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.5.buildspec:1.2.6
+content/land/oras/oras-java-sdk/oras-java-sdk-0.8.1.buildspec:0.8.2
+content/org/dbunit/dbunit-3.3.0.buildspec:3.4.0
