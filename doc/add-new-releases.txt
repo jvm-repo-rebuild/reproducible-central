@@ -1,7 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/dev/langchain4j/langchain4j-1.18.0.buildspec:1.18.1
-content/io/jooby/jooby-4.5.3.buildspec:4.5.4
-content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.5.buildspec:1.2.6
-content/land/oras/oras-java-sdk/oras-java-sdk-0.8.1.buildspec:0.8.2
-content/org/dbunit/dbunit-3.3.0.buildspec:3.4.0
+content/eu/maveniverse/maven/scalpel/scalpel-0.3.7.buildspec:0.3.9
+content/io/repaint/maven/tiles-maven-plugin/tiles-maven-plugin-2.44.buildspec:2.45
+content/org/jspecify/jspecify-1.0.0.buildspec:1.0.1
+content/org/apache/commons/commons-codec/commons-codec-1.22.0.buildspec:1.22.1
+content/org/apache/felix/maven-bundle-plugin/maven-bundle-plugin-6.0.2.buildspec:6.1.0

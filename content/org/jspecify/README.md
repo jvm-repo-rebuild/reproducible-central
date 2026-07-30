@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.jspecify:jspecify:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.1](https://central.sonatype.com/artifact/org.jspecify/jspecify/1.0.1/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/org.jspecify/jspecify/1.0.0/pom) | [gradle jdk21](jspecify-1.0.0.buildspec) | [result](jspecify-1.0.0.buildinfo): [3 :white_check_mark: ](jspecify-1.0.0.buildcompare) | | 17K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

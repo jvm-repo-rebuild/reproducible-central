@@ -13,6 +13,7 @@ rebuilding **8 releases** of io.repaint.maven:tiles-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.45](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.45/pom) | | | |
 | [2.44](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.44/pom) | [mvn jdk26](tiles-maven-plugin-2.44.buildspec) | [result](tiles-maven-plugin-2.44.buildinfo): [3 :white_check_mark: ](tiles-maven-plugin-2.44.buildcompare) | | 158K |
 | [2.43](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.43/pom) | [mvn jdk25](tiles-maven-plugin-2.43.buildspec) | [result](tiles-maven-plugin-2.43.buildinfo): [3 :white_check_mark: ](tiles-maven-plugin-2.43.buildcompare) | | 158K |
 | [2.42](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.42/pom) | [mvn jdk25](tiles-maven-plugin-2.42.buildspec) | [result](tiles-maven-plugin-2.42.buildinfo): [3 :white_check_mark: ](tiles-maven-plugin-2.42.buildcompare) | | 157K |
