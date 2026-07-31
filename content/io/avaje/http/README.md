@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/avaje/avaje-http.git](https://github.com/avaje/avaje-http.git)
 
-<details><summary>This project defines 21 modules:</summary>
+<details><summary>This project defines 22 modules:</summary>
 
 * [io.avaje:avaje-htmx-api](https://central.sonatype.com/artifact/io.avaje/avaje-htmx-api/overview)
 * [io.avaje:avaje-htmx-nima](https://central.sonatype.com/artifact/io.avaje/avaje-htmx-nima/overview)
@@ -26,20 +26,21 @@ Source code: [https://github.com/avaje/avaje-http.git](https://github.com/avaje/
 * [io.avaje:avaje-http-inject-plugin](https://central.sonatype.com/artifact/io.avaje/avaje-http-inject-plugin/overview)
 * [io.avaje:avaje-http-javalin-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-javalin-generator/overview)
 * [io.avaje:avaje-http-jex-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-jex-generator/overview)
+* [io.avaje:avaje-http-openapi-core](https://central.sonatype.com/artifact/io.avaje/avaje-http-openapi-core/overview)
 * [io.avaje:avaje-http-parent](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/overview)
 * [io.avaje:avaje-http-sigma-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-sigma-generator/overview)
 * [io.avaje:avaje-http-vertx-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-vertx-generator/overview)
 * [io.avaje:openapi-maven-plugin](https://central.sonatype.com/artifact/io.avaje/openapi-maven-plugin/overview)
 </details>
 
-rebuilding **49 releases** of io.avaje:avaje-http-parent:
-- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **50 releases** of io.avaje:avaje-http-parent:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 18, 0 had all their differences removed :recycle:, 18 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.11-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.11-RC1/pom) | | | |
+| [3.11-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.11-RC1/pom) | [mvn jdk25](avaje-http-3.11-RC1.buildspec) | [result](avaje-http-parent-3.11-RC1.buildinfo): [64 :white_check_mark: ](avaje-http-parent-3.11-RC1.buildcompare) | | 5.7M |
 | [3.10](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.10/pom) | [mvn jdk25](avaje-http-3.10.buildspec) | [result](avaje-http-parent-3.10.buildinfo): [60 :white_check_mark:  1 :warning:](avaje-http-parent-3.10.buildcompare) [:mag:](avaje-http-parent-3.10.diffoscope) | 1 :rotating_light: | 5.6M |
 | [3.10-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.10-RC1/pom) | [mvn jdk25](avaje-http-3.10-RC1.buildspec) | [result](avaje-http-parent-3.10-RC1.buildinfo): [61 :white_check_mark: ](avaje-http-parent-3.10-RC1.buildcompare) | | 5.6M |
 | [3.9](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.9/pom) | [mvn jdk25](avaje-http-3.9.buildspec) | [result](avaje-http-parent-3.9.buildinfo): [61 :white_check_mark: ](avaje-http-parent-3.9.buildcompare) | | 5.6M |
