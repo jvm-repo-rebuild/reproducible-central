@@ -7,18 +7,20 @@
 
 Source code: [https://github.com/itsallcode/openfasttrace.git](https://github.com/itsallcode/openfasttrace.git)
 
-<details><summary>This project defines 16 modules:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
 * [org.itsallcode.openfasttrace:openfasttrace](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-api](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-api/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-core](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-core/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-exporter-common](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-exporter-common/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-exporter-specobject](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/overview)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-gherkin](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-gherkin/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-lightweightmarkup](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-lightweightmarkup/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-markdown](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-markdown/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-restructuredtext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-restructuredtext/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-specobject](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-specobject/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-tag](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-tag/overview)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-tag-importer-common](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-tag-importer-common/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-xmlparser](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-xmlparser/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-importer-zip](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-zip/overview)
 * [org.itsallcode.openfasttrace:openfasttrace-parent](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-parent/overview)
@@ -27,14 +29,14 @@ Source code: [https://github.com/itsallcode/openfasttrace.git](https://github.co
 * [org.itsallcode.openfasttrace:openfasttrace-reporter-plaintext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-plaintext/overview)
 </details>
 
-rebuilding **11 releases** of org.itsallcode.openfasttrace:openfasttrace:
+rebuilding **12 releases** of org.itsallcode.openfasttrace:openfasttrace:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 6 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 7 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.7.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.7.0/pom) | | | |
+| [4.7.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.7.0/pom) | [mvn jdk17](openfasttrace-4.7.0.buildspec) | [result](openfasttrace-4.7.0.buildinfo): [49 :white_check_mark:  2 :warning:](openfasttrace-4.7.0.buildcompare) | 2 :recycle: | 1.6M |
 | [4.6.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.6.0/pom) | [mvn jdk17](openfasttrace-4.6.0.buildspec) | [result](openfasttrace-4.6.0.buildinfo): [43 :white_check_mark:  2 :warning:](openfasttrace-4.6.0.buildcompare) | 2 :recycle: | 1.6M |
 | [4.5.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.5.0/pom) | [mvn jdk17](openfasttrace-4.5.0.buildspec) | [result](openfasttrace-4.5.0.buildinfo): [43 :white_check_mark:  2 :warning:](openfasttrace-4.5.0.buildcompare) | 2 :recycle: | 1.6M |
 | [4.4.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.4.0/pom) | [mvn jdk17](openfasttrace-4.4.0.buildspec) | [result](openfasttrace-4.4.0.buildinfo): [43 :white_check_mark:  2 :warning:](openfasttrace-4.4.0.buildcompare) | 2 :recycle: | 1.3M |
