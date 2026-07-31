@@ -1,0 +1,18 @@
+version=1.13.0-alpha6
+ok=1
+ko=3
+ignored=0
+okFiles="clojure-1.13.0-alpha6.pom"
+koFiles="clojure-1.13.0-alpha6.jar clojure-1.13.0-alpha6-slim.jar clojure-1.13.0-alpha6-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.clojure/clojure-1.13.0-alpha6.jar target/clojure-1.13.0-alpha6.jar
+# diffoscope target/reference/org.clojure/clojure-1.13.0-alpha6-slim.jar target/clojure-1.13.0-alpha6-slim.jar
+# diffoscope target/reference/org.clojure/clojure-1.13.0-alpha6-sources.jar target/clojure-1.13.0-alpha6-sources.jar
+stabilize_ok=2
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles="clojure-1.13.0-alpha6-slim.jar.stabilized clojure-1.13.0-alpha6-sources.jar.stabilized"
+stabilize_koFiles="clojure-1.13.0-alpha6.jar.stabilized"
+stabilize_ignoredFiles=""
