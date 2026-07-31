@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Bundle Plugin
+group-id=org.apache.felix
+artifact-id=maven-bundle-plugin
+version=6.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=maven-bundle-plugin-6.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.felix
+outputs.0.filename=maven-bundle-plugin-6.1.0.pom
+outputs.0.length=11697
+outputs.0.checksums.sha512=a374de57dfd4072446b17a8e7817d856b929cc400241366c4c09ba5a8a7e7a4d3f4523af04a4d30b34bccf0877e7e229f06dc98819463617794ce5a244ce7432
+
+outputs.1.groupId=org.apache.felix
+outputs.1.filename=maven-bundle-plugin-6.1.0.jar
+outputs.1.length=214255
+outputs.1.checksums.sha512=b6c0a0fe24c271187e4ac5cb209da2d9db5af13c0e39e24d288d9a64fb1b5cf207f6c9c2b398a19e5f615e11859cab9ed556ab320fb0e31da52ce1e0490af7c7
+
+outputs.2.groupId=org.apache.felix
+outputs.2.filename=maven-bundle-plugin-6.1.0-source-release.zip
+outputs.2.length=1453940
+outputs.2.checksums.sha512=ce3948f95410f066a48d81279301ad12b34b9d42002cf9392c44755c701d1607d0e3a583fe53fcbb9412a5920c7fd2315f1651a16eb9382351b85dc94592f0ed
+
+outputs.3.groupId=org.apache.felix
+outputs.3.filename=maven-bundle-plugin-6.1.0-source-release.tar.gz
+outputs.3.length=1345244
+outputs.3.checksums.sha512=581436c8be813864bfd8d33f710d43bc612ebfcde0ff2098357fe2012f611d901fade3c219811d9de28c7ef56c50c957b2cde106e8148fa074e426baa763da16
+
+outputs.4.groupId=org.apache.felix
+outputs.4.filename=maven-bundle-plugin-6.1.0-sources.jar
+outputs.4.length=141456
+outputs.4.checksums.sha512=abddcb86fe7cdf95f006bd6f8509c7692f05674e2269b8c9c14ca2aafd4dc3a111c0c6684f1f56341695ede9801c8209c4c56df734b7a6f837cabdf344dfa0b2
