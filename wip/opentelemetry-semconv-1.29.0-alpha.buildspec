@@ -1,0 +1,21 @@
+groupId=io.opentelemetry.semconv
+artifactId=opentelemetry-semconv
+display=${groupId}:${artifactId}
+version=1.29.0-alpha
+
+gitRepo=https://github.com/open-telemetry/semantic-conventions-java.git
+gitTag=v1.29.0
+
+tool=gradle
+jdk=17
+newline=lf
+#umask=022
+
+builtBy=runner
+builtJDK=17.0.13
+
+command="./gradlew publishToMavenLocal -x test -x javadoc"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
