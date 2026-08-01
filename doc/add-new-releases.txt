@@ -1,5 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/org/apache/commons/commons-validator/commons-validator-1.10.1.buildspec:1.11.0
-content/org/apache/jena/jena/jena-6.1.0.buildspec:6.2.0
-content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-3.0.6.buildspec:3.0.8
+content/com/webauthn4j/webauthn4j-0.31.8.RELEASE.buildspec:0.31.9.RELEASE
+content/eu/maveniverse/maven/nisse/nisse-0.9.3.buildspec:0.9.4
+content/org/apache/stormcrawler/stormcrawler-3.6.0.buildspec:3.7.0
+content/org/apache/plc4x/plc4x-code-generation/plc4x-code-generation-1.8.0.buildspec:1.9.0
