@@ -30,14 +30,14 @@ Source code: [https://github.com/apache/stormcrawler.git](https://github.com/apa
 * [org.apache.stormcrawler:stormcrawler-warc](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler-warc/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.stormcrawler:stormcrawler:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.apache.stormcrawler:stormcrawler:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.7.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.7.0/pom) | | | |
+| [3.7.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.7.0/pom) | [mvn jdk17](stormcrawler-3.7.0.buildspec) | [result](stormcrawler-3.7.0.buildinfo): [56 :white_check_mark: ](stormcrawler-3.7.0.buildcompare) | | 8.0M |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.6.0/pom) | [mvn jdk25](stormcrawler-3.6.0.buildspec) | [result](stormcrawler-3.6.0.buildinfo): [56 :white_check_mark: ](stormcrawler-3.6.0.buildcompare) | | 7.7M |
 | [3.5.1](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.1/pom) | [mvn jdk25](stormcrawler-3.5.1.buildspec) | [result](stormcrawler-3.5.1.buildinfo): [53 :white_check_mark: ](stormcrawler-3.5.1.buildcompare) | | 3.7M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.stormcrawler/stormcrawler/3.5.0/pom) | [mvn jdk21](stormcrawler-3.5.0.buildspec) | [result](stormcrawler-3.5.0.buildinfo): [50 :white_check_mark: ](stormcrawler-3.5.0.buildcompare) | | 3.3M |
