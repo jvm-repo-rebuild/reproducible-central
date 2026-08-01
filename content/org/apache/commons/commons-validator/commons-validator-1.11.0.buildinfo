@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Validator
+group-id=commons-validator
+artifact-id=commons-validator
+version=1.11.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-validator.git/commons-validator
+source.scm.tag=rel/commons-validator-1.11.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=27-ea
+java.vendor=Oracle Corporation
+os.name=Mac OS X
+os.version=26.5.2
+os.arch=aarch64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=commons-validator
+outputs.0.filename=commons-validator-1.11.0.pom
+outputs.0.length=16116
+outputs.0.checksums.sha512=3eb64c6ef056b8dbbdfab46e24e26668e5aad092b4482bdd2a38db287577cb90338b36966f226c2ac37344045c7920c3b196842e5ecf2840a5c2e05bcfd6165e
+
+outputs.1.groupId=commons-validator
+outputs.1.filename=commons-validator-1.11.0.jar
+outputs.1.length=207545
+outputs.1.checksums.sha512=d44a84cdaef23cc61a05edaab66bce3e11c349045571069932e0687ed35c5e690ddc980b5fe0f93b16d01e1d4224bd721f2085e734c734eb4398e8f87f83813c
+
+outputs.2.groupId=commons-validator
+outputs.2.filename=commons-validator-1.11.0-tests.jar
+outputs.2.length=292665
+outputs.2.checksums.sha512=71f495868b2580add618bfd517859650905374e404e00b9778456bf6a1c9143427c92f8c58d3a3d34d24bf0370f86c577b101cc3cf42fe459dd3aecf88b96840
+
+outputs.3.groupId=commons-validator
+outputs.3.filename=commons-validator-1.11.0-sources.jar
+outputs.3.length=269185
+outputs.3.checksums.sha512=15b1fdde20340a92457b38cf0cfc48813bfb7612dc1cb6b26fa3b006d2a710c5ef4046bf029bb3e05cefbf7c62800c21e79545d0b3c77c5e266a0edab8f040ce
+
+outputs.4.groupId=commons-validator
+outputs.4.filename=commons-validator-1.11.0-test-sources.jar
+outputs.4.length=235093
+outputs.4.checksums.sha512=d154d31c8936671a69a52505d806618b52096590ae3a8065f20b769608113c5d851756df87853e89e284a7062c3cffbd86eaa7a2a6611fd7e85b697e9e4b2f88
+
+outputs.5.groupId=commons-validator
+outputs.5.filename=commons-validator-1.11.0-cyclonedx.xml
+outputs.5.length=14573
+outputs.5.checksums.sha512=b5435709e7cb85e601dd0753f53f383448bd4362905b04fde70166caf461901749ad7abfa5160ccab0b753c27de5d888d779b7dd5405600d4f0ab8348200441a
+
+outputs.6.groupId=commons-validator
+outputs.6.filename=commons-validator-1.11.0-cyclonedx.json
+outputs.6.length=15898
+outputs.6.checksums.sha512=f2240856cf00d531de0e8ef684b133e6562b764b6db9a1a8f8a7377cf0bdcb096bceaa53489712ede2424c00931b51cc7a32d1b3d1bcfeb7ff25959c40e786c0
+# ignored commons-validator-1.11.0.spdx.json
