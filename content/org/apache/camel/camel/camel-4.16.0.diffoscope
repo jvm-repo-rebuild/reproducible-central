@@ -1,0 +1,35 @@
+# I don't know what filesystem adds executable flag on every file, but not a usual setup, nor something I know how to reproduce
+1 /     1263 target/reference/org.apache.camel/camel-buildtools-4.16.0.jar buildingtools/target/camel-buildtools-4.16.0.jar
+--- target/reference/org.apache.camel/camel-buildtools-4.16.0.jar
++++ buildingtools/target/camel-buildtools-4.16.0.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 17346 bytes, number of entries: 16
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-01 09:08 META-INF/
+│  -rw-r--r--  2.0 unx      336 b- defN 25-Nov-01 09:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-01 09:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-01 09:08 META-INF/maven/org.apache.camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-01 09:08 META-INF/maven/org.apache.camel/camel-buildtools/
+│ --rwx--x--x  2.0 unx    11358 b- defN 25-Nov-01 09:08 META-INF/LICENSE
+│ --rwx--x--x  2.0 unx     3751 b- defN 25-Nov-01 09:08 META-INF/NOTICE
+│ --rwx--x--x  2.0 unx    42099 b- defN 25-Nov-01 09:08 camel-eclipse-formatter-config.xml
+│ --rwx--x--x  2.0 unx      927 b- defN 25-Nov-01 09:08 camel-eclipse-pmd
+│ --rwx--x--x  2.0 unx    11851 b- defN 25-Nov-01 09:08 camel-pmd-ruleset.xml
+│ --rwx--x--x  2.0 unx      756 b- defN 25-Nov-01 09:08 header.txt
+│ --rwx--x--x  2.0 unx     1607 b- defN 25-Nov-01 09:08 ldif-properties-headerdefinition.xml
+│ --rwx--x--x  2.0 unx     1448 b- defN 25-Nov-01 09:08 license-properties-headerdefinition.xml
+│ --rwx--x--x  2.0 unx     6229 b- defN 25-Nov-01 09:08 notice-supplements.xml
+│ --rwx--x--x  2.0 unx     1725 b- defN 25-Nov-01 09:08 META-INF/maven/org.apache.camel/camel-buildtools/pom.xml
+│ --rwx--x--x  2.0 unx       68 b- defN 25-Nov-01 09:08 META-INF/maven/org.apache.camel/camel-buildtools/pom.properties
+│ +-rw-------  2.0 unx    11358 b- defN 25-Nov-01 09:08 META-INF/LICENSE
+│ +-rw-------  2.0 unx     3751 b- defN 25-Nov-01 09:08 META-INF/NOTICE
+│ +-rw-------  2.0 unx    42099 b- defN 25-Nov-01 09:08 camel-eclipse-formatter-config.xml
+│ +-rw-------  2.0 unx      927 b- defN 25-Nov-01 09:08 camel-eclipse-pmd
+│ +-rw-------  2.0 unx    11851 b- defN 25-Nov-01 09:08 camel-pmd-ruleset.xml
+│ +-rw-------  2.0 unx      756 b- defN 25-Nov-01 09:08 header.txt
+│ +-rw-------  2.0 unx     1607 b- defN 25-Nov-01 09:08 ldif-properties-headerdefinition.xml
+│ +-rw-------  2.0 unx     1448 b- defN 25-Nov-01 09:08 license-properties-headerdefinition.xml
+│ +-rw-------  2.0 unx     6229 b- defN 25-Nov-01 09:08 notice-supplements.xml
+│ +-rw-------  2.0 unx     1725 b- defN 25-Nov-01 09:08 META-INF/maven/org.apache.camel/camel-buildtools/pom.xml
+│ +-rw-------  2.0 unx       68 b- defN 25-Nov-01 09:08 META-INF/maven/org.apache.camel/camel-buildtools/pom.properties
+│  16 files, 82155 bytes uncompressed, 15200 bytes compressed:  81.5%
