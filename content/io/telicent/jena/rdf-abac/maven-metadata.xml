@@ -3,8 +3,8 @@
   <groupId>io.telicent.jena</groupId>
   <artifactId>rdf-abac</artifactId>
   <versioning>
-    <latest>3.1.4</latest>
-    <release>3.1.4</release>
+    <latest>3.1.5</latest>
+    <release>3.1.5</release>
     <versions>
       <version>0.71.2</version>
       <version>0.71.4</version>
@@ -38,7 +38,8 @@
       <version>3.1.1</version>
       <version>3.1.2</version>
       <version>3.1.4</version>
+      <version>3.1.5</version>
     </versions>
-    <lastUpdated>20260619145721</lastUpdated>
+    <lastUpdated>20260803133639</lastUpdated>
   </versioning>
 </metadata>
