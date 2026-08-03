@@ -1,0 +1,20 @@
+version=10.0.0-beta0001
+ok=9
+ko=7
+ignored=0
+okFiles="com.io7m.primogenitor-10.0.0-beta0001.pom com.io7m.primogenitor-10.0.0-beta0001-cyclonedx.xml com.io7m.primogenitor.lite-10.0.0-beta0001.pom com.io7m.primogenitor.lite-10.0.0-beta0001-cyclonedx.xml com.io7m.primogenitor.full-10.0.0-beta0001.pom com.io7m.primogenitor.full-10.0.0-beta0001-cyclonedx.xml com.io7m.primogenitor.support-10.0.0-beta0001.pom com.io7m.primogenitor.support-10.0.0-beta0001-cyclonedx.xml com.io7m.primogenitor.tests-10.0.0-beta0001.pom"
+koFiles="com.io7m.primogenitor.support-10.0.0-beta0001.jar com.io7m.primogenitor.support-10.0.0-beta0001-sources.jar com.io7m.primogenitor.support-10.0.0-beta0001-tests.jar com.io7m.primogenitor.tests-10.0.0-beta0001.jar com.io7m.primogenitor.tests-10.0.0-beta0001-sources.jar com.io7m.primogenitor.tests-10.0.0-beta0001-cyclonedx.xml com.io7m.primogenitor.tests-10.0.0-beta0001-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.support-10.0.0-beta0001.jar com.io7m.primogenitor.support/target/com.io7m.primogenitor.support-10.0.0-beta0001.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.support-10.0.0-beta0001-sources.jar com.io7m.primogenitor.support/target/com.io7m.primogenitor.support-10.0.0-beta0001-sources.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.support-10.0.0-beta0001-tests.jar com.io7m.primogenitor.support/target/com.io7m.primogenitor.support-10.0.0-beta0001-tests.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-10.0.0-beta0001.jar com.io7m.primogenitor.tests/target/com.io7m.primogenitor.tests-10.0.0-beta0001.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-10.0.0-beta0001-sources.jar com.io7m.primogenitor.tests/target/com.io7m.primogenitor.tests-10.0.0-beta0001-sources.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-10.0.0-beta0001-cyclonedx.xml com.io7m.primogenitor.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-10.0.0-beta0001-tests.jar com.io7m.primogenitor.tests/target/com.io7m.primogenitor.tests-10.0.0-beta0001-tests.jar
+stabilize_ok=6
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles="com.io7m.primogenitor.support-10.0.0-beta0001.jar.stabilized com.io7m.primogenitor.support-10.0.0-beta0001-sources.jar.stabilized com.io7m.primogenitor.support-10.0.0-beta0001-tests.jar.stabilized com.io7m.primogenitor.tests-10.0.0-beta0001.jar.stabilized com.io7m.primogenitor.tests-10.0.0-beta0001-sources.jar.stabilized com.io7m.primogenitor.tests-10.0.0-beta0001-tests.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles="com.io7m.primogenitor.tests-10.0.0-beta0001-cyclonedx.xml"
