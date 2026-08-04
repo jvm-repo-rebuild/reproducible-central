@@ -14,13 +14,13 @@ Source code: [https://github.com/apache/qpid-proton-j.git](https://github.com/ap
 * [org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/overview)
 </details>
 
-rebuilding **2 releases** of org.apache.qpid:proton-j-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of org.apache.qpid:proton-j-parent:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.35.0](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.35.0/pom) | | | |
+| [0.35.0](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.35.0/pom) | [mvn jdk8](proton-j-0.35.0.buildspec) | [result](proton-j-parent-0.35.0.buildinfo): [7 :white_check_mark: ](proton-j-parent-0.35.0.buildcompare) | | 2.5M |
 | [0.34.1](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.1/pom) | [mvn jdk8](proton-j-0.34.1.buildspec) | [result](proton-j-parent-0.34.1.buildinfo): [7 :white_check_mark: ](proton-j-parent-0.34.1.buildcompare) | | 2.3M |
 | [0.34.0](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.0/pom) | [mvn jdk17](proton-j-0.34.0.buildspec) | [result](proton-j-parent-0.34.0.buildinfo): [7 :white_check_mark: ](proton-j-parent-0.34.0.buildcompare) | | 2.4M |
 
