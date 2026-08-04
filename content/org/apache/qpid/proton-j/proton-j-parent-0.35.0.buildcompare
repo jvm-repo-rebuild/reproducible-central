@@ -1,0 +1,9 @@
+version=0.35.0
+ok=7
+ko=0
+ignored=0
+okFiles="proton-j-parent-0.35.0.pom proton-j-0.35.0.pom proton-j-0.35.0.jar proton-j-0.35.0-sources.jar apache-qpid-proton-j-0.35.0.pom apache-qpid-proton-j-0.35.0-bin.tar.gz apache-qpid-proton-j-0.35.0-src.tar.gz"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Proton-J Parent
+group-id=org.apache.qpid
+artifact-id=proton-j-parent
+version=0.35.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/qpid-proton-j.git
+source.scm.tag=0.35.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_492
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=apache-qpid-proton-j
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.qpid:proton-j-parent
+
+outputs.0.0.groupId=org.apache.qpid
+outputs.0.0.filename=proton-j-parent-0.35.0.pom
+outputs.0.0.length=10169
+outputs.0.0.checksums.sha512=2156307400db5c582d1cb14212fe7fb8f648e595cc0a518f30daabdeb6b1ef120c3cd4fafa3ccc6afab5f44d52eb6e7f43b6200db745505e9ea9241df73b0247
+
+outputs.1.coordinates=org.apache.qpid:proton-j
+
+outputs.1.0.groupId=org.apache.qpid
+outputs.1.0.filename=proton-j-0.35.0.pom
+outputs.1.0.length=3154
+outputs.1.0.checksums.sha512=d25b3129fdd1cb81c23ba34ba32f3fb98804345355a42c87f75386692b7a2b6a77c1d2687472af16a1b6ca410fea4240c74574cf334c74e6c20953cbbc737f36
+
+outputs.1.1.groupId=org.apache.qpid
+outputs.1.1.filename=proton-j-0.35.0.jar
+outputs.1.1.length=761097
+outputs.1.1.checksums.sha512=22268cd82054ee58a18897d1b8c2ba14ad9273395c5fc5f9ca5ba4448d39da7b3b678c51d222d3b14b632817622cfb1ef636b21193cc20adf0723fc5f29b4999
+
+outputs.1.2.groupId=org.apache.qpid
+outputs.1.2.filename=proton-j-0.35.0-sources.jar
+outputs.1.2.length=500058
+outputs.1.2.checksums.sha512=e499fb23b30a307b2f8201a691b225e287530eb06f75591c666ca6562ddd54613e5da265bdaaa15002f1af6067f35f8c777dbaac88b7f83f1d63e664bf2b4626
+
+outputs.2.coordinates=org.apache.qpid:apache-qpid-proton-j
+
+outputs.2.0.groupId=org.apache.qpid
+outputs.2.0.filename=apache-qpid-proton-j-0.35.0.pom
+outputs.2.0.length=3977
+outputs.2.0.checksums.sha512=3eea863ee4e2486a7fff38edfe4c35ac06463a95770dea20a7122871081e471b30f35a30e23a27f89b2a40b38f6303293374654c723a229d7aa8338026ee847b
+
+outputs.2.1.groupId=org.apache.qpid
+outputs.2.1.filename=apache-qpid-proton-j-0.35.0-bin.tar.gz
+outputs.2.1.length=701449
+outputs.2.1.checksums.sha512=0a970df45824499e194a0c190d52f05e987f6fd4e010387408508c29ff30aa5600cdae312acef3b5fb1c9f7036682fb8c744d2b4aff85dd17d75c012e569ac82
+
+outputs.2.2.groupId=org.apache.qpid
+outputs.2.2.filename=apache-qpid-proton-j-0.35.0-src.tar.gz
+outputs.2.2.length=552078
+outputs.2.2.checksums.sha512=3afdc3b387e74193c6f69a8442b459938be61e7662299cb069f182cf695a13608f1b7999234fd519b083862ce67ff694cbc542e955643f76a4a72143a4a01595
