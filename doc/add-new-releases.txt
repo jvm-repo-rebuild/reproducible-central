@@ -1,4 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/avaje/jsonb/avaje-jsonb-3.15-RC2.buildspec:3.15-RC3
+content/com/fasterxml/woodstox/woodstox-core-7.2.1.buildspec:7.2.2
 content/io/telicent/jena/rdf-abac/rdf-abac-3.1.4.buildspec:3.1.5
+content/org/apache/maven/maven/maven-4.0.0-rc-5.buildspec:4.0.0-rc-6
+content/org/apache/qpid/proton-j/proton-j-0.34.1.buildspec:0.35.0
+content/org/apache/qpid/protonj2/protonj2-1.1.0.buildspec:1.2.0

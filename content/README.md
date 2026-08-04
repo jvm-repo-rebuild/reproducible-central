@@ -199,7 +199,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.mesquida](../content/com/io7m/mesquida/README.md) | 2 | 2 :white_check_mark: |
 | | [*.mime2045](../content/com/io7m/mime2045/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | | [*.percentpass](../content/com/io7m/percentpass/README.md) | 5 | 5 :white_check_mark: |
-| | [*.primogenitor](../content/com/io7m/primogenitor/README.md) | 45 | 40 :white_check_mark: / 5 :warning: |
+| | [*.primogenitor](../content/com/io7m/primogenitor/README.md) | 46 | 40 :white_check_mark: / 6 :warning: |
 | | [*.quarrel](../content/com/io7m/quarrel/README.md) | 14 | 11 :white_check_mark: / 3 :warning: |
 | | [*.quixote](../content/com/io7m/quixote/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [*.repetoir](../content/com/io7m/repetoir/README.md) | 3 | 3 :white_check_mark: |
@@ -305,7 +305,7 @@ Reproducible Builds for Maven Central Repository
 | | [avaje-http](../content/io/avaje/http/README.md) | 50 | 31 :white_check_mark: / 19 :warning: |
 | | [avaje-inject](../content/io/avaje/inject/README.md) | 81 | 69 :white_check_mark: / 12 :warning: |
 | | [avaje-jex](../content/io/avaje/jex/README.md) | 52 | 44 :white_check_mark: / 8 :warning: |
-| | [avaje-jsonb](../content/io/avaje/jsonb/README.md) | 62 | 55 :white_check_mark: / 7 :warning: |
+| | [avaje-jsonb](../content/io/avaje/jsonb/README.md) | 63 | 56 :white_check_mark: / 7 :warning: |
 | | [avaje-logback-encoder](../content/io/avaje/logback-encoder/README.md) | 16 | 16 :white_check_mark: |
 | | [avaje-metrics](../content/io/avaje/metrics/README.md) | 32 | 6 :white_check_mark: / 26 :warning: |
 | | [avaje-prisms](../content/io/avaje/prisms/README.md) | 20 | 19 :white_check_mark: / 1 :warning: |
@@ -989,7 +989,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 30 | 5 :white_check_mark: / 25 :warning: |
-| **Count:** | **975** | **11786** | **8684** :white_check_mark:<br>**3102** :warning: |
+| **Count:** | **975** | **11788** | **8685** :white_check_mark:<br>**3103** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1030,7 +1030,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn        22
      22 mvn        23
      41 mvn        24
-    157 mvn        25
+    158 mvn        25
      17 mvn        26
       3 mvn-3.5.4   8
       1 mvn-3.6.0   8
@@ -1081,7 +1081,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn-3.9.12   8
      38 mvn-3.9.12  11
      71 mvn-3.9.12  17
-    273 mvn-3.9.12  21
+    274 mvn-3.9.12  21
       2 mvn-3.9.12  22
      16 mvn-3.9.12  24
     125 mvn-3.9.12  25

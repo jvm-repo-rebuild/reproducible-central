@@ -350,6 +350,7 @@ rebuilding **40 releases** of org.glassfish.main:glassfish-parent:
 | -- | --------- | ------ | ------ | -- |
 | [9.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M2/pom) | [mvn jdk21](glassfish-9.0.0-M2.buildspec) | :x: | |
 | [9.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M1/pom) | [mvn jdk21](glassfish-9.0.0-M1.buildspec) | :x: | |
+| [8.0.4](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.4/pom) | | | |
 | [8.0.3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.3/pom) | [mvn jdk21](glassfish-8.0.3.buildspec) | [result](glassfish-main-aggregator-8.0.3.buildinfo): [1425 :white_check_mark:  49 :warning:](glassfish-main-aggregator-8.0.3.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | 24 :rotating_light: 25 :no_entry_sign: | 620M |
 | [8.0.2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.2/pom) | [mvn jdk21](glassfish-8.0.2.buildspec) | [result](glassfish-main-aggregator-8.0.2.buildinfo): [755 :white_check_mark:  5 :warning:](glassfish-main-aggregator-8.0.2.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615#issuecomment-3850537179) | 5 :rotating_light: | 485M |
 | [8.0.1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.1/pom) | [mvn jdk21](glassfish-8.0.1.buildspec) | :x: | |
