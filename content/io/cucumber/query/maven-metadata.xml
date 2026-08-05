@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>query</artifactId>
   <versioning>
-    <latest>16.1.0</latest>
-    <release>16.1.0</release>
+    <latest>16.1.1</latest>
+    <release>16.1.1</release>
     <versions>
       <version>12.1.1</version>
       <version>12.1.2</version>
@@ -35,7 +35,8 @@
       <version>16.0.0</version>
       <version>16.0.1</version>
       <version>16.1.0</version>
+      <version>16.1.1</version>
     </versions>
-    <lastUpdated>20260727091355</lastUpdated>
+    <lastUpdated>20260805203939</lastUpdated>
   </versioning>
 </metadata>

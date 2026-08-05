@@ -1,7 +1,15 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/woodstox/woodstox-core-7.2.1.buildspec:7.2.2
-content/io/telicent/jena/rdf-abac/rdf-abac-3.1.4.buildspec:3.1.5
-content/org/apache/maven/maven/maven-4.0.0-rc-5.buildspec:4.0.0-rc-6
-content/org/apache/qpid/proton-j/proton-j-0.34.1.buildspec:0.35.0
-content/org/apache/qpid/protonj2/protonj2-1.1.0.buildspec:1.2.0
+content/io/avaje/inject/avaje-inject-12.7-RC1.buildspec:12.7-RC2
+content/io/cucumber/cucumber-expressions/cucumber-expressions-20.0.0.buildspec:20.1.0
+content/io/cucumber/gherkin/gherkin-42.0.0.buildspec:42.0.1
+content/io/cucumber/gherkin-utils/gherkin-utils-12.0.1.buildspec:12.0.2
+content/io/cucumber/html-formatter/html-formatter-24.1.0.buildspec:24.1.1
+content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.14.0.buildspec:0.14.1
+content/io/cucumber/messages/messages-34.2.0.buildspec:34.2.1
+content/io/cucumber/messages-ndjson/messages-ndjson-0.5.1.buildspec:0.5.2
+content/io/cucumber/query/query-16.1.0.buildspec:16.1.1
+content/io/cucumber/tag-expressions/tag-expressions-11.0.0.buildspec:11.0.1
+content/io/cucumber/testng-xml-formatter/testng-xml-formatter-0.8.1.buildspec:0.8.3
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-13.0.0.buildspec:13.1.0
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.11.buildspec:12.1.12

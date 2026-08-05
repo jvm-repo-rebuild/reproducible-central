@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>messages-ndjson</artifactId>
   <versioning>
-    <latest>0.5.1</latest>
-    <release>0.5.1</release>
+    <latest>0.5.2</latest>
+    <release>0.5.2</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -17,7 +17,8 @@
       <version>0.4.1</version>
       <version>0.5.0</version>
       <version>0.5.1</version>
+      <version>0.5.2</version>
     </versions>
-    <lastUpdated>20260723132325</lastUpdated>
+    <lastUpdated>20260805203520</lastUpdated>
   </versioning>
 </metadata>

@@ -14,6 +14,7 @@ rebuilding **20 releases** of io.cucumber:junit-xml-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.14.1](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.14.1/pom) | | | |
 | [0.14.0](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.14.0/pom) | [mvn jdk21](junit-xml-formatter-0.14.0.buildspec) | [result](junit-xml-formatter-0.14.0.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.14.0.buildcompare) | | 32K |
 | [0.13.3](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.13.3/pom) | [mvn jdk21](junit-xml-formatter-0.13.3.buildspec) | [result](junit-xml-formatter-0.13.3.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.13.3.buildcompare) | | 31K |
 | [0.13.2](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.13.2/pom) | [mvn jdk21](junit-xml-formatter-0.13.2.buildspec) | [result](junit-xml-formatter-0.13.2.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.13.2.buildcompare) | | 31K |
