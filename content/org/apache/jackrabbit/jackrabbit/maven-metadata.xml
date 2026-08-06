@@ -224,6 +224,7 @@
       <version>2.22.1</version>
       <version>2.22.2</version>
       <version>2.22.3</version>
+      <version>2.22.4</version>
       <version>2.23.0-beta</version>
       <version>2.23.1-beta</version>
       <version>2.23.2-beta</version>
@@ -231,6 +232,6 @@
       <version>2.23.4-beta</version>
       <version>2.23.5-beta</version>
     </versions>
-    <lastUpdated>20260706095238</lastUpdated>
+    <lastUpdated>20260806112307</lastUpdated>
   </versioning>
 </metadata>
