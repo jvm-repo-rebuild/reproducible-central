@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Expressions
+group-id=io.cucumber
+artifact-id=cucumber-expressions
+version=20.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/cucumber-expressions.git
+source.scm.tag=v20.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=cucumber-expressions-20.1.0.pom
+outputs.0.length=7216
+outputs.0.checksums.sha512=00e6169b1723b871231fed523b409fe58a4424de1ae3ce05ae0a43bb1e2157a047681d3674ee86f2e7644a38940d52adc8755a2b4da874052493a7fe85c0f7a5
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=cucumber-expressions-20.1.0.jar
+outputs.1.length=90168
+outputs.1.checksums.sha512=011e99072eabbd8b4762e56a9543ed33df24f0bffebd581233ef177d3030356ab81474d19323f3acda0cb684138b1fd78c460f445321708b24ed1b89fe649305
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=cucumber-expressions-20.1.0-sources.jar
+outputs.2.length=39970
+outputs.2.checksums.sha512=90c65e4adeee2298c0fd05fb8ce8597601b32e503ccddcd8c21bd59a7d6e2a0ac2b46c8220831cc9e48a17f72120e0b1d5590d258f0b346d8674dd80c2232323
