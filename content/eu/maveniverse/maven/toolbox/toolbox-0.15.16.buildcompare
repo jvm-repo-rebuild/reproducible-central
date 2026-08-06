@@ -1,0 +1,16 @@
+version=0.15.16
+ok=14
+ko=1
+ignored=0
+okFiles="toolbox-0.15.16.pom shared-0.15.16.pom shared-0.15.16.jar shared-0.15.16-sources.jar toolbox-0.15.16.pom toolbox-0.15.16.jar toolbox-0.15.16-sources.jar toolbox-0.15.16-cli.jar mvnsh-0.15.16.pom mvnsh-0.15.16.jar mvnsh-0.15.16-sources.jar mcp-0.15.16.pom mcp-0.15.16.jar mcp-0.15.16-sources.jar"
+koFiles="mcp-0.15.16-runner.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eu.maveniverse.maven.toolbox/mcp-0.15.16-runner.jar mcp/target/mcp-0.15.16-runner.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="mcp-0.15.16-runner.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
