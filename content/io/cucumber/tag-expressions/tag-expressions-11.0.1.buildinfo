@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Tag Expressions
+group-id=io.cucumber
+artifact-id=tag-expressions
+version=11.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/tag-expressions.git
+source.scm.tag=v11.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=tag-expressions-11.0.1.pom
+outputs.0.length=5467
+outputs.0.checksums.sha512=6b0a5146a6ad83e93a3b4e6a9b3e3d4ec108dfa3e69f7d147a050915bd41c8c31b46fe7ada625e240da8a06d6526340e9f63927666e23a6ace998e943a7c0b66
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=tag-expressions-11.0.1.jar
+outputs.1.length=15205
+outputs.1.checksums.sha512=33602723c5e0d2e9b26ab872f7e42d4054642848fccb2d2661f0de7abccc8eef550823854adb1316b0f37398d1519df1fe33671a50445d9ef80907187e16e215
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=tag-expressions-11.0.1-sources.jar
+outputs.2.length=5631
+outputs.2.checksums.sha512=5d1e2e1ee5355b58cea0b0e40e9b012728d26e16bdffccd3ffc12a6a49c44b069f0c7d5fba189b0e1dffbe46ef83fe82602dea85533889c75c3d99ecd88f6f61
