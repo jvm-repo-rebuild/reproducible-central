@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.git)
 
-<details><summary>This project defines 297 modules:</summary>
+<details><summary>This project defines 298 modules:</summary>
 
 * [org.apache.hop:hop](https://central.sonatype.com/artifact/org.apache.hop/hop/overview)
 * [org.apache.hop:hop-action-abort](https://central.sonatype.com/artifact/org.apache.hop/hop-action-abort/overview)
@@ -249,6 +249,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-transform-propertyoutput](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-propertyoutput/overview)
 * [org.apache.hop:hop-transform-randomvalue](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-randomvalue/overview)
 * [org.apache.hop:hop-transform-regexeval](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-regexeval/overview)
+* [org.apache.hop:hop-transform-repeatfields](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-repeatfields/overview)
 * [org.apache.hop:hop-transform-replacestring](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-replacestring/overview)
 * [org.apache.hop:hop-transform-reservoirsampling](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-reservoirsampling/overview)
 * [org.apache.hop:hop-transform-rest](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-rest/overview)
@@ -308,15 +309,15 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-valuetypes-uuid](https://central.sonatype.com/artifact/org.apache.hop/hop-valuetypes-uuid/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.hop:hop:
+rebuilding **2 releases** of org.apache.hop:hop:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.18.1](https://central.sonatype.com/artifact/org.apache.hop/hop/2.18.1/pom) | | | |
 | [2.18.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.18.0/pom) | | | |
-| [2.17.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.17.0/pom) | | | |
+| [2.17.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.17.0/pom) | [mvn jdk17](hop-2.17.0.buildspec) | [result](hop-2.17.0.buildinfo): [1173 :white_check_mark:  2 :warning:](hop-2.17.0.buildcompare) | - | 282M |
 | [2.16.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.16.0/pom) | [mvn jdk17](hop-2.16.0.buildspec) | [result](hop-2.16.0.buildinfo): [1171 :white_check_mark: ](hop-2.16.0.buildcompare) | | 278M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
