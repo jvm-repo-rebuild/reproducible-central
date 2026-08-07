@@ -37,6 +37,7 @@ rebuilding **45 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.2.1/pom) | | | |
 | [2.2](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.2/pom) | [mvn jdk11](jmeter-java-dsl-2.2.buildspec) | [result](jmeter-java-dsl-parent-2.2.buildinfo): [51 :white_check_mark:  3 :warning:](jmeter-java-dsl-parent-2.2.buildcompare) | 2 :rotating_light: 1 :no_entry_sign: | 55M |
 | [2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.1/pom) | [mvn jdk11](jmeter-java-dsl-2.1.buildspec) | [result](jmeter-java-dsl-parent-2.1.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-2.1.buildcompare) | | 55M |
 | [2.0](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.0/pom) | [mvn jdk11](jmeter-java-dsl-2.0.buildspec) | [result](jmeter-java-dsl-parent-2.0.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-2.0.buildcompare) | | 55M |

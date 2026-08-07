@@ -36,6 +36,7 @@ rebuilding **13 releases** of org.itsallcode.openfasttrace:openfasttrace:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.9.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.9.0/pom) | | | |
 | [4.8.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.8.0/pom) | [mvn jdk17](openfasttrace-4.8.0.buildspec) | [result](openfasttrace-4.8.0.buildinfo): [49 :white_check_mark:  2 :warning:](openfasttrace-4.8.0.buildcompare) | 2 :recycle: | 1.7M |
 | [4.7.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.7.0/pom) | [mvn jdk17](openfasttrace-4.7.0.buildspec) | [result](openfasttrace-4.7.0.buildinfo): [49 :white_check_mark:  2 :warning:](openfasttrace-4.7.0.buildcompare) | 2 :recycle: | 1.6M |
 | [4.6.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.6.0/pom) | [mvn jdk17](openfasttrace-4.6.0.buildspec) | [result](openfasttrace-4.6.0.buildinfo): [43 :white_check_mark:  2 :warning:](openfasttrace-4.6.0.buildcompare) | 2 :recycle: | 1.6M |
