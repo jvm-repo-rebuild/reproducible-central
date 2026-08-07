@@ -30,14 +30,14 @@ Source code: [https://github.com/abstracta/jmeter-java-dsl.git](https://github.c
 * [us.abstracta.jmeter:jmeter-java-dsl-wrapper](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-wrapper/overview)
 </details>
 
-rebuilding **45 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
-- **43** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **46 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
+- **44** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.2.1/pom) | | | |
+| [2.2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.2.1/pom) | [mvn jdk11](jmeter-java-dsl-2.2.1.buildspec) | [result](jmeter-java-dsl-parent-2.2.1.buildinfo): [54 :white_check_mark: ](jmeter-java-dsl-parent-2.2.1.buildcompare) | | 55M |
 | [2.2](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.2/pom) | [mvn jdk11](jmeter-java-dsl-2.2.buildspec) | [result](jmeter-java-dsl-parent-2.2.buildinfo): [51 :white_check_mark:  3 :warning:](jmeter-java-dsl-parent-2.2.buildcompare) | 2 :rotating_light: 1 :no_entry_sign: | 55M |
 | [2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.1/pom) | [mvn jdk11](jmeter-java-dsl-2.1.buildspec) | [result](jmeter-java-dsl-parent-2.1.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-2.1.buildcompare) | | 55M |
 | [2.0](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.0/pom) | [mvn jdk11](jmeter-java-dsl-2.0.buildspec) | [result](jmeter-java-dsl-parent-2.0.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-2.0.buildcompare) | | 55M |
