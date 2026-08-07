@@ -1,0 +1,62 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Telicent Smart Cache Graph - Parent
+group-id=io.telicent.smart-caches.graph
+artifact-id=scg-base
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:Telicent-oss/smart-cache-graph
+source.scm.tag=1.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=scg-system
+
+# aggregated output
+
+outputs.0.coordinates=io.telicent.smart-caches.graph:scg-base
+
+outputs.0.0.groupId=io.telicent.smart-caches.graph
+outputs.0.0.filename=scg-base-1.1.0.pom
+outputs.0.0.length=25205
+outputs.0.0.checksums.sha512=a32039d947039a31a7ad0e4c64833aea92080ee7389790a2af7950097f192b11689a38d324067020c7b6b0cf94333ae69d13ba706215e1bfc9115c73b8e98bfd
+
+outputs.0.1.groupId=io.telicent.smart-caches.graph
+outputs.0.1.filename=scg-base-1.1.0-cyclonedx.json
+outputs.0.1.length=573479
+outputs.0.1.checksums.sha512=e89d15c4eadf50566f1a139e7b214834309f52248bf6d02651588b3fa106f724541ab8d3ec4f39244d86c43adc32bb8a12e88771b2a80c3e5127a3164befb28e
+
+outputs.1.coordinates=io.telicent.smart-caches.graph:scg-system
+
+outputs.1.0.groupId=io.telicent.smart-caches.graph
+outputs.1.0.filename=scg-system-1.1.0.pom
+outputs.1.0.length=14359
+outputs.1.0.checksums.sha512=e531e25094b75cae9f0c6ee2480429e085408417b98212fbb28f2a435593c137cb7c642614ed22375446b1207d7a150294949a1df0e731a8a1c1b04f4f2c9e41
+
+outputs.1.1.groupId=io.telicent.smart-caches.graph
+outputs.1.1.filename=scg-system-1.1.0.jar
+outputs.1.1.length=222163
+outputs.1.1.checksums.sha512=7a9047448eff604baf347e4a077cd31f9990ee72ef3d783c7f40cf16e879ae12d54eca5c476ee6fc4c98bc34d62a1c0f62a4c04f11e8e71fe0e3d326caed3bd8
+
+outputs.1.2.groupId=io.telicent.smart-caches.graph
+outputs.1.2.filename=scg-system-1.1.0-cyclonedx.json
+outputs.1.2.length=405106
+outputs.1.2.checksums.sha512=eef4e4d2781d6fc4317c9596f5b63ea1e168aed2d4fb81cc684fd24207093164cf95c7257f69b84bfb21118e602add291f3035a33fa54db92f0bda19153915c8
+
+outputs.1.3.groupId=io.telicent.smart-caches.graph
+outputs.1.3.filename=scg-system-1.1.0-sources.jar
+outputs.1.3.length=121064
+outputs.1.3.checksums.sha512=f2e6f92eafda297639306e061b7f829aad66692405e4aa52199c04a75e38e8b1a2645c6e6fcfde06b570ccf37a03e1d066e7dabe0be3360fa064a4d493c55b4e
