@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber CiEnvironment
+group-id=io.cucumber
+artifact-id=ci-environment
+version=15.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/ci-environment.git
+source.scm.tag=v15.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+os.version=26.6
+os.arch=aarch64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=ci-environment-15.0.0.pom
+outputs.0.length=10149
+outputs.0.checksums.sha512=d83f57c55d1a0c02198377465424a82784d70ca9c43ad657384a66c3555d84d4ae7031c311c94019d3d46713da7f23f87a3085e7bd20703e41cd48bee98a2718
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=ci-environment-15.0.0.jar
+outputs.1.length=17081
+outputs.1.checksums.sha512=55eb429fec074928fea3eb56dd61147e7d59959fa4a0600341ef376bf082c861f677fa4589f096964f8e0c645a72aa417a70bf49b4c6d05f5c9619dc300e66ed
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=ci-environment-15.0.0-sources.jar
+outputs.2.length=9424
+outputs.2.checksums.sha512=6246d258493fee51bc5db28584e164d2a1f778c7ca308cd5c9639d29083c16e339b7739564214b667d72a8810fd42c34bd9f741e0bd04f78c760e904384600ba

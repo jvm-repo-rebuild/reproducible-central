@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/ci-environment.git](https://github.com/cucumber/ci-environment.git)
 
-rebuilding **7 releases** of io.cucumber:ci-environment:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of io.cucumber:ci-environment:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [15.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/15.0.0/pom) | | | |
+| [15.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/15.0.0/pom) | [mvn jdk21](ci-environment-15.0.0.buildspec) | [result](ci-environment-15.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-15.0.0.buildcompare) | | 36K |
 | [14.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/14.0.0/pom) | [mvn jdk21](ci-environment-14.0.0.buildspec) | [result](ci-environment-14.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-14.0.0.buildcompare) | | 33K |
 | [13.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/13.0.0/pom) | [mvn jdk21](ci-environment-13.0.0.buildspec) | [result](ci-environment-13.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-13.0.0.buildcompare) | | 33K |
 | [12.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/12.0.0/pom) | [mvn jdk17](ci-environment-12.0.0.buildspec) | [result](ci-environment-12.0.0.buildinfo): [3 :white_check_mark: ](ci-environment-12.0.0.buildcompare) | | 30K |
