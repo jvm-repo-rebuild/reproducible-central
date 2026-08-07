@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/cucumber/compatibility-kit.git](https://github.com/cucumber/compatibility-kit.git)
 
-rebuilding **17 releases** of io.cucumber:compatibility-kit:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.cucumber:compatibility-kit:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 9, 0 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [30.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/30.0.0/pom) | | | |
+| [30.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/30.0.0/pom) | [mvn jdk21](compatibility-kit-30.0.0.buildspec) | [result](compatibility-kit-30.0.0.buildinfo): [3 :white_check_mark: ](compatibility-kit-30.0.0.buildcompare) | | 323K |
 | [29.2.2](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.2/pom) | [mvn jdk21](compatibility-kit-29.2.2.buildspec) | [result](compatibility-kit-29.2.2.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.2.buildcompare) | | 306K |
 | [29.2.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.1/pom) | [mvn jdk21](compatibility-kit-29.2.1.buildspec) | [result](compatibility-kit-29.2.1.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.1.buildcompare) | | 306K |
 | [29.2.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.0/pom) | [mvn jdk21](compatibility-kit-29.2.0.buildspec) | [result](compatibility-kit-29.2.0.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.0.buildcompare) | | 306K |
