@@ -301,6 +301,26 @@
       <url>https://build.shibboleth.net/maven/releases/</url>
     </mirror>
     <mirror>
+      <id>io.confluent</id>
+      <mirrorOf>io.confluent</mirrorOf>
+      <url>https://packages.confluent.io/maven/</url>
+    </mirror>
+    <mirror>
+      <id>confluent</id>
+      <mirrorOf>confluent</mirrorOf>
+      <url>https://packages.confluent.io/maven/</url>
+    </mirror>
+    <mirror>
+      <id>jboss-public-repository-group</id>
+      <mirrorOf>jboss-public-repository-group</mirrorOf>
+      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+    </mirror>
+    <mirror>
+      <id>google-maven-central-copy</id>
+      <mirrorOf>google-maven-central-copy</mirrorOf>
+      <url>https://maven-central.storage-download.googleapis.com/maven2/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
