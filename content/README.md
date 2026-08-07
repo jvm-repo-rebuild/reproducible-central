@@ -286,7 +286,7 @@ Reproducible Builds for Maven Central Repository
 | | [nisse](../content/eu/maveniverse/maven/nisse/README.md) | 33 | 33 :white_check_mark: |
 | | [njord](../content/eu/maveniverse/maven/njord/README.md) | 44 | 44 :white_check_mark: |
 | | [scalpel](../content/eu/maveniverse/maven/scalpel/README.md) | 12 | 12 :white_check_mark: |
-| | [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 112 | 93 :white_check_mark: / 19 :warning: |
+| | [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 113 | 93 :white_check_mark: / 20 :warning: |
 | | [toolrunner](../content/eu/maveniverse/maven/toolrunner/README.md) | 11 | 11 :white_check_mark: |
 | | [zippy](../content/eu/maveniverse/maven/zippy/README.md) | 2 | 2 :white_check_mark: |
 | | [mase](../content/eu/maveniverse/maven/mase/mase/README.md) | 5 | 5 :white_check_mark: |
@@ -298,7 +298,7 @@ Reproducible Builds for Maven Central Repository
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 90 | 89 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 203 | 203 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
-| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 245 | 238 :white_check_mark: / 7 :warning: |
+| io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 246 | 239 :white_check_mark: / 7 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](../content/io/avaje/config/README.md) | 12 | 4 :white_check_mark: / 8 :warning: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
@@ -989,7 +989,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 30 | 5 :white_check_mark: / 25 :warning: |
-| **Count:** | **975** | **11815** | **8702** :white_check_mark:<br>**3113** :warning: |
+| **Count:** | **975** | **11817** | **8703** :white_check_mark:<br>**3114** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1073,7 +1073,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     152 mvn-3.9.11   8
     116 mvn-3.9.11  11
     265 mvn-3.9.11  17
-    426 mvn-3.9.11  21
+    427 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     113 mvn-3.9.11  25
@@ -1084,7 +1084,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     285 mvn-3.9.12  21
       2 mvn-3.9.12  22
      16 mvn-3.9.12  24
-    129 mvn-3.9.12  25
+    130 mvn-3.9.12  25
       2 mvn-3.9.12  26
       1 mvn-3.9.12  27
       1 mvn-3.9.13  17
