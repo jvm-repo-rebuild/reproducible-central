@@ -22,18 +22,7 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260807200947 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.64.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.64.0.buildspec) :white_check_mark: | [1.65.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.65.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.64.0.buildspec 1.65.0` |
-| <!-- 20260807191318 --> [njord](../content/eu/maveniverse/maven/njord/README.md) | [0.9.9](../content/eu/maveniverse/maven/njord/njord-0.9.9.buildspec) :white_check_mark: | [0.9.10](../content/eu/maveniverse/maven/njord/njord-0.9.10.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/njord/njord-0.9.9.buildspec 0.9.10` |
-| <!-- 20260807183327 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.12.0](../content/eu/maveniverse/maven/mimir/mimir-0.12.0.buildspec) :white_check_mark: | [0.12.1](../content/eu/maveniverse/maven/mimir/mimir-0.12.1.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.12.0.buildspec 0.12.1` |
-| <!-- 20260807174730 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | [3.0.0-alpha-3](../content/eu/maveniverse/maven/mima/mima-3.0.0-alpha-3.buildspec) :white_check_mark: | 2.4.48  | `bin/add-new-release.sh content/eu/maveniverse/maven/mima/mima-3.0.0-alpha-3.buildspec ...` |
-| <!-- 20260807171715 --> [shared](../content/eu/maveniverse/maven/shared/shared/README.md) | [0.2.5](../content/eu/maveniverse/maven/shared/shared/shared-0.2.5.buildspec) :white_check_mark: | [0.2.6](../content/eu/maveniverse/maven/shared/shared/shared-0.2.6.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/shared/shared/shared-0.2.5.buildspec 0.2.6` |
-| <!-- 20260807131938 --> [jooby](../content/io/jooby/README.md) | [4.5.4](../content/io/jooby/jooby-4.5.4.buildspec) :white_check_mark: | 3.12.0  | `bin/add-new-release.sh content/io/jooby/jooby-4.5.4.buildspec ...` |
-| <!-- 20260807130927 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [1.0.10](../content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.10.buildspec) :white_check_mark: | [1.1.0](../content/io/telicent/smart-caches/graph/scg-base/scg-base-1.1.0.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-1.0.10.buildspec 1.1.0` |
-| <!-- 20260807124330 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.1.2](../content/org/junit/junit5/junit5-6.1.2.buildspec) :white_check_mark: | [6.1.3](../content/org/junit/junit5/junit5-6.1.3.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.1.2.buildspec 6.1.3` |
-| <!-- 20260807082930 --> [maven-turbo-builder](../content/com/github/seregamorph/maven-turbo-builder/README.md) | [1.2](../content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-1.2.buildspec) :white_check_mark: | [1.3](../content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-1.3.buildspec) | `bin/add-new-release.sh content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-1.2.buildspec 1.3` |
 | <!-- 20260721152122 --> [jline](../content/org/jline/README.md) | [4.3.1](../content/org/jline/jline-4.3.1.buildspec) :white_check_mark: | 4.0.16 4.0.11 4.0.9 4.0.8 4.0.7 4.0.6 4.0.5 4.0.4 4.0.3 4.0.2 3.30.16 3.30.15 3.30.14  | `bin/add-new-release.sh content/org/jline/jline-4.3.1.buildspec ...` |
-| <!-- 20260618122051 --> [hop](../content/org/apache/hop/README.md) | [2.16.0](../content/org/apache/hop/hop-2.16.0.buildspec) :white_check_mark: | [2.18.1](../content/org/apache/hop/hop-2.18.1.buildspec) | `bin/add-new-release.sh content/org/apache/hop/hop-2.16.0.buildspec 2.18.1` |
-| <!-- 20260618122051 --> [hop](../content/org/apache/hop/README.md) | [2.16.0](../content/org/apache/hop/hop-2.16.0.buildspec) :white_check_mark: | 2.18.0 2.17.0  | `bin/add-new-release.sh content/org/apache/hop/hop-2.16.0.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 Apache Release Candidate in Staging https://repository.apache.org
@@ -61,9 +50,6 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260807165222 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [2.2](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.2.buildspec) :warning: | [2.2.1](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.2.1.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.2.buildspec 2.2.1` |
-| <!-- 20260807130015 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | [4.8.0](../content/org/itsallcode/openfasttrace/openfasttrace-4.8.0.buildspec) :warning: | [4.9.0](../content/org/itsallcode/openfasttrace/openfasttrace-4.9.0.buildspec) | `bin/add-new-release.sh content/org/itsallcode/openfasttrace/openfasttrace-4.8.0.buildspec 4.9.0` |
-| <!-- 20260807042217 --> [paimon-parent](../content/org/apache/paimon/README.md) | [1.4.2](../content/org/apache/paimon/paimon-parent-1.4.2.buildspec) :warning: | [2.0.0](../content/org/apache/paimon/paimon-parent-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-1.4.2.buildspec 2.0.0` |
 | <!-- 20260806111121 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.3.10](../content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec) :x: | [3.5.9](../content/com/hibegin/zrlog-base/zrlog-base-3.5.9.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec 3.5.9` |
 | <!-- 20260805115536 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.138.2](../content/org/finos/legend/engine/legend-engine-4.138.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.138.2` |
 | <!-- 20260803100313 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.2.4](../content/org/apache/pulsar/pulsar-4.2.4.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/issues/24718) | [5.0.0-M1](../content/org/apache/pulsar/pulsar-5.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.2.4.buildspec 5.0.0-M1` |
@@ -88,6 +74,8 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260807130015 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.9.0 :warning: |
+| <!-- 20260807042217 --> [paimon-parent](../content/org/apache/paimon/README.md) | 2.0.0 :warning: |
 | <!-- 20260805210519 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 0.15.16 :warning: |
 | <!-- 20260805204326 --> [testng-xml-formatter](../content/io/cucumber/testng-xml-formatter/README.md) | 0.8.3 :warning: |
 | <!-- 20260805203421 --> [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 0.14.1 :warning: |
