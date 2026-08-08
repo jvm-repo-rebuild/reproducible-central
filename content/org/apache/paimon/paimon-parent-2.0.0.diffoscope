@@ -1,0 +1,114 @@
+1 / 1 target/reference/org.apache.paimon/paimon-bundle-2.0.0.pom paimon-bundle/dependency-reduced-pom.xml
+--- target/reference/org.apache.paimon/paimon-bundle-2.0.0.pom
++++ paimon-bundle/dependency-reduced-pom.xml
+│   --- target/reference/org.apache.paimon/paimon-bundle-2.0.0.pom
+├── +++ paimon-bundle/dependency-reduced-pom.xml
+│ @@ -47,105 +47,66 @@
+│    <profiles>
+│      <profile>
+│        <id>docs-and-source</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-dependency-plugin</artifactId>
+│ -            <version>3.1.1</version>
+│              <executions>
+│                <execution>
+│                  <id>unpack-dependencies</id>
+│                  <phase>generate-sources</phase>
+│                  <goals>
+│                    <goal>unpack-dependencies</goal>
+│                  </goals>
+│                  <configuration>
+│                    <includeGroupIds>org.apache.paimon</includeGroupIds>
+│                    <classifier>sources</classifier>
+│ -                  <outputDirectory>/home/runner/work/paimon/paimon/paimon-bundle/target/dependency-sources</outputDirectory>
+│ +                  <outputDirectory>${project.build.directory}/dependency-sources</outputDirectory>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│            <plugin>
+│              <artifactId>maven-assembly-plugin</artifactId>
+│              <version>3.4.2</version>
+│              <executions>
+│                <execution>
+│ -                <id>source-release-assembly</id>
+│ -                <phase>none</phase>
+│ -                <goals>
+│ -                  <goal>single</goal>
+│ -                </goals>
+│ -                <configuration>
+│ -                  <runOnlyAtExecutionRoot>true</runOnlyAtExecutionRoot>
+│ -                  <descriptorRefs>
+│ -                    <descriptorRef>source-release</descriptorRef>
+│ -                  </descriptorRefs>
+│ -                  <tarLongFileMode>posix</tarLongFileMode>
+│ -                </configuration>
+│ -              </execution>
+│ -              <execution>
+│                  <id>make-sources-jar</id>
+│                  <phase>package</phase>
+│                  <goals>
+│                    <goal>single</goal>
+│                  </goals>
+│                  <configuration>
+│                    <descriptors>
+│                      <descriptor>src/assembly/src-assembly.xml</descriptor>
+│                    </descriptors>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│ -            <dependencies>
+│ -              <dependency>
+│ -                <groupId>org.apache.apache.resources</groupId>
+│ -                <artifactId>apache-source-release-assembly-descriptor</artifactId>
+│ -                <version>1.0.6</version>
+│ -                <scope>compile</scope>
+│ -              </dependency>
+│ -            </dependencies>
+│            </plugin>
+│            <plugin>
+│              <artifactId>maven-javadoc-plugin</artifactId>
+│ -            <version>3.11.2</version>
+│              <executions>
+│                <execution>
+│                  <id>attach-javadocs</id>
+│                  <goals>
+│                    <goal>jar</goal>
+│                  </goals>
+│ -                <configuration>
+│ -                  <quiet>true</quiet>
+│ -                  <detectOfflineLinks>false</detectOfflineLinks>
+│ -                  <source>8</source>
+│ -                  <failOnError>false</failOnError>
+│ -                  <additionalJOptions>
+│ -                    <additionalJOption>-Xdoclint:none</additionalJOption>
+│ -                  </additionalJOptions>
+│ -                </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│                <quiet>true</quiet>
+│ -              <detectOfflineLinks>false</detectOfflineLinks>
+│ -              <source>8</source>
+│ -              <failOnError>false</failOnError>
+│ -              <additionalJOptions>
+│ -                <additionalJOption>-Xdoclint:none</additionalJOption>
+│ -              </additionalJOptions>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│          <os.detected.bitness>64</os.detected.bitness>
+│ -        <os.detected.release.version>24.04</os.detected.release.version>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│          <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│          <os.detected.release>ubuntu</os.detected.release>
+│          <os.detected.name>linux</os.detected.name>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+
