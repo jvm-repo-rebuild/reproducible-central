@@ -3,8 +3,8 @@
   <groupId>org.codehaus.plexus</groupId>
   <artifactId>plexus</artifactId>
   <versioning>
-    <latest>25</latest>
-    <release>25</release>
+    <latest>26</latest>
+    <release>26</release>
     <versions>
       <version>1.0.4</version>
       <version>1.0.5</version>
@@ -60,7 +60,8 @@
       <version>23</version>
       <version>24</version>
       <version>25</version>
+      <version>26</version>
     </versions>
-    <lastUpdated>20260103120511</lastUpdated>
+    <lastUpdated>20260808175914</lastUpdated>
   </versioning>
 </metadata>

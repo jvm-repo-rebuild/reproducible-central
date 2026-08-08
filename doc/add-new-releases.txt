@@ -1,2 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/hibegin/zrlog-base/zrlog-base-3.5.9.buildspec:3.5.10
+content/eu/maveniverse/maven/scalpel/scalpel-0.3.9.buildspec:0.3.10
+content/io/avaje/jsonb/avaje-jsonb-3.15-RC3.buildspec:3.15-RC4
+content/org/codehaus/plexus/plexus-pom/plexus-pom-25.buildspec:26

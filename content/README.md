@@ -121,7 +121,7 @@ Reproducible Builds for Maven Central Repository
 | com.google.mug | [mug](../content/com/google/mug/README.md) | 16 | 16 :white_check_mark: |
 | com.google.code.gson | [gson](../content/com/google/code/gson/README.md) | 8 | 8 :white_check_mark: |
 | com.hibegin | [common-dao](../content/com/hibegin/common-dao/README.md) | 30 | 17 :white_check_mark: / 13 :warning: |
-| | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 107 | 13 :white_check_mark: / 94 :warning: |
+| | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 118 | 21 :white_check_mark: / 97 :warning: |
 | com.homeofthewizard | [gcp-secretmanager-maven-plugin](../content/com/homeofthewizard/gcp-secretmanager-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [spring-bridge-maven-plugin](../content/com/homeofthewizard/spring-bridge-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [vault-maven-plugin](../content/com/homeofthewizard/vault-maven-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
@@ -478,7 +478,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.orc | [orc](../content/org/apache/orc/README.md) | 43 | 25 :white_check_mark: / 18 :warning: |
 | org.apache.paimon | [paimon-parent](../content/org/apache/paimon/README.md) | 18 | 4 :white_check_mark: / 14 :warning: |
 | org.apache.pinot | [pinot](../content/org/apache/pinot/README.md) | 2 | 2 :warning: |
-| org.apache.pulsar | [pulsar](../content/org/apache/pulsar/README.md) | 45 | 45 :warning: |
+| org.apache.pulsar | [pulsar](../content/org/apache/pulsar/README.md) | 46 | 46 :warning: |
 | org.apache.rat | [apache-rat-project](../content/org/apache/rat/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | org.apache.ratis | [ratis](../content/org/apache/ratis/README.md) | 11 | 3 :white_check_mark: / 8 :warning: |
 | org.apache.shiro | [shiro-root](../content/org/apache/shiro/README.md) | 22 | 6 :white_check_mark: / 16 :warning: |
@@ -968,7 +968,7 @@ Reproducible Builds for Maven Central Repository
 | | [jszip](../content/org/webjars/jszip/README.md) | 1 | 1 :white_check_mark: |
 | | [openlayers](../content/org/webjars/openlayers/README.md) | 1 | 1 :white_check_mark: |
 | | [redoc](../content/org/webjars/redoc/README.md) | 5 | 5 :white_check_mark: |
-| | [swagger-ui](../content/org/webjars/swagger-ui/README.md) | 44 | 42 :white_check_mark: / 2 :warning: |
+| | [swagger-ui](../content/org/webjars/swagger-ui/README.md) | 45 | 42 :white_check_mark: / 3 :warning: |
 | | [uswds](../content/org/webjars/uswds/README.md) | 1 | 1 :white_check_mark: |
 | | [webjars-locator](../content/org/webjars/webjars-locator/README.md) | 7 | 7 :white_check_mark: |
 | | [webjars-locator-core](../content/org/webjars/webjars-locator-core/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
@@ -990,7 +990,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 30 | 5 :white_check_mark: / 25 :warning: |
-| **Count:** | **976** | **11840** | **8721** :white_check_mark:<br>**3119** :warning: |
+| **Count:** | **976** | **11853** | **8729** :white_check_mark:<br>**3124** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1001,7 +1001,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      35 gradle     11
     254 gradle     17
-    200 gradle     21
+    201 gradle     21
       5 gradle     24
      88 gradle     25
      35 mvn         7
@@ -1079,10 +1079,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.11  24
     113 mvn-3.9.11  25
       3 mvn-3.9.11  26
-     28 mvn-3.9.12   8
+     29 mvn-3.9.12   8
      39 mvn-3.9.12  11
      77 mvn-3.9.12  17
-    289 mvn-3.9.12  21
+    300 mvn-3.9.12  21
       2 mvn-3.9.12  22
      16 mvn-3.9.12  24
     130 mvn-3.9.12  25

@@ -22,6 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260808180728 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.5.9](../content/com/hibegin/zrlog-base/zrlog-base-3.5.9.buildspec) :white_check_mark: | [3.5.10](../content/com/hibegin/zrlog-base/zrlog-base-3.5.10.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.5.9.buildspec 3.5.10` |
+| <!-- 20260808175914 --> [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | [25](../content/org/codehaus/plexus/plexus-pom/plexus-pom-25.buildspec) :white_check_mark: | [26](../content/org/codehaus/plexus/plexus-pom/plexus-pom-26.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-pom/plexus-pom-25.buildspec 26` |
+| <!-- 20260807231518 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.15-RC3](../content/io/avaje/jsonb/avaje-jsonb-3.15-RC3.buildspec) :white_check_mark: | [3.15-RC4](../content/io/avaje/jsonb/avaje-jsonb-3.15-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.15-RC3.buildspec 3.15-RC4` |
+| <!-- 20260807220918 --> [scalpel](../content/eu/maveniverse/maven/scalpel/README.md) | [0.3.9](../content/eu/maveniverse/maven/scalpel/scalpel-0.3.9.buildspec) :white_check_mark: | [0.3.10](../content/eu/maveniverse/maven/scalpel/scalpel-0.3.10.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/scalpel/scalpel-0.3.9.buildspec 0.3.10` |
 | <!-- 20260721152122 --> [jline](../content/org/jline/README.md) | [4.3.1](../content/org/jline/jline-4.3.1.buildspec) :white_check_mark: | 4.0.16 4.0.11 4.0.9 4.0.8 4.0.7 4.0.6 4.0.5 4.0.4 4.0.3 4.0.2 3.30.16 3.30.15 3.30.14  | `bin/add-new-release.sh content/org/jline/jline-4.3.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -50,11 +54,9 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260806111121 --> [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | [3.3.10](../content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec) :x: | [3.5.9](../content/com/hibegin/zrlog-base/zrlog-base-3.5.9.buildspec) | `bin/add-new-release.sh content/com/hibegin/zrlog-base/zrlog-base-3.3.10.buildspec 3.5.9` |
+| <!-- 20260808161953 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | [0.8.2](../content/io/jstach/rainbowgum/rainbowgum-0.8.2.buildspec) :warning: | [0.9.0](../content/io/jstach/rainbowgum/rainbowgum-0.9.0.buildspec) | `bin/add-new-release.sh content/io/jstach/rainbowgum/rainbowgum-0.8.2.buildspec 0.9.0` |
 | <!-- 20260805115536 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.138.2](../content/org/finos/legend/engine/legend-engine-4.138.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.138.2` |
-| <!-- 20260803100313 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.2.4](../content/org/apache/pulsar/pulsar-4.2.4.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/issues/24718) | [5.0.0-M1](../content/org/apache/pulsar/pulsar-5.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.2.4.buildspec 5.0.0-M1` |
 | <!-- 20260722225426 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.27.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.27.0.buildspec) :warning: | [2.30.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.27.0.buildspec 2.30.0` |
-| <!-- 20260722144548 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.32.11](../content/org/webjars/swagger-ui/swagger-ui-5.32.11.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.32.11` |
 | <!-- 20260721153950 --> [tika](../content/org/apache/tika/README.md) | [4.0.0-alpha-1](../content/org/apache/tika/tika-4.0.0-alpha-1.buildspec) :warning: | [4.0.0-beta-1](../content/org/apache/tika/tika-4.0.0-beta-1.buildspec) | `bin/add-new-release.sh content/org/apache/tika/tika-4.0.0-alpha-1.buildspec 4.0.0-beta-1` |
 | <!-- 20260719090915 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.3.2](../content/com/taobao/arthas/arthas-4.3.2.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.3.2` |
 | <!-- 20260718013347 --> [trino-root](../content/io/trino/README.md) | [477](../content/io/trino/trino-477.buildspec) :warning: | [483](../content/io/trino/trino-483.buildspec) | `bin/add-new-release.sh content/io/trino/trino-477.buildspec 483` |
@@ -84,6 +86,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260803223034 --> [maven](../content/org/apache/maven/maven/README.md) | 4.0.0-rc-6 :warning: |
 | <!-- 20260803222850 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 9.0.0-M2 :x: |
 | <!-- 20260803104159 --> [dependency-check-parent](../content/org/owasp/dependency-check/README.md) | 13.0.0 :warning: |
+| <!-- 20260803100313 --> [pulsar](../content/org/apache/pulsar/README.md) | 5.0.0-M1 :warning: |
 | <!-- 20260803073447 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.11.0 :warning: |
 | <!-- 20260728175734 --> [clojure](../content/org/clojure/README.md) | 1.13.0-alpha6 :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) |
 | <!-- 20260727155308 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.3.0 :warning: |
@@ -92,6 +95,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260724154657 --> [systemds](../content/org/apache/systemds/README.md) | 3.4.0 :warning: |
 | <!-- 20260724091534 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.21 :warning: |
 | <!-- 20260722185534 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.7 :warning: |
+| <!-- 20260722144548 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | 5.32.11 :x: |
 | <!-- 20260720130152 --> [eforms-sdk](../content/eu/europa/ted/eforms/eforms-sdk/README.md) | 2.0.0-alpha.2 :warning: |
 | <!-- 20260720084710 --> [syncope](../content/org/apache/syncope/README.md) | 4.1.2 :warning: |
 | <!-- 20260717160839 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.15 :warning: |
@@ -193,7 +197,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20250911141308 --> [angus-activation-project](../content/org/eclipse/angus/activation/README.md) | 2.1.0-M1 :warning: |
 | <!-- 20250829092417 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.13.1 :warning: [:memo:](https://github.com/apache/plc4x/pull/2407) |
 | <!-- 20250707085541 --> [java-sql-parent](../content/com/github/nbbrd/java-sql-util/README.md) | 1.0.7 :warning: |
-| <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | 0.8.2 :warning: |
 | <!-- 20250628075449 --> [drill-root](../content/org/apache/drill/README.md) | 1.22.0 :warning: |
 | <!-- 20250603145335 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.4 :warning: |
 | <!-- 20250522194000 --> [com.io7m.gtyrell](../content/com/io7m/gtyrell/README.md) | 4.0.1 :warning: |

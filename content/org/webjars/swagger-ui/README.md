@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/swagger-ui.git](https://github.com/webjars/swagger-ui.git)
 
-rebuilding **44 releases** of org.webjars:swagger-ui:
+rebuilding **45 releases** of org.webjars:swagger-ui:
 - **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.32.11](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.11/pom) | | | |
+| [5.32.11](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.11/pom) | [mvn jdk8](swagger-ui-5.32.11.buildspec) | :x: | |
 | [5.32.10](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.10/pom) | | | |
 | [5.32.9](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.9/pom) | | | |
 | [5.32.8](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.8/pom) | | | |
