@@ -17,15 +17,15 @@ Source code: [https://github.com/zrlog-extensions/zrlog-base](https://github.com
 * [com.hibegin:zrlog-template](https://central.sonatype.com/artifact/com.hibegin/zrlog-template/overview)
 </details>
 
-rebuilding **108 releases** of com.hibegin:zrlog-base:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **109 releases** of com.hibegin:zrlog-base:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 94 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 84, 84 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [3.5.9](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.9/pom) | [mvn jdk21](zrlog-base-3.5.9.buildspec) | [result](zrlog-base-3.5.9.buildinfo): [16 :white_check_mark: ](zrlog-base-3.5.9.buildcompare) | | 608K |
-| [3.5.8](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.8/pom) | | | |
+| [3.5.8](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.8/pom) | [mvn jdk21](zrlog-base-3.5.8.buildspec) | [result](zrlog-base-3.5.8.buildinfo): [16 :white_check_mark: ](zrlog-base-3.5.8.buildcompare) | | 584K |
 | [3.5.7](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.7/pom) | | | |
 | [3.5.6](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.6/pom) | | | |
 | [3.5.5](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.5/pom) | | | |
