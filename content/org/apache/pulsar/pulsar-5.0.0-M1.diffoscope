@@ -1,0 +1,84 @@
+1 / 13 central/org/apache/pulsar/pulsar-client-admin/5.0.0-M1/pulsar-client-admin-5.0.0-M1.jar repository/org/apache/pulsar/pulsar-client-admin/5.0.0-M1/pulsar-client-admin-5.0.0-M1.jar
+--- central/org/apache/pulsar/pulsar-client-admin/5.0.0-M1/pulsar-client-admin-5.0.0-M1.jar
++++ repository/org/apache/pulsar/pulsar-client-admin/5.0.0-M1/pulsar-client-admin-5.0.0-M1.jar
+├── org/apache/pulsar/pulsar-version.properties
+│ @@ -1,9 +1,2 @@
+│  # Pulsar build info
+│  version=5.0.0-M1
+│ -git.commit.id=8dae0236c0a0d405ed7f8303081080520fe91551
+│ -git.dirty=false
+│ -git.branch=branch-5.0-M1
+│ -git.build.user.email=lhotari@apache.org
+│ -git.build.user.name=Lari Hotari
+│ -git.build.host=Laris-MacBook-Pro-2.local
+│ -git.build.time=2026-06-16T14:21:59Z
+
+# same as #1
+2 / 13 central/org/apache/pulsar/pulsar-client-all/5.0.0-M1/pulsar-client-all-5.0.0-M1.jar repository/org/apache/pulsar/pulsar-client-all/5.0.0-M1/pulsar-client-all-5.0.0-M1.jar
+5 / 13 central/org/apache/pulsar/pulsar-client/5.0.0-M1/pulsar-client-5.0.0-M1.jar repository/org/apache/pulsar/pulsar-client/5.0.0-M1/pulsar-client-5.0.0-M1.jar
+6 / 13 central/org/apache/pulsar/pulsar-common/5.0.0-M1/pulsar-common-5.0.0-M1.jar repository/org/apache/pulsar/pulsar-common/5.0.0-M1/pulsar-common-5.0.0-M1.jar
+9 / 13 central/org/apache/pulsar/pulsar-functions-local-runner-shaded/5.0.0-M1/pulsar-functions-local-runner-shaded-5.0.0-M1.jar repository/org/apache/pulsar/pulsar-functions-local-runner-shaded/5.0.0-M1/pulsar-functions-local-runner-shaded-5.0.0-M1.jar
+
+3 / 13 central/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1-nar.nar repository/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1-nar.nar
+--- central/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1-nar.nar
++++ repository/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1-nar.nar
+@@ -0,0 +1,2217 @@
++00000000: 504b 0304 1400 0008 0800 0000 4100 0000  PK..........A...
++00000010: 0000 0200 0000 0000 0000 0900 0000 4d45  ..............ME
+...
++00008a70: 392e 6a61 7250 4b05 0600 0000 0010 0010  9.jarPK.........
++00008a80: 0035 0500 0040 8500 0000 00              .5...@.....
+
+4 / 13 central/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1.pom repository/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1.pom
+--- central/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1.pom
++++ repository/org/apache/pulsar/pulsar-client-tools-customcommand-example/5.0.0-M1/pulsar-client-tools-customcommand-example-5.0.0-M1.pom
+@@ -0,0 +1,70 @@
++00000000: 3c3f 786d 6c20 7665 7273 696f 6e3d 2231  <?xml version="1
++00000010: 2e30 2220 656e 636f 6469 6e67 3d22 5554  .0" encoding="UT
+...
++00000440: 6573 6372 6970 7469 6f6e 3e0a 3c2f 7072  escription>.</pr
++00000450: 6f6a 6563 743e 0a                        oject>.
+
+7 / 13 central/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.nar repository/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.nar
+--- central/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.nar
++++ repository/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.nar
+@@ -0,0 +1,5118 @@
++00000000: 504b 0304 1400 0008 0800 0000 4100 0000  PK..........A...
++00000010: 0000 0200 0000 0000 0000 0900 0000 4d45  ..............ME
+...
++00013fb0: 6f67 2d30 2e39 2e39 2e6a 6172 504b 0506  og-0.9.9.jarPK..
++00013fc0: 0000 0000 0700 0700 2302 0000 993d 0100  ........#....=..
++00013fd0: 0000                                     ..
+
+8 / 13 central/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.pom repository/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.pom
+--- central/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.pom
++++ repository/org/apache/pulsar/pulsar-functions-api-examples-builtin/5.0.0-M1/pulsar-functions-api-examples-builtin-5.0.0-M1.pom
+@@ -0,0 +1,69 @@
++00000000: 3c3f 786d 6c20 7665 7273 696f 6e3d 2231  <?xml version="1
++00000010: 2e30 2220 656e 636f 6469 6e67 3d22 5554  .0" encoding="UT
+...
++00000420: 2d65 7861 6d70 6c65 732d 6275 696c 7469  -examples-builti
++00000430: 6e3c 2f64 6573 6372 6970 7469 6f6e 3e0a  n</description>.
++00000440: 3c2f 7072 6f6a 6563 743e 0a              </project>.
+
+10 / 13 central/org/apache/pulsar/pulsar-io-batch-data-generator/5.0.0-M1/pulsar-io-batch-data-generator-5.0.0-M1.nar repository/org/apache/pulsar/pulsar-io-batch-data-generator/5.0.0-M1/pulsar-io-batch-data-generator-5.0.0-M1.nar
+--- central/org/apache/pulsar/pulsar-io-batch-data-generator/5.0.0-M1/pulsar-io-batch-data-generator-5.0.0-M1.nar
++++ repository/org/apache/pulsar/pulsar-io-batch-data-generator/5.0.0-M1/pulsar-io-batch-data-generator-5.0.0-M1.nar
+├── META-INF/MANIFEST.MF
+│ @@ -2,10 +2,10 @@
+│  Implementation-Title: pulsar-io-batch-data-generator
+│  Implementation-Version: 5.0.0-M1
+│  Nar-Id: pulsar-io-batch-data-generator
+│  Nar-Group: org.apache.pulsar
+│  Nar-Version: 5.0.0-M1
+│  Clone-During-Instance-Class-Loading: false
+│  Created-By: Pulsar NAR Gradle Plugin
+│ -Build-Timestamp: 2026-06-16T12:30:40Z
+│ -Build-Tag: vx.y.z.m-5361-g8dae0236c0a
+│ +Build-Timestamp: 2026-08-08T10:43:31Z
+│ +Build-Tag: v5.0.0-M1
+
+# same as #10
+11 / 13 central/org/apache/pulsar/pulsar-io-data-generator/5.0.0-M1/pulsar-io-data-generator-5.0.0-M1.nar repository/org/apache/pulsar/pulsar-io-data-generator/5.0.0-M1/pulsar-io-data-generator-5.0.0-M1.nar
+12 / 13 central/org/apache/pulsar/tiered-storage-file-system/5.0.0-M1/tiered-storage-file-system-5.0.0-M1.nar repository/org/apache/pulsar/tiered-storage-file-system/5.0.0-M1/tiered-storage-file-system-5.0.0-M1.nar
+13 / 13 central/org/apache/pulsar/tiered-storage-jcloud/5.0.0-M1/tiered-storage-jcloud-5.0.0-M1.nar repository/org/apache/pulsar/tiered-storage-jcloud/5.0.0-M1/tiered-storage-jcloud-5.0.0-M1.nar
