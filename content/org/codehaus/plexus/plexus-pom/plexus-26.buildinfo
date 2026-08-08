@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=26
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-pom.git
+source.scm.tag=plexus-26
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-26.pom
+outputs.0.length=31648
+outputs.0.checksums.sha512=91f022ac1f8f4d524daa55e29923c02a12e105e813e420114b022772c8b2afcc088940c6e556538b7359ec34fbd2f45d7cb5ba77fd7912ce9890127025a50dd8
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-26-site.xml
+outputs.1.length=3288
+outputs.1.checksums.sha512=b35027088eee7fc19180bb0421cbb5f8bb2538bc53f7b0bfec7e9c570d804f6c89ca6124b0d9f8f4a1513e9d1b5e475ff1992a5855ae557a190573725c87d399
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-26-source-release.zip
+outputs.2.length=32002
+outputs.2.checksums.sha512=4c0a705b23b4c331989cb355cbbe6e39b9b0e8cf2000364fdc571b267d7ab68f8d7c1d03215d15fdfe7586beb7c164e2cfd9cbd99731d4ad7ac326aba3d1596a
