@@ -17,8 +17,8 @@ Source code: [https://github.com/zrlog-extensions/zrlog-base](https://github.com
 * [com.hibegin:zrlog-template](https://central.sonatype.com/artifact/com.hibegin/zrlog-template/overview)
 </details>
 
-rebuilding **112 releases** of com.hibegin:zrlog-base:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **113 releases** of com.hibegin:zrlog-base:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 93 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 84, 84 had all their differences removed :recycle:
 
@@ -29,7 +29,7 @@ rebuilding **112 releases** of com.hibegin:zrlog-base:
 | [3.5.7](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.7/pom) | [mvn jdk21](zrlog-base-3.5.7.buildspec) | [result](zrlog-base-3.5.7.buildinfo): [16 :white_check_mark: ](zrlog-base-3.5.7.buildcompare) | | 584K |
 | [3.5.6](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.6/pom) | [mvn jdk21](zrlog-base-3.5.6.buildspec) | [result](zrlog-base-3.5.6.buildinfo): [16 :white_check_mark: ](zrlog-base-3.5.6.buildcompare) | | 584K |
 | [3.5.5](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.5/pom) | [mvn jdk21](zrlog-base-3.5.5.buildspec) | [result](zrlog-base-3.5.5.buildinfo): [16 :white_check_mark: ](zrlog-base-3.5.5.buildcompare) | | 568K |
-| [3.5.4](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.4/pom) | | | |
+| [3.5.4](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.4/pom) | [mvn jdk21](zrlog-base-3.5.4.buildspec) | [result](zrlog-base-3.5.4.buildinfo): [16 :white_check_mark: ](zrlog-base-3.5.4.buildcompare) | | 568K |
 | [3.5.3](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.3/pom) | | | |
 | [3.5.2](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.2/pom) | | | |
 | [3.5.1](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.5.1/pom) | | | |
