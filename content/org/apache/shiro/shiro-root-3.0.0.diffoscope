@@ -1,0 +1,54 @@
+1 /        1 target/reference/org.apache.shiro/shiro-aspectj-3.0.0.jar support/aspectj/target/shiro-aspectj-3.0.0.jar
+--- target/reference/org.apache.shiro/shiro-aspectj-3.0.0.jar
++++ support/aspectj/target/shiro-aspectj-3.0.0.jar
+├── org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,9 +1,9 @@
+│ │ -Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_ft2vho_b_target/tmplg8k1weo_ZipContainer/ShiroAnnotationAuthorizingAspect.class
+│ │ -  SHA-256 checksum d5064e4809b7a751a24bcd85329fc06a707130a37e2678139097fe19f1a3c14f
+│ │ +Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_ft2vho_b_target/tmp6_lpdsdu_ZipContainer/ShiroAnnotationAuthorizingAspect.class
+│ │ +  SHA-256 checksum 9a81dff17d2ef0bc5d71fc5503326872dc3ece0a2a19eabe6b160ebd0ffd31ec
+│ │    Compiled from "ShiroAnnotationAuthorizingAspect.java"
+│ │  public class org.apache.shiro.aspectj.ShiroAnnotationAuthorizingAspect
+│ │    minor version: 0
+│ │    major version: 61
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │    this_class: #1                          // org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect
+│ │    super_class: #3                         // java/lang/Object
+│ │ @@ -327,15 +327,15 @@
+│ │     2F 61 75 74 68 7A 2F 61 6E 6E 6F 74 61 74 69 6F
+│ │     6E 2F 52 65 71 75 69 72 65 73 55 73 65 72 3B 00
+│ │     00 01 35 00 00 01 63 00 00 00 00 00 00 00 01 35
+│ │     00 00 01 6B 00 00 01 2B 00 00 01 6C 00 00 00 E4
+│ │     00 00 01 6C 00 00 00 97 00 00 01 6C 00 00 00 50
+│ │     00 00 01 6C 00 00 00 00 00 00 01 6C
+│ │    org.aspectj.weaver.WeaverVersion: length = 0xC (unknown attribute)
+│ │ -   00 07 00 00 00 00 01 9B 29 78 2B A0
+│ │ +   00 07 00 00 00 00 00 00 00 00 00 00
+│ │    org.aspectj.weaver.PointcutDeclaration: length = 0x2AE (unknown attribute)
+│ │     00 3B 4C 6F 72 67 2F 61 70 61 63 68 65 2F 73 68
+│ │     69 72 6F 2F 61 73 70 65 63 74 6A 2F 53 68 69 72
+│ │     6F 41 6E 6E 6F 74 61 74 69 6F 6E 41 75 74 68 6F
+│ │     72 69 7A 69 6E 67 41 73 70 65 63 74 3B 00 00 00
+│ │     00 00 1B 61 6E 79 53 68 69 72 6F 41 6E 6E 6F 74
+│ │     61 74 65 64 4D 65 74 68 6F 64 43 61 6C 6C 00 01
+│ │ @@ -460,16 +460,16 @@
+│ │     00 00 30 4C 6F 72 67 2F 61 70 61 63 68 65 2F 73
+│ │     68 69 72 6F 2F 61 75 74 68 7A 2F 61 6E 6E 6F 74
+│ │     61 74 69 6F 6E 2F 52 65 71 75 69 72 65 73 55 73
+│ │     65 72 3B 00 00 01 35 00 00 01 63 00 00 00 00 00
+│ │     00 00 01 35 00 00 01 6B 00 00 01 2B 00 00 01 6C
+│ │     00 00 00 E4 00 00 01 6C 00 00 00 97 00 00 01 6C
+│ │     00 00 00 50 00 00 01 6C 00 00 00 00 00 00 01 6C
+│ │ -   00 31 00 00 00 0C 00 07 00 00 00 00 01 9B 29 78
+│ │ -   2B A0 00 2A 00 00 02 AE 00 3B 4C 6F 72 67 2F 61
+│ │ +   00 31 00 00 00 0C 00 07 00 00 00 00 00 00 00 00
+│ │ +   00 00 00 2A 00 00 02 AE 00 3B 4C 6F 72 67 2F 61
+│ │     70 61 63 68 65 2F 73 68 69 72 6F 2F 61 73 70 65
+│ │     63 74 6A 2F 53 68 69 72 6F 41 6E 6E 6F 74 61 74
+│ │     69 6F 6E 41 75 74 68 6F 72 69 7A 69 6E 67 41 73
+│ │     70 65 63 74 3B 00 00 00 00 00 1B 61 6E 79 53 68
+│ │     69 72 6F 41 6E 6E 6F 74 61 74 65 64 4D 65 74 68
+│ │     6F 64 43 61 6C 6C 00 01 00 1C 4C 6F 72 67 2F 61
+│ │     73 70 65 63 74 6A 2F 6C 61 6E 67 2F 4A 6F 69 6E
+
