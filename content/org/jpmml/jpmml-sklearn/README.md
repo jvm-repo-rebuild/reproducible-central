@@ -20,14 +20,14 @@ Source code: [https://github.com/jpmml/jpmml-sklearn.git](https://github.com/jpm
 * [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/overview)
 </details>
 
-rebuilding **52 releases** of org.jpmml:jpmml-sklearn:
+rebuilding **53 releases** of org.jpmml:jpmml-sklearn:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 41 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 40, 15 had all their differences removed :recycle:, 25 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 42 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 41, 15 had all their differences removed :recycle:, 26 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.9.40](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.40/pom) | | | |
+| [1.9.40](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.40/pom) | [mvn jdk11](jpmml-sklearn-1.9.40.buildspec) | [result](jpmml-sklearn-1.9.40.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-sklearn-1.9.40.buildcompare) | 15 :recycle: 2 :rotating_light: | 7.4M |
 | [1.9.39](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.39/pom) | [mvn jdk11](jpmml-sklearn-1.9.39.buildspec) | [result](jpmml-sklearn-1.9.39.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-sklearn-1.9.39.buildcompare) | 15 :recycle: 2 :rotating_light: | 7.2M |
 | [1.9.38](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.38/pom) | [mvn jdk11](jpmml-sklearn-1.9.38.buildspec) | [result](jpmml-sklearn-1.9.38.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-sklearn-1.9.38.buildcompare) | 15 :recycle: 1 :rotating_light: 1 :no_entry_sign: | 7.2M |
 | [1.9.37](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.37/pom) | [mvn jdk11](jpmml-sklearn-1.9.37.buildspec) | :x: | |
