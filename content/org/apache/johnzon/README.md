@@ -23,13 +23,13 @@ Source code: [https://github.com/apache/johnzon.git](https://github.com/apache/j
 * [org.apache.johnzon:johnzon-websocket](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-websocket/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.johnzon:johnzon:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.apache.johnzon:johnzon:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.2.0/pom) | | | |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.2.0/pom) | [mvn jdk17](johnzon-2.2.0.buildspec) | [result](johnzon-2.2.0.buildinfo): [37 :white_check_mark: ](johnzon-2.2.0.buildcompare) | | 14M |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.1.0/pom) | [mvn jdk17](johnzon-2.1.0.buildspec) | :x: | |
 | [2.0.2](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.0.2/pom) | [mvn jdk17](johnzon-2.0.2.buildspec) | [result](johnzon-2.0.2.buildinfo): [37 :white_check_mark: ](johnzon-2.0.2.buildcompare) | | 14M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.0.1/pom) | [mvn jdk11](johnzon-2.0.1.buildspec) | [result](johnzon-2.0.1.buildinfo): [38 :white_check_mark: ](johnzon-2.0.1.buildcompare) | | 14M |
