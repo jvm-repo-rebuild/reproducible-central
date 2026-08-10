@@ -3,8 +3,8 @@
   <groupId>org.itsallcode</groupId>
   <artifactId>openfasttrace-maven-plugin</artifactId>
   <versioning>
-    <latest>2.3.1</latest>
-    <release>2.3.1</release>
+    <latest>3.0.0</latest>
+    <release>3.0.0</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
@@ -26,7 +26,8 @@
       <version>2.2.0</version>
       <version>2.3.0</version>
       <version>2.3.1</version>
+      <version>3.0.0</version>
     </versions>
-    <lastUpdated>20260518090746</lastUpdated>
+    <lastUpdated>20260810070324</lastUpdated>
   </versioning>
 </metadata>

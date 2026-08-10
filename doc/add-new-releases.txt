@@ -1,7 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/google/mug/mug-10.7.buildspec:10.8.1
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-3.buildspec:11.5.1-beta-4
-content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.48.1.buildspec:0.49.0
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.4-beta-1.buildspec:5.17.4-beta-2
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.2.Final.buildspec:4.5.3.Final
+content/io/telicent/smart-caches/graph/scg-base/scg-base-1.1.0.buildspec:1.1.1
+content/org/apache/commons/commons-collections4/commons-collections4-4.5.0.buildspec:4.6.0
+content/org/itsallcode/openfasttrace-maven-plugin/openfasttrace-maven-plugin-2.3.1.buildspec:3.0.0
