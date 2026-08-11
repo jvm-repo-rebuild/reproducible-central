@@ -1,0 +1,86 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=QpidJMS
+group-id=org.apache.qpid
+artifact-id=qpid-jms-parent
+version=2.11.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/qpid-jms.git
+source.scm.tag=2.11.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=apache-qpid-jms
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.qpid:qpid-jms-parent
+
+outputs.0.0.groupId=org.apache.qpid
+outputs.0.0.filename=qpid-jms-parent-2.11.0.pom
+outputs.0.0.length=15520
+outputs.0.0.checksums.sha512=b05f7fcf9d6f56ad0171db75ac8745f4d7da6a65b6cb960e67f31f83f7aac6315d30387483c108ed11cbdfe66e2178035c2599e9186a8de8ae295123a0c4e0cc
+
+outputs.1.coordinates=org.apache.qpid:qpid-jms-client
+
+outputs.1.0.groupId=org.apache.qpid
+outputs.1.0.filename=qpid-jms-client-2.11.0.pom
+outputs.1.0.length=9326
+outputs.1.0.checksums.sha512=16c28f0c473723fc09481f0855873eae33b5650f32357d3341bb94d0f0f360e870d01c3d65fc7b3cb721d5ae15fd5ef6ac253a2c7a18c7004ec65044648a3020
+
+outputs.1.1.groupId=org.apache.qpid
+outputs.1.1.filename=qpid-jms-client-2.11.0.jar
+outputs.1.1.length=824696
+outputs.1.1.checksums.sha512=0f74b4fed2d2c727070a48c7648e0cd9a5e15b714e0dcfd87b06f5792c26e766dfcd7a28a9475b29ae8f6d732e2b25d7988a96bbb9a709103c4274e98580cf47
+
+outputs.1.2.groupId=org.apache.qpid
+outputs.1.2.filename=qpid-jms-client-2.11.0-sources.jar
+outputs.1.2.length=567705
+outputs.1.2.checksums.sha512=4e627c97c93e80a8ff9e31e776971b894317d35779d73802422c523d23759042b0bebc8dadc0804c2ae00465054f4f91f338cdab38858e3bd8aea266090eb392
+
+outputs.2.coordinates=org.apache.qpid:qpid-jms-discovery
+
+outputs.2.0.groupId=org.apache.qpid
+outputs.2.0.filename=qpid-jms-discovery-2.11.0.pom
+outputs.2.0.length=2340
+outputs.2.0.checksums.sha512=52fb3014efb5febea5c7c87a76714e073f5d50b7227b6c90c246b2fcf3178b2f629fc13aa8889e569b16c077851aba72b81b80977fb4ef5524e5211acc5b1ddf
+
+outputs.2.1.groupId=org.apache.qpid
+outputs.2.1.filename=qpid-jms-discovery-2.11.0.jar
+outputs.2.1.length=41498
+outputs.2.1.checksums.sha512=0e8d36ae287b97436a7868c86f07ffe75d976ab317a413b62a0e688e00d584632caaa520aeb0cbbb7ca31d3d1f5ca64b8ed16af79d257c489eb0cd0ab2ca3922
+
+outputs.2.2.groupId=org.apache.qpid
+outputs.2.2.filename=qpid-jms-discovery-2.11.0-sources.jar
+outputs.2.2.length=36086
+outputs.2.2.checksums.sha512=1d01ccf40295aa39242ef4c21faedb0d0c31c63032619b866a2252a59b372fd1fc7294c332fac891a639553a99bc5960ab7f0abcd4360a731b0de3b7e2c3e69e
+
+outputs.3.coordinates=org.apache.qpid:apache-qpid-jms
+
+outputs.3.0.groupId=org.apache.qpid
+outputs.3.0.filename=apache-qpid-jms-2.11.0.pom
+outputs.3.0.length=4060
+outputs.3.0.checksums.sha512=c78732d8ccbcb4ae073bc3aec8b5e96973833f3ef27e373a49273d03127851b9b9f39c3788151143231b19e7cefa7a6792a0356e761c60c9b9940970070f3018
+
+outputs.3.1.groupId=org.apache.qpid
+outputs.3.1.filename=apache-qpid-jms-2.11.0-bin.tar.gz
+outputs.3.1.length=4911062
+outputs.3.1.checksums.sha512=b6fd016e8a731244370d70bc98ad33c748ae15f2ca47deb744ae4c91122863bfa73bd601f1fe047d277d04f8a5d9be6529393670cd176a6a9718babe3f046745
+
+outputs.3.2.groupId=org.apache.qpid
+outputs.3.2.filename=apache-qpid-jms-2.11.0-src.tar.gz
+outputs.3.2.length=890614
+outputs.3.2.checksums.sha512=c8c01b38675ff741e96ce2089621c2139e4003b6140119a3084f3a33df9c49f9bc2c33b50d9e43e23da2b9663259a79dfa251bcdba472325123fe5beede34072
