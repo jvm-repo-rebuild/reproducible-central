@@ -805,6 +805,7 @@ rebuilding **12 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.22.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.22.0/pom) | | | |
 | [4.21.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.21.0/pom) | [mvn jdk25](camel-4.21.0.buildspec) | [result](camel-4.21.0.buildinfo): [677 :white_check_mark:  1253 :warning:](camel-4.21.0.buildcompare) | 1236 :recycle: 14 :rotating_light: 2 :no_entry_sign: | 559M |
 | [4.20.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.20.0/pom) | | | |
 | [4.19.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.19.0/pom) | | | |

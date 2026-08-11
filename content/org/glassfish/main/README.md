@@ -348,6 +348,7 @@ rebuilding **40 releases** of org.glassfish.main:glassfish-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [9.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M3/pom) | | | |
 | [9.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M2/pom) | [mvn jdk21](glassfish-9.0.0-M2.buildspec) | :x: | |
 | [9.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/9.0.0-M1/pom) | [mvn jdk21](glassfish-9.0.0-M1.buildspec) | :x: | |
 | [8.0.4](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.4/pom) | | | |

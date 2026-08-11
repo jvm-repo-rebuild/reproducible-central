@@ -379,7 +379,7 @@ Reproducible Builds for Maven Central Repository
 | | [takari-plugin-testing](../content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](../content/io/telicent/jena/jena-kafka/README.md) | 21 | 21 :white_check_mark: |
 | | [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | 33 | 33 :white_check_mark: |
-| io.telicent.smart-caches.graph | [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | 75 | 75 :white_check_mark: |
+| io.telicent.smart-caches.graph | [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | 76 | 75 :white_check_mark: / 1 :warning: |
 | io.wcm | [*.caconfig.editor](../content/io/wcm/io.wcm.caconfig/README.md) | 13 | 13 :warning: |
 | | [*.parent_toplevel](../content/io/wcm/tooling/README.md) | 29 | 29 :white_check_mark: |
 | | [*.handler.commons](../content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -472,7 +472,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.ignite | [apache-ignite](../content/org/apache/ignite/README.md) | 2 | 2 :warning: |
 | org.apache.isis | [isis-parent](../content/org/apache/isis/README.md) | 1 | 1 :warning: |
 | org.apache | [jdo](../content/org/apache/jdo/README.md) | 2 | 2 :warning: |
-| org.apache.johnzon | [johnzon](../content/org/apache/johnzon/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
+| org.apache.johnzon | [johnzon](../content/org/apache/johnzon/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | org.apache.jspwiki | [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 11 | 1 :white_check_mark: / 10 :warning: |
 | org.apache.mina | [mina-parent](../content/org/apache/mina/README.md) | 20 | 8 :white_check_mark: / 12 :warning: |
 | org.apache.orc | [orc](../content/org/apache/orc/README.md) | 43 | 25 :white_check_mark: / 18 :warning: |
@@ -860,7 +860,7 @@ Reproducible Builds for Maven Central Repository
 | org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 34 | 27 :white_check_mark: / 7 :warning: |
 | org.itsallcode | [junit5-system-extensions](../content/org/itsallcode/junit5-system-extensions/README.md) | 2 | 2 :white_check_mark: |
 | org.itsallcode.openfasttrace | [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 14 | 14 :warning: |
-| org.itsallcode | [openfasttrace-maven-plugin](../content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
+| org.itsallcode | [openfasttrace-maven-plugin](../content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | org.jpmml | [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | | [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 17 | 5 :white_check_mark: / 12 :warning: |
 | | [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 15 | 7 :white_check_mark: / 8 :warning: |
@@ -869,7 +869,7 @@ Reproducible Builds for Maven Central Repository
 | | [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 15 | 7 :white_check_mark: / 8 :warning: |
 | | [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 31 | 6 :white_check_mark: / 25 :warning: |
 | | [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 21 | 11 :white_check_mark: / 10 :warning: |
-| | [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 52 | 11 :white_check_mark: / 41 :warning: |
+| | [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 53 | 11 :white_check_mark: / 42 :warning: |
 | | [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 66 | 18 :white_check_mark: / 48 :warning: |
 | | [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 20 | 3 :white_check_mark: / 17 :warning: |
 | | [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 17 | 6 :white_check_mark: / 11 :warning: |
@@ -989,8 +989,8 @@ Reproducible Builds for Maven Central Repository
 | | [jackson-datatypes-misc](../content/tools/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 24 | 24 :white_check_mark: |
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
-| world.convex | [convex](../content/world/convex/README.md) | 30 | 5 :white_check_mark: / 25 :warning: |
-| **Count:** | **976** | **11865** | **8740** :white_check_mark:<br>**3125** :warning: |
+| world.convex | [convex](../content/world/convex/README.md) | 31 | 5 :white_check_mark: / 26 :warning: |
+| **Count:** | **976** | **11870** | **8742** :white_check_mark:<br>**3128** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1027,7 +1027,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    906 mvn        21
+    907 mvn        21
      15 mvn        22
      22 mvn        23
      41 mvn        24
@@ -1080,12 +1080,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     113 mvn-3.9.11  25
       3 mvn-3.9.11  26
      29 mvn-3.9.12   8
-     39 mvn-3.9.12  11
-     78 mvn-3.9.12  17
+     40 mvn-3.9.12  11
+     80 mvn-3.9.12  17
     303 mvn-3.9.12  21
       2 mvn-3.9.12  22
      18 mvn-3.9.12  24
-    130 mvn-3.9.12  25
+    131 mvn-3.9.12  25
       2 mvn-3.9.12  26
       1 mvn-3.9.12  27
       1 mvn-3.9.13  17
