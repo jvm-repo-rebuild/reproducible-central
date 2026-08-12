@@ -121,8 +121,8 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **64 releases** of dev.langchain4j:langchain4j:
-- **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **65 releases** of dev.langchain4j:langchain4j:
+- **43** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 14, 3 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -145,7 +145,7 @@ rebuilding **64 releases** of dev.langchain4j:langchain4j:
 | [1.13.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.13.0/pom) | [mvn jdk25](langchain4j-1.13.0.buildspec) | [result](langchain4j-aggregator-1.13.0.buildinfo): [305 :white_check_mark:  2 :warning:](langchain4j-aggregator-1.13.0.buildcompare) [:memo:](https://github.com/langchain4j/langchain4j/pull/4912) | 2 :recycle: | 470M |
 | [1.12.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.2/pom) | [mvn jdk25](langchain4j-1.12.2.buildspec) | [result](langchain4j-aggregator-1.12.2.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.2.buildcompare) | | 469M |
 | [1.12.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.12.1/pom) | [mvn jdk25](langchain4j-1.12.1.buildspec) | [result](langchain4j-aggregator-1.12.1.buildinfo): [298 :white_check_mark: ](langchain4j-aggregator-1.12.1.buildcompare) | | 469M |
-| [1.11.11](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.11/pom) | | | |
+| [1.11.11](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.11/pom) | [mvn jdk25](langchain4j-1.11.11.buildspec) | [result](langchain4j-aggregator-1.11.11.buildinfo): [280 :white_check_mark: ](langchain4j-aggregator-1.11.11.buildcompare) | | 469M |
 | [1.11.10](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.10/pom) | [mvn jdk25](langchain4j-1.11.10.buildspec) | [result](langchain4j-aggregator-1.11.10.buildinfo): [279 :white_check_mark:  1 :warning:](langchain4j-aggregator-1.11.10.buildcompare) | 1 :rotating_light: | 469M |
 | [1.11.9](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.9/pom) | [mvn jdk25](langchain4j-1.11.9.buildspec) | [result](langchain4j-aggregator-1.11.9.buildinfo): [252 :white_check_mark:  28 :warning:](langchain4j-aggregator-1.11.9.buildcompare) | 22 :recycle: 4 :rotating_light: 2 :no_entry_sign: | 469M |
 | [1.11.8](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.11.8/pom) | [mvn jdk25](langchain4j-1.11.8.buildspec) | [result](langchain4j-aggregator-1.11.8.buildinfo): [279 :white_check_mark:  1 :warning:](langchain4j-aggregator-1.11.8.buildcompare) | 1 :rotating_light: | 469M |
