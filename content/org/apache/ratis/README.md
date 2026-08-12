@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/ratis.git](https://github.com/apache/ratis.git)
 
-<details><summary>This project defines 21 modules:</summary>
+<details><summary>This project defines 22 modules:</summary>
 
 * [org.apache.ratis:ratis](https://central.sonatype.com/artifact/org.apache.ratis/ratis/overview)
 * [org.apache.ratis:ratis-assembly](https://central.sonatype.com/artifact/org.apache.ratis/ratis-assembly/overview)
@@ -30,16 +30,17 @@ Source code: [https://github.com/apache/ratis.git](https://github.com/apache/rat
 * [org.apache.ratis:ratis-shell](https://central.sonatype.com/artifact/org.apache.ratis/ratis-shell/overview)
 * [org.apache.ratis:ratis-test](https://central.sonatype.com/artifact/org.apache.ratis/ratis-test/overview)
 * [org.apache.ratis:ratis-tools](https://central.sonatype.com/artifact/org.apache.ratis/ratis-tools/overview)
+* [org.apache.ratis:ratis-trace-otel](https://central.sonatype.com/artifact/org.apache.ratis/ratis-trace-otel/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.ratis:ratis:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.apache.ratis:ratis:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.3.0/pom) | | | |
+| [3.3.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.3.0/pom) | [mvn jdk8](ratis-3.3.0.buildspec) | [result](ratis-3.3.0.buildinfo): [127 :white_check_mark: ](ratis-3.3.0.buildcompare) | | 131M |
 | [3.2.2](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.2.2/pom) | [mvn jdk8](ratis-3.2.2.buildspec) | [result](ratis-3.2.2.buildinfo): [92 :white_check_mark:  28 :warning:](ratis-3.2.2.buildcompare) [:mag:](ratis-3.2.2.diffoscope) | 1 :rotating_light: 27 :no_entry_sign: | 68M |
 | [3.2.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.2.1/pom) | [mvn jdk8](ratis-3.2.1.buildspec) | [result](ratis-3.2.1.buildinfo): [76 :white_check_mark:  43 :warning:](ratis-3.2.1.buildcompare) [:mag:](ratis-3.2.1.diffoscope) | 16 :rotating_light: 27 :no_entry_sign: | 68M |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.2.0/pom) | [mvn jdk8](ratis-3.2.0.buildspec) | [result](ratis-3.2.0.buildinfo): [126 :white_check_mark: ](ratis-3.2.0.buildcompare) | | 67M |
