@@ -1,8 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.6.1.buildspec:1.6.2
-content/eu/maveniverse/maven/nisse/nisse-0.9.4.buildspec:0.9.5
-content/org/apache/struts/struts2-7.2.1.buildspec:7.3.0
-content/org/apache/commons/commons-collections4/commons-collections4-4.5.0.buildspec:4.6.0
-content/org/apache/qpid/jms/qpid-jms-2.10.0.buildspec:2.11.0
-content/org/metricshub/winrm-java/winrm-java-2.0.00.buildspec:2.1.00
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.13.1.buildspec:0.13.2
+content/io/telicent/jena/jena-kafka/jena-kafka-3.1.0.buildspec:3.1.1
+content/io/telicent/jena/rdf-abac/rdf-abac-3.1.5.buildspec:3.1.6
+content/org/dbunit/dbunit-3.4.0.buildspec:3.5.0
