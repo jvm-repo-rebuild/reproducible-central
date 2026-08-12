@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Collections
+group-id=org.apache.commons
+artifact-id=commons-collections4
+version=4.6.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-collections.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-collections4-4.6.0.pom
+outputs.0.length=27763
+outputs.0.checksums.sha512=9a9ef7d0b59404f053453b805e79ea908af0cf91b9c58cda511e7cf752ef581758ab6bf723f5d0783fe04e48b83cad0f5a658e327a69bd5bc191baa4a932624b
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-collections4-4.6.0.jar
+outputs.1.length=934384
+outputs.1.checksums.sha512=76fc3fe1e6926d25f73493595bca77441cf725843c394ed0783c117c4cb9d6d843ca48c60ca1298fcc70c3f0561ea8c2a190749b75ed6b56b286c33f7b2e68a2
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-collections4-4.6.0-tests.jar
+outputs.2.length=1133241
+outputs.2.checksums.sha512=9f06898680a41b32d3bb16324d58a20a8ec1cbc36bd5cb2cb369ed51b762d83ff45c018ffefea47ef0a526d3278512ca337dcf4e43f15a67d0b4d725be00a5aa
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-collections4-4.6.0-sources.jar
+outputs.3.length=830635
+outputs.3.checksums.sha512=11f08ac33ed6b8736599884d1b39ddf5dbb176b7b65873bcc6f2afc7112c1549c4b86ee74f68bbe7fad693ff4839af384480bcde516c04dfda8b37852c711a40
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-collections4-4.6.0-test-sources.jar
+outputs.4.length=706467
+outputs.4.checksums.sha512=e1c1e2f2906c867728317db4851082ea6ffa81c4b1ec6a59ba676761347c959b0b32a0731deea06cca4ce99ada8ac9499a4272c2fbe3e23f75ed7ffe2a79ad3b
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-collections4-4.6.0-cyclonedx.xml
+outputs.5.length=6449
+outputs.5.checksums.sha512=3afc64e7fe828d3fbd176e378fe3a87187331c22c3270f97bc53e51a3a0f648afdf3249b8b10ee2e8903779bb3ac6cf6cbe99696c719c69668d802ebe4770bd8
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-collections4-4.6.0-cyclonedx.json
+outputs.6.length=7024
+outputs.6.checksums.sha512=af24476bfeebbec0ba5d2cea15671b3f6d7df0b43db5f1b007749e41b6807386e00f04259804099c6e0b30d42cf68691607ae9de69c325765a169ca55c34c190
+# ignored commons-collections4-4.6.0.spdx.json
