@@ -22,14 +22,14 @@ Source code: [https://github.com/avaje/avaje-metrics.git](https://github.com/ava
 * [io.avaje:avaje-metrics-statsd](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-statsd/overview)
 </details>
 
-rebuilding **34 releases** of io.avaje:avaje-metrics-parent:
+rebuilding **35 releases** of io.avaje:avaje-metrics-parent:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 28 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 23, 1 had all their differences removed :recycle:, 22 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 29 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 24, 1 had all their differences removed :recycle:, 23 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [10.3](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.3/pom) | | | |
+| [10.3](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.3/pom) | [mvn jdk25](avaje-metrics-10.3.buildspec) | [result](avaje-metrics-parent-10.3.buildinfo): [30 :white_check_mark:  1 :warning:](avaje-metrics-parent-10.3.buildcompare) | 1 :rotating_light: | 390K |
 | [10.2](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.2/pom) | [mvn jdk25](avaje-metrics-10.2.buildspec) | [result](avaje-metrics-parent-10.2.buildinfo): [30 :white_check_mark:  1 :warning:](avaje-metrics-parent-10.2.buildcompare) | 1 :rotating_light: | 389K |
 | [10.1](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.1/pom) | [mvn jdk25](avaje-metrics-10.1.buildspec) | [result](avaje-metrics-parent-10.1.buildinfo): [30 :white_check_mark:  1 :warning:](avaje-metrics-parent-10.1.buildcompare) | 1 :rotating_light: | 378K |
 | [10.0](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.0/pom) | [mvn jdk25](avaje-metrics-10.0.buildspec) | [result](avaje-metrics-parent-10.0.buildinfo): [30 :white_check_mark:  1 :warning:](avaje-metrics-parent-10.0.buildcompare) | 1 :rotating_light: | 377K |
