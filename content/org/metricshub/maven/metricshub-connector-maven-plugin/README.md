@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/MetricsHub/metricshub-connector-maven-plugin.git](https://github.com/MetricsHub/metricshub-connector-maven-plugin.git)
 
-rebuilding **6 releases** of org.metricshub.maven:metricshub-connector-maven-plugin:
+rebuilding **7 releases** of org.metricshub.maven:metricshub-connector-maven-plugin:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.0.15](https://central.sonatype.com/artifact/org.metricshub.maven/metricshub-connector-maven-plugin/1.0.15/pom) | [mvn jdk17](metricshub-connector-maven-plugin-1.0.15.buildspec) | [result](metricshub-connector-maven-plugin-1.0.15.buildinfo): [3 :white_check_mark: ](metricshub-connector-maven-plugin-1.0.15.buildcompare) | | 230K |
-| [1.0.14](https://central.sonatype.com/artifact/org.metricshub.maven/metricshub-connector-maven-plugin/1.0.14/pom) | | | |
+| [1.0.14](https://central.sonatype.com/artifact/org.metricshub.maven/metricshub-connector-maven-plugin/1.0.14/pom) | [mvn jdk17](metricshub-connector-maven-plugin-1.0.14.buildspec) | :x: | |
 | [1.0.13](https://central.sonatype.com/artifact/org.metricshub.maven/metricshub-connector-maven-plugin/1.0.13/pom) | [mvn jdk17](metricshub-connector-maven-plugin-1.0.13.buildspec) | [result](metricshub-connector-maven-plugin-1.0.13.buildinfo): [3 :white_check_mark: ](metricshub-connector-maven-plugin-1.0.13.buildcompare) | | 230K |
 | [1.0.12](https://central.sonatype.com/artifact/org.metricshub.maven/metricshub-connector-maven-plugin/1.0.12/pom) | [mvn jdk17](metricshub-connector-maven-plugin-1.0.12.buildspec) | [result](metricshub-connector-maven-plugin-1.0.12.buildinfo): [3 :white_check_mark: ](metricshub-connector-maven-plugin-1.0.12.buildcompare) | | 228K |
 | [1.0.11](https://central.sonatype.com/artifact/org.metricshub.maven/metricshub-connector-maven-plugin/1.0.11/pom) | [mvn jdk17](metricshub-connector-maven-plugin-1.0.11.buildspec) | [result](metricshub-connector-maven-plugin-1.0.11.buildinfo): [3 :white_check_mark: ](metricshub-connector-maven-plugin-1.0.11.buildcompare) | | 224K |
