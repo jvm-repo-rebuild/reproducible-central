@@ -1,0 +1,18 @@
+version=0.8.12
+ok=37
+ko=3
+ignored=0
+okFiles="convex-core-0.8.12.pom convex-core-0.8.12.jar convex-core-0.8.12-sources.jar convex-peer-0.8.12.pom convex-peer-0.8.12.jar convex-peer-0.8.12-sources.jar convex-java-0.8.12.pom convex-java-0.8.12.jar convex-java-0.8.12-sources.jar convex-x402-0.8.12.pom convex-x402-0.8.12.jar convex-x402-0.8.12-sources.jar convex-restapi-0.8.12.pom convex-restapi-0.8.12.jar convex-restapi-0.8.12-sources.jar convex-dlfs-0.8.12.pom convex-dlfs-0.8.12.jar convex-dlfs-0.8.12-sources.jar convex-observer-0.8.12.pom convex-observer-0.8.12.jar convex-observer-0.8.12-sources.jar convex-gui-0.8.12.pom convex-gui-0.8.12.jar convex-cli-0.8.12.pom convex-cli-0.8.12.jar convex-cli-0.8.12-sources.jar convex-db-0.8.12.pom convex-db-0.8.12.jar convex-benchmarks-0.8.12.pom convex-benchmarks-0.8.12.jar convex-benchmarks-0.8.12-sources.jar convex-social-0.8.12.pom convex-social-0.8.12.jar convex-social-0.8.12-sources.jar convex-p2p-0.8.12.pom convex-p2p-0.8.12.jar convex-p2p-0.8.12-sources.jar"
+koFiles="convex-0.8.12.pom convex-gui-0.8.12-sources.jar convex-db-0.8.12-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/world.convex/convex-0.8.12.pom pom.xml
+# diffoscope target/reference/world.convex/convex-gui-0.8.12-sources.jar convex-gui/target/convex-gui-0.8.12-sources.jar
+# diffoscope target/reference/world.convex/convex-db-0.8.12-sources.jar convex-db/target/convex-db-0.8.12-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="convex-gui-0.8.12-sources.jar.stabilized convex-db-0.8.12-sources.jar.stabilized"
+stabilize_ignoredFiles="convex-0.8.12.pom"
