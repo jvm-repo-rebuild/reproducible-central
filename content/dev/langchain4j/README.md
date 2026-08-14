@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 110 modules:</summary>
+<details><summary>This project defines 111 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -85,6 +85,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-mcp-docker](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mcp-docker/overview)
 * [dev.langchain4j:langchain4j-micrometer-metrics](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-micrometer-metrics/overview)
 * [dev.langchain4j:langchain4j-milvus](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-milvus/overview)
+* [dev.langchain4j:langchain4j-milvus-v2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-milvus-v2/overview)
 * [dev.langchain4j:langchain4j-mistral-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mistral-ai/overview)
 * [dev.langchain4j:langchain4j-mongodb-atlas](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-mongodb-atlas/overview)
 * [dev.langchain4j:langchain4j-neo4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-neo4j/overview)
@@ -121,14 +122,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **65 releases** of dev.langchain4j:langchain4j:
-- **43** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **66 releases** of dev.langchain4j:langchain4j:
+- **44** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 14, 3 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.19.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.19.0/pom) | | | |
+| [1.19.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.19.0/pom) | [mvn jdk25](langchain4j-1.19.0.buildspec) | [result](langchain4j-aggregator-1.19.0.buildinfo): [316 :white_check_mark: ](langchain4j-aggregator-1.19.0.buildcompare) | | 471M |
 | [1.18.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.18.1/pom) | [mvn jdk25](langchain4j-1.18.1.buildspec) | [result](langchain4j-aggregator-1.18.1.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.18.1.buildcompare) | | 471M |
 | [1.18.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.18.0/pom) | [mvn jdk25](langchain4j-1.18.0.buildspec) | [result](langchain4j-aggregator-1.18.0.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.18.0.buildcompare) | | 471M |
 | [1.17.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.17.2/pom) | [mvn jdk25](langchain4j-1.17.2.buildspec) | [result](langchain4j-aggregator-1.17.2.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.17.2.buildcompare) | | 470M |
