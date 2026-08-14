@@ -26,6 +26,7 @@ rebuilding **24 releases** of tools.jackson.jr:jackson-jr-parent:
 | -- | --------- | ------ | ------ | -- |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.2.1/pom) | [mvn jdk17](jackson-jr-3.2.1.buildspec) | [result](jackson-jr-parent-3.2.1.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-3.2.1.buildcompare) | | 1.8M |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.2.0/pom) | [mvn jdk17](jackson-jr-3.2.0.buildspec) | [result](jackson-jr-parent-3.2.0.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-3.2.0.buildcompare) | | 1.8M |
+| [3.1.6](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.1.6/pom) | | | |
 | [3.1.5](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.1.5/pom) | [mvn jdk17](jackson-jr-3.1.5.buildspec) | [result](jackson-jr-parent-3.1.5.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-3.1.5.buildcompare) | | 1.8M |
 | [3.1.4](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.1.4/pom) | [mvn jdk17](jackson-jr-3.1.4.buildspec) | [result](jackson-jr-parent-3.1.4.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-3.1.4.buildcompare) | | 1.8M |
 | [3.1.3](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.1.3/pom) | [mvn jdk17](jackson-jr-3.1.3.buildspec) | [result](jackson-jr-parent-3.1.3.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-3.1.3.buildcompare) | | 1.8M |

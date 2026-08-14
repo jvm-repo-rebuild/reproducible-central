@@ -1,5 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-400.buildspec:401
-content/org/metricshub/community-connectors/community-connectors-1.0.21.buildspec:1.0.22
-content/org/metricshub/maven/metricshub-connector-maven-plugin/metricshub-connector-maven-plugin-1.0.13.buildspec:1.0.15
+content/ch/qos/logback/logback-1.6.2.buildspec:1.6.3
+content/ch/qos/logback/access/access-2.0.14.buildspec:2.0.15
+content/com/github/nbbrd/java-io-util/java-io-parent-0.0.38.buildspec:0.0.39
+content/dev/langchain4j/langchain4j-1.18.1.buildspec:1.19.0
