@@ -20,13 +20,13 @@ Source code: [https://github.com/qos-ch/logback-access.git](https://github.com/q
 * [ch.qos.logback.access:tomcat](https://central.sonatype.com/artifact/ch.qos.logback.access/tomcat/overview)
 </details>
 
-rebuilding **15 releases** of ch.qos.logback.access:parent:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of ch.qos.logback.access:parent:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.15](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.15/pom) | | | |
+| [2.0.15](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.15/pom) | [mvn jdk21](access-2.0.15.buildspec) | [result](parent-2.0.15.buildinfo): [18 :white_check_mark: ](parent-2.0.15.buildcompare) | | 340K |
 | [2.0.14](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.14/pom) | [mvn jdk21](access-2.0.14.buildspec) | [result](parent-2.0.14.buildinfo): [18 :white_check_mark: ](parent-2.0.14.buildcompare) | | 341K |
 | [2.0.13](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.13/pom) | [mvn jdk21](access-2.0.13.buildspec) | [result](parent-2.0.13.buildinfo): [18 :white_check_mark: ](parent-2.0.13.buildcompare) | | 341K |
 | [2.0.12](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.12/pom) | [mvn jdk21](access-2.0.12.buildspec) | [result](parent-2.0.12.buildinfo): [18 :white_check_mark: ](parent-2.0.12.buildcompare) | | 341K |
