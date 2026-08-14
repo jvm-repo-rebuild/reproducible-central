@@ -30,14 +30,14 @@ Source code: [https://github.com/nbbrd/sdmx-dl.git](https://github.com/nbbrd/sdm
 * [com.github.nbbrd.sdmx-dl:sdmx-dl-testing](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-testing/overview)
 </details>
 
-rebuilding **8 releases** of com.github.nbbrd.sdmx-dl:sdmx-dl-parent:
+rebuilding **9 releases** of com.github.nbbrd.sdmx-dl:sdmx-dl-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2.0](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.2.0/pom) | | | |
+| [3.2.0](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.2.0/pom) | [mvn jdk21](sdmx-dl-3.2.0.buildspec) | [result](sdmx-dl-parent-3.2.0.buildinfo): [55 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.2.0.buildcompare) | 1 :rotating_light: | 67M |
 | [3.1.1](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.1.1/pom) | [mvn jdk21](sdmx-dl-3.1.1.buildspec) | [result](sdmx-dl-parent-3.1.1.buildinfo): [55 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.1.1.buildcompare) | 1 :rotating_light: | 65M |
 | [3.0.0](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0/pom) | [mvn jdk21](sdmx-dl-3.0.0.buildspec) | [result](sdmx-dl-parent-3.0.0.buildinfo): [52 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0.buildcompare) | 1 :rotating_light: | 65M |
 | [3.0.0-beta.18](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.18/pom) | [mvn jdk21](sdmx-dl-3.0.0-beta.18.buildspec) | [result](sdmx-dl-parent-3.0.0-beta.18.buildinfo): [52 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0-beta.18.buildcompare) | 1 :rotating_light: | 64M |
