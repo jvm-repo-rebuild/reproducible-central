@@ -15,13 +15,13 @@ Source code: [https://github.com/FasterXML/jackson-bom.git](https://github.com/F
 * [tools.jackson:jackson-bom](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/overview)
 </details>
 
-rebuilding **24 releases** of tools.jackson:jackson-bom:
-- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of tools.jackson:jackson-bom:
+- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2.2](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.2/pom) | | | |
+| [3.2.2](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.2/pom) | [mvn jdk17](jackson-bom-3.2.2.buildspec) | [result](jackson-bom-3.2.2.buildinfo): [2 :white_check_mark: ](jackson-bom-3.2.2.buildcompare) | | 36K |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.1/pom) | [mvn jdk17](jackson-bom-3.2.1.buildspec) | [result](jackson-bom-3.2.1.buildinfo): [2 :white_check_mark: ](jackson-bom-3.2.1.buildcompare) | | 36K |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.0/pom) | [mvn jdk17](jackson-bom-3.2.0.buildspec) | [result](jackson-bom-3.2.0.buildinfo): [2 :white_check_mark: ](jackson-bom-3.2.0.buildcompare) | | 36K |
 | [3.1.6](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.1.6/pom) | [mvn jdk17](jackson-bom-3.1.6.buildspec) | [result](jackson-bom-3.1.6.buildinfo): [2 :white_check_mark: ](jackson-bom-3.1.6.buildcompare) | | 36K |
