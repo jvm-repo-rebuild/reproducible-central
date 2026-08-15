@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PIT Stryker Dashboard reporter
+group-id=it.mulders.stryker
+artifact-id=pit-dashboard-reporter
+version=0.3.19
+
+# source information
+source.scm.uri=scm:git:https://github.com/mthmulders/pit-stryker-dashboard-reporter.git
+source.scm.tag=v0.3.19
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.31
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=it.mulders.stryker
+outputs.0.filename=pit-dashboard-reporter-0.3.19.pom
+outputs.0.length=14732
+outputs.0.checksums.sha512=1199778037dc37108a8e53b82ae427c317b624b427c00a73cd660f3265d8079324408f1a7b05e4ec0cd1a68baf8464dfe58b8065f6e050d020094f78664e45a9
+
+outputs.1.groupId=it.mulders.stryker
+outputs.1.filename=pit-dashboard-reporter-0.3.19.jar
+outputs.1.length=15349
+outputs.1.checksums.sha512=3623699ff0bb89a0ee58856103bbfbdff638ed0a367327975cde1bce2809bc6338310812bd946c777ff9ff5b2555e5ecc6194c11b679512a33eacb2a30811fa7
+
+outputs.2.groupId=it.mulders.stryker
+outputs.2.filename=pit-dashboard-reporter-0.3.19-sources.jar
+outputs.2.length=11784
+outputs.2.checksums.sha512=864e4d81af279d2de3c8ded63df06677b1b3bb838a72ca6b87cba1a5b0a4631de6ebce9fd43bd47340048034cc909b79506de018c336b814ddc8f931d3bddd9b
