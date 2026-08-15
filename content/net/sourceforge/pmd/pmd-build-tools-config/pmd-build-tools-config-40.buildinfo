@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PMD Build Tools Configurations
+group-id=net.sourceforge.pmd
+artifact-id=pmd-build-tools-config
+version=40
+
+# source information
+source.scm.uri=scm:git:git://github.com/pmd/build-tools.git
+source.scm.tag=releases/40
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.sourceforge.pmd
+outputs.0.filename=pmd-build-tools-config-40.pom
+outputs.0.length=16446
+outputs.0.checksums.sha512=9418080dedf3c72e7dcc1a0118d66f4d4c0d49f697865f975209a24d3382ed2d3f48fa5862efb72bf355aa57f7e6b05f7a979318162ad228fa306e401c5ae9ec
+
+outputs.1.groupId=net.sourceforge.pmd
+outputs.1.filename=pmd-build-tools-config-40.jar
+outputs.1.length=32276
+outputs.1.checksums.sha512=80ebd3aeeb8e490a71c49c0ea2c606dcf7ca3187d1f15781388c56d2897cb2a4f0fbf44a625c20fdd39234b615f4d9064c2a30f85293cdc1cd3bdbf7f58390d5
+
+outputs.2.groupId=net.sourceforge.pmd
+outputs.2.filename=pmd-build-tools-config-40-sources.jar
+outputs.2.length=24230
+outputs.2.checksums.sha512=ddac665a59f7aaf8cd252a34bca714acb998685d0c23bb191b04901219644df85940b2d1987e48d33ca8038deaddfbff449f2bfda1a921f7a5d8b957eec81e2d
