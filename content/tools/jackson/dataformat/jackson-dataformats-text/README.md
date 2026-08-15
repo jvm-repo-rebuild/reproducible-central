@@ -16,13 +16,13 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-text.git](https:/
 * [tools.jackson.dataformat:jackson-dataformats-text](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/overview)
 </details>
 
-rebuilding **24 releases** of tools.jackson.dataformat:jackson-dataformats-text:
-- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of tools.jackson.dataformat:jackson-dataformats-text:
+- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2.2](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.2.2/pom) | | | |
+| [3.2.2](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.2.2/pom) | [mvn jdk17](jackson-dataformats-text-3.2.2.buildspec) | [result](jackson-dataformats-text-3.2.2.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.2.2.buildcompare) | | 608K |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.2.1/pom) | [mvn jdk17](jackson-dataformats-text-3.2.1.buildspec) | [result](jackson-dataformats-text-3.2.1.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.2.1.buildcompare) | | 606K |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.2.0/pom) | [mvn jdk17](jackson-dataformats-text-3.2.0.buildspec) | [result](jackson-dataformats-text-3.2.0.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-3.2.0.buildcompare) | | 606K |
 | [3.1.6](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-text/3.1.6/pom) | | | |
