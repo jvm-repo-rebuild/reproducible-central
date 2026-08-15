@@ -1,6 +1,17 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.6.2.buildspec:1.6.3
-content/ch/qos/logback/access/access-2.0.14.buildspec:2.0.15
-content/com/github/nbbrd/java-io-util/java-io-parent-0.0.38.buildspec:0.0.39
-content/dev/langchain4j/langchain4j-1.18.1.buildspec:1.19.0
+content/eu/maveniverse/maven/bom-builder/bom-builder-1.3.3.buildspec:1.3.4
+content/eu/maveniverse/maven/checksum/checksum-0.2.0.buildspec:0.2.1
+content/eu/maveniverse/maven/mase/mase/mase-1.1.1.buildspec:1.1.2
+content/it/mulders/stryker/pit-dashboard-reporter-0.3.18.buildspec:0.3.19
+content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-39.buildspec:40
+content/tools/jackson/jackson-bom/jackson-bom-3.2.1.buildspec:3.2.2
+content/tools/jackson/jr/jackson-jr-3.2.1.buildspec:3.2.2
+content/tools/jackson/core/jackson-core/jackson-core-3.2.1.buildspec:3.2.2
+content/tools/jackson/core/jackson-databind/jackson-databind-3.2.1.buildspec:3.2.2
+content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.2.1.buildspec:3.2.2
+content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.2.1.buildspec:3.2.2
+content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.2.1.buildspec:3.2.2
+content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.2.1.buildspec:3.2.2
+content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.2.1.buildspec:3.2.2
+content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.2.1.buildspec:3.2.2

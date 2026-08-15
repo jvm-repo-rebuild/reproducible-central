@@ -13,6 +13,7 @@ rebuilding **1 releases** of it.mulders.stryker:pit-dashboard-reporter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.3.19](https://central.sonatype.com/artifact/it.mulders.stryker/pit-dashboard-reporter/0.3.19/pom) | | | |
 | [0.3.18](https://central.sonatype.com/artifact/it.mulders.stryker/pit-dashboard-reporter/0.3.18/pom) | [mvn jdk11](pit-dashboard-reporter-0.3.18.buildspec) | [result](pit-dashboard-reporter-0.3.18.buildinfo): [3 :white_check_mark: ](pit-dashboard-reporter-0.3.18.buildcompare) | | 41K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

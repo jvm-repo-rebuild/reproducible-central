@@ -3,8 +3,8 @@
   <groupId>it.mulders.stryker</groupId>
   <artifactId>pit-dashboard-reporter</artifactId>
   <versioning>
-    <latest>0.3.18</latest>
-    <release>0.3.18</release>
+    <latest>0.3.19</latest>
+    <release>0.3.19</release>
     <versions>
       <version>0.1.2</version>
       <version>0.1.3</version>
@@ -29,7 +29,8 @@
       <version>0.3.16</version>
       <version>0.3.17</version>
       <version>0.3.18</version>
+      <version>0.3.19</version>
     </versions>
-    <lastUpdated>20260714152343</lastUpdated>
+    <lastUpdated>20260815194114</lastUpdated>
   </versioning>
 </metadata>
