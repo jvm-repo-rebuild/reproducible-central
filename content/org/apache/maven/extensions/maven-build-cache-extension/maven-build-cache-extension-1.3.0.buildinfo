@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Build Cache Extension
+group-id=org.apache.maven.extensions
+artifact-id=maven-build-cache-extension
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-build-cache-extension.git
+source.scm.tag=maven-build-cache-extension-1.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.extensions
+outputs.0.filename=maven-build-cache-extension-1.3.0.pom
+outputs.0.length=20562
+outputs.0.checksums.sha512=f7ea42508f0e54ca14b05482b8595c14ade40db227141275d90ee8680a06e2b3cf2f9310e747f800a0dd850eafeb650730d4a13ceb403b26a87df8a120fdd680
+
+outputs.1.groupId=org.apache.maven.extensions
+outputs.1.filename=maven-build-cache-extension-1.3.0.jar
+outputs.1.length=315266
+outputs.1.checksums.sha512=1f61296bd5552eee7b52e6ed04b5f8b1461c22c93367d01c77554abeab07c0cb4eec7aa803b31d4d0e4124ebf90f63cc76ed5a15e29243b3253e6dc2d9e67ae2
+
+outputs.2.groupId=org.apache.maven.extensions
+outputs.2.filename=maven-build-cache-extension-1.3.0-source-release.zip
+outputs.2.length=1112086
+outputs.2.checksums.sha512=5a16b877be7faecaf9c742cab253a8dd1eb394656109f0b8f16de5c98209d49920e0057e2722148f2535eb7602fe18f9abddeeaa44578326c35ff2c8583e931f
+
+outputs.3.groupId=org.apache.maven.extensions
+outputs.3.filename=maven-build-cache-extension-1.3.0-sources.jar
+outputs.3.length=243427
+outputs.3.checksums.sha512=687a91478859e15dbd50ffafd7a80e29415c4cf0434887991feff46eb305c0a544a060c0ce013672375890035ea4fc32cdef2e484025282f17a7f1684cf7073d
+
+outputs.4.groupId=org.apache.maven.extensions
+outputs.4.filename=maven-build-cache-extension-1.3.0-cyclonedx.xml
+outputs.4.length=148348
+outputs.4.checksums.sha512=31b72e1135d718fea8c34c35e683b09da52bca18f45b46fef36cfee1c648bfbc2266ee8e69e6b01c51bf1c610b5a1e663c04d7d6f58ebf8da66e9eb86e2c718f
+
+outputs.5.groupId=org.apache.maven.extensions
+outputs.5.filename=maven-build-cache-extension-1.3.0-cyclonedx.json
+outputs.5.length=161662
+outputs.5.checksums.sha512=c264f71b1a08df3e1b5071d491f17b2e0dc9bf233f469fa0fccbffdfa7ee27429e12f8b257de9f26bbac5243eea7948bada3ee70f70393a797c1079120ec7b5b
