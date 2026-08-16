@@ -7,15 +7,15 @@
 
 Source code: [https://github.com/FasterXML/jackson-databind.git](https://github.com/FasterXML/jackson-databind.git)
 
-rebuilding **53 releases** of com.fasterxml.jackson.core:jackson-databind:
-- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **54 releases** of com.fasterxml.jackson.core:jackson-databind:
+- **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.22.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.22.1/pom) | [mvn jdk8](jackson-databind-2.22.1.buildspec) | [result](jackson-databind-2.22.1.buildinfo): [5 :white_check_mark: ](jackson-databind-2.22.1.buildcompare) | | 2.9M |
 | [2.22.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.22.0/pom) | [mvn jdk8](jackson-databind-2.22.0.buildspec) | [result](jackson-databind-2.22.0.buildinfo): [5 :white_check_mark: ](jackson-databind-2.22.0.buildcompare) | | 2.9M |
-| [2.21.6](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.21.6/pom) | | | |
+| [2.21.6](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.21.6/pom) | [mvn jdk8](jackson-databind-2.21.6.buildspec) | [result](jackson-databind-2.21.6.buildinfo): [5 :white_check_mark: ](jackson-databind-2.21.6.buildcompare) | | 2.9M |
 | [2.21.5](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.21.5/pom) | [mvn jdk8](jackson-databind-2.21.5.buildspec) | [result](jackson-databind-2.21.5.buildinfo): [5 :white_check_mark: ](jackson-databind-2.21.5.buildcompare) | | 2.9M |
 | [2.21.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.21.4/pom) | [mvn jdk8](jackson-databind-2.21.4.buildspec) | [result](jackson-databind-2.21.4.buildinfo): [5 :white_check_mark: ](jackson-databind-2.21.4.buildcompare) | | 2.9M |
 | [2.21.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.21.3/pom) | [mvn jdk8](jackson-databind-2.21.3.buildspec) | [result](jackson-databind-2.21.3.buildinfo): [5 :white_check_mark: ](jackson-databind-2.21.3.buildcompare) | | 2.9M |
