@@ -19,13 +19,13 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 * [com.fasterxml.jackson.jr:jackson-jr-test-module](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-test-module/overview)
 </details>
 
-rebuilding **54 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
-- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **55 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
+- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.22.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.22.2/pom) | | | |
+| [2.22.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.22.2/pom) | [mvn jdk8](jackson-jr-2.22.2.buildspec) | [result](jackson-jr-parent-2.22.2.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-2.22.2.buildcompare) | | 1.8M |
 | [2.22.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.22.1/pom) | [mvn jdk8](jackson-jr-2.22.1.buildspec) | [result](jackson-jr-parent-2.22.1.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-2.22.1.buildcompare) | | 1.8M |
 | [2.22.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.22.0/pom) | [mvn jdk8](jackson-jr-2.22.0.buildspec) | [result](jackson-jr-parent-2.22.0.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-2.22.0.buildcompare) | | 1.8M |
 | [2.21.6](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.21.6/pom) | [mvn jdk8](jackson-jr-2.21.6.buildspec) | [result](jackson-jr-parent-2.21.6.buildinfo): [29 :white_check_mark: ](jackson-jr-parent-2.21.6.buildcompare) | | 1.8M |
