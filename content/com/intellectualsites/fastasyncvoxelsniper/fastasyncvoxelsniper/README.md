@@ -13,6 +13,7 @@ rebuilding **5 releases** of com.intellectualsites.fastasyncvoxelsniper:fastasyn
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.2.5](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.5/pom) | | | |
 | [3.2.3](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.3/pom) | [gradle jdk21](fastasyncvoxelsniper-3.2.3.buildspec) | [result](fastasyncvoxelsniper-3.2.3.buildinfo): [3 :white_check_mark: ](fastasyncvoxelsniper-3.2.3.buildcompare) | | 809K |
 | [3.2.2](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.2/pom) | [gradle jdk21](fastasyncvoxelsniper-3.2.2.buildspec) | [result](fastasyncvoxelsniper-3.2.2.buildinfo): [3 :white_check_mark: ](fastasyncvoxelsniper-3.2.2.buildcompare) | | 809K |
 | [3.2.1](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.1/pom) | [gradle jdk17](fastasyncvoxelsniper-3.2.1.buildspec) | [result](fastasyncvoxelsniper-3.2.1.buildinfo): [3 :white_check_mark: ](fastasyncvoxelsniper-3.2.1.buildcompare) | | 809K |

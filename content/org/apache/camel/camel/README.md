@@ -816,6 +816,7 @@ rebuilding **12 releases** of org.apache.camel:camel:
 | [4.17.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.17.0/pom) | | | |
 | [4.16.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.16.0/pom) | [mvn jdk21](camel-4.16.0.buildspec) | [result](camel-4.16.0.buildinfo): [625 :white_check_mark:  1264 :warning:](camel-4.16.0.buildcompare) [:mag:](camel-4.16.0.diffoscope) | 1253 :recycle: 9 :rotating_light: 1 :no_entry_sign: | 435M |
 | [4.15.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.15.0/pom) | | | |
+| [4.14.9](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.9/pom) | | | |
 | [4.14.8](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.8/pom) | | | |
 | [4.14.7](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.7/pom) | | | |
 | [4.14.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.6/pom) | | | |

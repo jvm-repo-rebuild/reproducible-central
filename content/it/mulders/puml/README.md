@@ -21,6 +21,7 @@ rebuilding **1 releases** of it.mulders.puml:puml-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.5.3](https://central.sonatype.com/artifact/it.mulders.puml/puml-parent/0.5.3/pom) | | | |
 | [0.5.2](https://central.sonatype.com/artifact/it.mulders.puml/puml-parent/0.5.2/pom) | [mvn jdk21](puml-parent-0.5.2.buildspec) | [result](puml-parent-0.5.2.buildinfo): [10 :white_check_mark: ](puml-parent-0.5.2.buildcompare) | | 84K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

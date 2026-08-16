@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.jcr.davex:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.3.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.davex/1.3.14/pom) | | | |
 | [1.3.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.davex/1.3.12/pom) | [mvn jdk17 w](org.apache.sling.jcr.davex-1.3.12.buildspec) | [result](org.apache.sling.jcr.davex-1.3.12.buildinfo): [4 :white_check_mark: ](org.apache.sling.jcr.davex-1.3.12.buildcompare) | | 307K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
