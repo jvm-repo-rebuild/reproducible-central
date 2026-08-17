@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.handler.richtext.git](https://github.com/wcm-io/io.wcm.handler.richtext.git)
 
-rebuilding **12 releases** of io.wcm:io.wcm.handler.richtext:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of io.wcm:io.wcm.handler.richtext:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/2.1.0/pom) | | | |
+| [2.1.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/2.1.0/pom) | [mvn jdk21 w](wcm-richtext-2.1.0.buildspec) | [result](io.wcm.handler.richtext-2.1.0.buildinfo): [3 :white_check_mark: ](io.wcm.handler.richtext-2.1.0.buildcompare) | | 160K |
 | [2.0.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/2.0.2/pom) | [mvn jdk21 w](wcm-richtext-2.0.2.buildspec) | [result](io.wcm.handler.richtext-2.0.2.buildinfo): [3 :white_check_mark: ](io.wcm.handler.richtext-2.0.2.buildcompare) | | 159K |
 | [2.0.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/2.0.0/pom) | [mvn jdk11 w](wcm-richtext-2.0.0.buildspec) | [result](io.wcm.handler.richtext-2.0.0.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.richtext-2.0.0.buildcompare) [:mag:](io.wcm.handler.richtext-2.0.0.diffoscope) | - | 244K |
 | [1.6.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.6/pom) | [mvn jdk11 w](wcm-richtext-1.6.6.buildspec) | [result](io.wcm.handler.richtext-1.6.6.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.richtext-1.6.6.buildcompare) | 3 :rotating_light: | 241K |
