@@ -43,6 +43,7 @@ rebuilding **7 releases** of org.apache.avro:avro-toplevel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.12.2](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.12.2/pom) | | | |
 | [1.12.1](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.12.1/pom) | [mvn jdk24](avro-1.12.1.buildspec) | [result](avro-toplevel-1.12.1.buildinfo): [110 :white_check_mark:  2 :warning:](avro-toplevel-1.12.1.buildcompare) | 2 :no_entry_sign: | 86M |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.12.0/pom) | [mvn jdk22](avro-1.12.0.buildspec) | [result](avro-toplevel-1.12.0.buildinfo): [129 :white_check_mark: ](avro-toplevel-1.12.0.buildcompare) | | 65M |
 | [1.11.5](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.11.5/pom) | [mvn jdk8](avro-1.11.5.buildspec) | [result](avro-toplevel-1.11.5.buildinfo): [62 :white_check_mark: ](avro-toplevel-1.11.5.buildcompare) | | 59M |

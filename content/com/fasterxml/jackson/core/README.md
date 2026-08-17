@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/FasterXML/jackson-core.git](https://github.com/FasterXML/jackson-core.git)
 
-rebuilding **57 releases** of com.fasterxml.jackson.core:jackson-core:
-- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **58 releases** of com.fasterxml.jackson.core:jackson-core:
+- **46** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |

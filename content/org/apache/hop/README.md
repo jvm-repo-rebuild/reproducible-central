@@ -323,6 +323,7 @@ rebuilding **4 releases** of org.apache.hop:hop:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.19.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.19.0/pom) | | | |
 | [2.18.1](https://central.sonatype.com/artifact/org.apache.hop/hop/2.18.1/pom) | [mvn jdk21](hop-2.18.1.buildspec) | [result](hop-2.18.1.buildinfo): [1201 :white_check_mark: ](hop-2.18.1.buildcompare) | | 376M |
 | [2.18.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.18.0/pom) | [mvn jdk21](hop-2.18.0.buildspec) | [result](hop-2.18.0.buildinfo): [1201 :white_check_mark: ](hop-2.18.0.buildcompare) | | 376M |
 | [2.17.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.17.0/pom) | [mvn jdk17](hop-2.17.0.buildspec) | [result](hop-2.17.0.buildinfo): [1173 :white_check_mark:  2 :warning:](hop-2.17.0.buildcompare) | - | 282M |
