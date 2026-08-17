@@ -1,0 +1,142 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Parent pom for Jackson jr components
+group-id=com.fasterxml.jackson.jr
+artifact-id=jackson-jr-parent
+version=2.18.10
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-jr.git
+source.scm.tag=jackson-jr-parent-2.18.10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_492
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-jr-all
+
+# aggregated output
+
+outputs.0.coordinates=com.fasterxml.jackson.jr:jackson-jr-parent
+
+outputs.0.0.groupId=com.fasterxml.jackson.jr
+outputs.0.0.filename=jackson-jr-parent-2.18.10.pom
+outputs.0.0.length=3696
+outputs.0.0.checksums.sha512=f553f446075523c6ce811e267ba493759d2c75560d04dd73f63851ef10b4c8e5e1b4ade6c7498dbda8398e834d7b7c920775c65816c8b019f93648803f41b41c
+
+outputs.1.coordinates=com.fasterxml.jackson.jr:jackson-jr-objects
+
+outputs.1.0.groupId=com.fasterxml.jackson.jr
+outputs.1.0.filename=jackson-jr-objects-2.18.10.pom
+outputs.1.0.length=3189
+outputs.1.0.checksums.sha512=c58d8155e545ab1cd6d11c8f1242acbef066d53cbc738121565d71ee80de602cbd0d1ac2e0c7af11560ff9de89ce6f2282fdfcb5e40a9aeb8501d6ba6f2e7c24
+
+outputs.1.1.groupId=com.fasterxml.jackson.jr
+outputs.1.1.filename=jackson-jr-objects-2.18.10.jar
+outputs.1.1.length=105954
+outputs.1.1.checksums.sha512=be25ee079a438805868743ea0ef4974f9f23cabd13418174588c4f291b2dd2462ee033b51de6d3f469646ebb4f1e44f0bf1c0b204e24402f779f589f9eed1711
+
+outputs.1.2.groupId=com.fasterxml.jackson.jr
+outputs.1.2.filename=jackson-jr-objects-2.18.10-sources.jar
+outputs.1.2.length=91348
+outputs.1.2.checksums.sha512=8658d31f58bb0696aab24ca6d63ac4c2eea2ba3ef6b154c95f9ef41034fda36afb0f1f72d4c3857642bfd3d70152155289f0229287887199ccb9c69876185952
+# ignored jackson-jr-objects-2.18.10.module
+
+outputs.2.coordinates=com.fasterxml.jackson.jr:jackson-jr-retrofit2
+
+outputs.2.0.groupId=com.fasterxml.jackson.jr
+outputs.2.0.filename=jackson-jr-retrofit2-2.18.10.pom
+outputs.2.0.length=2737
+outputs.2.0.checksums.sha512=4050bcf70abc931ee7043d8c0890811d0ebc65dd87ddb31de94475525919ccea339b1e5c10b28bd61a1318fd8f7194f433cf347ffd96aa64dbf4c02c5b860f1c
+
+outputs.2.1.groupId=com.fasterxml.jackson.jr
+outputs.2.1.filename=jackson-jr-retrofit2-2.18.10.jar
+outputs.2.1.length=8541
+outputs.2.1.checksums.sha512=916bf3c7f033ec13394a018eac0be0c385d6f07ab77e2d54d20f9a3d96260544856f14f826bdb4a817b9c0164739cfff1dda7a29c724ace4af8841e019daad2d
+
+outputs.2.2.groupId=com.fasterxml.jackson.jr
+outputs.2.2.filename=jackson-jr-retrofit2-2.18.10-sources.jar
+outputs.2.2.length=6225
+outputs.2.2.checksums.sha512=3f0e669d5b9a9da57b09a42b13d167bfa4bf4ba1e21d7b1a69c075f793746cd14eba41138abc8d082b4553edb50d43149aa7a35346ceacbf0a9af89aef79772a
+# ignored jackson-jr-retrofit2-2.18.10.module
+
+outputs.3.coordinates=com.fasterxml.jackson.jr:jackson-jr-stree
+
+outputs.3.0.groupId=com.fasterxml.jackson.jr
+outputs.3.0.filename=jackson-jr-stree-2.18.10.pom
+outputs.3.0.length=3102
+outputs.3.0.checksums.sha512=d442ff405c2b03837b537326f25279f04aa16f477bce10c625e73141897589ad7cfb9ebed15833725d9a159e68b440f24d38133640a297ba2f98bbb5a7048938
+
+outputs.3.1.groupId=com.fasterxml.jackson.jr
+outputs.3.1.filename=jackson-jr-stree-2.18.10.jar
+outputs.3.1.length=29549
+outputs.3.1.checksums.sha512=4b200526e5837fbcd8d3b1364a86c6231d9cad3ba7b3a9966b60df0191f7fec4caa446d5b71f3caf25857852176ee740eb624a05fc4cf71ddb076a20c79e4f8c
+
+outputs.3.2.groupId=com.fasterxml.jackson.jr
+outputs.3.2.filename=jackson-jr-stree-2.18.10-sources.jar
+outputs.3.2.length=20225
+outputs.3.2.checksums.sha512=ff26389eaa49db106e55ccadb0073928aa8b5ed62614b05fdd66897aa7965bf50d5b97cdb4d1d8a47dc6211015f272a6b1df5c2d770dda60259acfd36c012e14
+# ignored jackson-jr-stree-2.18.10.module
+
+outputs.4.coordinates=com.fasterxml.jackson.jr:jackson-jr-annotation-support
+
+outputs.4.0.groupId=com.fasterxml.jackson.jr
+outputs.4.0.filename=jackson-jr-annotation-support-2.18.10.pom
+outputs.4.0.length=3264
+outputs.4.0.checksums.sha512=c3697027e9c0f3ea5ce3063c59d339858c3ee44679746e9cf2f639bc6d3eec94e5b21e833b2193fa30e77619518913fa722d0f306183b157709104d44df2e4f7
+
+outputs.4.1.groupId=com.fasterxml.jackson.jr
+outputs.4.1.filename=jackson-jr-annotation-support-2.18.10.jar
+outputs.4.1.length=21434
+outputs.4.1.checksums.sha512=425fde28fd231de31bdaa418a29b6cdc383b11cce23bfdd0d86f0512c5228123afc3f18592e84553ec5a0081d195970902813cee9b5f0b42bb32b6ecb37e5123
+
+outputs.4.2.groupId=com.fasterxml.jackson.jr
+outputs.4.2.filename=jackson-jr-annotation-support-2.18.10-sources.jar
+outputs.4.2.length=15145
+outputs.4.2.checksums.sha512=833254c6fb7931d086e67f8469c2d6810e93f455252b22edb3e68d9c9be50db741ccf7f5ed3716795127fb21f682e5cf680637ad6709bd522c52c6ee5f1e3892
+# ignored jackson-jr-annotation-support-2.18.10.module
+
+outputs.5.coordinates=com.fasterxml.jackson.jr:jackson-jr-extension-javatime
+
+outputs.5.0.groupId=com.fasterxml.jackson.jr
+outputs.5.0.filename=jackson-jr-extension-javatime-2.18.10.pom
+outputs.5.0.length=2602
+outputs.5.0.checksums.sha512=04555501c06405fe3aebfb16a26c18c2dffda34293483e59126d7c47e6a296fec2444313f59c0df0f5b09d7a3baabe8f3d8b6da92891901f08ada02c970e6d72
+
+outputs.5.1.groupId=com.fasterxml.jackson.jr
+outputs.5.1.filename=jackson-jr-extension-javatime-2.18.10.jar
+outputs.5.1.length=8385
+outputs.5.1.checksums.sha512=384c76afddf7e44b85798e4b11cfedab628f858e69c6cde9daadc756271ec8d14f639a4146c870284ca0945f2d96859292a5dc3d7647699f7371814f92378261
+
+outputs.5.2.groupId=com.fasterxml.jackson.jr
+outputs.5.2.filename=jackson-jr-extension-javatime-2.18.10-sources.jar
+outputs.5.2.length=6495
+outputs.5.2.checksums.sha512=e9b11c29b7423906bac0e8dad5b455f4724fbaf7def5dedb30dbbe19c993a19c1b05f5be9ebba57875a776fc925a52abc86583f972cf3f55844b45dca38ae1b8
+# ignored jackson-jr-extension-javatime-2.18.10.module
+
+outputs.6.coordinates=com.fasterxml.jackson.jr:jackson-jr-all
+
+outputs.6.0.groupId=com.fasterxml.jackson.jr
+outputs.6.0.filename=jackson-jr-all-2.18.10.pom
+outputs.6.0.length=3418
+outputs.6.0.checksums.sha512=a20bbe3727b23d9df8931e2468dc8be89c6a4be16dcc3945ecee37d35c44581dbda5f856ce705f65f96cc618af3a62827115b8efaa82c63ab620fe1282c2fe7e
+
+outputs.6.1.groupId=com.fasterxml.jackson.jr
+outputs.6.1.filename=jackson-jr-all-2.18.10.jar
+outputs.6.1.length=721934
+outputs.6.1.checksums.sha512=987d83e057e957548bb07c7972415a60d7c28bcce8011092082a6d85eb01adabf26645f485b371417618587d88da6dbe8607f0a40d5bc2cdf5f20bff06b92c7e
+
+outputs.6.2.groupId=com.fasterxml.jackson.jr
+outputs.6.2.filename=jackson-jr-all-2.18.10-sources.jar
+outputs.6.2.length=609609
+outputs.6.2.checksums.sha512=bc6ba9e2d8751cf4e2f1b4b94c99ab4478adbf1a21fd65bcf5b028ee023fce58672caac91ce0e17af90405e6db4911324246fab029c7b0ef1c70dacd7dd8bde2
