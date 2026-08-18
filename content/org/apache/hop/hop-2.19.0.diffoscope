@@ -1,0 +1,1101 @@
+1 /        6 target/reference/org.apache.hop/hop-engines-beam-2.19.0.zip plugins/engines/beam/target/hop-engines-beam-2.19.0.zip
+--- target/reference/org.apache.hop/hop-engines-beam-2.19.0.zip
++++ plugins/engines/beam/target/hop-engines-beam-2.19.0.zip
+├── zipinfo {}
+│ @@ -324,15 +324,15 @@
+│  -rw-r--r--  2.0 unx     4494 b- defN 26-Aug-12 11:19 lib/core/opentelemetry-common-1.65.0.jar
+│  -rw-r--r--  2.0 unx    26394 b- defN 26-Aug-12 11:19 lib/core/okio-fakefilesystem-jvm-3.4.0.jar
+│  -rw-r--r--  2.0 unx    38183 b- defN 26-Aug-12 11:19 lib/core/netty-transport-native-epoll-4.2.17.Final-linux-riscv64.jar
+│  -rw-r--r--  2.0 unx   126865 b- defN 26-Aug-12 11:19 lib/core/util-3.1.16.jar
+│  -rw-r--r--  2.0 unx    29123 b- defN 26-Aug-12 11:19 lib/core/google-api-services-iamcredentials-v1-rev20211203-2.0.0.jar
+│  -rw-r--r--  2.0 unx    21752 b- defN 26-Aug-12 11:19 lib/core/wire-grpc-server-4.5.0.jar
+│  -rw-r--r--  2.0 unx   838190 b- defN 26-Aug-12 11:19 lib/core/sdk-core-2.20.162.jar
+│ --rw-r--r--  2.0 unx   771960 b- defN 26-Aug-12 11:19 lib/core/javassist-3.32.0-GA.jar
+│ +-rw-------  2.0 unx   771960 b- defN 26-Aug-12 11:19 lib/core/javassist-3.32.0-GA.jar
+│  -rw-r--r--  2.0 unx   280525 b- defN 26-Aug-12 11:19 lib/core/threeten-extra-1.8.0.jar
+│  -rw-r--r--  2.0 unx  2035722 b- defN 26-Aug-12 11:19 lib/core/proto-google-cloud-monitoring-v3-3.92.0.jar
+│  -rw-r--r--  2.0 unx   773871 b- defN 26-Aug-12 11:19 lib/core/beam-runners-spark-3-2.74.0.jar
+│  -rw-r--r--  2.0 unx    50502 b- defN 26-Aug-12 11:19 lib/core/flink-file-sink-common-1.19.0.jar
+│  -rw-r--r--  2.0 unx  2600232 b- defN 26-Aug-12 11:19 lib/core/netty-codec-native-quic-4.2.17.Final-linux-aarch_64.jar
+│  -rw-r--r--  2.0 unx   159936 b- defN 26-Aug-12 11:19 lib/core/netty-transport-classes-epoll-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx     3230 b- defN 26-Aug-12 11:19 lib/core/okio-fakefilesystem-3.4.0.jar
+│ @@ -425,15 +425,15 @@
+│  -rw-r--r--  2.0 unx     3120 b- defN 26-Aug-12 11:19 lib/core/annotations-4.1.1.4.jar
+│  -rw-r--r--  2.0 unx  1886025 b- defN 26-Aug-12 11:19 lib/core/flink-core-1.19.0.jar
+│  -rw-r--r--  2.0 unx    27421 b- defN 26-Aug-12 11:19 lib/core/aopalliance-repackaged-4.0.0-M3.jar
+│  -rw-r--r--  2.0 unx    20252 b- defN 26-Aug-12 11:19 lib/core/error_prone_annotations-2.50.0.jar
+│  -rw-r--r--  2.0 unx   657516 b- defN 26-Aug-12 11:19 lib/core/commons-configuration2-2.10.1.jar
+│  -rw-r--r--  2.0 unx   270723 b- defN 26-Aug-12 11:19 lib/core/hive-hcatalog-core-3.1.3.jar
+│  -rw-r--r--  2.0 unx    77323 b- defN 26-Aug-12 11:19 lib/core/protobuf-java-util-4.34.1.jar
+│ --rw-r--r--  2.0 unx 15156073 b- defN 26-Aug-12 11:19 lib/core/icu4j-78.3.jar
+│ +-rw-------  2.0 unx 15156073 b- defN 26-Aug-12 11:19 lib/core/icu4j-78.3.jar
+│  -rw-r--r--  2.0 unx    15796 b- defN 26-Aug-12 11:19 lib/core/arns-2.20.162.jar
+│  -rw-r--r--  2.0 unx    10641 b- defN 26-Aug-12 11:19 lib/core/managed-kafka-auth-login-handler-1.0.5.jar
+│  -rw-r--r--  2.0 unx    74817 b- defN 26-Aug-12 11:19 lib/core/opentelemetry-semconv-1.29.0-alpha.jar
+│  -rw-r--r--  2.0 unx   331515 b- defN 26-Aug-12 11:19 lib/core/google-api-services-dataflow-v1b3-rev20260405-2.0.0.jar
+│  -rw-r--r--  2.0 unx    84701 b- defN 26-Aug-12 11:19 lib/core/flink-queryable-state-client-java-1.19.0.jar
+│  -rw-r--r--  2.0 unx    65261 b- defN 26-Aug-12 11:19 lib/core/oro-2.0.8.jar
+│  -rw-r--r--  2.0 unx   133368 b- defN 26-Aug-12 11:19 lib/core/hk2-utils-4.0.0-M3.jar
+├── zipdetails --redact --walk --utc {}
+│ @@ -16272,16 +16272,16 @@
+│  18707F60 Uncompressed Size     000BC778 (771960)
+│  18707F64 Filename Length       0020 (32)
+│  18707F66 Extra Length          0000 (0)
+│  18707F68 Comment Length        0000 (0)
+│  18707F6A Disk Start            0000 (0)
+│  18707F6C Int File Attributes   0000 (0)
+│           [Bit 0]               0 'Binary Data'
+│ -18707F6E Ext File Attributes   81A40000 (2175008768)
+│ -         [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +18707F6E Ext File Attributes   81800000 (2172649472)
+│ +         [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│           [Bits 28-31]          08 (8) 'Regular File'
+│  18707F72 Local Header Offset   13072C2B (319237163)
+│  18707F76 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  18707F96 CENTRAL HEADER #331   02014B50 (33639248)
+│  18707F9A Created Zip Spec      14 (20) '2.0'
+│  18707F9B Created OS            03 (3) 'Unix'
+│ @@ -18797,16 +18797,16 @@
+│  1870A0B1 Uncompressed Size     00E74369 (15156073)
+│  1870A0B5 Filename Length       0017 (23)
+│  1870A0B7 Extra Length          0000 (0)
+│  1870A0B9 Comment Length        0000 (0)
+│  1870A0BB Disk Start            0000 (0)
+│  1870A0BD Int File Attributes   0000 (0)
+│           [Bit 0]               0 'Binary Data'
+│ -1870A0BF Ext File Attributes   81A40000 (2175008768)
+│ -         [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1870A0BF Ext File Attributes   81800000 (2172649472)
+│ +         [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│           [Bits 28-31]          08 (8) 'Regular File'
+│  1870A0C3 Local Header Offset   15919108 (361861384)
+│  1870A0C7 Filename              'XXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1870A0DE CENTRAL HEADER #432   02014B50 (33639248)
+│  1870A0E2 Created Zip Spec      14 (20) '2.0'
+│  1870A0E3 Created OS            03 (3) 'Unix'
+
+2 /        6 target/reference/org.apache.hop/hop-engines-spark-2.19.0.zip plugins/engines/spark/target/hop-engines-spark-2.19.0.zip
+--- target/reference/org.apache.hop/hop-engines-spark-2.19.0.zip
++++ plugins/engines/spark/target/hop-engines-spark-2.19.0.zip
+├── zipinfo {}
+│ @@ -46,24 +46,24 @@
+│  -rw-r--r--  2.0 unx  2112099 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/snappy-java-1.1.10.4.jar
+│  -rw-r--r--  2.0 unx  3816847 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/scala-reflect-2.13.17.jar
+│  -rw-r--r--  2.0 unx  1386628 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar
+│  -rw-r--r--  2.0 unx    42377 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-transport-native-epoll-4.2.17.Final-linux-x86_64.jar
+│  -rw-r--r--  2.0 unx    38183 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-transport-native-epoll-4.2.17.Final-linux-riscv64.jar
+│  -rw-r--r--  2.0 unx    15108 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-protobuf-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx     9431 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/jjwt-jackson-0.12.6.jar
+│ --rw-r--r--  2.0 unx   771960 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/javassist-3.32.0-GA.jar
+│ +-rw-------  2.0 unx   771960 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/javassist-3.32.0-GA.jar
+│  -rw-r--r--  2.0 unx   280525 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/threeten-extra-1.8.0.jar
+│  -rw-r--r--  2.0 unx    20378 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-marshalling-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx  2600232 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-native-quic-4.2.17.Final-linux-aarch_64.jar
+│  -rw-r--r--  2.0 unx  2629108 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/orc-core-2.2.2-shaded-protobuf.jar
+│  -rw-r--r--  2.0 unx    48728 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-redis-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx   159936 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-transport-classes-epoll-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx   131928 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/metrics-core-4.2.37.jar
+│  -rw-r--r--  2.0 unx    24109 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/metrics-graphite-4.2.37.jar
+│ --rw-r--r--  2.0 unx    17178 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/metrics-json-4.2.37.jar
+│ +-rw-------  2.0 unx    17178 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/metrics-json-4.2.37.jar
+│  -rw-r--r--  2.0 unx   153929 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/jakarta.ws.rs-api-4.0.0.jar
+│  -rw-r--r--  2.0 unx   718936 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/avro-1.12.1.jar
+│  -rw-r--r--  2.0 unx     2199 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+│  -rw-r--r--  2.0 unx   820948 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-common-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx    30133 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/log4j-slf4j2-impl-2.24.3.jar
+│  -rw-r--r--  2.0 unx   168569 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/xz-1.10.jar
+│  -rw-r--r--  2.0 unx   934384 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/commons-collections4-4.6.0.jar
+│ @@ -137,15 +137,15 @@
+│  -rw-r--r--  2.0 unx  2749569 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-native-quic-4.2.17.Final-linux-x86_64.jar
+│  -rw-r--r--  2.0 unx   189196 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/scala-parser-combinators_2.13-2.4.0.jar
+│  -rw-r--r--  2.0 unx    39197 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-haproxy-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx   496389 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-http2-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx    20252 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/error_prone_annotations-2.50.0.jar
+│  -rw-r--r--  2.0 unx    87921 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/jersey-hk2-4.0.2.jar
+│  -rw-r--r--  2.0 unx  3353262 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/parquet-column-1.16.0.jar
+│ --rw-r--r--  2.0 unx 15156073 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/icu4j-78.3.jar
+│ +-rw-------  2.0 unx 15156073 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/icu4j-78.3.jar
+│  -rw-r--r--  2.0 unx   550879 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/scala-xml_2.13-2.4.0.jar
+│  -rw-r--r--  2.0 unx    53533 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-transport-sctp-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx   348513 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/log4j-api-2.24.3.jar
+│  -rw-r--r--  2.0 unx  1253638 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar
+│  -rw-r--r--  2.0 unx 13604536 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/spark-sql_2.13-4.1.3.jar
+│  -rw-r--r--  2.0 unx    65261 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/oro-2.0.8.jar
+│  -rw-r--r--  2.0 unx  5940636 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/scala-library-2.13.17.jar
+│ @@ -189,15 +189,15 @@
+│  -rw-r--r--  2.0 unx   174347 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-resolver-dns-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx  1022777 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/datasketches-java-6.2.0.jar
+│  -rw-r--r--  2.0 unx    10681 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/jakarta.inject-api-2.0.1.jar
+│  -rw-r--r--  2.0 unx    13609 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/json4s-jackson_2.13-4.0.7.jar
+│  -rw-r--r--  2.0 unx   113746 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-mqtt-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx    26791 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-handler-proxy-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx  3079289 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/guava-33.3.1-jre.jar
+│ --rw-r--r--  2.0 unx    21753 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/metrics-jmx-4.2.37.jar
+│ +-rw-------  2.0 unx    21753 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/metrics-jmx-4.2.37.jar
+│  -rw-r--r--  2.0 unx   447005 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/univocity-parsers-2.9.1.jar
+│  -rw-r--r--  2.0 unx  1004805 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/jersey-server-4.0.2.jar
+│  -rw-r--r--  2.0 unx   258346 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/hive-storage-api-2.8.1.jar
+│  -rw-r--r--  2.0 unx   833233 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/parquet-format-structures-1.16.0.jar
+│  -rw-r--r--  2.0 unx    25340 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/json4s-jackson-core_2.13-4.0.7.jar
+│  -rw-r--r--  2.0 unx    71407 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/netty-codec-dns-4.2.17.Final.jar
+│  -rw-r--r--  2.0 unx   124575 b- defN 26-Aug-12 11:19 plugins/engines/spark/lib/parquet-common-1.16.0.jar
+├── zipdetails --redact --walk --utc {}
+│ @@ -4737,16 +4737,16 @@
+│  13DC8CDF Uncompressed Size     000BC778 (771960)
+│  13DC8CE3 Filename Length       0031 (49)
+│  13DC8CE5 Extra Length          0000 (0)
+│  13DC8CE7 Comment Length        0000 (0)
+│  13DC8CE9 Disk Start            0000 (0)
+│  13DC8CEB Int File Attributes   0000 (0)
+│           [Bit 0]               0 'Binary Data'
+│ -13DC8CED Ext File Attributes   81A40000 (2175008768)
+│ -         [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +13DC8CED Ext File Attributes   81800000 (2172649472)
+│ +         [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│           [Bits 28-31]          08 (8) 'Regular File'
+│  13DC8CF1 Local Header Offset   058CC8D1 (93112529)
+│  13DC8CF5 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  13DC8D26 CENTRAL HEADER #53    02014B50 (33639248)
+│  13DC8D2A Created Zip Spec      14 (20) '2.0'
+│  13DC8D2B Created OS            03 (3) 'Unix'
+│ @@ -4962,16 +4962,16 @@
+│  13DC9099 Uncompressed Size     0000431A (17178)
+│  13DC909D Filename Length       0031 (49)
+│  13DC909F Extra Length          0000 (0)
+│  13DC90A1 Comment Length        0000 (0)
+│  13DC90A3 Disk Start            0000 (0)
+│  13DC90A5 Int File Attributes   0000 (0)
+│           [Bit 0]               0 'Binary Data'
+│ -13DC90A7 Ext File Attributes   81A40000 (2175008768)
+│ -         [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +13DC90A7 Ext File Attributes   81800000 (2172649472)
+│ +         [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│           [Bits 28-31]          08 (8) 'Regular File'
+│  13DC90AB Local Header Offset   05ED718C (99447180)
+│  13DC90AF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  13DC90E0 CENTRAL HEADER #62    02014B50 (33639248)
+│  13DC90E4 Created Zip Spec      14 (20) '2.0'
+│  13DC90E5 Created OS            03 (3) 'Unix'
+│ @@ -7012,16 +7012,16 @@
+│  13DCB1B8 Uncompressed Size     00E74369 (15156073)
+│  13DCB1BC Filename Length       0028 (40)
+│  13DCB1BE Extra Length          0000 (0)
+│  13DCB1C0 Comment Length        0000 (0)
+│  13DCB1C2 Disk Start            0000 (0)
+│  13DCB1C4 Int File Attributes   0000 (0)
+│           [Bit 0]               0 'Binary Data'
+│ -13DCB1C6 Ext File Attributes   81A40000 (2175008768)
+│ -         [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +13DCB1C6 Ext File Attributes   81800000 (2172649472)
+│ +         [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│           [Bits 28-31]          08 (8) 'Regular File'
+│  13DCB1CA Local Header Offset   0FFF95AD (268408237)
+│  13DCB1CE Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  13DCB1F6 CENTRAL HEADER #144   02014B50 (33639248)
+│  13DCB1FA Created Zip Spec      14 (20) '2.0'
+│  13DCB1FB Created OS            03 (3) 'Unix'
+│ @@ -8312,16 +8312,16 @@
+│  13DCC66E Uncompressed Size     000054F9 (21753)
+│  13DCC672 Filename Length       0030 (48)
+│  13DCC674 Extra Length          0000 (0)
+│  13DCC676 Comment Length        0000 (0)
+│  13DCC678 Disk Start            0000 (0)
+│  13DCC67A Int File Attributes   0000 (0)
+│           [Bit 0]               0 'Binary Data'
+│ -13DCC67C Ext File Attributes   81A40000 (2175008768)
+│ -         [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +13DCC67C Ext File Attributes   81800000 (2172649472)
+│ +         [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│           [Bits 28-31]          08 (8) 'Regular File'
+│  13DCC680 Local Header Offset   13840B96 (327420822)
+│  13DCC684 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  13DCC6B4 CENTRAL HEADER #196   02014B50 (33639248)
+│  13DCC6B8 Created Zip Spec      14 (20) '2.0'
+│  13DCC6B9 Created OS            03 (3) 'Unix'
+
+3 /        6 target/reference/org.apache.hop/hop-misc-rest-2.19.0.zip plugins/misc/rest/target/hop-misc-rest-2.19.0.zip
+--- target/reference/org.apache.hop/hop-misc-rest-2.19.0.zip
++++ plugins/misc/rest/target/hop-misc-rest-2.19.0.zip
+├── zipinfo {}
+│ @@ -4,9 +4,9 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 plugins/misc/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 lib/core/
+│  -rw-r--r--  2.0 unx      891 b- defN 26-Aug-12 11:19 plugins/misc/rest/version.xml
+│  -rw-r--r--  2.0 unx    91397 b- defN 26-Aug-12 11:19 plugins/misc/rest/hop-misc-rest-2.19.0.jar
+│  -rw-r--r--  2.0 unx   955121 b- defN 26-Aug-12 11:19 lib/core/httpcore5-5.4.3.jar
+│  -rw-r--r--  2.0 unx  1057058 b- defN 26-Aug-12 11:19 lib/core/httpclient5-5.6.4.jar
+│ --rw-r--r--  2.0 unx   263675 b- defN 26-Aug-12 11:19 lib/core/httpcore5-h2-5.4.3.jar
+│ +-rw-------  2.0 unx   263675 b- defN 26-Aug-12 11:19 lib/core/httpcore5-h2-5.4.3.jar
+│  10 files, 2368142 bytes uncompressed, 2135674 bytes compressed:  9.8%
+├── zipdetails --redact --walk --utc {}
+│ @@ -419,16 +419,16 @@
+│  209AE5 Uncompressed Size     000405FB (263675)
+│  209AE9 Filename Length       001F (31)
+│  209AEB Extra Length          0000 (0)
+│  209AED Comment Length        0000 (0)
+│  209AEF Disk Start            0000 (0)
+│  209AF1 Int File Attributes   0000 (0)
+│         [Bit 0]               0 'Binary Data'
+│ -209AF3 Ext File Attributes   81A40000 (2175008768)
+│ -       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +209AF3 Ext File Attributes   81800000 (2172649472)
+│ +       [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│         [Bits 28-31]          08 (8) 'Regular File'
+│  209AF7 Local Header Offset   001CF787 (1898375)
+│  209AFB Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  209B1A END CENTRAL HEADER    06054B50 (101010256)
+│  209B1E Number of this disk   0000 (0)
+│  209B20 Central Dir Disk no   0000 (0)
+
+4 /        6 target/reference/org.apache.hop/hop-transform-rest-2.19.0.zip plugins/transforms/rest/target/hop-transform-rest-2.19.0.zip
+--- target/reference/org.apache.hop/hop-transform-rest-2.19.0.zip
++++ plugins/transforms/rest/target/hop-transform-rest-2.19.0.zip
+├── zipinfo {}
+│ @@ -20,9 +20,9 @@
+│  -rw-r--r--  2.0 unx   279148 b- defN 26-Aug-12 11:19 plugins/transforms/rest/lib/json-path-2.10.0.jar
+│  -rw-r--r--  2.0 unx   133929 b- defN 26-Aug-12 11:19 plugins/transforms/rest/hop-transform-rest-2.19.0.jar
+│  -rw-r--r--  2.0 unx   955121 b- defN 26-Aug-12 11:19 lib/core/httpcore5-5.4.3.jar
+│  -rw-r--r--  2.0 unx  1057058 b- defN 26-Aug-12 11:19 lib/core/httpclient5-5.6.4.jar
+│  -rw-r--r--  2.0 unx   126151 b- defN 26-Aug-12 11:19 lib/core/asm-9.10.1.jar
+│  -rw-r--r--  2.0 unx   122808 b- defN 26-Aug-12 11:19 lib/core/json-smart-2.6.0.jar
+│  -rw-r--r--  2.0 unx    30245 b- defN 26-Aug-12 11:19 lib/core/accessors-smart-2.6.0.jar
+│ --rw-r--r--  2.0 unx   263675 b- defN 26-Aug-12 11:19 lib/core/httpcore5-h2-5.4.3.jar
+│ +-rw-------  2.0 unx   263675 b- defN 26-Aug-12 11:19 lib/core/httpcore5-h2-5.4.3.jar
+│  26 files, 2988913 bytes uncompressed, 2687178 bytes compressed:  10.1%
+├── zipdetails --redact --walk --utc {}
+│ @@ -1105,16 +1105,16 @@
+│  290F45 Uncompressed Size     000405FB (263675)
+│  290F49 Filename Length       001F (31)
+│  290F4B Extra Length          0000 (0)
+│  290F4D Comment Length        0000 (0)
+│  290F4F Disk Start            0000 (0)
+│  290F51 Int File Attributes   0000 (0)
+│         [Bit 0]               0 'Binary Data'
+│ -290F53 Ext File Attributes   81A40000 (2175008768)
+│ -       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +290F53 Ext File Attributes   81800000 (2172649472)
+│ +       [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│         [Bits 28-31]          08 (8) 'Regular File'
+│  290F57 Local Header Offset   0025665F (2451039)
+│  290F5B Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  290F7A END CENTRAL HEADER    06054B50 (101010256)
+│  290F7E Number of this disk   0000 (0)
+│  290F80 Central Dir Disk no   0000 (0)
+
+5 /        6 target/reference/org.apache.hop/hop-transform-drools-2.19.0.zip plugins/transforms/drools/target/hop-transform-drools-2.19.0.zip
+--- target/reference/org.apache.hop/hop-transform-drools-2.19.0.zip
++++ plugins/transforms/drools/target/hop-transform-drools-2.19.0.zip
+├── zipinfo {}
+│ @@ -9,47 +9,47 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 plugins/transforms/drools/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 lib/core/
+│  -rw-r--r--  2.0 unx      891 b- defN 26-Aug-12 11:19 plugins/transforms/drools/version.xml
+│  -rw-r--r--  2.0 unx    11352 b- defN 26-Aug-12 11:19 config/projects/samples/transforms/rules-accumulator-solve-golfer-rule.hpl
+│  -rw-r--r--  2.0 unx   167761 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/antlr-runtime-3.5.2.jar
+│  -rw-r--r--  2.0 unx   322137 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/antlr4-runtime-4.10.1.jar
+│ --rw-r--r--  2.0 unx   310034 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-base-10.1.0.jar
+│ --rw-r--r--  2.0 unx   621839 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-canonical-model-10.1.0.jar
+│ --rw-r--r--  2.0 unx    47247 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-codegen-common-10.1.0.jar
+│ --rw-r--r--  2.0 unx   223271 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-commands-10.1.0.jar
+│ --rw-r--r--  2.0 unx   863979 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-compiler-10.1.0.jar
+│ --rw-r--r--  2.0 unx  1221008 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-core-10.1.0.jar
+│ +-rw-------  2.0 unx   310034 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-base-10.1.0.jar
+│ +-rw-------  2.0 unx   621839 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-canonical-model-10.1.0.jar
+│ +-rw-------  2.0 unx    47247 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-codegen-common-10.1.0.jar
+│ +-rw-------  2.0 unx   223271 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-commands-10.1.0.jar
+│ +-rw-------  2.0 unx   863979 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-compiler-10.1.0.jar
+│ +-rw-------  2.0 unx  1221008 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-core-10.1.0.jar
+│  -rw-r--r--  2.0 unx    68203 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-decisiontables-10.1.0.jar
+│ --rw-r--r--  2.0 unx   165003 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-drl-ast-10.1.0.jar
+│ --rw-r--r--  2.0 unx    13634 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-drl-extensions-10.1.0.jar
+│ --rw-r--r--  2.0 unx  1498031 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-drl-parser-10.1.0.jar
+│ --rw-r--r--  2.0 unx    21094 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-ecj-10.1.0.jar
+│ --rw-r--r--  2.0 unx     7720 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-engine-10.1.0.jar
+│ --rw-r--r--  2.0 unx    29352 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-io-10.1.0.jar
+│ --rw-r--r--  2.0 unx   190781 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-kiesession-10.1.0.jar
+│ --rw-r--r--  2.0 unx   666190 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-model-codegen-10.1.0.jar
+│ --rw-r--r--  2.0 unx   171996 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-model-compiler-10.1.0.jar
+│ --rw-r--r--  2.0 unx    50106 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-model-prototype-10.1.0.jar
+│ +-rw-------  2.0 unx   165003 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-drl-ast-10.1.0.jar
+│ +-rw-------  2.0 unx    13634 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-drl-extensions-10.1.0.jar
+│ +-rw-------  2.0 unx  1498031 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-drl-parser-10.1.0.jar
+│ +-rw-------  2.0 unx    21094 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-ecj-10.1.0.jar
+│ +-rw-------  2.0 unx     7720 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-engine-10.1.0.jar
+│ +-rw-------  2.0 unx    29352 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-io-10.1.0.jar
+│ +-rw-------  2.0 unx   190781 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-kiesession-10.1.0.jar
+│ +-rw-------  2.0 unx   666190 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-model-codegen-10.1.0.jar
+│ +-rw-------  2.0 unx   171996 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-model-compiler-10.1.0.jar
+│ +-rw-------  2.0 unx    50106 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-model-prototype-10.1.0.jar
+│  -rw-r--r--  2.0 unx   708750 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-mvel-10.1.0.jar
+│ --rw-r--r--  2.0 unx   124528 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-mvel-compiler-10.1.0.jar
+│ --rw-r--r--  2.0 unx   231189 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-mvel-parser-10.1.0.jar
+│ +-rw-------  2.0 unx   124528 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-mvel-compiler-10.1.0.jar
+│ +-rw-------  2.0 unx   231189 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-mvel-parser-10.1.0.jar
+│  -rw-r--r--  2.0 unx    62622 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-templates-10.1.0.jar
+│ --rw-r--r--  2.0 unx    77434 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-tms-10.1.0.jar
+│ --rw-r--r--  2.0 unx   102186 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-util-10.1.0.jar
+│ --rw-r--r--  2.0 unx    33912 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-wiring-api-10.1.0.jar
+│ --rw-r--r--  2.0 unx    19378 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-wiring-dynamic-10.1.0.jar
+│ --rw-r--r--  2.0 unx    14248 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-wiring-static-10.1.0.jar
+│ +-rw-------  2.0 unx    77434 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-tms-10.1.0.jar
+│ +-rw-------  2.0 unx   102186 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-util-10.1.0.jar
+│ +-rw-------  2.0 unx    33912 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-wiring-api-10.1.0.jar
+│ +-rw-------  2.0 unx    19378 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-wiring-dynamic-10.1.0.jar
+│ +-rw-------  2.0 unx    14248 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/drools-wiring-static-10.1.0.jar
+│  -rw-r--r--  2.0 unx  3160927 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/ecj-3.33.0.jar
+│ --rw-r--r--  2.0 unx  1412737 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/javaparser-core-3.25.8.jar
+│ --rw-r--r--  2.0 unx   230183 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-api-10.1.0.jar
+│ --rw-r--r--  2.0 unx   194189 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-internal-10.1.0.jar
+│ --rw-r--r--  2.0 unx    46819 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-memory-compiler-10.1.0.jar
+│ --rw-r--r--  2.0 unx    20560 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-util-maven-support-10.1.0.jar
+│ --rw-r--r--  2.0 unx    18916 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-util-xml-10.1.0.jar
+│ +-rw-------  2.0 unx  1412737 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/javaparser-core-3.25.8.jar
+│ +-rw-------  2.0 unx   230183 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-api-10.1.0.jar
+│ +-rw-------  2.0 unx   194189 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-internal-10.1.0.jar
+│ +-rw-------  2.0 unx    46819 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-memory-compiler-10.1.0.jar
+│ +-rw-------  2.0 unx    20560 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-util-maven-support-10.1.0.jar
+│ +-rw-------  2.0 unx    18916 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/kie-util-xml-10.1.0.jar
+│  -rw-r--r--  2.0 unx   822212 b- defN 26-Aug-12 11:19 plugins/transforms/drools/lib/mvel2-2.5.2.Final.jar
+│  -rw-r--r--  2.0 unx    67235 b- defN 26-Aug-12 11:19 plugins/transforms/drools/hop-transform-drools-2.19.0.jar
+│  -rw-r--r--  2.0 unx    25843 b- defN 26-Aug-12 11:19 lib/core/SparseBitSet-1.3.jar
+│  -rw-r--r--  2.0 unx   609182 b- defN 26-Aug-12 11:19 lib/core/commons-io-2.22.0.jar
+│  -rw-r--r--  2.0 unx  2211661 b- defN 26-Aug-12 11:19 lib/core/xmlbeans-5.3.0.jar
+│  -rw-r--r--  2.0 unx  2052603 b- defN 26-Aug-12 11:19 lib/core/poi-ooxml-5.5.1.jar
+│  -rw-r--r--  2.0 unx   934384 b- defN 26-Aug-12 11:19 lib/core/commons-collections4-4.6.0.jar
+├── zipdetails --redact --walk --utc {}
+│ @@ -1364,16 +1364,16 @@
+│  1C18B5A Uncompressed Size     0004BB12 (310034)
+│  1C18B5E Filename Length       0034 (52)
+│  1C18B60 Extra Length          0000 (0)
+│  1C18B62 Comment Length        0000 (0)
+│  1C18B64 Disk Start            0000 (0)
+│  1C18B66 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18B68 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18B68 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18B6C Local Header Offset   0006EAD7 (453335)
+│  1C18B70 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18BA4 CENTRAL HEADER #16    02014B50 (33639248)
+│  1C18BA8 Created Zip Spec      14 (20) '2.0'
+│  1C18BA9 Created OS            03 (3) 'Unix'
+│ @@ -1389,16 +1389,16 @@
+│  1C18BBC Uncompressed Size     00097D0F (621839)
+│  1C18BC0 Filename Length       003F (63)
+│  1C18BC2 Extra Length          0000 (0)
+│  1C18BC4 Comment Length        0000 (0)
+│  1C18BC6 Disk Start            0000 (0)
+│  1C18BC8 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18BCA Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18BCA Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18BCE Local Header Offset   000B37BE (735166)
+│  1C18BD2 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18C11 CENTRAL HEADER #17    02014B50 (33639248)
+│  1C18C15 Created Zip Spec      14 (20) '2.0'
+│  1C18C16 Created OS            03 (3) 'Unix'
+│ @@ -1414,16 +1414,16 @@
+│  1C18C29 Uncompressed Size     0000B88F (47247)
+│  1C18C2D Filename Length       003E (62)
+│  1C18C2F Extra Length          0000 (0)
+│  1C18C31 Comment Length        0000 (0)
+│  1C18C33 Disk Start            0000 (0)
+│  1C18C35 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18C37 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18C37 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18C3B Local Header Offset   0013A666 (1287782)
+│  1C18C3F Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18C7D CENTRAL HEADER #18    02014B50 (33639248)
+│  1C18C81 Created Zip Spec      14 (20) '2.0'
+│  1C18C82 Created OS            03 (3) 'Unix'
+│ @@ -1439,16 +1439,16 @@
+│  1C18C95 Uncompressed Size     00036827 (223271)
+│  1C18C99 Filename Length       0038 (56)
+│  1C18C9B Extra Length          0000 (0)
+│  1C18C9D Comment Length        0000 (0)
+│  1C18C9F Disk Start            0000 (0)
+│  1C18CA1 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18CA3 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18CA3 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18CA7 Local Header Offset   001447EB (1329131)
+│  1C18CAB Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18CE3 CENTRAL HEADER #19    02014B50 (33639248)
+│  1C18CE7 Created Zip Spec      14 (20) '2.0'
+│  1C18CE8 Created OS            03 (3) 'Unix'
+│ @@ -1464,16 +1464,16 @@
+│  1C18CFB Uncompressed Size     000D2EEB (863979)
+│  1C18CFF Filename Length       0038 (56)
+│  1C18D01 Extra Length          0000 (0)
+│  1C18D03 Comment Length        0000 (0)
+│  1C18D05 Disk Start            0000 (0)
+│  1C18D07 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18D09 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18D09 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18D0D Local Header Offset   0017584B (1529931)
+│  1C18D11 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18D49 CENTRAL HEADER #20    02014B50 (33639248)
+│  1C18D4D Created Zip Spec      14 (20) '2.0'
+│  1C18D4E Created OS            03 (3) 'Unix'
+│ @@ -1489,16 +1489,16 @@
+│  1C18D61 Uncompressed Size     0012A190 (1221008)
+│  1C18D65 Filename Length       0034 (52)
+│  1C18D67 Extra Length          0000 (0)
+│  1C18D69 Comment Length        0000 (0)
+│  1C18D6B Disk Start            0000 (0)
+│  1C18D6D Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18D6F Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18D6F Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18D73 Local Header Offset   00238636 (2328118)
+│  1C18D77 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18DAB CENTRAL HEADER #21    02014B50 (33639248)
+│  1C18DAF Created Zip Spec      14 (20) '2.0'
+│  1C18DB0 Created OS            03 (3) 'Unix'
+│ @@ -1539,16 +1539,16 @@
+│  1C18E2F Uncompressed Size     0002848B (165003)
+│  1C18E33 Filename Length       0037 (55)
+│  1C18E35 Extra Length          0000 (0)
+│  1C18E37 Comment Length        0000 (0)
+│  1C18E39 Disk Start            0000 (0)
+│  1C18E3B Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18E3D Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18E3D Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18E41 Local Header Offset   003591C3 (3510723)
+│  1C18E45 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18E7C CENTRAL HEADER #23    02014B50 (33639248)
+│  1C18E80 Created Zip Spec      14 (20) '2.0'
+│  1C18E81 Created OS            03 (3) 'Unix'
+│ @@ -1564,16 +1564,16 @@
+│  1C18E94 Uncompressed Size     00003542 (13634)
+│  1C18E98 Filename Length       003E (62)
+│  1C18E9A Extra Length          0000 (0)
+│  1C18E9C Comment Length        0000 (0)
+│  1C18E9E Disk Start            0000 (0)
+│  1C18EA0 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18EA2 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18EA2 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18EA6 Local Header Offset   0037C633 (3655219)
+│  1C18EAA Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18EE8 CENTRAL HEADER #24    02014B50 (33639248)
+│  1C18EEC Created Zip Spec      14 (20) '2.0'
+│  1C18EED Created OS            03 (3) 'Unix'
+│ @@ -1589,16 +1589,16 @@
+│  1C18F00 Uncompressed Size     0016DBAF (1498031)
+│  1C18F04 Filename Length       003A (58)
+│  1C18F06 Extra Length          0000 (0)
+│  1C18F08 Comment Length        0000 (0)
+│  1C18F0A Disk Start            0000 (0)
+│  1C18F0C Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18F0E Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18F0E Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18F12 Local Header Offset   0037F21E (3666462)
+│  1C18F16 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18F50 CENTRAL HEADER #25    02014B50 (33639248)
+│  1C18F54 Created Zip Spec      14 (20) '2.0'
+│  1C18F55 Created OS            03 (3) 'Unix'
+│ @@ -1614,16 +1614,16 @@
+│  1C18F68 Uncompressed Size     00005266 (21094)
+│  1C18F6C Filename Length       0033 (51)
+│  1C18F6E Extra Length          0000 (0)
+│  1C18F70 Comment Length        0000 (0)
+│  1C18F72 Disk Start            0000 (0)
+│  1C18F74 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18F76 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18F76 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18F7A Local Header Offset   004D004F (5046351)
+│  1C18F7E Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C18FB1 CENTRAL HEADER #26    02014B50 (33639248)
+│  1C18FB5 Created Zip Spec      14 (20) '2.0'
+│  1C18FB6 Created OS            03 (3) 'Unix'
+│ @@ -1639,16 +1639,16 @@
+│  1C18FC9 Uncompressed Size     00001E28 (7720)
+│  1C18FCD Filename Length       0036 (54)
+│  1C18FCF Extra Length          0000 (0)
+│  1C18FD1 Comment Length        0000 (0)
+│  1C18FD3 Disk Start            0000 (0)
+│  1C18FD5 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C18FD7 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C18FD7 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C18FDB Local Header Offset   004D4BAC (5065644)
+│  1C18FDF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19015 CENTRAL HEADER #27    02014B50 (33639248)
+│  1C19019 Created Zip Spec      14 (20) '2.0'
+│  1C1901A Created OS            03 (3) 'Unix'
+│ @@ -1664,16 +1664,16 @@
+│  1C1902D Uncompressed Size     000072A8 (29352)
+│  1C19031 Filename Length       0032 (50)
+│  1C19033 Extra Length          0000 (0)
+│  1C19035 Comment Length        0000 (0)
+│  1C19037 Disk Start            0000 (0)
+│  1C19039 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C1903B Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C1903B Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C1903F Local Header Offset   004D66E2 (5072610)
+│  1C19043 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19075 CENTRAL HEADER #28    02014B50 (33639248)
+│  1C19079 Created Zip Spec      14 (20) '2.0'
+│  1C1907A Created OS            03 (3) 'Unix'
+│ @@ -1689,16 +1689,16 @@
+│  1C1908D Uncompressed Size     0002E93D (190781)
+│  1C19091 Filename Length       003A (58)
+│  1C19093 Extra Length          0000 (0)
+│  1C19095 Comment Length        0000 (0)
+│  1C19097 Disk Start            0000 (0)
+│  1C19099 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C1909B Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C1909B Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C1909F Local Header Offset   004DCFAC (5099436)
+│  1C190A3 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C190DD CENTRAL HEADER #29    02014B50 (33639248)
+│  1C190E1 Created Zip Spec      14 (20) '2.0'
+│  1C190E2 Created OS            03 (3) 'Unix'
+│ @@ -1714,16 +1714,16 @@
+│  1C190F5 Uncompressed Size     000A2A4E (666190)
+│  1C190F9 Filename Length       003D (61)
+│  1C190FB Extra Length          0000 (0)
+│  1C190FD Comment Length        0000 (0)
+│  1C190FF Disk Start            0000 (0)
+│  1C19101 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C19103 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C19103 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19107 Local Header Offset   0050823E (5276222)
+│  1C1910B Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19148 CENTRAL HEADER #30    02014B50 (33639248)
+│  1C1914C Created Zip Spec      14 (20) '2.0'
+│  1C1914D Created OS            03 (3) 'Unix'
+│ @@ -1739,16 +1739,16 @@
+│  1C19160 Uncompressed Size     00029FDC (171996)
+│  1C19164 Filename Length       003E (62)
+│  1C19166 Extra Length          0000 (0)
+│  1C19168 Comment Length        0000 (0)
+│  1C1916A Disk Start            0000 (0)
+│  1C1916C Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C1916E Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C1916E Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19172 Local Header Offset   0059F73F (5895999)
+│  1C19176 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C191B4 CENTRAL HEADER #31    02014B50 (33639248)
+│  1C191B8 Created Zip Spec      14 (20) '2.0'
+│  1C191B9 Created OS            03 (3) 'Unix'
+│ @@ -1764,16 +1764,16 @@
+│  1C191CC Uncompressed Size     0000C3BA (50106)
+│  1C191D0 Filename Length       003F (63)
+│  1C191D2 Extra Length          0000 (0)
+│  1C191D4 Comment Length        0000 (0)
+│  1C191D6 Disk Start            0000 (0)
+│  1C191D8 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C191DA Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C191DA Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C191DE Local Header Offset   005C633F (6054719)
+│  1C191E2 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19221 CENTRAL HEADER #32    02014B50 (33639248)
+│  1C19225 Created Zip Spec      14 (20) '2.0'
+│  1C19226 Created OS            03 (3) 'Unix'
+│ @@ -1814,16 +1814,16 @@
+│  1C1929B Uncompressed Size     0001E670 (124528)
+│  1C1929F Filename Length       003D (61)
+│  1C192A1 Extra Length          0000 (0)
+│  1C192A3 Comment Length        0000 (0)
+│  1C192A5 Disk Start            0000 (0)
+│  1C192A7 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C192A9 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C192A9 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C192AD Local Header Offset   006709D6 (6752726)
+│  1C192B1 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C192EE CENTRAL HEADER #34    02014B50 (33639248)
+│  1C192F2 Created Zip Spec      14 (20) '2.0'
+│  1C192F3 Created OS            03 (3) 'Unix'
+│ @@ -1839,16 +1839,16 @@
+│  1C19306 Uncompressed Size     00038715 (231189)
+│  1C1930A Filename Length       003B (59)
+│  1C1930C Extra Length          0000 (0)
+│  1C1930E Comment Length        0000 (0)
+│  1C19310 Disk Start            0000 (0)
+│  1C19312 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C19314 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C19314 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19318 Local Header Offset   0068C82A (6866986)
+│  1C1931C Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19357 CENTRAL HEADER #35    02014B50 (33639248)
+│  1C1935B Created Zip Spec      14 (20) '2.0'
+│  1C1935C Created OS            03 (3) 'Unix'
+│ @@ -1889,16 +1889,16 @@
+│  1C193D6 Uncompressed Size     00012E7A (77434)
+│  1C193DA Filename Length       0033 (51)
+│  1C193DC Extra Length          0000 (0)
+│  1C193DE Comment Length        0000 (0)
+│  1C193E0 Disk Start            0000 (0)
+│  1C193E2 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C193E4 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C193E4 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C193E8 Local Header Offset   006CFE96 (7143062)
+│  1C193EC Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C1941F CENTRAL HEADER #37    02014B50 (33639248)
+│  1C19423 Created Zip Spec      14 (20) '2.0'
+│  1C19424 Created OS            03 (3) 'Unix'
+│ @@ -1914,16 +1914,16 @@
+│  1C19437 Uncompressed Size     00018F2A (102186)
+│  1C1943B Filename Length       0034 (52)
+│  1C1943D Extra Length          0000 (0)
+│  1C1943F Comment Length        0000 (0)
+│  1C19441 Disk Start            0000 (0)
+│  1C19443 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C19445 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C19445 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19449 Local Header Offset   006E0D7D (7212413)
+│  1C1944D Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19481 CENTRAL HEADER #38    02014B50 (33639248)
+│  1C19485 Created Zip Spec      14 (20) '2.0'
+│  1C19486 Created OS            03 (3) 'Unix'
+│ @@ -1939,16 +1939,16 @@
+│  1C19499 Uncompressed Size     00008478 (33912)
+│  1C1949D Filename Length       003A (58)
+│  1C1949F Extra Length          0000 (0)
+│  1C194A1 Comment Length        0000 (0)
+│  1C194A3 Disk Start            0000 (0)
+│  1C194A5 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C194A7 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C194A7 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C194AB Local Header Offset   006F86C9 (7309001)
+│  1C194AF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C194E9 CENTRAL HEADER #39    02014B50 (33639248)
+│  1C194ED Created Zip Spec      14 (20) '2.0'
+│  1C194EE Created OS            03 (3) 'Unix'
+│ @@ -1964,16 +1964,16 @@
+│  1C19501 Uncompressed Size     00004BB2 (19378)
+│  1C19505 Filename Length       003E (62)
+│  1C19507 Extra Length          0000 (0)
+│  1C19509 Comment Length        0000 (0)
+│  1C1950B Disk Start            0000 (0)
+│  1C1950D Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C1950F Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C1950F Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19513 Local Header Offset   006FFF7F (7339903)
+│  1C19517 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19555 CENTRAL HEADER #40    02014B50 (33639248)
+│  1C19559 Created Zip Spec      14 (20) '2.0'
+│  1C1955A Created OS            03 (3) 'Unix'
+│ @@ -1989,16 +1989,16 @@
+│  1C1956D Uncompressed Size     000037A8 (14248)
+│  1C19571 Filename Length       003D (61)
+│  1C19573 Extra Length          0000 (0)
+│  1C19575 Comment Length        0000 (0)
+│  1C19577 Disk Start            0000 (0)
+│  1C19579 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C1957B Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C1957B Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C1957F Local Header Offset   0070416E (7356782)
+│  1C19583 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C195C0 CENTRAL HEADER #41    02014B50 (33639248)
+│  1C195C4 Created Zip Spec      14 (20) '2.0'
+│  1C195C5 Created OS            03 (3) 'Unix'
+│ @@ -2039,16 +2039,16 @@
+│  1C19632 Uncompressed Size     00158E81 (1412737)
+│  1C19636 Filename Length       0038 (56)
+│  1C19638 Extra Length          0000 (0)
+│  1C1963A Comment Length        0000 (0)
+│  1C1963C Disk Start            0000 (0)
+│  1C1963E Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C19640 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C19640 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19644 Local Header Offset   009E68A5 (10381477)
+│  1C19648 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19680 CENTRAL HEADER #43    02014B50 (33639248)
+│  1C19684 Created Zip Spec      14 (20) '2.0'
+│  1C19685 Created OS            03 (3) 'Unix'
+│ @@ -2064,16 +2064,16 @@
+│  1C19698 Uncompressed Size     00038327 (230183)
+│  1C1969C Filename Length       0030 (48)
+│  1C1969E Extra Length          0000 (0)
+│  1C196A0 Comment Length        0000 (0)
+│  1C196A2 Disk Start            0000 (0)
+│  1C196A4 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C196A6 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C196A6 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C196AA Local Header Offset   00B25DEE (11689454)
+│  1C196AE Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C196DE CENTRAL HEADER #44    02014B50 (33639248)
+│  1C196E2 Created Zip Spec      14 (20) '2.0'
+│  1C196E3 Created OS            03 (3) 'Unix'
+│ @@ -2089,16 +2089,16 @@
+│  1C196F6 Uncompressed Size     0002F68D (194189)
+│  1C196FA Filename Length       0035 (53)
+│  1C196FC Extra Length          0000 (0)
+│  1C196FE Comment Length        0000 (0)
+│  1C19700 Disk Start            0000 (0)
+│  1C19702 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C19704 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C19704 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19708 Local Header Offset   00B51DEA (11869674)
+│  1C1970C Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19741 CENTRAL HEADER #45    02014B50 (33639248)
+│  1C19745 Created Zip Spec      14 (20) '2.0'
+│  1C19746 Created OS            03 (3) 'Unix'
+│ @@ -2114,16 +2114,16 @@
+│  1C19759 Uncompressed Size     0000B6E3 (46819)
+│  1C1975D Filename Length       003C (60)
+│  1C1975F Extra Length          0000 (0)
+│  1C19761 Comment Length        0000 (0)
+│  1C19763 Disk Start            0000 (0)
+│  1C19765 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C19767 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C19767 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C1976B Local Header Offset   00B79AF3 (12032755)
+│  1C1976F Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C197AB CENTRAL HEADER #46    02014B50 (33639248)
+│  1C197AF Created Zip Spec      14 (20) '2.0'
+│  1C197B0 Created OS            03 (3) 'Unix'
+│ @@ -2139,16 +2139,16 @@
+│  1C197C3 Uncompressed Size     00005050 (20560)
+│  1C197C7 Filename Length       003F (63)
+│  1C197C9 Extra Length          0000 (0)
+│  1C197CB Comment Length        0000 (0)
+│  1C197CD Disk Start            0000 (0)
+│  1C197CF Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C197D1 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C197D1 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C197D5 Local Header Offset   00B83A92 (12073618)
+│  1C197D9 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C19818 CENTRAL HEADER #47    02014B50 (33639248)
+│  1C1981C Created Zip Spec      14 (20) '2.0'
+│  1C1981D Created OS            03 (3) 'Unix'
+│ @@ -2164,16 +2164,16 @@
+│  1C19830 Uncompressed Size     000049E4 (18916)
+│  1C19834 Filename Length       0035 (53)
+│  1C19836 Extra Length          0000 (0)
+│  1C19838 Comment Length        0000 (0)
+│  1C1983A Disk Start            0000 (0)
+│  1C1983C Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -1C1983E Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +1C1983E Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  1C19842 Local Header Offset   00B88051 (12091473)
+│  1C19846 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  1C1987B CENTRAL HEADER #48    02014B50 (33639248)
+│  1C1987F Created Zip Spec      14 (20) '2.0'
+│  1C19880 Created OS            03 (3) 'Unix'
+
+6 /        6 target/reference/org.apache.hop/hop-transform-script-2.19.0.zip plugins/transforms/script/target/hop-transform-script-2.19.0.zip
+--- target/reference/org.apache.hop/hop-transform-script-2.19.0.zip
++++ plugins/transforms/script/target/hop-transform-script-2.19.0.zip
+├── zipinfo {}
+│ @@ -5,27 +5,27 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 plugins/transforms/script/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-12 11:19 lib/core/
+│  -rw-r--r--  2.0 unx      891 b- defN 26-Aug-12 11:19 plugins/transforms/script/version.xml
+│  -rw-r--r--  2.0 unx   124522 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/collections-25.0.3.jar
+│  -rw-r--r--  2.0 unx  7715295 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/groovy-4.0.30.jar
+│  -rw-r--r--  2.0 unx    16832 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/groovy-jsr223-4.0.30.jar
+│ --rw-r--r--  2.0 unx 18028008 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/icu4j-25.0.3.jar
+│ +-rw-------  2.0 unx 18028008 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/icu4j-25.0.3.jar
+│  -rw-r--r--  2.0 unx   276667 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/jniutils-25.0.3.jar
+│ --rw-r--r--  2.0 unx 26515160 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/js-language-25.0.3.jar
+│ +-rw-------  2.0 unx 26515160 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/js-language-25.0.3.jar
+│  -rw-r--r--  2.0 unx    70043 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/js-scriptengine-25.0.3.jar
+│ --rw-r--r--  2.0 unx 50453449 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/jython-standalone-2.7.4.jar
+│ +-rw-------  2.0 unx 50453449 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/jython-standalone-2.7.4.jar
+│  -rw-r--r--  2.0 unx   231183 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/nativeimage-25.0.3.jar
+│ --rw-r--r--  2.0 unx   515471 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/polyglot-25.0.3.jar
+│ --rw-r--r--  2.0 unx  3867271 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/regex-25.0.3.jar
+│ --rw-r--r--  2.0 unx 14025583 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/truffle-api-25.0.3.jar
+│ +-rw-------  2.0 unx   515471 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/polyglot-25.0.3.jar
+│ +-rw-------  2.0 unx  3867271 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/regex-25.0.3.jar
+│ +-rw-------  2.0 unx 14025583 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/truffle-api-25.0.3.jar
+│  -rw-r--r--  2.0 unx    63510 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/truffle-compiler-25.0.3.jar
+│  -rw-r--r--  2.0 unx   861092 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/truffle-runtime-25.0.3.jar
+│  -rw-r--r--  2.0 unx    40286 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/word-25.0.3.jar
+│ --rw-r--r--  2.0 unx   328273 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/xz-25.0.3.jar
+│ +-rw-------  2.0 unx   328273 b- defN 26-Aug-12 11:19 plugins/transforms/script/lib/xz-25.0.3.jar
+│  -rw-r--r--  2.0 unx    72426 b- defN 26-Aug-12 11:19 plugins/transforms/script/hop-transform-script-2.19.0.jar
+│  -rw-r--r--  2.0 unx    35140 b- defN 26-Aug-12 11:19 lib/core/asm-analysis-9.10.1.jar
+│  -rw-r--r--  2.0 unx    95628 b- defN 26-Aug-12 11:19 lib/core/asm-util-9.10.1.jar
+│  -rw-r--r--  2.0 unx   126151 b- defN 26-Aug-12 11:19 lib/core/asm-9.10.1.jar
+│  -rw-r--r--  2.0 unx    74840 b- defN 26-Aug-12 11:19 lib/core/asm-commons-9.10.1.jar
+│  -rw-r--r--  2.0 unx    51958 b- defN 26-Aug-12 11:19 lib/core/asm-tree-9.10.1.jar
+│  29 files, 123589679 bytes uncompressed, 81181254 bytes compressed:  34.3%
+├── zipdetails --redact --walk --utc {}
+│ @@ -752,16 +752,16 @@
+│  4D6C527 Uncompressed Size     011315E8 (18028008)
+│  4D6C52B Filename Length       002E (46)
+│  4D6C52D Extra Length          0000 (0)
+│  4D6C52F Comment Length        0000 (0)
+│  4D6C531 Disk Start            0000 (0)
+│  4D6C533 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C535 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C535 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C539 Local Header Offset   00691506 (6886662)
+│  4D6C53D Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C56B CENTRAL HEADER #12    02014B50 (33639248)
+│  4D6C56F Created Zip Spec      14 (20) '2.0'
+│  4D6C570 Created OS            03 (3) 'Unix'
+│ @@ -802,16 +802,16 @@
+│  4D6C5E2 Uncompressed Size     019496D8 (26515160)
+│  4D6C5E6 Filename Length       0034 (52)
+│  4D6C5E8 Extra Length          0000 (0)
+│  4D6C5EA Comment Length        0000 (0)
+│  4D6C5EC Disk Start            0000 (0)
+│  4D6C5EE Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C5F0 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C5F0 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C5F4 Local Header Offset   0169689D (23685277)
+│  4D6C5F8 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C62C CENTRAL HEADER #14    02014B50 (33639248)
+│  4D6C630 Created Zip Spec      14 (20) '2.0'
+│  4D6C631 Created OS            03 (3) 'Unix'
+│ @@ -852,16 +852,16 @@
+│  4D6C6AA Uncompressed Size     0301DBC9 (50453449)
+│  4D6C6AE Filename Length       0039 (57)
+│  4D6C6B0 Extra Length          0000 (0)
+│  4D6C6B2 Comment Length        0000 (0)
+│  4D6C6B4 Disk Start            0000 (0)
+│  4D6C6B6 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C6B8 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C6B8 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C6BC Local Header Offset   01C1481F (29444127)
+│  4D6C6C0 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C6F9 CENTRAL HEADER #16    02014B50 (33639248)
+│  4D6C6FD Created Zip Spec      14 (20) '2.0'
+│  4D6C6FE Created OS            03 (3) 'Unix'
+│ @@ -902,16 +902,16 @@
+│  4D6C773 Uncompressed Size     0007DD8F (515471)
+│  4D6C777 Filename Length       0031 (49)
+│  4D6C779 Extra Length          0000 (0)
+│  4D6C77B Comment Length        0000 (0)
+│  4D6C77D Disk Start            0000 (0)
+│  4D6C77F Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C781 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C781 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C785 Local Header Offset   04843E01 (75775489)
+│  4D6C789 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C7BA CENTRAL HEADER #18    02014B50 (33639248)
+│  4D6C7BE Created Zip Spec      14 (20) '2.0'
+│  4D6C7BF Created OS            03 (3) 'Unix'
+│ @@ -927,16 +927,16 @@
+│  4D6C7D2 Uncompressed Size     003B0287 (3867271)
+│  4D6C7D6 Filename Length       002E (46)
+│  4D6C7D8 Extra Length          0000 (0)
+│  4D6C7DA Comment Length        0000 (0)
+│  4D6C7DC Disk Start            0000 (0)
+│  4D6C7DE Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C7E0 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C7E0 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C7E4 Local Header Offset   048668EF (75917551)
+│  4D6C7E8 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C816 CENTRAL HEADER #19    02014B50 (33639248)
+│  4D6C81A Created Zip Spec      14 (20) '2.0'
+│  4D6C81B Created OS            03 (3) 'Unix'
+│ @@ -952,16 +952,16 @@
+│  4D6C82E Uncompressed Size     00D6036F (14025583)
+│  4D6C832 Filename Length       0034 (52)
+│  4D6C834 Extra Length          0000 (0)
+│  4D6C836 Comment Length        0000 (0)
+│  4D6C838 Disk Start            0000 (0)
+│  4D6C83A Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C83C Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C83C Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C840 Local Header Offset   0498D52E (77124910)
+│  4D6C844 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C878 CENTRAL HEADER #20    02014B50 (33639248)
+│  4D6C87C Created Zip Spec      14 (20) '2.0'
+│  4D6C87D Created OS            03 (3) 'Unix'
+│ @@ -1052,16 +1052,16 @@
+│  4D6C9B8 Uncompressed Size     00050251 (328273)
+│  4D6C9BC Filename Length       002B (43)
+│  4D6C9BE Extra Length          0000 (0)
+│  4D6C9C0 Comment Length        0000 (0)
+│  4D6C9C2 Disk Start            0000 (0)
+│  4D6C9C4 Int File Attributes   0000 (0)
+│          [Bit 0]               0 'Binary Data'
+│ -4D6C9C6 Ext File Attributes   81A40000 (2175008768)
+│ -        [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│ +4D6C9C6 Ext File Attributes   81800000 (2172649472)
+│ +        [Bits 16-24]          0180 (384) 'Unix attrib: rw-------'
+│          [Bits 28-31]          08 (8) 'Regular File'
+│  4D6C9CA Local Header Offset   04CE9A95 (80648853)
+│  4D6C9CE Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  
+│  4D6C9F9 CENTRAL HEADER #24    02014B50 (33639248)
+│  4D6C9FD Created Zip Spec      14 (20) '2.0'
+│  4D6C9FE Created OS            03 (3) 'Unix'
+
