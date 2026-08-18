@@ -1,0 +1,31 @@
+1 / 1 target/reference/org.apache.qpid/apache-qpid-protonj2-1.3.0-src.tar.gz apache-qpid-protonj2/target/apache-qpid-protonj2-1.3.0-src.tar.gz
+--- target/reference/org.apache.qpid/apache-qpid-protonj2-1.3.0-src.tar.gz
++++ apache-qpid-protonj2/target/apache-qpid-protonj2-1.3.0-src.tar.gz
+├── apache-qpid-protonj2-1.3.0-src.tar
+│ ├── file list
+│ │ @@ -2,15 +2,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/apache-qpid-protonj2/src/main/assembly/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2/apidocs/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2/src/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2/src/main/
+│ │ @@ -82,28 +81,26 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/filtered-resources/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/exceptions/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/futures/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/impl/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/transport/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/transport/netty4/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/java/org/apache/qpid/protonj2/client/util/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/main/resources/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/test/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2026-08-12 18:36:29.000000 apache-qpid-protonj2-1.3.0-src/protonj2-client/src/test/java/
+
