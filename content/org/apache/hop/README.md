@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.git)
 
-<details><summary>This project defines 306 modules:</summary>
+<details><summary>This project defines 319 modules:</summary>
 
 * [org.apache.hop:hop](https://central.sonatype.com/artifact/org.apache.hop/hop/overview)
 * [org.apache.hop:hop-action-abort](https://central.sonatype.com/artifact/org.apache.hop/hop-action-abort/overview)
@@ -46,6 +46,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-action-pipeline](https://central.sonatype.com/artifact/org.apache.hop/hop-action-pipeline/overview)
 * [org.apache.hop:hop-action-repeat](https://central.sonatype.com/artifact/org.apache.hop/hop-action-repeat/overview)
 * [org.apache.hop:hop-action-sendnagiospassivecheck](https://central.sonatype.com/artifact/org.apache.hop/hop-action-sendnagiospassivecheck/overview)
+* [org.apache.hop:hop-action-setpasswordencoder](https://central.sonatype.com/artifact/org.apache.hop/hop-action-setpasswordencoder/overview)
 * [org.apache.hop:hop-action-setvariables](https://central.sonatype.com/artifact/org.apache.hop/hop-action-setvariables/overview)
 * [org.apache.hop:hop-action-shell](https://central.sonatype.com/artifact/org.apache.hop/hop-action-shell/overview)
 * [org.apache.hop:hop-action-simpleeval](https://central.sonatype.com/artifact/org.apache.hop/hop-action-simpleeval/overview)
@@ -115,14 +116,19 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-engine](https://central.sonatype.com/artifact/org.apache.hop/hop-engine/overview)
 * [org.apache.hop:hop-engine-beam](https://central.sonatype.com/artifact/org.apache.hop/hop-engine-beam/overview)
 * [org.apache.hop:hop-engines-beam](https://central.sonatype.com/artifact/org.apache.hop/hop-engines-beam/overview)
+* [org.apache.hop:hop-engines-single-threaded](https://central.sonatype.com/artifact/org.apache.hop/hop-engines-single-threaded/overview)
+* [org.apache.hop:hop-engines-spark](https://central.sonatype.com/artifact/org.apache.hop/hop-engines-spark/overview)
 * [org.apache.hop:hop-libs](https://central.sonatype.com/artifact/org.apache.hop/hop-libs/overview)
 * [org.apache.hop:hop-libs-jdbc](https://central.sonatype.com/artifact/org.apache.hop/hop-libs-jdbc/overview)
+* [org.apache.hop:hop-libs-p2](https://central.sonatype.com/artifact/org.apache.hop/hop-libs-p2/overview)
 * [org.apache.hop:hop-misc-async](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-async/overview)
 * [org.apache.hop:hop-misc-debug](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-debug/overview)
 * [org.apache.hop:hop-misc-documentation](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-documentation/overview)
+* [org.apache.hop:hop-misc-execution-database](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-execution-database/overview)
 * [org.apache.hop:hop-misc-git](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-git/overview)
 * [org.apache.hop:hop-misc-import](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-import/overview)
 * [org.apache.hop:hop-misc-mail](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-mail/overview)
+* [org.apache.hop:hop-misc-marketplace](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-marketplace/overview)
 * [org.apache.hop:hop-misc-passwords](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-passwords/overview)
 * [org.apache.hop:hop-misc-projects](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-projects/overview)
 * [org.apache.hop:hop-misc-py4j](https://central.sonatype.com/artifact/org.apache.hop/hop-misc-py4j/overview)
@@ -155,7 +161,9 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-tech-neo4j](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-neo4j/overview)
 * [org.apache.hop:hop-tech-opensearch](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-opensearch/overview)
 * [org.apache.hop:hop-tech-parquet](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-parquet/overview)
+* [org.apache.hop:hop-tech-redis](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-redis/overview)
 * [org.apache.hop:hop-tech-salesforce](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-salesforce/overview)
+* [org.apache.hop:hop-tech-sftp](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-sftp/overview)
 * [org.apache.hop:hop-tech-vault](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-vault/overview)
 * [org.apache.hop:hop-tech-webdav](https://central.sonatype.com/artifact/org.apache.hop/hop-tech-webdav/overview)
 * [org.apache.hop:hop-transform-abort](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-abort/overview)
@@ -163,6 +171,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-transform-addsnowflakeid](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-addsnowflakeid/overview)
 * [org.apache.hop:hop-transform-analyticquery](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-analyticquery/overview)
 * [org.apache.hop:hop-transform-append](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-append/overview)
+* [org.apache.hop:hop-transform-binaryfileoutput](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-binaryfileoutput/overview)
 * [org.apache.hop:hop-transform-blockingtransform](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-blockingtransform/overview)
 * [org.apache.hop:hop-transform-blockuntiltransformsfinish](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-blockuntiltransformsfinish/overview)
 * [org.apache.hop:hop-transform-calculator](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-calculator/overview)
@@ -247,6 +256,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-transform-normaliser](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-normaliser/overview)
 * [org.apache.hop:hop-transform-nullif](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-nullif/overview)
 * [org.apache.hop:hop-transform-numberrange](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-numberrange/overview)
+* [org.apache.hop:hop-transform-odata](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-odata/overview)
 * [org.apache.hop:hop-transform-orabulkloader](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-orabulkloader/overview)
 * [org.apache.hop:hop-transform-pgbulkloader](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-pgbulkloader/overview)
 * [org.apache.hop:hop-transform-pgp](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-pgp/overview)
@@ -275,6 +285,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-transform-snowflake-bulkloader](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-snowflake-bulkloader/overview)
 * [org.apache.hop:hop-transform-sort](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-sort/overview)
 * [org.apache.hop:hop-transform-sortedmerge](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-sortedmerge/overview)
+* [org.apache.hop:hop-transform-sortedschemamerge](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-sortedschemamerge/overview)
 * [org.apache.hop:hop-transform-splitfieldtorows](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-splitfieldtorows/overview)
 * [org.apache.hop:hop-transform-splunk](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-splunk/overview)
 * [org.apache.hop:hop-transform-sql](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-sql/overview)
@@ -286,6 +297,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-transform-streamschemamerge](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-streamschemamerge/overview)
 * [org.apache.hop:hop-transform-stringcut](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-stringcut/overview)
 * [org.apache.hop:hop-transform-stringoperations](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-stringoperations/overview)
+* [org.apache.hop:hop-transform-surefirereport](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-surefirereport/overview)
 * [org.apache.hop:hop-transform-switchcase](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-switchcase/overview)
 * [org.apache.hop:hop-transform-synchronizeaftermerge](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-synchronizeaftermerge/overview)
 * [org.apache.hop:hop-transform-systemdata](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-systemdata/overview)
@@ -302,6 +314,7 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-transform-update](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-update/overview)
 * [org.apache.hop:hop-transform-validator](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-validator/overview)
 * [org.apache.hop:hop-transform-valuemapper](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-valuemapper/overview)
+* [org.apache.hop:hop-transform-vcard](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-vcard/overview)
 * [org.apache.hop:hop-transform-verticabulkloader](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-verticabulkloader/overview)
 * [org.apache.hop:hop-transform-webserviceavailable](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-webserviceavailable/overview)
 * [org.apache.hop:hop-transform-webservices](https://central.sonatype.com/artifact/org.apache.hop/hop-transform-webservices/overview)
@@ -317,13 +330,13 @@ Source code: [https://github.com/apache/hop.git](https://github.com/apache/hop.g
 * [org.apache.hop:hop-valuetypes-uuid](https://central.sonatype.com/artifact/org.apache.hop/hop-valuetypes-uuid/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.hop:hop:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.apache.hop:hop:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.19.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.19.0/pom) | | | |
+| [2.19.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.19.0/pom) | [mvn jdk21 osx aarm64](hop-2.19.0.buildspec) | [result](hop-2.19.0.buildinfo): [1468 :white_check_mark: ](hop-2.19.0.buildcompare) | | 1.7G |
 | [2.18.1](https://central.sonatype.com/artifact/org.apache.hop/hop/2.18.1/pom) | [mvn jdk21](hop-2.18.1.buildspec) | [result](hop-2.18.1.buildinfo): [1201 :white_check_mark: ](hop-2.18.1.buildcompare) | | 376M |
 | [2.18.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.18.0/pom) | [mvn jdk21](hop-2.18.0.buildspec) | [result](hop-2.18.0.buildinfo): [1201 :white_check_mark: ](hop-2.18.0.buildcompare) | | 376M |
 | [2.17.0](https://central.sonatype.com/artifact/org.apache.hop/hop/2.17.0/pom) | [mvn jdk17](hop-2.17.0.buildspec) | [result](hop-2.17.0.buildinfo): [1173 :white_check_mark:  2 :warning:](hop-2.17.0.buildcompare) | - | 282M |
