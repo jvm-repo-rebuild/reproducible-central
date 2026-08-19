@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=27
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-pom.git
+source.scm.tag=plexus-27
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.19
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-27.pom
+outputs.0.length=36059
+outputs.0.checksums.sha512=c9066e787c708c191855a90a292de04fd20d1e0504695c8e79e191370321e34e1888ee9f580c871047155d5e5083d13cd1326d17892dab2e4e5e9c17e5d552b4
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-27-site.xml
+outputs.1.length=3291
+outputs.1.checksums.sha512=ed29424a4c674bd28a6bfb2726cf7a09801319647915b63d57050885e970a94afb312f6603e0568f1474214d4d7901c8a21634f921e3d1facc850484967786b5
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-27-source-release.zip
+outputs.2.length=33159
+outputs.2.checksums.sha512=6e5807e7c482a2c2d3c07751f06dfa134a28fb71eaf465a1d8c6f7d5b1b5ad0eb4b7f8b70426c2a511d22c93af2c90c09db5099f37a595ebcdda5c03803348a0
