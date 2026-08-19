@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interactivity Handler Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-interactivity
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interactivity.git
+source.scm.tag=plexus-interactivity-1.6.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plexus-interactivity-api
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-interactivity
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-interactivity-1.6.0.pom
+outputs.0.0.length=1768
+outputs.0.0.checksums.sha512=957f9f1ae8027b46b01e8f50f21d93b58aee5468353ea8e9e302b5537d8cb90aaa8246bf5b13fb296dbd8069c7b413188f6e7a80f5642379e67f569da2e831ba
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-interactivity-1.6.0-source-release.zip
+outputs.0.1.length=23548
+outputs.0.1.checksums.sha512=cbc44e7f5123ddcf43cc325648cc644f2bfec82ca492073dda279bf5bed9798b55a0ff0830d1c540676a0ee106498dc5a429c5bc48ff6438aac154e64c441253
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-interactivity-api
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-interactivity-api-1.6.0.pom
+outputs.1.0.length=2065
+outputs.1.0.checksums.sha512=a715431302660674d88505c21cf0cc8e6e0af6886401084036b9eb4971559769e06be6c3fc568aee15935a32280fea221a53232c591e89be50917403dbbc1004
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-interactivity-api-1.6.0.jar
+outputs.1.1.length=10440
+outputs.1.1.checksums.sha512=51b57895680d17958db8afa1f270aae976f60a4e6b40322a383487719a989f9a83843094eaef74fe814610563d3b1cfe271e64bc2a89a8f187276a4ec5530856
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-interactivity-api-1.6.0-sources.jar
+outputs.1.2.length=13653
+outputs.1.2.checksums.sha512=d6e8a3b0324368ed614659ebd2a3b5afa41711171693cdf61b274739f5a1bd4f8f89c216721986f9d8b40bcd431623e4fd74ad524802edb1736f306bbf5d749e
