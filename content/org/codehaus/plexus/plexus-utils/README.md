@@ -13,10 +13,12 @@ rebuilding **11 releases** of org.codehaus.plexus:plexus-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.1.0/pom) | | | |
 | [4.0.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.3/pom) | [mvn jdk25](plexus-utils-4.0.3.buildspec) | [result](plexus-utils-4.0.3.buildinfo): [5 :white_check_mark: ](plexus-utils-4.0.3.buildcompare) | | 661K |
 | [4.0.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.2/pom) | [mvn jdk21](plexus-utils-4.0.2.buildspec) | [result](plexus-utils-4.0.2.buildinfo): [2 :white_check_mark:  2 :warning:](plexus-utils-4.0.2.buildcompare) [:mag:](plexus-utils-4.0.2.diffoscope) | - | 661K |
 | [4.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.1/pom) | [mvn jdk21](plexus-utils-4.0.1.buildspec) | [result](plexus-utils-4.0.1.buildinfo): [4 :white_check_mark: ](plexus-utils-4.0.1.buildcompare) | | 656K |
 | [4.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.0/pom) | [mvn jdk17](plexus-utils-4.0.0.buildspec) | [result](plexus-utils-4.0.0.buildinfo): [4 :white_check_mark: ](plexus-utils-4.0.0.buildcompare) | | 655K |
+| [3.6.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/3.6.2/pom) | | | |
 | [3.6.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/3.6.1/pom) | [mvn jdk25](plexus-utils-3.6.1.buildspec) | [result](plexus-utils-3.6.1.buildinfo): [4 :white_check_mark: ](plexus-utils-3.6.1.buildcompare) | | 978K |
 | [3.6.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/3.6.0/pom) | [mvn jdk23](plexus-utils-3.6.0.buildspec) | [result](plexus-utils-3.6.0.buildinfo): [4 :white_check_mark: ](plexus-utils-3.6.0.buildcompare) | | 981K |
 | [3.5.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/3.5.1/pom) | [mvn jdk11](plexus-utils-3.5.1.buildspec) | [result](plexus-utils-3.5.1.buildinfo): [4 :white_check_mark: ](plexus-utils-3.5.1.buildcompare) | | 1.4M |
