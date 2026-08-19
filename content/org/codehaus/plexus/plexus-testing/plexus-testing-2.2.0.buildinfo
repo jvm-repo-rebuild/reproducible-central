@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Testing
+group-id=org.codehaus.plexus
+artifact-id=plexus-testing
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-testing.git
+source.scm.tag=plexus-testing-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-testing-2.2.0.pom
+outputs.0.length=3786
+outputs.0.checksums.sha512=f30185bff82af74f3e3fc6125e348427fa37e9d2a1257fcd40e1a0f0391ef67df5065a689044bf0e55dfa768c1453917e0b1cf140578a5f8de80d4191d9ed6c1
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-testing-2.2.0.jar
+outputs.1.length=9203
+outputs.1.checksums.sha512=1112116282c751d2016195a5ba09e0a7f30c51bb61e2227398c5aace1ba689384be8d1be93c3b49e5ceac2b1e6aff2dd5d0e42c5d6d17b57ca42eb10e9bb14c9
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-testing-2.2.0-source-release.zip
+outputs.2.length=18744
+outputs.2.checksums.sha512=4eed779f20e4b9542c60b9c6d83f0481593113c52485c77aca729cc8a071a353dedeb05d77a60866fbaa015fbc6f9c7b8a0963cea0d79b526290d99813598a17
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-testing-2.2.0-sources.jar
+outputs.3.length=7166
+outputs.3.checksums.sha512=1d6122b90c7d97054af86e9a6c1f64352d9ffb1db5a07a24053b61ec1a0b5f640e84d761555098a12a3269316759d8848f8901145ece5af638baaa2ce5b65bc0
