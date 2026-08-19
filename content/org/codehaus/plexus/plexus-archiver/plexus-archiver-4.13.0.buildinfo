@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Archiver Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-archiver
+version=4.13.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-archiver.git
+source.scm.tag=plexus-archiver-4.13.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-archiver-4.13.0.pom
+outputs.0.length=5982
+outputs.0.checksums.sha512=025255d0c2fa74e781d0eefdfb252792afd03264fc3763fbe10866f2e35d38826855f631fc59f10ff9fb8abfd8d16924fe893326e4feacfbdbea54b26c8d4281
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-archiver-4.13.0.jar
+outputs.1.length=227527
+outputs.1.checksums.sha512=510cc0695899fd3cb34e9cb0c6683bb62d26abdf68fdb87bda8fa94a8173fab7197232cc6e8cd4b7a858de07a7dde4cfcc43b4e8cb8e8b9bf8794f892de96944
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-archiver-4.13.0-source-release.zip
+outputs.2.length=489390
+outputs.2.checksums.sha512=dd5521cd770df62d3d472bed686d09ba4a478cddf79b74b017e46e351052b37edeb7f1e98a656f08cff949e5f68ee2f4c523c3c1a637213b17671d0c046f268b
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-archiver-4.13.0-sources.jar
+outputs.3.length=185291
+outputs.3.checksums.sha512=6e4a595ce68d0b7f035f0cac7771fe3deebc1bd0ffb023a5c086b4bec745f1291ea13ff70a7a59b7769642e0dfd44579a4fa42c9f9e04fca84917fc4af3bd402
