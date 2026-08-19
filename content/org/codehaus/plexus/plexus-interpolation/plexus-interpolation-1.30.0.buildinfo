@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interpolation API
+group-id=org.codehaus.plexus
+artifact-id=plexus-interpolation
+version=1.30.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interpolation.git
+source.scm.tag=plexus-interpolation-1.30.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-interpolation-1.30.0.pom
+outputs.0.length=4527
+outputs.0.checksums.sha512=d0d41eef62701f5e003e8dd50c1b8edfcb486a73a3f8d38ec937df256c3d13a600368ec8d0e92bb8fe2dd60527d4eb4e14dffd673e69944829a6fd2cc05251e6
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-interpolation-1.30.0.jar
+outputs.1.length=88132
+outputs.1.checksums.sha512=8d040f0e85f6d174879eeec7894408d8cb5ec1048aa835892797d20cd5f9a8cc3d19dabdfc0cb374490ba1363a12294ed0309458cf7b78eafd5f1d3ca4a81b73
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-interpolation-1.30.0-source-release.zip
+outputs.2.length=123988
+outputs.2.checksums.sha512=24ef7572f5be9d48a46232e9232a8b4d29c1ed5113609eabd39f01615ff7159f3f515a59f4d7f9c485375a03a8395fb3686de2d4cbf5e482f2bcec7175605784
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-interpolation-1.30.0-sources.jar
+outputs.3.length=89890
+outputs.3.checksums.sha512=c5e97332e8527761be439266e519b48bfb9060dd9e2604cd20942c190afc63d755536ea9f739c31ce4b69fea5e54c437c438b1029bcbf7efc579cb7e3d40a0d1
