@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus XML Utilities
+group-id=org.codehaus.plexus
+artifact-id=plexus-xml
+version=4.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-xml.git
+source.scm.tag=plexus-xml-4.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-xml-4.2.0.pom
+outputs.0.length=4830
+outputs.0.checksums.sha512=80dd2d0c6c65a1608339e9723e91bfa2541d4885da90b99d16b9c6ce943e841858ced3118360a714199b18714f51859c7b1e1bdfec6dee9ee94af80fd75300a2
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-xml-4.2.0.jar
+outputs.1.length=92828
+outputs.1.checksums.sha512=3f896e627b9297104de091810384162743a623c25cf78183602b15141660462dc54baee30aef65a9418a0d2f635f9e8d0213d29eea5bd3bdf6571dfcc0b7f573
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-xml-4.2.0-source-release.zip
+outputs.2.length=186107
+outputs.2.checksums.sha512=1caf068e16c0636383272610d4ed1e72858daf14a66321726c54cf0045183e4b20836b61e8135a18e4b9d057b09691c96b07e83a54f2c95917ff1fba77b6046c
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-xml-4.2.0-sources.jar
+outputs.3.length=97143
+outputs.3.checksums.sha512=23c218bfceab48d9d5a755222dcd5aba999815b8566c3fb79543806f98c33ec17f41e2104371e6d9c8988c73e9c7834b6faee3a12fcd6e830d708ff99afb0761
