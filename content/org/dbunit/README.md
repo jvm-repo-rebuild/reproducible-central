@@ -14,6 +14,7 @@ rebuilding **5 releases** of org.dbunit:dbunit:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.1](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.5.1/pom) | | | |
 | [3.5.0](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.5.0/pom) | [mvn jdk21](dbunit-3.5.0.buildspec) | [result](dbunit-3.5.0.buildinfo): [3 :white_check_mark: ](dbunit-3.5.0.buildcompare) | | 1.5M |
 | [3.4.0](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.4.0/pom) | [mvn jdk21](dbunit-3.4.0.buildspec) | [result](dbunit-3.4.0.buildinfo): [3 :white_check_mark: ](dbunit-3.4.0.buildcompare) | | 1.4M |
 | [3.3.0](https://central.sonatype.com/artifact/org.dbunit/dbunit/3.3.0/pom) | [mvn jdk21](dbunit-3.3.0.buildspec) | [result](dbunit-3.3.0.buildinfo): [3 :white_check_mark: ](dbunit-3.3.0.buildcompare) | | 1.4M |
