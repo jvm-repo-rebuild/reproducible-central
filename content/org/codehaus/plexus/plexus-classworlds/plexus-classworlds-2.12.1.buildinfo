@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Classworlds
+group-id=org.codehaus.plexus
+artifact-id=plexus-classworlds
+version=2.12.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-classworlds.git
+source.scm.tag=plexus-classworlds-2.12.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-classworlds-2.12.1.pom
+outputs.0.length=7396
+outputs.0.checksums.sha512=5d5c8c5f84dae22cf28874ed62700ed795ee7bce51a164773e032dc574ff9ca2d2b3cb8a723b1635a2b78e6d3bb6397e8f2ea4b63de08967831aa6cb8488efef
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-classworlds-2.12.1.jar
+outputs.1.length=54156
+outputs.1.checksums.sha512=733caa2935de0c2f88c67aab8cd8c3bb31dbbc5c6e8b867012f243d54599686c84e32f7d3e7fca2fa952a27cc9e6ff3454569d2e7aa6c4f52f97e71d344c5e88
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-classworlds-2.12.1-source-release.zip
+outputs.2.length=139654
+outputs.2.checksums.sha512=81f488c0e9bc04d4caa4342072aaef813f2f7999c0e8ac0a922dff613b6dfb998543d23813f4100cb002274c9d8429f5b15274e537f5e5ef8ad5185ad497af1f
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-classworlds-2.12.1-sources.jar
+outputs.3.length=56449
+outputs.3.checksums.sha512=8b1d7739281c23d0de668b16b699ae25c4a49cdf9b93deac4501194f6b58964b1d24b364a31a84d58f537bcd687b8d0e6d1ed001cfdf2ebcb4ce9d6832a7f999
