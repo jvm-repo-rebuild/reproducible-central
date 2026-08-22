@@ -85,13 +85,13 @@ Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.
 * [org.glassfish.hk2:xml-configuration-example](https://central.sonatype.com/artifact/org.glassfish.hk2/xml-configuration-example/overview)
 </details>
 
-rebuilding **11 releases** of org.glassfish.hk2:hk2-parent:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.glassfish.hk2:hk2-parent:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.2](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.2/pom) | | | |
+| [4.0.2](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.2/pom) | [mvn jdk21](hk2-4.0.2.buildspec) | [result](hk2-parent-4.0.2.buildinfo): [192 :white_check_mark: ](hk2-parent-4.0.2.buildcompare) | | 5.7M |
 | [4.0.1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.1/pom) | [mvn jdk21](hk2-4.0.1.buildspec) | [result](hk2-parent-4.0.1.buildinfo): [192 :white_check_mark: ](hk2-parent-4.0.1.buildcompare) | | 4.4M |
 | [4.0.0](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0/pom) | [mvn jdk21](hk2-4.0.0.buildspec) | [result](hk2-parent-4.0.0.buildinfo): [191 :white_check_mark: ](hk2-parent-4.0.0.buildcompare) | | 4.3M |
 | [4.0.0-M4](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M4/pom) | [mvn jdk21](hk2-4.0.0-M4.buildspec) | [result](hk2-parent-4.0.0-M4.buildinfo): [191 :white_check_mark: ](hk2-parent-4.0.0-M4.buildcompare) | | 5.7M |
