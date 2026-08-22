@@ -1,9 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/io/liftwizard/liftwizard-2.1.48.buildspec:2.1.49
-content/io/airlift/airbase/airbase-402.buildspec:403
 content/io/telicent/jena/jena-kafka/jena-kafka-3.2.0.buildspec:3.2.1
-content/org/dbunit/dbunit-3.5.0.buildspec:3.5.1
-content/org/glassfish/hk2/hk2-4.0.1.buildspec:4.0.2
-content/org/liquibase/ext/liquibase-percona/liquibase-percona-5.0.2.buildspec:5.0.4
+content/org/apache/commons/parent/commons-parent-103.buildspec:104
