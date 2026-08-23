@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=unEXEPACK
+group-id=io.github.albertus82
+artifact-id=unexepack
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/albertus82/unEXEPACK.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.github.albertus82
+outputs.0.filename=unexepack-1.1.0.pom
+outputs.0.length=2112
+outputs.0.checksums.sha512=f08b8c172420b425d3cf194c3e89745e59fbe0b275569a2d9c9b897d449742f8a83cab1ef0d0db1891608d847f5f853adc953455ef2f42357ac2fa79b02d8531
+
+outputs.1.groupId=io.github.albertus82
+outputs.1.filename=unexepack-1.1.0.jar
+outputs.1.length=25000
+outputs.1.checksums.sha512=caa79205638b2f86331987d2d6626fb4368cfb10a051e8d5f0e84fc5d07ca1c3c264d519586559b7104e71b617e613d68a9f4fddd5786767e3421e917188e1d4
+
+outputs.2.groupId=io.github.albertus82
+outputs.2.filename=unexepack-1.1.0-bin.tar.gz
+outputs.2.length=416033
+outputs.2.checksums.sha512=90a9cec03734543dda728ea6858d3046e06a8f705b4de196ae4d047dd5961888d7238720bffa469a9b5c2cebd2f676a222403c70d01c8b92f852dbf27f9895c6
+
+outputs.3.groupId=io.github.albertus82
+outputs.3.filename=unexepack-1.1.0-bin.zip
+outputs.3.length=447290
+outputs.3.checksums.sha512=52d01ecbc6493b8cb2f22e9860dd0c51eebc5d39228447245328c64271d5625c58206eb59ea0553596ba40514a8e2158ee2b3f76229af831ceb1609f860f0d33
+
+outputs.4.groupId=io.github.albertus82
+outputs.4.filename=unexepack-1.1.0-sources.jar
+outputs.4.length=16619
+outputs.4.checksums.sha512=9a25aafd3a4dd4fa6209ced42dcd22634157d141d900e86317f39a216189ace9fc0820aeb60f2fa7223a0192c8d714e90a694afe4ac2fb71e20a66ca8963cfef
