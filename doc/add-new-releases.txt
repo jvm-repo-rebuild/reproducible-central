@@ -1,5 +1,12 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/flowlogix/flowlogix-11.4.2.buildspec:11.4.3
+content/com/hibegin/zrlog-base/zrlog-base-3.5.10.buildspec:3.5.11
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
+content/eu/maveniverse/maven/nisse/nisse-0.9.7.buildspec:0.9.8
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-5.buildspec:11.5.1-beta-6
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.4-beta-2.buildspec:5.17.4-beta-3
 content/io/telicent/jena/jena-kafka/jena-kafka-3.2.0.buildspec:3.2.1
-content/org/apache/commons/parent/commons-parent-103.buildspec:104
+content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.26.buildspec:5.3.28
+content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.13.0.buildspec:4.14.0
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.4.Final.buildspec:4.5.5.Final

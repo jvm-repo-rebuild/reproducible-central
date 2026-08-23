@@ -342,7 +342,7 @@ Reproducible Builds for Maven Central Repository
 | io.github.gls-athena | [athena](../content/io/github/gls-athena/README.md) | 10 | 1 :white_check_mark: / 9 :warning: |
 | io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 13 | 13 :white_check_mark: |
 | io.github.albertus82 | [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | 12 | 12 :white_check_mark: |
-| | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 5 | 5 :warning: |
+| | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 6 | 6 :warning: |
 | io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 44 | 44 :white_check_mark: |
 | io.github.chains-project | [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 98 | 61 :white_check_mark: / 37 :warning: |
 | io.github.derkrischan | [jpdftest](../content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :white_check_mark: |
@@ -529,7 +529,7 @@ Reproducible Builds for Maven Central Repository
 | | [commons-email2](../content/org/apache/commons/email2/README.md) | 1 | 1 :warning: |
 | commons-net | [commons-net](../content/org/apache/commons/net/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | org.apache.commons | [commons-numbers](../content/org/apache/commons/numbers/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [commons-parent](../content/org/apache/commons/parent/README.md) | 51 | 49 :white_check_mark: / 2 :warning: |
+| | [commons-parent](../content/org/apache/commons/parent/README.md) | 52 | 50 :white_check_mark: / 2 :warning: |
 | | [commons-rng](../content/org/apache/commons/rng/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [commons-statistics](../content/org/apache/commons/statistics/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | commons-logging | [commons-logging](../content/org/apache/commons/commons-logging/commons-logging/README.md) | 8 | 8 :white_check_mark: |
@@ -990,7 +990,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 34 | 5 :white_check_mark: / 29 :warning: |
-| **Count:** | **976** | **12032** | **8877** :white_check_mark:<br>**3155** :warning: |
+| **Count:** | **976** | **12034** | **8878** :white_check_mark:<br>**3156** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1074,7 +1074,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     174 mvn-3.9.11   8
     116 mvn-3.9.11  11
     278 mvn-3.9.11  17
-    436 mvn-3.9.11  21
+    437 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     120 mvn-3.9.11  25
@@ -1085,7 +1085,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     321 mvn-3.9.12  21
       2 mvn-3.9.12  22
      18 mvn-3.9.12  24
-    158 mvn-3.9.12  25
+    159 mvn-3.9.12  25
       2 mvn-3.9.12  26
       1 mvn-3.9.12  27
       1 mvn-3.9.13  17
