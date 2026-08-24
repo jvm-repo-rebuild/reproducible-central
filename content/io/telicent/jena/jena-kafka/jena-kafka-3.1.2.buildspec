@@ -1,0 +1,19 @@
+groupId=io.telicent.jena
+artifactId=jena-kafka
+display=${groupId}:${artifactId}
+version=3.1.2
+
+gitRepo=https://github.com/telicent-oss/jena-fuseki-kafka
+gitTag=${version}
+
+tool=mvn-3.9.12
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.skipModules='*/jena-fmod-kafka'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="sed -i -e 's/2026-08-20T08:39:04Z/2026-08-20T08:29:26Z/' pom.xml"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
