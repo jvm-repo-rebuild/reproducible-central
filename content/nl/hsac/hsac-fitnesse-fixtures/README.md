@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 
-rebuilding **112 releases** of nl.hsac:hsac-fitnesse-fixtures:
+rebuilding **113 releases** of nl.hsac:hsac-fitnesse-fixtures:
 - **80** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 32 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 33 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [5.3.28](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.28/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.28.buildspec) | [result](hsac-fitnesse-fixtures-5.3.28.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.28.buildcompare) | | 182M |
-| [5.3.27](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.27/pom) | | | |
+| [5.3.27](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.27/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.27.buildspec) | :x: | |
 | [5.3.26](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.26/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.26.buildspec) | [result](hsac-fitnesse-fixtures-5.3.26.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.26.buildcompare) | | 158M |
 | [5.3.25](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.25/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.25.buildspec) | [result](hsac-fitnesse-fixtures-5.3.25.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.25.buildcompare) | | 158M |
 | [5.3.24](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.24/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.24.buildspec) | [result](hsac-fitnesse-fixtures-5.3.24.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.24.buildcompare) | | 158M |
