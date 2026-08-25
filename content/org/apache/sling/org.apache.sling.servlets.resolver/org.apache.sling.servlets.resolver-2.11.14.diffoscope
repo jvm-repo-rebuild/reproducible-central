@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.11.14-source-release.zip target/org.apache.sling.servlets.resolver-2.11.14-source-release.zip
+--- target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.11.14-source-release.zip
++++ target/org.apache.sling.servlets.resolver-2.11.14-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 1069279 bytes, number of entries: 129
+│ +Zip file size: 205241 bytes, number of entries: 126
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/.tokensave/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/src/main/
+│ @@ -32,16 +31,14 @@
+│  -rw-r--r--  2.0 unx       41 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/.git-blame-ignore-revs
+│  -rw-r--r--  2.0 unx       43 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/.sling-module.json
+│ --rw-r--r--  2.0 unx      498 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/.tokensave/config.json
+│ --rw-r--r--  2.0 unx  5218304 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/.tokensave/tokensave.db
+│  -rw-r--r--  2.0 unx     7969 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/AGENTS.md
+│  -rw-r--r--  2.0 unx       16 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/CLAUDE.md
+│ @@ -124,8 +121,8 @@
+│  -rw-r--r--  2.0 unx      280 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      286 b- defN 26-Aug-19 11:35 org.apache.sling.servlets.resolver-2.11.14/NOTICE
+│ -129 files, 5901926 bytes uncompressed, 1030973 bytes compressed:  82.5%
+│ +126 files, 683124 bytes uncompressed, 167533 bytes compressed:  75.5%

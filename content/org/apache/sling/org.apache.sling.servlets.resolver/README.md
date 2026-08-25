@@ -7,10 +7,10 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-servlets-resolver.git](https://github.com/apache/sling-org-apache-sling-servlets-resolver.git)
 
-rebuilding **23 releases** of org.apache.sling:org.apache.sling.servlets.resolver:
+rebuilding **24 releases** of org.apache.sling:org.apache.sling.servlets.resolver:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 18, 0 had all their differences removed :recycle:, 18 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 19, 0 had all their differences removed :recycle:, 19 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -20,8 +20,8 @@ rebuilding **23 releases** of org.apache.sling:org.apache.sling.servlets.resolve
 | [3.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/3.0.4/pom) | [mvn jdk21](org.apache.sling.servlets.resolver-3.0.4.buildspec) | [result](org.apache.sling.servlets.resolver-3.0.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.servlets.resolver-3.0.4.buildcompare) | | 466K |
 | [3.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/3.0.2/pom) | [mvn jdk21](org.apache.sling.servlets.resolver-3.0.2.buildspec) | [result](org.apache.sling.servlets.resolver-3.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.servlets.resolver-3.0.2.buildcompare) | | 466K |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/3.0.0/pom) | [mvn jdk17](org.apache.sling.servlets.resolver-3.0.0.buildspec) | [result](org.apache.sling.servlets.resolver-3.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.servlets.resolver-3.0.0.buildcompare) | | 450K |
-| [2.11.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.14/pom) | | | |
-| [2.11.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.12/pom) | [mvn jdk17](org.apache.sling.servlets.resolver-2.11.12.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.12.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.12.buildcompare) | 1 :rotating_light: | 530K |
+| [2.11.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.14/pom) | [mvn jdk17](org.apache.sling.servlets.resolver-2.11.14.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.14.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.14.buildcompare) [:mag:](org.apache.sling.servlets.resolver-2.11.14.diffoscope) | 1 :rotating_light: | 477K |
+| [2.11.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.12/pom) | [mvn jdk17](org.apache.sling.servlets.resolver-2.11.12.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.12.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.12.buildcompare) [:mag:](org.apache.sling.servlets.resolver-2.11.12.diffoscope) | 1 :rotating_light: | 530K |
 | [2.11.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.8/pom) | [mvn jdk11](org.apache.sling.servlets.resolver-2.11.8.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.8.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.8.buildcompare) | 1 :rotating_light: | 511K |
 | [2.11.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.6/pom) | [mvn jdk17](org.apache.sling.servlets.resolver-2.11.6.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.6.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.6.buildcompare) | 1 :rotating_light: | 511K |
 | [2.11.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.4/pom) | [mvn jdk11](org.apache.sling.servlets.resolver-2.11.4.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.4.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.4.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | 1 :rotating_light: | 504K |

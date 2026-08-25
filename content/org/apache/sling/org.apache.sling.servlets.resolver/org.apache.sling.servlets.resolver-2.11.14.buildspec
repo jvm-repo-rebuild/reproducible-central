@@ -1,12 +1,12 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.servlets.resolver
 display=${groupId}:*.servlets.resolver
-version=2.11.12
+version=2.11.14
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
 gitTag=${artifactId}-${version}
 
-tool=mvn
+tool=mvn-3.9.12
 jdk=17
 newline=lf
 
