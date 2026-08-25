@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.apache.sling/org.apache.sling.servlets.resolver-3.0.10-source-release.zip target/org.apache.sling.servlets.resolver-3.0.10-source-release.zip
+--- target/reference/org.apache.sling/org.apache.sling.servlets.resolver-3.0.10-source-release.zip
++++ target/org.apache.sling.servlets.resolver-3.0.10-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 1133141 bytes, number of entries: 135
+│ +Zip file size: 215949 bytes, number of entries: 132
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/.tokensave/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/src/main/
+│ @@ -32,16 +31,14 @@
+│  -rw-r--r--  2.0 unx       40 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/.git-blame-ignore-revs
+│  -rw-r--r--  2.0 unx       43 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/.sling-module.json
+│ --rw-r--r--  2.0 unx      498 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/.tokensave/config.json
+│ --rw-r--r--  2.0 unx  5537792 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/.tokensave/tokensave.db
+│  -rw-r--r--  2.0 unx     7969 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/AGENTS.md
+│  -rw-r--r--  2.0 unx       16 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/CLAUDE.md
+│ @@ -130,8 +127,8 @@
+│  -rw-r--r--  2.0 unx      280 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      286 b- defN 26-Aug-20 11:16 org.apache.sling.servlets.resolver-3.0.10/NOTICE
+│ -135 files, 6255850 bytes uncompressed, 1092971 bytes compressed:  82.5%
+│ +132 files, 717560 bytes uncompressed, 176371 bytes compressed:  75.4%
