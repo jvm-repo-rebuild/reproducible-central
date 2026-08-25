@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=3.0.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-3.0.10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-3.0.10.pom
+outputs.0.length=17565
+outputs.0.checksums.sha512=221190845081d5b9fda27869ccfb563da336d0498210f742eafb1bb4af7bc9bf02cb5773c3547491a641394f96f911e80b5f6f32f5c3f871c04d4bb30e643cc8
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-3.0.10.jar
+outputs.1.length=170544
+outputs.1.checksums.sha512=f10df76c8e6acd56621b9f703263b451831da93c343277e138da791abbfc1e1e36685ff6ede822aa57e3164a4757bc3ea0fb82f9c96fe730e2b4576e3ada485b
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-3.0.10-source-release.zip
+outputs.2.length=215949
+outputs.2.checksums.sha512=c0f054ea0e1a700cde76634891cfae51f21a5f5b1b491dc6671e3251d8a5c792225f101227e3233208fa278e20e6a25bedbe87161ab801cadebb44e5b301c14b
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-3.0.10-sources.jar
+outputs.3.length=103460
+outputs.3.checksums.sha512=4d086161d0ee49b487b716f4f427ffe72f397119037fe24c13196a45c84e627c781025f758afae725202c881e48dbfe2f71085bb88578548d63e5e7e8d995c33
