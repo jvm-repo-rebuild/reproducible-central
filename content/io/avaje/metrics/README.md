@@ -29,6 +29,7 @@ rebuilding **40 releases** of io.avaje:avaje-metrics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [10.4-RC6](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.4-RC6/pom) | | | |
 | [10.4-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.4-RC5/pom) | [mvn jdk25](avaje-metrics-10.4-RC5.buildspec) | [result](avaje-metrics-parent-10.4-RC5.buildinfo): [30 :white_check_mark:  1 :warning:](avaje-metrics-parent-10.4-RC5.buildcompare) | 1 :rotating_light: | 397K |
 | [10.4-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.4-RC4/pom) | [mvn jdk25](avaje-metrics-10.4-RC4.buildspec) | [result](avaje-metrics-parent-10.4-RC4.buildinfo): [30 :white_check_mark:  1 :warning:](avaje-metrics-parent-10.4-RC4.buildcompare) | 1 :rotating_light: | 395K |
 | [10.4-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-metrics-parent/10.4-RC3/pom) | [mvn jdk25](avaje-metrics-10.4-RC3.buildspec) | [result](avaje-metrics-parent-10.4-RC3.buildinfo): [27 :white_check_mark:  4 :warning:](avaje-metrics-parent-10.4-RC3.buildcompare) | 3 :rotating_light: 1 :no_entry_sign: | 394K |

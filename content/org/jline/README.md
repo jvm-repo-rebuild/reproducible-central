@@ -42,6 +42,7 @@ rebuilding **44 releases** of org.jline:jline:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.4.0](https://central.sonatype.com/artifact/org.jline/jline/4.4.0/pom) | | | |
 | [4.3.1](https://central.sonatype.com/artifact/org.jline/jline/4.3.1/pom) | [mvn jdk22](jline-4.3.1.buildspec) | [result](jline-parent-4.3.1.buildinfo): [64 :white_check_mark: ](jline-parent-4.3.1.buildcompare) | | 9.2M |
 | [4.3.0](https://central.sonatype.com/artifact/org.jline/jline/4.3.0/pom) | [mvn jdk22](jline-4.3.0.buildspec) | [result](jline-parent-4.3.0.buildinfo): [64 :white_check_mark: ](jline-parent-4.3.0.buildcompare) | | 9.2M |
 | [4.2.1](https://central.sonatype.com/artifact/org.jline/jline/4.2.1/pom) | [mvn jdk22](jline-4.2.1.buildspec) | [result](jline-parent-4.2.1.buildinfo): [64 :white_check_mark: ](jline-parent-4.2.1.buildcompare) | | 9.1M |
