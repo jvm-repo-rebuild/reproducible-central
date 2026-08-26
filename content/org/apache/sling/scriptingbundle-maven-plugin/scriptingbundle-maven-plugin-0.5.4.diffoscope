@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.apache.sling/scriptingbundle-maven-plugin-0.5.4-source-release.zip target/scriptingbundle-maven-plugin-0.5.4-source-release.zip
+--- target/reference/org.apache.sling/scriptingbundle-maven-plugin-0.5.4-source-release.zip
++++ target/scriptingbundle-maven-plugin-0.5.4-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 381455 bytes, number of entries: 212
+│ +Zip file size: 138899 bytes, number of entries: 209
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/.tokensave/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/src/main/
+│ @@ -101,16 +100,14 @@
+│  -rw-r--r--  2.0 unx       41 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/.git-blame-ignore-revs
+│  -rw-r--r--  2.0 unx       48 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/.sling-module.json
+│ --rw-r--r--  2.0 unx      492 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/.tokensave/config.json
+│ --rw-r--r--  2.0 unx  1687552 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/.tokensave/tokensave.db
+│  -rw-r--r--  2.0 unx     1186 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/CODE_OF_CONDUCT.md
+│  -rw-r--r--  2.0 unx     1147 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/CONTRIBUTING.md
+│ @@ -207,8 +204,8 @@
+│  -rw-r--r--  2.0 unx     5452 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      298 b- defN 26-Aug-20 11:14 scriptingbundle-maven-plugin-0.5.4/NOTICE
+│ -212 files, 1954333 bytes uncompressed, 324887 bytes compressed:  83.4%
+│ +209 files, 266289 bytes uncompressed, 82881 bytes compressed:  68.9%
