@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jline3.git)
 
-<details><summary>This project defines 24 modules:</summary>
+<details><summary>This project defines 25 modules:</summary>
 
 * [org.jline:jansi](https://central.sonatype.com/artifact/org.jline/jansi/overview)
 * [org.jline:jansi-core](https://central.sonatype.com/artifact/org.jline/jansi-core/overview)
 * [org.jline:jline](https://central.sonatype.com/artifact/org.jline/jline/overview)
 * [org.jline:jline-builtins](https://central.sonatype.com/artifact/org.jline/jline-builtins/overview)
 * [org.jline:jline-console](https://central.sonatype.com/artifact/org.jline/jline-console/overview)
+* [org.jline:jline-console-provider](https://central.sonatype.com/artifact/org.jline/jline-console-provider/overview)
 * [org.jline:jline-console-ui](https://central.sonatype.com/artifact/org.jline/jline-console-ui/overview)
 * [org.jline:jline-curses](https://central.sonatype.com/artifact/org.jline/jline-curses/overview)
 * [org.jline:jline-demo](https://central.sonatype.com/artifact/org.jline/jline-demo/overview)
@@ -35,14 +36,14 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **44 releases** of org.jline:jline:
-- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **45 releases** of org.jline:jline:
+- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 6, 6 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.4.0](https://central.sonatype.com/artifact/org.jline/jline/4.4.0/pom) | | | |
+| [4.4.0](https://central.sonatype.com/artifact/org.jline/jline/4.4.0/pom) | [mvn jdk22](jline-4.4.0.buildspec) | [result](jline-parent-4.4.0.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.0.buildcompare) | | 9.6M |
 | [4.3.1](https://central.sonatype.com/artifact/org.jline/jline/4.3.1/pom) | [mvn jdk22](jline-4.3.1.buildspec) | [result](jline-parent-4.3.1.buildinfo): [64 :white_check_mark: ](jline-parent-4.3.1.buildcompare) | | 9.2M |
 | [4.3.0](https://central.sonatype.com/artifact/org.jline/jline/4.3.0/pom) | [mvn jdk22](jline-4.3.0.buildspec) | [result](jline-parent-4.3.0.buildinfo): [64 :white_check_mark: ](jline-parent-4.3.0.buildcompare) | | 9.2M |
 | [4.2.1](https://central.sonatype.com/artifact/org.jline/jline/4.2.1/pom) | [mvn jdk22](jline-4.2.1.buildspec) | [result](jline-parent-4.2.1.buildinfo): [64 :white_check_mark: ](jline-parent-4.2.1.buildcompare) | | 9.1M |
