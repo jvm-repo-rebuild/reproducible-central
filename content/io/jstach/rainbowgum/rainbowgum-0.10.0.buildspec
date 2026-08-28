@@ -1,0 +1,20 @@
+groupId=io.jstach.rainbowgum
+artifactId=rainbowgum-maven-parent
+version=0.10.0
+
+display=${groupId}:rainbowgum
+
+gitRepo=https://github.com/jstachio/rainbowgum.git
+gitTag=v${version}
+
+tool=mvn-3.9.12
+jdk=26
+newline=lf
+#umask=022
+
+command="bin/rebuild.sh -Denforcer.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
