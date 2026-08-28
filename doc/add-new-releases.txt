@@ -1,6 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.5.7.buildspec:1.5.9
-content/org/jline/jline-4.3.1.buildspec:4.4.0
-content/org/infinispan/protostream/protostream-6.0.10.buildspec:6.0.11
+content/de/gematik/pki/gemLibPki/gemLibPki-4.0.2.buildspec:5.0.1
+content/eu/maveniverse/maven/nisse/nisse-0.9.8.buildspec:0.9.9
+content/io/avaje/jsonb/avaje-jsonb-3.15-RC5.buildspec:3.15
+content/io/jstach/rainbowgum/rainbowgum-0.9.0.buildspec:0.10.0
+content/org/apache/artemis/artemis-2.55.0.buildspec:2.56.0
+content/org/apache/activemq/artemis/artemis-2.55.0.buildspec:2.56.0
