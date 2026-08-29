@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/IntellectualSites/fastasyncvoxelsniper.git](https://github.com/IntellectualSites/fastasyncvoxelsniper.git)
 
-rebuilding **5 releases** of com.intellectualsites.fastasyncvoxelsniper:fastasyncvoxelsniper:
+rebuilding **6 releases** of com.intellectualsites.fastasyncvoxelsniper:fastasyncvoxelsniper:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2.5](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.5/pom) | | | |
+| [3.2.5](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.5/pom) | [gradle jdk25](fastasyncvoxelsniper-3.2.5.buildspec) | :x: | |
 | [3.2.3](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.3/pom) | [gradle jdk21](fastasyncvoxelsniper-3.2.3.buildspec) | [result](fastasyncvoxelsniper-3.2.3.buildinfo): [3 :white_check_mark: ](fastasyncvoxelsniper-3.2.3.buildcompare) | | 809K |
 | [3.2.2](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.2/pom) | [gradle jdk21](fastasyncvoxelsniper-3.2.2.buildspec) | [result](fastasyncvoxelsniper-3.2.2.buildinfo): [3 :white_check_mark: ](fastasyncvoxelsniper-3.2.2.buildcompare) | | 809K |
 | [3.2.1](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.1/pom) | [gradle jdk17](fastasyncvoxelsniper-3.2.1.buildspec) | [result](fastasyncvoxelsniper-3.2.1.buildinfo): [3 :white_check_mark: ](fastasyncvoxelsniper-3.2.1.buildcompare) | | 809K |
