@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jstachio/rainbowgum.git](https://github.com/jstachio/rainbowgum.git)
 
-<details><summary>This project defines 20 modules:</summary>
+<details><summary>This project defines 26 modules:</summary>
 
 * [io.jstach.rainbowgum:rainbowgum](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum/overview)
 * [io.jstach.rainbowgum:rainbowgum-annotation](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-annotation/overview)
@@ -19,6 +19,7 @@ Source code: [https://github.com/jstachio/rainbowgum.git](https://github.com/jst
 * [io.jstach.rainbowgum:rainbowgum-jansi](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-jansi/overview)
 * [io.jstach.rainbowgum:rainbowgum-jdk](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-jdk/overview)
 * [io.jstach.rainbowgum:rainbowgum-json](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-json/overview)
+* [io.jstach.rainbowgum:rainbowgum-jul](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-jul/overview)
 * [io.jstach.rainbowgum:rainbowgum-maven-last](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-last/overview)
 * [io.jstach.rainbowgum:rainbowgum-maven-parent](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/overview)
 * [io.jstach.rainbowgum:rainbowgum-pattern](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-pattern/overview)
@@ -26,19 +27,24 @@ Source code: [https://github.com/jstachio/rainbowgum.git](https://github.com/jst
 * [io.jstach.rainbowgum:rainbowgum-slf4j](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-slf4j/overview)
 * [io.jstach.rainbowgum:rainbowgum-spring-boot](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-boot/overview)
 * [io.jstach.rainbowgum:rainbowgum-spring-boot-starter](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-boot-starter/overview)
+* [io.jstach.rainbowgum:rainbowgum-spring-boot3](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-boot3/overview)
+* [io.jstach.rainbowgum:rainbowgum-spring-boot3-starter](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-boot3-starter/overview)
+* [io.jstach.rainbowgum:rainbowgum-spring-boot4](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-boot4/overview)
+* [io.jstach.rainbowgum:rainbowgum-spring-boot4-starter](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-boot4-starter/overview)
 * [io.jstach.rainbowgum:rainbowgum-spring-parent](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-parent/overview)
+* [io.jstach.rainbowgum:rainbowgum-spring-spi](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-spring-spi/overview)
 * [io.jstach.rainbowgum:rainbowgum-systemlogger](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-systemlogger/overview)
 * [io.jstach.rainbowgum:rainbowgum-tomcat](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-tomcat/overview)
 </details>
 
-rebuilding **13 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.10.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.10.0/pom) | | | |
+| [0.10.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.10.0/pom) | [mvn jdk26](rainbowgum-0.10.0.buildspec) | [result](rainbowgum-maven-parent-0.10.0.buildinfo): [61 :white_check_mark: ](rainbowgum-maven-parent-0.10.0.buildcompare) | | 1.3M |
 | [0.9.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.9.0/pom) | [mvn jdk21](rainbowgum-0.9.0.buildspec) | [result](rainbowgum-maven-parent-0.9.0.buildinfo): [52 :white_check_mark: ](rainbowgum-maven-parent-0.9.0.buildcompare) | | 1.1M |
 | [0.8.2](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.8.2/pom) | [mvn jdk21.0.2](rainbowgum-0.8.2.buildspec) | [result](rainbowgum-maven-parent-0.8.2.buildinfo): [ 52 :warning:](rainbowgum-maven-parent-0.8.2.buildcompare) [:mag:](rainbowgum-maven-parent-0.8.2.diffoscope) | 32 :rotating_light: 20 :no_entry_sign: | 1.1M |
 | [0.8.1](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.8.1/pom) | [mvn jdk21.0.2](rainbowgum-0.8.1.buildspec) | [result](rainbowgum-maven-parent-0.8.1.buildinfo): [52 :white_check_mark: ](rainbowgum-maven-parent-0.8.1.buildcompare) | | 1.1M |
