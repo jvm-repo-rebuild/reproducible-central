@@ -1,13 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/google/mug/mug-10.8.1.buildspec:10.9
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/com/sap/ai/sdk/sdk-1.23.0.buildspec:1.24.0
-content/eu/maveniverse/maven/nisse/nisse-0.9.9.buildspec:0.9.10
-content/eu/maveniverse/maven/toolrunner/toolrunner-0.4.1.buildspec:0.4.2
-content/io/avaje/jsonb/avaje-jsonb-3.15-RC5.buildspec:3.15
-content/io/dropwizard/metrics/dropwizard-metrics-4.2.39.buildspec:4.2.40
-content/io/dropwizard/metrics5/dropwizard-metrics-5.0.7.buildspec:5.0.8
-content/io/jstach/rainbowgum/rainbowgum-0.9.0.buildspec:0.10.0
-content/net/sourceforge/pmd/pmd-7.26.0.buildspec:7.27.0
-content/org/apache/nifi/nifi-api/nifi-api-2.10.0.buildspec:2.11.0
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.5.9.buildspec:1.5.10
+content/io/avaje/validator/avaje-validator-2.17.buildspec:2.18-RC1
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.4-beta-3.buildspec:5.18.0
+content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.14.0.buildspec:0.15.0
