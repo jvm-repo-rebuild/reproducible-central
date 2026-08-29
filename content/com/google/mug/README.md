@@ -32,6 +32,7 @@ rebuilding **18 releases** of com.google.mug:mug-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [10.9](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.9/pom) | | | |
 | [10.8.1](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.8.1/pom) | [mvn jdk24](mug-10.8.1.buildspec) | [result](mug-root-10.8.1.buildinfo): [39 :white_check_mark: ](mug-root-10.8.1.buildcompare) | | 1.4M |
 | [10.8](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.8/pom) | [mvn jdk24](mug-10.8.buildspec) | [result](mug-root-10.8.buildinfo): [39 :white_check_mark: ](mug-root-10.8.buildcompare) | | 1.4M |
 | [10.7](https://central.sonatype.com/artifact/com.google.mug/mug-root/10.7/pom) | [mvn jdk24](mug-10.7.buildspec) | [result](mug-root-10.7.buildinfo): [39 :white_check_mark: ](mug-root-10.7.buildcompare) | | 1.4M |
