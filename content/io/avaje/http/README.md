@@ -33,14 +33,14 @@ Source code: [https://github.com/avaje/avaje-http.git](https://github.com/avaje/
 * [io.avaje:openapi-maven-plugin](https://central.sonatype.com/artifact/io.avaje/openapi-maven-plugin/overview)
 </details>
 
-rebuilding **51 releases** of io.avaje:avaje-http-parent:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **52 releases** of io.avaje:avaje-http-parent:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 19, 0 had all their differences removed :recycle:, 19 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.12-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.12-RC1/pom) | | | |
+| [3.12-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.12-RC1/pom) | [mvn jdk25](avaje-http-3.12-RC1.buildspec) | [result](avaje-http-parent-3.12-RC1.buildinfo): [64 :white_check_mark: ](avaje-http-parent-3.12-RC1.buildcompare) | | 5.8M |
 | [3.11](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.11/pom) | [mvn jdk25](avaje-http-3.11.buildspec) | [result](avaje-http-parent-3.11.buildinfo): [63 :white_check_mark:  1 :warning:](avaje-http-parent-3.11.buildcompare) | 1 :rotating_light: | 5.7M |
 | [3.11-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.11-RC1/pom) | [mvn jdk25](avaje-http-3.11-RC1.buildspec) | [result](avaje-http-parent-3.11-RC1.buildinfo): [64 :white_check_mark: ](avaje-http-parent-3.11-RC1.buildcompare) | | 5.7M |
 | [3.10](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.10/pom) | [mvn jdk25](avaje-http-3.10.buildspec) | [result](avaje-http-parent-3.10.buildinfo): [60 :white_check_mark:  1 :warning:](avaje-http-parent-3.10.buildcompare) [:mag:](avaje-http-parent-3.10.diffoscope) | 1 :rotating_light: | 5.6M |
