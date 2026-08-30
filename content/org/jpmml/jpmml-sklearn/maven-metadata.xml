@@ -3,8 +3,8 @@
   <groupId>org.jpmml</groupId>
   <artifactId>jpmml-sklearn</artifactId>
   <versioning>
-    <latest>1.9.40</latest>
-    <release>1.9.40</release>
+    <latest>1.9.41</latest>
+    <release>1.9.41</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -232,7 +232,8 @@
       <version>1.9.38</version>
       <version>1.9.39</version>
       <version>1.9.40</version>
+      <version>1.9.41</version>
     </versions>
-    <lastUpdated>20260810063023</lastUpdated>
+    <lastUpdated>20260830112544</lastUpdated>
   </versioning>
 </metadata>

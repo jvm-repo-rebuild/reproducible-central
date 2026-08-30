@@ -21,6 +21,7 @@ rebuilding **12 releases** of nl.basjes.sunspec:sunspec-device-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.8.0](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.8.0/pom) | | | |
 | [0.7.3](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.7.3/pom) | [mvn jdk21](sunspec-device-parent-0.7.3.buildspec) | [result](sunspec-device-parent-0.7.3.buildinfo): [7 :white_check_mark: ](sunspec-device-parent-0.7.3.buildcompare) | | 464K |
 | [0.7.2](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.7.2/pom) | [mvn jdk21](sunspec-device-parent-0.7.2.buildspec) | [result](sunspec-device-parent-0.7.2.buildinfo): [7 :white_check_mark: ](sunspec-device-parent-0.7.2.buildcompare) | | 464K |
 | [0.7.1](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.7.1/pom) | [mvn jdk21](sunspec-device-parent-0.7.1.buildspec) | [result](sunspec-device-parent-0.7.1.buildinfo): [7 :white_check_mark: ](sunspec-device-parent-0.7.1.buildcompare) | | 464K |
