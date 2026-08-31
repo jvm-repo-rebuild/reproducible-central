@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/base-parent.git](https://github.com/hazendaz/base-parent.git)
 
-rebuilding **29 releases** of com.github.hazendaz:base-parent:
-- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **30 releases** of com.github.hazendaz:base-parent:
+- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [61](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/61/pom) | | | |
+| [61](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/61/pom) | [mvn jdk21 w](base-parent-61.buildspec) | [result](base-parent-61.buildinfo): [3 :white_check_mark: ](base-parent-61.buildcompare) | | 137K |
 | [60](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/60/pom) | [mvn jdk21 w](base-parent-60.buildspec) | [result](base-parent-60.buildinfo): [3 :white_check_mark: ](base-parent-60.buildcompare) | | 137K |
 | [59](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/59/pom) | [mvn jdk21 w](base-parent-59.buildspec) | [result](base-parent-59.buildinfo): [3 :white_check_mark: ](base-parent-59.buildcompare) | | 135K |
 | [58](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/58/pom) | [mvn jdk21 w](base-parent-58.buildspec) | [result](base-parent-58.buildinfo): [3 :white_check_mark: ](base-parent-58.buildcompare) | | 130K |
