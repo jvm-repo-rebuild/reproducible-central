@@ -70,14 +70,14 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:patched-iceberg-core](https://central.sonatype.com/artifact/org.apache.hive/patched-iceberg-core/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.hive:hive:
+rebuilding **7 releases** of org.apache.hive:hive:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.2.1/pom) | | | |
+| [4.2.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.2.1/pom) | [mvn jdk21](hive-4.2.1.buildspec) | [result](hive-4.2.1.buildinfo): [37 :white_check_mark:  144 :warning:](hive-4.2.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 33 :rotating_light: | 522M |
 | [4.2.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.2.0/pom) | [mvn jdk21](hive-4.2.0.buildspec) | [result](hive-4.2.0.buildinfo): [168 :white_check_mark:  13 :warning:](hive-4.2.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 13 :rotating_light: | 522M |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.1.0/pom) | [mvn jdk17](hive-4.1.0.buildspec) | [result](hive-4.1.0.buildinfo): [165 :white_check_mark:  12 :warning:](hive-4.1.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 12 :rotating_light: | 526M |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.1/pom) | [mvn jdk8](hive-4.0.1.buildspec) | [result](hive-4.0.1.buildinfo): [135 :white_check_mark:  19 :warning:](hive-4.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 536M |
