@@ -1,0 +1,20 @@
+groupId=io.github.chains-project
+artifactId=maven-lockfile
+display=${groupId}:${artifactId}
+version=5.18.1-beta-1
+
+gitRepo=https://github.com/chains-project/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.12
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+# workaround for https://github.com/chains-project/maven-lockfile/issues/1634
+execBefore="sed -i -e 's/released.version>5.18.1-beta-1/released.version>5.18.0/' pom.xml"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
