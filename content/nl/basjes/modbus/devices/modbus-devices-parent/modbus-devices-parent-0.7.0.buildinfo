@@ -1,0 +1,86 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Modbus Devices :
+group-id=nl.basjes.modbus.devices
+artifact-id=modbus-devices-parent
+version=0.7.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/nielsbasjes/modbus-devices.git
+source.scm.tag=v0.7.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=modbus-device-thermia-genesis
+
+# aggregated output
+
+outputs.0.coordinates=nl.basjes.modbus.devices:modbus-devices-parent
+
+outputs.0.0.groupId=nl.basjes.modbus.devices
+outputs.0.0.filename=modbus-devices-parent-0.7.0.pom
+outputs.0.0.length=17074
+outputs.0.0.checksums.sha512=0da26036a943f92a27979a9275e6beb2362a1a663b724984ca00f4ea718e9e9ce540fdc65040132dcfeec39f6fb45b837166b3083b00b771b225f9b27f8744ad
+
+outputs.1.coordinates=nl.basjes.modbus.devices:modbus-device-sdm230
+
+outputs.1.0.groupId=nl.basjes.modbus.devices
+outputs.1.0.filename=modbus-device-sdm230-0.7.0.pom
+outputs.1.0.length=3626
+outputs.1.0.checksums.sha512=34535f56791bc76739ef4c4b149df28010eac4166b9681853bfa11b254d2666bc1b5c084db8b7cc3b56366125239ec4a2ac06d7eb59812765b831b62d7a5cde4
+
+outputs.1.1.groupId=nl.basjes.modbus.devices
+outputs.1.1.filename=modbus-device-sdm230-0.7.0.jar
+outputs.1.1.length=62576
+outputs.1.1.checksums.sha512=fbaddf339e68097dee889338b243c7d58b18cfe6c6199bccb1d9d8cd58690ed2e1d2e044e93d53acc55f65d2d83160becb1e348914935edded16c478bc656e8a
+
+outputs.1.2.groupId=nl.basjes.modbus.devices
+outputs.1.2.filename=modbus-device-sdm230-0.7.0-sources.jar
+outputs.1.2.length=7573
+outputs.1.2.checksums.sha512=38b581962c13cef4ae167359c21b35897b72cad2dbe2092f8332dc0d1154d9543390fa7469905501f28067573c65c523c7a0401e4e6b341dbfe6a09f4687fedd
+
+outputs.2.coordinates=nl.basjes.modbus.devices:modbus-device-sdm630
+
+outputs.2.0.groupId=nl.basjes.modbus.devices
+outputs.2.0.filename=modbus-device-sdm630-0.7.0.pom
+outputs.2.0.length=3626
+outputs.2.0.checksums.sha512=6595b311ae8f2bb21aed15651d3417c56b266bc8cd0b486d24553e227870ce001d39930444c7c6a6039a40e5b128b6ea960d78c372afa60889308e77de976275
+
+outputs.2.1.groupId=nl.basjes.modbus.devices
+outputs.2.1.filename=modbus-device-sdm630-0.7.0.jar
+outputs.2.1.length=139978
+outputs.2.1.checksums.sha512=0004d3364fe6cc50f7f5c89f74d1fd2252c26a8b95ac5876269b0bc1e81cee0918a932b700b361e8a3341a028c8a55274909a72c5e09cb47df1fb5a546148bcf
+
+outputs.2.2.groupId=nl.basjes.modbus.devices
+outputs.2.2.filename=modbus-device-sdm630-0.7.0-sources.jar
+outputs.2.2.length=9606
+outputs.2.2.checksums.sha512=dbce02d260ec58eba1cc3993c74bfb6b8e228dcf903750fbc61b0f54613a03e74fcdc3f874635686dffe63634deda7e189eacac6ebdd6857cc23d014bc8d73bd
+
+outputs.3.coordinates=nl.basjes.modbus.devices:modbus-device-thermia-genesis
+
+outputs.3.0.groupId=nl.basjes.modbus.devices
+outputs.3.0.filename=modbus-device-thermia-genesis-0.7.0.pom
+outputs.3.0.length=5146
+outputs.3.0.checksums.sha512=4fedbf3ccc1c48852f9cb474357b226d7e3dde40f27fb6db1013c62789e7d6175a09c9c32c870dd4d6b3a939462901639f4a42a7b75db263e202d9038494fb56
+
+outputs.3.1.groupId=nl.basjes.modbus.devices
+outputs.3.1.filename=modbus-device-thermia-genesis-0.7.0.jar
+outputs.3.1.length=1218019
+outputs.3.1.checksums.sha512=80060b60c7a7f647ee964087ca4d5c9777f9e6be51baeeca5f2f9ddd9b57dfd2a0d1331b440dd91537bc4e1727cd4b52147858f35452f6b2b2be8cd7e70bd40d
+
+outputs.3.2.groupId=nl.basjes.modbus.devices
+outputs.3.2.filename=modbus-device-thermia-genesis-0.7.0-sources.jar
+outputs.3.2.length=64857
+outputs.3.2.checksums.sha512=37551037a40aa98c5672dc2713a2e56f4d33b27086ad769d522a0cb33d4dc831ec247ebbf64a82504e0d36fa6f6bc9a73b235754348c37f81464645b744c679b
