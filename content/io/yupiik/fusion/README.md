@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/yupiik/fusion.git](https://github.com/yupiik/fusion.git)
 
-<details><summary>This project defines 18 modules:</summary>
+<details><summary>This project defines 19 modules:</summary>
 
 * [io.yupiik.fusion:fusion](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/overview)
 * [io.yupiik.fusion:fusion-api](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-api/overview)
 * [io.yupiik.fusion:fusion-build-api](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-build-api/overview)
+* [io.yupiik.fusion:fusion-build-internal](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-build-internal/overview)
 * [io.yupiik.fusion:fusion-cli](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-cli/overview)
 * [io.yupiik.fusion:fusion-handlebars](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-handlebars/overview)
 * [io.yupiik.fusion:fusion-http-server](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-http-server/overview)
@@ -29,13 +30,13 @@ Source code: [https://github.com/yupiik/fusion.git](https://github.com/yupiik/fu
 * [io.yupiik.fusion:fusion-tracing](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-tracing/overview)
 </details>
 
-rebuilding **20 releases** of io.yupiik.fusion:fusion:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of io.yupiik.fusion:fusion:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.1.0/pom) | [mvn jdk17](fusion-1.1.0.buildspec) | [result](fusion-1.1.0.buildinfo): [50 :white_check_mark: ](fusion-1.1.0.buildcompare) | | 2.2M |
 | [1.0.37](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.37/pom) | [mvn jdk21](fusion-1.0.37.buildspec) | [result](fusion-1.0.37.buildinfo): [50 :white_check_mark: ](fusion-1.0.37.buildcompare) | | 2.1M |
 | [1.0.36](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.36/pom) | [mvn jdk21](fusion-1.0.36.buildspec) | [result](fusion-1.0.36.buildinfo): [50 :white_check_mark: ](fusion-1.0.36.buildcompare) | | 2.1M |
 | [1.0.35](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.35/pom) | [mvn jdk21](fusion-1.0.35.buildspec) | [result](fusion-1.0.35.buildinfo): [50 :white_check_mark: ](fusion-1.0.35.buildcompare) | | 2.1M |
