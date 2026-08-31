@@ -1,13 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/hazendaz/base-parent/base-parent-60.buildspec:61
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-6.buildspec:11.5.1-beta-7
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.17.4-beta-3.buildspec:5.18.1
-content/io/yupiik/fusion/fusion-1.0.37.buildspec:1.1.0
-content/land/oras/oras-java-sdk/oras-java-sdk-0.8.3.buildspec:0.8.4
-content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.6.2.buildspec:0.7.0
-content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.7.3.buildspec:0.8.0
-content/org/apache/wicket/wicket-parent-10.10.0.buildspec:10.11.0
-content/org/apache/maven/plugins/maven-compiler-plugin/maven-compiler-plugin-4.0.0-beta-4.buildspec:4.0.0-beta-5
-content/org/codehaus/modello/modello-2.8.0.buildspec:2.8.1
+content/de/gematik/pki/gemLibPki/gemLibPki-5.0.1.buildspec:5.0.2
+content/io/airlift/airbase/airbase-405.buildspec:406
+content/org/jline/jline-4.4.0.buildspec:4.4.1
