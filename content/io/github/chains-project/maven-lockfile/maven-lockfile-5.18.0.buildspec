@@ -13,6 +13,8 @@ umask=022
 
 command="mvn -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
+# workaround for https://github.com/chains-project/maven-lockfile/issues/1634
+execBefore="sed -i -e 's/released.version>5.18.0/released.version>5.17.3/' pom.xml"
 
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
