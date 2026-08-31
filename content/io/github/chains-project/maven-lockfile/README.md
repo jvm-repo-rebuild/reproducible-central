@@ -14,14 +14,14 @@ Source code: [https://github.com/chains-project/maven-lockfile.git](https://gith
 * [io.github.chains-project:maven-lockfile-parent](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile-parent/overview)
 </details>
 
-rebuilding **101 releases** of io.github.chains-project:maven-lockfile:
-- **64** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **102 releases** of io.github.chains-project:maven-lockfile:
+- **65** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 37 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [5.18.1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.1/pom) | [mvn jdk17](maven-lockfile-5.18.1.buildspec) | [result](maven-lockfile-5.18.1.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.18.1.buildcompare) | | 684K |
-| [5.18.1-beta-1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.1-beta-1/pom) | | | |
+| [5.18.1-beta-1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.1-beta-1/pom) | [mvn jdk17](maven-lockfile-5.18.1-beta-1.buildspec) | [result](maven-lockfile-5.18.1-beta-1.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.18.1-beta-1.buildcompare) | | 685K |
 | [5.18.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.0/pom) | [mvn jdk17](maven-lockfile-5.18.0.buildspec) | [result](maven-lockfile-5.18.0.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.18.0.buildcompare) | | 684K |
 | [5.17.4-beta-3](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.17.4-beta-3/pom) | [mvn jdk17](maven-lockfile-5.17.4-beta-3.buildspec) | [result](maven-lockfile-5.17.4-beta-3.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.17.4-beta-3.buildcompare) | | 658K |
 | [5.17.4-beta-2](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.17.4-beta-2/pom) | [mvn jdk17](maven-lockfile-5.17.4-beta-2.buildspec) | [result](maven-lockfile-5.17.4-beta-2.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.17.4-beta-2.buildcompare) | | 658K |
