@@ -7,20 +7,21 @@
 
 Source code: [https://github.com/nielsbasjes/modbus-devices.git](https://github.com/nielsbasjes/modbus-devices.git)
 
-<details><summary>This project defines 3 modules:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
+* [nl.basjes.modbus.devices:modbus-device-sdm230](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-device-sdm230/overview)
 * [nl.basjes.modbus.devices:modbus-device-sdm630](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-device-sdm630/overview)
 * [nl.basjes.modbus.devices:modbus-device-thermia-genesis](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-device-thermia-genesis/overview)
 * [nl.basjes.modbus.devices:modbus-devices-parent](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/overview)
 </details>
 
-rebuilding **12 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.7.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.7.0/pom) | | | |
+| [0.7.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.7.0/pom) | [mvn jdk21](modbus-devices-parent-0.7.0.buildspec) | [result](modbus-devices-parent-0.7.0.buildinfo): [10 :white_check_mark: ](modbus-devices-parent-0.7.0.buildcompare) | | 1.5M |
 | [0.6.2](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.2/pom) | [mvn jdk21](modbus-devices-parent-0.6.2.buildspec) | [result](modbus-devices-parent-0.6.2.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.6.2.buildcompare) | | 1.4M |
 | [0.6.1](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.1/pom) | [mvn jdk21](modbus-devices-parent-0.6.1.buildspec) | [result](modbus-devices-parent-0.6.1.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.6.1.buildcompare) | | 1.4M |
 | [0.6.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.0/pom) | [mvn jdk21](modbus-devices-parent-0.6.0.buildspec) | [result](modbus-devices-parent-0.6.0.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.6.0.buildcompare) | | 1.4M |
