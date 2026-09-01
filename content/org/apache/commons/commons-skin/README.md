@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.commons:commons-skin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.3.0](https://central.sonatype.com/artifact/org.apache.commons/commons-skin/5.3.0/pom) | | | |
 | [5.2.0](https://central.sonatype.com/artifact/org.apache.commons/commons-skin/5.2.0/pom) | [mvn jdk21](commons-skin-5.2.0.buildspec) | [result](commons-skin-5.2.0.buildinfo): [7 :white_check_mark: ](commons-skin-5.2.0.buildcompare) | | 321K |
 | [5.1.0](https://central.sonatype.com/artifact/org.apache.commons/commons-skin/5.1.0/pom) | [mvn jdk21](commons-skin-5.1.0.buildspec) | [result](commons-skin-5.1.0.buildinfo): [7 :white_check_mark: ](commons-skin-5.1.0.buildcompare) | | 322K |
 | [5.0.0](https://central.sonatype.com/artifact/org.apache.commons/commons-skin/5.0.0/pom) | [mvn jdk17](commons-skin-5.0.0.buildspec) | [result](commons-skin-5.0.0.buildinfo): [7 :white_check_mark: ](commons-skin-5.0.0.buildcompare) | | 366K |
