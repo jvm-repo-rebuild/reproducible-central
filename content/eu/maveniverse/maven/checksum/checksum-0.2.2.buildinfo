@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.checksum:checksum
+group-id=eu.maveniverse.maven.checksum
+artifact-id=checksum
+version=0.2.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/checksum.git
+source.scm.tag=release-0.2.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=checksum-plugin3
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.checksum:checksum
+
+outputs.0.0.groupId=eu.maveniverse.maven.checksum
+outputs.0.0.filename=checksum-0.2.2.pom
+outputs.0.0.length=6039
+outputs.0.0.checksums.sha512=2d998048aed70a2d84cfebcd0098cdb93b0ed680ae57c567caa0c0ed8bc075277902846ff5811a24dbcb9653935bfb85630392c0aac2c218ea8946796860e72c
+
+outputs.1.coordinates=eu.maveniverse.maven.checksum:extension3
+
+outputs.1.0.groupId=eu.maveniverse.maven.checksum
+outputs.1.0.filename=extension3-0.2.2.pom
+outputs.1.0.length=2138
+outputs.1.0.checksums.sha512=3904d420417bc2d54ac3844799e5271583941cf876e7e4b5e6d63aff33628ade7290101b73f0b23b3395cee9c2faa82a585b9351c3673cec32cb19800b23758f
+
+outputs.1.1.groupId=eu.maveniverse.maven.checksum
+outputs.1.1.filename=extension3-0.2.2.jar
+outputs.1.1.length=7446
+outputs.1.1.checksums.sha512=f9ac06f0094e6f7c17bf3290b270e03aba2bae905b9ca14c25015f7b1f0bdc15bde50a5c1c1071fad08d61a963b29f20b7635415c0e97291d775cfe0f56f424d
+
+outputs.1.2.groupId=eu.maveniverse.maven.checksum
+outputs.1.2.filename=extension3-0.2.2-sources.jar
+outputs.1.2.length=5420
+outputs.1.2.checksums.sha512=d008745803200953f1ffb2e757df3df5ffd4022b81345c951de0e8233f6e41ff9d4e20ecbf8b3797cd7357b4b258eafe071d8c35c5798234c05c106a8b1c3385
+
+outputs.2.coordinates=eu.maveniverse.maven.plugins:checksum-plugin3
+
+outputs.2.0.groupId=eu.maveniverse.maven.plugins
+outputs.2.0.filename=checksum-plugin3-0.2.2.pom
+outputs.2.0.length=2665
+outputs.2.0.checksums.sha512=a535d546527cc9834246b802565c5d871c618db25b95eb7ef2ffca1856b044d3da8f7116b1a72ee24fb0df133993b93d7676799e122a41476e8a225a2fe05056
+
+outputs.2.1.groupId=eu.maveniverse.maven.plugins
+outputs.2.1.filename=checksum-plugin3-0.2.2.jar
+outputs.2.1.length=18819
+outputs.2.1.checksums.sha512=3eff794d440b88421c9125623b9d1651119cdd7e6c0e3e724ac9d2dc5aebab35bfca9388f7d7c0ac64e24c957218ef1b80b96c2cf8466f45b3ed3e0497d32b0f
+
+outputs.2.2.groupId=eu.maveniverse.maven.plugins
+outputs.2.2.filename=checksum-plugin3-0.2.2-sources.jar
+outputs.2.2.length=10596
+outputs.2.2.checksums.sha512=ef5c1bbcca5ac5b090c2e4ed08756e7355b22bbd5039dd06aa83440afa5bbb6e0d6a3b855ea57332956d6a58520ef185a8ac8b938b755d65ddabf3ceae967d5f
