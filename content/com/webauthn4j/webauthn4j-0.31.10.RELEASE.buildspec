@@ -1,0 +1,18 @@
+groupId=com.webauthn4j
+artifactId=webauthn4j-core
+version=0.31.10.RELEASE
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/webauthn4j/webauthn4j.git
+gitTag=${version}
+
+tool=gradle
+jdk=25 # -PtoolchainJdkVersion= to inject exact version used ny release manager, even if not exactly the one used by the rebuilder
+newline=lf
+
+command="./gradlew publishToMavenLocal -PtoolchainJdkVersion=25.0.4.1 -x test"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+
