@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Pretty Formatter
+group-id=io.cucumber
+artifact-id=pretty-formatter
+version=4.0.2
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/pretty-formatter.git
+source.scm.tag=v4.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=pretty-formatter-4.0.2.pom
+outputs.0.length=6885
+outputs.0.checksums.sha512=8e366ca2fae0630c4a84f54723d0f53bcf4426c94e7e05222159e152b7fbbcc0eb66e39e506cd171dae86ebd6e884fd4490cfb946a98532048b00385903262ca
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=pretty-formatter-4.0.2.jar
+outputs.1.length=76649
+outputs.1.checksums.sha512=495e5a6ea0d240cd4fceaa665424ef57e60481960398d1c6dbcee7881ca04bee541a1542c1d17083bd22a67bfb2a18bbd1b3f6feda5d314c61b9980820e83357
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=pretty-formatter-4.0.2-sources.jar
+outputs.2.length=28970
+outputs.2.checksums.sha512=d4079be8a0d1363dbfbc9a0908b151e9d2f4db27e93cf19f0b41202497302f609087a05e5341e27758cfd49b71b391691148dc2694aea3884a2d723c35b75c7e
