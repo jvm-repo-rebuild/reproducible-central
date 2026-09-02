@@ -20,6 +20,7 @@ rebuilding **4 releases** of eu.maveniverse.maven.checksum:checksum:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.checksum/checksum/0.2.2/pom) | | | |
 | [0.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.checksum/checksum/0.2.1/pom) | [mvn jdk21](checksum-0.2.1.buildspec) | [result](checksum-0.2.1.buildinfo): [7 :white_check_mark: ](checksum-0.2.1.buildcompare) | | 52K |
 | [0.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.checksum/checksum/0.2.0/pom) | [mvn jdk21](checksum-0.2.0.buildspec) | [result](checksum-0.2.0.buildinfo): [7 :white_check_mark: ](checksum-0.2.0.buildcompare) | | 52K |
 | [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.checksum/checksum/0.1.1/pom) | [mvn jdk21](checksum-0.1.1.buildspec) | [result](checksum-0.1.1.buildinfo): [7 :white_check_mark: ](checksum-0.1.1.buildcompare) | | 47K |

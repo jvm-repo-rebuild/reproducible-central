@@ -13,6 +13,7 @@ rebuilding **10 releases** of org.apache.felix:maven-bundle-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.1.2](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/6.1.2/pom) | | | |
 | [6.1.0](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/6.1.0/pom) | [mvn jdk21 w](maven-bundle-plugin-6.1.0.buildspec) | [result](maven-bundle-plugin-6.1.0.buildinfo): [5 :white_check_mark: ](maven-bundle-plugin-6.1.0.buildcompare) | | 3.1M |
 | [6.0.2](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/6.0.2/pom) | [mvn jdk21 w](maven-bundle-plugin-6.0.2.buildspec) | [result](maven-bundle-plugin-6.0.2.buildinfo): [5 :white_check_mark: ](maven-bundle-plugin-6.0.2.buildcompare) | | 3.0M |
 | [6.0.0](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/6.0.0/pom) | [mvn jdk21 w](maven-bundle-plugin-6.0.0.buildspec) | [result](maven-bundle-plugin-6.0.0.buildinfo): [5 :white_check_mark: ](maven-bundle-plugin-6.0.0.buildcompare) | | 3.0M |

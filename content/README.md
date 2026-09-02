@@ -324,7 +324,7 @@ Reproducible Builds for Maven Central Repository
 | | [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 21 | 18 :white_check_mark: / 3 :warning: |
 | | [messages](../content/io/cucumber/messages/README.md) | 42 | 42 :white_check_mark: |
 | | [messages-ndjson](../content/io/cucumber/messages-ndjson/README.md) | 13 | 13 :white_check_mark: |
-| | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 16 | 16 :white_check_mark: |
+| | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 17 | 17 :white_check_mark: |
 | | [query](../content/io/cucumber/query/README.md) | 30 | 30 :white_check_mark: |
 | | [tag-expressions](../content/io/cucumber/tag-expressions/README.md) | 19 | 19 :white_check_mark: |
 | | [teamcity-formatter](../content/io/cucumber/teamcity-formatter/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
@@ -519,7 +519,7 @@ Reproducible Builds for Maven Central Repository
 | | [commons-lang3](../content/org/apache/commons/commons-lang3/README.md) | 6 | 6 :white_check_mark: |
 | | [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
-| | [commons-skin](../content/org/apache/commons/commons-skin/README.md) | 3 | 3 :white_check_mark: |
+| | [commons-skin](../content/org/apache/commons/commons-skin/README.md) | 4 | 4 :white_check_mark: |
 | | [commons-text](../content/org/apache/commons/commons-text/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | commons-validator | [commons-validator](../content/org/apache/commons/commons-validator/README.md) | 4 | 4 :white_check_mark: |
 | org.apache.commons | [commons-vfs2](../content/org/apache/commons/commons-vfs2/README.md) | 1 | 1 :warning: |
@@ -784,7 +784,7 @@ Reproducible Builds for Maven Central Repository
 | | [sling-maven-plugin](../content/org/apache/sling/sling-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [slingfeature-maven-plugin](../content/org/apache/sling/slingfeature-maven-plugin/README.md) | 18 | 14 :white_check_mark: / 4 :warning: |
 | org.apache.tomee | [jakartaee-api](../content/org/apache/tomee/jakartaee-api/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
-| org.apache.tooling | [atr-maven-plugin](../content/org/apache/tooling/atr-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| org.apache.tooling | [atr-maven-plugin](../content/org/apache/tooling/atr-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | org.apache.turbine | [turbine-webapp-6.0](../content/org/apache/turbine/turbine-webapp-6.0/README.md) | 1 | 1 :warning: |
 | org.apache.ws.commons.axiom | [axiom](../content/org/apache/ws/commons/axiom/README.md) | 2 | 2 :warning: |
 | org.apache.ws.xmlschema | [xmlschema](../content/org/apache/ws/xmlschema/xmlschema/README.md) | 2 | 2 :white_check_mark: |
@@ -990,7 +990,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 35 | 5 :white_check_mark: / 30 :warning: |
-| **Count:** | **976** | **12112** | **8940** :white_check_mark:<br>**3172** :warning: |
+| **Count:** | **976** | **12115** | **8943** :white_check_mark:<br>**3172** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1082,10 +1082,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      33 mvn-3.9.12   8
      41 mvn-3.9.12  11
     105 mvn-3.9.12  17
-    331 mvn-3.9.12  21
+    333 mvn-3.9.12  21
       2 mvn-3.9.12  22
      19 mvn-3.9.12  24
-    164 mvn-3.9.12  25
+    165 mvn-3.9.12  25
       3 mvn-3.9.12  26
       1 mvn-3.9.12  27
       1 mvn-3.9.13  17
