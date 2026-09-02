@@ -1,0 +1,116 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Flow Logix Root
+group-id=com.flowlogix
+artifact-id=flowlogix
+version=11.5
+
+# source information
+source.scm.uri=scm:git:git://github.com:flowlogix/flowlogix.git
+source.scm.tag=Version-11.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=4.0.0-rc-6
+mvn.aggregate.artifact-id=flowlogix-datamodel
+
+# aggregated output
+
+outputs.0.coordinates=com.flowlogix:flowlogix
+
+outputs.0.0.groupId=com.flowlogix
+outputs.0.0.filename=flowlogix-11.5.pom
+outputs.0.0.length=9606
+outputs.0.0.checksums.sha512=868077126e9a057ceb82b65330d3a08fc58132463febee04334e8c9a0afb53ff8d0cc697c70fdcee928c3186704769359e587bb4a5b466cf53fdac7b863de9de
+
+outputs.0.1.groupId=com.flowlogix
+outputs.0.1.filename=flowlogix-11.5-build.pom
+outputs.0.1.length=12079
+outputs.0.1.checksums.sha512=ecad96529c90e0a3de7f8ade536b0516c15606194f874d871aa70acb2f31381e3d67844043451830cb1e943511e00c781acb7a623a56addafffa93bb3447b16f
+# ignored flowlogix-11.5-cyclonedx.xml
+# ignored flowlogix-11.5-cyclonedx.json
+
+outputs.1.coordinates=com.flowlogix:flowlogix-jee
+
+outputs.1.0.groupId=com.flowlogix
+outputs.1.0.filename=flowlogix-jee-11.5.pom
+outputs.1.0.length=2677
+outputs.1.0.checksums.sha512=a958b39f75c5eaf574caec5d88752f55fdd4e2b77ea09ea9cc28c8b5a3b6baacb6f2ac21a4d1de903924b543a3cda7fca30c04cfaae66aac628327ca337cc576
+
+outputs.1.1.groupId=com.flowlogix
+outputs.1.1.filename=flowlogix-jee-11.5-build.pom
+outputs.1.1.length=2901
+outputs.1.1.checksums.sha512=4bf21703757b97092a9d320fedde13758f243bdfa54b44e35e4c901bb4e6d497c20d92863ed5c4434435f85b6148e3bf1ecb0dbbfe7e09f3f1560c429578e662
+
+outputs.1.2.groupId=com.flowlogix
+outputs.1.2.filename=flowlogix-jee-11.5.jar
+outputs.1.2.length=53311
+outputs.1.2.checksums.sha512=5d8a87fc690b20c4883149191e51ae9a6ec8b07912f465569028976b06824dbdcb04473ec9d753c101e255f177bcbad763667a8725d76aa314ab7ec0cdf756fe
+
+outputs.1.3.groupId=com.flowlogix
+outputs.1.3.filename=flowlogix-jee-11.5-sources.jar
+outputs.1.3.length=35064
+outputs.1.3.checksums.sha512=b4b444950ae1d7268d32e43ffc534fd010079188b4169cb43517e84de422827ccdd28ce7f0a1c8452584a54374bc77894bd81d36995d91b9598edcca30a0617b
+
+outputs.1.4.groupId=com.flowlogix
+outputs.1.4.filename=flowlogix-jee-11.5-tests.jar
+outputs.1.4.length=42044
+outputs.1.4.checksums.sha512=b4e55e06717746dfb20fac779a54f21e8a21165d80f4749c2ff1b9aab4e166b48c0670ba053f9b46abd7e9a1f41fad3bbc58399fadefbdda82ed2347a83f2b12
+
+outputs.1.5.groupId=com.flowlogix
+outputs.1.5.filename=flowlogix-jee-11.5-cyclonedx.xml
+outputs.1.5.length=283313
+outputs.1.5.checksums.sha512=55d3ae5d8f32202331c1e1bb6694be7cf02c98901c66147c5ab2ef3a3b9a3dbafd90c06aa6bbbc4ad62ae3a9b1159e43e8b1865c3352fdadfb4282af1a6c0bf5
+
+outputs.1.6.groupId=com.flowlogix
+outputs.1.6.filename=flowlogix-jee-11.5-cyclonedx.json
+outputs.1.6.length=310216
+outputs.1.6.checksums.sha512=3799ac795e58d3f48ca23a1e6f63abfee586a1f74bd1f6a6350583bdbf583db84fb7934fefe555d09686e2a1bf97f8e12ce51487adedf5303581db10ace73b78
+
+outputs.2.coordinates=com.flowlogix:flowlogix-datamodel
+
+outputs.2.0.groupId=com.flowlogix
+outputs.2.0.filename=flowlogix-datamodel-11.5.pom
+outputs.2.0.length=3179
+outputs.2.0.checksums.sha512=6a06e59f92a91c97409243e0ef49454272122bfbbadabd0c72219c8022f262f4780ffdf5d66152f5ba60779db5271bf2b3244bfb3ba561c4ff0b458d1d42e96c
+
+outputs.2.1.groupId=com.flowlogix
+outputs.2.1.filename=flowlogix-datamodel-11.5-build.pom
+outputs.2.1.length=1599
+outputs.2.1.checksums.sha512=fbc7d64974a8b5b9ff52ce12c3a2d7a0e64ca1adc4a60906fcf1c1e02c4955f646f4f8fa87147df6c31c220e111fdff7c310cb0583b08f1da7208283d429e73f
+
+outputs.2.2.groupId=com.flowlogix
+outputs.2.2.filename=flowlogix-datamodel-11.5.jar
+outputs.2.2.length=75365
+outputs.2.2.checksums.sha512=acfe72174ccf50bd5451f26d31b25bdf7874646e144292df24b0104c8ef1ce5242be9bb9bf95aedfdf6597c743bf594d3b276deb880559cb4c0c6ce8ef3f2d6b
+
+outputs.2.3.groupId=com.flowlogix
+outputs.2.3.filename=flowlogix-datamodel-11.5-sources.jar
+outputs.2.3.length=28763
+outputs.2.3.checksums.sha512=66432ff173192783bdab067270da2377330bffea01a6bedd4a95358c2f0254ee88f32c86ffab2f334cca12eeb0f0862ddc81e83a8a182e2e8f173fe4e861548b
+
+outputs.2.4.groupId=com.flowlogix
+outputs.2.4.filename=flowlogix-datamodel-11.5-tests.jar
+outputs.2.4.length=65682
+outputs.2.4.checksums.sha512=1ebec36cd5d80f0ee06e09eef1b403e9292b279be61f29427594f89c5ebb52618afa4e18a77c6f21ed809771e01e00515ff85d5e3c2f86299b34601fdbc66941
+
+outputs.2.5.groupId=com.flowlogix
+outputs.2.5.filename=flowlogix-datamodel-11.5-cyclonedx.xml
+outputs.2.5.length=105122
+outputs.2.5.checksums.sha512=dd3c9e75964992127b0eb1593a50967920821c56731ea26b7f7bca99f9ad246985ab45c8510e822b429ffc89b10337db19e3de9eb6a3283299dc6c0948f6ae78
+
+outputs.2.6.groupId=com.flowlogix
+outputs.2.6.filename=flowlogix-datamodel-11.5-cyclonedx.json
+outputs.2.6.length=116601
+outputs.2.6.checksums.sha512=ee752bcc4c32521ea5dc9567a6b77a18d070c9968a18bbaf0e4c4197c3243cc73f5d9a571b29f01f3c4afe5f273bb764db3c94f1bcb673bd972d271400ee395c
