@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Tooling ATR Maven Plugin
+group-id=org.apache.tooling
+artifact-id=atr-maven-plugin
+version=1.0.0-beta-1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/tooling-atr-maven-plugin.git
+source.scm.tag=atr-maven-plugin-1.0.0-beta-1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.apache.tooling
+outputs.0.filename=atr-maven-plugin-1.0.0-beta-1.pom
+outputs.0.length=19459
+outputs.0.checksums.sha512=60ffb30bc6d0dd012471ca042a16b667f50fa6294138ce9f61ca8c27de6ae598e683404df8c54417f87943c3adb9dca146860cfce764bc0b2808a4aa421d49b9
+
+outputs.1.groupId=org.apache.tooling
+outputs.1.filename=atr-maven-plugin-1.0.0-beta-1.jar
+outputs.1.length=42278
+outputs.1.checksums.sha512=801f0c2116ffabcd2b02822cba6f485c6cc5db0a9b6d1c145181cfed122222defc1f3a26cab845ea831edad3d8883c29de7cde247cf35ce78f5ed43f69e413c9
+
+outputs.2.groupId=org.apache.tooling
+outputs.2.filename=atr-maven-plugin-1.0.0-beta-1-source-release.zip
+outputs.2.length=69343
+outputs.2.checksums.sha512=c34391da01c797ae10272c333306e7f79d3580e74a645e788bf1c24d364ba9fcab20263c6950a39b068706a7b800bc50aa42664613f1bfb80181cd96f7440efd
+
+outputs.3.groupId=org.apache.tooling
+outputs.3.filename=atr-maven-plugin-1.0.0-beta-1-sources.jar
+outputs.3.length=28408
+outputs.3.checksums.sha512=7312344e2c267ab1271a5ce98802f91a8f939750b571e6591a3c7184134c532a7ebaa35fdf0c003a887e228c2ec3a38659d3a74748d5dca626399929c839a6c2
+
+outputs.4.groupId=org.apache.tooling
+outputs.4.filename=atr-maven-plugin-1.0.0-beta-1-tests.jar
+outputs.4.length=8925
+outputs.4.checksums.sha512=0fb7e6ead32d2c3a63ed5c60103541812b8ecbc287a45c81cb53fa3307a0c891c2118104bc90e57c16775bd63a508e299131ffcd67d100c77ffa0ef40ad60267
+
+outputs.5.groupId=org.apache.tooling
+outputs.5.filename=atr-maven-plugin-1.0.0-beta-1-cyclonedx.json
+outputs.5.length=110462
+outputs.5.checksums.sha512=b41e48cd6fd2b8d06076d172f6aca91c15bf39a85893efcd6e2b43cd4e3e4ba9d3049f7c16811d3e3e4e424be64453b9c7c6b70297b9ef4a980386d4f9677378
