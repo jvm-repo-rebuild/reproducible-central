@@ -27,14 +27,14 @@ Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Conve
 * [world.convex:convex-x402](https://central.sonatype.com/artifact/world.convex/convex-x402/overview)
 </details>
 
-rebuilding **35 releases** of world.convex:convex:
+rebuilding **36 releases** of world.convex:convex:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 30 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 12, 0 had all their differences removed :recycle:, 12 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 31 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 13, 0 had all their differences removed :recycle:, 13 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.8.16](https://central.sonatype.com/artifact/world.convex/convex/0.8.16/pom) | | | |
+| [0.8.16](https://central.sonatype.com/artifact/world.convex/convex/0.8.16/pom) | [mvn jdk25](convex-0.8.16.buildspec) | [result](convex-0.8.16.buildinfo): [35 :white_check_mark:  5 :warning:](convex-0.8.16.buildcompare) | 5 :rotating_light: | 14M |
 | [0.8.15](https://central.sonatype.com/artifact/world.convex/convex/0.8.15/pom) | [mvn jdk25 w](convex-0.8.15.buildspec) | [result](convex-0.8.15.buildinfo): [36 :white_check_mark:  4 :warning:](convex-0.8.15.buildcompare) | 4 :rotating_light: | 14M |
 | [0.8.14](https://central.sonatype.com/artifact/world.convex/convex/0.8.14/pom) | [mvn jdk25 w](convex-0.8.14.buildspec) | [result](convex-0.8.14.buildinfo): [36 :white_check_mark:  4 :warning:](convex-0.8.14.buildcompare) | 4 :rotating_light: | 14M |
 | [0.8.13](https://central.sonatype.com/artifact/world.convex/convex/0.8.13/pom) | [mvn jdk25 w](convex-0.8.13.buildspec) | [result](convex-0.8.13.buildinfo): [38 :white_check_mark:  2 :warning:](convex-0.8.13.buildcompare) | 2 :rotating_light: | 14M |
