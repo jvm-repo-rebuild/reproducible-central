@@ -195,6 +195,7 @@
       <version>3.27.4.1</version>
       <version>3.27.4</version>
       <version>3.27.5.1</version>
+      <version>3.27.5.2</version>
       <version>3.27.5</version>
       <version>3.28.0.CR1</version>
       <version>3.28.0</version>
@@ -238,6 +239,7 @@
       <version>3.33.2.1</version>
       <version>3.33.2</version>
       <version>3.33.3.1</version>
+      <version>3.33.3.2</version>
       <version>3.33.3</version>
       <version>3.34.0.CR1</version>
       <version>3.34.0</version>
@@ -275,6 +277,6 @@
       <version>3.39.1</version>
       <version>3.39.2</version>
     </versions>
-    <lastUpdated>20260902095937</lastUpdated>
+    <lastUpdated>20260903105419</lastUpdated>
   </versioning>
 </metadata>

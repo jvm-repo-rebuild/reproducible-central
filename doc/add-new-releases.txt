@@ -1,10 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/flowlogix/flowlogix-11.4.3.buildspec:11.5
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.5.10.buildspec:1.5.11
-content/eu/maveniverse/maven/checksum/checksum-0.2.1.buildspec:0.2.2
-content/io/airlift/airbase/airbase-406.buildspec:408
-content/net/bytebuddy/byte-buddy-1.18.12-jdk5.buildspec:1.18.13-jdk5
-content/org/apache/felix/maven-bundle-plugin/maven-bundle-plugin-6.1.0.buildspec:6.1.2
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.5.11.buildspec:1.6.0
+content/org/jline/jline-4.4.1.buildspec:4.4.2
