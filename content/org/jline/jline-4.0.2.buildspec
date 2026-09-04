@@ -1,0 +1,19 @@
+groupId=org.jline
+artifactId=jline
+display=${groupId}:${artifactId}
+version=4.0.2
+
+gitRepo=https://github.com/jline/jline3.git
+gitTag=${version}
+
+tool=mvn-4.0.0-rc-5
+jdk=22
+newline=lf
+umask=022
+
+# nisse jgit Tag extraction seems broken: overriding key values on CLI parameters improves rebuild
+command="mvn -Pbundle clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dnisse.jgit.dynamicVersion=${version} -Dnisse.jgit.dateIso8601=2026-01-01T12:12:12Z"
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
+
+#diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=
