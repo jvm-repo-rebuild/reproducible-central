@@ -1,12 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
-content/com/google/mug/mug-10.9.buildspec:11.0
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/com/io7m/primogenitor/com.io7m.primogenitor-10.0.0-beta0004.buildspec:10.0.0
 content/com/sap/ai/sdk/sdk-1.24.0.buildspec:1.25.0
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.6.0.buildspec:1.6.2
 content/dev/langchain4j/langchain4j-1.19.0.buildspec:1.20.0
-content/eu/maveniverse/maven/mimir/mimir-0.12.1.buildspec:0.12.3
-content/org/apache/maven/surefire/surefire-3.6.0-M1.buildspec:3.6.0
-content/org/apache/maven/shared/maven-script-interpreter/maven-script-interpreter-1.7.buildspec:1.8
+content/eu/maveniverse/maven/nisse/nisse-0.9.10.buildspec:0.9.11
+content/org/metricshub/winrm-java/winrm-java-2.1.00.buildspec:2.2.00
