@@ -16,14 +16,14 @@ Source code: [https://codeberg.org/io7m-com/primogenitor](https://codeberg.org/i
 * [com.io7m.primogenitor:com.io7m.primogenitor.tests](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.tests/overview)
 </details>
 
-rebuilding **46 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
-- **40** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **47 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
+- **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [10.0.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0/pom) | | | |
+| [10.0.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0/pom) | [mvn jdk25](com.io7m.primogenitor-10.0.0.buildspec) | [result](com.io7m.primogenitor-10.0.0.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-10.0.0.buildcompare) | | 2.8M |
 | [10.0.0-beta0004](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0-beta0004/pom) | [mvn jdk25](com.io7m.primogenitor-10.0.0-beta0004.buildspec) | [result](com.io7m.primogenitor-10.0.0-beta0004.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-10.0.0-beta0004.buildcompare) | | 2.8M |
 | [10.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0-beta0003/pom) | [mvn jdk25](com.io7m.primogenitor-10.0.0-beta0003.buildspec) | [result](com.io7m.primogenitor-10.0.0-beta0003.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-10.0.0-beta0003.buildcompare) | | 2.8M |
 | [10.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/10.0.0-beta0002/pom) | [mvn jdk25](com.io7m.primogenitor-10.0.0-beta0002.buildspec) | [result](com.io7m.primogenitor-10.0.0-beta0002.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-10.0.0-beta0002.buildcompare) | | 2.8M |
