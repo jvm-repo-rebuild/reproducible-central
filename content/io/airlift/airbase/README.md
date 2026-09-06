@@ -14,14 +14,14 @@ Source code: [https://github.com/airlift/airbase.git](https://github.com/airlift
 * [io.airlift:airbase-root](https://central.sonatype.com/artifact/io.airlift/airbase-root/overview)
 </details>
 
-rebuilding **253 releases** of io.airlift:airbase:
-- **246** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **254 releases** of io.airlift:airbase:
+- **247** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [408](https://central.sonatype.com/artifact/io.airlift/airbase/408/pom) | [mvn jdk25](airbase-408.buildspec) | [result](airbase-408.buildinfo): [4 :white_check_mark: ](airbase-408.buildcompare) | | 103K |
-| [407](https://central.sonatype.com/artifact/io.airlift/airbase/407/pom) | | | |
+| [407](https://central.sonatype.com/artifact/io.airlift/airbase/407/pom) | [mvn jdk25](airbase-407.buildspec) | [result](airbase-407.buildinfo): [4 :white_check_mark: ](airbase-407.buildcompare) | | 103K |
 | [406](https://central.sonatype.com/artifact/io.airlift/airbase/406/pom) | [mvn jdk25](airbase-406.buildspec) | [result](airbase-406.buildinfo): [4 :white_check_mark: ](airbase-406.buildcompare) | | 102K |
 | [405](https://central.sonatype.com/artifact/io.airlift/airbase/405/pom) | [mvn jdk25](airbase-405.buildspec) | [result](airbase-405.buildinfo): [4 :white_check_mark: ](airbase-405.buildcompare) | | 102K |
 | [404](https://central.sonatype.com/artifact/io.airlift/airbase/404/pom) | [mvn jdk25](airbase-404.buildspec) | [result](airbase-404.buildinfo): [4 :white_check_mark: ](airbase-404.buildcompare) | | 102K |
