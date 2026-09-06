@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eForms Core Library
+group-id=eu.europa.ted.eforms
+artifact-id=eforms-core-java
+version=1.8.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/OP-TED/eforms-core-java.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.32
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=eu.europa.ted.eforms
+outputs.0.filename=eforms-core-java-1.8.0.pom
+outputs.0.length=19183
+outputs.0.checksums.sha512=7b3e3bb24f53aa12e9f6aaf099e105b99e5381c41a2c380aaace70455758478ac4eda59bce7557ba999c761b603978e90b3191515f46fac8e7ce342b55762c14
+
+outputs.1.groupId=eu.europa.ted.eforms
+outputs.1.filename=eforms-core-java-1.8.0.jar
+outputs.1.length=224678
+outputs.1.checksums.sha512=670644e73d173dadc1a8fa748629daf485b88e31717abb7b1203eb3763170dc36b466941c30e7155fe477dc0589460a06744fc9b70608b68b2ff64a5b0bf493e
+
+outputs.2.groupId=eu.europa.ted.eforms
+outputs.2.filename=eforms-core-java-1.8.0-sources.jar
+outputs.2.length=122017
+outputs.2.checksums.sha512=4d2a7ded6871284fd92161f14e1d9de9579fa6442d0704a2c9c913f6d54e5e1a5e01f37fdb8cffbf7ae2e3955803d6230e3cfbdef9e6b73b6d7d6807a7b4facd
