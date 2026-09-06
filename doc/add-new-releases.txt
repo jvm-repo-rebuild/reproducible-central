@@ -4,5 +4,4 @@ content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
 content/com/sap/ai/sdk/sdk-1.24.0.buildspec:1.25.0
 content/dev/langchain4j/langchain4j-1.19.0.buildspec:1.20.0
-content/eu/maveniverse/maven/nisse/nisse-0.9.10.buildspec:0.9.11
-content/org/metricshub/winrm-java/winrm-java-2.1.00.buildspec:2.2.00
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-7.buildspec:11.5.1-beta-8

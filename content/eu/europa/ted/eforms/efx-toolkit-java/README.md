@@ -14,6 +14,7 @@ rebuilding **8 releases** of eu.europa.ted.eforms:efx-toolkit-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0-alpha.8](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.8/pom) | | | |
 | [2.0.0-alpha.7](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.7/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.7.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.7.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.7.buildcompare) | 1 :rotating_light: | 2.1M |
 | [2.0.0-alpha.6](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.6/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.6.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.6.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.6.buildcompare) | 1 :rotating_light: | 2.1M |
 | [2.0.0-alpha.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.5/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.5.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.5.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.5.buildcompare) | 1 :rotating_light: | 1.1M |
