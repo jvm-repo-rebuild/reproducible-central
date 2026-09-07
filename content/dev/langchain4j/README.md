@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 111 modules:</summary>
+<details><summary>This project defines 114 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -30,6 +30,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-cohere](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-cohere/overview)
 * [dev.langchain4j:langchain4j-coherence](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-coherence/overview)
 * [dev.langchain4j:langchain4j-core](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-core/overview)
+* [dev.langchain4j:langchain4j-core-jackson3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-core-jackson3/overview)
 * [dev.langchain4j:langchain4j-couchbase](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-couchbase/overview)
 * [dev.langchain4j:langchain4j-dashscope](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-dashscope/overview)
 * [dev.langchain4j:langchain4j-document-loader-amazon-s3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-amazon-s3/overview)
@@ -76,6 +77,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-hugging-face](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-hugging-face/overview)
 * [dev.langchain4j:langchain4j-infinispan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-infinispan/overview)
 * [dev.langchain4j:langchain4j-internal-test-retry](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-internal-test-retry/overview)
+* [dev.langchain4j:langchain4j-jackson3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jackson3/overview)
 * [dev.langchain4j:langchain4j-jina](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jina/overview)
 * [dev.langchain4j:langchain4j-jlama](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jlama/overview)
 * [dev.langchain4j:langchain4j-kotlin](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-kotlin/overview)
@@ -103,6 +105,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-pinecone](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-pinecone/overview)
 * [dev.langchain4j:langchain4j-qdrant](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qdrant/overview)
 * [dev.langchain4j:langchain4j-qianfan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qianfan/overview)
+* [dev.langchain4j:langchain4j-reactive-streaming](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-reactive-streaming/overview)
 * [dev.langchain4j:langchain4j-redis](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-redis/overview)
 * [dev.langchain4j:langchain4j-skills](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-skills/overview)
 * [dev.langchain4j:langchain4j-tablestore](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-tablestore/overview)
@@ -122,14 +125,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **66 releases** of dev.langchain4j:langchain4j:
-- **44** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **67 releases** of dev.langchain4j:langchain4j:
+- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 14, 3 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.20.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.20.0/pom) | | | |
+| [1.20.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.20.0/pom) | [mvn jdk25](langchain4j-1.20.0.buildspec) | [result](langchain4j-aggregator-1.20.0.buildinfo): [323 :white_check_mark: ](langchain4j-aggregator-1.20.0.buildcompare) | | 472M |
 | [1.19.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.19.0/pom) | [mvn jdk25](langchain4j-1.19.0.buildspec) | [result](langchain4j-aggregator-1.19.0.buildinfo): [316 :white_check_mark: ](langchain4j-aggregator-1.19.0.buildcompare) | | 471M |
 | [1.18.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.18.1/pom) | [mvn jdk25](langchain4j-1.18.1.buildspec) | [result](langchain4j-aggregator-1.18.1.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.18.1.buildcompare) | | 471M |
 | [1.18.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.18.0/pom) | [mvn jdk25](langchain4j-1.18.0.buildspec) | [result](langchain4j-aggregator-1.18.0.buildinfo): [313 :white_check_mark: ](langchain4j-aggregator-1.18.0.buildcompare) | | 471M |
