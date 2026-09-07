@@ -99,8 +99,10 @@
       <version>1.18.0</version>
       <version>1.18.1</version>
       <version>1.19.0</version>
+      <version>1.19.1</version>
+      <version>1.19.2</version>
       <version>1.20.0</version>
     </versions>
-    <lastUpdated>20260904115723</lastUpdated>
+    <lastUpdated>20260907121526</lastUpdated>
   </versioning>
 </metadata>

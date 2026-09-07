@@ -1,7 +1,12 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/com/flowlogix/flowlogix-11.5.buildspec:11.6
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/com/sap/ai/sdk/sdk-1.24.0.buildspec:1.25.0
-content/dev/langchain4j/langchain4j-1.19.0.buildspec:1.20.0
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.6.2.buildspec:1.7.0
 content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-7.buildspec:11.5.1-beta-8
+content/io/airlift/airbase/airbase-408.buildspec:409
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.7.buildspec:7.34.8
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.18.3.buildspec:5.18.4-beta-1
+content/org/apache/commons/parent/commons-parent-104.buildspec:105
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.12.buildspec:12.1.13

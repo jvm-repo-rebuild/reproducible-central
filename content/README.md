@@ -100,7 +100,7 @@ Reproducible Builds for Maven Central Repository
 | | [spring-test-smart-context-parent](../content/com/github/seregamorph/spring-test-smart-context/README.md) | 3 | 3 :white_check_mark: |
 | | [test-distribution](../content/com/github/seregamorph/test-distribution/README.md) | 3 | 3 :white_check_mark: |
 | com.github.sitture | [env-config](../content/com/github/sitture/env-config/README.md) | 17 | 11 :white_check_mark: / 6 :warning: |
-| com.github.spotbugs | [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 49 | 33 :white_check_mark: / 16 :warning: |
+| com.github.spotbugs | [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 50 | 33 :white_check_mark: / 17 :warning: |
 | com.github.veithen.* | [alta](../content/com/github/veithen/alta/README.md) | 3 | 3 :white_check_mark: |
 | | [checkt](../content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
 | | [cosmos](../content/com/github/veithen/cosmos/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -222,7 +222,7 @@ Reproducible Builds for Maven Central Repository
 | com.newmediaworks | [nmw-oss-parent](../content/com/newmediaworks/nmw-oss-parent/README.md) | 10 | 10 :white_check_mark: |
 | com.ongres | [scram](../content/com/ongres/scram/README.md) | 4 | 4 :white_check_mark: |
 | | [stringprep](../content/com/ongres/stringprep/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| com.sap.ai.sdk | [sdk-parent](../content/com/sap/ai/sdk/README.md) | 18 | 18 :white_check_mark: |
+| com.sap.ai.sdk | [sdk-parent](../content/com/sap/ai/sdk/README.md) | 19 | 19 :white_check_mark: |
 | com.scalapenos | [stamina](../content/com/scalapenos/stamina/README.md) | 2 | 2 :white_check_mark: |
 | com.semanticcms | [s8cms-all](../content/com/semanticcms/semanticcms-all/README.md) | 4 | 4 :white_check_mark: |
 | | [s8cms-all-book](../content/com/semanticcms/semanticcms-all-book/README.md) | 4 | 4 :white_check_mark: |
@@ -256,7 +256,7 @@ Reproducible Builds for Maven Central Repository
 | | [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | 7 | 7 :white_check_mark: |
 | | [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 4 | 4 :warning: |
 | de.unentscheidbar | [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
-| dev.langchain4j | [langchain4j](../content/dev/langchain4j/README.md) | 66 | 44 :white_check_mark: / 22 :warning: |
+| dev.langchain4j | [langchain4j](../content/dev/langchain4j/README.md) | 67 | 45 :white_check_mark: / 22 :warning: |
 | dev.aspectj | [aspectj-maven-plugin](../content/dev/aspectj/aspectj-maven-plugin/README.md) | 2 | 2 :warning: |
 | dev.cdevents | [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.langchain4j.cdi | [langchain4j-cdi-parent](../content/dev/langchain4j/cdi/README.md) | 9 | 9 :white_check_mark: |
@@ -337,7 +337,7 @@ Reproducible Builds for Maven Central Repository
 | io.dropwizard.modules | [module-parent](../content/io/dropwizard/modules/parent/README.md) | 28 | 28 :white_check_mark: |
 | io.dwpbank.movewp3 | [microservice-security-autoconfiguration](../content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 2 | 2 :warning: |
 | io.fabric8 | [docker-maven-plugin](../content/io/fabric8/docker-maven-plugin/README.md) | 28 | 25 :white_check_mark: / 3 :warning: |
-| | [kubernetes-client](../content/io/fabric8/kubernetes-client/README.md) | 55 | 55 :warning: |
+| | [kubernetes-client](../content/io/fabric8/kubernetes-client/README.md) | 56 | 56 :warning: |
 | io.github.git-commit-id | [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | io.github.gls-athena | [athena](../content/io/github/gls-athena/README.md) | 10 | 1 :white_check_mark: / 9 :warning: |
 | io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 13 | 13 :white_check_mark: |
@@ -990,7 +990,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 36 | 5 :white_check_mark: / 31 :warning: |
-| **Count:** | **976** | **12152** | **8968** :white_check_mark:<br>**3184** :warning: |
+| **Count:** | **976** | **12156** | **8970** :white_check_mark:<br>**3186** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1074,18 +1074,18 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     174 mvn-3.9.11   8
     117 mvn-3.9.11  11
     281 mvn-3.9.11  17
-    441 mvn-3.9.11  21
+    442 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     121 mvn-3.9.11  25
       3 mvn-3.9.11  26
      35 mvn-3.9.12   8
-     42 mvn-3.9.12  11
+     43 mvn-3.9.12  11
     106 mvn-3.9.12  17
     336 mvn-3.9.12  21
       2 mvn-3.9.12  22
      20 mvn-3.9.12  24
-    170 mvn-3.9.12  25
+    171 mvn-3.9.12  25
       3 mvn-3.9.12  26
       1 mvn-3.9.12  27
       1 mvn-3.9.13  17
@@ -1101,7 +1101,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.16  17
      17 mvn-3.9.16  21
      14 mvn-3.9.16  22
-     50 mvn-3.9.16  25
+     51 mvn-3.9.16  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       9 mvn-3.9.2  21
