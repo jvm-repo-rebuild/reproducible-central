@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=maven-lockfile-plugin
+group-id=io.github.chains-project
+artifact-id=maven-lockfile
+version=5.18.4-beta-1
+
+# source information
+source.scm.uri=scm:git:https://github.com/chains-project/maven-lockfile
+source.scm.tag=v5.18.4-beta-1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=io.github.chains-project
+outputs.0.filename=maven-lockfile-5.18.4-beta-1.pom
+outputs.0.length=18004
+outputs.0.checksums.sha512=bc06cb64dbe00343d23c024fb61d203999ceb29549c8af7f461803dc2844c5a0830363eed88a730da6ace3f931bc2fcb4942a018d293d963296847de35b2edc0
+
+outputs.1.groupId=io.github.chains-project
+outputs.1.filename=maven-lockfile-5.18.4-beta-1.jar
+outputs.1.length=149817
+outputs.1.checksums.sha512=ba42d0cfeafd2fcf9de02a5f6a38afa99fba0e34fa894185f37a562738d78233c7d3c1aac5e55d6d415ac8a2eba6e6a7c62a54e2194ff8f75d9861e4a3e72e5f
+
+outputs.2.groupId=io.github.chains-project
+outputs.2.filename=maven-lockfile-5.18.4-beta-1-cyclonedx.xml
+outputs.2.length=190099
+outputs.2.checksums.sha512=1747c669b32dc6e61d652528668b7ba9df150086e138aa6f0371613e000bb5fe6761bad181d88b53dbc57f70c40f5a4297c119a8a453e4778713bbdda661883a
+
+outputs.3.groupId=io.github.chains-project
+outputs.3.filename=maven-lockfile-5.18.4-beta-1-cyclonedx.json
+outputs.3.length=207558
+outputs.3.checksums.sha512=e97045ed1e6ee2dd03f6f6226c04a2b27b2f64ce5e1b32fe0bd89a4d9b52b9a68133d29b11bf06b026dabf7a68679fee2b492d8aec064e83f1e6a76a82697ce8
+
+outputs.4.groupId=io.github.chains-project
+outputs.4.filename=maven-lockfile-5.18.4-beta-1-sources.jar
+outputs.4.length=71326
+outputs.4.checksums.sha512=60019498fb84bb33bb5715b24639b30ebd4f9e4b770e368a6be239e7318c77977abcd92387902a032c4eaac6fc3099bf54454181f70e25241e1471f76c7287e4
+
+outputs.5.groupId=io.github.chains-project
+outputs.5.filename=maven-lockfile-5.18.4-beta-1-tests.jar
+outputs.5.length=65127
+outputs.5.checksums.sha512=7a074c391a01001ae3a95939564a1f96d19de4471fc5c4a473941c03d772f92dcbc500331d1b6fa49bf1b76941a426a83903184b4ee0517685e99fb09fa6d012
