@@ -43,6 +43,7 @@ rebuilding **53 releases** of org.jline:jline:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.4.3](https://central.sonatype.com/artifact/org.jline/jline/4.4.3/pom) | | | |
 | [4.4.2](https://central.sonatype.com/artifact/org.jline/jline/4.4.2/pom) | [mvn jdk22](jline-4.4.2.buildspec) | [result](jline-parent-4.4.2.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.2.buildcompare) | | 9.7M |
 | [4.4.1](https://central.sonatype.com/artifact/org.jline/jline/4.4.1/pom) | [mvn jdk22](jline-4.4.1.buildspec) | [result](jline-parent-4.4.1.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.1.buildcompare) | | 9.6M |
 | [4.4.0](https://central.sonatype.com/artifact/org.jline/jline/4.4.0/pom) | [mvn jdk22](jline-4.4.0.buildspec) | [result](jline-parent-4.4.0.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.0.buildcompare) | | 9.6M |
@@ -70,6 +71,7 @@ rebuilding **53 releases** of org.jline:jline:
 | [4.0.3](https://central.sonatype.com/artifact/org.jline/jline/4.0.3/pom) | [mvn jdk22](jline-4.0.3.buildspec) | [result](jline-parent-4.0.3.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.3.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.9M |
 | [4.0.2](https://central.sonatype.com/artifact/org.jline/jline/4.0.2/pom) | [mvn jdk22](jline-4.0.2.buildspec) | [result](jline-parent-4.0.2.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.2.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.9M |
 | [4.0.0](https://central.sonatype.com/artifact/org.jline/jline/4.0.0/pom) | [mvn jdk22](jline-4.0.0.buildspec) | [result](jline-parent-4.0.0.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.0.buildcompare) | 41 :recycle: | 8.9M |
+| [3.30.17](https://central.sonatype.com/artifact/org.jline/jline/3.30.17/pom) | | | |
 | [3.30.16](https://central.sonatype.com/artifact/org.jline/jline/3.30.16/pom) | [mvn jdk22](jline-3.30.16.buildspec) | [result](jline-parent-3.30.16.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.16.buildcompare) | | 8.2M |
 | [3.30.15](https://central.sonatype.com/artifact/org.jline/jline/3.30.15/pom) | [mvn jdk22](jline-3.30.15.buildspec) | [result](jline-parent-3.30.15.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.15.buildcompare) | | 8.2M |
 | [3.30.14](https://central.sonatype.com/artifact/org.jline/jline/3.30.14/pom) | [mvn jdk22](jline-3.30.14.buildspec) | [result](jline-parent-3.30.14.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.14.buildcompare) | | 8.2M |
