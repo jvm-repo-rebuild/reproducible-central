@@ -12,7 +12,7 @@ newline=lf
 umask=022
 timezone="America/Chicago"
 
-command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.test.skip -Dmaven.consumer.pom.flatten -pl '!integration-tests,!samples'"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.test.skip -Dmaven.consumer.pom.flatten -pl '!integration-tests,!samples,!support/features'"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
