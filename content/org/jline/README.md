@@ -36,14 +36,14 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **53 releases** of org.jline:jline:
-- **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **54 releases** of org.jline:jline:
+- **39** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 9, 6 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.4.3](https://central.sonatype.com/artifact/org.jline/jline/4.4.3/pom) | | | |
+| [4.4.3](https://central.sonatype.com/artifact/org.jline/jline/4.4.3/pom) | [mvn jdk22](jline-4.4.3.buildspec) | [result](jline-parent-4.4.3.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.3.buildcompare) | | 9.7M |
 | [4.4.2](https://central.sonatype.com/artifact/org.jline/jline/4.4.2/pom) | [mvn jdk22](jline-4.4.2.buildspec) | [result](jline-parent-4.4.2.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.2.buildcompare) | | 9.7M |
 | [4.4.1](https://central.sonatype.com/artifact/org.jline/jline/4.4.1/pom) | [mvn jdk22](jline-4.4.1.buildspec) | [result](jline-parent-4.4.1.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.1.buildcompare) | | 9.6M |
 | [4.4.0](https://central.sonatype.com/artifact/org.jline/jline/4.4.0/pom) | [mvn jdk22](jline-4.4.0.buildspec) | [result](jline-parent-4.4.0.buildinfo): [67 :white_check_mark: ](jline-parent-4.4.0.buildcompare) | | 9.6M |
