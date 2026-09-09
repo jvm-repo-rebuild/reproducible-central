@@ -14,11 +14,11 @@ source.scm.tag=shiro-root-3.0.1
 build-tool=mvn
 
 # effective build environment information
-java.version=25.0.1
+java.version=25.0.4.1
 java.vendor=Azul Systems, Inc.
-os.name=Mac OS X
-os.version=26.6.2
-os.arch=aarch64
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
@@ -610,58 +610,41 @@ outputs.28.3.filename=shiro-spring-boot-web-starter-3.0.1-sources.jar
 outputs.28.3.length=8392
 outputs.28.3.checksums.sha512=5d68ff9ae21baa923c06ff0fac557e8cc044bb88520a1232966298fd851dd130580ded312d01349ee66f0775141e2939866e3715259a0eb76e9ee5c318ec1025
 
-outputs.29.coordinates=org.apache.shiro:shiro-features
+outputs.29.coordinates=org.apache.shiro.tools:shiro-tools
 
-outputs.29.0.groupId=org.apache.shiro
-outputs.29.0.filename=shiro-features-3.0.1.pom
-outputs.29.0.length=4697
-outputs.29.0.checksums.sha512=0af4bd10bd4bde6a8f09fd27e3e3aaedb4f9adc4844b0d376d991d0aaa4f0a4476bac3f931fb72f7ae6943462aadaea5714edda64df81fa3e33d4accd5a0b569
+outputs.29.0.groupId=org.apache.shiro.tools
+outputs.29.0.filename=shiro-tools-3.0.1.pom
+outputs.29.0.length=573
+outputs.29.0.checksums.sha512=45b8d32d1137ceb63a2bd83c6b6c7310339e79c869e4f5e76ee494d519e08f26b344c8a94cf020ea126087dbe78cd1af5d71999f6a0adb83709b79f0194d9623
 
-outputs.29.1.groupId=org.apache.shiro
-outputs.29.1.filename=shiro-features-3.0.1-build.pom
-outputs.29.1.length=6905
-outputs.29.1.checksums.sha512=ce2d487df5dca8d92e2d2a970ed8dd42eea15aa534d1c9925f32b7c1a67104f3d052357a279a5d50c9a1549dca2438237b38750c400385f3f5acf947c9991676
+outputs.29.1.groupId=org.apache.shiro.tools
+outputs.29.1.filename=shiro-tools-3.0.1-build.pom
+outputs.29.1.length=1492
+outputs.29.1.checksums.sha512=69a9034b98d34d3850d4b5c9662431c5f15276d9255abbb28146b385472ba455eff990f029c6c748c4c36fd95db9065b93ebcc9f60ae839448b1d617f5c2eeda
 
-outputs.29.3.groupId=org.apache.shiro
-outputs.29.3.filename=shiro-features-3.0.1-features.xml
-outputs.29.3.length=4059
-outputs.29.3.checksums.sha512=0c1e615ffdf4a278e5dfc435b42eb7a2459573be448c69505a6920f4c51b6fc6974fe4654695295384e408e18eaa6a43717b26bfd1a31849c31e730af4fd8c07
-
-outputs.30.coordinates=org.apache.shiro.tools:shiro-tools
+outputs.30.coordinates=org.apache.shiro.tools:shiro-tools-hasher
 
 outputs.30.0.groupId=org.apache.shiro.tools
-outputs.30.0.filename=shiro-tools-3.0.1.pom
-outputs.30.0.length=573
-outputs.30.0.checksums.sha512=45b8d32d1137ceb63a2bd83c6b6c7310339e79c869e4f5e76ee494d519e08f26b344c8a94cf020ea126087dbe78cd1af5d71999f6a0adb83709b79f0194d9623
+outputs.30.0.filename=shiro-tools-hasher-3.0.1.pom
+outputs.30.0.length=8703
+outputs.30.0.checksums.sha512=de373283825a8b30d765afdc588c4abf86350e771d8431b9b19488a8f1cea39a719d77798731ada64b0244176736f9ca6f2672af8c1c62bc69ae0ae0b7d268cd
 
 outputs.30.1.groupId=org.apache.shiro.tools
-outputs.30.1.filename=shiro-tools-3.0.1-build.pom
-outputs.30.1.length=1492
-outputs.30.1.checksums.sha512=69a9034b98d34d3850d4b5c9662431c5f15276d9255abbb28146b385472ba455eff990f029c6c748c4c36fd95db9065b93ebcc9f60ae839448b1d617f5c2eeda
+outputs.30.1.filename=shiro-tools-hasher-3.0.1-build.pom
+outputs.30.1.length=5292
+outputs.30.1.checksums.sha512=d074159cb0ec424a02fc4745987028046e2ae189b4544e9d1950624fb96ceb6d9372a1bd23f43c24b8fc859ddef2dcadfc5812e494aa7c705b8fe00440aa1bcb
 
-outputs.31.coordinates=org.apache.shiro.tools:shiro-tools-hasher
+outputs.30.2.groupId=org.apache.shiro.tools
+outputs.30.2.filename=shiro-tools-hasher-3.0.1.jar
+outputs.30.2.length=20097
+outputs.30.2.checksums.sha512=d9043a32992c85ba34265db4bd36a16ce6f92ca60df7e0f8305ac2ae009de0d3739aac4ef633f68e52e7f9573f925bcb6bf419e6d68885d1c965b6267335109e
 
-outputs.31.0.groupId=org.apache.shiro.tools
-outputs.31.0.filename=shiro-tools-hasher-3.0.1.pom
-outputs.31.0.length=8703
-outputs.31.0.checksums.sha512=de373283825a8b30d765afdc588c4abf86350e771d8431b9b19488a8f1cea39a719d77798731ada64b0244176736f9ca6f2672af8c1c62bc69ae0ae0b7d268cd
+outputs.30.3.groupId=org.apache.shiro.tools
+outputs.30.3.filename=shiro-tools-hasher-3.0.1-sources.jar
+outputs.30.3.length=15671
+outputs.30.3.checksums.sha512=44baf15524737053c11e5c063fe613d4a1885474948731c39d8df5c8eeea314c1cf8881af8113872c6a0185dbd6a265f219f4a5c95435b8aaf28197939d0d172
 
-outputs.31.1.groupId=org.apache.shiro.tools
-outputs.31.1.filename=shiro-tools-hasher-3.0.1-build.pom
-outputs.31.1.length=5292
-outputs.31.1.checksums.sha512=d074159cb0ec424a02fc4745987028046e2ae189b4544e9d1950624fb96ceb6d9372a1bd23f43c24b8fc859ddef2dcadfc5812e494aa7c705b8fe00440aa1bcb
-
-outputs.31.2.groupId=org.apache.shiro.tools
-outputs.31.2.filename=shiro-tools-hasher-3.0.1.jar
-outputs.31.2.length=20097
-outputs.31.2.checksums.sha512=d9043a32992c85ba34265db4bd36a16ce6f92ca60df7e0f8305ac2ae009de0d3739aac4ef633f68e52e7f9573f925bcb6bf419e6d68885d1c965b6267335109e
-
-outputs.31.3.groupId=org.apache.shiro.tools
-outputs.31.3.filename=shiro-tools-hasher-3.0.1-sources.jar
-outputs.31.3.length=15671
-outputs.31.3.checksums.sha512=44baf15524737053c11e5c063fe613d4a1885474948731c39d8df5c8eeea314c1cf8881af8113872c6a0185dbd6a265f219f4a5c95435b8aaf28197939d0d172
-
-outputs.31.4.groupId=org.apache.shiro.tools
-outputs.31.4.filename=shiro-tools-hasher-3.0.1-cli.jar
-outputs.31.4.length=13733612
-outputs.31.4.checksums.sha512=fef279756f691c8912e2891d28265bf0f2abd36d69dec0d81e7cadaafff19f6af48862766134e7d62fca8495e1edb7affc1d605349bb63ce263900ebc4f7c610
+outputs.30.4.groupId=org.apache.shiro.tools
+outputs.30.4.filename=shiro-tools-hasher-3.0.1-cli.jar
+outputs.30.4.length=13733612
+outputs.30.4.checksums.sha512=fef279756f691c8912e2891d28265bf0f2abd36d69dec0d81e7cadaafff19f6af48862766134e7d62fca8495e1edb7affc1d605349bb63ce263900ebc4f7c610
