@@ -31,8 +31,10 @@ rebuilding **20 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.0-beta-3](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/4.0.0-beta-3/pom) | | | |
 | [4.0.0-beta-2](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/4.0.0-beta-2/pom) | [mvn jdk21](maven-plugin-tools-4.0.0-beta-2.buildspec) | [result](maven-plugin-tools-4.0.0-beta-2.buildinfo): [43 :white_check_mark: ](maven-plugin-tools-4.0.0-beta-2.buildcompare) | | 4.6M |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/4.0.0-beta-1/pom) | [mvn jdk21](maven-plugin-tools-4.0.0-beta-1.buildspec) | [result](maven-plugin-tools-4.0.0-beta-1.buildinfo): [36 :white_check_mark: ](maven-plugin-tools-4.0.0-beta-1.buildcompare) | | 4.7M |
+| [3.16.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.16.0/pom) | | | |
 | [3.15.2](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.15.2/pom) | [mvn jdk21](maven-plugin-tools-3.15.2.buildspec) | [result](maven-plugin-tools-3.15.2.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.15.2.buildcompare) | | 5.9M |
 | [3.15.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.15.1/pom) | [mvn jdk8 w](maven-plugin-tools-3.15.1.buildspec) | [result](maven-plugin-tools-3.15.1.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.15.1.buildcompare) | | 5.5M |
 | [3.15.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.15.0/pom) | [mvn jdk8 w](maven-plugin-tools-3.15.0.buildspec) | [result](maven-plugin-tools-3.15.0.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.15.0.buildcompare) | | 5.5M |

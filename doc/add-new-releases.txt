@@ -1,12 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
-content/com/fasterxml/oss-parent/oss-parent-79.buildspec:80
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.7.0.buildspec:1.7.3
-content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-2.2.0.buildspec:2.3.0
-content/io/airlift/airbase/airbase-409.buildspec:410
-content/io/wcm/io.wcm.handler/richtext/wcm-richtext-2.1.0.buildspec:2.1.2
-content/org/dbunit/dbunit-3.5.1.buildspec:3.5.2
-content/org/jline/jline-4.4.2.buildspec:4.4.3
-content/org/apache/nifi/nifi-api/nifi-api-2.11.0.buildspec:2.12.0
+content/org/apache/artemis/artemis-2.56.0.buildspec:2.57.0
+content/org/apache/activemq/artemis/artemis-2.56.0.buildspec:2.57.0
+content/org/apache/maven/plugin-tools/maven-plugin-tools/maven-plugin-tools-4.0.0-beta-2.buildspec:4.0.0-beta-3
+content/org/apache/maven/shared/maven-dependency-analyzer/maven-dependency-analyzer-1.17.1.buildspec:1.17.2
+content/org/codehaus/plexus/plexus-compiler/plexus-compiler-2.17.0.buildspec:2.17.1

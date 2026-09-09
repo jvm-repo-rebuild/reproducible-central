@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.shared</groupId>
   <artifactId>maven-dependency-analyzer</artifactId>
   <versioning>
-    <latest>1.17.1</latest>
-    <release>1.17.1</release>
+    <latest>1.17.2</latest>
+    <release>1.17.2</release>
     <versions>
       <version>1.0-alpha-1</version>
       <version>1.0-alpha-2</version>
@@ -34,7 +34,8 @@
       <version>1.16.0</version>
       <version>1.17.0</version>
       <version>1.17.1</version>
+      <version>1.17.2</version>
     </versions>
-    <lastUpdated>20260516070623</lastUpdated>
+    <lastUpdated>20260909161817</lastUpdated>
   </versioning>
 </metadata>
