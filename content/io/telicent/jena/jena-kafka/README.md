@@ -22,6 +22,7 @@ rebuilding **25 releases** of io.telicent.jena:jena-kafka:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.3.0](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/3.3.0/pom) | | | |
 | [3.2.1](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/3.2.1/pom) | [mvn jdk21](jena-kafka-3.2.1.buildspec) | [result](jena-kafka-3.2.1.buildinfo): [11 :white_check_mark: ](jena-kafka-3.2.1.buildcompare) | | 926K |
 | [3.2.0](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/3.2.0/pom) | [mvn jdk21](jena-kafka-3.2.0.buildspec) | [result](jena-kafka-3.2.0.buildinfo): [11 :white_check_mark: ](jena-kafka-3.2.0.buildcompare) | | 926K |
 | [3.1.2](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/3.1.2/pom) | [mvn jdk21](jena-kafka-3.1.2.buildspec) | [result](jena-kafka-3.1.2.buildinfo): [11 :white_check_mark: ](jena-kafka-3.1.2.buildcompare) | | 927K |

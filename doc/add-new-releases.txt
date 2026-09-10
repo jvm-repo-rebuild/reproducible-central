@@ -2,8 +2,8 @@
 # see bin/create-new-release-PRs.sh
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/org/apache/artemis/artemis-2.56.0.buildspec:2.57.0
-content/org/apache/activemq/artemis/artemis-2.56.0.buildspec:2.57.0
-content/org/apache/maven/plugin-tools/maven-plugin-tools/maven-plugin-tools-4.0.0-beta-2.buildspec:4.0.0-beta-3
-content/org/apache/maven/shared/maven-dependency-analyzer/maven-dependency-analyzer-1.17.1.buildspec:1.17.2
-content/org/codehaus/plexus/plexus-compiler/plexus-compiler-2.17.0.buildspec:2.17.1
+content/eu/maveniverse/maven/scalpel/scalpel-0.3.10.buildspec:0.4.0
+content/io/avaje/validator/avaje-validator-2.18-RC1.buildspec:2.18-RC2
+content/io/repaint/maven/tiles-maven-plugin/tiles-maven-plugin-2.45.buildspec:2.45.1
+content/io/telicent/jena/jena-kafka/jena-kafka-3.2.1.buildspec:3.3.0
+content/org/apache/commons/bcel/bcel-6.12.0.buildspec:6.13.0
