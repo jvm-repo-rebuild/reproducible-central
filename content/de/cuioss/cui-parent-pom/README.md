@@ -19,13 +19,13 @@ Source code: [https://github.com/cuioss/cui-parent-pom.git](https://github.com/c
 * [de.cuioss:quarkus-bom](https://central.sonatype.com/artifact/de.cuioss/quarkus-bom/overview)
 </details>
 
-rebuilding **69 releases** of de.cuioss:cui-parent-pom:
-- **63** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **70 releases** of de.cuioss:cui-parent-pom:
+- **64** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.4](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.7.4/pom) | | | |
+| [1.7.4](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.7.4/pom) | [mvn jdk21](cui-parent-pom-1.7.4.buildspec) | [result](cui-parent-pom-1.7.4.buildinfo): [8 :white_check_mark: ](cui-parent-pom-1.7.4.buildcompare) | | 119K |
 | [1.7.3](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.7.3/pom) | [mvn jdk21](cui-parent-pom-1.7.3.buildspec) | [result](cui-parent-pom-1.7.3.buildinfo): [8 :white_check_mark: ](cui-parent-pom-1.7.3.buildcompare) | | 119K |
 | [1.7.2](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.7.2/pom) | [mvn jdk21](cui-parent-pom-1.7.2.buildspec) | [result](cui-parent-pom-1.7.2.buildinfo): [8 :white_check_mark: ](cui-parent-pom-1.7.2.buildcompare) | | 119K |
 | [1.7.1](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.7.1/pom) | [mvn jdk21](cui-parent-pom-1.7.1.buildspec) | [result](cui-parent-pom-1.7.1.buildinfo): [8 :white_check_mark: ](cui-parent-pom-1.7.1.buildcompare) | | 117K |
