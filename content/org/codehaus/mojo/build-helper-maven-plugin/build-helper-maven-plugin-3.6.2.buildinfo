@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Build Helper Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=build-helper-maven-plugin
+version=3.6.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/build-helper-maven-plugin.git
+source.scm.tag=3.6.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.32
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=build-helper-maven-plugin-3.6.2.pom
+outputs.0.length=7862
+outputs.0.checksums.sha512=be3d0ca7d7ef8c2d7effea60edb77bea4d2fbc54500e33421cdb1ec2644d18939670ae8e4c67c366a6da579bb801af493463fe036941dd0051b6aa131d25d0d7
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=build-helper-maven-plugin-3.6.2.jar
+outputs.1.length=71734
+outputs.1.checksums.sha512=717ead3753a2994ca1ccd85ffd5b9c4294c04af332c9d8f5a84dadf2b4f361e77bbf158a2ed633095246fb112a629f700e3137336e7436d9e47709ab0759c334
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=build-helper-maven-plugin-3.6.2-source-release.zip
+outputs.2.length=187721
+outputs.2.checksums.sha512=fe78a18a9428e7483367b1ed79b637e6b2a48c6ea824d9640c0590f4040f4376e5127cd084334255266cf1b753d708450fc6ffe36e0a69e122d68dcdb5776a26
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=build-helper-maven-plugin-3.6.2-sources.jar
+outputs.3.length=58013
+outputs.3.checksums.sha512=21ffaa393dfbab468f227649ed43f1b2c0ebc19b2efb4bc2aba4d0878ecf73dc6ee38d995eec56ecaaa71028acaa84d9c5247f3d5473795e38d78231b6b5845c
