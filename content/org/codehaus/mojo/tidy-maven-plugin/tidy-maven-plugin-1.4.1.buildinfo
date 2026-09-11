@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Tidy Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=tidy-maven-plugin
+version=1.4.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/tidy-maven-plugin.git
+source.scm.tag=1.4.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=tidy-maven-plugin-1.4.1.pom
+outputs.0.length=5228
+outputs.0.checksums.sha512=0a0e783de69178bd2e6434cf1ff309545ab0c13d95683c282f74f65dd41e46583ce257ea8db2dc42e70e0898aabf262cd46c36492fc9b23bebe5297a9291cb80
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=tidy-maven-plugin-1.4.1.jar
+outputs.1.length=31493
+outputs.1.checksums.sha512=40f0d749f5d8034448d27a7bc92f3af0908b250c8d7945ef20b4066883a1fa1d79c1fe417662fdc3a2872b7be5db0d998f65b68274db46c20f995faaf1a19f3b
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=tidy-maven-plugin-1.4.1-source-release.zip
+outputs.2.length=89161
+outputs.2.checksums.sha512=b07bc51741a98f62b5173b039cf58f821c116c2ec0bc5f21203dc2d0da61185f5a228e797e3304fb5d43a10a7805621ac4d38afbc8c5f1b1c5e383c454a2f4af
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=tidy-maven-plugin-1.4.1-sources.jar
+outputs.3.length=22806
+outputs.3.checksums.sha512=cff1713cc9f951204f6fbd6f4270150dd2f91931cdc110279064b2a3ed2cae17f13bceff7a260882957599e333abd56f81ff528d24d46110c40f46a29b205b53
