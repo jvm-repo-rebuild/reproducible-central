@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Extra Enforcer Rules
+group-id=org.codehaus.mojo
+artifact-id=extra-enforcer-rules
+version=1.12.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/extra-enforcer-rules.git
+source.scm.tag=1.12.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.32
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.2
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=extra-enforcer-rules-1.12.1.pom
+outputs.0.length=7038
+outputs.0.checksums.sha512=e12280b1db8bef4b2754afb422ec0d63994893cf48ec3bf4ef1b5058144eaab32fc90aa45441574e780d83f079b1ca13f6b27c20bd959321f9acb1e7c00592ce
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=extra-enforcer-rules-1.12.1.jar
+outputs.1.length=57409
+outputs.1.checksums.sha512=ef65b76cdd5d6a285e5d8b30e695682f773a6c956d8983c06826159734a1967b1271de417fbed9ff2915ef21be0c004808367507ec4713075da6daf8a6c01c69
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=extra-enforcer-rules-1.12.1-source-release.zip
+outputs.2.length=201548
+outputs.2.checksums.sha512=53a5710520c253eaa3d7aec7b1ccd8e7648101fc93ba5ed73edb27507a9e4ac76f48157bbd29f955080f7089b05f71d7a145eee3524598b50dcdd16cf27b5d40
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=extra-enforcer-rules-1.12.1-sources.jar
+outputs.3.length=42094
+outputs.3.checksums.sha512=e46e4615f3398b93f8e3a8b301cd637e129a5bb64553d01289e2de9bd0d258198f15284d0559c665ad69e39a3e76a65647f2ed7f7ecbf35ef0c6a64601283da8
