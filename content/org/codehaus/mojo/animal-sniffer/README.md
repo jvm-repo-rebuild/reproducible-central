@@ -24,6 +24,7 @@ rebuilding **8 releases** of org.codehaus.mojo:animal-sniffer-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.28](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.28/pom) | | | |
 | [1.27](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.27/pom) | [mvn jdk21](animal-sniffer-1.27.buildspec) | [result](animal-sniffer-parent-1.27.buildinfo): [20 :white_check_mark: ](animal-sniffer-parent-1.27.buildcompare) | | 1.3M |
 | [1.26](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.26/pom) | [mvn jdk25](animal-sniffer-1.26.buildspec) | [result](animal-sniffer-parent-1.26.buildinfo): [20 :white_check_mark: ](animal-sniffer-parent-1.26.buildcompare) | | 1.3M |
 | [1.25](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.25/pom) | [mvn jdk25](animal-sniffer-1.25.buildspec) | [result](animal-sniffer-parent-1.25.buildinfo): [20 :white_check_mark: ](animal-sniffer-parent-1.25.buildcompare) | | 1.3M |
