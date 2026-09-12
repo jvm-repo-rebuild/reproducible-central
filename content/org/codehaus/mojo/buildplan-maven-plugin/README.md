@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mojohaus/buildplan-maven-plugin.git](https://github.com/mojohaus/buildplan-maven-plugin.git)
 
-rebuilding **5 releases** of org.codehaus.mojo:buildplan-maven-plugin:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of org.codehaus.mojo:buildplan-maven-plugin:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/buildplan-maven-plugin/2.3.0/pom) | | | |
+| [2.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/buildplan-maven-plugin/2.3.0/pom) | [mvn jdk11](buildplan-maven-plugin-2.3.0.buildspec) | [result](buildplan-maven-plugin-2.3.0.buildinfo): [4 :white_check_mark: ](buildplan-maven-plugin-2.3.0.buildcompare) | | 451K |
 | [2.2.2](https://central.sonatype.com/artifact/org.codehaus.mojo/buildplan-maven-plugin/2.2.2/pom) | [mvn jdk11](buildplan-maven-plugin-2.2.2.buildspec) | [result](buildplan-maven-plugin-2.2.2.buildinfo): [3 :white_check_mark: ](buildplan-maven-plugin-2.2.2.buildcompare) | | 93K |
 | [2.2.1](https://central.sonatype.com/artifact/org.codehaus.mojo/buildplan-maven-plugin/2.2.1/pom) | [mvn jdk11](buildplan-maven-plugin-2.2.1.buildspec) | [result](buildplan-maven-plugin-2.2.1.buildinfo): [3 :white_check_mark: ](buildplan-maven-plugin-2.2.1.buildcompare) | | 93K |
 | [2.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/buildplan-maven-plugin/2.2.0/pom) | [mvn jdk11](buildplan-maven-plugin-2.2.0.buildspec) | [result](buildplan-maven-plugin-2.2.0.buildinfo): [3 :white_check_mark: ](buildplan-maven-plugin-2.2.0.buildcompare) | | 91K |
