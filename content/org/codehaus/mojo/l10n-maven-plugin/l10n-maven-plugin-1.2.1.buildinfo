@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Localization Tools Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=l10n-maven-plugin
+version=1.2.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/l10n-maven-plugin.git
+source.scm.tag=1.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=l10n-maven-plugin-1.2.1.pom
+outputs.0.length=6274
+outputs.0.checksums.sha512=f7cea5d3171fae0cce82ffff54c7a7554ed0eeb3895da66f10a5f1b5fabcf63a9175d17c736a279623acfd6ce188c3524b43a3c9a5f5f58e880a0527a72c92ce
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=l10n-maven-plugin-1.2.1.jar
+outputs.1.length=29789
+outputs.1.checksums.sha512=5a04b2c4d3910365e016837a7620bcc4d933cdfa53e6c01a42233f35e08f46f8398a9123c473bef16778d962e3e75c06df5479fd5a3aa85b980aa4ac0a6fe174
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=l10n-maven-plugin-1.2.1-source-release.zip
+outputs.2.length=22850
+outputs.2.checksums.sha512=b2bee3650dca3ad00649d480c8e95bd38d7128a7a4d19ab268d205af9c6def4e02f4fe53ffaa052416b97750cfa8553daa96d8e65f3ad3d082fc1159e37b8263
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=l10n-maven-plugin-1.2.1-sources.jar
+outputs.3.length=15504
+outputs.3.checksums.sha512=a46aef58126230ad31eaa3cbc368a45b0258e2d7a657f9e58a0417a245edd1cd706793969099426a4255509902bf2be6f20362c53294996a2c71d49cf21f8fd8
