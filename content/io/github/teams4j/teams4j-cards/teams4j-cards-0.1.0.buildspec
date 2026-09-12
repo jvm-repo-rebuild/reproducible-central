@@ -1,0 +1,21 @@
+groupId=io.github.teams4j
+artifactId=teams4j-cards
+version=0.1.0
+
+display=${groupId}:teams4j
+
+gitRepo=https://github.com/teams4j/teams4j.git
+gitTag=v${version}
+
+tool=gradle
+jdk=21
+newline=lf
+umask=022
+
+# The version derives from the git tag, so nothing is passed. Signing is skipped when no key is configured.
+# kotlinSourcesJar and sourcesJar write the same file in 0.1.0; only sourcesJar's content is what Central has.
+command="./gradlew --no-daemon clean publishToMavenLocal -x test -x kotlinSourcesJar"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
