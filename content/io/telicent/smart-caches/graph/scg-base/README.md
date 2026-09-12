@@ -16,14 +16,14 @@ Source code: [https://github.com/Telicent-oss/smart-cache-graph](https://github.
 * [io.telicent.smart-caches.graph:scg-system](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-system/overview)
 </details>
 
-rebuilding **82 releases** of io.telicent.smart-caches.graph:scg-base:
+rebuilding **83 releases** of io.telicent.smart-caches.graph:scg-base:
 - **75** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.9](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.1.9/pom) | | | |
+| [1.1.9](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.1.9/pom) | [mvn jdk21](scg-base-1.1.9.buildspec) | [result](scg-base-1.1.9.buildinfo): [4 :white_check_mark:  2 :warning:](scg-base-1.1.9.buildcompare) | 2 :rotating_light: | 1.4M |
 | [1.1.8](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.1.8/pom) | [mvn jdk21](scg-base-1.1.8.buildspec) | [result](scg-base-1.1.8.buildinfo): [4 :white_check_mark:  2 :warning:](scg-base-1.1.8.buildcompare) | 2 :rotating_light: | 1.4M |
 | [1.1.7](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.1.7/pom) | [mvn jdk21](scg-base-1.1.7.buildspec) | [result](scg-base-1.1.7.buildinfo): [4 :white_check_mark:  2 :warning:](scg-base-1.1.7.buildcompare) | 2 :rotating_light: | 1.4M |
 | [1.1.6](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/1.1.6/pom) | [mvn jdk21](scg-base-1.1.6.buildspec) | [result](scg-base-1.1.6.buildinfo): [4 :white_check_mark:  2 :warning:](scg-base-1.1.6.buildcompare) | 2 :rotating_light: | 1.4M |
