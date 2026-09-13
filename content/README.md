@@ -68,7 +68,7 @@ Reproducible Builds for Maven Central Repository
 | | [smartsprites-maven-plugin](../content/com/github/hazendaz/maven/smartsprites-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
 | | [yuicompressor-maven-plugin](../content/com/github/hazendaz/maven/yuicompressor-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
-| com.github.hypfvieh | [dbus-java](../content/com/github/hypfvieh/dbus-java/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
+| com.github.hypfvieh | [dbus-java](../content/com/github/hypfvieh/dbus-java/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | com.github.marschall | [jakarta-jms-adapter](../content/com/github/marschall/jakarta-jms-adapter/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
 | | [jfr-ejb](../content/com/github/marschall/jfr-ejb/README.md) | 1 | 1 :white_check_mark: |
 | | [jfr-jdbc](../content/com/github/marschall/jfr-jdbc/README.md) | 1 | 1 :white_check_mark: |
@@ -795,8 +795,8 @@ Reproducible Builds for Maven Central Repository
 | org.codehaus.mojo | [animal-sniffer](../content/org/codehaus/mojo/animal-sniffer/README.md) | 9 | 9 :white_check_mark: |
 | | [aspectj-maven-plugin](../content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [build-helper-maven-plugin](../content/org/codehaus/mojo/build-helper-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
-| | [buildnumber-maven-plugin](../content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
-| | [buildplan-maven-plugin](../content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
+| | [buildnumber-maven-plugin](../content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
+| | [buildplan-maven-plugin](../content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [cassandra-maven-plugin](../content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [exec-maven-plugin](../content/org/codehaus/mojo/exec-maven-plugin/README.md) | 13 | 13 :white_check_mark: |
 | | [extra-enforcer-rules](../content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 13 | 13 :white_check_mark: |
@@ -805,7 +805,7 @@ Reproducible Builds for Maven Central Repository
 | | [l10n-maven-plugin](../content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | | [mojo-parent](../content/org/codehaus/mojo/mojo-parent/README.md) | 38 | 38 :white_check_mark: |
-| | [mrm](../content/org/codehaus/mojo/mrm/README.md) | 6 | 6 :white_check_mark: |
+| | [mrm](../content/org/codehaus/mojo/mrm/README.md) | 7 | 7 :white_check_mark: |
 | | [native-maven-plugin](../content/org/codehaus/mojo/native/README.md) | 3 | 3 :white_check_mark: |
 | | [properties-maven-plugin](../content/org/codehaus/mojo/properties-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [taglist-maven-plugin](../content/org/codehaus/mojo/taglist-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
@@ -991,7 +991,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 36 | 5 :white_check_mark: / 31 :warning: |
-| **Count:** | **977** | **12217** | **9021** :white_check_mark:<br>**3196** :warning: |
+| **Count:** | **977** | **12221** | **9025** :white_check_mark:<br>**3196** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1078,15 +1078,15 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     444 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
-    121 mvn-3.9.11  25
+    122 mvn-3.9.11  25
       3 mvn-3.9.11  26
      35 mvn-3.9.12   8
-     47 mvn-3.9.12  11
+     49 mvn-3.9.12  11
     107 mvn-3.9.12  17
     343 mvn-3.9.12  21
       2 mvn-3.9.12  22
      20 mvn-3.9.12  24
-    182 mvn-3.9.12  25
+    183 mvn-3.9.12  25
       3 mvn-3.9.12  26
       1 mvn-3.9.12  27
       1 mvn-3.9.13  17
