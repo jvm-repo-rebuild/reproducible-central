@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Build Number Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=buildnumber-maven-plugin
+version=3.3.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/buildnumber-maven-plugin.git
+source.scm.tag=buildnumber-maven-plugin-3.3.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.32
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=buildnumber-maven-plugin-3.3.1.pom
+outputs.0.length=12322
+outputs.0.checksums.sha512=716d3bbfde9bb6c99cb578ce05ac41ffd953e73768e10970faa244c765ced73881a6207db24c48023b6c217535846cec6d6e3e4c9803407fb817f63ce08857cc
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=buildnumber-maven-plugin-3.3.1.jar
+outputs.1.length=45942
+outputs.1.checksums.sha512=dbf3d7a8f62c7642d3ca9f331b9060cd317c46993a80ce57a598e0fba2c13343ed8442fe8b36cc704e6c495e4c15d56e22f3345c6114c6254829331eaf8db909
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=buildnumber-maven-plugin-3.3.1-source-release.zip
+outputs.2.length=167810
+outputs.2.checksums.sha512=12de526534070b9dd73a7f23aee6641606e8e7eccec0107c66c6f6f8813a5ec7f45f4520e3ca7c7278ad19806d8d030a9820cb10f9373d5ced36af294b2dd8cc
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=buildnumber-maven-plugin-3.3.1-sources.jar
+outputs.3.length=30152
+outputs.3.checksums.sha512=348afcae21025d4d623341483b12ec71fb5062e1c2e6a71b9b82a96f3e1a9155aac0733e24a04bae252cf09869eed27124c4378747a42826ae8baa60bf7179c2
