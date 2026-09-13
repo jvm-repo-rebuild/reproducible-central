@@ -1,0 +1,9 @@
+version=2.0.0
+ok=17
+ko=0
+ignored=0
+okFiles="mrm-2.0.0.pom mrm-2.0.0-source-release.zip mrm-api-2.0.0.pom mrm-api-2.0.0.jar mrm-api-2.0.0-sources.jar mrm-servlet-2.0.0.pom mrm-servlet-2.0.0.jar mrm-servlet-2.0.0-sources.jar mrm-servlet-jetty-2.0.0.pom mrm-servlet-jetty-2.0.0.jar mrm-servlet-jetty-2.0.0-sources.jar mrm-maven-plugin-2.0.0.pom mrm-maven-plugin-2.0.0.jar mrm-maven-plugin-2.0.0-sources.jar mrm-jupiter-extension-2.0.0.pom mrm-jupiter-extension-2.0.0.jar mrm-jupiter-extension-2.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
