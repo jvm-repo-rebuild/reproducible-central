@@ -7,22 +7,24 @@
 
 Source code: [https://github.com/mojohaus/mrm.git](https://github.com/mojohaus/mrm.git)
 
-<details><summary>This project defines 5 modules:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/overview)
 * [org.codehaus.mojo:mrm-api](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-api/overview)
+* [org.codehaus.mojo:mrm-jupiter-extension](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-jupiter-extension/overview)
 * [org.codehaus.mojo:mrm-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-maven-plugin/overview)
 * [org.codehaus.mojo:mrm-servlet](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-servlet/overview)
+* [org.codehaus.mojo:mrm-servlet-jetty](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-servlet-jetty/overview)
 * [org.codehaus.mojo:mrm-webapp](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-webapp/overview)
 </details>
 
-rebuilding **6 releases** of org.codehaus.mojo:mrm:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.codehaus.mojo:mrm:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/2.0.0/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/2.0.0/pom) | [mvn jdk25](mrm-2.0.0.buildspec) | [result](mrm-2.0.0.buildinfo): [17 :white_check_mark: ](mrm-2.0.0.buildcompare) | | 569K |
 | [1.7.1](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.7.1/pom) | [mvn jdk21](mrm-1.7.1.buildspec) | [result](mrm-1.7.1.buildinfo): [11 :white_check_mark: ](mrm-1.7.1.buildcompare) | | 389K |
 | [1.7.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.7.0/pom) | [mvn jdk21](mrm-1.7.0.buildspec) | [result](mrm-1.7.0.buildinfo): [11 :white_check_mark: ](mrm-1.7.0.buildcompare) | | 386K |
 | [1.6.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.6.0/pom) | [mvn jdk21](mrm-1.6.0.buildspec) | [result](mrm-1.6.0.buildinfo): [11 :white_check_mark: ](mrm-1.6.0.buildcompare) | | 385K |
