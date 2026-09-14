@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 968 modules:</summary>
+<details><summary>This project defines 972 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -660,6 +660,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-parquet-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-nar/overview)
 * [org.apache.nifi:nifi-parquet-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-processors/overview)
 * [org.apache.nifi:nifi-parquet-shared](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-shared/overview)
+* [org.apache.nifi:nifi-password-based-property-encryption](https://central.sonatype.com/artifact/org.apache.nifi/nifi-password-based-property-encryption/overview)
+* [org.apache.nifi:nifi-password-based-property-encryption-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-password-based-property-encryption-bundle/overview)
+* [org.apache.nifi:nifi-password-based-property-encryption-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-password-based-property-encryption-nar/overview)
 * [org.apache.nifi:nifi-per-process-group-logging](https://central.sonatype.com/artifact/org.apache.nifi/nifi-per-process-group-logging/overview)
 * [org.apache.nifi:nifi-persistent-provenance-repository](https://central.sonatype.com/artifact/org.apache.nifi/nifi-persistent-provenance-repository/overview)
 * [org.apache.nifi:nifi-pgp-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-pgp-bundle/overview)
@@ -890,6 +893,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-system-test-component-metric-reporter](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter/overview)
 * [org.apache.nifi:nifi-system-test-component-metric-reporter-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter-bundle/overview)
 * [org.apache.nifi:nifi-system-test-component-metric-reporter-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter-nar/overview)
+* [org.apache.nifi:nifi-system-test-dynamic-classpath](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-dynamic-classpath/overview)
 * [org.apache.nifi:nifi-system-test-extensions](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions/overview)
 * [org.apache.nifi:nifi-system-test-extensions-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions-bundle/overview)
 * [org.apache.nifi:nifi-system-test-extensions-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions-nar/overview)
@@ -979,14 +983,14 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **38 releases** of org.apache.nifi:nifi:
+rebuilding **39 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 38 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 9, 0 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 39 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 10, 0 had all their differences removed :recycle:, 10 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.12.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.12.0/pom) | | | |
+| [2.12.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.12.0/pom) | [mvn jdk21 osx aarm64](nifi-2.12.0.buildspec) | [result](nifi-2.12.0.buildinfo): [1813 :white_check_mark:  3 :warning:](nifi-2.12.0.buildcompare) [:mag:](nifi-2.12.0.diffoscope) | 2 :rotating_light: 1 :no_entry_sign: | 1.7G |
 | [2.11.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.11.0/pom) | [mvn jdk21 osx aarm64](nifi-2.11.0.buildspec) | [result](nifi-2.11.0.buildinfo): [1779 :white_check_mark:  30 :warning:](nifi-2.11.0.buildcompare) | 14 :rotating_light: 16 :no_entry_sign: | 1.7G |
 | [2.10.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.10.0/pom) | [mvn jdk21 osx aarm64](nifi-2.10.0.buildspec) | [result](nifi-2.10.0.buildinfo): [1805 :white_check_mark:  11 :warning:](nifi-2.10.0.buildcompare) | 6 :rotating_light: 5 :no_entry_sign: | 1.7G |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.9.0/pom) | [mvn jdk21 osx aarm64](nifi-2.9.0.buildspec) | [result](nifi-2.9.0.buildinfo): [1791 :white_check_mark:  25 :warning:](nifi-2.9.0.buildcompare) | 6 :rotating_light: 19 :no_entry_sign: | 1.6G |
