@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Sign Maven Plugin
+group-id=org.simplify4u.plugins
+artifact-id=sign-maven-plugin
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/sign-maven-plugin.git
+source.scm.tag=v1.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_502
+java.vendor=Private Build
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.0
+
+# output
+
+outputs.0.groupId=org.simplify4u.plugins
+outputs.0.filename=sign-maven-plugin-1.2.0.pom
+outputs.0.length=20426
+outputs.0.checksums.sha512=0fa2d2c0759e14584175a1ad0e6f8a9778f1792a9f538bf00cfc6bd98c1615455397d9132fe7ff4b0b7025af37a8f7806ecc0e51159bf2e751c334dc85c043c9
+
+outputs.1.groupId=org.simplify4u.plugins
+outputs.1.filename=sign-maven-plugin-1.2.0.jar
+outputs.1.length=46954
+outputs.1.checksums.sha512=33aa0fce15ad8e196410ab8c0f3a7cd05fcd8fd6291ffa89c008ff285c361dbc3c1af248f22711e74d6c08e05ebc5c284c61a5792d22ab72958c2d5d93bffbe8
+
+outputs.2.groupId=org.simplify4u.plugins
+outputs.2.filename=sign-maven-plugin-1.2.0-sources.jar
+outputs.2.length=27148
+outputs.2.checksums.sha512=72bf3d9fb4240aea6444131a1ac362069b2cc48e3fd9629d83a01293376aea08e3d45935d2722fa159d0c34d379b35f75641a832342c1fa7a813d40a6bd9c102
