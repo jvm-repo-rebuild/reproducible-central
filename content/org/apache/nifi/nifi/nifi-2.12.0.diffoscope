@@ -1,0 +1,99 @@
+1 / 3 target/reference/org.apache.nifi/nifi-nar-utils-2.12.0.jar nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.12.0.jar
+--- target/reference/org.apache.nifi/nifi-nar-utils-2.12.0.jar
++++ nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.12.0.jar
+├── org/apache/nifi/nar/LoadNativeLibAspect.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,9 +1,9 @@
+│ │ -Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_yw3qdsnh_target/tmpb9laeq7m_ZipContainer/LoadNativeLibAspect.class
+│ │ -  SHA-256 checksum 10deb0e470c27796a7927c17bb88e2f7dc168cbc53c2f2a142ed7aa51a7cb9c6
+│ │ +Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_yw3qdsnh_target/tmpa1k14zek_ZipContainer/LoadNativeLibAspect.class
+│ │ +  SHA-256 checksum 6a62fc286fd246c7ea7e0bd9a88ad32d40748a0f78aeb9f01155604799d97978
+│ │    Compiled from "LoadNativeLibAspect.java"
+│ │  public class org.apache.nifi.nar.LoadNativeLibAspect
+│ │    minor version: 0
+│ │    major version: 65
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │    this_class: #1                          // org/apache/nifi/nar/LoadNativeLibAspect
+│ │    super_class: #3                         // java/lang/Object
+│ │ @@ -513,15 +513,15 @@
+│ │    0: #166 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │        #167 \u0001@\u0001_
+│ │    1: #166 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │        #169 _\u0001
+│ │    org.aspectj.weaver.WeaverVersion: length = 0xC (unknown attribute)
+│ │ -   00 07 00 00 00 00 01 9B 26 09 43 A0
+│ │ +   00 07 00 00 00 00 01 9B 29 78 2B A0
+│ │    org.aspectj.weaver.WeaverState: length = 0x3CD (unknown attribute)
+│ │     53 00 00 00 00 01 00 29 4C 6F 72 67 2F 61 70 61
+│ │     63 68 65 2F 6E 69 66 69 2F 6E 61 72 2F 4C 6F 61
+│ │     64 4E 61 74 69 76 65 4C 69 62 41 73 70 65 63 74
+│ │     3B 00 00 03 98 00 B1 00 00 0C 12 00 21 00 01 00
+│ │     03 00 00 00 01 00 12 00 05 00 06 00 00 00 02 00
+│ │     01 00 07 00 08 00 01 00 09 00 00 00 42 00 02 00
+
+2 / 3 target/reference/org.apache.nifi/nifi-stateless-assembly-2.12.0-bin.zip nifi-stateless/nifi-stateless-assembly/target/nifi-stateless-2.12.0-bin.zip
+--- target/reference/org.apache.nifi/nifi-stateless-assembly-2.12.0-bin.zip
++++ nifi-stateless/nifi-stateless-assembly/target/nifi-stateless-2.12.0-bin.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 32805348 bytes, number of entries: 33
+│ +Zip file size: 32805345 bytes, number of entries: 33
+│  drwxrwxr-x  2.0 unx        0 b- stor 26-Sep-10 19:06 nifi-stateless-2.12.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Sep-10 19:06 nifi-stateless-2.12.0/extensions/
+│ @@ -17,19 +17,19 @@
+│  -rw-r--r--  2.0 unx   650132 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/logback-core-1.6.3.jar
+│  -rw-r--r--  2.0 unx   293273 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/logback-classic-1.6.3.jar
+│ --rw-r--r--  2.0 unx    56633 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-nar-utils-2.12.0.jar
+│ +-rw-r--r--  2.0 unx    56634 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-nar-utils-2.12.0.jar
+│  -rw-r--r--  2.0 unx    29418 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/log4j-over-slf4j-2.0.19.jar
+│  -rw-r--r--  2.0 unx   472763 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-api-2.12.0.jar
+│  -rw-r--r--  2.0 unx 16977452 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-jetty-nar-2.12.0.nar
+│  -rw-r--r--  2.0 unx    70246 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/slf4j-api-2.0.19.jar
+│  -rw-r--r--  2.0 unx 12021320 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-stateless-nar-2.12.0.nar
+│  -rw-r--r--  2.0 unx    40620 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-stateless-api-2.12.0.jar
+│  -rw-r--r--  2.0 unx     6348 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/jul-to-slf4j-2.0.19.jar
+│  -rw-r--r--  2.0 unx    13794 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-property-utils-2.12.0.jar
+│  -rw-r--r--  2.0 unx    31769 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/nifi-runtime-2.12.0.jar
+│  -rw-r--r--  2.0 unx  2190661 b- defN 26-Sep-10 19:06 nifi-stateless-2.12.0/lib/aspectj/aspectjweaver-1.9.25.1.jar
+│ -33 files, 33249050 bytes uncompressed, 32799832 bytes compressed:  1.4%
+│ +33 files, 33249051 bytes uncompressed, 32799829 bytes compressed:  1.4%
+
+3 /  3 target/reference/org.apache.nifi.registry/nifi-registry-web-ui-2.12.0.war nifi-registry/nifi-registry-core/nifi-registry-web-ui/target/nifi-registry-web-ui-2.12.0.war
+--- target/reference/org.apache.nifi.registry/nifi-registry-web-ui-2.12.0.war
++++ nifi-registry/nifi-registry-core/nifi-registry-web-ui/target/nifi-registry-web-ui-2.12.0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2970401 bytes, number of entries: 72
+│ +Zip file size: 2970404 bytes, number of entries: 72
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Sep-10 19:06 META-INF/
+│  -rw-r--r--  2.0 unx       99 b- defN 26-Sep-10 19:06 META-INF/MANIFEST.MF
+│ @@ -44,16 +44,16 @@
+│  -rw-r--r--  2.0 unx     1550 b- defN 26-Sep-10 19:06 index.html
+│  -rw-r--r--  2.0 unx     8098 b- defN 26-Sep-10 19:06 locale/messages.es.xlf
+│ --rw-r--r--  2.0 unx   274003 b- defN 26-Sep-10 19:06 nf-registry.bundle.min.f40aa2ca3eeb349ef17a.js
+│ --rw-r--r--  2.0 unx    35614 b- defN 26-Sep-10 19:06 nf-registry.bundle.min.f40aa2ca3eeb349ef17a.js.gz
+│ +-rw-r--r--  2.0 unx   274003 b- defN 26-Sep-10 19:06 nf-registry.bundle.min.f9d9d45e2c366583dd79.js
+│ +-rw-r--r--  2.0 unx    35614 b- defN 26-Sep-10 19:06 nf-registry.bundle.min.f9d9d45e2c366583dd79.js.gz
+│  -rw-r--r--  2.0 unx   346583 b- defN 26-Sep-10 19:06 nf-registry.style.min.c4d836389ec981397bcf.css
+│  -rw-r--r--  2.0 unx    47573 b- defN 26-Sep-10 19:06 nf-registry.style.min.c4d836389ec981397bcf.css.gz
+│ @@ -67,8 +67,8 @@
+│  -rw-r--r--  2.0 unx    18302 b- defN 26-Sep-10 19:06 META-INF/maven/org.apache.nifi.registry/nifi-registry-web-ui/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 26-Sep-10 19:06 META-INF/maven/org.apache.nifi.registry/nifi-registry-web-ui/pom.properties
+│ -72 files, 6315041 bytes uncompressed, 2959717 bytes compressed:  53.1%
+│ +72 files, 6315041 bytes uncompressed, 2959720 bytes compressed:  53.1%
+├── index.html
+│┄ 'html2text' not available in path.
+│ @@ -23,9 +23,9 @@
+│      <meta name='viewport' content='width=device-width, initial-scale=1'>
+│      <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+│      <!-- Styles will be injected here by webpack -->
+│  <link rel="shortcut icon" href="registry-favicon.png"><link href="nf-registry.style.min.c4d836389ec981397bcf.css" rel="stylesheet"></head>
+│  <body>
+│      <nf-registry-app></nf-registry-app>
+│      <!-- Scripts will be injected here by webpack -->
+│ -<script type="text/javascript" src="vendor.min.7c2b0f2e4108714b287d.js"></script><script type="text/javascript" src="nf-registry.bundle.min.f40aa2ca3eeb349ef17a.js"></script></body>
+│ +<script type="text/javascript" src="vendor.min.7c2b0f2e4108714b287d.js"></script><script type="text/javascript" src="nf-registry.bundle.min.f9d9d45e2c366583dd79.js"></script></body>
+│  </html>
+
