@@ -3,8 +3,8 @@
   <groupId>org.apache.zookeeper</groupId>
   <artifactId>parent</artifactId>
   <versioning>
-    <latest>3.9.5</latest>
-    <release>3.9.5</release>
+    <latest>3.9.6</latest>
+    <release>3.9.6</release>
     <versions>
       <version>3.5.5</version>
       <version>3.5.6</version>
@@ -27,13 +27,15 @@
       <version>3.8.4</version>
       <version>3.8.5</version>
       <version>3.8.6</version>
+      <version>3.8.7</version>
       <version>3.9.0</version>
       <version>3.9.1</version>
       <version>3.9.2</version>
       <version>3.9.3</version>
       <version>3.9.4</version>
       <version>3.9.5</version>
+      <version>3.9.6</version>
     </versions>
-    <lastUpdated>20260305212234</lastUpdated>
+    <lastUpdated>20260914185845</lastUpdated>
   </versioning>
 </metadata>

@@ -26,12 +26,14 @@ rebuilding **7 releases** of org.apache.zookeeper:parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.9.6](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.6/pom) | | | |
 | [3.9.5](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.5/pom) | [mvn jdk11](zookeeper-3.9.5.buildspec) | [result](parent-3.9.5.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.5.buildcompare) | 2 :recycle: 1 :rotating_light: | 17M |
 | [3.9.4](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.4/pom) | [mvn jdk11](zookeeper-3.9.4.buildspec) | [result](parent-3.9.4.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.4.buildcompare) | 1 :recycle: 4 :rotating_light: | 17M |
 | [3.9.3](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.3/pom) | [mvn jdk11](zookeeper-3.9.3.buildspec) | [result](parent-3.9.3.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.3.buildcompare) [:mag:](parent-3.9.3.diffoscope) | - | 17M |
 | [3.9.2](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.2/pom) | [mvn jdk11](zookeeper-3.9.2.buildspec) | [result](parent-3.9.2.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.2.buildcompare) [:mag:](parent-3.9.2.diffoscope) | - | 17M |
 | [3.9.1](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.1/pom) | [mvn jdk11](zookeeper-3.9.1.buildspec) | [result](parent-3.9.1.buildinfo): [17 :white_check_mark:  7 :warning:](parent-3.9.1.buildcompare) [:memo:](https://github.com/apache/zookeeper/pull/2042) | - | 17M |
 | [3.9.0](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.0/pom) | [mvn jdk11](zookeeper-3.9.0.buildspec) | [result](parent-3.9.0.buildinfo): [17 :white_check_mark:  7 :warning:](parent-3.9.0.buildcompare) [:mag:](parent-3.9.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) | - | 17M |
+| [3.8.7](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.7/pom) | | | |
 | [3.8.6](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.6/pom) | | | |
 | [3.8.5](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.5/pom) | | | |
 | [3.8.4](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.4/pom) | | | |
