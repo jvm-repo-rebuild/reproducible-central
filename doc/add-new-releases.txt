@@ -2,5 +2,13 @@
 # see bin/create-new-release-PRs.sh
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/io/jstach/rainbowgum/rainbowgum-0.10.0.buildspec:0.11.0
-content/net/bytebuddy/byte-buddy-1.18.13-jdk5.buildspec:1.18.14-jdk5
+content/eu/maveniverse/maven/scalpel/scalpel-0.4.0.buildspec:0.4.1
+content/io/airlift/airbase/airbase-411.buildspec:412
+content/io/jstach/rainbowgum/rainbowgum-0.11.0.buildspec:0.11.1
+content/io/telicent/jena/jena-kafka/jena-kafka-3.3.0.buildspec:3.3.2
+content/it/mulders/stryker/pit-dashboard-reporter-0.3.19.buildspec:0.3.20
+content/org/apache/maven/plugins/maven-artifact-plugin/maven-artifact-plugin-3.6.1.buildspec:3.7.0
+content/org/apache/maven/plugins/maven-deploy-plugin/maven-deploy-plugin-4.0.0-beta-2.buildspec:4.0.0-beta-3
+content/org/apache/maven/plugins/maven-install-plugin/maven-install-plugin-4.0.0-beta-2.buildspec:4.0.0-beta-3
+content/org/spdx/java-spdx-library/java-spdx-library-2.0.4.buildspec:2.0.5
+content/org/spdx/spdx-java-core/spdx-java-core-1.0.4.buildspec:1.0.5
