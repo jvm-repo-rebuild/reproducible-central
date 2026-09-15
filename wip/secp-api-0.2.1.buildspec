@@ -1,0 +1,19 @@
+groupId=org.bitcoinj.secp
+artifactId=secp-api
+version=0.2.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/bitcoinj/secp256k1-jdk.git
+gitTag=v${version}
+
+tool=gradle
+jdk=25
+newline=lf
+
+command="gradle secp-api:publishToMavenLocal"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
