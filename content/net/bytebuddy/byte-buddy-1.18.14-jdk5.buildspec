@@ -4,7 +4,7 @@ display=${groupId}:byte-buddy
 version=1.18.14-jdk5
 
 gitRepo=https://github.com/raphw/byte-buddy.git
-gitTag=byte-buddy-1.18.13
+gitTag=byte-buddy-1.18.14
 
 tool=mvn-3.9.12
 jdk=8
