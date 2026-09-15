@@ -17,7 +17,7 @@ build-tool=mvn
 java.version=21.0.3
 java.vendor=Azul Systems, Inc.
 os.name=Mac OS X
-os.version=26.5.1
+os.version=26.6.2
 os.arch=aarch64
 line.separator=\n
 
@@ -36,8 +36,8 @@ outputs.0.0.checksums.sha512=b633b5bee0e1588f5fae87f6f0461816533beb6597bb1bc1e80
 
 outputs.0.1.groupId=org.apache.nifi
 outputs.0.1.filename=nifi-2.9.0-source-release.zip
-outputs.0.1.length=72803863
-outputs.0.1.checksums.sha512=e6bf46673520c951ada6f68e1b7abde65c92c639cfc7cbcb6a3af2bc9ad167423406083aa251927fb575a8ad47ca52006052a13f2933eb065642dd2224746d4e
+outputs.0.1.length=72803699
+outputs.0.1.checksums.sha512=4f6e209e8fdefda2bc3329dba999e60f30cb9a88a43bf84f4459f8cca3583f3f783cbe923cec2e9e2e51f0024d2e0596beb2895da173e703ca31c080c3b15c54
 
 outputs.1.coordinates=org.apache.nifi:nifi-commons
 
@@ -6420,7 +6420,7 @@ outputs.444.0.checksums.sha512=aff8c62c683d65ef8016c0504143bd1d16677bf077a90e785
 outputs.444.1.groupId=org.apache.nifi.registry
 outputs.444.1.filename=nifi-registry-web-api-2.9.0.war
 outputs.444.1.length=66404987
-outputs.444.1.checksums.sha512=293f331f3ecf327f0b2cf10f9dc2dcafac4e2484989aa638c298da0fb40c2998fc775f118534f2b50fad78cf26b705397fcde95045b14b718fedf0e1feff01af
+outputs.444.1.checksums.sha512=f85f78a4c6ed31cd7907f1daaab7f493a06e4303f3765b9fa2e4f2d1941bd1083695773566fbbb2c69cae7d1f90722a836bcd29087f054b9c13447e28933fa5d
 
 outputs.445.coordinates=org.apache.nifi.registry:nifi-registry-toolkit
 
@@ -6765,7 +6765,7 @@ outputs.469.0.checksums.sha512=8674e783471894c30fabab1763fb286882d1dba15eec00c3b
 outputs.469.1.groupId=org.apache.nifi
 outputs.469.1.filename=nifi-hadoop-libraries-nar-2.9.0.nar
 outputs.469.1.length=59534706
-outputs.469.1.checksums.sha512=34cbe5f550b29bbf586f5dfc3527642f2fa3eff5099faae63f85ee4268397d40e843faed13bcc7427156fda970f5420199942481098cb05a2405c393e5f3e49f
+outputs.469.1.checksums.sha512=ac14059400b4e272ed0997e91c428613b61c0197978cadce9f3b4ee1dbae52bb2e60b7710f847de8e704250fc4b3c43e07acb291aba0f3ff3d5ab3b58728eb71
 
 outputs.469.2.groupId=org.apache.nifi
 outputs.469.2.filename=nifi-hadoop-libraries-nar-2.9.0-nar-extension-manifest.xml
@@ -7080,7 +7080,7 @@ outputs.489.0.checksums.sha512=ffe9a08985eaf5219328937f37f05851a4827fe37e8f0759a
 outputs.489.1.groupId=org.apache.nifi
 outputs.489.1.filename=nifi-hadoop-dbcp-service-nar-2.9.0.nar
 outputs.489.1.length=48755777
-outputs.489.1.checksums.sha512=e9a7c2a871e58a3ded62beccfd0bc5d932bf4702fbdbd5e671a6ea84771ab20f24e7790cda6f8beee7528cbf811e6d9fcc91db31196bf5e83581a0a8b71b0559
+outputs.489.1.checksums.sha512=a06439b3e76e38dfa64dfbded812409ba53c40308d4da8e586e5b7f61e1133dc30435b9b64bc82dc0e8992a75aaf240612d067a2dece7ed43144b716647b5c26
 
 outputs.489.2.groupId=org.apache.nifi
 outputs.489.2.filename=nifi-hadoop-dbcp-service-nar-2.9.0-nar-extension-manifest.xml
@@ -7420,7 +7420,7 @@ outputs.509.0.checksums.sha512=c87e3f0f5f5ef30801f00eec5678444a08651a565c62e03fa
 outputs.509.1.groupId=org.apache.nifi
 outputs.509.1.filename=nifi-social-media-nar-2.9.0.nar
 outputs.509.1.length=2366877
-outputs.509.1.checksums.sha512=cd9dfdc49711d192a28d8908de2c6f71287117ef1aafaff20cc462c681008cbeae926a5073c5a9e7d0e5b27c4191f76248b032a69488d72ab0dd861d398260cf
+outputs.509.1.checksums.sha512=b6c8d9be5c5dca4c0edb5bbe5fcc2e906934466105d797c4c0717a6e58e1c3ed4dcd81a92e0dfeeb20d0c886a4e6f1aaa6027fa58e68747fe9221ee7324db38f
 
 outputs.509.2.groupId=org.apache.nifi
 outputs.509.2.filename=nifi-social-media-nar-2.9.0-nar-extension-manifest.xml
@@ -7607,7 +7607,7 @@ outputs.520.0.checksums.sha512=5020fa03364f13f2428b2a7dcf1343856f021e35428d6ef98
 outputs.520.1.groupId=org.apache.nifi
 outputs.520.1.filename=nifi-azure-nar-2.9.0.nar
 outputs.520.1.length=28789740
-outputs.520.1.checksums.sha512=b681b114e8ed3ec277b60d31c4eb7203df307612d4c02a62744b8dafccbc570a2b4a7a33f7b3f14bc8bf1d83bc5211b87a30bfc7f9f5509535aaea7decb5d9a5
+outputs.520.1.checksums.sha512=475324c8b33a5a8590aee5527503e823ab7d003c743b938c35052c0640436b7f855c872f217c2a3fe9e22f6ba8220f96c3254120c2def6514437693aa738fbb5
 
 outputs.520.2.groupId=org.apache.nifi
 outputs.520.2.filename=nifi-azure-nar-2.9.0-nar-extension-manifest.xml
@@ -7709,7 +7709,7 @@ outputs.526.0.checksums.sha512=ff511967f60281d281be115a67c018148a02dc285ebbe1526
 outputs.526.1.groupId=org.apache.nifi
 outputs.526.1.filename=nifi-splunk-nar-2.9.0.nar
 outputs.526.1.length=777108
-outputs.526.1.checksums.sha512=b9a4d907cf0d55b97a291ec32ef844c24760e2f79098c4f85247568e5b3596b85d467c5415589ad4f78d3fd4b00870c47b48e5d111f666fe6932391ce9f7ea08
+outputs.526.1.checksums.sha512=e4c1d43a0d367b482aa415f4ce5cda559d064f67c91939b1076968a52b6c0f2f7dc736657cbaa305650f05f45f5743d1f8aba6e6d2fc3ae3c0fa1ac0e455fed4
 
 outputs.526.2.groupId=org.apache.nifi
 outputs.526.2.filename=nifi-splunk-nar-2.9.0-nar-extension-manifest.xml
@@ -7794,7 +7794,7 @@ outputs.531.0.checksums.sha512=52be51eb61ed792034f523ce06eca5e9857b1af603e5b7ee2
 outputs.531.1.groupId=org.apache.nifi
 outputs.531.1.filename=nifi-evtx-nar-2.9.0.nar
 outputs.531.1.length=2841849
-outputs.531.1.checksums.sha512=aac8029f7bbfcf051ef941c444797ff901ebc224d4db10585a4826d0e1c1d92023353599acaea5b20d08fef4ef3e6c0c914c135655f5ded593e90b16e5731f4b
+outputs.531.1.checksums.sha512=4dfc3354d2792fdc5ad181ed459766a66d15f4a54eda751a03c7f727e4cd5d36a25a2618d3038b12e49695764535975534ab85849da0498d107f2927770b5d4d
 
 outputs.531.2.groupId=org.apache.nifi
 outputs.531.2.filename=nifi-evtx-nar-2.9.0-nar-extension-manifest.xml
@@ -7811,7 +7811,7 @@ outputs.532.0.checksums.sha512=4905ffe48d2eac463ede567d3afcf64980899d21b41cd1a6f
 outputs.532.1.groupId=org.apache.nifi
 outputs.532.1.filename=nifi-slack-nar-2.9.0.nar
 outputs.532.1.length=7114032
-outputs.532.1.checksums.sha512=61d87e76be354c9782aa755d077e1a8e5b5ddf0f45ec412e2e6dbdd802c2249a282e77247a461205b5244dfa4f8f8097a3b3765e76728209254dccfdcd61d17a
+outputs.532.1.checksums.sha512=bfbaf30fc5b66adf0c3c19f2e348a2d7535c9c5f9d9b4a22178f529d2b38c3b7916eb41ffb7cdf50d5b617ac06daf529671023ea98ad83f16729117cb6097ef2
 
 outputs.532.2.groupId=org.apache.nifi
 outputs.532.2.filename=nifi-slack-nar-2.9.0-nar-extension-manifest.xml
@@ -8066,7 +8066,7 @@ outputs.547.0.checksums.sha512=2b08c06a252e71dd0d130f88ec39d136270cc049d2f9eb8aa
 outputs.547.1.groupId=org.apache.nifi
 outputs.547.1.filename=nifi-gcp-services-api-nar-2.9.0.nar
 outputs.547.1.length=6016848
-outputs.547.1.checksums.sha512=e6d635d01b13477a43b0a01270d310c03b4c0bcbde1190fe211c1779598b21c860a82ae6040687747c09642b8545f3d48761e3a8c2a402d50a93e4a761abf6d7
+outputs.547.1.checksums.sha512=e55fb5ec3a3e750d4b84d50bdf35dca13cf118183436965f20c4b5e46e204a1f7e0d1a8018702d2806a76c8a64ae8b7482029824a63f6fbde9f3b49db40a427d
 
 outputs.547.2.groupId=org.apache.nifi
 outputs.547.2.filename=nifi-gcp-services-api-nar-2.9.0-nar-extension-manifest.xml
@@ -8248,7 +8248,7 @@ outputs.558.0.checksums.sha512=b033f2e228dcb5086c082a4299b94b5f0393ca5d4b450981f
 outputs.558.1.groupId=org.apache.nifi
 outputs.558.1.filename=nifi-redis-service-api-nar-2.9.0.nar
 outputs.558.1.length=10707109
-outputs.558.1.checksums.sha512=a515404db152ce01b250b56cc5dc32c7e059565d983ab1af51e645232a75a907d8b8573fcc0d616fcd9587a5fe1c55f44c26e18a6836b529d78860544981e155
+outputs.558.1.checksums.sha512=38d2c4d1d8ea72b09a5a263d0a72b3af265306189d900ff0ccaf6c86f9f8b0fc82ede7af851a6fca892893d1a364ae1018e28a4505ac2e8c2b1a6a59295f2736
 
 outputs.558.2.groupId=org.apache.nifi
 outputs.558.2.filename=nifi-redis-service-api-nar-2.9.0-nar-extension-manifest.xml
@@ -8469,7 +8469,7 @@ outputs.571.0.checksums.sha512=90701610224f8ce6a65a765b26296bf2def0ae00065f6a292
 outputs.571.1.groupId=org.apache.nifi
 outputs.571.1.filename=nifi-snowflake-services-api-nar-2.9.0.nar
 outputs.571.1.length=62896641
-outputs.571.1.checksums.sha512=3b69ddfd423de801d236c3b5b32c23e88023e662abe4796fc711026484acb9677039d45a96dc374b57b456e0040c44c36d868e1f1fb1841aea03ccb0a7cebd81
+outputs.571.1.checksums.sha512=2aa376cb5998fae4b55f7a63e9e40f04cda4d1b6e1de2a13dc9d5c3f960bc5342cb4214b65b5685f6029f31289b1b481daced37f89e2b4089604c885981f8ce2
 
 outputs.571.2.groupId=org.apache.nifi
 outputs.571.2.filename=nifi-snowflake-services-api-nar-2.9.0-nar-extension-manifest.xml
@@ -9457,8 +9457,8 @@ outputs.633.0.checksums.sha512=b9a090dc09682e94259b48d4a222173661c6a95bd2612434b
 
 outputs.633.1.groupId=org.apache.nifi
 outputs.633.1.filename=nifi-docs-2.9.0-resources.zip
-outputs.633.1.length=29585408
-outputs.633.1.checksums.sha512=c01374e6b352e22a0b896b7c9c113ae723222660175239884af57f358e75857d39b2d42a502948ccfceea4d1cf5e6f7574d058bd9032d8146be2942c3916bb3f
+outputs.633.1.length=29585415
+outputs.633.1.checksums.sha512=61b13db5e3cce57e6c0843f1f98e1cc6084051a9879e979f7807fef0a06f319bae6665c670ef0a77a1d22120e32caafce8405a28e9901e44d1b1e418df28bab9
 
 outputs.634.coordinates=org.apache.nifi:nifi-connectors
 
@@ -10207,7 +10207,7 @@ outputs.685.0.checksums.sha512=95eb79037487bda61027beb1dfadb2124e6b9eb1d18729488
 outputs.685.1.groupId=org.apache.nifi.minifi
 outputs.685.1.filename=minifi-standard-nar-2.9.0.nar
 outputs.685.1.length=65556096
-outputs.685.1.checksums.sha512=138029974345c100889d7a71ee0051abbee7655f3c6d68f62bf098db19d0e9a7ca6684831237fc87edda3796c6707afdbd6323b0a25ec0e7acbd4fc40bdd3023
+outputs.685.1.checksums.sha512=e034c2808383928fd65852afb916da9ac4cce20332a11548b23491dbd8157cf3faf7e78d6774ad4008f4e19418a5d050feb847a91d34c8827b8752829c013a05
 
 outputs.685.2.groupId=org.apache.nifi.minifi
 outputs.685.2.filename=minifi-standard-nar-2.9.0-nar-extension-manifest.xml
@@ -10487,8 +10487,8 @@ outputs.708.0.checksums.sha512=6450dad7efcc6c90cf0d4da1fe7c4c1de4ccd5e3ced88c288
 
 outputs.708.1.groupId=org.apache.nifi
 outputs.708.1.filename=nifi-runtime-manifest-2.9.0.jar
-outputs.708.1.length=862721
-outputs.708.1.checksums.sha512=229bb928010f92815f573b890643665338ac7b02c8b55092581560c185c9ed8a69f43d66f5a9d417c8e6278c333415b682a706f408e776692f2d2440550d3cb9
+outputs.708.1.length=862722
+outputs.708.1.checksums.sha512=6fa131ebce10bc62382a714ee47d129b182febe0f26779f1a30b1245406f23379c60e2e9f12830999302ccc077e435f0eef950128abb03b1ac1fb2e5be5524fd
 
 outputs.708.2.groupId=org.apache.nifi
 outputs.708.2.filename=nifi-runtime-manifest-2.9.0-sources.jar

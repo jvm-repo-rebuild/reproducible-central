@@ -17,8 +17,7 @@ umask=002
 os=osx
 arch=aarm64
 
-# export MAVEN_OPTS="-Duser.language=en -Duser.country=US -Dfile.encoding=UTF-8"
-command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="SHELL export MAVEN_OPTS='-Duser.country=US -Duser.language=en -Dfile.encoding=UTF-8' ; mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
