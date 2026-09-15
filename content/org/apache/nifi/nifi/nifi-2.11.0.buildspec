@@ -21,4 +21,4 @@ command="SHELL export MAVEN_OPTS='-Duser.country=US -Duser.language=en -Dfile.en
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/nifi/releases/tag/rel%2Fnifi-2.12.0
