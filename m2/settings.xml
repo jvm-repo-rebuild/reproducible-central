@@ -321,6 +321,16 @@
       <url>https://maven-central.storage-download.googleapis.com/maven2/</url>
     </mirror>
     <mirror>
+      <id>staging</id>
+      <mirrorOf>staging</mirrorOf>
+      <url>https://repository.apache.org/content/groups/staging/</url>
+    </mirror>
+    <mirror>
+      <id>snapshot</id>
+      <mirrorOf>snapshot</mirrorOf>
+      <url>https://repository.apache.org/content/groups/snapshot/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>

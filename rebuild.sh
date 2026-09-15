@@ -23,7 +23,7 @@ then
 fi
 if [ -n "$2" ]
 then
-  referenceRepo=https://repository.apache.org/content/repositories/$2/
+  referenceRepo=$2::https://repository.apache.org/content/repositories/$2/
 fi
 
 echo -e "Rebuilding from buildspec \033[1m${buildspec}\033[0m"
