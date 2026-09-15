@@ -19,14 +19,14 @@ Source code: [https://github.com/apache/zookeeper.git](https://github.com/apache
 * [org.apache.zookeeper:zookeeper-prometheus-metrics](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-prometheus-metrics/overview)
 </details>
 
-rebuilding **7 releases** of org.apache.zookeeper:parent:
+rebuilding **8 releases** of org.apache.zookeeper:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.9.6](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.6/pom) | | | |
+| [3.9.6](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.6/pom) | [mvn jdk11](zookeeper-3.9.6.buildspec) | [result](parent-3.9.6.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.6.buildcompare) | 2 :recycle: 1 :rotating_light: | 17M |
 | [3.9.5](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.5/pom) | [mvn jdk11](zookeeper-3.9.5.buildspec) | [result](parent-3.9.5.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.5.buildcompare) | 2 :recycle: 1 :rotating_light: | 17M |
 | [3.9.4](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.4/pom) | [mvn jdk11](zookeeper-3.9.4.buildspec) | [result](parent-3.9.4.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.4.buildcompare) | 1 :recycle: 4 :rotating_light: | 17M |
 | [3.9.3](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.3/pom) | [mvn jdk11](zookeeper-3.9.3.buildspec) | [result](parent-3.9.3.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.3.buildcompare) [:mag:](parent-3.9.3.diffoscope) | - | 17M |
