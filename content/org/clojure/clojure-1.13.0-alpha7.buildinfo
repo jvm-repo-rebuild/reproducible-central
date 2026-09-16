@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=clojure
+group-id=org.clojure
+artifact-id=clojure
+version=1.13.0-alpha7
+
+# source information
+source.scm.uri=scm:git:git@github.com:clojure/clojure.git
+source.scm.tag=clojure-1.13.0-alpha7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.clojure
+outputs.0.filename=clojure-1.13.0-alpha7.pom
+outputs.0.length=10103
+outputs.0.checksums.sha512=1b9126eda6b777fd7f5c79a5ae1dc70e3840bbb094b9f79173dd13381ecd31f6d3f5d905e1aec1a23807fb5095fb6eae512ed30021ff408f02c776657576e7d3
+
+outputs.1.groupId=org.clojure
+outputs.1.filename=clojure-1.13.0-alpha7.jar
+outputs.1.length=4294512
+outputs.1.checksums.sha512=dc895ef68d790554684839ad1df53c6236248566fac7f8a76b1f3fe403beef2e8fed51112be6a63727e89a4bbddfbf56e27ccea60b1b3c57db0f247649705f75
+
+outputs.2.groupId=org.clojure
+outputs.2.filename=clojure-1.13.0-alpha7-slim.jar
+outputs.2.length=1187406
+outputs.2.checksums.sha512=85783297eb5d7fd632ae9506946730b4724e3aee5c16ac3e29e28bee02beb14c3a81825d838b4474233f8d622044acbc42ec564c58cc44e16fcf42fb6535f66c
+
+outputs.3.groupId=org.clojure
+outputs.3.filename=clojure-1.13.0-alpha7-sources.jar
+outputs.3.length=699909
+outputs.3.checksums.sha512=f6041cec1b87d67ab69b15714f9bb2e4e450fec9b9f47800408e20df74ff635168d8b94b4b0fb7db35e55a9e318b1535846389da3df445fcc066a0e3934978f6
