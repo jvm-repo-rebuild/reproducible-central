@@ -3,8 +3,8 @@
   <groupId>org.apache.pulsar</groupId>
   <artifactId>pulsar</artifactId>
   <versioning>
-    <latest>5.0.0-M1</latest>
-    <release>5.0.0-M1</release>
+    <latest>5.0.0-M2</latest>
+    <release>5.0.0-M2</release>
     <versions>
       <version>1.19.0-incubating</version>
       <version>1.20.0-incubating</version>
@@ -122,7 +122,8 @@
       <version>4.2.3</version>
       <version>4.2.4</version>
       <version>5.0.0-M1</version>
+      <version>5.0.0-M2</version>
     </versions>
-    <lastUpdated>20260803100313</lastUpdated>
+    <lastUpdated>20260916143959</lastUpdated>
   </versioning>
 </metadata>
