@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=java-spdx-library
+group-id=org.spdx
+artifact-id=java-spdx-library
+version=2.0.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:spdx/Spdx-Java-Library.git
+source.scm.tag=v2.0.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=23.0.2
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.spdx
+outputs.0.filename=java-spdx-library-2.0.5.pom
+outputs.0.length=11112
+outputs.0.checksums.sha512=b4add6fb3c34232f4e39b8c62443364fb302fec6c532508a86d6192391e50950e178a9d68bb701c9ea7c500e291d70bd3e3319237cc6ed482ef604185ed6da5d
+
+outputs.1.groupId=org.spdx
+outputs.1.filename=java-spdx-library-2.0.5.jar
+outputs.1.length=4007287
+outputs.1.checksums.sha512=7b1ce4310c1a041dede3d73591ad41c471ddbf9dc6835ea5af0fc4f451ef5cca857d01db7de6f76b80f504f7202729c26177bfdf1886ae07f8d860fe31863f74
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=java-spdx-library-2.0.5-sources.jar
+outputs.2.length=3938166
+outputs.2.checksums.sha512=b76dd4024bf573b6a32587c29ba4b10f760f40acd3ed8e63b30fe45b7ea97eb0e3d665d3585f6eb31531d691fe3417abd885b01f49a0800465ed7fa0ddcc75e3
