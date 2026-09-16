@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spdx-java-core
+group-id=org.spdx
+artifact-id=spdx-java-core
+version=1.0.5
+
+# source information
+source.scm.uri=scm:git:git://github.com/spdx/spdx-java-core.git
+source.scm.tag=v1.0.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=23.0.2
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.spdx
+outputs.0.filename=spdx-java-core-1.0.5.pom
+outputs.0.length=10649
+outputs.0.checksums.sha512=0df78adbaf78d89c73d7fe8eac4a7994cbd4e4c690a0e6c5f02b604bea60ebf5ce94772293d4e494e2b6fe561152bfcd119390c4bd6f7bd3d66dc005abdfb151
+
+outputs.1.groupId=org.spdx
+outputs.1.filename=spdx-java-core-1.0.5.jar
+outputs.1.length=78894
+outputs.1.checksums.sha512=9d3b4c81339eb69ff45308e4972659601edcf745b311e9f9e05aa713ac4fbb25314e72109733ac99948e3e9b0062496024a6c275df8e01cf2888472e829b9506
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=spdx-java-core-1.0.5-sources.jar
+outputs.2.length=63224
+outputs.2.checksums.sha512=6e01a2b47753393bd8e059ab08c9fa90f65524d550670eb3e48a7a51f8d6fb9f639c5a5b4770685215b37c4767d56682e2cbf618dc4e6546b91fb3045e2056d2
