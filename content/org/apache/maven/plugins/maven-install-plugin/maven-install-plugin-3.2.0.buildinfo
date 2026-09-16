@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Install Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-install-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-install-plugin.git
+source.scm.tag=maven-install-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-install-plugin-3.2.0.pom
+outputs.0.length=7933
+outputs.0.checksums.sha512=2c5f809c518e4239fef0cfdd0b94926db4dbf887963389fadf794ef4389dfab3ad9872f70907f4a087c005b32b0a7237f89e518bbb9a71bdc8c23420218dfaae
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-install-plugin-3.2.0.jar
+outputs.1.length=37138
+outputs.1.checksums.sha512=9f2bfa5bd989db7d6dd15b264e88ba9213609c87826fd2682f306d45b268cd8a98c8ae2fd7311f307abf0ebef9e777d0a8dcaa614c86ffef6a141475e91ca1e1
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-install-plugin-3.2.0-source-release.zip
+outputs.2.length=198735
+outputs.2.checksums.sha512=c7d8ecb02d53cd099188138e58e58e8ad28de046afb613f1a7bd5ecb06680ac9bec20d3818cad6444a251e8b12aa4084c6ad1259e5a2fe2e61729b2954bd9c00
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-install-plugin-3.2.0-sources.jar
+outputs.3.length=24854
+outputs.3.checksums.sha512=49a415bff785d7e04d22bcdb37c105a400a8bcf6c32d2d6fdc268f000275dd2c85c0ebaf4250797b15c40b47d8c70e8358c3fa3bf87efb79fe77de1436ca9f0b
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-install-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=96878
+outputs.4.checksums.sha512=b90a30c712e71765f63c14770c69d62787ab1507c0dcca837b788b92b270aff63d23ce4494e320bf5facfd8e668dea0adec7d026a79f880d31a4fcd930a65aee
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-install-plugin-3.2.0-cyclonedx.json
+outputs.5.length=105222
+outputs.5.checksums.sha512=ba9f18623172397b0ab08a54295af45efe09957925233f4c5e9a13080886eff839156ad8a2d76605231163153293f99d5dc2994120225bb6e5e33b941915abe3
