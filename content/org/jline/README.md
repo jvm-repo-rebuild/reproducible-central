@@ -36,10 +36,10 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **61 releases** of org.jline:jline:
+rebuilding **62 releases** of org.jline:jline:
 - **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 14, 6 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 15, 6 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -65,7 +65,7 @@ rebuilding **61 releases** of org.jline:jline:
 | [4.0.9](https://central.sonatype.com/artifact/org.jline/jline/4.0.9/pom) | [mvn jdk22](jline-4.0.9.buildspec) | [result](jline-parent-4.0.9.buildinfo): [21 :white_check_mark:  41 :warning:](jline-parent-4.0.9.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.8M |
 | [4.0.8](https://central.sonatype.com/artifact/org.jline/jline/4.0.8/pom) | [mvn jdk22](jline-4.0.8.buildspec) | [result](jline-parent-4.0.8.buildinfo): [21 :white_check_mark:  41 :warning:](jline-parent-4.0.8.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.8M |
 | [4.0.7](https://central.sonatype.com/artifact/org.jline/jline/4.0.7/pom) | [mvn jdk22](jline-4.0.7.buildspec) | [result](jline-parent-4.0.7.buildinfo): [21 :white_check_mark:  41 :warning:](jline-parent-4.0.7.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.8M |
-| [4.0.6](https://central.sonatype.com/artifact/org.jline/jline/4.0.6/pom) | | | |
+| [4.0.6](https://central.sonatype.com/artifact/org.jline/jline/4.0.6/pom) | [mvn jdk22](jline-4.0.6.buildspec) | [result](jline-parent-4.0.6.buildinfo): [21 :white_check_mark:  41 :warning:](jline-parent-4.0.6.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.8M |
 | [4.0.5](https://central.sonatype.com/artifact/org.jline/jline/4.0.5/pom) | [mvn jdk22](jline-4.0.5.buildspec) | :x: | |
 | [4.0.4](https://central.sonatype.com/artifact/org.jline/jline/4.0.4/pom) | [mvn jdk22](jline-4.0.4.buildspec) | [result](jline-parent-4.0.4.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.4.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.9M |
 | [4.0.3](https://central.sonatype.com/artifact/org.jline/jline/4.0.3/pom) | [mvn jdk22](jline-4.0.3.buildspec) | [result](jline-parent-4.0.3.buildinfo): [42 :white_check_mark:  41 :warning:](jline-parent-4.0.3.buildcompare) | 27 :recycle: 14 :rotating_light: | 8.9M |
