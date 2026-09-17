@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/jakartaee/persistence.git](https://github.com/jakartaee/persistence.git)
 
-rebuilding **10 releases** of jakarta.persistence:jakarta.persistence-api:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of jakarta.persistence:jakarta.persistence-api:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0-M7](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M7/pom) | | | |
+| [4.0.0-M7](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M7/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M7.buildspec) | [result](jakarta.persistence-api-4.0.0-M7.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M7.buildcompare) | | 267K |
 | [4.0.0-M6](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M6/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M6.buildspec) | [result](jakarta.persistence-api-4.0.0-M6.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M6.buildcompare) | | 267K |
 | [4.0.0-M5](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M5/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M5.buildspec) | [result](jakarta.persistence-api-4.0.0-M5.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M5.buildcompare) | | 269K |
 | [4.0.0-M4](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/4.0.0-M4/pom) | [mvn jdk25](jakarta.persistence-api-4.0.0-M4.buildspec) | [result](jakarta.persistence-api-4.0.0-M4.buildinfo): [2 :white_check_mark: ](jakarta.persistence-api-4.0.0-M4.buildcompare) | | 268K |
