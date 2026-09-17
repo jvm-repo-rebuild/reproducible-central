@@ -14,14 +14,14 @@ Source code: [https://github.com/hibernate/hibernate-models.git](https://github.
 * [org.hibernate.models:hibernate-models-jandex](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models-jandex/overview)
 </details>
 
-rebuilding **17 releases** of org.hibernate.models:hibernate-models:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.hibernate.models:hibernate-models:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0.Alpha3](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/2.0.0.Alpha3/pom) | | | |
+| [2.0.0.Alpha3](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/2.0.0.Alpha3/pom) | [gradle jdk25](hibernate-models-2.0.0.Alpha3.buildspec) | [result](hibernate-models-2.0.0.Alpha3.buildinfo): [9 :white_check_mark: ](hibernate-models-2.0.0.Alpha3.buildcompare) | | 684K |
 | [2.0.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/2.0.0.Alpha2/pom) | [gradle jdk25](hibernate-models-2.0.0.Alpha2.buildspec) | [result](hibernate-models-2.0.0.Alpha2.buildinfo): [9 :white_check_mark: ](hibernate-models-2.0.0.Alpha2.buildcompare) | | 678K |
 | [2.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/2.0.0.Alpha1/pom) | [gradle jdk25](hibernate-models-2.0.0.Alpha1.buildspec) | [result](hibernate-models-2.0.0.Alpha1.buildinfo): [9 :white_check_mark: ](hibernate-models-2.0.0.Alpha1.buildcompare) | | 677K |
 | [1.3.3](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.3.3/pom) | | | |
