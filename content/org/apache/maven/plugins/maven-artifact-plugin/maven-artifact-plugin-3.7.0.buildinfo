@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Artifact Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-artifact-plugin
+version=3.7.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-artifact-plugin.git
+source.scm.tag=maven-artifact-plugin-3.7.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-artifact-plugin-3.7.0.pom
+outputs.0.length=9812
+outputs.0.checksums.sha512=ae555d9819ff4c0547539eafacce0114343275c519e915e06eef506f033b63c2597c453646050c7fa3689d59e45c0b8257bc77d38030616fa3ef147126f9112e
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-artifact-plugin-3.7.0.jar
+outputs.1.length=84550
+outputs.1.checksums.sha512=3d17b9bd13c1dc006e5c67a80d2522fe7c93ec8e022cd85b7ae85c8f4e33c1854cf5750f1f9fe1d18dc9b8ecc92aa037841ca75f88514cafbce3e0dc0df6650b
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-artifact-plugin-3.7.0-source-release.zip
+outputs.2.length=145450
+outputs.2.checksums.sha512=aa97e7a9b11043e49c3a2f85e2e9e97fcc9732da0fdc2f9c6293be6e3c93c32d316872d6bed11e5fe3877cfcd019535adae7469c6bd29e8515c63d2663a23f1f
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-artifact-plugin-3.7.0-sources.jar
+outputs.3.length=49781
+outputs.3.checksums.sha512=86c08a73bbfde5829230c5e3428bfc5448239570dc22bef55ceadf74bcdb78c49672034e7326a43ceb6768fe89d08352b917530e8630c7ec7c5a1a5aaf0dab8c
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-artifact-plugin-3.7.0-cyclonedx.xml
+outputs.4.length=172678
+outputs.4.checksums.sha512=216e2a2ff13e8da70ace929bc643e69eb49727531116f5cf1a054f3f2be052f8033aa20fd5e49016af1eab68cb9cfa5203c13b80964f1e99f074c5cedce32954
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-artifact-plugin-3.7.0-cyclonedx.json
+outputs.5.length=186631
+outputs.5.checksums.sha512=fce3c1226b9a551cc26253d2c36d0dc79140c26bc234bd8b4ec229a99d1685d20186a1a12c00539722219dda5352831eb776d705a8b087c0044c4868b61ce7b2
