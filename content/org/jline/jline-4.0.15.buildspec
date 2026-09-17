@@ -6,12 +6,14 @@ version=4.0.15
 gitRepo=https://github.com/jline/jline3.git
 gitTag=${version}
 
-tool=mvn-3.9.16
+tool=mvn-3.9.12
 jdk=22
 newline=lf
 umask=022
+PR_merge_max_ko=42
 
-command="mvn -Pbundle clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+# nisse jgit Tag extraction seems broken: overriding key values on CLI parameters improves rebuild
+command="mvn -Pbundle clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dnisse.jgit.dynamicVersion=${version} -Dnisse.jgit.dateIso8601=2026-01-01T12:12:12Z"
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
 #diffoscope=${artifactId}-parent-${version}.diffoscope
