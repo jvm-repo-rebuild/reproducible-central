@@ -18,14 +18,14 @@ Source code: [https://github.com/avaje/avaje-validator.git](https://github.com/a
 * [io.avaje:avaje-validator-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-validator-spring-starter/overview)
 </details>
 
-rebuilding **25 releases** of io.avaje:avaje-validator-parent:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of io.avaje:avaje-validator-parent:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.18](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.18/pom) | | | |
+| [2.18](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.18/pom) | [mvn jdk25](avaje-validator-2.18.buildspec) | [result](avaje-validator-parent-2.18.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.18.buildcompare) | | 669K |
 | [2.18-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.18-RC2/pom) | [mvn jdk17](avaje-validator-2.18-RC2.buildspec) | [result](avaje-validator-parent-2.18-RC2.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.18-RC2.buildcompare) | | 661K |
 | [2.18-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.18-RC1/pom) | [mvn jdk25](avaje-validator-2.18-RC1.buildspec) | [result](avaje-validator-parent-2.18-RC1.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.18-RC1.buildcompare) | | 646K |
 | [2.17](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.17/pom) | [mvn jdk25](avaje-validator-2.17.buildspec) | [result](avaje-validator-parent-2.17.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.17.buildcompare) | | 645K |
