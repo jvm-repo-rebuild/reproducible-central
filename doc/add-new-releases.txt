@@ -1,15 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/webauthn4j/webauthn4j-0.31.9.RELEASE.buildspec:0.31.10.RELEASE
+content/com/github/seregamorph/spring-test-smart-context/spring-test-smart-context-1.0.buildspec:1.1
 content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/eu/maveniverse/maven/domtrip/domtrip-1.6.0.buildspec:1.7.0
-content/io/avaje/http/avaje-http-3.12-RC1.buildspec:3.12
-content/io/avaje/inject/avaje-inject-12.7-RC2.buildspec:12.7-javax
-content/io/avaje/jsonb/avaje-jsonb-3.15.buildspec:3.16
-content/io/avaje/validator/avaje-validator-2.18-RC2.buildspec:2.18
-content/io/jstach/rainbowgum/rainbowgum-0.11.1.buildspec:0.11.2
-content/io/telicent/jena/rdf-abac/rdf-abac-3.1.6.buildspec:4.0.0
-content/it/mulders/mcs/mcs-0.11.0.buildspec:0.11.1
-content/it/mulders/puml/puml-parent-0.5.3.buildspec:0.5.4
-content/org/jline/jline-4.4.3.buildspec:4.4.5
-content/org/hibernate/models/hibernate-models/hibernate-models-2.0.0.Alpha2.buildspec:2.0.0.Alpha3
+content/org/apache/felix/maven-bundle-plugin/maven-bundle-plugin-6.1.2.buildspec:6.2.0
+content/org/apache/sling/org.apache.sling.xss/org.apache.sling.xss-2.4.10.buildspec:2.4.12
+content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.4.buildspec:1.1.5
