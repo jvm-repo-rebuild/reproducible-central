@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pulsar.git)
 
-<details><summary>This project defines 133 modules:</summary>
+<details><summary>This project defines 138 modules:</summary>
 
 * [org.apache.pulsar.tests:integration](https://central.sonatype.com/artifact/org.apache.pulsar.tests/integration/overview)
 * [org.apache.pulsar:bouncy-castle-bc](https://central.sonatype.com/artifact/org.apache.pulsar/bouncy-castle-bc/overview)
@@ -42,12 +42,15 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:pulsar-client-api-v5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-api-v5/overview)
 * [org.apache.pulsar:pulsar-client-auth-athenz](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-auth-athenz/overview)
 * [org.apache.pulsar:pulsar-client-auth-sasl](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-auth-sasl/overview)
+* [org.apache.pulsar:pulsar-client-fastutil-minimized](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-fastutil-minimized/overview)
 * [org.apache.pulsar:pulsar-client-messagecrypto-bc](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-messagecrypto-bc/overview)
 * [org.apache.pulsar:pulsar-client-original](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-original/overview)
 * [org.apache.pulsar:pulsar-client-tools](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-tools/overview)
 * [org.apache.pulsar:pulsar-client-tools-api](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-tools-api/overview)
 * [org.apache.pulsar:pulsar-client-tools-customcommand-example](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-tools-customcommand-example/overview)
 * [org.apache.pulsar:pulsar-client-v5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-v5/overview)
+* [org.apache.pulsar:pulsar-client-v5-all](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-v5-all/overview)
+* [org.apache.pulsar:pulsar-client-v5-shaded](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-client-v5-shaded/overview)
 * [org.apache.pulsar:pulsar-common](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-common/overview)
 * [org.apache.pulsar:pulsar-config-validation](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-config-validation/overview)
 * [org.apache.pulsar:pulsar-dependencies](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-dependencies/overview)
@@ -67,6 +70,7 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:pulsar-functions-secrets](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-functions-secrets/overview)
 * [org.apache.pulsar:pulsar-functions-utils](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-functions-utils/overview)
 * [org.apache.pulsar:pulsar-functions-worker](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-functions-worker/overview)
+* [org.apache.pulsar:pulsar-http-client-api](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-http-client-api/overview)
 * [org.apache.pulsar:pulsar-io](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io/overview)
 * [org.apache.pulsar:pulsar-io-aerospike](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-aerospike/overview)
 * [org.apache.pulsar:pulsar-io-alluxio](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-alluxio/overview)
@@ -131,6 +135,7 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:pulsar-shell-distribution](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-shell-distribution/overview)
 * [org.apache.pulsar:pulsar-sql](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-sql/overview)
 * [org.apache.pulsar:pulsar-testclient](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-testclient/overview)
+* [org.apache.pulsar:pulsar-tls-factory-api](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-tls-factory-api/overview)
 * [org.apache.pulsar:pulsar-transaction-common](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-transaction-common/overview)
 * [org.apache.pulsar:pulsar-transaction-coordinator](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-transaction-coordinator/overview)
 * [org.apache.pulsar:pulsar-transaction-parent](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-transaction-parent/overview)
@@ -144,14 +149,14 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:zookeeper-with-patched-admin](https://central.sonatype.com/artifact/org.apache.pulsar/zookeeper-with-patched-admin/overview)
 </details>
 
-rebuilding **46 releases** of org.apache.pulsar:pulsar:
+rebuilding **47 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 46 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 10, 0 had all their differences removed :recycle:, 10 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 47 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 11, 0 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.0-M2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M2/pom) | | | |
+| [5.0.0-M2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M2/pom) | [gradle jdk25](pulsar-5.0.0-M2.buildspec) | [result](pulsar-5.0.0-M2.buildinfo): [163 :white_check_mark:  14 :warning:](pulsar-5.0.0-M2.buildcompare) | 8 :rotating_light: 6 :no_entry_sign: | 352M |
 | [5.0.0-M1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M1/pom) | [gradle jdk21](pulsar-5.0.0-M1.buildspec) | [result](pulsar-5.0.0-M1.buildinfo): [149 :white_check_mark:  13 :warning:](pulsar-5.0.0-M1.buildcompare) [:mag:](pulsar-5.0.0-M1.diffoscope) | 7 :rotating_light: 6 :no_entry_sign: | 313M |
 | [4.2.4](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.2.4/pom) | [mvn jdk21](pulsar-4.2.4.buildspec) | [result](pulsar-4.2.4.buildinfo): [294 :white_check_mark:  30 :warning:](pulsar-4.2.4.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 9 :rotating_light: 18 :no_entry_sign: | 3.4G |
 | [4.2.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.2.3/pom) | | | |
