@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus IO Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-io
+version=3.8.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-io.git
+source.scm.tag=plexus-io-3.8.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-io-3.8.0.pom
+outputs.0.length=4010
+outputs.0.checksums.sha512=bef672a6846b7c8565557789a772e28ce71b82a1d99d053f5942beb35812b78bda72c26ce966cf3f3358e7669c0e55f06b27943cf34cbe769ca7d2f8617da4b5
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-io-3.8.0.jar
+outputs.1.length=81727
+outputs.1.checksums.sha512=b45a001cba80a5c0bd404c086f00cb78113489d139ec8813f7552cc95c56ab33c3e607f3c34d64b71bf5cdb1eb374addf4afbfc6bba673c59995e985048af840
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-io-3.8.0-source-release.zip
+outputs.2.length=114012
+outputs.2.checksums.sha512=884d84c7d67901dc41ca072adcecbd8e71a590d5a77c11803301b04a16abcd0c1bfa36cce71085095859b4e097a47cd7679d3412d645407991d31fc78fa114e5
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-io-3.8.0-sources.jar
+outputs.3.length=69689
+outputs.3.checksums.sha512=3330c5656157da2f503456e6eafc04214b280b6d8c9144bc866080a508bd91728c3be6eb32d6aa5f2fb36a2a6a2106c9dee95ccfd0ce8d3dd0c83cec18107363
