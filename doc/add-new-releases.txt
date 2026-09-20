@@ -1,5 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.3.buildspec:3.2.5
-content/org/apache/directory/project/project-51.buildspec:52
-content/org/codehaus/plexus/plexus-io/plexus-io-3.7.0.buildspec:3.8.0
+content/com/github/psi-probe/psi-probe-5.4.0.buildspec:5.5.0
+content/com/google/mug/mug-11.0.buildspec:11.1
+content/eu/maveniverse/maven/domtrip/domtrip-1.7.0.buildspec:1.8.0
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-9.buildspec:11.5.1-beta-10
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.18.4-beta-2.buildspec:5.18.4-beta-3
+content/org/apache/ratis/ratis-3.3.0.buildspec:3.3.1
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.5.6.Final.buildspec:4.5.7.Final
+content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.3.Final.buildspec:9.1.4.Final

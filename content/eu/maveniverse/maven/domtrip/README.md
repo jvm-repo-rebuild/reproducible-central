@@ -22,6 +22,7 @@ rebuilding **19 releases** of eu.maveniverse.maven.domtrip:domtrip:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.8.0/pom) | | | |
 | [1.7.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.7.0/pom) | [mvn jdk21](domtrip-1.7.0.buildspec) | [result](domtrip-1.7.0.buildinfo): [13 :white_check_mark: ](domtrip-1.7.0.buildcompare) | | 481K |
 | [1.6.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.6.1/pom) | [mvn jdk21](domtrip-1.6.1.buildspec) | [result](domtrip-1.6.1.buildinfo): [13 :white_check_mark: ](domtrip-1.6.1.buildcompare) | | 475K |
 | [1.6.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.6.0/pom) | [mvn jdk21](domtrip-1.6.0.buildspec) | [result](domtrip-1.6.0.buildinfo): [13 :white_check_mark: ](domtrip-1.6.0.buildcompare) | | 474K |

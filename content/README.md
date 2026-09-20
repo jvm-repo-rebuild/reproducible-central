@@ -128,7 +128,7 @@ Reproducible Builds for Maven Central Repository
 | com.innoq | [junit5-logging-extension](../content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | com.intellectualsites.* | [arkitektonika](../content/com/intellectualsites/arkitektonika/Arkitektonika-Client/README.md) | 2 | 2 :white_check_mark: |
 | com.intellectualsites.bom | [bom-newest](../content/com/intellectualsites/bom/bom-newest/README.md) | 11 | 11 :white_check_mark: |
-| com.intellectualsites.* | [fastasyncvoxelsniper](../content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 5 | 5 :white_check_mark: |
+| com.intellectualsites.* | [fastasyncvoxelsniper](../content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [informative-annotations](../content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 2 | 2 :white_check_mark: |
 | | [paster](../content/com/intellectualsites/paster/Paster/README.md) | 2 | 2 :white_check_mark: |
 | | [plotsquared](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 13 | 11 :white_check_mark: / 2 :warning: |
@@ -538,7 +538,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.cxf.fediz | [fediz](../content/org/apache/cxf/fediz/README.md) | 6 | 6 :warning: |
 | org.apache.cxf.xjc-utils | [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
 | org.apache.directory.api | [api-parent](../content/org/apache/directory/api/README.md) | 8 | 8 :white_check_mark: |
-| org.apache.directory.project | [project](../content/org/apache/directory/project/README.md) | 6 | 6 :white_check_mark: |
+| org.apache.directory.project | [project](../content/org/apache/directory/project/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.directory.scimple | [scimple](../content/org/apache/directory/scimple/README.md) | 1 | 1 :warning: |
 | org.apache.felix | [*.feature](../content/org/apache/felix/features/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-bundle-plugin](../content/org/apache/felix/maven-bundle-plugin/README.md) | 12 | 12 :white_check_mark: |
@@ -823,7 +823,7 @@ Reproducible Builds for Maven Central Repository
 | | [plexus-i18n](../content/org/codehaus/plexus/plexus-i18n/README.md) | 3 | 3 :white_check_mark: |
 | | [plexus-interactivity](../content/org/codehaus/plexus/plexus-interactivity/README.md) | 6 | 6 :white_check_mark: |
 | | [plexus-interpolation](../content/org/codehaus/plexus/plexus-interpolation/README.md) | 4 | 4 :white_check_mark: |
-| | [plexus-io](../content/org/codehaus/plexus/plexus-io/README.md) | 10 | 10 :white_check_mark: |
+| | [plexus-io](../content/org/codehaus/plexus/plexus-io/README.md) | 11 | 11 :white_check_mark: |
 | | [plexus-languages](../content/org/codehaus/plexus/plexus-languages/README.md) | 13 | 8 :white_check_mark: / 5 :warning: |
 | | [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | 27 | 25 :white_check_mark: / 2 :warning: |
 | | [plexus-resources](../content/org/codehaus/plexus/plexus-resources/README.md) | 4 | 4 :white_check_mark: |
@@ -991,7 +991,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 12 | 12 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 36 | 5 :white_check_mark: / 31 :warning: |
-| **Count:** | **977** | **12299** | **9079** :white_check_mark:<br>**3220** :warning: |
+| **Count:** | **977** | **12302** | **9081** :white_check_mark:<br>**3221** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1004,7 +1004,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     259 gradle     17
     206 gradle     21
       5 gradle     24
-    105 gradle     25
+    106 gradle     25
      35 mvn         7
    1579 mvn         8
       1 mvn         9
@@ -1080,10 +1080,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.11  24
     123 mvn-3.9.11  25
       3 mvn-3.9.11  26
-     37 mvn-3.9.12   8
+     38 mvn-3.9.12   8
      50 mvn-3.9.12  11
     109 mvn-3.9.12  17
-    358 mvn-3.9.12  21
+    359 mvn-3.9.12  21
      11 mvn-3.9.12  22
      20 mvn-3.9.12  24
     187 mvn-3.9.12  25
