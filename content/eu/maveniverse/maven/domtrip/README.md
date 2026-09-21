@@ -16,13 +16,13 @@ Source code: [https://github.com/maveniverse/domtrip.git](https://github.com/mav
 * [eu.maveniverse.maven.domtrip:domtrip-website](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-website/overview)
 </details>
 
-rebuilding **19 releases** of eu.maveniverse.maven.domtrip:domtrip:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of eu.maveniverse.maven.domtrip:domtrip:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.8.0/pom) | | | |
+| [1.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.8.0/pom) | [mvn jdk21](domtrip-1.8.0.buildspec) | [result](domtrip-1.8.0.buildinfo): [13 :white_check_mark: ](domtrip-1.8.0.buildcompare) | | 483K |
 | [1.7.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.7.0/pom) | [mvn jdk21](domtrip-1.7.0.buildspec) | [result](domtrip-1.7.0.buildinfo): [13 :white_check_mark: ](domtrip-1.7.0.buildcompare) | | 481K |
 | [1.6.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.6.1/pom) | [mvn jdk21](domtrip-1.6.1.buildspec) | [result](domtrip-1.6.1.buildinfo): [13 :white_check_mark: ](domtrip-1.6.1.buildcompare) | | 475K |
 | [1.6.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/1.6.0/pom) | [mvn jdk21](domtrip-1.6.0.buildspec) | [result](domtrip-1.6.0.buildinfo): [13 :white_check_mark: ](domtrip-1.6.0.buildcompare) | | 474K |
