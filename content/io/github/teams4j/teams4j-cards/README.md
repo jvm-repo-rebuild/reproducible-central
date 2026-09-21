@@ -25,12 +25,13 @@ Source code: [https://github.com/teams4j/teams4j.git](https://github.com/teams4j
 * [io.github.teams4j:teams4j-webhook-spring-boot-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-webhook-spring-boot-starter/overview)
 </details>
 
-rebuilding **1 releases** of io.github.teams4j:teams4j-cards:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of io.github.teams4j:teams4j-cards:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.2.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.2.0/pom) | [gradle jdk21](teams4j-cards-0.2.0.buildspec) | [result](teams4j-cards-0.2.0.buildinfo): [40 :white_check_mark: ](teams4j-cards-0.2.0.buildcompare) | | 1.2M |
 | [0.1.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.1.0/pom) | [gradle jdk21](teams4j-cards-0.1.0.buildspec) | [result](teams4j-cards-0.1.0.buildinfo): [40 :white_check_mark: ](teams4j-cards-0.1.0.buildcompare) | | 1.1M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
