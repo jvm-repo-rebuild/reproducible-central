@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-core.git](https://github.com/FasterXML/jackson-core.git)
 
-rebuilding **58 releases** of com.fasterxml.jackson.core:jackson-core:
-- **46** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **59 releases** of com.fasterxml.jackson.core:jackson-core:
+- **47** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.22.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.22.3/pom) | | | |
+| [2.22.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.22.3/pom) | [mvn jdk8](jackson-core-2.22.3.buildspec) | [result](jackson-core-2.22.3.buildinfo): [6 :white_check_mark: ](jackson-core-2.22.3.buildcompare) | | 1.1M |
 | [2.22.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.22.2/pom) | [mvn jdk8](jackson-core-2.22.2.buildspec) | [result](jackson-core-2.22.2.buildinfo): [6 :white_check_mark: ](jackson-core-2.22.2.buildcompare) | | 1.1M |
 | [2.22.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.22.1/pom) | [mvn jdk8](jackson-core-2.22.1.buildspec) | [result](jackson-core-2.22.1.buildinfo): [6 :white_check_mark: ](jackson-core-2.22.1.buildcompare) | | 1.1M |
 | [2.22.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.22.0/pom) | [mvn jdk8](jackson-core-2.22.0.buildspec) | [result](jackson-core-2.22.0.buildinfo): [6 :white_check_mark: ](jackson-core-2.22.0.buildcompare) | | 1.1M |
