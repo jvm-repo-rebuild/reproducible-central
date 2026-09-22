@@ -17,14 +17,14 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-binary.git](https
 * [com.fasterxml.jackson.dataformat:jackson-dataformats-binary](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/overview)
 </details>
 
-rebuilding **49 releases** of com.fasterxml.jackson.dataformat:jackson-dataformats-binary:
-- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **50 releases** of com.fasterxml.jackson.dataformat:jackson-dataformats-binary:
+- **35** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.22.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.22.3/pom) | | | |
+| [2.22.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.22.3/pom) | [mvn jdk8](jackson-dataformats-binary-2.22.3.buildspec) | [result](jackson-dataformats-binary-2.22.3.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-2.22.3.buildcompare) | | 1.3M |
 | [2.22.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.22.2/pom) | [mvn jdk8](jackson-dataformats-binary-2.22.2.buildspec) | [result](jackson-dataformats-binary-2.22.2.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-2.22.2.buildcompare) | | 1.3M |
 | [2.22.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.22.1/pom) | [mvn jdk8](jackson-dataformats-binary-2.22.1.buildspec) | [result](jackson-dataformats-binary-2.22.1.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-2.22.1.buildcompare) | | 1.3M |
 | [2.22.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.22.0/pom) | [mvn jdk8](jackson-dataformats-binary-2.22.0.buildspec) | [result](jackson-dataformats-binary-2.22.0.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-2.22.0.buildcompare) | | 1.3M |
