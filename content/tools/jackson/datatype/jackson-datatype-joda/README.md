@@ -13,9 +13,11 @@ rebuilding **26 releases** of tools.jackson.datatype:jackson-datatype-joda:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.2.3](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.2.3/pom) | | | |
 | [3.2.2](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.2.2/pom) | [mvn jdk17](jackson-datatype-joda-3.2.2.buildspec) | [result](jackson-datatype-joda-3.2.2.buildinfo): [5 :white_check_mark: ](jackson-datatype-joda-3.2.2.buildcompare) | | 156K |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.2.1/pom) | [mvn jdk17](jackson-datatype-joda-3.2.1.buildspec) | [result](jackson-datatype-joda-3.2.1.buildinfo): [5 :white_check_mark: ](jackson-datatype-joda-3.2.1.buildcompare) | | 156K |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.2.0/pom) | [mvn jdk17](jackson-datatype-joda-3.2.0.buildspec) | [result](jackson-datatype-joda-3.2.0.buildinfo): [5 :white_check_mark: ](jackson-datatype-joda-3.2.0.buildcompare) | | 156K |
+| [3.1.7](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.1.7/pom) | | | |
 | [3.1.6](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.1.6/pom) | [mvn jdk17](jackson-datatype-joda-3.1.6.buildspec) | [result](jackson-datatype-joda-3.1.6.buildinfo): [5 :white_check_mark: ](jackson-datatype-joda-3.1.6.buildcompare) | | 156K |
 | [3.1.5](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.1.5/pom) | [mvn jdk17](jackson-datatype-joda-3.1.5.buildspec) | [result](jackson-datatype-joda-3.1.5.buildinfo): [5 :white_check_mark: ](jackson-datatype-joda-3.1.5.buildcompare) | | 156K |
 | [3.1.4](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.1.4/pom) | [mvn jdk17](jackson-datatype-joda-3.1.4.buildspec) | [result](jackson-datatype-joda-3.1.4.buildinfo): [5 :white_check_mark: ](jackson-datatype-joda-3.1.4.buildcompare) | | 156K |

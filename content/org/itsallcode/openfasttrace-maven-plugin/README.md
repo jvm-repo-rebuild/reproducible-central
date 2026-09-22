@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.itsallcode:openfasttrace-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/org.itsallcode/openfasttrace-maven-plugin/3.1.0/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.itsallcode/openfasttrace-maven-plugin/3.0.0/pom) | [mvn jdk17](openfasttrace-maven-plugin-3.0.0.buildspec) | [result](openfasttrace-maven-plugin-3.0.0.buildinfo): [3 :white_check_mark: ](openfasttrace-maven-plugin-3.0.0.buildcompare) | | 64K |
 | [2.3.1](https://central.sonatype.com/artifact/org.itsallcode/openfasttrace-maven-plugin/2.3.1/pom) | [mvn jdk17](openfasttrace-maven-plugin-2.3.1.buildspec) | [result](openfasttrace-maven-plugin-2.3.1.buildinfo): [3 :white_check_mark: ](openfasttrace-maven-plugin-2.3.1.buildcompare) | | 59K |
 | [2.3.0](https://central.sonatype.com/artifact/org.itsallcode/openfasttrace-maven-plugin/2.3.0/pom) | [mvn jdk17](openfasttrace-maven-plugin-2.3.0.buildspec) | [result](openfasttrace-maven-plugin-2.3.0.buildinfo): [3 :white_check_mark: ](openfasttrace-maven-plugin-2.3.0.buildcompare) | | 58K |

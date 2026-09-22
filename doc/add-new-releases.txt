@@ -1,17 +1,21 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/fasterxml/jackson/core/jackson-core-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/databind/jackson-databind-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/jr/jackson-jr-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.22.2.buildspec:2.22.3
-content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.22.2.buildspec:2.22.3
 content/com/github/psi-probe/psi-probe-5.4.0.buildspec:5.5.0
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.0
-content/io/airlift/airbase/airbase-412.buildspec:413
-content/io/telicent/jena/jena-kafka/jena-kafka-3.3.2.buildspec:3.4.0
+content/io/liftwizard/liftwizard-2.1.49.buildspec:2.1.50
+content/io/airlift/airbase/airbase-413.buildspec:414
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.8.buildspec:7.34.9
+content/org/apache/apache/apache-39.buildspec:40
 content/org/apache/ratis/ratis-3.3.0.buildspec:3.3.1
+content/org/apache/maven/parent/maven-parent-49.buildspec:50
+content/org/itsallcode/openfasttrace-maven-plugin/openfasttrace-maven-plugin-3.0.0.buildspec:3.1.0
+content/tools/jackson/jackson-bom/jackson-bom-3.2.2.buildspec:3.2.3
+content/tools/jackson/jr/jackson-jr-3.2.2.buildspec:3.2.3
+content/tools/jackson/core/jackson-core/jackson-core-3.2.2.buildspec:3.2.3
+content/tools/jackson/core/jackson-databind/jackson-databind-3.2.2.buildspec:3.2.3
+content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.2.2.buildspec:3.2.3
+content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.2.2.buildspec:3.2.3
+content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.2.2.buildspec:3.2.3
+content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.2.2.buildspec:3.2.3
+content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.2.2.buildspec:3.2.3
+content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.2.2.buildspec:3.2.3
