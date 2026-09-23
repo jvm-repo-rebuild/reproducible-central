@@ -17,8 +17,8 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-binary.git](https
 * [tools.jackson.dataformat:jackson-dataformats-binary](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/overview)
 </details>
 
-rebuilding **27 releases** of tools.jackson.dataformat:jackson-dataformats-binary:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of tools.jackson.dataformat:jackson-dataformats-binary:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -27,7 +27,7 @@ rebuilding **27 releases** of tools.jackson.dataformat:jackson-dataformats-binar
 | [3.2.2](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.2.2/pom) | [mvn jdk17](jackson-dataformats-binary-3.2.2.buildspec) | [result](jackson-dataformats-binary-3.2.2.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.2.2.buildcompare) | | 1.2M |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.2.1/pom) | [mvn jdk17](jackson-dataformats-binary-3.2.1.buildspec) | [result](jackson-dataformats-binary-3.2.1.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.2.1.buildcompare) | | 1.2M |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.2.0/pom) | [mvn jdk17](jackson-dataformats-binary-3.2.0.buildspec) | [result](jackson-dataformats-binary-3.2.0.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.2.0.buildcompare) | | 1.2M |
-| [3.1.7](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.7/pom) | | | |
+| [3.1.7](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.7/pom) | [mvn jdk17](jackson-dataformats-binary-3.1.7.buildspec) | [result](jackson-dataformats-binary-3.1.7.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.1.7.buildcompare) | | 1.2M |
 | [3.1.6](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.6/pom) | [mvn jdk17](jackson-dataformats-binary-3.1.6.buildspec) | [result](jackson-dataformats-binary-3.1.6.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.1.6.buildcompare) | | 1.2M |
 | [3.1.5](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.5/pom) | [mvn jdk17](jackson-dataformats-binary-3.1.5.buildspec) | [result](jackson-dataformats-binary-3.1.5.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.1.5.buildcompare) | | 1.2M |
 | [3.1.4](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.1.4/pom) | [mvn jdk17](jackson-dataformats-binary-3.1.4.buildspec) | [result](jackson-dataformats-binary-3.1.4.buildinfo): [26 :white_check_mark: ](jackson-dataformats-binary-3.1.4.buildcompare) | | 1.2M |
