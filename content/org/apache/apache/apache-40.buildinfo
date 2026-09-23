@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=40
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-40
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_504
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=apache
+
+# aggregated output
+
+outputs.0.coordinates=org.apache:apache
+
+outputs.0.0.groupId=org.apache
+outputs.0.0.filename=apache-40.pom
+outputs.0.0.length=27116
+outputs.0.0.checksums.sha512=61d38cee1685c6c54ffb9de5d85f06edb4ede2ce61987b4c950f687b634c922be0797fcbb78b72a246ff16133fd6ccf637666c70094cad545300dab27f16cb45
+
+outputs.0.1.groupId=org.apache
+outputs.0.1.filename=apache-40-source-release.zip
+outputs.0.1.length=23098
+outputs.0.1.checksums.sha512=78f8eec533fd7204f7190f4ee0fd5cf89fe94ebb2a6c35f6ca8704041df2c3e8434f3c3419331d245f3e30582391eb673f96fb842646db9eec161ff80b43160c
