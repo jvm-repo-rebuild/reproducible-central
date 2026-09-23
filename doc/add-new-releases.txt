@@ -2,20 +2,9 @@
 # see bin/create-new-release-PRs.sh
 content/com/github/psi-probe/psi-probe-5.4.0.buildspec:5.5.0
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.0
-content/io/liftwizard/liftwizard-2.1.49.buildspec:2.1.50
-content/io/airlift/airbase/airbase-413.buildspec:414
+content/eu/maveniverse/maven/toolrunner/toolrunner-0.4.2.buildspec:0.4.3
+content/io/airlift/airbase/airbase-414.buildspec:415
 content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.8.buildspec:7.34.9
-content/org/apache/apache/apache-39.buildspec:40
-content/org/apache/ratis/ratis-3.3.0.buildspec:3.3.1
-content/org/apache/maven/parent/maven-parent-49.buildspec:50
-content/org/itsallcode/openfasttrace-maven-plugin/openfasttrace-maven-plugin-3.0.0.buildspec:3.1.0
-content/tools/jackson/jackson-bom/jackson-bom-3.2.2.buildspec:3.2.3
-content/tools/jackson/jr/jackson-jr-3.2.2.buildspec:3.2.3
-content/tools/jackson/core/jackson-core/jackson-core-3.2.2.buildspec:3.2.3
-content/tools/jackson/core/jackson-databind/jackson-databind-3.2.2.buildspec:3.2.3
-content/tools/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-3.2.2.buildspec:3.2.3
-content/tools/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-3.2.2.buildspec:3.2.3
-content/tools/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-3.2.2.buildspec:3.2.3
-content/tools/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-3.2.2.buildspec:3.2.3
-content/tools/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-3.2.2.buildspec:3.2.3
-content/tools/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-3.2.2.buildspec:3.2.3
+content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.7.buildspec:0.1.8
+content/org/jline/jline-4.4.5.buildspec:4.4.6
+content/org/hibernate/orm/hibernate-core/hibernate-core-8.0.0.Beta1.buildspec:8.0.0.Beta2
