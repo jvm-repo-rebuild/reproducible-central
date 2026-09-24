@@ -212,6 +212,7 @@ rebuilding **56 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [8.0.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/8.0.0/pom) | | | |
 | [7.9.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.9.0/pom) | [mvn jdk11](kubernetes-client-7.9.0.buildspec) | [result](kubernetes-client-project-7.9.0.buildinfo): [308 :white_check_mark:  2 :warning:](kubernetes-client-project-7.9.0.buildcompare) | 2 :rotating_light: | 242M |
 | [7.8.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.8.0/pom) | [mvn jdk11](kubernetes-client-7.8.0.buildspec) | [result](kubernetes-client-project-7.8.0.buildinfo): [308 :white_check_mark:  2 :warning:](kubernetes-client-project-7.8.0.buildcompare) [:mag:](kubernetes-client-project-7.8.0.diffoscope) | 2 :rotating_light: | 239M |
 | [7.7.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.7.0/pom) | [mvn jdk11](kubernetes-client-7.7.0.buildspec) | [result](kubernetes-client-project-7.7.0.buildinfo): [308 :white_check_mark:  2 :warning:](kubernetes-client-project-7.7.0.buildcompare) | 2 :rotating_light: | 238M |
