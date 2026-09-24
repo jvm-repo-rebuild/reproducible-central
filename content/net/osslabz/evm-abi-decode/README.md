@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/osslabz/evm-abi-decoder.git](https://github.com/osslabz/evm-abi-decoder.git)
 
-rebuilding **8 releases** of net.osslabz:evm-abi-decoder:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of net.osslabz:evm-abi-decoder:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 6, 6 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.1.8](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.8/pom) | | | |
+| [0.1.8](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.8/pom) | [mvn jdk25](evm-abi-decoder-0.1.8.buildspec) | [result](evm-abi-decoder-0.1.8.buildinfo): [3 :white_check_mark: ](evm-abi-decoder-0.1.8.buildcompare) | | 79K |
 | [0.1.7](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.7/pom) | [mvn jdk21](evm-abi-decoder-0.1.7.buildspec) | [result](evm-abi-decoder-0.1.7.buildinfo): [3 :white_check_mark: ](evm-abi-decoder-0.1.7.buildcompare) | | 77K |
 | [0.1.6](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.6/pom) | [mvn jdk21](evm-abi-decoder-0.1.6.buildspec) | [result](evm-abi-decoder-0.1.6.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.6.buildcompare) | 1 :recycle: | 75K |
 | [0.1.5](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.5/pom) | [mvn jdk21](evm-abi-decoder-0.1.5.buildspec) | [result](evm-abi-decoder-0.1.5.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.5.buildcompare) | 1 :recycle: | 75K |
