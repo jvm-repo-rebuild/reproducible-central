@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/osslabz/bitcoin-commons.git](https://github.com/osslabz/bitcoin-commons.git)
 
-rebuilding **3 releases** of net.osslabz:bitcoin-commons:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of net.osslabz:bitcoin-commons:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.4.0](https://central.sonatype.com/artifact/net.osslabz/bitcoin-commons/0.4.0/pom) | | | |
+| [0.4.0](https://central.sonatype.com/artifact/net.osslabz/bitcoin-commons/0.4.0/pom) | [mvn jdk25](bitcoin-commons-0.4.0.buildspec) | [result](bitcoin-commons-0.4.0.buildinfo): [3 :white_check_mark: ](bitcoin-commons-0.4.0.buildcompare) | | 25K |
 | [0.3.0](https://central.sonatype.com/artifact/net.osslabz/bitcoin-commons/0.3.0/pom) | [mvn jdk21](bitcoin-commons-0.3.0.buildspec) | [result](bitcoin-commons-0.3.0.buildinfo): [2 :white_check_mark:  1 :warning:](bitcoin-commons-0.3.0.buildcompare) [:mag:](bitcoin-commons-0.3.0.diffoscope) | - | 20K |
 | [0.2.17](https://central.sonatype.com/artifact/net.osslabz/bitcoin-commons/0.2.17/pom) | | | |
 | [0.2.16](https://central.sonatype.com/artifact/net.osslabz/bitcoin-commons/0.2.16/pom) | | | |
