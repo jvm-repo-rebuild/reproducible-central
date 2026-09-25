@@ -25,6 +25,7 @@ rebuilding **19 releases** of com.sap.ai.sdk:sdk-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0-M1](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/2.0.0-M1/pom) | | | |
 | [1.25.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.25.0/pom) | [mvn jdk21](sdk-1.25.0.buildspec) | [result](sdk-parent-1.25.0.buildinfo): [22 :white_check_mark: ](sdk-parent-1.25.0.buildcompare) | | 5.6M |
 | [1.24.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.24.0/pom) | [mvn jdk21](sdk-1.24.0.buildspec) | [result](sdk-parent-1.24.0.buildinfo): [22 :white_check_mark: ](sdk-parent-1.24.0.buildcompare) | | 5.6M |
 | [1.23.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.23.0/pom) | [mvn jdk21](sdk-1.23.0.buildspec) | [result](sdk-parent-1.23.0.buildinfo): [22 :white_check_mark: ](sdk-parent-1.23.0.buildcompare) | | 5.6M |

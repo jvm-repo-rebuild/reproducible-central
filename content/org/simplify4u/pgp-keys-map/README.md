@@ -13,6 +13,7 @@ rebuilding **24 releases** of org.simplify4u:pgp-keys-map:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2026.09.25](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2026.09.25/pom) | | | |
 | [2026.01.20](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2026.01.20/pom) | [mvn jdk8](pgp-keys-map-2026.01.20.buildspec) | [result](pgp-keys-map-2026.01.20.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2026.01.20.buildcompare) | | 31K |
 | [2025.03.15](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2025.03.15/pom) | [mvn jdk8](pgp-keys-map-2025.03.15.buildspec) | [result](pgp-keys-map-2025.03.15.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2025.03.15.buildcompare) | | 30K |
 | [2024.11.03](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.11.03/pom) | [mvn jdk8](pgp-keys-map-2024.11.03.buildspec) | [result](pgp-keys-map-2024.11.03.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.11.03.buildcompare) | | 30K |

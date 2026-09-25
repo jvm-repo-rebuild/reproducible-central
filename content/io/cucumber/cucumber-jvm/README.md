@@ -40,6 +40,7 @@ rebuilding **48 releases** of io.cucumber:cucumber-jvm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [8.0.2](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.2/pom) | | | |
 | [8.0.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.1/pom) | | | |
 | [8.0.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.0/pom) | | | |
 | [7.34.9](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.34.9/pom) | | | |

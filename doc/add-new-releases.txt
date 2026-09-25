@@ -1,12 +1,16 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/at/yawk/lz4/lz4-java/lz4-java-1.11.3.buildspec:1.12.0
 content/ch/qos/logback/logback-1.6.3.buildspec:1.6.4
 content/com/flowlogix/flowlogix-11.6.buildspec:11.7
 content/com/github/psi-probe/psi-probe-5.4.0.buildspec:5.5.0
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.0
-content/io/cucumber/compatibility-kit/compatibility-kit-30.0.0.buildspec:31.0.0
-content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.8.buildspec:8.0.1
-content/io/jstach/rainbowgum/rainbowgum-0.11.2.buildspec:0.12.0
+content/com/github/marschall/jfr-jdbctemplate/jfr-jdbctemplate-3.0.0.buildspec:3.0.1
+content/com/sap/ai/sdk/sdk-1.25.0.buildspec:2.0.0-M1
+content/dev/langchain4j/langchain4j-1.20.0.buildspec:1.20.1
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.34.8.buildspec:8.0.2
+content/land/oras/oras-java-sdk/oras-java-sdk-0.8.4.buildspec:0.8.5
+content/net/sourceforge/pmd/pmd-7.27.0.buildspec:7.28.0
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
-content/org/apache/nifi/nifi-api/nifi-api-2.12.0.buildspec:2.13.0
-content/org/hibernate/orm/hibernate-core/hibernate-core-8.0.0.Beta1.buildspec:8.0.0.Beta2
+content/org/hibernate/orm/hibernate-core/hibernate-core-8.0.0.Beta1.buildspec:8.0.0.Beta3
+content/org/simplify4u/pgp-keys-map/pgp-keys-map-2026.01.20.buildspec:2026.09.25
