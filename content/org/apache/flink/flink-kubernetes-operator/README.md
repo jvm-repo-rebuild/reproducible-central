@@ -19,14 +19,14 @@ Source code: [https://github.com/apache/flink-kubernetes-operator.git](https://g
 * [org.apache.flink:flink-kubernetes-webhook](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-webhook/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.flink:flink-kubernetes-operator-parent:
+rebuilding **9 releases** of org.apache.flink:flink-kubernetes-operator-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 4 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 5 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.16.1](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator/1.16.1/pom) | | | |
+| [1.16.1](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.16.1/pom) | [mvn jdk17](flink-kubernetes-operator-1.16.1.buildspec) | [result](flink-kubernetes-operator-parent-1.16.1.buildinfo): [40 :white_check_mark:  2 :warning:](flink-kubernetes-operator-parent-1.16.1.buildcompare) | 2 :recycle: | 38M |
 | [1.16.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.16.0/pom) | [mvn jdk17](flink-kubernetes-operator-1.16.0.buildspec) | [result](flink-kubernetes-operator-parent-1.16.0.buildinfo): [40 :white_check_mark:  2 :warning:](flink-kubernetes-operator-parent-1.16.0.buildcompare) | 2 :recycle: | 38M |
 | [1.15.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.15.0/pom) | [mvn jdk17](flink-kubernetes-operator-1.15.0.buildspec) | [result](flink-kubernetes-operator-parent-1.15.0.buildinfo): [40 :white_check_mark:  2 :warning:](flink-kubernetes-operator-parent-1.15.0.buildcompare) | 2 :recycle: | 38M |
 | [1.14.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.14.0/pom) | [mvn jdk17](flink-kubernetes-operator-1.14.0.buildspec) | [result](flink-kubernetes-operator-parent-1.14.0.buildinfo): [40 :white_check_mark:  2 :warning:](flink-kubernetes-operator-parent-1.14.0.buildcompare) | 2 :recycle: | 38M |
