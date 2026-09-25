@@ -1,0 +1,15 @@
+version=8.0.1
+ok=56
+ko=4
+ignored=0
+okFiles="cucumber-jvm-8.0.1.pom cucumber-bom-8.0.1.pom cucumber-plugin-8.0.1.pom cucumber-plugin-8.0.1.jar cucumber-plugin-8.0.1-sources.jar cucumber-gherkin-8.0.1.pom cucumber-gherkin-8.0.1.jar cucumber-gherkin-8.0.1-sources.jar cucumber-gherkin-messages-8.0.1.pom cucumber-gherkin-messages-8.0.1.jar cucumber-gherkin-messages-8.0.1-sources.jar datatable-8.0.1.pom datatable-8.0.1.jar datatable-8.0.1-sources.jar docstring-8.0.1.pom docstring-8.0.1.jar docstring-8.0.1-sources.jar cucumber-core-8.0.1.pom cucumber-core-8.0.1.jar cucumber-core-8.0.1-sources.jar cucumber-junit-platform-engine-8.0.1.pom cucumber-junit-platform-engine-8.0.1.jar cucumber-junit-platform-engine-8.0.1-sources.jar cucumber-java-8.0.1.pom cucumber-java-8.0.1.jar cucumber-java-8.0.1-sources.jar cucumber-archetype-8.0.1.pom cucumber-archetype-8.0.1.jar cucumber-archetype-8.0.1-sources.jar cucumber-guice-8.0.1.pom cucumber-guice-8.0.1.jar cucumber-guice-8.0.1-sources.jar cucumber-jakarta-cdi-8.0.1.pom cucumber-jakarta-cdi-8.0.1.jar cucumber-jakarta-cdi-8.0.1-sources.jar cucumber-jakarta-openejb-8.0.1.pom cucumber-jakarta-openejb-8.0.1.jar cucumber-jakarta-openejb-8.0.1-sources.jar cucumber-java8-8.0.1.pom cucumber-java8-8.0.1.jar cucumber-java8-8.0.1-sources.jar cucumber-junit-8.0.1.pom cucumber-junit-8.0.1.jar cucumber-junit-8.0.1-sources.jar cucumber-picocontainer-8.0.1.pom cucumber-picocontainer-8.0.1.jar cucumber-picocontainer-8.0.1-sources.jar cucumber-spring-8.0.1.pom cucumber-spring-8.0.1.jar cucumber-spring-8.0.1-sources.jar cucumber-testng-8.0.1.pom cucumber-testng-8.0.1.jar cucumber-testng-8.0.1-sources.jar datatable-matchers-8.0.1.pom datatable-matchers-8.0.1.jar datatable-matchers-8.0.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+missing=4
+missingFiles="compatibility-8.0.1.pom compatibility-8.0.1.jar cucumber-kotlin-java8-8.0.1.pom cucumber-kotlin-java8-8.0.1.jar"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# wget https://repo.maven.apache.org/maven2/io/cucumber/compatibility/8.0.1/compatibility-8.0.1.pom; ls -l compatibility/pom.xml
+# wget https://repo.maven.apache.org/maven2/io/cucumber/compatibility/8.0.1/compatibility-8.0.1.jar; ls -l compatibility/target/compatibility-8.0.1.jar
+# wget https://repo.maven.apache.org/maven2/io/cucumber/cucumber-kotlin-java8/8.0.1/cucumber-kotlin-java8-8.0.1.pom; ls -l cucumber-kotlin-java8/pom.xml
+# wget https://repo.maven.apache.org/maven2/io/cucumber/cucumber-kotlin-java8/8.0.1/cucumber-kotlin-java8-8.0.1.jar; ls -l cucumber-kotlin-java8/target/cucumber-kotlin-java8-8.0.1.jar
