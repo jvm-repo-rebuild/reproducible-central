@@ -59,14 +59,14 @@ Source code: [https://github.com/apache/maven.git](https://github.com/apache/mav
 * [org.apache.maven:plexus-utils](https://central.sonatype.com/artifact/org.apache.maven/plexus-utils/overview)
 </details>
 
-rebuilding **47 releases** of org.apache.maven:maven:
+rebuilding **48 releases** of org.apache.maven:maven:
 - **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0-rc-7](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-7/pom) | | | |
+| [4.0.0-rc-7](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-7/pom) | [mvn jdk25](maven-4.0.0-rc-7.buildspec) | [result](maven-4.0.0-rc-7.buildinfo): [173 :white_check_mark:  15 :warning:](maven-4.0.0-rc-7.buildcompare) | 15 :no_entry_sign: | 67M |
 | [4.0.0-rc-6](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-6/pom) | [mvn jdk21](maven-4.0.0-rc-6.buildspec) | [result](maven-4.0.0-rc-6.buildinfo): [167 :white_check_mark:  21 :warning:](maven-4.0.0-rc-6.buildcompare) | 21 :no_entry_sign: | 66M |
 | [4.0.0-rc-5](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-5/pom) | [mvn jdk21](maven-4.0.0-rc-5.buildspec) | [result](maven-4.0.0-rc-5.buildinfo): [193 :white_check_mark: ](maven-4.0.0-rc-5.buildcompare) | | 65M |
 | [4.0.0-rc-4](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-4/pom) | [mvn jdk24](maven-4.0.0-rc-4.buildspec) | [result](maven-4.0.0-rc-4.buildinfo): [232 :white_check_mark: ](maven-4.0.0-rc-4.buildcompare) | | 65M |
