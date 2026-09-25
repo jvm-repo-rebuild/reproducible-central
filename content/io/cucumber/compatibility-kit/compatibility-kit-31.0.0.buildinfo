@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Compatibility Kit
+group-id=io.cucumber
+artifact-id=compatibility-kit
+version=31.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/compatibility-kit.git
+source.scm.tag=v31.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(org.jspecify:jspecify:(1.0.1,))
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=compatibility-kit-31.0.0.pom
+outputs.0.length=3709
+outputs.0.checksums.sha512=0171378278fed91fcd018de8d05fefa36328aa78e510fad1ba08488ffcfe186fa78860de1acab0c6ddb8fcc8e4a8d31c936e8d47250741cd5159fbb7eac8e243
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=compatibility-kit-31.0.0.jar
+outputs.1.length=180955
+outputs.1.checksums.sha512=85272c82ef8298f966a3700a5d39c832bfd5b07a8cf291f1f2e7f569f9bde4b384c96d977227531bead4dd6c656581801d3e5fdd6936a6d6bd2f4154dabcde8c
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=compatibility-kit-31.0.0-sources.jar
+outputs.2.length=159541
+outputs.2.checksums.sha512=4f7ec8ac14629ad6ff37767b33ff2d4dc25770037305b967edc4ff21a043d9f3ddf4601ace7518d177e2b500eb3de930ebc48005890f22a3df964cb906e6fffc
