@@ -17,14 +17,14 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 * [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
-rebuilding **47 releases** of com.flowlogix:flowlogix:
+rebuilding **48 releases** of com.flowlogix:flowlogix:
 - **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [11.7](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.7/pom) | | | |
+| [11.7](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.7/pom) | [mvn jdk25](flowlogix-11.7.buildspec) | [result](flowlogix-11.7.buildinfo): [18 :white_check_mark:  4 :warning:](flowlogix-11.7.buildcompare) | 4 :no_entry_sign: | 2.6M |
 | [11.6](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.6/pom) | [mvn jdk25](flowlogix-11.6.buildspec) | [result](flowlogix-11.6.buildinfo): [16 :white_check_mark: ](flowlogix-11.6.buildcompare) | | 1.1M |
 | [11.5](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.5/pom) | [mvn jdk25](flowlogix-11.5.buildspec) | [result](flowlogix-11.5.buildinfo): [16 :white_check_mark: ](flowlogix-11.5.buildcompare) | | 1.1M |
 | [11.4.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.4.3/pom) | [mvn jdk25](flowlogix-11.4.3.buildspec) | [result](flowlogix-11.4.3.buildinfo): [16 :white_check_mark: ](flowlogix-11.4.3.buildcompare) | | 1.1M |
