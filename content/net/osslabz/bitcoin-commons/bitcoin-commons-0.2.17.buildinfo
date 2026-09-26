@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:bitcoin-commons
+group-id=net.osslabz
+artifact-id=bitcoin-commons
+version=0.2.17
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/bitcoin-commons.git
+source.scm.tag=0.2.17
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=bitcoin-commons-0.2.17.pom
+outputs.0.length=9966
+outputs.0.checksums.sha512=feb9e85b466022d2c5f5412752f93f95bce969dad257e6541e36336cd11d97f265a1d80b1d5be3e471ec8c82e0a464f47ab64c2208043a22c99fdc6d94d2e463
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=bitcoin-commons-0.2.17.jar
+outputs.1.length=5862
+outputs.1.checksums.sha512=ba52b9bf04cd702ef85f8417cf6dc79165235a7103a662777b4bb07b135348bd8637baa2bfca2f4a9115319b1749b46f53284733a199cac2bee9339e5fed4b1e
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=bitcoin-commons-0.2.17-sources.jar
+outputs.2.length=4477
+outputs.2.checksums.sha512=c05e34db0c1a1a555a23c225f99fb919bd71f0955699d1e122bb92e8afda2eacd8f08e1e773468a5226bd5204645261618c23e9107531c40530976129d561153
