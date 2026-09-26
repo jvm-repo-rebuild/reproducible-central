@@ -1,0 +1,9 @@
+version=2.0.0-M1
+ok=22
+ko=0
+ignored=0
+okFiles="sdk-parent-2.0.0-M1.pom core-2.0.0-M1.pom core-2.0.0-M1.jar core-2.0.0-M1-sources.jar orchestration-2.0.0-M1.pom orchestration-2.0.0-M1.jar orchestration-2.0.0-M1-sources.jar batch-2.0.0-M1.pom batch-2.0.0-M1.jar batch-2.0.0-M1-sources.jar document-grounding-2.0.0-M1.pom document-grounding-2.0.0-M1.jar document-grounding-2.0.0-M1-sources.jar prompt-registry-2.0.0-M1.pom prompt-registry-2.0.0-M1.jar prompt-registry-2.0.0-M1-sources.jar openai-2.0.0-M1.pom openai-2.0.0-M1.jar openai-2.0.0-M1-sources.jar sap-rpt-2.0.0-M1.pom sap-rpt-2.0.0-M1.jar sap-rpt-2.0.0-M1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
