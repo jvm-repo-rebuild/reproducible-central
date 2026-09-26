@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFR JdbcTemplate
+group-id=com.github.marschall
+artifact-id=jfr-jdbctemplate
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jfr-jdbctemplate.git
+source.scm.tag=3.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=jfr-jdbctemplate-3.0.1.pom
+outputs.0.length=8296
+outputs.0.checksums.sha512=e15b25594519b25321decff9e7b9542d6b64c65079bf6f526709f1b687016f3b959a4affadbcb4a8b34e6a0b43ff4484345a78be9a3d4bd1462e90ae94e46e60
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=jfr-jdbctemplate-3.0.1.jar
+outputs.1.length=23880
+outputs.1.checksums.sha512=e1f626a654806c68ea2dc965b8009b0a10a137acc92b011b29ede2d2f097ada8aec21b0ab14cc397702e45ca2c1473fe2e2285e29ec09c45d402849233e7f98a
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=jfr-jdbctemplate-3.0.1-sources.jar
+outputs.2.length=10337
+outputs.2.checksums.sha512=fd07cc7f910e251012987df0351011b105d2665e02fea15de05adeb3dc9daaae98154b6cdf34b9d026336ad4c7a9cead6bae0e5c143b36868bad006b7e3fecdb
