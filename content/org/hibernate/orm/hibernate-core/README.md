@@ -7,14 +7,17 @@
 
 Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com/hibernate/hibernate-orm.git)
 
-<details><summary>This project defines 39 modules:</summary>
+<details><summary>This project defines 42 modules:</summary>
 
+* [org.hibernate.orm.dialect-provider:org.hibernate.orm.dialect-provider.gradle.plugin](https://central.sonatype.com/artifact/org.hibernate.orm.dialect-provider/org.hibernate.orm.dialect-provider.gradle.plugin/overview)
 * [org.hibernate.orm:hibernate-agroal](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-agroal/overview)
 * [org.hibernate.orm:hibernate-ant](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-ant/overview)
 * [org.hibernate.orm:hibernate-assistant](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-assistant/overview)
 * [org.hibernate.orm:hibernate-c3p0](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-c3p0/overview)
 * [org.hibernate.orm:hibernate-community-dialects](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-community-dialects/overview)
 * [org.hibernate.orm:hibernate-core](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/overview)
+* [org.hibernate.orm:hibernate-dialect-provider-tooling](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-dialect-provider-tooling/overview)
+* [org.hibernate.orm:hibernate-dialect-testkit](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-dialect-testkit/overview)
 * [org.hibernate.orm:hibernate-envers](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-envers/overview)
 * [org.hibernate.orm:hibernate-graalvm](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-graalvm/overview)
 * [org.hibernate.orm:hibernate-hikaricp](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-hikaricp/overview)
@@ -50,14 +53,14 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate/hibernate-vector/overview)
 </details>
 
-rebuilding **113 releases** of org.hibernate.orm:hibernate-core:
+rebuilding **114 releases** of org.hibernate.orm:hibernate-core:
 - **110** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta3/pom) | | | |
+| [8.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta3/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta3.buildspec) | [result](hibernate-core-8.0.0.Beta3.buildinfo): [64 :white_check_mark:  5 :warning:](hibernate-core-8.0.0.Beta3.buildcompare) | 5 :rotating_light: | 32M |
 | [8.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta2/pom) | | | |
 | [8.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta1/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta1.buildspec) | [result](hibernate-core-8.0.0.Beta1.buildinfo): [79 :white_check_mark: ](hibernate-core-8.0.0.Beta1.buildcompare) | | 30M |
 | [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | [gradle jdk25](hibernate-core-8.0.0.Alpha1.buildspec) | [result](hibernate-core-8.0.0.Alpha1.buildinfo): [72 :white_check_mark: ](hibernate-core-8.0.0.Alpha1.buildcompare) | | 27M |
