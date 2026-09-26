@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.maven.shared:maven-shared-jar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.2.1](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-jar/3.2.1/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-jar/3.2.0/pom) | [mvn jdk21](maven-shared-jar-3.2.0.buildspec) | [result](maven-shared-jar-3.2.0.buildinfo): [6 :white_check_mark: ](maven-shared-jar-3.2.0.buildcompare) | | 1.3M |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-jar/3.1.1/pom) | [mvn jdk8 w](maven-shared-jar-3.1.1.buildspec) | [result](maven-shared-jar-3.1.1.buildinfo): [6 :white_check_mark: ](maven-shared-jar-3.1.1.buildcompare) | | 1.3M |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-jar/3.1.0/pom) | [mvn jdk8 w](maven-shared-jar-3.1.0.buildspec) | [result](maven-shared-jar-3.1.0.buildinfo): [6 :white_check_mark: ](maven-shared-jar-3.1.0.buildcompare) | | 1.3M |

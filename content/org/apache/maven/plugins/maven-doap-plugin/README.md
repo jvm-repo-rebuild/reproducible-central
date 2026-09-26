@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-doap-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.0-M2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-doap-plugin/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-doap-plugin/3.0.0-M1/pom) | [mvn jdk25](maven-doap-plugin-3.0.0-M1.buildspec) | [result](maven-doap-plugin-3.0.0-M1.buildinfo): [6 :white_check_mark: ](maven-doap-plugin-3.0.0-M1.buildcompare) | | 535K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

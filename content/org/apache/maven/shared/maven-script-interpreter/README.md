@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.maven.shared:maven-script-interpreter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.9](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-script-interpreter/1.9/pom) | | | |
 | [1.8](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-script-interpreter/1.8/pom) | [mvn jdk25](maven-script-interpreter-1.8.buildspec) | [result](maven-script-interpreter-1.8.buildinfo): [6 :white_check_mark: ](maven-script-interpreter-1.8.buildcompare) | | 132K |
 | [1.7](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-script-interpreter/1.7/pom) | [mvn jdk25](maven-script-interpreter-1.7.buildspec) | [result](maven-script-interpreter-1.7.buildinfo): [6 :white_check_mark: ](maven-script-interpreter-1.7.buildcompare) | | 130K |
 | [1.6](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-script-interpreter/1.6/pom) | [mvn jdk21](maven-script-interpreter-1.6.buildspec) | [result](maven-script-interpreter-1.6.buildinfo): [6 :white_check_mark: ](maven-script-interpreter-1.6.buildcompare) | | 129K |

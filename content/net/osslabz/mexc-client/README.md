@@ -13,6 +13,7 @@ rebuilding **1 releases** of net.osslabz:mexc-client:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/net.osslabz/mexc-client/1.0.0/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/net.osslabz/mexc-client/0.2.0/pom) | [mvn jdk21](mexc-client-0.2.0.buildspec) | [result](mexc-client-0.2.0.buildinfo): [3 :white_check_mark: ](mexc-client-0.2.0.buildcompare) | | 93K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -3,15 +3,16 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-doap-plugin</artifactId>
   <versioning>
-    <latest>3.0.0-M1</latest>
-    <release>3.0.0-M1</release>
+    <latest>3.0.0-M2</latest>
+    <release>3.0.0-M2</release>
     <versions>
       <version>1.0-beta-1</version>
       <version>1.0</version>
       <version>1.1</version>
       <version>1.2</version>
       <version>3.0.0-M1</version>
+      <version>3.0.0-M2</version>
     </versions>
-    <lastUpdated>20251129003252</lastUpdated>
+    <lastUpdated>20260926215956</lastUpdated>
   </versioning>
 </metadata>
