@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:lnd-rest-client
+group-id=net.osslabz
+artifact-id=lnd-rest-client
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/lnd-rest-client.git
+source.scm.tag=1.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=lnd-rest-client-1.0.2.pom
+outputs.0.length=30733
+outputs.0.checksums.sha512=caf41012112e87c88c0ea550fb2d031eac57a8bfa4378dddc53fabc97e2938c8ee0f560feecbbd7d23a43a192e61ca70892f5465e72646f0e4a907bb085e2a43
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=lnd-rest-client-1.0.2.jar
+outputs.1.length=1255256
+outputs.1.checksums.sha512=abb43d27ee1a01c6154fccdd43e899c395e81c4f7e90be3f2ad74bb7062025811756a28fd97b1d3946137945999ce74157eed2d9b69d98e73490708ddb85824c
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=lnd-rest-client-1.0.2-sources.jar
+outputs.2.length=653759
+outputs.2.checksums.sha512=7a49fc753504a7c1a1bf6226ae7540360a9cc2afb4935489d56c83750a73f7d53b0225420e557a669a8851e92484675b6ddc34744c9b218817855ab45524fbe5
