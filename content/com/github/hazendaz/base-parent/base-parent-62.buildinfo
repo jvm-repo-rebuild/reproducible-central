@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=base-parent
+group-id=com.github.hazendaz
+artifact-id=base-parent
+version=62
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/base-parent.git
+source.scm.tag=base-parent-62
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=base-parent-62.pom
+outputs.0.length=100982
+outputs.0.checksums.sha512=2ff22c015e9cffba065215dab8baab86dd7b60b311fa7576221eb91cf1c8431df42a866b21f236da56b7316f035bcf07c2f7e2d58c75ca428349582fb6a4b71c
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=base-parent-62-cyclonedx.xml
+outputs.1.length=18031
+outputs.1.checksums.sha512=291bf92378f029af7fd316de51e625c9feb748602429a1d3a4fa751ae373d1e2f0d4e990846c85c3a46faf93611da06d025c39c93e71b129af9d2e1ecfffd6af
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=base-parent-62-cyclonedx.json
+outputs.2.length=20652
+outputs.2.checksums.sha512=3ff6ff420b358b7daf3935872bf95ec1ff9398ed8b737760246211eb7ae168b655ad21fb210e6c4620bf570070405b75ddc7f8c6ffcb2886c5fe6b64e4cec0c5
