@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Script Interpreter
+group-id=org.apache.maven.shared
+artifact-id=maven-script-interpreter
+version=1.9
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-script-interpreter.git
+source.scm.tag=maven-script-interpreter-1.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-script-interpreter-1.9.pom
+outputs.0.length=4516
+outputs.0.checksums.sha512=d6003a0e78e6ebaeb414d533da4aefc9f993158d9517cf28e5cb9759000c703f8ddbba5fd2718780c7d8f37e47208edbe2295f0d6ccd03fcb758ed440cd9da72
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-script-interpreter-1.9.jar
+outputs.1.length=27578
+outputs.1.checksums.sha512=0786c4d8b9bfd8158217b0d16fa469165c141dcf557483dca45f26233afde71af1d9f934cb6de0f850b3acae8b2bb02966d6883e2fa8e66e30c9063c35a770af
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-script-interpreter-1.9-source-release.zip
+outputs.2.length=57852
+outputs.2.checksums.sha512=ca21082726dbd76d7136012f40165ede586527c74ddeef94ef7c986324818d062844d9cba387244cc899537623c552ab89a19ba572812ba2c59dbb84b1d314ce
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-script-interpreter-1.9-sources.jar
+outputs.3.length=24326
+outputs.3.checksums.sha512=1cd76c031b7e8c4e8cc798c4ae3e8805ef166ff8f1497ee7a6b612c046c85faec0b2cf53d3cf00c76ed7f906bcc02404b3c2ff49eba39b4c40e496b3321bd8ca
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-script-interpreter-1.9-cyclonedx.xml
+outputs.4.length=13138
+outputs.4.checksums.sha512=df77ec2a7c99748a78e061ed4c2be3ab62be7b0961ec8ed8d6b74ab5103b4654c79d6b0b7830c4fe4753872945a1b8b470da5c075f5be07344dde21c9d63e3ec
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-script-interpreter-1.9-cyclonedx.json
+outputs.5.length=14546
+outputs.5.checksums.sha512=248b68acbebc57406e63956e416ef6005e2334e330bd08cb2f24a7eb292e2e0013a696f1478038cc73de16bda8ce312ad6b779905d47b15db6f645fdadb6161e
