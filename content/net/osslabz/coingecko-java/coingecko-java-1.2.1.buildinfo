@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:coingecko-java
+group-id=net.osslabz
+artifact-id=coingecko-java
+version=1.2.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/coingecko-java.git
+source.scm.tag=1.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=coingecko-java-1.2.1.pom
+outputs.0.length=21938
+outputs.0.checksums.sha512=988e1651e106e0d28d29c5817ec77e18c0a4f27b0b23a318dc7221c6a42638b4af1e968c4c004cdc1fee581d886e5dfba299a9875401630e3ceed727d8205286
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=coingecko-java-1.2.1.jar
+outputs.1.length=128878
+outputs.1.checksums.sha512=76152f3449a1a56be6aab7b1c48d14f6b6db07bd91fb44376c01bd84bd5efad3ad780df015c116de6577f51738c383306473b7e7aaa87d6b844276a3c21917b0
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=coingecko-java-1.2.1-sources.jar
+outputs.2.length=39740
+outputs.2.checksums.sha512=b643f30b2cc6154287f8f1ddfe1dbcdb0ff4d441a834d1619319ec6c298ab31bd576895ef9904167ca9d67629fd96a9d215882c4c3d7709e2db938c097e61107

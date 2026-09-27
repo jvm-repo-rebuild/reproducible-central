@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/osslabz/coingecko-java.git](https://github.com/osslabz/coingecko-java.git)
 
-rebuilding **1 releases** of net.osslabz:coingecko-java:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of net.osslabz:coingecko-java:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.1](https://central.sonatype.com/artifact/net.osslabz/coingecko-java/1.2.1/pom) | | | |
+| [1.2.1](https://central.sonatype.com/artifact/net.osslabz/coingecko-java/1.2.1/pom) | [mvn jdk25](coingecko-java-1.2.1.buildspec) | [result](coingecko-java-1.2.1.buildinfo): [3 :white_check_mark: ](coingecko-java-1.2.1.buildcompare) | | 187K |
 | [1.2.0](https://central.sonatype.com/artifact/net.osslabz/coingecko-java/1.2.0/pom) | [mvn jdk21](coingecko-java-1.2.0.buildspec) | [result](coingecko-java-1.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](coingecko-java-1.2.0.buildcompare) [:mag:](coingecko-java-1.2.0.diffoscope) | - | 173K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
