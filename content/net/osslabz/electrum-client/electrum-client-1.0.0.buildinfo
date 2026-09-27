@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:electrum-client
+group-id=net.osslabz
+artifact-id=electrum-client
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/electrum-client.git
+source.scm.tag=1.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=electrum-client-1.0.0.pom
+outputs.0.length=20456
+outputs.0.checksums.sha512=9c59961ec1939277dad2757a397ffb6f93f9e4b5bf6dca983a610515bd7bd9ccf0c649425deb69eeb2fa404e6bc742b020bb592d0096dac4f0ecb8cd70c71733
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=electrum-client-1.0.0.jar
+outputs.1.length=12428
+outputs.1.checksums.sha512=ea44a3704d9443a3b98de7b6738c15bbb59f07e7369dadcb6089fc34347a798d9363cdff1764031500c8150e48d3e8df358cbc5b6d659e6792d03e1408e86c88
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=electrum-client-1.0.0-sources.jar
+outputs.2.length=8912
+outputs.2.checksums.sha512=2db8eec7a0c6bde9dc17961e9873fff0ca53aa83b4adf1ecf93c6577e1e5b2b3514c6bb4820463cb0cc10cb1fe03e52749622a23b6c4788c7ecac14e71d174ac
