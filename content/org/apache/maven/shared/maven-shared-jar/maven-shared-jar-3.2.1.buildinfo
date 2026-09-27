@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JAR Analysis Utilities
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-jar
+version=3.2.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-jar.git
+source.scm.tag=maven-shared-jar-3.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-shared-jar-3.2.1.pom
+outputs.0.length=5154
+outputs.0.checksums.sha512=6d5e0bc82c311e16809bc556b3f4b5ee47bd870d9a262496b0fb392816ae41d5ea74d1c65caa695534a061b5af3f128799eb5fae462230abbd19df086a03971a
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-shared-jar-3.2.1.jar
+outputs.1.length=44700
+outputs.1.checksums.sha512=856bdd0b4621998bf98997e1120eb56cd0f6ec7d6bdb82e677b47003a67717ecffc93cbab1e54adbab02f55eb4ea46ac0291e8207bf65efc12e3cc97e281c748
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-shared-jar-3.2.1-source-release.zip
+outputs.2.length=1155552
+outputs.2.checksums.sha512=2391e47f29bf0f493c01cc49e6285ddf9bee7a1d9f1939d1836d314edf55d7f07d79cd62727e45f9ae9c25649f354a68795fbdaa15e79d8ecf9f531bd29e2788
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-shared-jar-3.2.1-sources.jar
+outputs.3.length=42433
+outputs.3.checksums.sha512=75f91c4a8d153700477b71764069a7f8c88ae889b22f22f0245fc099ce41351751403124d9d82b57e8be99b59ce510ca61c8ffdb39d34c8f976b9dd43dee6168
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-shared-jar-3.2.1-cyclonedx.xml
+outputs.4.length=32610
+outputs.4.checksums.sha512=b60790ea47a5d14d966fac5d195eaf0ee79890855ee88d202df0d4505bbe7922320d6d4fb87b55042e421b6677c96fb774871c14c92d7e6297bacd84e0a10bb5
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-shared-jar-3.2.1-cyclonedx.json
+outputs.5.length=35745
+outputs.5.checksums.sha512=0b33bdab7783a38d27d3b063269ae12e86deda93b750dc57eeff74b1d8fe3aead884d27fed74a3ddfef2c9acbb1819bab604ae41f5794681034cadebe5b8b626
