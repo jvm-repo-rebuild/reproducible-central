@@ -7,17 +7,23 @@
 
 Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git)
 
-<details><summary>This project defines 37 modules:</summary>
+<details><summary>This project defines 45 modules:</summary>
 
 * [org.jdbi.internal.basepom:jdbi-basepom](https://central.sonatype.com/artifact/org.jdbi.internal.basepom/jdbi-basepom/overview)
+* [org.jdbi.internal:jdbi3-internal-cache-parent](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-internal-cache-parent/overview)
+* [org.jdbi.internal:jdbi3-internal-parent](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-internal-parent/overview)
+* [org.jdbi.internal:jdbi3-native-tests](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-native-tests/overview)
 * [org.jdbi.internal:jdbi3-parent](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-parent/overview)
 * [org.jdbi.internal:jdbi3-policy](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-policy/overview)
 * [org.jdbi.internal:jdbi3-root](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/overview)
+* [org.jdbi:jdbi3-benchmark](https://central.sonatype.com/artifact/org.jdbi/jdbi3-benchmark/overview)
 * [org.jdbi:jdbi3-bom](https://central.sonatype.com/artifact/org.jdbi/jdbi3-bom/overview)
 * [org.jdbi:jdbi3-build-parent](https://central.sonatype.com/artifact/org.jdbi/jdbi3-build-parent/overview)
 * [org.jdbi:jdbi3-caffeine-cache](https://central.sonatype.com/artifact/org.jdbi/jdbi3-caffeine-cache/overview)
 * [org.jdbi:jdbi3-commons-text](https://central.sonatype.com/artifact/org.jdbi/jdbi3-commons-text/overview)
 * [org.jdbi:jdbi3-core](https://central.sonatype.com/artifact/org.jdbi/jdbi3-core/overview)
+* [org.jdbi:jdbi3-docs](https://central.sonatype.com/artifact/org.jdbi/jdbi3-docs/overview)
+* [org.jdbi:jdbi3-e2e](https://central.sonatype.com/artifact/org.jdbi/jdbi3-e2e/overview)
 * [org.jdbi:jdbi3-examples](https://central.sonatype.com/artifact/org.jdbi/jdbi3-examples/overview)
 * [org.jdbi:jdbi3-freemarker](https://central.sonatype.com/artifact/org.jdbi/jdbi3-freemarker/overview)
 * [org.jdbi:jdbi3-generator](https://central.sonatype.com/artifact/org.jdbi/jdbi3-generator/overview)
@@ -26,6 +32,7 @@ Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git
 * [org.jdbi:jdbi3-guice](https://central.sonatype.com/artifact/org.jdbi/jdbi3-guice/overview)
 * [org.jdbi:jdbi3-jackson2](https://central.sonatype.com/artifact/org.jdbi/jdbi3-jackson2/overview)
 * [org.jdbi:jdbi3-jackson3](https://central.sonatype.com/artifact/org.jdbi/jdbi3-jackson3/overview)
+* [org.jdbi:jdbi3-java21](https://central.sonatype.com/artifact/org.jdbi/jdbi3-java21/overview)
 * [org.jdbi:jdbi3-jodatime2](https://central.sonatype.com/artifact/org.jdbi/jdbi3-jodatime2/overview)
 * [org.jdbi:jdbi3-jpa](https://central.sonatype.com/artifact/org.jdbi/jdbi3-jpa/overview)
 * [org.jdbi:jdbi3-json](https://central.sonatype.com/artifact/org.jdbi/jdbi3-json/overview)
@@ -34,6 +41,7 @@ Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git
 * [org.jdbi:jdbi3-moshi](https://central.sonatype.com/artifact/org.jdbi/jdbi3-moshi/overview)
 * [org.jdbi:jdbi3-mysql](https://central.sonatype.com/artifact/org.jdbi/jdbi3-mysql/overview)
 * [org.jdbi:jdbi3-noop-cache](https://central.sonatype.com/artifact/org.jdbi/jdbi3-noop-cache/overview)
+* [org.jdbi:jdbi3-noparameters](https://central.sonatype.com/artifact/org.jdbi/jdbi3-noparameters/overview)
 * [org.jdbi:jdbi3-opentelemetry](https://central.sonatype.com/artifact/org.jdbi/jdbi3-opentelemetry/overview)
 * [org.jdbi:jdbi3-oracle12](https://central.sonatype.com/artifact/org.jdbi/jdbi3-oracle12/overview)
 * [org.jdbi:jdbi3-postgis](https://central.sonatype.com/artifact/org.jdbi/jdbi3-postgis/overview)
@@ -48,13 +56,13 @@ Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git
 * [org.jdbi:jdbi3-vavr](https://central.sonatype.com/artifact/org.jdbi/jdbi3-vavr/overview)
 </details>
 
-rebuilding **21 releases** of org.jdbi.internal:jdbi3-root:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **22 releases** of org.jdbi.internal:jdbi3-root:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.55.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.55.0/pom) | | | |
+| [3.55.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.55.0/pom) | [mvn jdk25](jdbi3-root-3.55.0.buildspec) | [result](jdbi3-parent-3.55.0.buildinfo): [185 :white_check_mark: ](jdbi3-parent-3.55.0.buildcompare) | | 30M |
 | [3.54.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.54.0/pom) | [mvn jdk26](jdbi3-root-3.54.0.buildspec) | [result](jdbi3-parent-3.54.0.buildinfo): [162 :white_check_mark: ](jdbi3-parent-3.54.0.buildcompare) | | 6.2M |
 | [3.53.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.53.0/pom) | [mvn jdk26](jdbi3-root-3.53.0.buildspec) | [result](jdbi3-parent-3.53.0.buildinfo): [162 :white_check_mark: ](jdbi3-parent-3.53.0.buildcompare) | | 6.1M |
 | [3.52.1](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.52.1/pom) | [mvn jdk25](jdbi3-root-3.52.1.buildspec) | [result](jdbi3-parent-3.52.1.buildinfo): [162 :white_check_mark: ](jdbi3-parent-3.52.1.buildcompare) | | 6.1M |
