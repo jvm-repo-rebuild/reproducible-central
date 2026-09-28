@@ -53,15 +53,15 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate/hibernate-vector/overview)
 </details>
 
-rebuilding **114 releases** of org.hibernate.orm:hibernate-core:
+rebuilding **115 releases** of org.hibernate.orm:hibernate-core:
 - **110** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [8.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta3/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta3.buildspec) | [result](hibernate-core-8.0.0.Beta3.buildinfo): [64 :white_check_mark:  5 :warning:](hibernate-core-8.0.0.Beta3.buildcompare) | 5 :rotating_light: | 32M |
-| [8.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta2/pom) | | | |
+| [8.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta2/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta2.buildspec) | [result](hibernate-core-8.0.0.Beta2.buildinfo): [64 :white_check_mark:  5 :warning:](hibernate-core-8.0.0.Beta2.buildcompare) | 5 :rotating_light: | 32M |
 | [8.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta1/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta1.buildspec) | [result](hibernate-core-8.0.0.Beta1.buildinfo): [79 :white_check_mark: ](hibernate-core-8.0.0.Beta1.buildcompare) | | 30M |
 | [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | [gradle jdk25](hibernate-core-8.0.0.Alpha1.buildspec) | [result](hibernate-core-8.0.0.Alpha1.buildinfo): [72 :white_check_mark: ](hibernate-core-8.0.0.Alpha1.buildcompare) | | 27M |
 | [7.4.11.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.4.11.Final/pom) | | | |
