@@ -13,6 +13,7 @@ rebuilding **131 releases** of org.hibernate.reactive:hibernate-reactive-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.0.0.Beta1/pom) | | | |
 | [4.5.8.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.8.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.8.Final.buildspec) | [result](hibernate-reactive-core-4.5.8.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.8.Final.buildcompare) | | 2.1M |
 | [4.5.7.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.7.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.7.Final.buildspec) | [result](hibernate-reactive-core-4.5.7.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.7.Final.buildcompare) | | 2.1M |
 | [4.5.6.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.6.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.6.Final.buildspec) | [result](hibernate-reactive-core-4.5.6.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.6.Final.buildcompare) | | 2.1M |
