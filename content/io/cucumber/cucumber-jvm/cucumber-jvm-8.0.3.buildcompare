@@ -1,0 +1,9 @@
+version=8.0.3
+ok=56
+ko=0
+ignored=0
+okFiles="cucumber-jvm-8.0.3.pom cucumber-bom-8.0.3.pom cucumber-plugin-8.0.3.pom cucumber-plugin-8.0.3.jar cucumber-plugin-8.0.3-sources.jar cucumber-gherkin-8.0.3.pom cucumber-gherkin-8.0.3.jar cucumber-gherkin-8.0.3-sources.jar cucumber-gherkin-messages-8.0.3.pom cucumber-gherkin-messages-8.0.3.jar cucumber-gherkin-messages-8.0.3-sources.jar datatable-8.0.3.pom datatable-8.0.3.jar datatable-8.0.3-sources.jar docstring-8.0.3.pom docstring-8.0.3.jar docstring-8.0.3-sources.jar cucumber-core-8.0.3.pom cucumber-core-8.0.3.jar cucumber-core-8.0.3-sources.jar cucumber-junit-platform-engine-8.0.3.pom cucumber-junit-platform-engine-8.0.3.jar cucumber-junit-platform-engine-8.0.3-sources.jar cucumber-java-8.0.3.pom cucumber-java-8.0.3.jar cucumber-java-8.0.3-sources.jar cucumber-archetype-8.0.3.pom cucumber-archetype-8.0.3.jar cucumber-archetype-8.0.3-sources.jar cucumber-guice-8.0.3.pom cucumber-guice-8.0.3.jar cucumber-guice-8.0.3-sources.jar cucumber-jakarta-cdi-8.0.3.pom cucumber-jakarta-cdi-8.0.3.jar cucumber-jakarta-cdi-8.0.3-sources.jar cucumber-jakarta-openejb-8.0.3.pom cucumber-jakarta-openejb-8.0.3.jar cucumber-jakarta-openejb-8.0.3-sources.jar cucumber-java8-8.0.3.pom cucumber-java8-8.0.3.jar cucumber-java8-8.0.3-sources.jar cucumber-junit-8.0.3.pom cucumber-junit-8.0.3.jar cucumber-junit-8.0.3-sources.jar cucumber-picocontainer-8.0.3.pom cucumber-picocontainer-8.0.3.jar cucumber-picocontainer-8.0.3-sources.jar cucumber-spring-8.0.3.pom cucumber-spring-8.0.3.jar cucumber-spring-8.0.3-sources.jar cucumber-testng-8.0.3.pom cucumber-testng-8.0.3.jar cucumber-testng-8.0.3-sources.jar datatable-matchers-8.0.3.pom datatable-matchers-8.0.3.jar datatable-matchers-8.0.3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
