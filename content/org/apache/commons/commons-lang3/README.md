@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.commons:commons-lang3:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.21.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.21.0/pom) | | | |
 | [3.20.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.20.0/pom) | [mvn jdk25](commons-lang3-3.20.0.buildspec) | [result](commons-lang3-3.20.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.20.0.buildcompare) | | 3.5M |
 | [3.19.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.19.0/pom) | [mvn jdk17](commons-lang3-3.19.0.buildspec) | [result](commons-lang3-3.19.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.19.0.buildcompare) | | 3.5M |
 | [3.18.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.18.0/pom) | [mvn jdk21](commons-lang3-3.18.0.buildspec) | [result](commons-lang3-3.18.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.18.0.buildcompare) | | 3.4M |

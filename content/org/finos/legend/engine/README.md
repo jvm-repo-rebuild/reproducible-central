@@ -586,6 +586,7 @@ rebuilding **11 releases** of org.finos.legend.engine:legend-engine:
 | [4.146.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.146.0/pom) | | | |
 | [4.145.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.145.0/pom) | | | |
 | [4.144.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.144.0/pom) | | | |
+| [4.143.4](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.143.4/pom) | | | |
 | [4.143.3](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.143.3/pom) | | | |
 | [4.143.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.143.1/pom) | | | |
 | [4.143.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.143.0/pom) | | | |
