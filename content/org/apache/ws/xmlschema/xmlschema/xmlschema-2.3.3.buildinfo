@@ -1,0 +1,75 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XmlSchema
+group-id=org.apache.ws.xmlschema
+artifact-id=xmlschema
+version=2.3.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/ws-xmlschema.git
+source.scm.tag=xmlschema-2.3.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.7
+mvn.aggregate.artifact-id=xmlschema-walker
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.ws.xmlschema:xmlschema
+
+outputs.0.0.groupId=org.apache.ws.xmlschema
+outputs.0.0.filename=xmlschema-2.3.3.pom
+outputs.0.0.length=29623
+outputs.0.0.checksums.sha512=d1c319af53be2dc6a8b7d2afccd08b4881111d7b06f976c4153f3b5d912f9924e7c3cbec657f2e9694fe467cd6a5cd524a7e38694ab8b7fef8a04a265177991c
+
+outputs.0.1.groupId=org.apache.ws.xmlschema
+outputs.0.1.filename=xmlschema-2.3.3-source-release.zip
+outputs.0.1.length=14150013
+outputs.0.1.checksums.sha512=4f3b9a28dcc74d65925718c0043b84bcbf3f0d9d1976c8d5d1b3cb327accccc6f0e375a8f05961f56df7db626ba183feea0aceb1c2ef5701c48a68104a40476d
+
+outputs.1.coordinates=org.apache.ws.xmlschema:xmlschema-core
+
+outputs.1.0.groupId=org.apache.ws.xmlschema
+outputs.1.0.filename=xmlschema-core-2.3.3.pom
+outputs.1.0.length=6857
+outputs.1.0.checksums.sha512=0a0aa5a421173ae601743b1f157af22f87cd431db05ea965068379f110f325dec72afbf58cfe0448b7a36118ae4f98ac22008efd96fe8c55cf2c0114a5056018
+
+outputs.1.1.groupId=org.apache.ws.xmlschema
+outputs.1.1.filename=xmlschema-core-2.3.3.jar
+outputs.1.1.length=193402
+outputs.1.1.checksums.sha512=a56089e72920ae418fbda4dadda4953fc9e2224526bb69fe61a8d8172cf4235007c876630797b9325113617e6df4ed68eacd9e3a491d2bdc4f7ba1494f3062cf
+
+outputs.1.2.groupId=org.apache.ws.xmlschema
+outputs.1.2.filename=xmlschema-core-2.3.3-sources.jar
+outputs.1.2.length=180414
+outputs.1.2.checksums.sha512=cda44bff9c1166e4690f4fbfbdcd75c2cc074eeac9428fd9986fe466be8202105dfd612cfcd0959e9e32011bc4b953fd0e13a852df2b0356cf100c3346bef184
+
+outputs.2.coordinates=org.apache.ws.xmlschema:xmlschema-walker
+
+outputs.2.0.groupId=org.apache.ws.xmlschema
+outputs.2.0.filename=xmlschema-walker-2.3.3.pom
+outputs.2.0.length=1493
+outputs.2.0.checksums.sha512=ddaf937fd4da36e6c135984f11a1313398792dccc845f20b7d7f0c53c8e6b5be09a56c20d762b0218e3fd1f8fb336c3b37777316abeaa73350ddb7ae426aab2d
+
+outputs.2.1.groupId=org.apache.ws.xmlschema
+outputs.2.1.filename=xmlschema-walker-2.3.3.jar
+outputs.2.1.length=113915
+outputs.2.1.checksums.sha512=98e45a15d93a7781c9ebf81be48f01e10425ffc9c850173b7f96c1e6bd94b550241e93e55d53e47fb1423d54509c5c18f5020bda05c5a677cb673991e9324f44
+
+outputs.2.2.groupId=org.apache.ws.xmlschema
+outputs.2.2.filename=xmlschema-walker-2.3.3-sources.jar
+outputs.2.2.length=84537
+outputs.2.2.checksums.sha512=8a3c2d5e26fbf49946b9ab5cbfaade274162918c52a0caa1233d1bd6653075f52fd011a406e4a3dd6a6d438faac225b62ba171a53e0542cc51ce2c68e0f268a6
