@@ -27,14 +27,17 @@ rebuilding **12 releases** of org.apache.wss4j:wss4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.2](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/4.0.2/pom) | | | |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/4.0.1/pom) | [mvn jdk17](wss4j-4.0.1.buildspec) | [result](wss4j-4.0.1.buildinfo): [51 :white_check_mark: ](wss4j-4.0.1.buildcompare) | | 7.3M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/4.0.0/pom) | [mvn jdk17](wss4j-4.0.0.buildspec) | [result](wss4j-4.0.0.buildinfo): [51 :white_check_mark: ](wss4j-4.0.0.buildcompare) | | 7.4M |
+| [3.0.6](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.6/pom) | | | |
 | [3.0.5](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.5/pom) | [mvn jdk11](wss4j-3.0.5.buildspec) | [result](wss4j-3.0.5.buildinfo): [51 :white_check_mark: ](wss4j-3.0.5.buildcompare) | | 6.9M |
 | [3.0.4](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.4/pom) | [mvn jdk11](wss4j-3.0.4.buildspec) | [result](wss4j-3.0.4.buildinfo): [51 :white_check_mark: ](wss4j-3.0.4.buildcompare) | | 6.8M |
 | [3.0.3](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.3/pom) | [mvn jdk11](wss4j-3.0.3.buildspec) | [result](wss4j-3.0.3.buildinfo): [52 :white_check_mark: ](wss4j-3.0.3.buildcompare) | | 6.8M |
 | [3.0.2](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.2/pom) | [mvn jdk11](wss4j-3.0.2.buildspec) | [result](wss4j-3.0.2.buildinfo): [52 :white_check_mark: ](wss4j-3.0.2.buildcompare) | | 6.7M |
 | [3.0.1](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.1/pom) | [mvn jdk17](wss4j-3.0.1.buildspec) | [result](wss4j-3.0.1.buildinfo): [32 :white_check_mark: ](wss4j-3.0.1.buildcompare) | | 5.6M |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.0/pom) | [mvn jdk11](wss4j-3.0.0.buildspec) | [result](wss4j-3.0.0.buildinfo): [32 :white_check_mark: ](wss4j-3.0.0.buildcompare) | | 6.6M |
+| [2.4.4](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/2.4.4/pom) | | | |
 | [2.4.3](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/2.4.3/pom) | [mvn jdk8](wss4j-2.4.3.buildspec) | [result](wss4j-2.4.3.buildinfo): [52 :white_check_mark: ](wss4j-2.4.3.buildcompare) | | 6.6M |
 | [2.4.2](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/2.4.2/pom) | [mvn jdk8](wss4j-2.4.2.buildspec) | [result](wss4j-2.4.2.buildinfo): [32 :white_check_mark: ](wss4j-2.4.2.buildcompare) | | 5.5M |
 | [2.4.1](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/2.4.1/pom) | [mvn jdk8](wss4j-2.4.1.buildspec) | [result](wss4j-2.4.1.buildinfo): [32 :white_check_mark: ](wss4j-2.4.1.buildcompare) | | 6.6M |

@@ -33,6 +33,7 @@ rebuilding **49 releases** of eu.maveniverse.maven.mimir:mimir:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.12.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.12.4/pom) | | | |
 | [0.12.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.12.3/pom) | [mvn jdk21](mimir-0.12.3.buildspec) | [result](mimir-0.12.3.buildinfo): [40 :white_check_mark: ](mimir-0.12.3.buildcompare) | | 40M |
 | [0.12.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.12.2/pom) | [mvn jdk21](mimir-0.12.2.buildspec) | [result](mimir-0.12.2.buildinfo): [40 :white_check_mark: ](mimir-0.12.2.buildcompare) | | 40M |
 | [0.12.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.12.1/pom) | [mvn jdk21](mimir-0.12.1.buildspec) | [result](mimir-0.12.1.buildinfo): [40 :white_check_mark: ](mimir-0.12.1.buildcompare) | | 39M |

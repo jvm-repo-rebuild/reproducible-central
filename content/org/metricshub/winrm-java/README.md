@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.metricshub:winrm-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.0.00/pom) | | | |
 | [2.2.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/2.2.00/pom) | [mvn jdk17](winrm-java-2.2.00.buildspec) | [result](winrm-java-2.2.00.buildinfo): [4 :white_check_mark: ](winrm-java-2.2.00.buildcompare) | | 621K |
 | [2.1.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/2.1.00/pom) | [mvn jdk17](winrm-java-2.1.00.buildspec) | [result](winrm-java-2.1.00.buildinfo): [4 :white_check_mark: ](winrm-java-2.1.00.buildcompare) | | 607K |
 | [2.0.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/2.0.00/pom) | [mvn jdk17](winrm-java-2.0.00.buildspec) | [result](winrm-java-2.0.00.buildinfo): [4 :white_check_mark: ](winrm-java-2.0.00.buildcompare) | | 584K |

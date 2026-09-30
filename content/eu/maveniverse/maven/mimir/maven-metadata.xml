@@ -3,8 +3,8 @@
   <groupId>eu.maveniverse.maven.mimir</groupId>
   <artifactId>mimir</artifactId>
   <versioning>
-    <latest>0.12.3</latest>
-    <release>0.12.3</release>
+    <latest>0.12.4</latest>
+    <release>0.12.4</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -55,7 +55,8 @@
       <version>0.12.1</version>
       <version>0.12.2</version>
       <version>0.12.3</version>
+      <version>0.12.4</version>
     </versions>
-    <lastUpdated>20260904163119</lastUpdated>
+    <lastUpdated>20260930182334</lastUpdated>
   </versioning>
 </metadata>
