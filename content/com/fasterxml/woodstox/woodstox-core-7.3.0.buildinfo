@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Woodstox
+group-id=com.fasterxml.woodstox
+artifact-id=woodstox-core
+version=7.3.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/woodstox.git
+source.scm.tag=woodstox-core-7.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_504
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.fasterxml.woodstox
+outputs.0.filename=woodstox-core-7.3.0.pom
+outputs.0.length=10191
+outputs.0.checksums.sha512=ec1d832346c426e26c9da5967961372356171617f72e82a847dfd9e01fc46a11360800aaeef2df7916c87dbeaad0d4f54dce518205bf9584560a1d6643149481
+
+outputs.1.groupId=com.fasterxml.woodstox
+outputs.1.filename=woodstox-core-7.3.0.jar
+outputs.1.length=1626149
+outputs.1.checksums.sha512=8dbd0545d328a7b6072b841915b3bc810f893bfb3ccabf9e54d0d0d4112b936c08ae7a6840d386615a3180082e7fe452d64f13820fca9e2a8924806277753c36
+
+outputs.2.groupId=com.fasterxml.woodstox
+outputs.2.filename=woodstox-core-7.3.0-sources.jar
+outputs.2.length=570052
+outputs.2.checksums.sha512=71c7db451069955ebd79a83d7ebb7a2780a0fa0f4a8516948b6f250479c92514e0758136b1a07623d83cc3253f75853a0ad32d544456920fb0dac1a439d7da81
