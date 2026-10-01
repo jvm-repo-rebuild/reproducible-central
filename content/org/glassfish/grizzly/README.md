@@ -53,8 +53,8 @@ Source code: [https://github.com/eclipse-ee4j/glassfish-grizzly.git](https://git
 * [org.glassfish.grizzly:tls-sni](https://central.sonatype.com/artifact/org.glassfish.grizzly/tls-sni/overview)
 </details>
 
-rebuilding **7 releases** of org.glassfish.grizzly:grizzly-project:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.glassfish.grizzly:grizzly-project:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -63,7 +63,7 @@ rebuilding **7 releases** of org.glassfish.grizzly:grizzly-project:
 | [5.0.2](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.2/pom) | [mvn jdk21](grizzly-5.0.2.buildspec) | [result](grizzly-project-5.0.2.buildinfo): [181 :white_check_mark: ](grizzly-project-5.0.2.buildcompare) | | 26M |
 | [5.0.1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.1/pom) | [mvn jdk21](grizzly-5.0.1.buildspec) | [result](grizzly-project-5.0.1.buildinfo): [181 :white_check_mark: ](grizzly-project-5.0.1.buildcompare) | | 26M |
 | [5.0.0](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.0/pom) | [mvn jdk21](grizzly-5.0.0.buildspec) | [result](grizzly-project-5.0.0.buildinfo): [191 :white_check_mark: ](grizzly-project-5.0.0.buildcompare) | | 26M |
-| [4.1.0](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.1.0/pom) | [mvn jdk21](grizzly-4.1.0.buildspec) | [result](grizzly-project-4.1.0.buildinfo): [191 :white_check_mark: ](grizzly-project-4.1.0.buildcompare) | | 26M |
 | [4.1.0-M1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.1.0-M1/pom) | [mvn jdk17](grizzly-4.1.0-M1.buildspec) | [result](grizzly-project-4.1.0-M1.buildinfo): [202 :white_check_mark:  2 :warning:](grizzly-project-4.1.0-M1.buildcompare) [:mag:](grizzly-project-4.1.0-M1.diffoscope) | 2 :no_entry_sign: | 32M |
 | [4.0.2](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.0.2/pom) | [mvn jdk17](grizzly-4.0.2.buildspec) | [result](grizzly-project-4.0.2.buildinfo): [120 :white_check_mark: ](grizzly-project-4.0.2.buildcompare) | | 30M |
 | [4.0.1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/4.0.1/pom) | [mvn jdk17](grizzly-4.0.1.buildspec) | [result](grizzly-project-4.0.1.buildinfo): [120 :white_check_mark: ](grizzly-project-4.0.1.buildcompare) | | 30M |
