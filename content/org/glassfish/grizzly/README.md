@@ -60,6 +60,7 @@ rebuilding **8 releases** of org.glassfish.grizzly:grizzly-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.0.3](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.3/pom) | | | |
 | [5.0.2](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.2/pom) | [mvn jdk21](grizzly-5.0.2.buildspec) | [result](grizzly-project-5.0.2.buildinfo): [181 :white_check_mark: ](grizzly-project-5.0.2.buildcompare) | | 26M |
 | [5.0.1](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.1/pom) | [mvn jdk21](grizzly-5.0.1.buildspec) | [result](grizzly-project-5.0.1.buildinfo): [181 :white_check_mark: ](grizzly-project-5.0.1.buildcompare) | | 26M |
 | [5.0.0](https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-project/5.0.0/pom) | [mvn jdk21](grizzly-5.0.0.buildspec) | [result](grizzly-project-5.0.0.buildinfo): [191 :white_check_mark: ](grizzly-project-5.0.0.buildcompare) | | 26M |
