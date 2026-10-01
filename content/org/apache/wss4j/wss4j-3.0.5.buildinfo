@@ -14,15 +14,15 @@ source.scm.tag=wss4j-3.0.5
 build-tool=mvn
 
 # effective build environment information
-java.version=11.0.25
+java.version=11.0.32.1
 java.vendor=Ubuntu
 os.name=Linux
-os.version=6.8.0-87-generic
+os.version=6.17.0-1022-azure
 os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.6.3
+mvn.version=3.9.12
 mvn.aggregate.artifact-id=wss4j-ws-security-policy-stax
 
 # aggregated output
@@ -102,8 +102,8 @@ outputs.3.0.checksums.sha512=5d5f6043461f948d038534479fffc8525faa622fc62ccd7504a
 
 outputs.3.1.groupId=org.apache.wss4j
 outputs.3.1.filename=wss4j-policy-3.0.5.jar
-outputs.3.1.length=212956
-outputs.3.1.checksums.sha512=352b2bacb12eff8d8a142e2057cbf06daf85ea54cbe907aad4d432de93dc501274bae6d8b40fdf0815ce16d7103c3bea2c864e14f8bd16f36abfd88abd1f7093
+outputs.3.1.length=212984
+outputs.3.1.checksums.sha512=e12d112e69aacf23befc0fdb8f32ff347f37fd9140532522bc92356063e1a559ec19b468569c2e07430c40f0771fab6edf34e51b8bb005c05d6699589a561b63
 
 outputs.3.2.groupId=org.apache.wss4j
 outputs.3.2.filename=wss4j-policy-3.0.5-sources.jar
@@ -129,8 +129,8 @@ outputs.4.0.checksums.sha512=e7aa061dfa715e5681a3402e5a643c255f96f7488c80edeeae1
 
 outputs.4.1.groupId=org.apache.wss4j
 outputs.4.1.filename=wss4j-ws-security-common-3.0.5.jar
-outputs.4.1.length=283331
-outputs.4.1.checksums.sha512=69170c398005bbcf286991a81794fea49256775aaaa38994dbf2496a802850ec30ad3fbe6ec2bb422452355a1bff5e23181a081d8745947ae4c0824c79752a72
+outputs.4.1.length=283408
+outputs.4.1.checksums.sha512=aa343c88b97f71f23b59e2d949661ce2f796bbce3976de9b15dce0c0ebab281539f9751f28c058cd855cbdd4746b6d7b457d055367a16f9e165251ba7115e647
 
 outputs.4.2.groupId=org.apache.wss4j
 outputs.4.2.filename=wss4j-ws-security-common-3.0.5-sources.jar
@@ -172,12 +172,12 @@ outputs.5.2.checksums.sha512=e6be671db49c8a4dd5e8c80df0ce3b58d1a56d2069a1de1b597
 outputs.5.3.groupId=org.apache.wss4j
 outputs.5.3.filename=wss4j-ws-security-dom-3.0.5-cyclonedx.xml
 outputs.5.3.length=89527
-outputs.5.3.checksums.sha512=e56511c308d81622d6595659050869c8854d8a7fc9429c182aea4af5612355ec7acfd8449c11d0a823e50986443620f82958b370ea3697d908fe7adcb7ecc23f
+outputs.5.3.checksums.sha512=b95343ef3c602a850af2eb0d5d3cca5755c7f1a355bc7790e4ed0ea650252e33ab85d301912f18694b3fbdee06655db661a1f5c6362ea1b6415dd5a879db3c23
 
 outputs.5.4.groupId=org.apache.wss4j
 outputs.5.4.filename=wss4j-ws-security-dom-3.0.5-cyclonedx.json
 outputs.5.4.length=97831
-outputs.5.4.checksums.sha512=bdd5aec0a3f94bd789ab98cf9cd018058aa934f04665af69e5ee82b07401140c196f43c74b3cabe936d386f7de9a915c04de5193ba094a4acbed6ee0419898e7
+outputs.5.4.checksums.sha512=5f769531880879803dcda9a44158e4396d20d5d794c58ca4fa444fee39b26b9e79c74131ab632853fc6953512d320e3a59142cf99b27c1b0d74ac3e42581fcb8
 
 outputs.5.5.groupId=org.apache.wss4j
 outputs.5.5.filename=wss4j-ws-security-dom-3.0.5-tests.jar
@@ -193,8 +193,8 @@ outputs.6.0.checksums.sha512=505ebc42eeb6c9bece25ce8ad5963b437bee058100fc1cdff60
 
 outputs.6.1.groupId=org.apache.wss4j
 outputs.6.1.filename=wss4j-ws-security-stax-3.0.5.jar
-outputs.6.1.length=412651
-outputs.6.1.checksums.sha512=e5fb441a39092ecae88570de59354a2ad029172d1ed58f9355a375ed27ba1deab4cc7836b6af8629599e621059154fb0c03ad2fd2902706f855101997d14f3c1
+outputs.6.1.length=412710
+outputs.6.1.checksums.sha512=9844e01bead2d110e9da57e0430eebb9fc70a30bd6ba2ad1e8a899ed77cf441f7e7b14b0a35953bcb62856d5b77f6468a054b8c6e11befb1cd40018d1b3e92f2
 
 outputs.6.2.groupId=org.apache.wss4j
 outputs.6.2.filename=wss4j-ws-security-stax-3.0.5-sources.jar
@@ -204,17 +204,17 @@ outputs.6.2.checksums.sha512=b53b10c7182a4d683c48b88789f2afdb30bbb8af3f28a8c3ec1
 outputs.6.3.groupId=org.apache.wss4j
 outputs.6.3.filename=wss4j-ws-security-stax-3.0.5-cyclonedx.xml
 outputs.6.3.length=101970
-outputs.6.3.checksums.sha512=3da4594692477003bb1a6537e92e85374d006c59f4ce1424fcb568b018d84ffac88b138a920bea1af038adf5f8c79bb1bfd65060064cbd24b64aeac18afdc922
+outputs.6.3.checksums.sha512=714c68ee05b67ab907ac22d66776d4f7a5b4e2bf2f011b83023158268c5849144cc75c216ee124bcb791578e17e77ba154984f9629aa3e20a18734202fcc7f67
 
 outputs.6.4.groupId=org.apache.wss4j
 outputs.6.4.filename=wss4j-ws-security-stax-3.0.5-cyclonedx.json
 outputs.6.4.length=111560
-outputs.6.4.checksums.sha512=c74a9f09990a789d4e2b7812d7070e75e0e8799ffd4948046d8b936011148708ee968428fddb166d6480cb265f341e1e83c7418ec921111dc9cfc8e83349fc8a
+outputs.6.4.checksums.sha512=f98a265ada0ce66fa26731eb0e64e2c50445154bdb6dd7f2d57545a89d2fdb4376656293736107c56b55b842ca73af977ec37ebfe6b01cd3baa30b6960de7f8c
 
 outputs.6.5.groupId=org.apache.wss4j
 outputs.6.5.filename=wss4j-ws-security-stax-3.0.5-tests.jar
-outputs.6.5.length=358286
-outputs.6.5.checksums.sha512=f2c5c29bbdf7cf746ecb02a939aa684bf634fe20c657ab44a151841c2cdacc8dc84e914e87665cdb1b355410ad2da4c432e83b869a91f0cb235b2e24fa249661
+outputs.6.5.length=358315
+outputs.6.5.checksums.sha512=fdc6b2d76f213c86514192cc3454f96e29bce91d9a24ce05cda932d4684559eb0c0776aab5ed78892b78960bd5c0576091691b08e37c5d6974017b8ca81ec490
 
 outputs.7.coordinates=org.apache.wss4j:wss4j-ws-security-web
 
@@ -236,12 +236,12 @@ outputs.7.2.checksums.sha512=b446c6f1ac3023fb3eb262fb405bfbd8b8846814f1852da8d98
 outputs.7.3.groupId=org.apache.wss4j
 outputs.7.3.filename=wss4j-ws-security-web-3.0.5-cyclonedx.xml
 outputs.7.3.length=94834
-outputs.7.3.checksums.sha512=1afbe5b13e31240e9123957e632f65de9020af03629a7c3b96bf7e49affa6ac084996cca8179d78a2aa010a6bcf76b6223c102a2e16a49cb11999809ce8f7e84
+outputs.7.3.checksums.sha512=707ec7e78b615d06125ea500f76c983d9da8f82b6089239674cfb19155c800838ea30b4400d5894bbeb7655929b27d78c4ebd65a16a4d1745895da9e232c5976
 
 outputs.7.4.groupId=org.apache.wss4j
 outputs.7.4.filename=wss4j-ws-security-web-3.0.5-cyclonedx.json
 outputs.7.4.length=103674
-outputs.7.4.checksums.sha512=2339d38294a739c64c76916493b0f84200588b31f2fe59aa445223948cb62224dcc181668464e6968a8735e7126efea0c41930a37d90ba58faee78eaaaa24bab
+outputs.7.4.checksums.sha512=8e4c075aeda21396ea7f44d7e4e9f16e88208bed84b96e02e93634ca2510fff81e6b7594ef110eb484792bc09949b4588530b39f81da8bf3d417d4c02ccad3f5
 
 outputs.8.coordinates=org.apache.wss4j:wss4j-integration
 
@@ -284,8 +284,8 @@ outputs.9.0.checksums.sha512=317f768007158ce16ed8abfa532c9eee5e42251d7e11f7bc9b6
 
 outputs.9.1.groupId=org.apache.wss4j
 outputs.9.1.filename=wss4j-ws-security-policy-stax-3.0.5.jar
-outputs.9.1.length=134225
-outputs.9.1.checksums.sha512=798415c2e84acad2c96bbb6a22a635df8e1ad5095c7b13ee8ea803521f739b40a39ce66402ae80d8723a28bd029e11fce46dd14a21c095b5c7132bbf94ddc39b
+outputs.9.1.length=134280
+outputs.9.1.checksums.sha512=c52b0771374b71e3c5315e1d41f1628cb4cce9ea04e5b382084b5750b3301ff30c898d8925ef1576420330b53a5e639c4e1ae802d5bb2b05b84d1ce379826fa5
 
 outputs.9.2.groupId=org.apache.wss4j
 outputs.9.2.filename=wss4j-ws-security-policy-stax-3.0.5-sources.jar
@@ -295,9 +295,9 @@ outputs.9.2.checksums.sha512=bdabf212118fc688d2215c6710caa66852930f75d72effb0e86
 outputs.9.3.groupId=org.apache.wss4j
 outputs.9.3.filename=wss4j-ws-security-policy-stax-3.0.5-cyclonedx.xml
 outputs.9.3.length=111645
-outputs.9.3.checksums.sha512=136222de57f304d1d2eb567f1a8171a710d987d79123a02b98afc1bfb68604cd65181b0ebe7b19c5ee59dc1b6e616672883f0f3bea9944723c1ea44df0751a70
+outputs.9.3.checksums.sha512=ade788420821927afb4e904f1107797a9eed170eab0dbc68d7bfb473d9dac2904d0096db0204a43031a978182185ffab8d05548ff31f205892e546c363464911
 
 outputs.9.4.groupId=org.apache.wss4j
 outputs.9.4.filename=wss4j-ws-security-policy-stax-3.0.5-cyclonedx.json
 outputs.9.4.length=122321
-outputs.9.4.checksums.sha512=b91420303419e94100a37f41a49883236d649f80a7320e00cf3598d36b7bdcedcb4077215dd4f887bc5592e52753e8450a2e27c7fe7b28085afe5d9d755f6214
+outputs.9.4.checksums.sha512=2240e724c0632731dd2f673a7a71895b9e51cf5300fe8f5e4a9a848e6a5220c1f2f3c734f3d7dfde668a646749c3c1c8e940d007e5df52f990d69381387c4812

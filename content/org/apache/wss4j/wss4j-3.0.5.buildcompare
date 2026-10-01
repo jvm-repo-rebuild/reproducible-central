@@ -1,9 +1,28 @@
 version=3.0.5
-ok=51
-ko=0
+ok=38
+ko=13
 ignored=0
-okFiles="wss4j-3.0.5.pom wss4j-3.0.5-source-release.zip wss4j-3.0.5-cyclonedx.xml wss4j-3.0.5-cyclonedx.json wss4j-parent-3.0.5.pom wss4j-parent-3.0.5-cyclonedx.xml wss4j-parent-3.0.5-cyclonedx.json wss4j-bindings-3.0.5.pom wss4j-bindings-3.0.5.jar wss4j-bindings-3.0.5-sources.jar wss4j-bindings-3.0.5-cyclonedx.xml wss4j-bindings-3.0.5-cyclonedx.json wss4j-policy-3.0.5.pom wss4j-policy-3.0.5.jar wss4j-policy-3.0.5-sources.jar wss4j-policy-3.0.5-cyclonedx.xml wss4j-policy-3.0.5-cyclonedx.json wss4j-ws-security-common-3.0.5.pom wss4j-ws-security-common-3.0.5.jar wss4j-ws-security-common-3.0.5-sources.jar wss4j-ws-security-common-3.0.5-cyclonedx.xml wss4j-ws-security-common-3.0.5-cyclonedx.json wss4j-ws-security-common-3.0.5-tests.jar wss4j-ws-security-dom-3.0.5.pom wss4j-ws-security-dom-3.0.5.jar wss4j-ws-security-dom-3.0.5-sources.jar wss4j-ws-security-dom-3.0.5-cyclonedx.xml wss4j-ws-security-dom-3.0.5-cyclonedx.json wss4j-ws-security-dom-3.0.5-tests.jar wss4j-ws-security-stax-3.0.5.pom wss4j-ws-security-stax-3.0.5.jar wss4j-ws-security-stax-3.0.5-sources.jar wss4j-ws-security-stax-3.0.5-cyclonedx.xml wss4j-ws-security-stax-3.0.5-cyclonedx.json wss4j-ws-security-stax-3.0.5-tests.jar wss4j-ws-security-web-3.0.5.pom wss4j-ws-security-web-3.0.5.jar wss4j-ws-security-web-3.0.5-sources.jar wss4j-ws-security-web-3.0.5-cyclonedx.xml wss4j-ws-security-web-3.0.5-cyclonedx.json wss4j-integration-3.0.5.pom wss4j-integration-3.0.5.jar wss4j-integration-3.0.5-sources.jar wss4j-integration-3.0.5-cyclonedx.xml wss4j-integration-3.0.5-cyclonedx.json wss4j-integration-3.0.5-tests.jar wss4j-ws-security-policy-stax-3.0.5.pom wss4j-ws-security-policy-stax-3.0.5.jar wss4j-ws-security-policy-stax-3.0.5-sources.jar wss4j-ws-security-policy-stax-3.0.5-cyclonedx.xml wss4j-ws-security-policy-stax-3.0.5-cyclonedx.json"
-koFiles=""
+okFiles="wss4j-3.0.5.pom wss4j-3.0.5-source-release.zip wss4j-3.0.5-cyclonedx.xml wss4j-3.0.5-cyclonedx.json wss4j-parent-3.0.5.pom wss4j-parent-3.0.5-cyclonedx.xml wss4j-parent-3.0.5-cyclonedx.json wss4j-bindings-3.0.5.pom wss4j-bindings-3.0.5.jar wss4j-bindings-3.0.5-sources.jar wss4j-bindings-3.0.5-cyclonedx.xml wss4j-bindings-3.0.5-cyclonedx.json wss4j-policy-3.0.5.pom wss4j-policy-3.0.5-sources.jar wss4j-policy-3.0.5-cyclonedx.xml wss4j-policy-3.0.5-cyclonedx.json wss4j-ws-security-common-3.0.5.pom wss4j-ws-security-common-3.0.5-sources.jar wss4j-ws-security-common-3.0.5-cyclonedx.xml wss4j-ws-security-common-3.0.5-cyclonedx.json wss4j-ws-security-common-3.0.5-tests.jar wss4j-ws-security-dom-3.0.5.pom wss4j-ws-security-dom-3.0.5.jar wss4j-ws-security-dom-3.0.5-sources.jar wss4j-ws-security-dom-3.0.5-tests.jar wss4j-ws-security-stax-3.0.5.pom wss4j-ws-security-stax-3.0.5-sources.jar wss4j-ws-security-web-3.0.5.pom wss4j-ws-security-web-3.0.5.jar wss4j-ws-security-web-3.0.5-sources.jar wss4j-integration-3.0.5.pom wss4j-integration-3.0.5.jar wss4j-integration-3.0.5-sources.jar wss4j-integration-3.0.5-cyclonedx.xml wss4j-integration-3.0.5-cyclonedx.json wss4j-integration-3.0.5-tests.jar wss4j-ws-security-policy-stax-3.0.5.pom wss4j-ws-security-policy-stax-3.0.5-sources.jar"
+koFiles="wss4j-policy-3.0.5.jar wss4j-ws-security-common-3.0.5.jar wss4j-ws-security-dom-3.0.5-cyclonedx.xml wss4j-ws-security-dom-3.0.5-cyclonedx.json wss4j-ws-security-stax-3.0.5.jar wss4j-ws-security-stax-3.0.5-cyclonedx.xml wss4j-ws-security-stax-3.0.5-cyclonedx.json wss4j-ws-security-stax-3.0.5-tests.jar wss4j-ws-security-web-3.0.5-cyclonedx.xml wss4j-ws-security-web-3.0.5-cyclonedx.json wss4j-ws-security-policy-stax-3.0.5.jar wss4j-ws-security-policy-stax-3.0.5-cyclonedx.xml wss4j-ws-security-policy-stax-3.0.5-cyclonedx.json"
 ignoredFiles=""
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.wss4j/wss4j-policy-3.0.5.jar policy/target/wss4j-policy-3.0.5.jar
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-common-3.0.5.jar ws-security-common/target/wss4j-ws-security-common-3.0.5.jar
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-dom-3.0.5-cyclonedx.xml ws-security-dom/target/wss4j-ws-security-dom-3.0.5-bom.xml
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-dom-3.0.5-cyclonedx.json ws-security-dom/target/wss4j-ws-security-dom-3.0.5-bom.json
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-stax-3.0.5.jar ws-security-stax/target/wss4j-ws-security-stax-3.0.5.jar
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-stax-3.0.5-cyclonedx.xml ws-security-stax/target/wss4j-ws-security-stax-3.0.5-bom.xml
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-stax-3.0.5-cyclonedx.json ws-security-stax/target/wss4j-ws-security-stax-3.0.5-bom.json
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-stax-3.0.5-tests.jar ws-security-stax/target/wss4j-ws-security-stax-3.0.5-tests.jar
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-web-3.0.5-cyclonedx.xml ws-security-web/target/wss4j-ws-security-web-3.0.5-bom.xml
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-web-3.0.5-cyclonedx.json ws-security-web/target/wss4j-ws-security-web-3.0.5-bom.json
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-policy-stax-3.0.5.jar ws-security-policy-stax/target/wss4j-ws-security-policy-stax-3.0.5.jar
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-policy-stax-3.0.5-cyclonedx.xml ws-security-policy-stax/target/wss4j-ws-security-policy-stax-3.0.5-bom.xml
+# diffoscope target/reference/org.apache.wss4j/wss4j-ws-security-policy-stax-3.0.5-cyclonedx.json ws-security-policy-stax/target/wss4j-ws-security-policy-stax-3.0.5-bom.json
+stabilize_ok=0
+stabilize_ko=5
+stabilize_ignored=8
+stabilize_okFiles=""
+stabilize_koFiles="wss4j-policy-3.0.5.jar.stabilized wss4j-ws-security-common-3.0.5.jar.stabilized wss4j-ws-security-stax-3.0.5.jar.stabilized wss4j-ws-security-stax-3.0.5-tests.jar.stabilized wss4j-ws-security-policy-stax-3.0.5.jar.stabilized"
+stabilize_ignoredFiles="wss4j-ws-security-dom-3.0.5-cyclonedx.xml wss4j-ws-security-dom-3.0.5-cyclonedx.json wss4j-ws-security-stax-3.0.5-cyclonedx.xml wss4j-ws-security-stax-3.0.5-cyclonedx.json wss4j-ws-security-web-3.0.5-cyclonedx.xml wss4j-ws-security-web-3.0.5-cyclonedx.json wss4j-ws-security-policy-stax-3.0.5-cyclonedx.xml wss4j-ws-security-policy-stax-3.0.5-cyclonedx.json"
