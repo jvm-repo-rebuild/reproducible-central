@@ -31,6 +31,7 @@ rebuilding **72 releases** of eu.maveniverse.maven.mima:mima:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0/pom) | [mvn jdk21](mima-3.0.0.buildspec) | [result](mima-3.0.0.buildinfo): [33 :white_check_mark: ](mima-3.0.0.buildcompare) | | 26M |
 | [3.0.0-alpha-3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-3/pom) | [mvn jdk21](mima-3.0.0-alpha-3.buildspec) | [result](mima-3.0.0-alpha-3.buildinfo): [27 :white_check_mark: ](mima-3.0.0-alpha-3.buildcompare) | | 33M |
 | [3.0.0-alpha-2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-2/pom) | [mvn jdk21](mima-3.0.0-alpha-2.buildspec) | [result](mima-3.0.0-alpha-2.buildinfo): [27 :white_check_mark: ](mima-3.0.0-alpha-2.buildcompare) | | 33M |
