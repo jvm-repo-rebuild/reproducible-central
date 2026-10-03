@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1149 modules:</summary>
+<details><summary>This project defines 1180 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
 * [io.quarkus.arc:arc-atinject-tck-runner](https://central.sonatype.com/artifact/io.quarkus.arc/arc-atinject-tck-runner/overview)
 * [io.quarkus.arc:arc-cdi-tck-porting-pkg](https://central.sonatype.com/artifact/io.quarkus.arc/arc-cdi-tck-porting-pkg/overview)
 * [io.quarkus.arc:arc-cdi-tck-runner](https://central.sonatype.com/artifact/io.quarkus.arc/arc-cdi-tck-runner/overview)
+* [io.quarkus.arc:arc-cdi-tck-signature](https://central.sonatype.com/artifact/io.quarkus.arc/arc-cdi-tck-signature/overview)
 * [io.quarkus.arc:arc-lang-model-tck-runner](https://central.sonatype.com/artifact/io.quarkus.arc/arc-lang-model-tck-runner/overview)
 * [io.quarkus.arc:arc-parent](https://central.sonatype.com/artifact/io.quarkus.arc/arc-parent/overview)
 * [io.quarkus.arc:arc-processor](https://central.sonatype.com/artifact/io.quarkus.arc/arc-processor/overview)
@@ -136,6 +137,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-cache-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-deployment/overview)
 * [io.quarkus:quarkus-cache-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-deployment-spi/overview)
 * [io.quarkus:quarkus-cache-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-dev/overview)
+* [io.quarkus:quarkus-cache-kotlin](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-kotlin/overview)
+* [io.quarkus:quarkus-cache-kotlin-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-kotlin-deployment/overview)
+* [io.quarkus:quarkus-cache-kotlin-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-kotlin-parent/overview)
 * [io.quarkus:quarkus-cache-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-parent/overview)
 * [io.quarkus:quarkus-cache-runtime-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-cache-runtime-spi/overview)
 * [io.quarkus:quarkus-caffeine](https://central.sonatype.com/artifact/io.quarkus/quarkus-caffeine/overview)
@@ -211,9 +215,19 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-datasource-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-datasource-dev/overview)
 * [io.quarkus:quarkus-datasource-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-datasource-parent/overview)
 * [io.quarkus:quarkus-development-mode-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-development-mode-spi/overview)
+* [io.quarkus:quarkus-devjsonrpc](https://central.sonatype.com/artifact/io.quarkus/quarkus-devjsonrpc/overview)
+* [io.quarkus:quarkus-devjsonrpc-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-devjsonrpc-deployment/overview)
+* [io.quarkus:quarkus-devjsonrpc-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-devjsonrpc-deployment-spi/overview)
+* [io.quarkus:quarkus-devjsonrpc-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-devjsonrpc-parent/overview)
+* [io.quarkus:quarkus-devmcp](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmcp/overview)
+* [io.quarkus:quarkus-devmcp-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmcp-deployment/overview)
+* [io.quarkus:quarkus-devmcp-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmcp-deployment-spi/overview)
+* [io.quarkus:quarkus-devmcp-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmcp-parent/overview)
+* [io.quarkus:quarkus-devmcp-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmcp-spi/overview)
 * [io.quarkus:quarkus-devmode-test-utils](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmode-test-utils/overview)
 * [io.quarkus:quarkus-devservices](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices/overview)
 * [io.quarkus:quarkus-devservices-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-common/overview)
+* [io.quarkus:quarkus-devservices-datasource-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-datasource-common/overview)
 * [io.quarkus:quarkus-devservices-db2](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-db2/overview)
 * [io.quarkus:quarkus-devservices-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-deployment/overview)
 * [io.quarkus:quarkus-devservices-derby](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-derby/overview)
@@ -237,6 +251,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-devui](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui/overview)
 * [io.quarkus:quarkus-devui-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui-deployment/overview)
 * [io.quarkus:quarkus-devui-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui-deployment-spi/overview)
+* [io.quarkus:quarkus-devui-observability-store](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui-observability-store/overview)
 * [io.quarkus:quarkus-devui-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui-parent/overview)
 * [io.quarkus:quarkus-devui-resources](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui-resources/overview)
 * [io.quarkus:quarkus-devui-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-devui-spi/overview)
@@ -362,6 +377,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-hibernate-orm-rest-data-panache](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-rest-data-panache/overview)
 * [io.quarkus:quarkus-hibernate-orm-rest-data-panache-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-rest-data-panache-deployment/overview)
 * [io.quarkus:quarkus-hibernate-orm-rest-data-panache-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-rest-data-panache-parent/overview)
+* [io.quarkus:quarkus-hibernate-orm-runtime-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-runtime-spi/overview)
 * [io.quarkus:quarkus-hibernate-panache](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-panache/overview)
 * [io.quarkus:quarkus-hibernate-panache-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-panache-deployment/overview)
 * [io.quarkus:quarkus-hibernate-panache-next](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-panache-next/overview)
@@ -403,6 +419,10 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-hibernate-validator-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-validator-parent/overview)
 * [io.quarkus:quarkus-hibernate-validator-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-validator-spi/overview)
 * [io.quarkus:quarkus-http-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-http-parent/overview)
+* [io.quarkus:quarkus-http3](https://central.sonatype.com/artifact/io.quarkus/quarkus-http3/overview)
+* [io.quarkus:quarkus-http3-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-http3-deployment/overview)
+* [io.quarkus:quarkus-http3-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-http3-deployment-spi/overview)
+* [io.quarkus:quarkus-http3-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-http3-parent/overview)
 * [io.quarkus:quarkus-ide-config](https://central.sonatype.com/artifact/io.quarkus/quarkus-ide-config/overview)
 * [io.quarkus:quarkus-ide-launcher](https://central.sonatype.com/artifact/io.quarkus/quarkus-ide-launcher/overview)
 * [io.quarkus:quarkus-infinispan-cache](https://central.sonatype.com/artifact/io.quarkus/quarkus-infinispan-cache/overview)
@@ -588,6 +608,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-messaging-rabbitmq-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-messaging-rabbitmq-parent/overview)
 * [io.quarkus:quarkus-micrometer](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer/overview)
 * [io.quarkus:quarkus-micrometer-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-deployment/overview)
+* [io.quarkus:quarkus-micrometer-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-dev/overview)
 * [io.quarkus:quarkus-micrometer-opentelemetry](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-opentelemetry/overview)
 * [io.quarkus:quarkus-micrometer-opentelemetry-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-opentelemetry-deployment/overview)
 * [io.quarkus:quarkus-micrometer-opentelemetry-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-opentelemetry-parent/overview)
@@ -649,6 +670,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-observability-devservices-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-observability-devservices-parent/overview)
 * [io.quarkus:quarkus-observability-testcontainers](https://central.sonatype.com/artifact/io.quarkus/quarkus-observability-testcontainers/overview)
 * [io.quarkus:quarkus-observability-testlibs](https://central.sonatype.com/artifact/io.quarkus/quarkus-observability-testlibs/overview)
+* [io.quarkus:quarkus-observation](https://central.sonatype.com/artifact/io.quarkus/quarkus-observation/overview)
+* [io.quarkus:quarkus-observation-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-observation-deployment/overview)
+* [io.quarkus:quarkus-observation-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-observation-parent/overview)
 * [io.quarkus:quarkus-oidc](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc/overview)
 * [io.quarkus:quarkus-oidc-client](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client/overview)
 * [io.quarkus:quarkus-oidc-client-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-deployment/overview)
@@ -691,6 +715,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-openshift-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-openshift-parent/overview)
 * [io.quarkus:quarkus-opentelemetry](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry/overview)
 * [io.quarkus:quarkus-opentelemetry-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-deployment/overview)
+* [io.quarkus:quarkus-opentelemetry-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-dev/overview)
 * [io.quarkus:quarkus-opentelemetry-exporter-jaeger](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-jaeger/overview)
 * [io.quarkus:quarkus-opentelemetry-exporter-jaeger-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-jaeger-deployment/overview)
 * [io.quarkus:quarkus-opentelemetry-exporter-otlp](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-otlp/overview)
@@ -723,6 +748,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-qute-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-qute-parent/overview)
 * [io.quarkus:quarkus-reactive-datasource](https://central.sonatype.com/artifact/io.quarkus/quarkus-reactive-datasource/overview)
 * [io.quarkus:quarkus-reactive-datasource-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-reactive-datasource-deployment/overview)
+* [io.quarkus:quarkus-reactive-datasource-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-reactive-datasource-deployment-spi/overview)
 * [io.quarkus:quarkus-reactive-datasource-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-reactive-datasource-parent/overview)
 * [io.quarkus:quarkus-reactive-datasource-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-reactive-datasource-spi/overview)
 * [io.quarkus:quarkus-reactive-db2-client](https://central.sonatype.com/artifact/io.quarkus/quarkus-reactive-db2-client/overview)
@@ -1032,6 +1058,10 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-smallrye-stork](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-stork/overview)
 * [io.quarkus:quarkus-smallrye-stork-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-stork-deployment/overview)
 * [io.quarkus:quarkus-smallrye-stork-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-stork-parent/overview)
+* [io.quarkus:quarkus-spiffe-client](https://central.sonatype.com/artifact/io.quarkus/quarkus-spiffe-client/overview)
+* [io.quarkus:quarkus-spiffe-client-api](https://central.sonatype.com/artifact/io.quarkus/quarkus-spiffe-client-api/overview)
+* [io.quarkus:quarkus-spiffe-client-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-spiffe-client-deployment/overview)
+* [io.quarkus:quarkus-spiffe-client-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-spiffe-client-parent/overview)
 * [io.quarkus:quarkus-spring-boot-properties](https://central.sonatype.com/artifact/io.quarkus/quarkus-spring-boot-properties/overview)
 * [io.quarkus:quarkus-spring-boot-properties-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-spring-boot-properties-deployment/overview)
 * [io.quarkus:quarkus-spring-boot-properties-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-spring-boot-properties-parent/overview)
@@ -1095,6 +1125,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-test-observability](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-observability/overview)
 * [io.quarkus:quarkus-test-oidc-server](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-oidc-server/overview)
 * [io.quarkus:quarkus-test-openshift-client](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-openshift-client/overview)
+* [io.quarkus:quarkus-test-prometheus-metrics](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-prometheus-metrics/overview)
 * [io.quarkus:quarkus-test-security](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security/overview)
 * [io.quarkus:quarkus-test-security-jwt](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security-jwt/overview)
 * [io.quarkus:quarkus-test-security-oidc](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security-oidc/overview)
@@ -1160,14 +1191,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **221 releases** of io.quarkus:quarkus-project:
+rebuilding **222 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 221 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 132, 0 had all their differences removed :recycle:, 132 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 222 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 133, 0 had all their differences removed :recycle:, 133 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0.Beta1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta1/pom) | | | |
+| [4.0.0.Beta1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta1/pom) | [mvn jdk21](quarkus-4.0.0.Beta1.buildspec) | [result](quarkus-project-4.0.0.Beta1.buildinfo): [2523 :white_check_mark:  2 :warning:](quarkus-project-4.0.0.Beta1.buildcompare) | 2 :rotating_light: | 161M |
 | [3.40.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.40.1/pom) | [mvn jdk21](quarkus-3.40.1.buildspec) | [result](quarkus-project-3.40.1.buildinfo): [2489 :white_check_mark:  2 :warning:](quarkus-project-3.40.1.buildcompare) | 2 :rotating_light: | 152M |
 | [3.40.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.40.0/pom) | [mvn jdk21](quarkus-3.40.0.buildspec) | [result](quarkus-project-3.40.0.buildinfo): [2488 :white_check_mark:  3 :warning:](quarkus-project-3.40.0.buildcompare) | 3 :rotating_light: | 152M |
 | [3.40.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.40.0.CR1/pom) | [mvn jdk21](quarkus-3.40.0.CR1.buildspec) | [result](quarkus-project-3.40.0.CR1.buildinfo): [2489 :white_check_mark:  2 :warning:](quarkus-project-3.40.0.CR1.buildcompare) | 2 :rotating_light: | 155M |
