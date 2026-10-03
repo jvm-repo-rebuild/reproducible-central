@@ -34,13 +34,13 @@ Source code: [https://github.com/cucumber/cucumber-jvm.git](https://github.com/c
 * [io.cucumber:docstring](https://central.sonatype.com/artifact/io.cucumber/docstring/overview)
 </details>
 
-rebuilding **52 releases** of io.cucumber:cucumber-jvm:
-- **52** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **53 releases** of io.cucumber:cucumber-jvm:
+- **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.0.4](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.4/pom) | | | |
+| [8.0.4](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.4/pom) | [mvn jdk21](cucumber-jvm-8.0.4.buildspec) | [result](cucumber-jvm-8.0.4.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.4.buildcompare) | | 3.4M |
 | [8.0.3](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.3/pom) | [mvn jdk21](cucumber-jvm-8.0.3.buildspec) | [result](cucumber-jvm-8.0.3.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.3.buildcompare) | | 3.4M |
 | [8.0.2](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.2/pom) | [mvn jdk21](cucumber-jvm-8.0.2.buildspec) | [result](cucumber-jvm-8.0.2.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.2.buildcompare) | | 3.4M |
 | [8.0.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.1/pom) | [mvn jdk21](cucumber-jvm-8.0.1.buildspec) | [result](cucumber-jvm-8.0.1.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.1.buildcompare) | | 3.4M |
