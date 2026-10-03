@@ -1,0 +1,37 @@
+version=7.4.0
+ok=51
+ko=22
+ignored=0
+okFiles="struts2-project-7.4.0.pom struts2-project-7.4.0-site.xml struts2-bom-7.4.0.pom struts2-parent-7.4.0.pom struts2-jakarta-7.4.0.pom struts2-velocity-tools-view-jakarta-7.4.0.pom struts2-velocity-tools-view-jakarta-7.4.0-sources.jar struts2-velocity-tools-jsp-jakarta-7.4.0.pom struts2-velocity-tools-jsp-jakarta-7.4.0-sources.jar struts2-core-7.4.0.pom struts2-core-7.4.0-sources.jar struts2-plugins-7.4.0.pom struts2-async-plugin-7.4.0.pom struts2-async-plugin-7.4.0-sources.jar struts2-bean-validation-plugin-7.4.0.pom struts2-bean-validation-plugin-7.4.0-sources.jar struts2-cdi-plugin-7.4.0.pom struts2-cdi-plugin-7.4.0-sources.jar struts2-spring-plugin-7.4.0.pom struts2-spring-plugin-7.4.0-sources.jar struts2-junit-plugin-7.4.0.pom struts2-junit-plugin-7.4.0-sources.jar struts2-velocity-plugin-7.4.0.pom struts2-velocity-plugin-7.4.0-sources.jar struts2-config-browser-plugin-7.4.0.pom struts2-config-browser-plugin-7.4.0-sources.jar struts2-convention-plugin-7.4.0.pom struts2-convention-plugin-7.4.0-sources.jar struts2-jasperreports-plugin-7.4.0.pom struts2-jasperreports-plugin-7.4.0-sources.jar struts2-jasperreports7-plugin-7.4.0.pom struts2-jasperreports7-plugin-7.4.0-sources.jar struts2-javatemplates-plugin-7.4.0.pom struts2-javatemplates-plugin-7.4.0-sources.jar struts2-jfreechart-plugin-7.4.0.pom struts2-jfreechart-plugin-7.4.0-sources.jar struts2-json-plugin-7.4.0.pom struts2-json-plugin-7.4.0-sources.jar struts2-rest-plugin-7.4.0.pom struts2-rest-plugin-7.4.0-sources.jar struts2-testng-plugin-7.4.0.pom struts2-testng-plugin-7.4.0-sources.jar struts2-tiles-plugin-7.4.0.pom struts2-tiles-plugin-7.4.0-sources.jar struts2-xslt-plugin-7.4.0.pom struts2-xslt-plugin-7.4.0-sources.jar struts2-apps-7.4.0.pom struts2-showcase-7.4.0.pom struts2-showcase-7.4.0-sources.jar struts2-rest-showcase-7.4.0.pom struts2-rest-showcase-7.4.0-sources.jar"
+koFiles="struts2-velocity-tools-view-jakarta-7.4.0.jar struts2-velocity-tools-jsp-jakarta-7.4.0.jar struts2-core-7.4.0.jar struts2-async-plugin-7.4.0.jar struts2-bean-validation-plugin-7.4.0.jar struts2-cdi-plugin-7.4.0.jar struts2-spring-plugin-7.4.0.jar struts2-junit-plugin-7.4.0.jar struts2-velocity-plugin-7.4.0.jar struts2-config-browser-plugin-7.4.0.jar struts2-convention-plugin-7.4.0.jar struts2-jasperreports-plugin-7.4.0.jar struts2-jasperreports7-plugin-7.4.0.jar struts2-javatemplates-plugin-7.4.0.jar struts2-jfreechart-plugin-7.4.0.jar struts2-json-plugin-7.4.0.jar struts2-rest-plugin-7.4.0.jar struts2-testng-plugin-7.4.0.jar struts2-tiles-plugin-7.4.0.jar struts2-xslt-plugin-7.4.0.jar struts2-showcase-7.4.0.war struts2-rest-showcase-7.4.0.war"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.struts/struts2-velocity-tools-view-jakarta-7.4.0.jar jakarta/velocity-tools-view-jakarta/target/struts2-velocity-tools-view-jakarta-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-velocity-tools-jsp-jakarta-7.4.0.jar jakarta/velocity-tools-jsp-jakarta/target/struts2-velocity-tools-jsp-jakarta-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-core-7.4.0.jar core/target/struts2-core-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-async-plugin-7.4.0.jar plugins/async/target/struts2-async-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-bean-validation-plugin-7.4.0.jar plugins/bean-validation/target/struts2-bean-validation-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-cdi-plugin-7.4.0.jar plugins/cdi/target/struts2-cdi-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-spring-plugin-7.4.0.jar plugins/spring/target/struts2-spring-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-junit-plugin-7.4.0.jar plugins/junit/target/struts2-junit-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-velocity-plugin-7.4.0.jar plugins/velocity/target/struts2-velocity-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-config-browser-plugin-7.4.0.jar plugins/config-browser/target/struts2-config-browser-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-convention-plugin-7.4.0.jar plugins/convention/target/struts2-convention-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-jasperreports-plugin-7.4.0.jar plugins/jasperreports/target/struts2-jasperreports-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-jasperreports7-plugin-7.4.0.jar plugins/jasperreports7/target/struts2-jasperreports7-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-javatemplates-plugin-7.4.0.jar plugins/javatemplates/target/struts2-javatemplates-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-jfreechart-plugin-7.4.0.jar plugins/jfreechart/target/struts2-jfreechart-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-json-plugin-7.4.0.jar plugins/json/target/struts2-json-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-rest-plugin-7.4.0.jar plugins/rest/target/struts2-rest-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-testng-plugin-7.4.0.jar plugins/testng/target/struts2-testng-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-tiles-plugin-7.4.0.jar plugins/tiles/target/struts2-tiles-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-xslt-plugin-7.4.0.jar plugins/xslt/target/struts2-xslt-plugin-7.4.0.jar
+# diffoscope target/reference/org.apache.struts/struts2-showcase-7.4.0.war apps/showcase/target/struts2-showcase.war
+# diffoscope target/reference/org.apache.struts/struts2-rest-showcase-7.4.0.war apps/rest-showcase/target/struts2-rest-showcase.war
+stabilize_ok=3
+stabilize_ko=17
+stabilize_ignored=2
+stabilize_okFiles="struts2-cdi-plugin-7.4.0.jar.stabilized struts2-spring-plugin-7.4.0.jar.stabilized struts2-testng-plugin-7.4.0.jar.stabilized"
+stabilize_koFiles="struts2-velocity-tools-view-jakarta-7.4.0.jar.stabilized struts2-velocity-tools-jsp-jakarta-7.4.0.jar.stabilized struts2-core-7.4.0.jar.stabilized struts2-async-plugin-7.4.0.jar.stabilized struts2-bean-validation-plugin-7.4.0.jar.stabilized struts2-junit-plugin-7.4.0.jar.stabilized struts2-velocity-plugin-7.4.0.jar.stabilized struts2-config-browser-plugin-7.4.0.jar.stabilized struts2-convention-plugin-7.4.0.jar.stabilized struts2-jasperreports-plugin-7.4.0.jar.stabilized struts2-jasperreports7-plugin-7.4.0.jar.stabilized struts2-javatemplates-plugin-7.4.0.jar.stabilized struts2-jfreechart-plugin-7.4.0.jar.stabilized struts2-json-plugin-7.4.0.jar.stabilized struts2-rest-plugin-7.4.0.jar.stabilized struts2-tiles-plugin-7.4.0.jar.stabilized struts2-xslt-plugin-7.4.0.jar.stabilized"
+stabilize_ignoredFiles="struts2-showcase-7.4.0.war struts2-rest-showcase-7.4.0.war"
