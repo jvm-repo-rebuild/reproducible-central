@@ -93,10 +93,11 @@
       <version>8.0.2</version>
       <version>8.0.3</version>
       <version>8.0.4</version>
+      <version>8.0.5</version>
       <version>9.0.0-M1</version>
       <version>9.0.0-M2</version>
       <version>9.0.0-M3</version>
     </versions>
-    <lastUpdated>20260811151639</lastUpdated>
+    <lastUpdated>20261003124530</lastUpdated>
   </versioning>
 </metadata>
