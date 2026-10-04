@@ -3,8 +3,11 @@
 content/at/yawk/lz4/lz4-java/lz4-java-1.11.3.buildspec:1.12.0
 content/com/flowlogix/flowlogix-11.6.buildspec:11.7
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.0
+content/com/google/mug/mug-11.1.buildspec:11.2
 content/dev/langchain4j/langchain4j-1.20.0.buildspec:1.21.0
-content/io/jstach/rainbowgum/rainbowgum-0.12.0.buildspec:0.13.0
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.5.1-beta-11.buildspec:11.5.1-beta-12
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.18.4-beta-4.buildspec:5.18.4-beta-5
+content/io/jstach/rainbowgum/rainbowgum-0.12.0.buildspec:0.14.0
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/struts/struts2-7.3.0.buildspec:7.4.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
