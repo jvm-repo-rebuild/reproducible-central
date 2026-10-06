@@ -124,6 +124,7 @@ rebuilding **6 releases** of org.phoebus:parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/6.0.0/pom) | | | |
 | [5.0.5](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.5/pom) | [mvn jdk17 w](phoebus-5.0.5.buildspec) | [result](parent-5.0.5.buildinfo): [279 :white_check_mark:  8 :warning:](parent-5.0.5.buildcompare) | 5 :rotating_light: 2 :no_entry_sign: | 354M |
 | [5.0.4](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.4/pom) | [mvn jdk17 w](phoebus-5.0.4.buildspec) | [result](parent-5.0.4.buildinfo): [279 :white_check_mark:  8 :warning:](parent-5.0.4.buildcompare) | 5 :rotating_light: 2 :no_entry_sign: | 354M |
 | [5.0.2](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.2/pom) | [mvn jdk17 w](phoebus-5.0.2.buildspec) | [result](parent-5.0.2.buildinfo): [262 :white_check_mark:  7 :warning:](parent-5.0.2.buildcompare) [:mag:](parent-5.0.2.diffoscope) | 5 :rotating_light: 2 :no_entry_sign: | 310M |
