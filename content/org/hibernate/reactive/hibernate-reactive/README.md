@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/hibernate/hibernate-reactive.git](https://github.com/hibernate/hibernate-reactive.git)
 
-rebuilding **138 releases** of org.hibernate.reactive:hibernate-reactive-core:
-- **138** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **139 releases** of org.hibernate.reactive:hibernate-reactive-core:
+- **139** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [5.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.0.0.Beta1/pom) | [gradle jdk25](hibernate-reactive-5.0.0.Beta1.buildspec) | [result](hibernate-reactive-core-5.0.0.Beta1.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-5.0.0.Beta1.buildcompare) | | 2.1M |
-| [4.5.9.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.9.Final/pom) | | | |
+| [4.5.9.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.9.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.9.Final.buildspec) | [result](hibernate-reactive-core-4.5.9.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.9.Final.buildcompare) | | 2.1M |
 | [4.5.8.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.8.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.8.Final.buildspec) | [result](hibernate-reactive-core-4.5.8.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.8.Final.buildcompare) | | 2.1M |
 | [4.5.7.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.7.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.7.Final.buildspec) | [result](hibernate-reactive-core-4.5.7.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.7.Final.buildcompare) | | 2.1M |
 | [4.5.6.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.5.6.Final/pom) | [gradle jdk25](hibernate-reactive-4.5.6.Final.buildspec) | [result](hibernate-reactive-core-4.5.6.Final.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-4.5.6.Final.buildcompare) | | 2.1M |
