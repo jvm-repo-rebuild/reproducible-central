@@ -3,6 +3,19 @@
 previousBuildspec=$1
 nextVersion=$2
 
+if [[ "${previousBuildspec}" == *"-PREV.buildspec" ]]
+then
+  dir=$(dirname ${previousBuildspec})
+  for version in $(tac ${dir}/maven-metadata.xml | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1 | grep -A 10 ${nextVersion} | grep -v ${nextVersion})
+  do
+    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+    then
+      previousBuildspec="$dir/$(ls $dir | grep "\-${version}\.buildspec")"
+      break
+    fi
+  done
+fi
+
 [ ! -f ${previousBuildspec} ] && echo "Previous buildspec not found: ${previousBuildspec}" && exit 1
 diffoscope=
 . ${previousBuildspec}

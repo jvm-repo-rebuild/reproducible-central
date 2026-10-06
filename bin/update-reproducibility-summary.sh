@@ -77,7 +77,7 @@ do
                   && echo "  missing ${countMissingBuildspec}: https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$dir/README.md" \
                   && echo "    bin/add-new-release.sh $dir/${previousBuildspec} $missingBuildspec"
       [ $countMissingBuildspec -gt 0 ] && echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
-           "| ${missingBuildspec} | \`bin/add-new-release.sh $dir/${previousBuildspec} ...\` |" >> tmp/new-releases-ok.md
+           "| ${missingBuildspec} | \`bin/add-new-release.sh $dir/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-PREV.buildspec ...\` |" >> tmp/new-releases-ok.md
     elif [ -z "$issue" ]
     then
       rebuildStatus=":warning:"
