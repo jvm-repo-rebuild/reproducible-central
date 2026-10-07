@@ -1,0 +1,33 @@
+version=1.7.8
+ok=0
+ko=18
+ignored=0
+okFiles=""
+koFiles="jpmml-model-1.7.8.pom pmml-agent-1.7.8.pom pmml-agent-1.7.8.jar pmml-xjc-1.7.8.pom pmml-xjc-1.7.8.jar pmml-model-1.7.8.pom pmml-model-1.7.8.jar pmml-model-1.7.8-tests.jar pmml-model-jackson-1.7.8.pom pmml-model-jackson-1.7.8.jar pmml-model-kryo-1.7.8.pom pmml-model-kryo-1.7.8.jar pmml-model-metro-1.7.8.pom pmml-model-metro-1.7.8.jar pmml-model-moxy-1.7.8.pom pmml-model-moxy-1.7.8.jar pmml-model-teavm-1.7.8.pom pmml-model-teavm-1.7.8.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/jpmml-model-1.7.8.pom pom.xml
+# diffoscope target/reference/org.jpmml/pmml-agent-1.7.8.pom pmml-agent/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-agent-1.7.8.jar pmml-agent/target/pmml-agent-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-xjc-1.7.8.pom pmml-xjc/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-xjc-1.7.8.jar pmml-xjc/target/pmml-xjc-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-model-1.7.8.pom pmml-model/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-model-1.7.8.jar pmml-model/target/pmml-model-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-model-1.7.8-tests.jar pmml-model/target/pmml-model-1.7.8-tests.jar
+# diffoscope target/reference/org.jpmml/pmml-model-jackson-1.7.8.pom pmml-model-jackson/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-model-jackson-1.7.8.jar pmml-model-jackson/target/pmml-model-jackson-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-model-kryo-1.7.8.pom pmml-model-kryo/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-model-kryo-1.7.8.jar pmml-model-kryo/target/pmml-model-kryo-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-model-metro-1.7.8.pom pmml-model-metro/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-model-metro-1.7.8.jar pmml-model-metro/target/pmml-model-metro-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-model-moxy-1.7.8.pom pmml-model-moxy/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-model-moxy-1.7.8.jar pmml-model-moxy/target/pmml-model-moxy-1.7.8.jar
+# diffoscope target/reference/org.jpmml/pmml-model-teavm-1.7.8.pom pmml-model-teavm/pom.xml
+# diffoscope target/reference/org.jpmml/pmml-model-teavm-1.7.8.jar pmml-model-teavm/target/pmml-model-teavm-1.7.8.jar
+stabilize_ok=0
+stabilize_ko=9
+stabilize_ignored=9
+stabilize_okFiles=""
+stabilize_koFiles="pmml-agent-1.7.8.jar.stabilized pmml-xjc-1.7.8.jar.stabilized pmml-model-1.7.8.jar.stabilized pmml-model-1.7.8-tests.jar.stabilized pmml-model-jackson-1.7.8.jar.stabilized pmml-model-kryo-1.7.8.jar.stabilized pmml-model-metro-1.7.8.jar.stabilized pmml-model-moxy-1.7.8.jar.stabilized pmml-model-teavm-1.7.8.jar.stabilized"
+stabilize_ignoredFiles="jpmml-model-1.7.8.pom pmml-agent-1.7.8.pom pmml-xjc-1.7.8.pom pmml-model-1.7.8.pom pmml-model-jackson-1.7.8.pom pmml-model-kryo-1.7.8.pom pmml-model-metro-1.7.8.pom pmml-model-moxy-1.7.8.pom pmml-model-teavm-1.7.8.pom"
