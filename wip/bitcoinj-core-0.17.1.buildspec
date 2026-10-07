@@ -1,0 +1,20 @@
+groupId=org.bitcoinj
+artifactId=bitcoinj-core
+version=0.17.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/bitcoinj/bitcoinj.git
+gitTag=v${version}
+
+tool=gradle
+jdk=17
+newline=lf
+
+#execBefore="sed -i -e 's|dirMode = 0755|//dirMode = 0755|;s|fileMode = 0644|//fileMode = 0644|' build.gradle ; sed -i -e 's|sourceCompatibility = 8|//sourceCompatibility = 8|;s|targetCompatibility = 8|//targetCompatibility = 8|' core/build.gradle ; sed -i -e 's|sourceCompatibility = 8|//sourceCompatibility = 8|;s|targetCompatibility = 8|//targetCompatibility = 8|' core/build.gradle"
+command="gradle publishToMavenLocal"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
