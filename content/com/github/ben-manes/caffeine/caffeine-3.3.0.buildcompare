@@ -1,0 +1,27 @@
+version=3.3.0
+ok=0
+ko=16
+okFiles=""
+koFiles="caffeine-3.3.0-SNAPSHOT-sources.jar caffeine-3.3.0-SNAPSHOT.jar caffeine-3.3.0-SNAPSHOT.pom maven-metadata-local.xml guava-3.3.0-SNAPSHOT-sources.jar guava-3.3.0-SNAPSHOT.jar guava-3.3.0-SNAPSHOT.pom maven-metadata-local.xml jcache-3.3.0-SNAPSHOT-sources.jar jcache-3.3.0-SNAPSHOT.jar jcache-3.3.0-SNAPSHOT.pom maven-metadata-local.xml maven-metadata-local.xml simulator-3.3.0-SNAPSHOT-sources.jar simulator-3.3.0-SNAPSHOT.jar simulator-3.3.0-SNAPSHOT.pom"
+# diffoscope central/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/caffeine-3.3.0-SNAPSHOT-sources.jar repository/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/caffeine-3.3.0-SNAPSHOT-sources.jar
+# diffoscope central/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/caffeine-3.3.0-SNAPSHOT.jar repository/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/caffeine-3.3.0-SNAPSHOT.jar
+# diffoscope central/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/caffeine-3.3.0-SNAPSHOT.pom repository/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/caffeine-3.3.0-SNAPSHOT.pom
+# diffoscope central/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/maven-metadata-local.xml repository/com/github/ben-manes/caffeine/caffeine/3.3.0-SNAPSHOT/maven-metadata-local.xml
+# diffoscope central/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/guava-3.3.0-SNAPSHOT-sources.jar repository/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/guava-3.3.0-SNAPSHOT-sources.jar
+# diffoscope central/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/guava-3.3.0-SNAPSHOT.jar repository/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/guava-3.3.0-SNAPSHOT.jar
+# diffoscope central/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/guava-3.3.0-SNAPSHOT.pom repository/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/guava-3.3.0-SNAPSHOT.pom
+# diffoscope central/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/maven-metadata-local.xml repository/com/github/ben-manes/caffeine/guava/3.3.0-SNAPSHOT/maven-metadata-local.xml
+# diffoscope central/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/jcache-3.3.0-SNAPSHOT-sources.jar repository/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/jcache-3.3.0-SNAPSHOT-sources.jar
+# diffoscope central/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/jcache-3.3.0-SNAPSHOT.jar repository/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/jcache-3.3.0-SNAPSHOT.jar
+# diffoscope central/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/jcache-3.3.0-SNAPSHOT.pom repository/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/jcache-3.3.0-SNAPSHOT.pom
+# diffoscope central/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/maven-metadata-local.xml repository/com/github/ben-manes/caffeine/jcache/3.3.0-SNAPSHOT/maven-metadata-local.xml
+# diffoscope central/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/maven-metadata-local.xml repository/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/maven-metadata-local.xml
+# diffoscope central/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/simulator-3.3.0-SNAPSHOT-sources.jar repository/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/simulator-3.3.0-SNAPSHOT-sources.jar
+# diffoscope central/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/simulator-3.3.0-SNAPSHOT.jar repository/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/simulator-3.3.0-SNAPSHOT.jar
+# diffoscope central/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/simulator-3.3.0-SNAPSHOT.pom repository/com/github/ben-manes/caffeine/simulator/3.3.0-SNAPSHOT/simulator-3.3.0-SNAPSHOT.pom
+stabilize_ok=0
+stabilize_ko=12
+stabilize_ignored=4
+stabilize_okFiles=""
+stabilize_koFiles="caffeine-3.3.0-SNAPSHOT-sources.jar.stabilized caffeine-3.3.0-SNAPSHOT.jar.stabilized caffeine-3.3.0-SNAPSHOT.pom.stabilized guava-3.3.0-SNAPSHOT-sources.jar.stabilized guava-3.3.0-SNAPSHOT.jar.stabilized guava-3.3.0-SNAPSHOT.pom.stabilized jcache-3.3.0-SNAPSHOT-sources.jar.stabilized jcache-3.3.0-SNAPSHOT.jar.stabilized jcache-3.3.0-SNAPSHOT.pom.stabilized simulator-3.3.0-SNAPSHOT-sources.jar.stabilized simulator-3.3.0-SNAPSHOT.jar.stabilized simulator-3.3.0-SNAPSHOT.pom.stabilized"
+stabilize_ignoredFiles="maven-metadata-local.xml maven-metadata-local.xml maven-metadata-local.xml maven-metadata-local.xml"
