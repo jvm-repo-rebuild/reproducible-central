@@ -117,14 +117,14 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:services](https://central.sonatype.com/artifact/org.phoebus/services/overview)
 </details>
 
-rebuilding **6 releases** of org.phoebus:parent:
+rebuilding **7 releases** of org.phoebus:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/6.0.0/pom) | | | |
+| [6.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/6.0.0/pom) | [mvn jdk21 w](phoebus-6.0.0.buildspec) | [result](parent-6.0.0.buildinfo): [ 285 :warning:](parent-6.0.0.buildcompare) | 177 :rotating_light: 107 :no_entry_sign: | 357M |
 | [5.0.5](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.5/pom) | [mvn jdk17 w](phoebus-5.0.5.buildspec) | [result](parent-5.0.5.buildinfo): [279 :white_check_mark:  8 :warning:](parent-5.0.5.buildcompare) | 5 :rotating_light: 2 :no_entry_sign: | 354M |
 | [5.0.4](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.4/pom) | [mvn jdk17 w](phoebus-5.0.4.buildspec) | [result](parent-5.0.4.buildinfo): [279 :white_check_mark:  8 :warning:](parent-5.0.4.buildcompare) | 5 :rotating_light: 2 :no_entry_sign: | 354M |
 | [5.0.2](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.2/pom) | [mvn jdk17 w](phoebus-5.0.2.buildspec) | [result](parent-5.0.2.buildinfo): [262 :white_check_mark:  7 :warning:](parent-5.0.2.buildcompare) [:mag:](parent-5.0.2.diffoscope) | 5 :rotating_light: 2 :no_entry_sign: | 310M |
