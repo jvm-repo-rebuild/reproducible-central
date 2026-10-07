@@ -149,14 +149,14 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:zookeeper-with-patched-admin](https://central.sonatype.com/artifact/org.apache.pulsar/zookeeper-with-patched-admin/overview)
 </details>
 
-rebuilding **47 releases** of org.apache.pulsar:pulsar:
+rebuilding **48 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 47 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 11, 0 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 48 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 12, 0 had all their differences removed :recycle:, 12 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0/pom) | | | |
+| [5.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0/pom) | [gradle jdk25](pulsar-5.0.0.buildspec) | [result](pulsar-5.0.0.buildinfo): [168 :white_check_mark:  14 :warning:](pulsar-5.0.0.buildcompare) | 8 :rotating_light: 6 :no_entry_sign: | 358M |
 | [5.0.0-M2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M2/pom) | [gradle jdk25](pulsar-5.0.0-M2.buildspec) | [result](pulsar-5.0.0-M2.buildinfo): [163 :white_check_mark:  14 :warning:](pulsar-5.0.0-M2.buildcompare) | 8 :rotating_light: 6 :no_entry_sign: | 352M |
 | [5.0.0-M1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M1/pom) | [gradle jdk21](pulsar-5.0.0-M1.buildspec) | [result](pulsar-5.0.0-M1.buildinfo): [149 :white_check_mark:  13 :warning:](pulsar-5.0.0-M1.buildcompare) [:mag:](pulsar-5.0.0-M1.diffoscope) | 7 :rotating_light: 6 :no_entry_sign: | 313M |
 | [4.2.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.2.5/pom) | | | |
