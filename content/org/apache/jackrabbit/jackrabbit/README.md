@@ -33,14 +33,14 @@ Source code: [https://github.com/apache/jackrabbit.git](https://github.com/apach
 * [org.apache.jackrabbit:jackrabbit-webdav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webdav/overview)
 </details>
 
-rebuilding **24 releases** of org.apache.jackrabbit:jackrabbit-parent:
+rebuilding **25 releases** of org.apache.jackrabbit:jackrabbit-parent:
 - **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.23.6-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.6-beta/pom) | | | |
+| [2.23.6-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.6-beta/pom) | [mvn jdk17](jackrabbit-2.23.6-beta.buildspec) | [result](jackrabbit-2.23.6-beta.buildinfo): [24 :white_check_mark:  45 :warning:](jackrabbit-2.23.6-beta.buildcompare) | 43 :rotating_light: 2 :no_entry_sign: | 102M |
 | [2.23.5-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.5-beta/pom) | [mvn jdk11](jackrabbit-2.23.5-beta.buildspec) | [result](jackrabbit-2.23.5-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.5-beta.buildcompare) | | 101M |
 | [2.23.4-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.4-beta/pom) | [mvn jdk11 w](jackrabbit-2.23.4-beta.buildspec) | [result](jackrabbit-2.23.4-beta.buildinfo): [66 :white_check_mark:  3 :warning:](jackrabbit-2.23.4-beta.buildcompare) [:mag:](jackrabbit-2.23.4-beta.diffoscope) | 1 :recycle: 2 :no_entry_sign: | 101M |
 | [2.23.3-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.3-beta/pom) | [mvn jdk17](jackrabbit-2.23.3-beta.buildspec) | [result](jackrabbit-2.23.3-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.3-beta.buildcompare) | | 101M |
