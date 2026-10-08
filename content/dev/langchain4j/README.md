@@ -132,6 +132,7 @@ rebuilding **70 releases** of dev.langchain4j:langchain4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.22.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.22.0/pom) | | | |
 | [1.21.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.21.0/pom) | | | |
 | [1.20.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.20.2/pom) | | | |
 | [1.20.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.20.1/pom) | | | |

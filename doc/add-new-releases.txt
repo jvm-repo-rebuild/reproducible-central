@@ -1,16 +1,14 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.11.3.buildspec:1.12.0
-content/com/flowlogix/flowlogix-11.6.buildspec:11.7
+content/com/flowlogix/flowlogix-11.6.buildspec:11.7.1
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.0
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.7.5.buildspec:1.7.6
-content/dev/langchain4j/langchain4j-1.20.0.buildspec:1.21.0
-content/eu/maveniverse/maven/scalpel/scalpel-0.4.2.buildspec:0.4.3
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.7.6.buildspec:1.7.7
+content/dev/langchain4j/langchain4j-1.20.0.buildspec:1.22.0
 content/io/jstach/rainbowgum/rainbowgum-0.12.0.buildspec:0.14.0
-content/org/jline/jline-4.4.6.buildspec:4.4.7
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/struts/struts2-7.3.0.buildspec:7.4.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
+content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.5-beta.buildspec:2.23.6-beta
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-5.0.0.Beta1.buildspec:5.0.0.Beta2
-content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-8.0.00.buildspec:8.0.01
+content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.2.1.buildspec:2.3
