@@ -1,0 +1,20 @@
+version=11.7.1
+ok=17
+ko=5
+ignored=2
+okFiles="flowlogix-11.7.1-build.pom flowlogix-11.7.1.spdx.json flowlogix-jee-11.7.1.pom flowlogix-jee-11.7.1-build.pom flowlogix-jee-11.7.1.jar flowlogix-jee-11.7.1-sources.jar flowlogix-jee-11.7.1-tests.jar flowlogix-jee-11.7.1-cyclonedx.xml flowlogix-jee-11.7.1-cyclonedx.json flowlogix-datamodel-11.7.1.pom flowlogix-datamodel-11.7.1-build.pom flowlogix-datamodel-11.7.1.jar flowlogix-datamodel-11.7.1-sources.jar flowlogix-datamodel-11.7.1-tests.jar flowlogix-datamodel-11.7.1-cyclonedx.xml flowlogix-datamodel-11.7.1-cyclonedx.json flowlogix-datamodel-11.7.1.spdx.json"
+koFiles="flowlogix-11.7.1.pom flowlogix-11.7.1.spdx.json-ld.json flowlogix-jee-11.7.1.spdx.json flowlogix-jee-11.7.1.spdx.json-ld.json flowlogix-datamodel-11.7.1.spdx.json-ld.json"
+ignoredFiles="flowlogix-11.7.1-cyclonedx.xml flowlogix-11.7.1-cyclonedx.json"
+reference_java_version="27 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.flowlogix/flowlogix-11.7.1.pom target/consumer-3622300908698429452.pom
+# diffoscope target/reference/com.flowlogix/flowlogix-11.7.1.spdx.json-ld.json target/site/com.flowlogix_flowlogix-11.7.1.spdx.json-ld.json
+# diffoscope target/reference/com.flowlogix/flowlogix-jee-11.7.1.spdx.json flowlogix-jee/target/site/com.flowlogix_flowlogix-jee-11.7.1.spdx.json
+# diffoscope target/reference/com.flowlogix/flowlogix-jee-11.7.1.spdx.json-ld.json flowlogix-jee/target/site/com.flowlogix_flowlogix-jee-11.7.1.spdx.json-ld.json
+# diffoscope target/reference/com.flowlogix/flowlogix-datamodel-11.7.1.spdx.json-ld.json flowlogix-datamodel/target/site/com.flowlogix_flowlogix-datamodel-11.7.1.spdx.json-ld.json
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=4
+stabilize_okFiles=""
+stabilize_koFiles="flowlogix-11.7.1.pom.stabilized"
+stabilize_ignoredFiles="flowlogix-11.7.1.spdx.json-ld.json flowlogix-jee-11.7.1.spdx.json flowlogix-jee-11.7.1.spdx.json-ld.json flowlogix-datamodel-11.7.1.spdx.json-ld.json"
