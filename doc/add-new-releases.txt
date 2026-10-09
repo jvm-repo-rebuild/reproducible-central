@@ -3,14 +3,13 @@
 content/at/yawk/lz4/lz4-java/lz4-java-1.11.3.buildspec:1.12.0
 content/com/flowlogix/flowlogix-11.6.buildspec:11.7.1
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.0
-content/de/gematik/pki/gemLibPki/gemLibPki-5.0.2.buildspec:6.0.0
 content/dev/langchain4j/langchain4j-1.20.0.buildspec:1.22.0
 content/io/jstach/rainbowgum/rainbowgum-0.12.0.buildspec:0.14.0
+content/io/opentelemetry/java/opentelemetry-sdk-1.66.0.buildspec:1.67.0
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/struts/struts2-7.3.0.buildspec:7.4.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
 content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.5-beta.buildspec:2.23.6-beta
+content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-3.0.2.buildspec:3.0.4
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3
-content/org/infinispan/protostream/protostream-6.0.11.buildspec:6.0.12
-content/org/metricshub/jflat/jflat-1.1.00.buildspec:1.2.00
-content/org/metricshub/ssh-java/ssh-java-1.0.04.buildspec:1.1.00
+content/org/ow2/asm/asm-9.10.1.buildspec:9.11

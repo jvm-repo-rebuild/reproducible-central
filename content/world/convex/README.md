@@ -34,6 +34,7 @@ rebuilding **36 releases** of world.convex:convex:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.8.17](https://central.sonatype.com/artifact/world.convex/convex/0.8.17/pom) | | | |
 | [0.8.16](https://central.sonatype.com/artifact/world.convex/convex/0.8.16/pom) | [mvn jdk25](convex-0.8.16.buildspec) | [result](convex-0.8.16.buildinfo): [35 :white_check_mark:  5 :warning:](convex-0.8.16.buildcompare) | 5 :rotating_light: | 14M |
 | [0.8.15](https://central.sonatype.com/artifact/world.convex/convex/0.8.15/pom) | [mvn jdk25 w](convex-0.8.15.buildspec) | [result](convex-0.8.15.buildinfo): [36 :white_check_mark:  4 :warning:](convex-0.8.15.buildcompare) | 4 :rotating_light: | 14M |
 | [0.8.14](https://central.sonatype.com/artifact/world.convex/convex/0.8.14/pom) | [mvn jdk25 w](convex-0.8.14.buildspec) | [result](convex-0.8.14.buildinfo): [36 :white_check_mark:  4 :warning:](convex-0.8.14.buildcompare) | 4 :rotating_light: | 14M |
