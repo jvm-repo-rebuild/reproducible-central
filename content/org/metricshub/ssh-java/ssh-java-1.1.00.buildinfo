@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SSH Java Client
+group-id=org.metricshub
+artifact-id=ssh-java
+version=1.1.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricsHub/ssh-java.git
+source.scm.tag=v1.1.00
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=ssh-java-1.1.00.pom
+outputs.0.length=4388
+outputs.0.checksums.sha512=a188dded9cb9bb534df1f63d4c71c05c152036b3e19a6faddb526bf3b5c9c94d7fabeaf254b256c8d5bac4d2fc5a33920bdd585cca7f2a7999333743077cf74a
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=ssh-java-1.1.00.jar
+outputs.1.length=16738
+outputs.1.checksums.sha512=55f666e8e72693659e06bf620ad4f3bedf15630ff498656aff57e2484a582bf47f380c86fa7e27b25530f6281894a7a5c4df7f29940ca1296f151f9cc9e75fe4
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=ssh-java-1.1.00-sources.jar
+outputs.2.length=13242
+outputs.2.checksums.sha512=807a67354791921ff8e2c339796561d65dbff0ed5780ac65584afbf2cb59f2f87ec136483f6cec6dbfb9c8f33388609b0ed700de48c2fd64ab836e5021d60131
