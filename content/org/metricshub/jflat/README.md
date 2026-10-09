@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.metricshub:jflat:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.00](https://central.sonatype.com/artifact/org.metricshub/jflat/1.2.00/pom) | | | |
 | [1.1.00](https://central.sonatype.com/artifact/org.metricshub/jflat/1.1.00/pom) | [mvn jdk17](jflat-1.1.00.buildspec) | [result](jflat-1.1.00.buildinfo): [3 :white_check_mark: ](jflat-1.1.00.buildcompare) | | 23K |
 | [1.0.02](https://central.sonatype.com/artifact/org.metricshub/jflat/1.0.02/pom) | [mvn jdk17](jflat-1.0.02.buildspec) | [result](jflat-1.0.02.buildinfo): [3 :white_check_mark: ](jflat-1.0.02.buildcompare) | | 20K |
 
