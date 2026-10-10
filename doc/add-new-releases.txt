@@ -10,6 +10,5 @@ content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/struts/struts2-7.3.0.buildspec:7.4.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
 content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.5-beta.buildspec:2.23.6-beta
-content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-3.0.2.buildspec:3.0.4
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3
-content/org/ow2/asm/asm-9.10.1.buildspec:9.11
+content/org/metricshub/winrm-java/winrm-java-3.0.00.buildspec:3.1.00

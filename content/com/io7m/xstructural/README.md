@@ -27,6 +27,7 @@ rebuilding **10 releases** of com.io7m.xstructural:com.io7m.xstructural:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/3.0.0-beta0003/pom) | | | |
 | [3.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/3.0.0-beta0002/pom) | | | |
 | [3.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/3.0.0-beta0001/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/2.1.0/pom) | [mvn jdk21](com.io7m.xstructural-2.1.0.buildspec) | [result](com.io7m.xstructural-2.1.0.buildinfo): [12 :white_check_mark:  26 :warning:](com.io7m.xstructural-2.1.0.buildcompare) | 15 :recycle: 6 :rotating_light: 5 :no_entry_sign: | 40M |
