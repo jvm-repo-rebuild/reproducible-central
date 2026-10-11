@@ -34,9 +34,10 @@ Source code: [https://github.com/cucumber/cucumber-jvm.git](https://github.com/c
 * [io.cucumber:docstring](https://central.sonatype.com/artifact/io.cucumber/docstring/overview)
 </details>
 
-rebuilding **53 releases** of io.cucumber:cucumber-jvm:
+rebuilding **54 releases** of io.cucumber:cucumber-jvm:
 - **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -44,7 +45,7 @@ rebuilding **53 releases** of io.cucumber:cucumber-jvm:
 | [8.0.3](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.3/pom) | [mvn jdk21](cucumber-jvm-8.0.3.buildspec) | [result](cucumber-jvm-8.0.3.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.3.buildcompare) | | 3.4M |
 | [8.0.2](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.2/pom) | [mvn jdk21](cucumber-jvm-8.0.2.buildspec) | [result](cucumber-jvm-8.0.2.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.2.buildcompare) | | 3.4M |
 | [8.0.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.1/pom) | [mvn jdk21](cucumber-jvm-8.0.1.buildspec) | [result](cucumber-jvm-8.0.1.buildinfo): [56 :white_check_mark: ](cucumber-jvm-8.0.1.buildcompare) | | 3.4M |
-| [8.0.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.0/pom) | | | |
+| [8.0.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/8.0.0/pom) | [mvn jdk21](cucumber-jvm-8.0.0.buildspec) | [result](cucumber-jvm-8.0.0.buildinfo): [52 :white_check_mark:  4 :warning:](cucumber-jvm-8.0.0.buildcompare) | 2 :rotating_light: 2 :no_entry_sign: | 3.4M |
 | [7.34.9](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.34.9/pom) | [mvn jdk17](cucumber-jvm-7.34.9.buildspec) | [result](cucumber-jvm-7.34.9.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.34.9.buildcompare) | | 3.3M |
 | [7.34.8](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.34.8/pom) | [mvn jdk17](cucumber-jvm-7.34.8.buildspec) | [result](cucumber-jvm-7.34.8.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.34.8.buildcompare) | | 3.3M |
 | [7.34.7](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.34.7/pom) | [mvn jdk17](cucumber-jvm-7.34.7.buildspec) | [result](cucumber-jvm-7.34.7.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.34.7.buildcompare) | | 3.3M |
