@@ -1,16 +1,9 @@
 version=11.7.1
-ok=15
-ko=1
+ok=16
+ko=0
 ignored=8
-okFiles="flowlogix-11.7.1-build.pom flowlogix-jee-11.7.1.pom flowlogix-jee-11.7.1-build.pom flowlogix-jee-11.7.1.jar flowlogix-jee-11.7.1-sources.jar flowlogix-jee-11.7.1-tests.jar flowlogix-jee-11.7.1-cyclonedx.xml flowlogix-jee-11.7.1-cyclonedx.json flowlogix-datamodel-11.7.1.pom flowlogix-datamodel-11.7.1-build.pom flowlogix-datamodel-11.7.1.jar flowlogix-datamodel-11.7.1-sources.jar flowlogix-datamodel-11.7.1-tests.jar flowlogix-datamodel-11.7.1-cyclonedx.xml flowlogix-datamodel-11.7.1-cyclonedx.json"
-koFiles="flowlogix-11.7.1.pom"
+okFiles="flowlogix-11.7.1.pom flowlogix-11.7.1-build.pom flowlogix-jee-11.7.1.pom flowlogix-jee-11.7.1-build.pom flowlogix-jee-11.7.1.jar flowlogix-jee-11.7.1-sources.jar flowlogix-jee-11.7.1-tests.jar flowlogix-jee-11.7.1-cyclonedx.xml flowlogix-jee-11.7.1-cyclonedx.json flowlogix-datamodel-11.7.1.pom flowlogix-datamodel-11.7.1-build.pom flowlogix-datamodel-11.7.1.jar flowlogix-datamodel-11.7.1-sources.jar flowlogix-datamodel-11.7.1-tests.jar flowlogix-datamodel-11.7.1-cyclonedx.xml flowlogix-datamodel-11.7.1-cyclonedx.json"
+koFiles=""
 ignoredFiles="flowlogix-11.7.1-cyclonedx.xml flowlogix-11.7.1-cyclonedx.json flowlogix-11.7.1.spdx.json flowlogix-11.7.1.spdx.json-ld.json flowlogix-jee-11.7.1.spdx.json flowlogix-jee-11.7.1.spdx.json-ld.json flowlogix-datamodel-11.7.1.spdx.json flowlogix-datamodel-11.7.1.spdx.json-ld.json"
 reference_java_version="27 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.flowlogix/flowlogix-11.7.1.pom target/consumer-14378984165102226240.pom
-stabilize_ok=0
-stabilize_ko=1
-stabilize_ignored=0
-stabilize_okFiles=""
-stabilize_koFiles="flowlogix-11.7.1.pom.stabilized"
-stabilize_ignoredFiles=""

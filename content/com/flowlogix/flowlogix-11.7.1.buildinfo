@@ -31,8 +31,8 @@ outputs.0.coordinates=com.flowlogix:flowlogix
 
 outputs.0.0.groupId=com.flowlogix
 outputs.0.0.filename=flowlogix-11.7.1.pom
-outputs.0.0.length=10183
-outputs.0.0.checksums.sha512=4518d2e4df3a5ed34067fdf77876749fa811c03fd82e2d34850fad5277c4647ab660dab95d22df866c9677b666225df7ab034a8b53c67131d35f46656a219bbe
+outputs.0.0.length=10189
+outputs.0.0.checksums.sha512=e6bcebee5fca9fc477292b09ad52a1fcc349d4b629d4e887429a16e418c679018626f5f3925c424edfa722da170e0670eeb79b9dd16c9f649ed6efe660790128
 
 outputs.0.1.groupId=com.flowlogix
 outputs.0.1.filename=flowlogix-11.7.1-build.pom
