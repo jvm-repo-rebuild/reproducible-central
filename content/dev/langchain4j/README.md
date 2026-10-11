@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 114 modules:</summary>
+<details><summary>This project defines 116 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -79,6 +79,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-internal-test-retry](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-internal-test-retry/overview)
 * [dev.langchain4j:langchain4j-jackson3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jackson3/overview)
 * [dev.langchain4j:langchain4j-jina](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jina/overview)
+* [dev.langchain4j:langchain4j-jitllm](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jitllm/overview)
 * [dev.langchain4j:langchain4j-jlama](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-jlama/overview)
 * [dev.langchain4j:langchain4j-kotlin](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-kotlin/overview)
 * [dev.langchain4j:langchain4j-local-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-local-ai/overview)
@@ -110,6 +111,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-skills](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-skills/overview)
 * [dev.langchain4j:langchain4j-tablestore](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-tablestore/overview)
 * [dev.langchain4j:langchain4j-test](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-test/overview)
+* [dev.langchain4j:langchain4j-typesafe](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-typesafe/overview)
 * [dev.langchain4j:langchain4j-vearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vearch/overview)
 * [dev.langchain4j:langchain4j-vertex-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai/overview)
 * [dev.langchain4j:langchain4j-vertex-ai-anthropic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai-anthropic/overview)
@@ -125,14 +127,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **70 releases** of dev.langchain4j:langchain4j:
-- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **71 releases** of dev.langchain4j:langchain4j:
+- **49** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 14, 3 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.22.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.22.0/pom) | | | |
+| [1.22.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.22.0/pom) | [mvn jdk25](langchain4j-1.22.0.buildspec) | [result](langchain4j-aggregator-1.22.0.buildinfo): [329 :white_check_mark: ](langchain4j-aggregator-1.22.0.buildcompare) | | 473M |
 | [1.21.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.21.0/pom) | | | |
 | [1.20.2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.20.2/pom) | | | |
 | [1.20.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.20.1/pom) | | | |
