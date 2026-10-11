@@ -52,15 +52,15 @@ Source code: [https://github.com/jstachio/rainbowgum.git](https://github.com/jst
 * [io.jstach.rainbowgum:rainbowgum-tomcat](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-tomcat/overview)
 </details>
 
-rebuilding **19 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.14.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.14.0/pom) | [mvn jdk27](rainbowgum-0.14.0.buildspec) | [result](rainbowgum-maven-parent-0.14.0.buildinfo): [101 :white_check_mark: ](rainbowgum-maven-parent-0.14.0.buildcompare) | | 1.8M |
-| [0.13.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.13.0/pom) | | | |
+| [0.13.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.13.0/pom) | [mvn jdk27](rainbowgum-0.13.0.buildspec) | [result](rainbowgum-maven-parent-0.13.0.buildinfo): [98 :white_check_mark: ](rainbowgum-maven-parent-0.13.0.buildcompare) | | 1.7M |
 | [0.12.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.12.0/pom) | [mvn jdk26](rainbowgum-0.12.0.buildspec) | [result](rainbowgum-maven-parent-0.12.0.buildinfo): [87 :white_check_mark: ](rainbowgum-maven-parent-0.12.0.buildcompare) | | 1.6M |
 | [0.11.2](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.11.2/pom) | [mvn jdk26](rainbowgum-0.11.2.buildspec) | [result](rainbowgum-maven-parent-0.11.2.buildinfo): [72 :white_check_mark: ](rainbowgum-maven-parent-0.11.2.buildcompare) | | 1.4M |
 | [0.11.1](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.11.1/pom) | [mvn jdk26](rainbowgum-0.11.1.buildspec) | [result](rainbowgum-maven-parent-0.11.1.buildinfo): [72 :white_check_mark: ](rainbowgum-maven-parent-0.11.1.buildcompare) | | 1.4M |
