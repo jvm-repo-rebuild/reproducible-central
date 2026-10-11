@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
+<metadata>
   <groupId>commons-codec</groupId>
   <artifactId>commons-codec</artifactId>
   <versioning>
-    <latest>1.22.1</latest>
-    <release>1.22.1</release>
+    <latest>1.23.0</latest>
+    <release>1.23.0</release>
     <versions>
       <version>1.1</version>
       <version>1.2</version>
@@ -32,7 +32,8 @@
       <version>1.21.0</version>
       <version>1.22.0</version>
       <version>1.22.1</version>
+      <version>1.23.0</version>
     </versions>
-    <lastUpdated>20260730093114</lastUpdated>
+    <lastUpdated>20261011154835</lastUpdated>
   </versioning>
 </metadata>

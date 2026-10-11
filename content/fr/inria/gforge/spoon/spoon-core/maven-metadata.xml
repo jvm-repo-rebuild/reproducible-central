@@ -3,8 +3,8 @@
   <groupId>fr.inria.gforge.spoon</groupId>
   <artifactId>spoon-core</artifactId>
   <versioning>
-    <latest>11.5.1-beta-12</latest>
-    <release>11.5.1-beta-12</release>
+    <latest>11.5.1-beta-13</latest>
+    <release>11.5.1-beta-13</release>
     <versions>
       <version>1.1</version>
       <version>1.2</version>
@@ -396,7 +396,8 @@
       <version>11.5.1-beta-10</version>
       <version>11.5.1-beta-11</version>
       <version>11.5.1-beta-12</version>
+      <version>11.5.1-beta-13</version>
     </versions>
-    <lastUpdated>20261004054740</lastUpdated>
+    <lastUpdated>20261011054317</lastUpdated>
   </versioning>
 </metadata>
