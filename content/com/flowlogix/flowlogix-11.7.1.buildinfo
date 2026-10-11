@@ -22,7 +22,7 @@ os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
-mvn.version=4.0.0-rc-6
+mvn.version=4.0.0-rc-7
 mvn.aggregate.artifact-id=flowlogix-datamodel
 
 # aggregated output

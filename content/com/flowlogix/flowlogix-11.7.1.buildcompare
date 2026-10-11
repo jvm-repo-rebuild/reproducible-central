@@ -7,7 +7,7 @@ koFiles="flowlogix-11.7.1.pom"
 ignoredFiles="flowlogix-11.7.1-cyclonedx.xml flowlogix-11.7.1-cyclonedx.json flowlogix-11.7.1.spdx.json flowlogix-11.7.1.spdx.json-ld.json flowlogix-jee-11.7.1.spdx.json flowlogix-jee-11.7.1.spdx.json-ld.json flowlogix-datamodel-11.7.1.spdx.json flowlogix-datamodel-11.7.1.spdx.json-ld.json"
 reference_java_version="27 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.flowlogix/flowlogix-11.7.1.pom target/consumer-7218190428454841482.pom
+# diffoscope target/reference/com.flowlogix/flowlogix-11.7.1.pom target/consumer-14378984165102226240.pom
 stabilize_ok=0
 stabilize_ko=1
 stabilize_ignored=0
