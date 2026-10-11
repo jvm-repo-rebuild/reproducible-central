@@ -1,0 +1,20 @@
+groupId=org.apache.ozone
+artifactId=ozone-main
+version=2.2.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/ozone.git
+gitTag=ozone-${version}
+
+tool=mvn-3.9.12
+jdk=8
+newline=lf
+
+# skipping CycloneDX generation because it records fingerprints for pkg:maven/jdk.tools/jdk.tools@1.8?type=jar which is too env-specific
+command="SHELL mvn -Pdist,src clean verify -DskipTests -Dmaven.javadoc.skip -Dcyclonedx.skip -Drocks_tools_native"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
+#PR_merge_max_ko=1
