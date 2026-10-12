@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=tfw
+group-id=io.github.tfw-org
+artifact-id=tfw
+version=2026.16
+
+# source information
+source.scm.uri=scm:git:https://github.com/tfw-org/tfw.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=io.github.tfw-org
+outputs.0.filename=tfw-2026.16.pom
+outputs.0.length=34167
+outputs.0.checksums.sha512=d9646175d9775d875e20fbbc6afd66eb98d900cd353806e7036f1f412a86e50aa71f5e68ead19cbb2e950195ee4d948771e7846e6569971861199a2457ce41e9
+
+outputs.1.groupId=io.github.tfw-org
+outputs.1.filename=tfw-2026.16.jar
+outputs.1.length=1544317
+outputs.1.checksums.sha512=84cf1dcb6fb69b534a83bcbeab3f1a8b95d3b186ab6206694435f221d70ee61d05b21cc6a563161575fe54541fe76f834f7f0a8c9e63a4227a2950be219fa598
+
+outputs.2.groupId=io.github.tfw-org
+outputs.2.filename=tfw-2026.16-sources.jar
+outputs.2.length=769066
+outputs.2.checksums.sha512=1d69749684ad95c7f665e4aa63e2dc496cc0fe43b67ff2ee0206dba47a77e37cd8a5077fb50c9cb5d4b64fc677bc00ce08fbb3e5d19d7d951373468d40567fb2
+
+outputs.3.groupId=io.github.tfw-org
+outputs.3.filename=tfw-2026.16-cyclonedx.xml
+outputs.3.length=5191
+outputs.3.checksums.sha512=d8626fe75b0d7aca891718e4f4ca08e20036a94f93904f6782b6b1830e27a2762e91995873926383e58fcdaea3a0363354c0ed1ab97293bb09d47baabf55d683
+
+outputs.4.groupId=io.github.tfw-org
+outputs.4.filename=tfw-2026.16-cyclonedx.json
+outputs.4.length=5811
+outputs.4.checksums.sha512=e18c07d820b8abca5fa566132e4510c463078f794b4e644df70b3e062a0a67d6bf39426edb38bdaa5ffef8dfe8fd29abd0025f8140b427b8bf6a341c2997e119

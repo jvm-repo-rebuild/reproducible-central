@@ -1,0 +1,9 @@
+version=2026.16
+ok=5
+ko=0
+ignored=0
+okFiles="tfw-2026.16.pom tfw-2026.16.jar tfw-2026.16-sources.jar tfw-2026.16-cyclonedx.xml tfw-2026.16-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
