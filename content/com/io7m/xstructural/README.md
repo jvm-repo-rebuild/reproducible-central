@@ -20,10 +20,10 @@ Source code: [https://github.com/io7m/xstructural.git](https://github.com/io7m/x
 * [com.io7m.xstructural:com.io7m.xstructural.xml_resources](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.xml_resources/overview)
 </details>
 
-rebuilding **10 releases** of com.io7m.xstructural:com.io7m.xstructural:
+rebuilding **11 releases** of com.io7m.xstructural:com.io7m.xstructural:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -32,7 +32,7 @@ rebuilding **10 releases** of com.io7m.xstructural:com.io7m.xstructural:
 | [3.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/3.0.0-beta0001/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/2.1.0/pom) | [mvn jdk21](com.io7m.xstructural-2.1.0.buildspec) | [result](com.io7m.xstructural-2.1.0.buildinfo): [12 :white_check_mark:  26 :warning:](com.io7m.xstructural-2.1.0.buildcompare) | 15 :recycle: 6 :rotating_light: 5 :no_entry_sign: | 40M |
 | [2.0.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/2.0.1/pom) | [mvn jdk21](com.io7m.xstructural-2.0.1.buildspec) | [result](com.io7m.xstructural-2.0.1.buildinfo): [12 :white_check_mark:  26 :warning:](com.io7m.xstructural-2.0.1.buildcompare) | 15 :recycle: 6 :rotating_light: 5 :no_entry_sign: | 40M |
-| [2.0.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/2.0.0/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/2.0.0/pom) | [mvn jdk21](com.io7m.xstructural-2.0.0.buildspec) | [result](com.io7m.xstructural-2.0.0.buildinfo): [12 :white_check_mark:  26 :warning:](com.io7m.xstructural-2.0.0.buildcompare) | 15 :recycle: 6 :rotating_light: 5 :no_entry_sign: | 40M |
 | [1.9.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.9.0/pom) | [mvn jdk21](com.io7m.xstructural-1.9.0.buildspec) | [result](com.io7m.xstructural-1.9.0.buildinfo): [38 :white_check_mark: ](com.io7m.xstructural-1.9.0.buildcompare) | | 40M |
 | [1.8.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1/pom) | [mvn jdk21](com.io7m.xstructural-1.8.1.buildspec) | [result](com.io7m.xstructural-1.8.1.buildinfo): [38 :white_check_mark: ](com.io7m.xstructural-1.8.1.buildcompare) | | 40M |
 | [1.8.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.8.0.buildspec) | [result](com.io7m.xstructural-1.8.0.buildinfo): [30 :white_check_mark: ](com.io7m.xstructural-1.8.0.buildcompare) | | 18M |
