@@ -1,0 +1,16 @@
+groupId=io.github.tfw-org
+artifactId=tfw
+version=2026.16
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/tfw-org/tfw.git
+gitTag=2026.16
+
+tool=mvn-3.9.16
+jdk=21
+newline=lf
+
+command="./mvnw -ntp -B -P release clean verify -DskipTests -Dgpg.skip -Dbuildinfo.detect.skip=false"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+issue=
