@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Codec
+group-id=commons-codec
+artifact-id=commons-codec
+version=1.23.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-codec
+source.scm.tag=rel/commons-codec-1.22.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=commons-codec
+outputs.0.filename=commons-codec-1.23.0.pom
+outputs.0.length=19038
+outputs.0.checksums.sha512=8a89a23ec1e7b2cdd10f1a0b63d059c13cd607ee06d5f71bb2ad3e150be5a27c24f4b96f71ffaf1cc637e97f5206054b703b4ef710f6a3bd37dd25fa6fe9c8d7
+
+outputs.1.groupId=commons-codec
+outputs.1.filename=commons-codec-1.23.0.jar
+outputs.1.length=440773
+outputs.1.checksums.sha512=fdbda49825afd3eef86987155865f74f71b51f88c9145df12a473b209f52a70d4e84a5f3c19648f42c9b8a5989bcdf4a0976df0a42b85fa3dbb5b52841a350ff
+
+outputs.2.groupId=commons-codec
+outputs.2.filename=commons-codec-1.23.0-tests.jar
+outputs.2.length=516047
+outputs.2.checksums.sha512=2afe244aabe967e2dafdfad4ae5f429450c71a0570811a837eccc7892c0fa39e507c1ec19bcf16ed70ec527e83da42903ea879c67b5f2cb2327b1a3b222a1647
+
+outputs.3.groupId=commons-codec
+outputs.3.filename=commons-codec-1.23.0-sources.jar
+outputs.3.length=434432
+outputs.3.checksums.sha512=9c958c30982db35662d3de43a7c666d0f38931e54dc2d55b251515197277f6804b732a3371e86e2e1a90596e35066c1df8b7036d2befc6e2428f280d95a3770b
+
+outputs.4.groupId=commons-codec
+outputs.4.filename=commons-codec-1.23.0-test-sources.jar
+outputs.4.length=332655
+outputs.4.checksums.sha512=2973afa3a1d6d856b81d313ba5e44acb2ab991e87ea850fbb9099703b134b4c92be6c4649995516726478413218dfcad48b2fac20b4836f8e5e987aad9f22db2
+
+outputs.5.groupId=commons-codec
+outputs.5.filename=commons-codec-1.23.0-cyclonedx.xml
+outputs.5.length=3666
+outputs.5.checksums.sha512=42de8d6099f59f889d15bcbf4340acf25b5809d1d76642526c4e812f9f48ef8f51ad16513b18be7d1c960de297af6196233fda7b1a582bc82fa81d40991d5aa6
+
+outputs.6.groupId=commons-codec
+outputs.6.filename=commons-codec-1.23.0-cyclonedx.json
+outputs.6.length=3995
+outputs.6.checksums.sha512=750c4214cd51f4ed7d341e5bf7f2c0f9e3f0fc7533cb75d32e5f5ffc174abd41a6c81156b466c38454615d2500db8c609bcd87f813669fd74bc8f34be27acd7f
+# ignored commons-codec-1.23.0.spdx.json
