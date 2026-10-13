@@ -14,6 +14,7 @@ rebuilding **51 releases** of com.github.spotbugs:spotbugs-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.10.5.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.10.5.0/pom) | | | |
 | [4.10.4.1](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.10.4.1/pom) | [mvn jdk25 w](spotbugs-maven-plugin-4.10.4.1.buildspec) | [result](spotbugs-maven-plugin-4.10.4.1.buildinfo): [5 :white_check_mark:  4 :warning:](spotbugs-maven-plugin-4.10.4.1.buildcompare) | 2 :recycle: 2 :rotating_light: | 1.6M |
 | [4.10.4.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.10.4.0/pom) | [mvn jdk25 w](spotbugs-maven-plugin-4.10.4.0.buildspec) | [result](spotbugs-maven-plugin-4.10.4.0.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.10.4.0.buildcompare) | 2 :recycle: | 1.6M |
 | [4.10.3.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.10.3.0/pom) | [mvn jdk25 w](spotbugs-maven-plugin-4.10.3.0.buildspec) | [result](spotbugs-maven-plugin-4.10.3.0.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.10.3.0.buildcompare) | 2 :recycle: | 1.6M |
