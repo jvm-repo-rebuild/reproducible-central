@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-resources-plugin
+version=4.0.0-beta-2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-resources-plugin.git
+source.scm.tag=maven-resources-plugin-4.0.0-beta-2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=4.0.0-rc-7
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-resources-plugin-4.0.0-beta-2.pom
+outputs.0.length=9895
+outputs.0.checksums.sha512=140328f4c576134fab814249263a3777d757887a94ca1689056e4c11f3cfbc714fb301d4216ba6e4ef47e9e08383c9c4e10aea85d7a7a9b6a2b4307be68c3788
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-resources-plugin-4.0.0-beta-2.jar
+outputs.1.length=40303
+outputs.1.checksums.sha512=4800cd62547299e9665bf490315d06f6df2bd6fce6b0a1f7e830f5413cbfd9f2dd1a5142f8efd66a27b07db1a66077600d026acba222374734c6933b03935539
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-resources-plugin-4.0.0-beta-2-source-release.zip
+outputs.2.length=992773
+outputs.2.checksums.sha512=0ec88ecff1e3b631e3a566f63234b164b46b11c2d3461aa152ddf65f106e9a937cf16a2e0e444e2264a3db06482a292823aa3d4d47b327368221ef8525212661
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-resources-plugin-4.0.0-beta-2-sources.jar
+outputs.3.length=26656
+outputs.3.checksums.sha512=63937b383bfd2f14036f8efbde61579e5c59fb2b49fdeabd9f8ef1b04e03c059ff1303dc195fec34ddfaa0930527beb8d29abffd8900849a289e6cb35d997a28
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-resources-plugin-4.0.0-beta-2-cyclonedx.xml
+outputs.4.length=53921
+outputs.4.checksums.sha512=660572526b8192c6083ba0a54cdd3ef65e0a56267d4896758710b7a72c6699e19bfb2b4cd28e6a99e6d1a98c7dceb67164e266d2946e4a4f7fdb8ca903d8b43e
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-resources-plugin-4.0.0-beta-2-cyclonedx.json
+outputs.5.length=58596
+outputs.5.checksums.sha512=6ddf6203bc1c67929c73f524681e47e9828b19441b29217212beeaf87f4185ff59fb6e47d7f8c342425f479d94f55e71e0c8cf30d376db382e1b7abc8a48820d
