@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Filtering
+group-id=org.apache.maven.shared
+artifact-id=maven-filtering
+version=4.0.0-beta-2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-filtering.git
+source.scm.tag=maven-filtering-4.0.0-beta-2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-filtering-4.0.0-beta-2.pom
+outputs.0.length=7409
+outputs.0.checksums.sha512=c11031bcf215dc3b0527ac9f185847095035ce0a400bddaf9dac8d18f4d146805abb24276726a09c5dc866e00bbc34738ea659d27c40fe86ce076be77ed97b78
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-filtering-4.0.0-beta-2.jar
+outputs.1.length=70420
+outputs.1.checksums.sha512=64ddf785db40971376269df58d4be7d9e4dc31214dffd5f31eb333c3d2be797c9317d0ba081bbe564913189bae3dff735225b5e34ff0eed30c7d11b5d3a8087b
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-filtering-4.0.0-beta-2-source-release.zip
+outputs.2.length=204871
+outputs.2.checksums.sha512=266bedb18e5760701e20c39e4e9910d3815b0eab419c8e1b51c5cfb10cf0682ce82c1127b5843d63596c869253f878d12b1e8081eb8fe9146f98a74b433e4e8a
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-filtering-4.0.0-beta-2-sources.jar
+outputs.3.length=63999
+outputs.3.checksums.sha512=ecece3bd12561f2cdfd6141aaff17ed9cb5968320d6ba8df1a80255cd08af0d0a9aa5bf5ea30e6486306dfe684cef91ee88d8cd2dd36cc72c6394062965e3d21
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-filtering-4.0.0-beta-2-cyclonedx.xml
+outputs.4.length=37349
+outputs.4.checksums.sha512=61b55d2ea135fe118d40f0da5f098969720672e0e88ec62ea225ac126d5b0d9b7d81f54ccf68d9fe1e0a1625709d83b38749f3e5f49ff596d04b5a8c3919df6b
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-filtering-4.0.0-beta-2-cyclonedx.json
+outputs.5.length=40551
+outputs.5.checksums.sha512=4a5702abcc9b239bbb51aa126b72ee5dd2b8b5587317eed1dd011ec61fb52e5e5b820d8f2b4b23519a7e44fc5a03a337a62dfc94afa127b5ba141058f065e073
