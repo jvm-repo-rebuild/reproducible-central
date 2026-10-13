@@ -41,6 +41,7 @@ rebuilding **1 releases** of org.apache.sis:parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7](https://central.sonatype.com/artifact/org.apache.sis/parent/1.7/pom) | | | |
 | [1.6](https://central.sonatype.com/artifact/org.apache.sis/parent/1.6/pom) | | | |
 | [1.5](https://central.sonatype.com/artifact/org.apache.sis/parent/1.5/pom) | | | |
 | [1.4](https://central.sonatype.com/artifact/org.apache.sis/parent/1.4/pom) | | | |

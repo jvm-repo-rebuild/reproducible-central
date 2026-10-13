@@ -3,8 +3,8 @@
   <groupId>org.apache.sis</groupId>
   <artifactId>parent</artifactId>
   <versioning>
-    <latest>1.6</latest>
-    <release>1.6</release>
+    <latest>1.7</latest>
+    <release>1.7</release>
     <versions>
       <version>0.3</version>
       <version>0.4</version>
@@ -19,7 +19,8 @@
       <version>1.4</version>
       <version>1.5</version>
       <version>1.6</version>
+      <version>1.7</version>
     </versions>
-    <lastUpdated>20260130221056</lastUpdated>
+    <lastUpdated>20261013160846</lastUpdated>
   </versioning>
 </metadata>
