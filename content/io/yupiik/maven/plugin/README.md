@@ -24,14 +24,14 @@ Source code: [https://github.com/yupiik/tools-maven-plugin.git](https://github.c
 * [io.yupiik.maven:yupiik-tools-maven-plugin-parent](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/overview)
 </details>
 
-rebuilding **13 releases** of io.yupiik.maven:yupiik-tools-maven-plugin-parent:
+rebuilding **14 releases** of io.yupiik.maven:yupiik-tools-maven-plugin-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 9, 0 had all their differences removed :recycle:, 9 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.0](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.3.0/pom) | | | |
+| [1.3.0](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.3.0/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.3.0.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.3.0.buildinfo): [36 :white_check_mark:  3 :warning:](yupiik-tools-maven-plugin-parent-1.3.0.buildcompare) | 3 :rotating_light: | 68M |
 | [1.2.16](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.16/pom) | [mvn jdk17](yupiik-tools-maven-plugin-1.2.16.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.16.buildinfo): [36 :white_check_mark:  3 :warning:](yupiik-tools-maven-plugin-parent-1.2.16.buildcompare) | 3 :rotating_light: | 67M |
 | [1.2.15](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.15/pom) | [mvn jdk17](yupiik-tools-maven-plugin-1.2.15.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.15.buildinfo): [36 :white_check_mark:  3 :warning:](yupiik-tools-maven-plugin-parent-1.2.15.buildcompare) | 3 :rotating_light: | 67M |
 | [1.2.14](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.14/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.14.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.14.buildinfo): [37 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.14.buildcompare) | 2 :rotating_light: | 53M |
