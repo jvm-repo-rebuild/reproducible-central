@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=IPMI Java Client
+group-id=org.metricshub
+artifact-id=ipmi-java
+version=2.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/ipmi-java.git
+source.scm.tag=v2.0.00
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=ipmi-java-2.0.00.pom
+outputs.0.length=10297
+outputs.0.checksums.sha512=4fc42b90f7f6067e5f1e8bd7cb3f0bf268525e66c9be69f1d30d58267aff01fdc2dfa06d05d8dcfd95708cf5392991fdbae8835a08ea59159fad0272e6e1cb59
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=ipmi-java-2.0.00.jar
+outputs.1.length=533825
+outputs.1.checksums.sha512=f342f2f21e5396ec23ce4d6d0037a3dd883f682c9b4336c84fff7dc3eff5327317dde9bc18b1e43bcf80493b3ed471137e9afd8b5b359d3368269014f7c236f1
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=ipmi-java-2.0.00-sources.jar
+outputs.2.length=537128
+outputs.2.checksums.sha512=55486308481ed129fe6bea1e3a3cdbcbbbfe41faa2308a790e32e6351a89ce572f2ea173413d217f5339a1d054b10aadc71de99cb142c7a55d504a2573bfac77
+
+outputs.3.groupId=org.metricshub
+outputs.3.filename=ipmi-java-2.0.00-standalone.jar
+outputs.3.length=540186
+outputs.3.checksums.sha512=6a3c1b257a8d9cb6cf4b4240bc52bee4441b9f04c2514baa83a739df4467c7a8f290906073c93cc13c6018eeff34570708499d70729c5c681683b7ef058bbf27

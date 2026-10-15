@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/MetricsHub/ipmi-java.git](https://github.com/MetricsHub/ipmi-java.git)
 
-rebuilding **2 releases** of org.metricshub:ipmi-java:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of org.metricshub:ipmi-java:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.00](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/2.0.00/pom) | | | |
+| [2.0.00](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/2.0.00/pom) | [mvn jdk17](ipmi-java-2.0.00.buildspec) | [result](ipmi-java-2.0.00.buildinfo): [4 :white_check_mark: ](ipmi-java-2.0.00.buildcompare) | | 1.6M |
 | [1.2.02](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/1.2.02/pom) | [mvn jdk17](ipmi-java-1.2.02.buildspec) | [result](ipmi-java-1.2.02.buildinfo): [3 :white_check_mark: ](ipmi-java-1.2.02.buildcompare) | | 837K |
 | [1.2.01](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/1.2.01/pom) | [mvn jdk17](ipmi-java-1.2.01.buildspec) | [result](ipmi-java-1.2.01.buildinfo): [3 :white_check_mark: ](ipmi-java-1.2.01.buildcompare) | | 837K |
 
