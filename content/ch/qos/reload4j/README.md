@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/qos-ch/reload4j.git](https://github.com/qos-ch/reload4j.git)
 
-rebuilding **9 releases** of ch.qos.reload4j:reload4j:
+rebuilding **10 releases** of ch.qos.reload4j:reload4j:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.27](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.27/pom) | | | |
+| [1.2.27](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.27/pom) | [mvn jdk8](reload4j-1.2.27.buildspec) | [result](reload4j-1.2.27.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.27.buildcompare) | 1 :rotating_light: | 955K |
 | [1.2.26](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.26/pom) | [mvn jdk8 w](reload4j-1.2.26.buildspec) | [result](reload4j-1.2.26.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.26.buildcompare) | - | 954K |
 | [1.2.25](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.25/pom) | [mvn jdk8](reload4j-1.2.25.buildspec) | [result](reload4j-1.2.25.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.25.buildcompare) [:mag:](reload4j-1.2.25.diffoscope) | - | 938K |
 | [1.2.24](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.24/pom) | [mvn jdk8](reload4j-1.2.24.buildspec) | [result](reload4j-1.2.24.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.24.buildcompare) [:mag:](reload4j-1.2.24.diffoscope) | - | 934K |
