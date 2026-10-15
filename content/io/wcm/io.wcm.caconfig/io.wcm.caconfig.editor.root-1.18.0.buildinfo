@@ -1,0 +1,71 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Context-Aware Configuration Editor Root
+group-id=io.wcm
+artifact-id=io.wcm.caconfig.editor.root
+version=1.18.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.caconfig.editor.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=io.wcm.caconfig.editor.root
+
+# aggregated output
+
+outputs.0.coordinates=io.wcm:io.wcm.caconfig.editor.parent
+
+outputs.0.0.groupId=io.wcm
+outputs.0.0.filename=io.wcm.caconfig.editor.parent-1.18.0.pom
+outputs.0.0.length=2186
+outputs.0.0.checksums.sha512=5f98497e45988bc71a905fbc34505d342bbb796b9cda0e0a0ca91d3aac7ae934d087b24c3bbd20bc504b6e6fb9162bd22fb8826b75d672029eda427a2ddff51d
+
+outputs.1.coordinates=io.wcm:io.wcm.caconfig.editor
+
+outputs.1.0.groupId=io.wcm
+outputs.1.0.filename=io.wcm.caconfig.editor-1.18.0.pom
+outputs.1.0.length=9500
+outputs.1.0.checksums.sha512=5d5153f07f988a10f2130447feb6ee42e52137eb7e0d8f94ac1d0c42d56354900d3ddae5f47de09f664f63ae9e44f4f465968118e35031e08dd631899abda8da
+
+outputs.1.1.groupId=io.wcm
+outputs.1.1.filename=io.wcm.caconfig.editor-1.18.0.jar
+outputs.1.1.length=208417
+outputs.1.1.checksums.sha512=269df998d84cf7dee7af79927be947173f7f6ef6fe374a9ef1154de3d88397e60a05101f581980327fe0a513dddd51451d860507dd31a0eefec99eb5a5db55cc
+
+outputs.1.2.groupId=io.wcm
+outputs.1.2.filename=io.wcm.caconfig.editor-1.18.0-sources.jar
+outputs.1.2.length=190422
+outputs.1.2.checksums.sha512=7642702ed518f463c2a85bf2167ac69522da7e4fdb5119baef3756f5ad8555ec6be1d84f84f268ea668373f972dc8653c985537c28e874bace5159d1341c61dc
+
+outputs.2.coordinates=io.wcm:io.wcm.caconfig.editor.package
+
+outputs.2.0.groupId=io.wcm
+outputs.2.0.filename=io.wcm.caconfig.editor.package-1.18.0.pom
+outputs.2.0.length=3748
+outputs.2.0.checksums.sha512=5f4089019a3f21da5b12b6897b180ed54564310cbd7b259511d3ffebaaf572aaf7f3427b7d1f6a80424c2ebb3c3b9c4972f57efbd1bc2953ad81c15d17d4e6ca
+
+outputs.2.1.groupId=io.wcm
+outputs.2.1.filename=io.wcm.caconfig.editor.package-1.18.0.zip
+outputs.2.1.length=203074
+outputs.2.1.checksums.sha512=dac750aaf5376007a27bb4b973b5ae8564c46548d2725aeb118724e855a0309049dce0c76cc593ba744b3fc41ccf5a64219756deb782667640bf1f1ce24ed9f6
+
+outputs.3.coordinates=io.wcm:io.wcm.caconfig.editor.root
+
+outputs.3.0.groupId=io.wcm
+outputs.3.0.filename=io.wcm.caconfig.editor.root-1.18.0.pom
+outputs.3.0.length=3512
+outputs.3.0.checksums.sha512=fc6a7d9f3b1552eadeeb934571a781b3529a0586aa59f9446f88f8a38676611a63fd8aaa4907da93b674cb92a72618fa4bba3e401f26d834dea2d1bc4f58c8ba
