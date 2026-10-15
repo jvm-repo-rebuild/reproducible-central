@@ -1,0 +1,9 @@
+version=418
+ok=4
+ko=0
+ignored=0
+okFiles="airbase-root-418.pom airbase-policy-418.pom airbase-policy-418.jar airbase-418.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
