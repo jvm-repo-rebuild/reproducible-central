@@ -13,6 +13,7 @@ rebuilding **32 releases** of de.gematik.pki:gemLibPki:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.1.0](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/6.1.0/pom) | | | |
 | [6.0.0](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/6.0.0/pom) | [mvn jdk25](gemLibPki-6.0.0.buildspec) | [result](gemLibPki-6.0.0.buildinfo): [3 :white_check_mark: ](gemLibPki-6.0.0.buildcompare) | | 427K |
 | [5.0.2](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/5.0.2/pom) | [mvn jdk21](gemLibPki-5.0.2.buildspec) | [result](gemLibPki-5.0.2.buildinfo): [3 :white_check_mark: ](gemLibPki-5.0.2.buildcompare) | | 401K |
 | [5.0.1](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/5.0.1/pom) | [mvn jdk21](gemLibPki-5.0.1.buildspec) | [result](gemLibPki-5.0.1.buildinfo): [3 :white_check_mark: ](gemLibPki-5.0.1.buildcompare) | | 401K |
