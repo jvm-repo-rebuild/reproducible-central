@@ -1,0 +1,9 @@
+version=9.2.0.Beta1
+ok=13
+ko=0
+ignored=0
+okFiles="hibernate-validator-bom-9.2.0.Beta1.pom hibernate-validator-test-utils-9.2.0.Beta1.pom hibernate-validator-test-utils-9.2.0.Beta1.jar hibernate-validator-test-utils-9.2.0.Beta1-sources.jar hibernate-validator-9.2.0.Beta1.pom hibernate-validator-9.2.0.Beta1.jar hibernate-validator-9.2.0.Beta1-sources.jar hibernate-validator-annotation-processor-9.2.0.Beta1.pom hibernate-validator-annotation-processor-9.2.0.Beta1.jar hibernate-validator-annotation-processor-9.2.0.Beta1-sources.jar hibernate-validator-cdi-9.2.0.Beta1.pom hibernate-validator-cdi-9.2.0.Beta1.jar hibernate-validator-cdi-9.2.0.Beta1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
