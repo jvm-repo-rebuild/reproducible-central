@@ -1,7 +1,12 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.11.3.buildspec:1.12.0
+content/com/flowlogix/flowlogix-11.7.1.buildspec:11.7.3
 content/com/github/ben-manes/caffeine/caffeine-cache-3.2.4.buildspec:3.3.1
+content/com/hibegin/zrlog-base/zrlog-base-3.5.11.buildspec:4.0.0
+content/dev/langchain4j/cdi/langchain4j-cdi-1.5.0.buildspec:1.5.1
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.18.5.buildspec:5.18.6
+content/it/mulders/mcs/mcs-0.11.1.buildspec:0.11.2
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3
