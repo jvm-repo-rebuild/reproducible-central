@@ -19,8 +19,8 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-misc.git](https://g
 * [com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/overview)
 </details>
 
-rebuilding **53 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent:
-- **44** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **54 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent:
+- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -48,7 +48,7 @@ rebuilding **53 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-m
 | [2.19.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.19.1/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.19.1.buildspec) | [result](jackson-datatypes-misc-parent-2.19.1.buildinfo): [29 :white_check_mark: ](jackson-datatypes-misc-parent-2.19.1.buildcompare) | | 247K |
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.19.0/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.19.0.buildspec) | [result](jackson-datatypes-misc-parent-2.19.0.buildinfo): [29 :white_check_mark: ](jackson-datatypes-misc-parent-2.19.0.buildcompare) | | 247K |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.19.0-rc2/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.19.0-rc2.buildspec) | [result](jackson-datatypes-misc-parent-2.19.0-rc2.buildinfo): [29 :white_check_mark: ](jackson-datatypes-misc-parent-2.19.0-rc2.buildcompare) | | 248K |
-| [2.18.12](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.18.12/pom) | | | |
+| [2.18.12](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.18.12/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.18.12.buildspec) | [result](jackson-datatypes-misc-parent-2.18.12.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.18.12.buildcompare) | | 159K |
 | [2.18.11](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.18.11/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.18.11.buildspec) | [result](jackson-datatypes-misc-parent-2.18.11.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.18.11.buildcompare) | | 159K |
 | [2.18.10](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.18.10/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.18.10.buildspec) | [result](jackson-datatypes-misc-parent-2.18.10.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.18.10.buildcompare) | | 159K |
 | [2.18.9](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.18.9/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.18.9.buildspec) | [result](jackson-datatypes-misc-parent-2.18.9.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.18.9.buildcompare) | | 159K |
