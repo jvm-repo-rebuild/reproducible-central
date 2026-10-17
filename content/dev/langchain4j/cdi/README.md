@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j-cdi.git](https://github.com/langchain4j/langchain4j-cdi.git)
 
-<details><summary>This project defines 15 modules:</summary>
+<details><summary>This project defines 20 modules:</summary>
 
 * [dev.langchain4j.cdi.mcp:langchain4j-cdi-mcp](https://central.sonatype.com/artifact/dev.langchain4j.cdi.mcp/langchain4j-cdi-mcp/overview)
 * [dev.langchain4j.cdi.mcp:langchain4j-cdi-mcp-build-compatible-ext](https://central.sonatype.com/artifact/dev.langchain4j.cdi.mcp/langchain4j-cdi-mcp-build-compatible-ext/overview)
@@ -22,17 +22,22 @@ Source code: [https://github.com/langchain4j/langchain4j-cdi.git](https://github
 * [dev.langchain4j.cdi:langchain4j-cdi-build-compatible-ext](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-build-compatible-ext/overview)
 * [dev.langchain4j.cdi:langchain4j-cdi-core](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-core/overview)
 * [dev.langchain4j.cdi:langchain4j-cdi-el](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-el/overview)
+* [dev.langchain4j.cdi:langchain4j-cdi-mcp](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-mcp/overview)
+* [dev.langchain4j.cdi:langchain4j-cdi-mcp-build-compatible-ext](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-mcp-build-compatible-ext/overview)
+* [dev.langchain4j.cdi:langchain4j-cdi-mcp-invoker-cdi41](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-mcp-invoker-cdi41/overview)
+* [dev.langchain4j.cdi:langchain4j-cdi-mcp-portable-ext](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-mcp-portable-ext/overview)
+* [dev.langchain4j.cdi:langchain4j-cdi-mcp-server](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-mcp-server/overview)
 * [dev.langchain4j.cdi:langchain4j-cdi-parent](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/overview)
 * [dev.langchain4j.cdi:langchain4j-cdi-portable-ext](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-portable-ext/overview)
 </details>
 
-rebuilding **10 releases** of dev.langchain4j.cdi:langchain4j-cdi-parent:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of dev.langchain4j.cdi:langchain4j-cdi-parent:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.1](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.5.1/pom) | | | |
+| [1.5.1](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.5.1/pom) | [mvn jdk21](langchain4j-cdi-1.5.1.buildspec) | [result](langchain4j-cdi-parent-1.5.1.buildinfo): [39 :white_check_mark: ](langchain4j-cdi-parent-1.5.1.buildcompare) | | 1004K |
 | [1.5.0](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.5.0/pom) | [mvn jdk21](langchain4j-cdi-1.5.0.buildspec) | [result](langchain4j-cdi-parent-1.5.0.buildinfo): [39 :white_check_mark: ](langchain4j-cdi-parent-1.5.0.buildcompare) | | 950K |
 | [1.4.0](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.4.0/pom) | [mvn jdk21](langchain4j-cdi-1.4.0.buildspec) | [result](langchain4j-cdi-parent-1.4.0.buildinfo): [36 :white_check_mark: ](langchain4j-cdi-parent-1.4.0.buildcompare) | | 618K |
 | [1.3.4](https://central.sonatype.com/artifact/dev.langchain4j.cdi/langchain4j-cdi-parent/1.3.4/pom) | [mvn jdk21](langchain4j-cdi-1.3.4.buildspec) | [result](langchain4j-cdi-parent-1.3.4.buildinfo): [36 :white_check_mark: ](langchain4j-cdi-parent-1.3.4.buildcompare) | | 510K |
