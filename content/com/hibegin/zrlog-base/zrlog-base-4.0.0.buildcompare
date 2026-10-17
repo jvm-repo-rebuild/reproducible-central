@@ -1,0 +1,9 @@
+version=4.0.0
+ok=19
+ko=0
+ignored=0
+okFiles="zrlog-base-4.0.0.pom zrlog-test-support-4.0.0.pom zrlog-test-support-4.0.0.jar zrlog-test-support-4.0.0-sources.jar zrlog-common-4.0.0.pom zrlog-common-4.0.0.jar zrlog-common-4.0.0-sources.jar zrlog-data-4.0.0.pom zrlog-data-4.0.0.jar zrlog-data-4.0.0-sources.jar zrlog-admin-token-4.0.0.pom zrlog-admin-token-4.0.0.jar zrlog-admin-token-4.0.0-sources.jar zrlog-service-4.0.0.pom zrlog-service-4.0.0.jar zrlog-service-4.0.0-sources.jar zrlog-template-4.0.0.pom zrlog-template-4.0.0.jar zrlog-template-4.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
