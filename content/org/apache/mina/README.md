@@ -31,6 +31,7 @@ rebuilding **20 releases** of org.apache.mina:mina-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.10](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.10/pom) | | | |
 | [2.2.9](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.9/pom) | [mvn jdk25](mina-2.2.9.buildspec) | [result](mina-parent-2.2.9.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.9.buildcompare) | | 4.5M |
 | [2.2.8](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.8/pom) | [mvn jdk25](mina-2.2.8.buildspec) | [result](mina-parent-2.2.8.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.8.buildcompare) | | 4.5M |
 | [2.2.7](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.7/pom) | [mvn jdk21](mina-2.2.7.buildspec) | [result](mina-parent-2.2.7.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.7.buildcompare) | | 4.5M |
