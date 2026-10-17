@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Central Search
+group-id=it.mulders
+artifact-id=mcs
+version=0.11.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/mthmulders/mcs.git
+source.scm.tag=v0.11.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=it.mulders
+outputs.0.filename=mcs-0.11.2.pom
+outputs.0.length=24863
+outputs.0.checksums.sha512=e71bae4310cb690b520507a65fe7b214329b99f1fb68f7d7384e63e127154ee776bebb056824d6431c70c9a5609ba3376039fa1ad419e4c999a808539bdf7143
+
+outputs.1.groupId=it.mulders
+outputs.1.filename=mcs-0.11.2.jar
+outputs.1.length=1304332
+outputs.1.checksums.sha512=7744657ea84a511dd2950bc75987f8a9813b2af640dd209797e7178673a88dddd4e8e3b1173c55699986b1b2bcb876bb284a1ecee42fd86149736935ebb6c1af
+
+outputs.2.groupId=it.mulders
+outputs.2.filename=mcs-0.11.2-sources.jar
+outputs.2.length=49373
+outputs.2.checksums.sha512=f0ed2a454a79367df31024a520dc28675629c5203521f1647625f6d56dfcb3d7444fc78a7a91786f85a205f19ebd31ff02b65fa3a0cf02258d14f4a73d04c471

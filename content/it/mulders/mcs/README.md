@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/mthmulders/mcs.git](https://github.com/mthmulders/mcs.git)
 
-rebuilding **4 releases** of it.mulders:mcs:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of it.mulders:mcs:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.11.2](https://central.sonatype.com/artifact/it.mulders/mcs/0.11.2/pom) | | | |
+| [0.11.2](https://central.sonatype.com/artifact/it.mulders/mcs/0.11.2/pom) | [mvn jdk25](mcs-0.11.2.buildspec) | [result](mcs-0.11.2.buildinfo): [3 :white_check_mark: ](mcs-0.11.2.buildcompare) | | 1.4M |
 | [0.11.1](https://central.sonatype.com/artifact/it.mulders/mcs/0.11.1/pom) | [mvn jdk25](mcs-0.11.1.buildspec) | [result](mcs-0.11.1.buildinfo): [3 :white_check_mark: ](mcs-0.11.1.buildcompare) | | 1.4M |
 | [0.11.0](https://central.sonatype.com/artifact/it.mulders/mcs/0.11.0/pom) | [mvn jdk25](mcs-0.11.0.buildspec) | [result](mcs-0.11.0.buildinfo): [3 :white_check_mark: ](mcs-0.11.0.buildcompare) | | 1.4M |
 | [0.10.2](https://central.sonatype.com/artifact/it.mulders/mcs/0.10.2/pom) | [mvn jdk25](mcs-0.10.2.buildspec) | [result](mcs-0.10.2.buildinfo): [3 :white_check_mark: ](mcs-0.10.2.buildcompare) | | 1.4M |
