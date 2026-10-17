@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatype: Joda
+group-id=com.fasterxml.jackson.datatype
+artifact-id=jackson-datatype-joda
+version=2.21.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatype-joda.git
+source.scm.tag=jackson-datatype-joda-2.21.8
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_504
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.datatype
+outputs.0.filename=jackson-datatype-joda-2.21.8.pom
+outputs.0.length=5183
+outputs.0.checksums.sha512=cdb925a0f8527c2d681d019a1aa44c30fae1bb4e167414efd31fc1e1a8fc4b1adc283b5f855189488559b83e83eb3a10d2379e6bf2d0af1a686a7d95825f0ad9
+
+outputs.1.groupId=com.fasterxml.jackson.datatype
+outputs.1.filename=jackson-datatype-joda-2.21.8.jar
+outputs.1.length=85927
+outputs.1.checksums.sha512=859e664062b3d71afbb422d6895f2c99cf6b2c696be87a925c42d0f97ced245dd99e685a60541783f2a119e09259c780bc6fe61138e4e1a6602d9f33ab1b7aff
+
+outputs.2.groupId=com.fasterxml.jackson.datatype
+outputs.2.filename=jackson-datatype-joda-2.21.8-sources.jar
+outputs.2.length=54366
+outputs.2.checksums.sha512=93a72fe8b38388270aef1e505dcc3d74262ecba0860db23dbf1a1040ba6e765daaff8ce68d3346b4d7fc095d0793f49f373a99476aca35d1a0fc0311dd6a798b
+
+outputs.3.groupId=com.fasterxml.jackson.datatype
+outputs.3.filename=jackson-datatype-joda-2.21.8-sbom-cyclonedx.xml
+outputs.3.length=10788
+outputs.3.checksums.sha512=8d07fa1d8f14162e1dc43d032a780ac044095d5bec8b36fb98eef8559693d9b02620497e3364a96c544c967a7bf7f5b7641344eb782b0b4acfd2d762ba0c3557
+
+outputs.4.groupId=com.fasterxml.jackson.datatype
+outputs.4.filename=jackson-datatype-joda-2.21.8-sbom-cyclonedx.json
+outputs.4.length=11557
+outputs.4.checksums.sha512=e5298579c5b9668cb5f89e49b4c0ae1c60e9d70bbd03b842a7e2c1d49afd0003c5091e5518168a6eff16231172ba91545b3210165f003c9ed00691257a432344
+# ignored jackson-datatype-joda-2.21.8.module
