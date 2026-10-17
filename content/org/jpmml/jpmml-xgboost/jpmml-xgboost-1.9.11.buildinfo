@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-XGBoost
+group-id=org.jpmml
+artifact-id=jpmml-xgboost
+version=1.9.11
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-xgboost.git
+source.scm.tag=1.9.11
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(com.fasterxml.jackson.core:jackson-annotations:(2.22,));e(org.apache.commons:commons-math3:(3.6.1,));e(com.google.code.gson:gson:(2.14.0,));e(com.fasterxml.jackson.core:jackson-annotations:(2.22,));e(com.google.code.gson:gson:(2.14.0,))
+mvn.aggregate.artifact-id=pmml-xgboost-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-xgboost
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-xgboost-1.9.11.pom
+outputs.0.0.length=2955
+outputs.0.0.checksums.sha512=cbfc5e3c9ad9809cef5caddeaf8395283e94e3b5ad8aadbbed292bbde0d51e27f261f7fdb6751bc593923bdd00fc300f149ec69f31d4e1f9b9e9c00c4a590b05
+
+outputs.1.coordinates=org.jpmml:pmml-xgboost
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-xgboost-1.9.11.pom
+outputs.1.0.length=1684
+outputs.1.0.checksums.sha512=71a3c0c7aee67665478dca3324b759121fa55bb2225925da2255ebc551497f27717914a4bcee27c0fe5b71dbe17193996663775215af5bd5b877529cc5f2e6f8
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-xgboost-1.9.11.jar
+outputs.1.1.length=101946
+outputs.1.1.checksums.sha512=13182fce774db245833b6f8d6ea6eb0f456a07cf9ae5ef588f2f48e00abc47c891e25977f550c5dc9f9e61d2032d98f968be126ba5044100685bd4061da23c9a
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-xgboost-1.9.11-sources.jar
+outputs.1.2.length=66066
+outputs.1.2.checksums.sha512=0814725d7c295f75d35093b678a4a3c2233ad7f9c1dbf6356d67b0bc48d218bec60fd652d72029f5b71bbfbb6c4d6aa50363bdc2ee1006b148584ef750b8d225
+
+outputs.2.coordinates=org.jpmml:pmml-xgboost-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-xgboost-example-1.9.11.pom
+outputs.2.0.length=1933
+outputs.2.0.checksums.sha512=8e20bed1a98141abaa390ab0e1ca473969c01ff5f023b196faf9c0127881aa7aba076a41aa16ea2c708e543bfad0b873cc77ad587d90affb948678415e24fa3f
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-xgboost-example-1.9.11.jar
+outputs.2.1.length=7104
+outputs.2.1.checksums.sha512=3d6379a28776ee064c8911d0c0550d5e2d38d47b43c528e7fcb6750db752aceb5eb9c77a917fc733ec037b758a7042b292184cc5eaad6f9c6875641ffb60e927
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-xgboost-example-1.9.11-sources.jar
+outputs.2.2.length=4816
+outputs.2.2.checksums.sha512=304b8c25c0f55e084ca95712923e8bc930db8244dd8f3c0395ba2f1078df517d0e223e7eba623d0d7849c68f4184f19959ebc6c1a8a92815196c8351e30aaba7
