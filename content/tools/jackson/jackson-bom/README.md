@@ -25,6 +25,7 @@ rebuilding **27 releases** of tools.jackson:jackson-bom:
 | [3.2.2](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.2/pom) | [mvn jdk17](jackson-bom-3.2.2.buildspec) | [result](jackson-bom-3.2.2.buildinfo): [2 :white_check_mark: ](jackson-bom-3.2.2.buildcompare) | | 36K |
 | [3.2.1](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.1/pom) | [mvn jdk17](jackson-bom-3.2.1.buildspec) | [result](jackson-bom-3.2.1.buildinfo): [2 :white_check_mark: ](jackson-bom-3.2.1.buildcompare) | | 36K |
 | [3.2.0](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.2.0/pom) | [mvn jdk17](jackson-bom-3.2.0.buildspec) | [result](jackson-bom-3.2.0.buildinfo): [2 :white_check_mark: ](jackson-bom-3.2.0.buildcompare) | | 36K |
+| [3.1.8](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.1.8/pom) | | | |
 | [3.1.7](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.1.7/pom) | [mvn jdk17](jackson-bom-3.1.7.buildspec) | [result](jackson-bom-3.1.7.buildinfo): [2 :white_check_mark: ](jackson-bom-3.1.7.buildcompare) | | 36K |
 | [3.1.6](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.1.6/pom) | [mvn jdk17](jackson-bom-3.1.6.buildspec) | [result](jackson-bom-3.1.6.buildinfo): [2 :white_check_mark: ](jackson-bom-3.1.6.buildcompare) | | 36K |
 | [3.1.5](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.1.5/pom) | [mvn jdk17](jackson-bom-3.1.5.buildspec) | [result](jackson-bom-3.1.5.buildinfo): [2 :white_check_mark: ](jackson-bom-3.1.5.buildcompare) | | 36K |

@@ -13,6 +13,8 @@ rebuilding **31 releases** of com.github.hazendaz:base-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [64](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/64/pom) | | | |
+| [63](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/63/pom) | | | |
 | [62](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/62/pom) | [mvn jdk21 w](base-parent-62.buildspec) | [result](base-parent-62.buildinfo): [3 :white_check_mark: ](base-parent-62.buildcompare) | | 137K |
 | [61](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/61/pom) | [mvn jdk21 w](base-parent-61.buildspec) | [result](base-parent-61.buildinfo): [3 :white_check_mark: ](base-parent-61.buildcompare) | | 137K |
 | [60](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/60/pom) | [mvn jdk21 w](base-parent-60.buildspec) | [result](base-parent-60.buildinfo): [3 :white_check_mark: ](base-parent-60.buildcompare) | | 137K |

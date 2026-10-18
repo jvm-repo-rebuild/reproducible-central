@@ -22,6 +22,7 @@ rebuilding **54 releases** of com.fasterxml.jackson.dataformat:jackson-dataforma
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.22.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.22.4/pom) | | | |
 | [2.22.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.22.3/pom) | [mvn jdk8](jackson-dataformats-text-2.22.3.buildspec) | [result](jackson-dataformats-text-2.22.3.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.22.3.buildcompare) | | 587K |
 | [2.22.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.22.2/pom) | [mvn jdk8](jackson-dataformats-text-2.22.2.buildspec) | [result](jackson-dataformats-text-2.22.2.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.22.2.buildcompare) | | 582K |
 | [2.22.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.22.1/pom) | [mvn jdk8](jackson-dataformats-text-2.22.1.buildspec) | [result](jackson-dataformats-text-2.22.1.buildinfo): [21 :white_check_mark: ](jackson-dataformats-text-2.22.1.buildcompare) | | 579K |
