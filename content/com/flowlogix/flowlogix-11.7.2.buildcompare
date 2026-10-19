@@ -1,0 +1,9 @@
+version=11.7.2
+ok=16
+ko=0
+ignored=8
+okFiles="flowlogix-11.7.2.pom flowlogix-11.7.2-build.pom flowlogix-jee-11.7.2.pom flowlogix-jee-11.7.2-build.pom flowlogix-jee-11.7.2.jar flowlogix-jee-11.7.2-sources.jar flowlogix-jee-11.7.2-tests.jar flowlogix-jee-11.7.2-cyclonedx.xml flowlogix-jee-11.7.2-cyclonedx.json flowlogix-datamodel-11.7.2.pom flowlogix-datamodel-11.7.2-build.pom flowlogix-datamodel-11.7.2.jar flowlogix-datamodel-11.7.2-sources.jar flowlogix-datamodel-11.7.2-tests.jar flowlogix-datamodel-11.7.2-cyclonedx.xml flowlogix-datamodel-11.7.2-cyclonedx.json"
+koFiles=""
+ignoredFiles="flowlogix-11.7.2-cyclonedx.xml flowlogix-11.7.2-cyclonedx.json flowlogix-11.7.2.spdx.json flowlogix-11.7.2.spdx.json-ld.json flowlogix-jee-11.7.2.spdx.json flowlogix-jee-11.7.2.spdx.json-ld.json flowlogix-datamodel-11.7.2.spdx.json flowlogix-datamodel-11.7.2.spdx.json-ld.json"
+reference_java_version="27 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
