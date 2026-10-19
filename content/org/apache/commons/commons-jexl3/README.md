@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.commons:commons-jexl3:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.7.1](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.7.1/pom) | | | |
 | [3.7.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.7.0/pom) | [mvn jdk21](commons-jexl3-3.7.0.buildspec) | [result](commons-jexl3-3.7.0.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.7.0.buildcompare) | | 2.0M |
 | [3.6.4](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.4/pom) | [mvn jdk21](commons-jexl3-3.6.4.buildspec) | [result](commons-jexl3-3.6.4.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.6.4.buildcompare) | | 1.9M |
 | [3.6.3](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.3/pom) | [mvn jdk21](commons-jexl3-3.6.3.buildspec) | [result](commons-jexl3-3.6.3.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.6.3.buildcompare) | | 1.9M |

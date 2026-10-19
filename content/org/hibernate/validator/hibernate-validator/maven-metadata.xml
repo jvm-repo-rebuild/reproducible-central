@@ -72,6 +72,7 @@
       <version>7.0.3.Final</version>
       <version>7.0.4.Final</version>
       <version>7.0.5.Final</version>
+      <version>7.0.6.Final</version>
       <version>8.0.0.Alpha1</version>
       <version>8.0.0.Alpha2</version>
       <version>8.0.0.Alpha3</version>
@@ -103,6 +104,6 @@
       <version>9.1.5.Final</version>
       <version>9.2.0.Beta1</version>
     </versions>
-    <lastUpdated>20261013142751</lastUpdated>
+    <lastUpdated>20261019210822</lastUpdated>
   </versioning>
 </metadata>

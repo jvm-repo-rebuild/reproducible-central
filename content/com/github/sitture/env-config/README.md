@@ -13,6 +13,7 @@ rebuilding **19 releases** of com.github.sitture:env-config:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.7.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.6.0/pom) | [mvn jdk17](env-config-2.6.0.buildspec) | [result](env-config-2.6.0.buildinfo): [3 :white_check_mark: ](env-config-2.6.0.buildcompare) | | 66K |
 | [2.5.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.5.0/pom) | [mvn jdk17](env-config-2.5.0.buildspec) | [result](env-config-2.5.0.buildinfo): [3 :white_check_mark: ](env-config-2.5.0.buildcompare) | | 60K |
 | [2.4.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.4.0/pom) | [mvn jdk17](env-config-2.4.0.buildspec) | [result](env-config-2.4.0.buildinfo): [3 :white_check_mark: ](env-config-2.4.0.buildcompare) | | 60K |

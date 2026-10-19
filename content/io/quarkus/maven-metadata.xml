@@ -198,6 +198,7 @@
       <version>3.27.5.2</version>
       <version>3.27.5.3</version>
       <version>3.27.5</version>
+      <version>3.27.6.1</version>
       <version>3.27.6</version>
       <version>3.28.0.CR1</version>
       <version>3.28.0</version>
@@ -244,6 +245,7 @@
       <version>3.33.3.2</version>
       <version>3.33.3.3</version>
       <version>3.33.3</version>
+      <version>3.33.4.1</version>
       <version>3.33.4</version>
       <version>3.34.0.CR1</version>
       <version>3.34.0</version>
@@ -285,9 +287,10 @@
       <version>3.39.5</version>
       <version>3.40.0.CR1</version>
       <version>3.40.0</version>
+      <version>3.40.1.1</version>
       <version>3.40.1</version>
       <version>4.0.0.Beta1</version>
     </versions>
-    <lastUpdated>20260930181004</lastUpdated>
+    <lastUpdated>20261019094047</lastUpdated>
   </versioning>
 </metadata>

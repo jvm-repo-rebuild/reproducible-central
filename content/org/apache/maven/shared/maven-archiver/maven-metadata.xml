@@ -3,13 +3,14 @@
   <groupId>org.apache.maven.shared</groupId>
   <artifactId>maven-archiver</artifactId>
   <versioning>
-    <latest>4.0.0-beta-5</latest>
-    <release>4.0.0-beta-5</release>
+    <latest>4.0.0-beta-6</latest>
+    <release>4.0.0-beta-6</release>
     <versions>
       <version>4.0.0-beta-3</version>
       <version>4.0.0-beta-4</version>
       <version>4.0.0-beta-5</version>
+      <version>4.0.0-beta-6</version>
     </versions>
-    <lastUpdated>20251008160841</lastUpdated>
+    <lastUpdated>20261019064845</lastUpdated>
   </versioning>
 </metadata>
