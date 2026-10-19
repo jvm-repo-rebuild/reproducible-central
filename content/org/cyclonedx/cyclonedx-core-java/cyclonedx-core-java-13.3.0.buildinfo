@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CycloneDX Core (Java)
+group-id=org.cyclonedx
+artifact-id=cyclonedx-core-java
+version=13.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/CycloneDX/cyclonedx-core-java.git
+source.scm.tag=cyclonedx-core-java-13.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.4.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.cyclonedx
+outputs.0.filename=cyclonedx-core-java-13.3.0.pom
+outputs.0.length=15240
+outputs.0.checksums.sha512=41ce98b0cb5b090f4ee2310594dc0880c85b32558eb0237e6c1348d7dce32bb1cdf79b1fdbc9c32779a5942400ae261aad392f1e47a36efa26012cf3c8a329cd
+
+outputs.1.groupId=org.cyclonedx
+outputs.1.filename=cyclonedx-core-java-13.3.0.jar
+outputs.1.length=2992960
+outputs.1.checksums.sha512=0ef9b75de2498fcf126b57c62ba7ab3dedbfb9469e2abcb1de97dcf7deca83de346ffe34c8131225558b1c28e34729e0b52d6016dce26511ca28fea1b4c7c810
+
+outputs.2.groupId=org.cyclonedx
+outputs.2.filename=cyclonedx-core-java-13.3.0-sources.jar
+outputs.2.length=2812989
+outputs.2.checksums.sha512=0c8109628ea0e50f565b0af5eede24ddb822a53b2aa63c3015523911a1d393b2b6fbb63aa36d61a62bdc5c6c6c13026d4dfdbe2faf1f35182be7179e373a0975
+
+outputs.3.groupId=org.cyclonedx
+outputs.3.filename=cyclonedx-core-java-13.3.0-cyclonedx.xml
+outputs.3.length=31421
+outputs.3.checksums.sha512=5f126f15b3393138100b122336cd2cb2c64bf38b1b8db097873da8a2c40ef177df6c5883ca170cfb7d51b0234871c69c577e563a8942a94fdad0a16f811b77d6
+
+outputs.4.groupId=org.cyclonedx
+outputs.4.filename=cyclonedx-core-java-13.3.0-cyclonedx.json
+outputs.4.length=34953
+outputs.4.checksums.sha512=4ba0f7448fecb5af56d22384c3c59e3f7bb018e817af85d2b81d2be298518c8a9cc9a29be2ca8ad89985855e68ad3662e2315ca440964303602e6ddced97a6f9
