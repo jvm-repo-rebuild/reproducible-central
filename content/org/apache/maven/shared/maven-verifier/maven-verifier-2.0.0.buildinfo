@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Verifier Component (RETIRED)
+group-id=org.apache.maven.shared
+artifact-id=maven-verifier
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-verifier.git
+source.scm.tag=maven-verifier-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-verifier-2.0.0.pom
+outputs.0.length=6595
+outputs.0.checksums.sha512=12f6564c44c4657cd4a9b42641222fe66597a3f1e3772342656981a6eb4d0517654ecfbe07168617f63efea866e1ebec8aeaca51ec88c6e1e0763096403bc0da
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-verifier-2.0.0.jar
+outputs.1.length=40061
+outputs.1.checksums.sha512=89a29ffcd2e4f541eed32e9a21edc9b11d6a91f2f3891c68af710026504f55c13d01f362640fa09ffc87d74b0d1da8823908e8f05069bbd7993de020c39c5fe0
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-verifier-2.0.0-source-release.zip
+outputs.2.length=65779
+outputs.2.checksums.sha512=4263493d1d4e2ca77e3f5fd08c3dccd4ca519ff3e0de53a0f2c6d60671f9376b68dd5c641c75eba9a8e62a98fe961256db611ffc38b0839f9a5c19b257ad5c8f
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-verifier-2.0.0-sources.jar
+outputs.3.length=31510
+outputs.3.checksums.sha512=c674b48cc3a52d3de603cd5ca388e7a0236be3b7cbec8b92e63d386c7401b30fa92bd2a6f7ef203ff782650e4d8cd05e01a68ad619a303f81326ef8c5918c338
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-verifier-2.0.0-cyclonedx.xml
+outputs.4.length=34696
+outputs.4.checksums.sha512=276405247f6df0a545bb070cebfc0ab057baa2bbb06153a31d4404ee638523c6e031cc1204dcbfa0d579c811d6ccb2641d79b33bf08cb597dab0a51c9fe88794
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-verifier-2.0.0-cyclonedx.json
+outputs.5.length=38095
+outputs.5.checksums.sha512=ebe16b4ef6462bf138a1aabd31d7681e86422df205966fb4c22d9de007341eaf448106888c90f30158f7c835b70d5b9e540d66f232786744144495de63aeabbe
