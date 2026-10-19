@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-dataformat-xml.git](https://github.com/FasterXML/jackson-dataformat-xml.git)
 
-rebuilding **54 releases** of com.fasterxml.jackson.dataformat:jackson-dataformat-xml:
-- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **55 releases** of com.fasterxml.jackson.dataformat:jackson-dataformat-xml:
+- **46** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.22.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.22.4/pom) | | | |
+| [2.22.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.22.4/pom) | [mvn jdk8](jackson-dataformat-xml-2.22.4.buildspec) | [result](jackson-dataformat-xml-2.22.4.buildinfo): [5 :white_check_mark: ](jackson-dataformat-xml-2.22.4.buildcompare) | | 272K |
 | [2.22.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.22.3/pom) | [mvn jdk8](jackson-dataformat-xml-2.22.3.buildspec) | [result](jackson-dataformat-xml-2.22.3.buildinfo): [5 :white_check_mark: ](jackson-dataformat-xml-2.22.3.buildcompare) | | 272K |
 | [2.22.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.22.2/pom) | [mvn jdk8](jackson-dataformat-xml-2.22.2.buildspec) | [result](jackson-dataformat-xml-2.22.2.buildinfo): [5 :white_check_mark: ](jackson-dataformat-xml-2.22.2.buildcompare) | | 272K |
 | [2.22.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.22.1/pom) | [mvn jdk8](jackson-dataformat-xml-2.22.1.buildspec) | [result](jackson-dataformat-xml-2.22.1.buildinfo): [5 :white_check_mark: ](jackson-dataformat-xml-2.22.1.buildcompare) | | 270K |
