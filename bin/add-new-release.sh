@@ -11,6 +11,7 @@ then
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
     then
       previousBuildspec="$dir/$(ls $dir | grep "\-${version}\.buildspec")"
+      echo "using PREV buildspec ${previousBuildspec}"
       break
     fi
   done

@@ -10,6 +10,20 @@ do
   previousBuildspec="$(echo $line | cut -d ':' -f 1)"
   nextVersion="$(echo $line | cut -d ':' -f 2)"
 
+  if [[ "${previousBuildspec}" == *"-PREV.buildspec" ]]
+  then
+    dir=$(dirname ${previousBuildspec})
+    for version in $(tac ${dir}/maven-metadata.xml | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1 | grep -A 10 ${nextVersion} | grep -v ${nextVersion})
+    do
+      if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+      then
+        previousBuildspec="$dir/$(ls $dir | grep "\-${version}\.buildspec")"
+        echo "using PREV buildspec ${previousBuildspec}"
+        break
+      fi
+    done
+  fi
+
   . ${previousBuildspec}
   dir=`dirname ${previousBuildspec}`
   file=`basename ${previousBuildspec} -${version}.buildspec`
