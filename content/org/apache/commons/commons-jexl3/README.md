@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-jexl.git](https://github.com/apache/commons-jexl.git)
 
-rebuilding **8 releases** of org.apache.commons:commons-jexl3:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.apache.commons:commons-jexl3:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.7.1](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.7.1/pom) | | | |
+| [3.7.1](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.7.1/pom) | [mvn jdk25](commons-jexl3-3.7.1.buildspec) | [result](commons-jexl3-3.7.1.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.7.1.buildcompare) | | 2.0M |
 | [3.7.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.7.0/pom) | [mvn jdk21](commons-jexl3-3.7.0.buildspec) | [result](commons-jexl3-3.7.0.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.7.0.buildcompare) | | 2.0M |
 | [3.6.4](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.4/pom) | [mvn jdk21](commons-jexl3-3.6.4.buildspec) | [result](commons-jexl3-3.6.4.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.6.4.buildcompare) | | 1.9M |
 | [3.6.3](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.6.3/pom) | [mvn jdk21](commons-jexl3-3.6.3.buildspec) | [result](commons-jexl3-3.6.3.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.6.3.buildcompare) | | 1.9M |
