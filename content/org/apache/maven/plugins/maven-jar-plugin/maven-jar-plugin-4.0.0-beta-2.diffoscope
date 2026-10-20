@@ -1,0 +1,143 @@
+1 / 2 target/reference/org.apache.maven.plugins/maven-jar-plugin-4.0.0-beta-2-cyclonedx.xml target/bom.xml
+--- target/reference/org.apache.maven.plugins/maven-jar-plugin-4.0.0-beta-2-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/org.apache.maven.plugins/maven-jar-plugin-4.0.0-beta-2-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -670,29 +670,57 @@
+│          </reference>
+│          <reference type="vcs">
+│            <url>http://github.com/FasterXML/stax2-api</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.maven.shared/maven-archiver@4.0.0-beta-6?type=jar">
+│ +      <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.maven.shared</group>
+│        <name>maven-archiver</name>
+│        <version>4.0.0-beta-6</version>
+│ +      <description>Provides utility methods for creating JARs and other archive files from a Maven project.</description>
+│        <scope>required</scope>
+│        <hashes>
+│          <hash alg="MD5">5596da708c7174581d8385352e7217d9</hash>
+│          <hash alg="SHA-1">917455d1e233289972b3d24343966fef7859cc58</hash>
+│          <hash alg="SHA-256">2ed151cf0b27abe8683fb26d770daaa3a9a8228557f10b1b22786e66b2b13eb0</hash>
+│          <hash alg="SHA-512">66a68bc92709c932eac2d169bb18db4356557a3fd6cf78d725f7dd9e486c57223618035606a0885f89cc72c15a3a22f7f77292f9f552ba5c8a944c753952e1d5</hash>
+│          <hash alg="SHA-384">500ed0f4ef0dcb29c2a91223a91528896ada1d011485302ca9988f992b5ca840751c2fd367d23c591b468950309b592c</hash>
+│          <hash alg="SHA3-384">6cf1d2b96a3e25cb6a7560b6a21b8e260b574f4866276f90a398847b277d2ae85cc5f6b3205342f57be388afa7c24bdd</hash>
+│          <hash alg="SHA3-256">64e81fd9df089ae70e64b2b916719632828f92d2e2b964d4e0994498c80d534d</hash>
+│          <hash alg="SHA3-512">a1631d65fe70fbd4db1236f68d0164840d3611e5bb150a3e2e25eee62eabfbb712274d42c7e4b613d54156c0db635ae2f2d4295f93ba36af8cc6725b190a7496</hash>
+│        </hashes>
+│ +      <licenses>
+│ +        <license>
+│ +          <id>Apache-2.0</id>
+│ +          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│ +        </license>
+│ +      </licenses>
+│        <purl>pkg:maven/org.apache.maven.shared/maven-archiver@4.0.0-beta-6?type=jar</purl>
+│ +      <externalReferences>
+│ +        <reference type="website">
+│ +          <url>https://maven.apache.org/shared/maven-archiver/</url>
+│ +        </reference>
+│ +        <reference type="build-system">
+│ +          <url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archiver/</url>
+│ +        </reference>
+│ +        <reference type="distribution-intake">
+│ +          <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+│ +        </reference>
+│ +        <reference type="issue-tracker">
+│ +          <url>https://github.com/apache/maven-archiver/issues</url>
+│ +        </reference>
+│ +        <reference type="mailing-list">
+│ +          <url>https://lists.apache.org/list.html?users@maven.apache.org</url>
+│ +        </reference>
+│ +        <reference type="vcs">
+│ +          <url>https://github.com/apache/maven-archiver/tree/maven-archiver-4.0.0-beta-6</url>
+│ +        </reference>
+│ +      </externalReferences>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar">
+│        <publisher>QOS.ch</publisher>
+│        <group>org.slf4j</group>
+│        <name>slf4j-api</name>
+│        <version>2.0.20</version>
+│        <description>The slf4j API</description>
+
+2 / 2 target/reference/org.apache.maven.plugins/maven-jar-plugin-4.0.0-beta-2-cyclonedx.json target/bom.json
+--- target/reference/org.apache.maven.plugins/maven-jar-plugin-4.0.0-beta-2-cyclonedx.json
++++ target/bom.json
+├── Pretty-printed
+│┄ Similarity: 0.9990842490842491%
+│┄ Differences: {"'components'": "{13: {'publisher': 'The Apache Software Foundation', 'description': 'Provides "
+│┄                  'utility methods for creating JARs and other archive files from a Maven '
+│┄                  "project.', 'licenses': [OrderedDict({'license': OrderedDict({'id': 'Apache-2.0', "
+│┄                  "'url': 'https://www.apache.org/licenses/LICENSE-2.0'})})], 'externalReferences': "
+│┄                  "[OrderedDict({'type': 'website', 'url': "
+│┄                  "'https://maven.apache.org/shared/maven-arch […]
+│ @@ -1052,14 +1052,41 @@
+│              "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@4.3.0?type=jar",
+│              "scope": "required",
+│              "type": "library",
+│              "version": "4.3.0"
+│          },
+│          {
+│              "bom-ref": "pkg:maven/org.apache.maven.shared/maven-archiver@4.0.0-beta-6?type=jar",
+│ +            "description": "Provides utility methods for creating JARs and other archive files from a Maven project.",
+│ +            "externalReferences": [
+│ +                {
+│ +                    "type": "website",
+│ +                    "url": "https://maven.apache.org/shared/maven-archiver/"
+│ +                },
+│ +                {
+│ +                    "type": "build-system",
+│ +                    "url": "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archiver/"
+│ +                },
+│ +                {
+│ +                    "type": "distribution-intake",
+│ +                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+│ +                },
+│ +                {
+│ +                    "type": "issue-tracker",
+│ +                    "url": "https://github.com/apache/maven-archiver/issues"
+│ +                },
+│ +                {
+│ +                    "type": "mailing-list",
+│ +                    "url": "https://lists.apache.org/list.html?users@maven.apache.org"
+│ +                },
+│ +                {
+│ +                    "type": "vcs",
+│ +                    "url": "https://github.com/apache/maven-archiver/tree/maven-archiver-4.0.0-beta-6"
+│ +                }
+│ +            ],
+│              "group": "org.apache.maven.shared",
+│              "hashes": [
+│                  {
+│                      "alg": "MD5",
+│                      "content": "5596da708c7174581d8385352e7217d9"
+│                  },
+│                  {
+│ @@ -1087,15 +1114,24 @@
+│                      "content": "64e81fd9df089ae70e64b2b916719632828f92d2e2b964d4e0994498c80d534d"
+│                  },
+│                  {
+│                      "alg": "SHA3-512",
+│                      "content": "a1631d65fe70fbd4db1236f68d0164840d3611e5bb150a3e2e25eee62eabfbb712274d42c7e4b613d54156c0db635ae2f2d4295f93ba36af8cc6725b190a7496"
+│                  }
+│              ],
+│ +            "licenses": [
+│ +                {
+│ +                    "license": {
+│ +                        "id": "Apache-2.0",
+│ +                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+│ +                    }
+│ +                }
+│ +            ],
+│              "name": "maven-archiver",
+│ +            "publisher": "The Apache Software Foundation",
+│              "purl": "pkg:maven/org.apache.maven.shared/maven-archiver@4.0.0-beta-6?type=jar",
+│              "scope": "required",
+│              "type": "library",
+│              "version": "4.0.0-beta-6"
+│          },
+│          {
+│              "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar",
+
