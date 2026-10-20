@@ -43,6 +43,7 @@ rebuilding **18 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.3.0](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/4.3.0/pom) | | | |
 | [4.2.0](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/4.2.0/pom) | [mvn jdk17 w](jackrabbit-filevault-4.2.0.buildspec) | [result](jackrabbit-filevault-4.2.0.buildinfo): [62 :white_check_mark: ](jackrabbit-filevault-4.2.0.buildcompare) | | 31M |
 | [4.1.4](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/4.1.4/pom) | [mvn jdk11](jackrabbit-filevault-4.1.4.buildspec) | [result](jackrabbit-filevault-4.1.4.buildinfo): [65 :white_check_mark: ](jackrabbit-filevault-4.1.4.buildcompare) | | 31M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/4.0.0/pom) | [mvn jdk11](jackrabbit-filevault-4.0.0.buildspec) | [result](jackrabbit-filevault-4.0.0.buildinfo): [65 :white_check_mark: ](jackrabbit-filevault-4.0.0.buildcompare) | | 28M |
