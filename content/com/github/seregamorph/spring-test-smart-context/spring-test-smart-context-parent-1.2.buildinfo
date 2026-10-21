@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spring-test-smart-context parent
+group-id=com.github.seregamorph
+artifact-id=spring-test-smart-context-parent
+version=1.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:seregamorph/spring-test-smart-context.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=spring-test-smart-context
+
+# aggregated output
+
+outputs.0.coordinates=com.github.seregamorph:spring-test-smart-context-parent
+
+outputs.0.0.groupId=com.github.seregamorph
+outputs.0.0.filename=spring-test-smart-context-parent-1.2.pom
+outputs.0.0.length=11957
+outputs.0.0.checksums.sha512=3de2978eeb5098acb7dc45342ccc1c0489d0130bfc997c204283920227773a135893fb007fc4b62fd901f0d2788ab2afd08e2d9b2e65bc243ce190b634a960a6
+
+outputs.1.coordinates=com.github.seregamorph:spring-test-smart-context
+
+outputs.1.0.groupId=com.github.seregamorph
+outputs.1.0.filename=spring-test-smart-context-1.2.pom
+outputs.1.0.length=4348
+outputs.1.0.checksums.sha512=3ea6bbf555a491b811bd32c2f792abebff1dc7b0a80f04d428aedab09de2f2f69a8afa7209383853a20e3a4c54f198b38944dcd78300137f03b708577fed8e41
+
+outputs.1.1.groupId=com.github.seregamorph
+outputs.1.1.filename=spring-test-smart-context-1.2.jar
+outputs.1.1.length=62875
+outputs.1.1.checksums.sha512=bb68f9299d3bd56ca01e147378788787c7ea8d680c5d3639a86bf961bc35f93c8483425babfb38725e1f957fffc08f2ac9a46bb58ed1b4498e73ce2a32434713
+
+outputs.1.2.groupId=com.github.seregamorph
+outputs.1.2.filename=spring-test-smart-context-1.2-sources.jar
+outputs.1.2.length=34772
+outputs.1.2.checksums.sha512=ee13cc927ae9c80a40ea22f9f8cc71bfabf5042965821f4eeaff39b317dcef761db112d8854190c493cade240de4c4d6d94d2da2f2a2c489580d3cf3d3318d22
