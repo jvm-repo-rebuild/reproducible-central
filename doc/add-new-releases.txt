@@ -1,12 +1,14 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/at/yawk/lz4/lz4-java/lz4-java-1.11.3.buildspec:1.12.0
-content/com/github/seregamorph/spring-test-smart-context/spring-test-smart-context-1.1.buildspec:1.2
+content/com/hibegin/zrlog-base/zrlog-base-4.0.0.buildspec:4.0.1
+content/com/sap/ai/sdk/sdk-2.0.0-M1.buildspec:2.0.0
 content/de/knightsoft-net/gwt-commons-codec/gwt-commons-codec-1.20.0-0.buildspec:1.23.0-0
+content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.20.0-0.buildspec:3.21.0-0
+content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-2.3.0.buildspec:2.4.0
+content/io/liftwizard/liftwizard-2.1.50.buildspec:2.1.51
+content/io/telicent/jena/rdf-abac/rdf-abac-4.1.2.buildspec:4.2.0
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
 content/org/apache/jackrabbit/filevault/jackrabbit-filevault-4.2.0.buildspec:4.3.0
-content/org/apache/jackrabbit/oak/jackrabbit-oak-2.6.0.buildspec:2.8.0
-content/org/apache/nifi/nifi-api/nifi-api-2.13.0.buildspec:2.14.0
-content/org/eclipse/sisu/sisu-1.1.0.buildspec:1.1.1
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3

@@ -3,8 +3,8 @@
   <groupId>org.finos.legend.engine</groupId>
   <artifactId>legend-engine</artifactId>
   <versioning>
-    <latest>4.151.4</latest>
-    <release>4.151.4</release>
+    <latest>4.152.0</latest>
+    <release>4.152.0</release>
     <versions>
       <version>release-4.114.0</version>
       <version>release-4.96.3</version>
@@ -538,7 +538,9 @@
       <version>4.151.2</version>
       <version>4.151.3</version>
       <version>4.151.4</version>
+      <version>4.151.5</version>
+      <version>4.152.0</version>
     </versions>
-    <lastUpdated>20261020202342</lastUpdated>
+    <lastUpdated>20261021190926</lastUpdated>
   </versioning>
 </metadata>

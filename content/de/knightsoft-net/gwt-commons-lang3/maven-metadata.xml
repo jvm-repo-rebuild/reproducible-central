@@ -3,8 +3,8 @@
   <groupId>de.knightsoft-net</groupId>
   <artifactId>gwt-commons-lang3</artifactId>
   <versioning>
-    <latest>3.20.0-0</latest>
-    <release>3.20.0-0</release>
+    <latest>3.21.0-0</latest>
+    <release>3.21.0-0</release>
     <versions>
       <version>3.4-1</version>
       <version>3.4-2</version>
@@ -37,7 +37,8 @@
       <version>3.18.0-0</version>
       <version>3.19.0-0</version>
       <version>3.20.0-0</version>
+      <version>3.21.0-0</version>
     </versions>
-    <lastUpdated>20251120094318</lastUpdated>
+    <lastUpdated>20261021180826</lastUpdated>
   </versioning>
 </metadata>
