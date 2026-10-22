@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=LZ4 Java Compression
+group-id=at.yawk.lz4
+artifact-id=lz4-java
+version=1.11.4
+
+# source information
+source.scm.uri=https://github.com/yawkat/lz4-java.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-38-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=at.yawk.lz4
+outputs.0.filename=lz4-java-1.11.4.pom
+outputs.0.length=50424
+outputs.0.checksums.sha512=97dd37f7c5b617bbb79430ffa7b2d78bb0c2866df472873fe01792737d0bda01371d876cdcebb94a6236ed3c7f6a3576a3d33ee2b0d8b0a2ac17249788fa5bbf
+
+outputs.1.groupId=at.yawk.lz4
+outputs.1.filename=lz4-java-1.11.4.jar
+outputs.1.length=898734
+outputs.1.checksums.sha512=9856ed5b0ee4cf8f1b94e7207b2f8be7acbad6e87895980c28f59445439db858abcc2fd69f209bd257af7637c1e9b66c7b5d330e774cb616fa45f526cf0d9baf
+
+outputs.2.groupId=at.yawk.lz4
+outputs.2.filename=lz4-java-1.11.4-sources.jar
+outputs.2.length=111390
+outputs.2.checksums.sha512=b1fd776e8f8cdddfd80678fa8e45a32619f813eb1e52c3eec0b337d823ed6ccb115192bcc2f1e58ba568302f8706111d165e99dfe66e972972c0e9d4b7c8950e
+# ignored lz4-java-1.11.4.module
