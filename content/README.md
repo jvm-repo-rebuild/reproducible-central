@@ -14,7 +14,7 @@ Reproducible Builds for Maven Central Repository
 <!-- BEGIN GENERATED RESULTS TABLE -->
 | [Central Repository](https://central.sonatype.com/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | ----------------- | --------------- | --------- | -------- |
-| at/yawk/lz4 | [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | 11 | 6 :white_check_mark: / 5 :warning: |
+| at/yawk/lz4 | [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
 | biz.aQute.bnd | [bnd-maven-plugin](../content/biz/aQute/bnd/plugins/README.md) | 16 | 16 :white_check_mark: |
 | ch.galinet | [reproducible-build-maven-plugin](../content/ch/galinet/reproducible-build-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | ch.qos.logback | [logback](../content/ch/qos/logback/README.md) | 86 | 71 :white_check_mark: / 15 :warning: |
@@ -121,7 +121,7 @@ Reproducible Builds for Maven Central Repository
 | com.google.mug | [mug](../content/com/google/mug/README.md) | 22 | 22 :white_check_mark: |
 | com.google.code.gson | [gson](../content/com/google/code/gson/README.md) | 8 | 8 :white_check_mark: |
 | com.hibegin | [common-dao](../content/com/hibegin/common-dao/README.md) | 35 | 22 :white_check_mark: / 13 :warning: |
-| | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 121 | 24 :white_check_mark: / 97 :warning: |
+| | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 122 | 25 :white_check_mark: / 97 :warning: |
 | com.homeofthewizard | [gcp-secretmanager-maven-plugin](../content/com/homeofthewizard/gcp-secretmanager-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [spring-bridge-maven-plugin](../content/com/homeofthewizard/spring-bridge-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [vault-maven-plugin](../content/com/homeofthewizard/vault-maven-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
@@ -261,7 +261,7 @@ Reproducible Builds for Maven Central Repository
 | dev.cdevents | [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.langchain4j.cdi | [langchain4j-cdi-parent](../content/dev/langchain4j/cdi/README.md) | 11 | 11 :white_check_mark: |
 | dev.notmyfault.serverlib | [ServerLib](../content/dev/notmyfault/serverlib/ServerLib/README.md) | 2 | 2 :white_check_mark: |
-| dev.sigstore | [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 13 | 10 :white_check_mark: / 3 :warning: |
+| dev.sigstore | [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 14 | 11 :white_check_mark: / 3 :warning: |
 | dk.mada.jaxrs | [openapi-jaxrs-client](../content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 22 | 20 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](../content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.style | [mada-style-gradle](../content/dk/mada/style/mada-style-gradle/README.md) | 23 | 22 :white_check_mark: / 1 :warning: |
@@ -295,7 +295,7 @@ Reproducible Builds for Maven Central Repository
 | fr.marcwrobel | [jbanking](../content/fr/marcwrobel/jbanking/README.md) | 3 | 3 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](../content/io/jooby/README.md) | 88 | 36 :white_check_mark: / 52 :warning: |
-| io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 92 | 91 :white_check_mark: / 1 :warning: |
+| io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 93 | 92 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 222 | 222 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
 | io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 265 | 258 :white_check_mark: / 7 :warning: |
@@ -992,7 +992,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 13 | 13 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 47 | 45 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 37 | 5 :white_check_mark: / 32 :warning: |
-| **Count:** | **978** | **12656** | **9388** :white_check_mark:<br>**3268** :warning: |
+| **Count:** | **978** | **12661** | **9391** :white_check_mark:<br>**3270** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1003,7 +1003,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      35 gradle     11
     267 gradle     17
-    211 gradle     21
+    212 gradle     21
       5 gradle     24
     122 gradle     25
      35 mvn         7
@@ -1079,7 +1079,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     220 mvn-3.9.11   8
     122 mvn-3.9.11  11
     317 mvn-3.9.11  17
-    452 mvn-3.9.11  21
+    453 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
     126 mvn-3.9.11  25
@@ -1087,10 +1087,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      41 mvn-3.9.12   8
      54 mvn-3.9.12  11
     140 mvn-3.9.12  17
-    407 mvn-3.9.12  21
+    408 mvn-3.9.12  21
      11 mvn-3.9.12  22
      22 mvn-3.9.12  24
-    206 mvn-3.9.12  25
+    208 mvn-3.9.12  25
       7 mvn-3.9.12  26
       5 mvn-3.9.12  27
       1 mvn-3.9.13  17
