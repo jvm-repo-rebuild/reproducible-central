@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Messages NDJSON
+group-id=io.cucumber
+artifact-id=messages-ndjson
+version=0.3.8
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/messages-ndjson.git
+source.scm.tag=v0.3.8
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(io.cucumber:messages:(31.2.0,))
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=messages-ndjson-0.3.8.pom
+outputs.0.length=7803
+outputs.0.checksums.sha512=ca29bccb35442486a9aab2b0d2529e49c906b29c55290ab82ce6d68c6f9537d1fdc418b9167a082c0cc3e9dc73631028f6c3847b1de4845e9b33eb78c5cd5870
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=messages-ndjson-0.3.8.jar
+outputs.1.length=2532230
+outputs.1.checksums.sha512=c79ac97a47d2682632167046100de9e995e3a1377931248a08adc0f794ccb1c79884a25ee71142f3975c49e7293550528ce0fbaf4123f9125cf04027246cf3bd
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=messages-ndjson-0.3.8-sources.jar
+outputs.2.length=4982
+outputs.2.checksums.sha512=ea75087f642f5ae96699035f3d5e7bbaa2cc58c83807f24212bde28c2d3f604453ea9812641cc3cf8a9fac475256c9a15d77b9e9ecec06a307f01d1a99356b7d
