@@ -2,11 +2,10 @@
 # see bin/create-new-release-PRs.sh
 content/com/sap/ai/sdk/sdk-2.0.0-M1.buildspec:2.0.0
 content/de/knightsoft-net/gwt-commons-codec/gwt-commons-codec-1.20.0-0.buildspec:1.23.0-0
-content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.20.0-0.buildspec:3.21.0-0
-content/io/airlift/airbase/airbase-419.buildspec:420
-content/io/telicent/jena/rdf-abac/rdf-abac-4.1.2.buildspec:4.2.0
+content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.20.0-0.buildspec:3.21.0-1
+content/net/bytebuddy/byte-buddy-1.18.15-jdk5.buildspec:1.18.16-jdk5
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
 content/org/apache/jackrabbit/filevault/jackrabbit-filevault-4.2.0.buildspec:4.3.0
-content/org/apache/sling/org.apache.sling.auth.core/org.apache.sling.auth.core-2.0.2.buildspec:2.1.2
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3
+content/org/mybatis/mybatis/mybatis-3.5.19.buildspec:3.6.0
