@@ -1,0 +1,18 @@
+version=4.2.0
+ok=21
+ko=3
+ignored=0
+okFiles="rdf-abac-4.2.0.pom rdf-abac-4.2.0-cyclonedx.json rdf-abac-core-4.2.0.pom rdf-abac-core-4.2.0.jar rdf-abac-core-4.2.0-cyclonedx.json rdf-abac-core-4.2.0-tests.jar rdf-abac-core-4.2.0-sources.jar rdf-abac-fuseki-4.2.0.pom rdf-abac-fuseki-4.2.0.jar rdf-abac-fuseki-4.2.0-cyclonedx.json rdf-abac-fuseki-4.2.0-tests.jar rdf-abac-fuseki-4.2.0-sources.jar rdf-abac-eval-4.2.0.pom rdf-abac-eval-4.2.0.jar rdf-abac-eval-4.2.0-cyclonedx.json rdf-abac-eval-4.2.0-sources.jar data-security-plugin-rdf-abac-4.2.0.pom data-security-plugin-rdf-abac-4.2.0-cyclonedx.json data-security-plugin-rdf-abac-registration-4.2.0.pom data-security-plugin-rdf-abac-registration-4.2.0.jar data-security-plugin-rdf-abac-registration-4.2.0-sources.jar"
+koFiles="data-security-plugin-rdf-abac-4.2.0.jar data-security-plugin-rdf-abac-4.2.0-sources.jar data-security-plugin-rdf-abac-registration-4.2.0-cyclonedx.json"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.telicent.smart-caches/data-security-plugin-rdf-abac-4.2.0.jar data-security-plugin-rdf-abac/target/data-security-plugin-rdf-abac-4.2.0.jar
+# diffoscope target/reference/io.telicent.smart-caches/data-security-plugin-rdf-abac-4.2.0-sources.jar data-security-plugin-rdf-abac/target/data-security-plugin-rdf-abac-4.2.0-sources.jar
+# diffoscope target/reference/io.telicent.smart-caches/data-security-plugin-rdf-abac-registration-4.2.0-cyclonedx.json data-security-plugin-rdf-abac-registration/target/data-security-plugin-rdf-abac-registration-4.2.0-bom.json
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="data-security-plugin-rdf-abac-4.2.0.jar.stabilized data-security-plugin-rdf-abac-4.2.0-sources.jar.stabilized"
+stabilize_ignoredFiles="data-security-plugin-rdf-abac-registration-4.2.0-cyclonedx.json"
