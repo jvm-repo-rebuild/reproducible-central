@@ -1,0 +1,20 @@
+groupId=at/yawk/lz4
+artifactId=lz4-java
+display=${groupId}:${artifactId}
+version=1.12.1
+
+gitRepo=https://github.com/yawkat/lz4-java.git
+gitTag=v${version}
+
+tool=mvn-3.9.12
+jdk=25
+toolchains="21|7"
+newline=lf
+#umask=022
+
+# to build the full artifact content, see instructions in Rebuild.md
+command="SHELL mvn package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.module' -P'!native-macos,!native-linux'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
