@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/clojure/clojure.git](https://github.com/clojure/clojure.git)
 
-rebuilding **10 releases** of org.clojure:clojure:
+rebuilding **11 releases** of org.clojure:clojure:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 10, 0 had all their differences removed :recycle:, 10 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 11, 0 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.13.0-alpha10](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha10/pom) | | | |
+| [1.13.0-alpha10](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha10/pom) | [mvn jdk17](clojure-1.13.0-alpha10.buildspec) | [result](clojure-1.13.0-alpha10.buildinfo): [3 :white_check_mark:  1 :warning:](clojure-1.13.0-alpha10.buildcompare) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 1 :rotating_light: | 6.0M |
 | [1.13.0-alpha9](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha9/pom) | [mvn jdk17](clojure-1.13.0-alpha9.buildspec) | [result](clojure-1.13.0-alpha9.buildinfo): [3 :white_check_mark:  1 :warning:](clojure-1.13.0-alpha9.buildcompare) [:mag:](clojure-1.13.0-alpha9.diffoscope) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 1 :rotating_light: | 6.0M |
 | [1.13.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha8/pom) | [mvn jdk17](clojure-1.13.0-alpha8.buildspec) | [result](clojure-1.13.0-alpha8.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.13.0-alpha8.buildcompare) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 2 :recycle: 1 :rotating_light: | 6.0M |
 | [1.13.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.13.0-alpha7/pom) | [mvn jdk17](clojure-1.13.0-alpha7.buildspec) | [result](clojure-1.13.0-alpha7.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.13.0-alpha7.buildcompare) [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) | 2 :recycle: 1 :rotating_light: | 6.0M |
