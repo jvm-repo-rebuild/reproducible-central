@@ -1,0 +1,16 @@
+version=3.6.0
+ok=2
+ko=1
+ignored=0
+okFiles="mybatis-3.6.0.pom mybatis-3.6.0-sources.jar"
+koFiles="mybatis-3.6.0.jar"
+ignoredFiles=""
+reference_java_version="27 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.mybatis/mybatis-3.6.0.jar target/mybatis-3.6.0.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="mybatis-3.6.0.jar.stabilized"
+stabilize_ignoredFiles=""

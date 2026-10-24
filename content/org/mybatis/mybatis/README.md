@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/mybatis/mybatis-3.git](https://github.com/mybatis/mybatis-3.git)
 
-rebuilding **10 releases** of org.mybatis:mybatis:
+rebuilding **11 releases** of org.mybatis:mybatis:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.6.0](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.6.0/pom) | | | |
+| [3.6.0](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.6.0/pom) | [mvn jdk27](mybatis-3.6.0.buildspec) | [result](mybatis-3.6.0.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-3.6.0.buildcompare) | 1 :rotating_light: | 3.1M |
 | [3.5.19](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.19/pom) | [mvn jdk21 w](mybatis-3.5.19.buildspec) | [result](mybatis-3.5.19.buildinfo): [3 :white_check_mark: ](mybatis-3.5.19.buildcompare) | | 3.1M |
 | [3.5.18](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.18/pom) | [mvn jdk21 w](mybatis-3.5.18.buildspec) | [result](mybatis-3.5.18.buildinfo): [3 :white_check_mark: ](mybatis-3.5.18.buildcompare) | | 3.1M |
 | [3.5.17](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.17/pom) | [mvn jdk17](mybatis-3.5.17.buildspec) | [result](mybatis-3.5.17.buildinfo): [1 :white_check_mark:  2 :warning:](mybatis-3.5.17.buildcompare) | - | 3.1M |
