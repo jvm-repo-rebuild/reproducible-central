@@ -1,0 +1,17 @@
+version=3.21.0-1
+ok=5
+ko=2
+ignored=0
+okFiles="gwt-commons-lang3-3.21.0-1.pom gwt-commons-lang3-3.21.0-1.jar gwt-commons-lang3-3.21.0-1-tests.jar gwt-commons-lang3-3.21.0-1-sources.jar gwt-commons-lang3-3.21.0-1-test-sources.jar"
+koFiles="gwt-commons-lang3-3.21.0-1-cyclonedx.xml gwt-commons-lang3-3.21.0-1-cyclonedx.json"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/de.knightsoft-net/gwt-commons-lang3-3.21.0-1-cyclonedx.xml target/gwt-commons-lang3-3.21.0-1-bom.xml
+# diffoscope target/reference/de.knightsoft-net/gwt-commons-lang3-3.21.0-1-cyclonedx.json target/gwt-commons-lang3-3.21.0-1-bom.json
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="gwt-commons-lang3-3.21.0-1-cyclonedx.xml gwt-commons-lang3-3.21.0-1-cyclonedx.json"
