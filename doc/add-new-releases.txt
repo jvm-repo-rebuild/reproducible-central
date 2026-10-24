@@ -1,11 +1,8 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/sap/ai/sdk/sdk-2.0.0-M1.buildspec:2.0.0
-content/de/knightsoft-net/gwt-commons-codec/gwt-commons-codec-1.20.0-0.buildspec:1.23.0-0
-content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.20.0-0.buildspec:3.21.0-1
-content/net/bytebuddy/byte-buddy-1.18.15-jdk5.buildspec:1.18.16-jdk5
+content/com/google/code/gson/gson-2.14.0.buildspec:2.15.0
+content/nl/basjes/parse/useragent/yauaa/yauaa-8.2.0.buildspec:8.3.0
 content/org/apache/accumulo/accumulo-3.0.0.buildspec:4.0.0-alpha-1
 content/org/apache/httpcomponents/parent/httpcomponents-parent-14.buildspec:15
-content/org/apache/jackrabbit/filevault/jackrabbit-filevault-4.2.0.buildspec:4.3.0
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-13.3.0.buildspec:13.4.0
 content/org/glassfish/grizzly/grizzly-5.0.2.buildspec:5.0.3
-content/org/mybatis/mybatis/mybatis-3.5.19.buildspec:3.6.0
