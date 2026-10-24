@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/hazendaz/base-parent.git](https://github.com/hazendaz/base-parent.git)
 
-rebuilding **32 releases** of com.github.hazendaz:base-parent:
-- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **33 releases** of com.github.hazendaz:base-parent:
+- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [64](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/64/pom) | [mvn jdk21 w](base-parent-64.buildspec) | [result](base-parent-64.buildinfo): [3 :white_check_mark: ](base-parent-64.buildcompare) | | 140K |
-| [63](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/63/pom) | | | |
+| [63](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/63/pom) | [mvn jdk21 w](base-parent-63.buildspec) | [result](base-parent-63.buildinfo): [3 :white_check_mark: ](base-parent-63.buildcompare) | | 140K |
 | [62](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/62/pom) | [mvn jdk21 w](base-parent-62.buildspec) | [result](base-parent-62.buildinfo): [3 :white_check_mark: ](base-parent-62.buildcompare) | | 137K |
 | [61](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/61/pom) | [mvn jdk21 w](base-parent-61.buildspec) | [result](base-parent-61.buildinfo): [3 :white_check_mark: ](base-parent-61.buildcompare) | | 137K |
 | [60](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/60/pom) | [mvn jdk21 w](base-parent-60.buildspec) | [result](base-parent-60.buildinfo): [3 :white_check_mark: ](base-parent-60.buildcompare) | | 137K |
