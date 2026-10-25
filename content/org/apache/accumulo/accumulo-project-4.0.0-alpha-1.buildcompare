@@ -1,0 +1,9 @@
+version=4.0.0-alpha-1
+ok=45
+ko=0
+ignored=0
+okFiles="accumulo-project-4.0.0-alpha-1.pom accumulo-start-4.0.0-alpha-1.pom accumulo-start-4.0.0-alpha-1.jar accumulo-start-4.0.0-alpha-1-sources.jar accumulo-core-4.0.0-alpha-1.pom accumulo-core-4.0.0-alpha-1.jar accumulo-core-4.0.0-alpha-1-sources.jar accumulo-server-base-4.0.0-alpha-1.pom accumulo-server-base-4.0.0-alpha-1.jar accumulo-server-base-4.0.0-alpha-1-sources.jar accumulo-tserver-4.0.0-alpha-1.pom accumulo-tserver-4.0.0-alpha-1.jar accumulo-tserver-4.0.0-alpha-1-sources.jar accumulo-compactor-4.0.0-alpha-1.pom accumulo-compactor-4.0.0-alpha-1.jar accumulo-compactor-4.0.0-alpha-1-sources.jar accumulo-gc-4.0.0-alpha-1.pom accumulo-gc-4.0.0-alpha-1.jar accumulo-gc-4.0.0-alpha-1-sources.jar accumulo-manager-4.0.0-alpha-1.pom accumulo-manager-4.0.0-alpha-1.jar accumulo-manager-4.0.0-alpha-1-sources.jar accumulo-monitor-4.0.0-alpha-1.pom accumulo-monitor-4.0.0-alpha-1.jar accumulo-monitor-4.0.0-alpha-1-sources.jar accumulo-minicluster-4.0.0-alpha-1.pom accumulo-minicluster-4.0.0-alpha-1.jar accumulo-minicluster-4.0.0-alpha-1-sources.jar accumulo-native-4.0.0-alpha-1.pom accumulo-native-4.0.0-alpha-1.tar.gz accumulo-shell-4.0.0-alpha-1.pom accumulo-shell-4.0.0-alpha-1.jar accumulo-shell-4.0.0-alpha-1-sources.jar accumulo-iterator-test-harness-4.0.0-alpha-1.pom accumulo-iterator-test-harness-4.0.0-alpha-1.jar accumulo-iterator-test-harness-4.0.0-alpha-1-sources.jar accumulo-test-4.0.0-alpha-1.pom accumulo-test-4.0.0-alpha-1.jar accumulo-test-4.0.0-alpha-1-sources.jar accumulo-hadoop-mapreduce-4.0.0-alpha-1.pom accumulo-hadoop-mapreduce-4.0.0-alpha-1.jar accumulo-hadoop-mapreduce-4.0.0-alpha-1-sources.jar accumulo-4.0.0-alpha-1.pom accumulo-4.0.0-alpha-1-src.tar.gz accumulo-4.0.0-alpha-1-bin.tar.gz"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
