@@ -36,13 +36,13 @@ Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/
 * [org.apache.accumulo:accumulo-tserver](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo-tserver/overview)
 </details>
 
-rebuilding **14 releases** of org.apache.accumulo:accumulo:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of org.apache.accumulo:accumulo:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/4.0.0-alpha-1/pom) | | | |
+| [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/4.0.0-alpha-1/pom) | [mvn jdk21](accumulo-4.0.0-alpha-1.buildspec) | [result](accumulo-project-4.0.0-alpha-1.buildinfo): [45 :white_check_mark: ](accumulo-project-4.0.0-alpha-1.buildcompare) | | 62M |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/3.0.0/pom) | [mvn jdk11](accumulo-3.0.0.buildspec) | [result](accumulo-project-3.0.0.buildinfo): [48 :white_check_mark: ](accumulo-project-3.0.0.buildcompare) | | 53M |
 | [2.1.6](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.1.6/pom) | [mvn jdk21](accumulo-2.1.6.buildspec) | [result](accumulo-project-2.1.6.buildinfo): [49 :white_check_mark: ](accumulo-project-2.1.6.buildcompare) | | 62M |
 | [2.1.5](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.1.5/pom) | [mvn jdk21](accumulo-2.1.5.buildspec) | [result](accumulo-project-2.1.5.buildinfo): [49 :white_check_mark: ](accumulo-project-2.1.5.buildcompare) | | 62M |
