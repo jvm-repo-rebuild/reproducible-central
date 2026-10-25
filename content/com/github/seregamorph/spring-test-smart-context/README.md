@@ -13,13 +13,13 @@ Source code: [https://github.com/seregamorph/spring-test-smart-context.git](http
 * [com.github.seregamorph:spring-test-smart-context-parent](https://central.sonatype.com/artifact/com.github.seregamorph/spring-test-smart-context-parent/overview)
 </details>
 
-rebuilding **5 releases** of com.github.seregamorph:spring-test-smart-context-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of com.github.seregamorph:spring-test-smart-context-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3](https://central.sonatype.com/artifact/com.github.seregamorph/spring-test-smart-context-parent/1.3/pom) | | | |
+| [1.3](https://central.sonatype.com/artifact/com.github.seregamorph/spring-test-smart-context-parent/1.3/pom) | [mvn jdk21](spring-test-smart-context-1.3.buildspec) | [result](spring-test-smart-context-parent-1.3.buildinfo): [4 :white_check_mark: ](spring-test-smart-context-parent-1.3.buildcompare) | | 113K |
 | [1.2](https://central.sonatype.com/artifact/com.github.seregamorph/spring-test-smart-context-parent/1.2/pom) | [mvn jdk21](spring-test-smart-context-1.2.buildspec) | [result](spring-test-smart-context-parent-1.2.buildinfo): [4 :white_check_mark: ](spring-test-smart-context-parent-1.2.buildcompare) | | 112K |
 | [1.1](https://central.sonatype.com/artifact/com.github.seregamorph/spring-test-smart-context-parent/1.1/pom) | [mvn jdk17](spring-test-smart-context-1.1.buildspec) | [result](spring-test-smart-context-parent-1.1.buildinfo): [4 :white_check_mark: ](spring-test-smart-context-parent-1.1.buildcompare) | | 98K |
 | [1.0](https://central.sonatype.com/artifact/com.github.seregamorph/spring-test-smart-context-parent/1.0/pom) | [mvn jdk17](spring-test-smart-context-1.0.buildspec) | [result](spring-test-smart-context-parent-1.0.buildinfo): [4 :white_check_mark: ](spring-test-smart-context-parent-1.0.buildcompare) | | 94K |
