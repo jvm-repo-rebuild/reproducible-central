@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika.git)
 
-<details><summary>This project defines 158 modules:</summary>
+<details><summary>This project defines 162 modules:</summary>
 
 * [org.apache.tika:tika](https://central.sonatype.com/artifact/org.apache.tika/tika/overview)
 * [org.apache.tika:tika-age-recogniser](https://central.sonatype.com/artifact/org.apache.tika/tika-age-recogniser/overview)
@@ -40,6 +40,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-eval](https://central.sonatype.com/artifact/org.apache.tika/tika-eval/overview)
 * [org.apache.tika:tika-eval-app](https://central.sonatype.com/artifact/org.apache.tika/tika-eval-app/overview)
 * [org.apache.tika:tika-eval-core](https://central.sonatype.com/artifact/org.apache.tika/tika-eval-core/overview)
+* [org.apache.tika:tika-eval-structure](https://central.sonatype.com/artifact/org.apache.tika/tika-eval-structure/overview)
 * [org.apache.tika:tika-example](https://central.sonatype.com/artifact/org.apache.tika/tika-example/overview)
 * [org.apache.tika:tika-fetcher-az-blob](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-az-blob/overview)
 * [org.apache.tika:tika-fetcher-gcs](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-gcs/overview)
@@ -65,10 +66,12 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-langdetect-optimaize](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-optimaize/overview)
 * [org.apache.tika:tika-langdetect-test-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-test-commons/overview)
 * [org.apache.tika:tika-langdetect-tika](https://central.sonatype.com/artifact/org.apache.tika/tika-langdetect-tika/overview)
+* [org.apache.tika:tika-metadata-schema](https://central.sonatype.com/artifact/org.apache.tika/tika-metadata-schema/overview)
 * [org.apache.tika:tika-ml](https://central.sonatype.com/artifact/org.apache.tika/tika-ml/overview)
 * [org.apache.tika:tika-ml-chardetect](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-chardetect/overview)
 * [org.apache.tika:tika-ml-core](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-core/overview)
 * [org.apache.tika:tika-ml-junkdetect](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-junkdetect/overview)
+* [org.apache.tika:tika-ml-junkdetect-tools](https://central.sonatype.com/artifact/org.apache.tika/tika-ml-junkdetect-tools/overview)
 * [org.apache.tika:tika-parent](https://central.sonatype.com/artifact/org.apache.tika/tika-parent/overview)
 * [org.apache.tika:tika-parser-advancedmedia-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-advancedmedia-module/overview)
 * [org.apache.tika:tika-parser-advancedmedia-package](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-advancedmedia-package/overview)
@@ -77,6 +80,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-parser-cad-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-cad-module/overview)
 * [org.apache.tika:tika-parser-code-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-code-module/overview)
 * [org.apache.tika:tika-parser-crypto-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-crypto-module/overview)
+* [org.apache.tika:tika-parser-datauri-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-datauri-commons/overview)
 * [org.apache.tika:tika-parser-digest-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-digest-commons/overview)
 * [org.apache.tika:tika-parser-font-module](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-font-module/overview)
 * [org.apache.tika:tika-parser-html-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-parser-html-commons/overview)
@@ -169,14 +173,14 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **26 releases** of org.apache.tika:tika:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of org.apache.tika:tika:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 26 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.1.0/pom) | [mvn jdk25](tika-4.1.0.buildspec) | [result](tika-4.1.0.buildinfo): [362 :white_check_mark: ](tika-4.1.0.buildcompare) | | 392M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0/pom) | | | |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-beta-1/pom) | | | |
 | [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-alpha-1/pom) | [mvn jdk17](tika-4.0.0-alpha-1.buildspec) | [result](tika-4.0.0-alpha-1.buildinfo): [366 :white_check_mark:  7 :warning:](tika-4.0.0-alpha-1.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.4G |
