@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Logback-Parent
+group-id=ch.qos.logback
+artifact-id=logback-parent
+version=1.6.6
+
+# source information
+source.scm.uri=scm:git@github.com:qos-ch/logback.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.1
+java.vendor=Oracle Corporation
+os.name=Linux
+os.version=7.0.0-38-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=logback-access
+
+# aggregated output
+
+outputs.0.coordinates=ch.qos.logback:logback-parent
+
+outputs.0.0.groupId=ch.qos.logback
+outputs.0.0.filename=logback-parent-1.6.6.pom
+outputs.0.0.length=18817
+outputs.0.0.checksums.sha512=4aaf1c1a99680d2441bd33ebb32b951137c03aae9b811d6b59772a6fb1e3a247944cb43e79660503815bee63172c473af86e0630551adb5b0bdd25740ea93c87
+
+outputs.1.coordinates=ch.qos.logback:logback-core
+
+outputs.1.0.groupId=ch.qos.logback
+outputs.1.0.filename=logback-core-1.6.6.pom
+outputs.1.0.length=8924
+outputs.1.0.checksums.sha512=08a6dff42177f723525c90eefe058012e211a044fb1f8b4a1a47ecbb09a015d715ca8f9fbd87d5b9f8fa3186001742add02bf73140077a0d21a7657daa37299f
+
+outputs.2.coordinates=ch.qos.logback:logback-classic
+
+outputs.2.0.groupId=ch.qos.logback
+outputs.2.0.filename=logback-classic-1.6.6.pom
+outputs.2.0.length=15383
+outputs.2.0.checksums.sha512=58a278cebdb002f4344244f32ba8f13530f1143fc23fc4787cc56088cd70707a24f9bfbc585f418e85125434db7729fee482c097961c45e492a193500c017d3b
+
+outputs.3.coordinates=ch.qos.logback:logback-access
+
+outputs.3.0.groupId=ch.qos.logback
+outputs.3.0.filename=logback-access-1.6.6.pom
+outputs.3.0.length=991
+outputs.3.0.checksums.sha512=22bf65b529550766e2d62e697fcc79b91ba852b96330e91e13d2de9bda3148df71251f9efb49684659a6fbbda1e4c52cbed04f03e2025ceeb4db261a8fa3cce9
