@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Validator
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-validator
+version=1.11.0-0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com/ManfredTremmel/gwt-commons-validator.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.12.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(org.osgi:org.osgi.service.prefs:(1.1.2,))
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-validator-1.11.0-0.pom
+outputs.0.length=30673
+outputs.0.checksums.sha512=a72e63cfd5e326f0d63dfba0e2e2e123e87753394164a594cd6cb3b182235d4b5e4a875c8c0f2ecc9997685ae1c44f8008b59e53d6651729928a862b5bf72a01
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-validator-1.11.0-0.jar
+outputs.1.length=450334
+outputs.1.checksums.sha512=8b868e865aa175e4e8d829ca267482fd3e53c28d6100b9265ae64ff8c3c4c49be61013ad40624ec9318b3915775c60b6a974982807ba493f259605d3af902057
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-validator-1.11.0-0-tests.jar
+outputs.2.length=299469
+outputs.2.checksums.sha512=ef96075395b990bb64924929e9dce5585962fb02422c4b1006127b110a294d6d61b0acb5f35d1cb91dcbb117bcb7643c47c14f4446d2254c2e4a60a1ea36fd90
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-validator-1.11.0-0-sources.jar
+outputs.3.length=267849
+outputs.3.checksums.sha512=100965c4734546007b2640342c8f6dd4ff56957e71bf292464e37be6589f3353cbdcdc728480cd3b888f6c916ff0f9b39a6fc4442c9e051acb795a1997cb8b90
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-validator-1.11.0-0-test-sources.jar
+outputs.4.length=240550
+outputs.4.checksums.sha512=f6ca8729ec8030e7e2314ec5f089161aefa2a52e81cdd44ffd7c82a9ad6131c56a7d9627c3ee625a832d4acf70b14dab123526e45f61bff23b97bbd7e7179ec8
