@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:crypto-commons
+group-id=net.osslabz
+artifact-id=crypto-commons
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/crypto-commons.git
+source.scm.tag=1.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.17.0-1022-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=crypto-commons-1.0.0.pom
+outputs.0.length=21226
+outputs.0.checksums.sha512=b1b05e4982725c12152d8015692ae500ec5a85014dffb6986ff22dbcc43fd3015eee6fd94578171403e62b82c85947db4da85ef9a6bf5971ef797de5d639aa09
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=crypto-commons-1.0.0.jar
+outputs.1.length=28918
+outputs.1.checksums.sha512=196ae42bf73c8cc81007c063b1a98d796232f72c0cd1939c0c95446e315adfa6d8caf45138a6bcaec803a87fcb9709f89bbc82109cf493d26a3cb73648b4b947
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=crypto-commons-1.0.0-sources.jar
+outputs.2.length=11605
+outputs.2.checksums.sha512=8ea896c8a79d2071cdfce13801670da100eb9b89fadf7ca611ab9d83bfde21134df417597ea34f4cb07812a1411e80ba21dd4314120cb86c38fb87b479731a7a
