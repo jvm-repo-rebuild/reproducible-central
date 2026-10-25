@@ -7,14 +7,14 @@
 
 Source code: [https://gitlab.com/ManfredTremmel/gwt-commons-validator.git](https://gitlab.com/ManfredTremmel/gwt-commons-validator.git)
 
-rebuilding **5 releases** of de.knightsoft-net:gwt-commons-validator:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of de.knightsoft-net:gwt-commons-validator:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.11.0-2](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-2/pom) | | | |
+| [1.11.0-2](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-2/pom) | [mvn jdk21](gwt-commons-validator-1.11.0-2.buildspec) | [result](gwt-commons-validator-1.11.0-2.buildinfo): [5 :white_check_mark: ](gwt-commons-validator-1.11.0-2.buildcompare) | | 1.3M |
 | [1.11.0-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-1/pom) | [mvn jdk21](gwt-commons-validator-1.11.0-1.buildspec) | [result](gwt-commons-validator-1.11.0-1.buildinfo): [5 :white_check_mark: ](gwt-commons-validator-1.11.0-1.buildcompare) | | 1.3M |
 | [1.11.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-0/pom) | | | |
 | [1.10.1-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.10.1-0/pom) | [mvn jdk21](gwt-commons-validator-1.10.1-0.buildspec) | [result](gwt-commons-validator-1.10.1-0.buildinfo): [4 :white_check_mark:  1 :warning:](gwt-commons-validator-1.10.1-0.buildcompare) | 1 :recycle: | 1.2M |
