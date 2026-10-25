@@ -166,6 +166,7 @@
       <version>3.4.4.Final</version>
       <version>3.4.5.Final</version>
       <version>3.4.6.Final</version>
+      <version>3.4.7.Final</version>
       <version>4.0.0.Beta1</version>
       <version>4.0.0.Final</version>
       <version>4.0.1.Final</version>
@@ -231,9 +232,10 @@
       <version>4.5.9.Final</version>
       <version>4.5.10.Final</version>
       <version>4.5.11.Final</version>
+      <version>4.5.12.Final</version>
       <version>5.0.0.Beta1</version>
       <version>5.0.0.Beta2</version>
     </versions>
-    <lastUpdated>20261018011257</lastUpdated>
+    <lastUpdated>20261025011446</lastUpdated>
   </versioning>
 </metadata>

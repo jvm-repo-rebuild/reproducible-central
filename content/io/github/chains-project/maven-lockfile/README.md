@@ -20,6 +20,7 @@ rebuilding **113 releases** of io.github.chains-project:maven-lockfile:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.18.7-beta-2](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.7-beta-2/pom) | | | |
 | [5.18.7-beta-1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.7-beta-1/pom) | [mvn jdk17](maven-lockfile-5.18.7-beta-1.buildspec) | [result](maven-lockfile-5.18.7-beta-1.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.18.7-beta-1.buildcompare) | | 694K |
 | [5.18.6](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.6/pom) | [mvn jdk17](maven-lockfile-5.18.6.buildspec) | [result](maven-lockfile-5.18.6.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.18.6.buildcompare) | | 691K |
 | [5.18.5](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.18.5/pom) | [mvn jdk17](maven-lockfile-5.18.5.buildspec) | [result](maven-lockfile-5.18.5.buildinfo): [6 :white_check_mark: ](maven-lockfile-5.18.5.buildcompare) | | 690K |
