@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache HttpComponents Parent
+group-id=org.apache.httpcomponents
+artifact-id=httpcomponents-parent
+version=15
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/httpcomponents-parent.git
+source.scm.tag=15
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_345
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-38-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.toolchain.jdk=openjdk version "1.8.0_275":OpenJDK Runtime Environment (Zulu 8.50.0.51-CA-linux64) (build 1.8.0_275-b01):OpenJDK 64-Bit Server VM (Zulu 8.50.0.51-CA-linux64) (build 25.275-b01, mixed mode)
+
+# output
+
+outputs.0.groupId=org.apache.httpcomponents
+outputs.0.filename=httpcomponents-parent-15.pom
+outputs.0.length=26849
+outputs.0.checksums.sha512=0d877582bdb6353ef690b6b0db748b1167058d82523dc90bcdff39bdafd5bae5729d7a0b413a71cb8e766047fe2a4de93511aabde7e1adffecb948b811e6fc4a
+
+outputs.1.groupId=org.apache.httpcomponents
+outputs.1.filename=httpcomponents-parent-15-source-release.zip
+outputs.1.length=29964
+outputs.1.checksums.sha512=79b3dfced7fcd67bbe53c7ff5e575d2c053cb0d6005e9cc3b9a1b56a68af20dddfe396bf3b8b30d02ef84fdbe7e33fcd9ef640b83d0fdcad7f8b573cef72a9cd
