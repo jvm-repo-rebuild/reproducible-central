@@ -7,8 +7,8 @@
 
 Source code: [https://gitlab.com/ManfredTremmel/gwt-commons-validator.git](https://gitlab.com/ManfredTremmel/gwt-commons-validator.git)
 
-rebuilding **6 releases** of de.knightsoft-net:gwt-commons-validator:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of de.knightsoft-net:gwt-commons-validator:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
 
@@ -16,7 +16,7 @@ rebuilding **6 releases** of de.knightsoft-net:gwt-commons-validator:
 | -- | --------- | ------ | ------ | -- |
 | [1.11.0-2](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-2/pom) | [mvn jdk21](gwt-commons-validator-1.11.0-2.buildspec) | [result](gwt-commons-validator-1.11.0-2.buildinfo): [5 :white_check_mark: ](gwt-commons-validator-1.11.0-2.buildcompare) | | 1.3M |
 | [1.11.0-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-1/pom) | [mvn jdk21](gwt-commons-validator-1.11.0-1.buildspec) | [result](gwt-commons-validator-1.11.0-1.buildinfo): [5 :white_check_mark: ](gwt-commons-validator-1.11.0-1.buildcompare) | | 1.3M |
-| [1.11.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-0/pom) | | | |
+| [1.11.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.11.0-0/pom) | [mvn jdk21](gwt-commons-validator-1.11.0-0.buildspec) | [result](gwt-commons-validator-1.11.0-0.buildinfo): [5 :white_check_mark: ](gwt-commons-validator-1.11.0-0.buildcompare) | | 1.3M |
 | [1.10.1-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.10.1-0/pom) | [mvn jdk21](gwt-commons-validator-1.10.1-0.buildspec) | [result](gwt-commons-validator-1.10.1-0.buildinfo): [4 :white_check_mark:  1 :warning:](gwt-commons-validator-1.10.1-0.buildcompare) | 1 :recycle: | 1.2M |
 | [1.10.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.10.0-0/pom) | [mvn jdk21](gwt-commons-validator-1.10.0-0.buildspec) | [result](gwt-commons-validator-1.10.0-0.buildinfo): [4 :white_check_mark:  1 :warning:](gwt-commons-validator-1.10.0-0.buildcompare) | 1 :recycle: | 1.2M |
 | [1.9.0-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.9.0-1/pom) | [mvn jdk17](gwt-commons-validator-1.9.0-1.buildspec) | [result](gwt-commons-validator-1.9.0-1.buildinfo): [1 :white_check_mark:  2 :warning:](gwt-commons-validator-1.9.0-1.buildcompare) | - | 684K |
