@@ -1,0 +1,9 @@
+version=1.11.0-1
+ok=5
+ko=0
+ignored=0
+okFiles="gwt-commons-validator-1.11.0-1.pom gwt-commons-validator-1.11.0-1.jar gwt-commons-validator-1.11.0-1-tests.jar gwt-commons-validator-1.11.0-1-sources.jar gwt-commons-validator-1.11.0-1-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
