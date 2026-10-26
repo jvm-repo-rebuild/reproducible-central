@@ -173,10 +173,10 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **28 releases** of org.apache.tika:tika:
+rebuilding **29 releases** of org.apache.tika:tika:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 27 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 28 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -184,7 +184,7 @@ rebuilding **28 releases** of org.apache.tika:tika:
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0/pom) | | | |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-beta-1/pom) | | | |
 | [4.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-alpha-1/pom) | [mvn jdk17](tika-4.0.0-alpha-1.buildspec) | [result](tika-4.0.0-alpha-1.buildinfo): [366 :white_check_mark:  7 :warning:](tika-4.0.0-alpha-1.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.4G |
-| [3.3.3](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.3/pom) | | | |
+| [3.3.3](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.3/pom) | [mvn jdk21](tika-3.3.3.buildspec) | [result](tika-3.3.3.buildinfo): [337 :white_check_mark:  2 :warning:](tika-3.3.3.buildcompare) | 1 :recycle: 1 :no_entry_sign: | 1.7G |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.2/pom) | [mvn jdk11](tika-3.3.2.buildspec) | [result](tika-3.3.2.buildinfo): [329 :white_check_mark:  7 :warning:](tika-3.3.2.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.7G |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.1/pom) | [mvn jdk25](tika-3.3.1.buildspec) | [result](tika-3.3.1.buildinfo): [329 :white_check_mark:  7 :warning:](tika-3.3.1.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.7G |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.3.0/pom) | [mvn jdk11](tika-3.3.0.buildspec) | [result](tika-3.3.0.buildinfo): [329 :white_check_mark:  7 :warning:](tika-3.3.0.buildcompare) | 6 :rotating_light: 1 :no_entry_sign: | 1.7G |
