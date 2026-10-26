@@ -156,6 +156,7 @@ rebuilding **48 releases** of org.apache.pulsar:pulsar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.0.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.1/pom) | | | |
 | [5.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0/pom) | [gradle jdk25](pulsar-5.0.0.buildspec) | [result](pulsar-5.0.0.buildinfo): [168 :white_check_mark:  14 :warning:](pulsar-5.0.0.buildcompare) | 8 :rotating_light: 6 :no_entry_sign: | 358M |
 | [5.0.0-M2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M2/pom) | [gradle jdk25](pulsar-5.0.0-M2.buildspec) | [result](pulsar-5.0.0-M2.buildinfo): [163 :white_check_mark:  14 :warning:](pulsar-5.0.0-M2.buildcompare) | 8 :rotating_light: 6 :no_entry_sign: | 352M |
 | [5.0.0-M1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/5.0.0-M1/pom) | [gradle jdk21](pulsar-5.0.0-M1.buildspec) | [result](pulsar-5.0.0-M1.buildinfo): [149 :white_check_mark:  13 :warning:](pulsar-5.0.0-M1.buildcompare) [:mag:](pulsar-5.0.0-M1.diffoscope) | 7 :rotating_light: 6 :no_entry_sign: | 313M |
