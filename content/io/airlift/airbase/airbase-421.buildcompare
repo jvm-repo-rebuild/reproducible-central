@@ -1,0 +1,9 @@
+version=421
+ok=6
+ko=0
+ignored=0
+okFiles="airbase-root-421.pom airbase-enforcer-421.pom airbase-enforcer-421.jar airbase-policy-421.pom airbase-policy-421.jar airbase-421.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
