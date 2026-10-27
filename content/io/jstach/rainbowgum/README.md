@@ -62,6 +62,7 @@ rebuilding **24 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.16.2](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.16.2/pom) | | | |
 | [0.16.1](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.16.1/pom) | [mvn jdk27](rainbowgum-0.16.1.buildspec) | [result](rainbowgum-maven-parent-0.16.1.buildinfo): [110 :white_check_mark: ](rainbowgum-maven-parent-0.16.1.buildcompare) | | 2.2M |
 | [0.16.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.16.0/pom) | [mvn jdk27](rainbowgum-0.16.0.buildspec) | [result](rainbowgum-maven-parent-0.16.0.buildinfo): [110 :white_check_mark: ](rainbowgum-maven-parent-0.16.0.buildcompare) | | 2.2M |
 | [0.15.1](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.15.1/pom) | [mvn jdk27](rainbowgum-0.15.1.buildspec) | [result](rainbowgum-maven-parent-0.15.1.buildinfo): [110 :white_check_mark: ](rainbowgum-maven-parent-0.15.1.buildcompare) | | 2.1M |

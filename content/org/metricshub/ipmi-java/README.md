@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.metricshub:ipmi-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.1.00](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/2.1.00/pom) | | | |
 | [2.0.00](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/2.0.00/pom) | [mvn jdk17](ipmi-java-2.0.00.buildspec) | [result](ipmi-java-2.0.00.buildinfo): [4 :white_check_mark: ](ipmi-java-2.0.00.buildcompare) | | 1.6M |
 | [1.2.02](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/1.2.02/pom) | [mvn jdk17](ipmi-java-1.2.02.buildspec) | [result](ipmi-java-1.2.02.buildinfo): [3 :white_check_mark: ](ipmi-java-1.2.02.buildcompare) | | 837K |
 | [1.2.01](https://central.sonatype.com/artifact/org.metricshub/ipmi-java/1.2.01/pom) | [mvn jdk17](ipmi-java-1.2.01.buildspec) | [result](ipmi-java-1.2.01.buildinfo): [3 :white_check_mark: ](ipmi-java-1.2.01.buildcompare) | | 837K |

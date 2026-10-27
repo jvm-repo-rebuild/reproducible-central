@@ -13,6 +13,7 @@ rebuilding **15 releases** of org.apache.maven.reporting:maven-reporting-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.1.0](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.1.0/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0.buildspec) | [result](maven-reporting-api-4.0.0.buildinfo): [6 :white_check_mark: ](maven-reporting-api-4.0.0.buildcompare) | | 55K |
 | [4.0.0-M12](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M12/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M12.buildspec) | [result](maven-reporting-api-4.0.0-M12.buildinfo): [6 :white_check_mark: ](maven-reporting-api-4.0.0-M12.buildcompare) | | 55K |
 | [4.0.0-M11](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M11/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M11.buildspec) | [result](maven-reporting-api-4.0.0-M11.buildinfo): [6 :white_check_mark: ](maven-reporting-api-4.0.0-M11.buildcompare) | | 55K |
