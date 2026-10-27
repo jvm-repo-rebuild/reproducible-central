@@ -36,13 +36,13 @@ Source code: [https://github.com/apache/maven-surefire.git](https://github.com/a
 * [org.apache.maven.surefire:surefire-testng-utils](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire-testng-utils/overview)
 </details>
 
-rebuilding **24 releases** of org.apache.maven.surefire:surefire:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of org.apache.maven.surefire:surefire:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.6.1/pom) | | | |
+| [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.6.1/pom) | [mvn jdk25](surefire-3.6.1.buildspec) | [result](surefire-3.6.1.buildinfo): [78 :white_check_mark: ](surefire-3.6.1.buildcompare) | | 14M |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.6.0/pom) | [mvn jdk21](surefire-3.6.0.buildspec) | [result](surefire-3.6.0.buildinfo): [78 :white_check_mark: ](surefire-3.6.0.buildcompare) | | 14M |
 | [3.6.0-M1](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.6.0-M1/pom) | [mvn jdk21](surefire-3.6.0-M1.buildspec) | [result](surefire-3.6.0-M1.buildinfo): [78 :white_check_mark: ](surefire-3.6.0-M1.buildcompare) | | 13M |
 | [3.5.6](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.5.6/pom) | [mvn jdk21](surefire-3.5.6.buildspec) | [result](surefire-3.5.6.buildinfo): [123 :white_check_mark: ](surefire-3.5.6.buildcompare) | | 15M |
