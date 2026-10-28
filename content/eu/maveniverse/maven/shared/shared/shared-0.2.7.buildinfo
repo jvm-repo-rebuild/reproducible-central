@@ -1,0 +1,86 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.shared:shared
+group-id=eu.maveniverse.maven.shared
+artifact-id=shared
+version=0.2.7
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-shared.git
+source.scm.tag=release-0.2.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.shared:shared
+
+outputs.0.0.groupId=eu.maveniverse.maven.shared
+outputs.0.0.filename=shared-0.2.7.pom
+outputs.0.0.length=6852
+outputs.0.0.checksums.sha512=68800856545297a5adb726a128cb45746cd4dc39f1480700adbfc61b982f20c54636d07408329fdc8a910a784f45346d3d299eaf5c1c70fdf45bebce8e2f66f8
+
+outputs.1.coordinates=eu.maveniverse.maven.shared:core
+
+outputs.1.0.groupId=eu.maveniverse.maven.shared
+outputs.1.0.filename=core-0.2.7.pom
+outputs.1.0.length=1270
+outputs.1.0.checksums.sha512=03de92401752c69d8489b70dcbf8c59798fef1fee7ca89f1cad34b1281d664de444f1ece4f6250b956e163f239b72382bab21cfd348049c81848534a096e3fc2
+
+outputs.1.1.groupId=eu.maveniverse.maven.shared
+outputs.1.1.filename=core-0.2.7.jar
+outputs.1.1.length=20684
+outputs.1.1.checksums.sha512=6f26963970718ab0cf7c2eb589d3d00d63d15e36ad5d3ac9a7b8ae2063f6c2c33b2f7cab11df2c980849735a275a7c6496897ca494dca56c2122660b1dec26f7
+
+outputs.1.2.groupId=eu.maveniverse.maven.shared
+outputs.1.2.filename=core-0.2.7-sources.jar
+outputs.1.2.length=13027
+outputs.1.2.checksums.sha512=768c5db2aa4c5ac849ed0cc7ab47f76837ac54971f1b4a6ad90eefa987338286cb2674d5a8519183618292f2a0169e292bf1e88d2dfa2a16f45fbadfe733cb15
+
+outputs.2.coordinates=eu.maveniverse.maven.shared:extension
+
+outputs.2.0.groupId=eu.maveniverse.maven.shared
+outputs.2.0.filename=extension-0.2.7.pom
+outputs.2.0.length=2619
+outputs.2.0.checksums.sha512=2e11e81ef2e5195951154fd8755c9d988ca8726b3437767f6ed6950442fb2323230334021dd6d23b93e7be397179588238757849be15d8279d28f2f7df3be852
+
+outputs.2.1.groupId=eu.maveniverse.maven.shared
+outputs.2.1.filename=extension-0.2.7.jar
+outputs.2.1.length=6153
+outputs.2.1.checksums.sha512=f234a51e2921bd925fed340262bf228e0b85811f0a33a89068c9f67cb4a6c06672704b260ba6e701c0b43fc42007b688f3a31533ae648e1b88672f119529c35b
+
+outputs.2.2.groupId=eu.maveniverse.maven.shared
+outputs.2.2.filename=extension-0.2.7-sources.jar
+outputs.2.2.length=5890
+outputs.2.2.checksums.sha512=fc9942a19b9cc201669abb08732ea84e89136ecd7f68cd5702d1c75a198aae15dd467d1410bea2afecbf3079707a4c6a32b96aba14bc36631d98f79845780a4f
+
+outputs.3.coordinates=eu.maveniverse.maven.shared:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.shared
+outputs.3.0.filename=plugin-0.2.7.pom
+outputs.3.0.length=2812
+outputs.3.0.checksums.sha512=64d1eb98143d4d1f22c58fbcab70d945d48944e9ce160e2230656e1f5ade0111ade577fe5378e5f20ea51ce7fa7740d3a737ab4f38c16d57ec69b411d95fb159
+
+outputs.3.1.groupId=eu.maveniverse.maven.shared
+outputs.3.1.filename=plugin-0.2.7.jar
+outputs.3.1.length=4233
+outputs.3.1.checksums.sha512=5a8e76b63b4901f7ae4bc7759a6895f20ec6b76cf2b08fdf9903c616e6ddb42ce23afd28714bc9c433818980adc1a38d7afd5145ed4ddec024b64a08d4b24f27
+
+outputs.3.2.groupId=eu.maveniverse.maven.shared
+outputs.3.2.filename=plugin-0.2.7-sources.jar
+outputs.3.2.length=4860
+outputs.3.2.checksums.sha512=99d06c08d5cdcf22c167ff15a957d4e7ceb8590a481d1dc4b362a8ee566745ecea82d7f2000d59db0e92bfdda7b4d5bd612d753dc6e285fc6adba2a105731aa3
