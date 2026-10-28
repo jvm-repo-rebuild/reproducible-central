@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/MetricsHub/winrm-java.git](https://github.com/MetricsHub/winrm-java.git)
 
-rebuilding **6 releases** of org.metricshub:winrm-java:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.metricshub:winrm-java:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.1.01](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.01/pom) | | | |
+| [3.1.01](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.01/pom) | [mvn jdk17](winrm-java-3.1.01.buildspec) | [result](winrm-java-3.1.01.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.01.buildcompare) | | 735K |
 | [3.1.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.00/pom) | [mvn jdk17](winrm-java-3.1.00.buildspec) | [result](winrm-java-3.1.00.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.00.buildcompare) | | 734K |
 | [3.0.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.0.00/pom) | [mvn jdk17](winrm-java-3.0.00.buildspec) | [result](winrm-java-3.0.00.buildinfo): [4 :white_check_mark: ](winrm-java-3.0.00.buildcompare) | | 729K |
 | [2.2.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/2.2.00/pom) | [mvn jdk17](winrm-java-2.2.00.buildspec) | [result](winrm-java-2.2.00.buildinfo): [4 :white_check_mark: ](winrm-java-2.2.00.buildcompare) | | 621K |
