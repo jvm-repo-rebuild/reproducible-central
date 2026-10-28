@@ -180,6 +180,7 @@ rebuilding **29 releases** of org.apache.tika:tika:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.2.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.2.0/pom) | | | |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.1.0/pom) | [mvn jdk25](tika-4.1.0.buildspec) | [result](tika-4.1.0.buildinfo): [362 :white_check_mark: ](tika-4.1.0.buildcompare) | | 392M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0/pom) | | | |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-beta-1/pom) | | | |
