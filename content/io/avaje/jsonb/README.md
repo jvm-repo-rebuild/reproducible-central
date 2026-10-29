@@ -29,6 +29,7 @@ rebuilding **67 releases** of io.avaje:avaje-jsonb-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.17-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.17-RC1/pom) | | | |
 | [3.16](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.16/pom) | [mvn jdk25](avaje-jsonb-3.16.buildspec) | [result](avaje-jsonb-parent-3.16.buildinfo): [26 :white_check_mark: ](avaje-jsonb-parent-3.16.buildcompare) | | 885K |
 | [3.15](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.15/pom) | [mvn jdk25](avaje-jsonb-3.15.buildspec) | [result](avaje-jsonb-parent-3.15.buildinfo): [26 :white_check_mark: ](avaje-jsonb-parent-3.15.buildcompare) | | 884K |
 | [3.15-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.15-RC5/pom) | [mvn jdk25](avaje-jsonb-3.15-RC5.buildspec) | [result](avaje-jsonb-parent-3.15-RC5.buildinfo): [26 :white_check_mark: ](avaje-jsonb-parent-3.15-RC5.buildcompare) | | 884K |
