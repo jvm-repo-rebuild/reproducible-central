@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika.git)
 
-<details><summary>This project defines 162 modules:</summary>
+<details><summary>This project defines 164 modules:</summary>
 
 * [org.apache.tika:tika](https://central.sonatype.com/artifact/org.apache.tika/tika/overview)
 * [org.apache.tika:tika-age-recogniser](https://central.sonatype.com/artifact/org.apache.tika/tika-age-recogniser/overview)
@@ -54,6 +54,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-handlers](https://central.sonatype.com/artifact/org.apache.tika/tika-handlers/overview)
 * [org.apache.tika:tika-http-jdk](https://central.sonatype.com/artifact/org.apache.tika/tika-http-jdk/overview)
 * [org.apache.tika:tika-httpclient-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-httpclient-commons/overview)
+* [org.apache.tika:tika-image-processing](https://central.sonatype.com/artifact/org.apache.tika/tika-image-processing/overview)
 * [org.apache.tika:tika-inference](https://central.sonatype.com/artifact/org.apache.tika/tika-inference/overview)
 * [org.apache.tika:tika-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-integration-tests/overview)
 * [org.apache.tika:tika-java7](https://central.sonatype.com/artifact/org.apache.tika/tika-java7/overview)
@@ -166,6 +167,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-server-core](https://central.sonatype.com/artifact/org.apache.tika/tika-server-core/overview)
 * [org.apache.tika:tika-server-eval](https://central.sonatype.com/artifact/org.apache.tika/tika-server-eval/overview)
 * [org.apache.tika:tika-server-standard](https://central.sonatype.com/artifact/org.apache.tika/tika-server-standard/overview)
+* [org.apache.tika:tika-test-support](https://central.sonatype.com/artifact/org.apache.tika/tika-test-support/overview)
 * [org.apache.tika:tika-transcribe-aws](https://central.sonatype.com/artifact/org.apache.tika/tika-transcribe-aws/overview)
 * [org.apache.tika:tika-translate](https://central.sonatype.com/artifact/org.apache.tika/tika-translate/overview)
 * [org.apache.tika:tika-vlm](https://central.sonatype.com/artifact/org.apache.tika/tika-vlm/overview)
@@ -173,14 +175,14 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **29 releases** of org.apache.tika:tika:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **30 releases** of org.apache.tika:tika:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 28 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.2.0/pom) | | | |
+| [4.2.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.2.0/pom) | [mvn jdk25](tika-4.2.0.buildspec) | [result](tika-4.2.0.buildinfo): [368 :white_check_mark: ](tika-4.2.0.buildcompare) | | 375M |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.1.0/pom) | [mvn jdk25](tika-4.1.0.buildspec) | [result](tika-4.1.0.buildinfo): [362 :white_check_mark: ](tika-4.1.0.buildcompare) | | 392M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0/pom) | | | |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.tika/tika/4.0.0-beta-1/pom) | | | |
