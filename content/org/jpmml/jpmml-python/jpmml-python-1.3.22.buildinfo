@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.22
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.22
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(com.fasterxml.jackson.core:jackson-annotations:(2.22,));e(org.apache.commons:commons-math3:(3.6.1,));e(com.fasterxml.jackson.core:jackson-annotations:(2.22,));e(org.apache.commons:commons-math3:(3.6.1,))
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.22.pom
+outputs.0.0.length=3153
+outputs.0.0.checksums.sha512=31320b94bc94b2005acec05d8ccf7d1d74083b396800586729583a7df6c8530cc496f4af7d40b5a80487ac50929c054111082df45120d77e3384e06c871af588
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.22.pom
+outputs.1.0.length=5012
+outputs.1.0.checksums.sha512=1687d410b785a24e78d00793940dc5e25dc78e69143293c490e6fb1e6b31cb40df9f175c542252bf94b1c49f6c9e0d49e9999f1f3f2d0042afba7f3753873fc2
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.22.jar
+outputs.1.1.length=328222
+outputs.1.1.checksums.sha512=f342114d3189b750caa17e69c264df5540fd75cc1f8939ed15cfd7efabee8a1fee3603910037415bc09a173cec03922205e631f01ce02bbe3a41a00bef9d2f7c
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-python-1.3.22-sources.jar
+outputs.1.2.length=223789
+outputs.1.2.checksums.sha512=60862739084a5f8b4972ceba46be96318b77adb6ac16b7c57c5cd0dae354dd99de36cc48c440c83c1c1ce91725b4ab8838410911f365bb78de40a3062f2564d9
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.22.pom
+outputs.2.0.length=1195
+outputs.2.0.checksums.sha512=7019499b0ed145e2c654560ab0167ce2d645eb734ccc742cedbb579c3fd38f6cef916510024cf889f77eaedab93f511ca562d48e4aa117f03be563e26191f077
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.22.jar
+outputs.2.1.length=4112
+outputs.2.1.checksums.sha512=5580de38c484e1fc2834b58170468c75e70e95d1c83347347e1550d553455c7c21dd214ff7448a8539786a0014e7702e99028bdbda3417c9db72391561137b14
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-python-testing-1.3.22-sources.jar
+outputs.2.2.length=3853
+outputs.2.2.checksums.sha512=bc9275f2a761da383987a34a2bae594aff4136ae6719a6d867869451d761ba508c1fe2f035ae21566e5db1e5f66cfa0a6416d39aa62d1a0762652551ac27aae5
