@@ -84,6 +84,9 @@ do
     else
       rebuildStatus=":warning: [:memo:]($issue)"
     fi
+  elif [ -n "$issue" ]
+  then
+    rebuildStatus=":x: [:memo:]($issue)"
   fi
   # if add release has to happen, prepare add-new-release instructions
   if [ "${addVersion}" != "${previousVersion}" ]
@@ -142,6 +145,7 @@ do
         [[ -z "${issue}" ]] || stagingBuildcompareDesc+=" [:memo:](${issue})"
       else
         stagingBuildcompareDesc=":x:"
+        [[ -z "${issue}" ]] || stagingBuildcompareDesc+=" [:memo:](${issue})"
       fi
     fi
 
