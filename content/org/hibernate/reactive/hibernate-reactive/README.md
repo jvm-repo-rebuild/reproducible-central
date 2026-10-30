@@ -13,13 +13,13 @@ Source code: [https://github.com/hibernate/hibernate-reactive.git](https://githu
 * [org.hibernate.reactive:hibernate-reactive-platform](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-platform/overview)
 </details>
 
-rebuilding **146 releases** of org.hibernate.reactive:hibernate-reactive-core:
-- **146** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **147 releases** of org.hibernate.reactive:hibernate-reactive-core:
+- **147** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.1.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.1.0.Beta1/pom) | | | |
+| [5.1.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.1.0.Beta1/pom) | [gradle jdk25](hibernate-reactive-5.1.0.Beta1.buildspec) | [result](hibernate-reactive-core-5.1.0.Beta1.buildinfo): [4 :white_check_mark: ](hibernate-reactive-core-5.1.0.Beta1.buildcompare) | | 2.1M |
 | [5.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.0.0.Beta3/pom) | | | |
 | [5.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.0.0.Beta2/pom) | [gradle jdk25](hibernate-reactive-5.0.0.Beta2.buildspec) | [result](hibernate-reactive-core-5.0.0.Beta2.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-5.0.0.Beta2.buildcompare) | | 2.1M |
 | [5.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/5.0.0.Beta1/pom) | [gradle jdk25](hibernate-reactive-5.0.0.Beta1.buildspec) | [result](hibernate-reactive-core-5.0.0.Beta1.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-5.0.0.Beta1.buildcompare) | | 2.1M |
