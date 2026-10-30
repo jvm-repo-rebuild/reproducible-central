@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/activemq.git](https://github.com/apache/activemq.git)
 
-<details><summary>This project defines 48 modules:</summary>
+<details><summary>This project defines 50 modules:</summary>
 
 * [org.apache.activemq.protobuf:activemq-protobuf](https://central.sonatype.com/artifact/org.apache.activemq.protobuf/activemq-protobuf/overview)
 * [org.apache.activemq.protobuf:activemq-protobuf-test](https://central.sonatype.com/artifact/org.apache.activemq.protobuf/activemq-protobuf-test/overview)
@@ -31,6 +31,7 @@ Source code: [https://github.com/apache/activemq.git](https://github.com/apache/
 * [org.apache.activemq:activemq-http](https://central.sonatype.com/artifact/org.apache.activemq/activemq-http/overview)
 * [org.apache.activemq:activemq-itests-spring31](https://central.sonatype.com/artifact/org.apache.activemq/activemq-itests-spring31/overview)
 * [org.apache.activemq:activemq-jaas](https://central.sonatype.com/artifact/org.apache.activemq/activemq-jaas/overview)
+* [org.apache.activemq:activemq-jaas-oauth2](https://central.sonatype.com/artifact/org.apache.activemq/activemq-jaas-oauth2/overview)
 * [org.apache.activemq:activemq-jdbc-store](https://central.sonatype.com/artifact/org.apache.activemq/activemq-jdbc-store/overview)
 * [org.apache.activemq:activemq-jms-pool](https://central.sonatype.com/artifact/org.apache.activemq/activemq-jms-pool/overview)
 * [org.apache.activemq:activemq-kahadb-store](https://central.sonatype.com/artifact/org.apache.activemq/activemq-kahadb-store/overview)
@@ -39,6 +40,7 @@ Source code: [https://github.com/apache/activemq.git](https://github.com/apache/
 * [org.apache.activemq:activemq-leveldb-store](https://central.sonatype.com/artifact/org.apache.activemq/activemq-leveldb-store/overview)
 * [org.apache.activemq:activemq-log4j-appender](https://central.sonatype.com/artifact/org.apache.activemq/activemq-log4j-appender/overview)
 * [org.apache.activemq:activemq-mqtt](https://central.sonatype.com/artifact/org.apache.activemq/activemq-mqtt/overview)
+* [org.apache.activemq:activemq-opentelemetry](https://central.sonatype.com/artifact/org.apache.activemq/activemq-opentelemetry/overview)
 * [org.apache.activemq:activemq-openwire-generator](https://central.sonatype.com/artifact/org.apache.activemq/activemq-openwire-generator/overview)
 * [org.apache.activemq:activemq-openwire-legacy](https://central.sonatype.com/artifact/org.apache.activemq/activemq-openwire-legacy/overview)
 * [org.apache.activemq:activemq-osgi](https://central.sonatype.com/artifact/org.apache.activemq/activemq-osgi/overview)
@@ -59,14 +61,14 @@ Source code: [https://github.com/apache/activemq.git](https://github.com/apache/
 * [org.apache.activemq:apache-activemq](https://central.sonatype.com/artifact/org.apache.activemq/apache-activemq/overview)
 </details>
 
-rebuilding **60 releases** of org.apache.activemq:activemq-parent:
-- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **61 releases** of org.apache.activemq:activemq-parent:
+- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 24 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.4.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.4.0/pom) | | | |
+| [6.4.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.4.0/pom) | [mvn jdk25](activemq-6.4.0.buildspec) | [result](activemq-parent-6.4.0.buildinfo): [141 :white_check_mark: ](activemq-parent-6.4.0.buildcompare) | | 243M |
 | [6.3.3](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.3.3/pom) | [mvn jdk25](activemq-6.3.3.buildspec) | [result](activemq-parent-6.3.3.buildinfo): [135 :white_check_mark: ](activemq-parent-6.3.3.buildcompare) | | 239M |
 | [6.3.2](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.3.2/pom) | [mvn jdk25](activemq-6.3.2.buildspec) | [result](activemq-parent-6.3.2.buildinfo): [134 :white_check_mark:  1 :warning:](activemq-parent-6.3.2.buildcompare) | 1 :rotating_light: | 239M |
 | [6.3.1](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.3.1/pom) | [mvn jdk25](activemq-6.3.1.buildspec) | [result](activemq-parent-6.3.1.buildinfo): [134 :white_check_mark:  1 :warning:](activemq-parent-6.3.1.buildcompare) | 1 :rotating_light: | 239M |
