@@ -149,7 +149,10 @@ do
       unset stabilize_ok # to ensure stabilize result is not added to different releases
       unset stabilize_ignored
     else
-      echo "$row:x: | |" >> tmp/${projectReadme}
+      row+=":x:"
+      [[ -z "${issue}" ]] || row+=" [:memo:](${issue})"
+      row+=" | |"
+      echo "$row" >> tmp/${projectReadme}
     fi
 
     # remove line from doc/new-releases.md if it is listed there
