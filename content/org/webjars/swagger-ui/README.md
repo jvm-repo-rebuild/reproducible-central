@@ -13,6 +13,7 @@ rebuilding **45 releases** of org.webjars:swagger-ui:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.34.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.34.1/pom) | | | |
 | [5.34.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.34.0/pom) | | | |
 | [5.33.3](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.33.3/pom) | | | |
 | [5.33.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.33.2/pom) | | | |
@@ -21,7 +22,7 @@ rebuilding **45 releases** of org.webjars:swagger-ui:
 | [5.32.14](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.14/pom) | | | |
 | [5.32.13](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.13/pom) | | | |
 | [5.32.12](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.12/pom) | | | |
-| [5.32.11](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.11/pom) | [mvn jdk8](swagger-ui-5.32.11.buildspec) | :x: | |
+| [5.32.11](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.11/pom) | [mvn jdk8](swagger-ui-5.32.11.buildspec) | :x: [:memo:](https://github.com/webjars/swagger-ui/issues/212) | |
 | [5.32.10](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.10/pom) | | | |
 | [5.32.9](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.9/pom) | | | |
 | [5.32.8](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.32.8/pom) | | | |
@@ -73,7 +74,7 @@ rebuilding **45 releases** of org.webjars:swagger-ui:
 | [5.17.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.17.1/pom) | | | |
 | [5.17.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.17.0/pom) | | | |
 | [5.15.2-1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.15.2-1/pom) | | | |
-| [5.15.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.15.2/pom) | [mvn jdk8](swagger-ui-5.15.2.buildspec) | :x: | |
+| [5.15.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.15.2/pom) | [mvn jdk8](swagger-ui-5.15.2.buildspec) | :x: [:memo:](https://github.com/webjars/swagger-ui/issues/212) | |
 | [5.15.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.15.1/pom) | [mvn jdk8](swagger-ui-5.15.1.buildspec) | [result](swagger-ui-5.15.1.buildinfo): [2 :white_check_mark: ](swagger-ui-5.15.1.buildcompare) | | 3.9M |
 | [5.15.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.15.0/pom) | [mvn jdk8](swagger-ui-5.15.0.buildspec) | [result](swagger-ui-5.15.0.buildinfo): [2 :white_check_mark: ](swagger-ui-5.15.0.buildcompare) | | 3.9M |
 | [5.14.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.14.0/pom) | [mvn jdk19](swagger-ui-5.14.0.buildspec) | :x: | |

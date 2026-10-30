@@ -880,7 +880,7 @@ rebuilding **12 releases** of org.apache.camel:camel:
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
 | [3.22.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.4/pom) | | | |
-| [3.22.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.3/pom) | [mvn jdk11](camel-3.22.3.buildspec) | :x: | |
+| [3.22.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.3/pom) | [mvn jdk11](camel-3.22.3.buildspec) | :x: [:memo:](https://github.com/apache/camel/pull/10557) | |
 | [3.22.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.2/pom) | | | |
 | [3.22.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.1/pom) | | | |
 | [3.22.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.0/pom) | | | |
