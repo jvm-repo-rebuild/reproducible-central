@@ -1,0 +1,5 @@
+version=5.1.0.Beta1
+ok=4
+ko=0
+okFiles="hibernate-reactive-core-5.1.0.Beta1-sources.jar hibernate-reactive-core-5.1.0.Beta1.jar hibernate-reactive-core-5.1.0.Beta1.pom hibernate-reactive-platform-5.1.0.Beta1.pom"
+koFiles=""
