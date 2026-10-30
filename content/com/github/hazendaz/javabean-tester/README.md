@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/hazendaz/javabean-tester.git](https://github.com/hazendaz/javabean-tester.git)
 
-rebuilding **25 releases** of com.github.hazendaz:javabean-tester:
+rebuilding **26 releases** of com.github.hazendaz:javabean-tester:
 - **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.13.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.13.0/pom) | | | |
+| [2.13.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.13.0/pom) | [mvn jdk27 w](javabean-tester-2.13.0.buildspec) | [result](javabean-tester-2.13.0.buildinfo): [3 :white_check_mark:  2 :warning:](javabean-tester-2.13.0.buildcompare) | 2 :rotating_light: | 253K |
 | [2.12.2](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.12.2/pom) | [mvn jdk25 w](javabean-tester-2.12.2.buildspec) | [result](javabean-tester-2.12.2.buildinfo): [5 :white_check_mark: ](javabean-tester-2.12.2.buildcompare) | | 252K |
 | [2.12.1](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.12.1/pom) | [mvn jdk25 w](javabean-tester-2.12.1.buildspec) | [result](javabean-tester-2.12.1.buildinfo): [5 :white_check_mark: ](javabean-tester-2.12.1.buildcompare) | | 241K |
 | [2.12.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.12.0/pom) | [mvn jdk25 w](javabean-tester-2.12.0.buildspec) | [result](javabean-tester-2.12.0.buildinfo): [5 :white_check_mark: ](javabean-tester-2.12.0.buildcompare) | | 221K |
