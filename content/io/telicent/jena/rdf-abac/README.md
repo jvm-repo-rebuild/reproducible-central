@@ -20,14 +20,14 @@ Source code: [https://github.com/telicent-oss/rdf-abac](https://github.com/telic
 * [io.telicent.smart-caches:data-security-plugin-rdf-abac-registration](https://central.sonatype.com/artifact/io.telicent.smart-caches/data-security-plugin-rdf-abac-registration/overview)
 </details>
 
-rebuilding **39 releases** of io.telicent.jena:rdf-abac:
+rebuilding **40 releases** of io.telicent.jena:rdf-abac:
 - **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/4.2.1/pom) | | | |
+| [4.2.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/4.2.1/pom) | [mvn jdk21](rdf-abac-4.2.1.buildspec) | [result](rdf-abac-4.2.1.buildinfo): [21 :white_check_mark:  3 :warning:](rdf-abac-4.2.1.buildcompare) | 2 :rotating_light: 1 :no_entry_sign: | 2.7M |
 | [4.2.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/4.2.0/pom) | [mvn jdk21](rdf-abac-4.2.0.buildspec) | [result](rdf-abac-4.2.0.buildinfo): [21 :white_check_mark:  3 :warning:](rdf-abac-4.2.0.buildcompare) | 2 :rotating_light: 1 :no_entry_sign: | 2.7M |
 | [4.1.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/4.1.2/pom) | [mvn jdk21](rdf-abac-4.1.2.buildspec) | [result](rdf-abac-4.1.2.buildinfo): [16 :white_check_mark: ](rdf-abac-4.1.2.buildcompare) | | 1.9M |
 | [4.1.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/4.1.1/pom) | [mvn jdk21](rdf-abac-4.1.1.buildspec) | [result](rdf-abac-4.1.1.buildinfo): [16 :white_check_mark: ](rdf-abac-4.1.1.buildcompare) | | 1.9M |
