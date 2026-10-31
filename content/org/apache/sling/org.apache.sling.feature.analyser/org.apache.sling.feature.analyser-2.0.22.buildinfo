@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Analyser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.analyser
+version=2.0.22
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser.git
+source.scm.tag=org.apache.sling.feature.analyser-2.0.22
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.analyser-2.0.22.pom
+outputs.0.length=9866
+outputs.0.checksums.sha512=f6029605526116f25ee175b25bb45ee12043302553984aaafeefe30994dfbc0a832be39dbab682b43934e2051434af441f98744a11601e00bfc2f396dc49c8bc
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.analyser-2.0.22.jar
+outputs.1.length=230821
+outputs.1.checksums.sha512=b73f97d6bc1e3721069055da78a62c316bc9ee0e208ef951ed65fdaccd7f3472f7071fbc07506fc1b24f6c86d8443fedad221896aa4480a930ab4cb537b5e730
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.analyser-2.0.22-source-release.zip
+outputs.2.length=263287
+outputs.2.checksums.sha512=a0e9e478461422885bb7a6de07f3409ff99c0b1a67532c6efd002977aea46d86d8a3e8873f3e8615bedf95cc847ca4a540019363a8377c7fcec1c3e7bf07dd4f
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.analyser-2.0.22-sources.jar
+outputs.3.length=107943
+outputs.3.checksums.sha512=45f79f907a61a4cdde373efbb83196f5da39277849e9dbeb896e47834e3ef9dce642c417b4b77f9e1239f50086afbd090ab8baa349c8e69d0c874dcf0839c173
