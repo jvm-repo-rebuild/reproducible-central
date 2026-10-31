@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-analyser.git](https://github.com/apache/sling-org-apache-sling-feature-analyser.git)
 
-rebuilding **20 releases** of org.apache.sling:org.apache.sling.feature.analyser:
+rebuilding **21 releases** of org.apache.sling:org.apache.sling.feature.analyser:
 - **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.22](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.22/pom) | | | |
+| [2.0.22](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.22/pom) | [mvn jdk25](org.apache.sling.feature.analyser-2.0.22.buildspec) | [result](org.apache.sling.feature.analyser-2.0.22.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.feature.analyser-2.0.22.buildcompare) | 1 :rotating_light: | 598K |
 | [2.0.20](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.20/pom) | [mvn jdk25](org.apache.sling.feature.analyser-2.0.20.buildspec) | [result](org.apache.sling.feature.analyser-2.0.20.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.20.buildcompare) | | 596K |
 | [2.0.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.18/pom) | [mvn jdk25](org.apache.sling.feature.analyser-2.0.18.buildspec) | [result](org.apache.sling.feature.analyser-2.0.18.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.18.buildcompare) | | 595K |
 | [2.0.16](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.16/pom) | [mvn jdk21](org.apache.sling.feature.analyser-2.0.16.buildspec) | [result](org.apache.sling.feature.analyser-2.0.16.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.16.buildcompare) | | 595K |
