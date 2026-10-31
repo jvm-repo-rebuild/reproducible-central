@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/pinot.git](https://github.com/apache/pinot.git)
 
-<details><summary>This project defines 80 modules:</summary>
+<details><summary>This project defines 85 modules:</summary>
 
 * [org.apache.pinot:assembly-descriptor](https://central.sonatype.com/artifact/org.apache.pinot/assembly-descriptor/overview)
 * [org.apache.pinot:pinot](https://central.sonatype.com/artifact/org.apache.pinot/pinot/overview)
@@ -23,7 +23,9 @@ Source code: [https://github.com/apache/pinot.git](https://github.com/apache/pin
 * [org.apache.pinot:pinot-batch-ingestion-spark-3](https://central.sonatype.com/artifact/org.apache.pinot/pinot-batch-ingestion-spark-3/overview)
 * [org.apache.pinot:pinot-batch-ingestion-spark-base](https://central.sonatype.com/artifact/org.apache.pinot/pinot-batch-ingestion-spark-base/overview)
 * [org.apache.pinot:pinot-batch-ingestion-standalone](https://central.sonatype.com/artifact/org.apache.pinot/pinot-batch-ingestion-standalone/overview)
+* [org.apache.pinot:pinot-bom](https://central.sonatype.com/artifact/org.apache.pinot/pinot-bom/overview)
 * [org.apache.pinot:pinot-broker](https://central.sonatype.com/artifact/org.apache.pinot/pinot-broker/overview)
+* [org.apache.pinot:pinot-bson](https://central.sonatype.com/artifact/org.apache.pinot/pinot-bson/overview)
 * [org.apache.pinot:pinot-cli](https://central.sonatype.com/artifact/org.apache.pinot/pinot-cli/overview)
 * [org.apache.pinot:pinot-clients](https://central.sonatype.com/artifact/org.apache.pinot/pinot-clients/overview)
 * [org.apache.pinot:pinot-clp-log](https://central.sonatype.com/artifact/org.apache.pinot/pinot-clp-log/overview)
@@ -55,6 +57,7 @@ Source code: [https://github.com/apache/pinot.git](https://github.com/apache/pin
 * [org.apache.pinot:pinot-kafka-4.0](https://central.sonatype.com/artifact/org.apache.pinot/pinot-kafka-4.0/overview)
 * [org.apache.pinot:pinot-kafka-base](https://central.sonatype.com/artifact/org.apache.pinot/pinot-kafka-base/overview)
 * [org.apache.pinot:pinot-kinesis](https://central.sonatype.com/artifact/org.apache.pinot/pinot-kinesis/overview)
+* [org.apache.pinot:pinot-materialized-view](https://central.sonatype.com/artifact/org.apache.pinot/pinot-materialized-view/overview)
 * [org.apache.pinot:pinot-metrics](https://central.sonatype.com/artifact/org.apache.pinot/pinot-metrics/overview)
 * [org.apache.pinot:pinot-minion](https://central.sonatype.com/artifact/org.apache.pinot/pinot-minion/overview)
 * [org.apache.pinot:pinot-minion-builtin-tasks](https://central.sonatype.com/artifact/org.apache.pinot/pinot-minion-builtin-tasks/overview)
@@ -66,6 +69,7 @@ Source code: [https://github.com/apache/pinot.git](https://github.com/apache/pin
 * [org.apache.pinot:pinot-protobuf](https://central.sonatype.com/artifact/org.apache.pinot/pinot-protobuf/overview)
 * [org.apache.pinot:pinot-pulsar](https://central.sonatype.com/artifact/org.apache.pinot/pinot-pulsar/overview)
 * [org.apache.pinot:pinot-query-planner](https://central.sonatype.com/artifact/org.apache.pinot/pinot-query-planner/overview)
+* [org.apache.pinot:pinot-query-planner-spi](https://central.sonatype.com/artifact/org.apache.pinot/pinot-query-planner-spi/overview)
 * [org.apache.pinot:pinot-query-runtime](https://central.sonatype.com/artifact/org.apache.pinot/pinot-query-runtime/overview)
 * [org.apache.pinot:pinot-s3](https://central.sonatype.com/artifact/org.apache.pinot/pinot-s3/overview)
 * [org.apache.pinot:pinot-segment-local](https://central.sonatype.com/artifact/org.apache.pinot/pinot-segment-local/overview)
@@ -79,6 +83,7 @@ Source code: [https://github.com/apache/pinot.git](https://github.com/apache/pin
 * [org.apache.pinot:pinot-spark-3-connector](https://central.sonatype.com/artifact/org.apache.pinot/pinot-spark-3-connector/overview)
 * [org.apache.pinot:pinot-spark-common](https://central.sonatype.com/artifact/org.apache.pinot/pinot-spark-common/overview)
 * [org.apache.pinot:pinot-spi](https://central.sonatype.com/artifact/org.apache.pinot/pinot-spi/overview)
+* [org.apache.pinot:pinot-sql-ddl](https://central.sonatype.com/artifact/org.apache.pinot/pinot-sql-ddl/overview)
 * [org.apache.pinot:pinot-stream-ingestion](https://central.sonatype.com/artifact/org.apache.pinot/pinot-stream-ingestion/overview)
 * [org.apache.pinot:pinot-thrift](https://central.sonatype.com/artifact/org.apache.pinot/pinot-thrift/overview)
 * [org.apache.pinot:pinot-timeseries](https://central.sonatype.com/artifact/org.apache.pinot/pinot-timeseries/overview)
@@ -91,14 +96,14 @@ Source code: [https://github.com/apache/pinot.git](https://github.com/apache/pin
 * [org.apache.pinot:pinot-yammer](https://central.sonatype.com/artifact/org.apache.pinot/pinot-yammer/overview)
 </details>
 
-rebuilding **2 releases** of org.apache.pinot:pinot:
+rebuilding **3 releases** of org.apache.pinot:pinot:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.0](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.6.0/pom) | | | |
+| [1.6.0](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.6.0/pom) | [mvn jdk25](pinot-1.6.0.buildspec) | [result](pinot-1.6.0.buildinfo): [312 :white_check_mark:  11 :warning:](pinot-1.6.0.buildcompare) [:memo:](https://github.com/apache/pinot/pull/18812) | 1 :recycle: 10 :rotating_light: | 2.5G |
 | [1.5.1](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.5.1/pom) | [mvn jdk21](pinot-1.5.1.buildspec) | [result](pinot-1.5.1.buildinfo): [144 :white_check_mark:  170 :warning:](pinot-1.5.1.buildcompare) [:mag:](pinot-1.5.1.diffoscope) [:memo:](https://github.com/apache/pinot/pull/18812) | 159 :recycle: 10 :rotating_light: | 2.4G |
 | [1.5.0](https://central.sonatype.com/artifact/org.apache.pinot/pinot/1.5.0/pom) | [mvn jdk11](pinot-1.5.0.buildspec) | [result](pinot-1.5.0.buildinfo): [139 :white_check_mark:  175 :warning:](pinot-1.5.0.buildcompare) [:mag:](pinot-1.5.0.diffoscope) [:memo:](https://github.com/apache/pinot/pull/18812) | 79 :recycle: 95 :rotating_light: | 2.4G |
 
