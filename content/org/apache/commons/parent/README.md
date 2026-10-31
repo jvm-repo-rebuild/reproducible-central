@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-parent.git](https://github.com/apache/commons-parent.git)
 
-rebuilding **54 releases** of org.apache.commons:commons-parent:
-- **52** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **55 releases** of org.apache.commons:commons-parent:
+- **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [107](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/107/pom) | | | |
+| [107](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/107/pom) | [mvn jdk21](commons-parent-107.buildspec) | [result](commons-parent-107.buildinfo): [4 :white_check_mark: ](commons-parent-107.buildcompare) | | 93K |
 | [106](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/106/pom) | [mvn jdk21](commons-parent-106.buildspec) | [result](commons-parent-106.buildinfo): [4 :white_check_mark: ](commons-parent-106.buildcompare) | | 93K |
 | [105](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/105/pom) | [mvn jdk21](commons-parent-105.buildspec) | [result](commons-parent-105.buildinfo): [4 :white_check_mark: ](commons-parent-105.buildcompare) | | 93K |
 | [104](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/104/pom) | [mvn jdk21](commons-parent-104.buildspec) | [result](commons-parent-104.buildinfo): [4 :white_check_mark: ](commons-parent-104.buildcompare) | | 93K |
