@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/sling-slingfeature-maven-plugin.git](https://github.com/apache/sling-slingfeature-maven-plugin.git)
 
-rebuilding **18 releases** of org.apache.sling:slingfeature-maven-plugin:
+rebuilding **19 releases** of org.apache.sling:slingfeature-maven-plugin:
 - **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.9.8](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.9.8/pom) | | | |
+| [1.9.8](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.9.8/pom) | [mvn jdk21](slingfeature-maven-plugin-1.9.8.buildspec) | [result](slingfeature-maven-plugin-1.9.8.buildinfo): [3 :white_check_mark:  1 :warning:](slingfeature-maven-plugin-1.9.8.buildcompare) | 1 :rotating_light: | 763K |
 | [1.9.6](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.9.6/pom) | [mvn jdk21](slingfeature-maven-plugin-1.9.6.buildspec) | [result](slingfeature-maven-plugin-1.9.6.buildinfo): [4 :white_check_mark: ](slingfeature-maven-plugin-1.9.6.buildcompare) | | 763K |
 | [1.9.4](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.9.4/pom) | [mvn jdk21 w](slingfeature-maven-plugin-1.9.4.buildspec) | [result](slingfeature-maven-plugin-1.9.4.buildinfo): [4 :white_check_mark: ](slingfeature-maven-plugin-1.9.4.buildcompare) | | 763K |
 | [1.9.2](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.9.2/pom) | [mvn jdk11](slingfeature-maven-plugin-1.9.2.buildspec) | [result](slingfeature-maven-plugin-1.9.2.buildinfo): [4 :white_check_mark: ](slingfeature-maven-plugin-1.9.2.buildcompare) | | 758K |
