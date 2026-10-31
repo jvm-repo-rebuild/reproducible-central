@@ -3,8 +3,8 @@
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-parent</artifactId>
   <versioning>
-    <latest>106</latest>
-    <release>106</release>
+    <latest>107</latest>
+    <release>107</release>
     <versions>
       <version>1</version>
       <version>2</version>
@@ -112,7 +112,8 @@
       <version>104</version>
       <version>105</version>
       <version>106</version>
+      <version>107</version>
     </versions>
-    <lastUpdated>20261017113837</lastUpdated>
+    <lastUpdated>20261031182835</lastUpdated>
   </versioning>
 </metadata>

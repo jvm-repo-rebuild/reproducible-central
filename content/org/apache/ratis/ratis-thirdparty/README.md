@@ -20,6 +20,7 @@ rebuilding **6 releases** of org.apache.ratis:ratis-thirdparty:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.1.1/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.1.0/pom) | [mvn jdk21](ratis-thirdparty-1.1.0.buildspec) | [result](ratis-thirdparty-1.1.0.buildinfo): [9 :white_check_mark: ](ratis-thirdparty-1.1.0.buildcompare) | | 25M |
 | [1.0.11](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.11/pom) | [mvn jdk8](ratis-thirdparty-1.0.11.buildspec) | [result](ratis-thirdparty-1.0.11.buildinfo): [9 :white_check_mark: ](ratis-thirdparty-1.0.11.buildcompare) | | 26M |
 | [1.0.10](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.10/pom) | [mvn jdk17](ratis-thirdparty-1.0.10.buildspec) | [result](ratis-thirdparty-1.0.10.buildinfo): [8 :white_check_mark:  1 :warning:](ratis-thirdparty-1.0.10.buildcompare) | 1 :no_entry_sign: | 41M |
