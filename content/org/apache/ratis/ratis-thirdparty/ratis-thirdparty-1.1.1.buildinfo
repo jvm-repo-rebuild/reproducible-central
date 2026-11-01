@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Ratis Thirdparty
+group-id=org.apache.ratis
+artifact-id=ratis-thirdparty
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/apache/ratis-thirdparty.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.aggregate.artifact-id=ratis-thirdparty-misc
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.ratis:ratis-thirdparty
+
+outputs.0.0.groupId=org.apache.ratis
+outputs.0.0.filename=ratis-thirdparty-1.1.1.pom
+outputs.0.0.length=12368
+outputs.0.0.checksums.sha512=fbc324e5236dd15cf721f7af07a2dc9c075dd86403a26bc6d5477df54ec8439b4502928b6b71623154408541b400518fc8c8aecdfb9aa7f4acaf33ba12e6651f
+
+outputs.0.1.groupId=org.apache.ratis
+outputs.0.1.filename=ratis-thirdparty-1.1.1-cyclonedx.xml
+outputs.0.1.length=3218
+outputs.0.1.checksums.sha512=4cdb3d8a126e3402e5202daa7a01c770d05b87bd78d5d5ac4febc008b72503c7ba7018f786903964289c95ae4b0d07195670125d528bc559d731a3617246fc61
+
+outputs.0.2.groupId=org.apache.ratis
+outputs.0.2.filename=ratis-thirdparty-1.1.1-cyclonedx.json
+outputs.0.2.length=3566
+outputs.0.2.checksums.sha512=f892f3ecc0ee3dcbca185998c82f850e31b9437f83b7bd28eca6bbe53ff17c470d527b796621dc220e77cf588f833d98a3f2ef63b0bf10141b9d8fa2e6785dfe
+
+outputs.1.coordinates=org.apache.ratis:ratis-thirdparty-misc
+
+outputs.1.0.groupId=org.apache.ratis
+outputs.1.0.filename=ratis-thirdparty-misc-1.1.1.pom
+outputs.1.0.length=13289
+outputs.1.0.checksums.sha512=9d6cc0b91e0d881dda9e1b5025f901bb048cecfdb16fa5d22ef03a08de552f5a61a30ca96a30e40d016db52bfe30127ba806c7960a0d8c1089ab9d612878adb8
+
+outputs.1.1.groupId=org.apache.ratis
+outputs.1.1.filename=ratis-thirdparty-misc-1.1.1.jar
+outputs.1.1.length=18375661
+outputs.1.1.checksums.sha512=07dde660dd57303875d36067daeb0caaae9da011a829407c629e20bf369965bce22f463254bcfa9211f09a9192a73364e72c9d20d31a8f74e5a9e00cebc36a68
+
+outputs.1.2.groupId=org.apache.ratis
+outputs.1.2.filename=ratis-thirdparty-misc-1.1.1-sources.jar
+outputs.1.2.length=7475184
+outputs.1.2.checksums.sha512=2726cf37185335144289cf967b89ca934d30f3eb9edd71787720dd33e1639462d9204a8e3b8f1796831fafbcf2fbf382723c9663e6c64b9cec0cf6c96f902c47
+
+outputs.1.3.groupId=org.apache.ratis
+outputs.1.3.filename=ratis-thirdparty-misc-1.1.1-test-sources.jar
+outputs.1.3.length=11020
+outputs.1.3.checksums.sha512=63e7791d28a6e145057fe4c432e7bbb3b27bb782dfa8c2a1a4d16f703055a0e24cae4ae2e9114e69f4d2e5b5c04f1930420020d205b95bb9e2e697d9da82a789
+
+outputs.1.4.groupId=org.apache.ratis
+outputs.1.4.filename=ratis-thirdparty-misc-1.1.1-cyclonedx.xml
+outputs.1.4.length=135090
+outputs.1.4.checksums.sha512=dd03a614e3ac00b42da8c7895754afca32729cb12d092b4a801e9e806b688f0dda3e160a18e18e6888328a603c5fd5c68e18aee87a38e3cf9cf6bb9d71399c67
+
+outputs.1.5.groupId=org.apache.ratis
+outputs.1.5.filename=ratis-thirdparty-misc-1.1.1-cyclonedx.json
+outputs.1.5.length=148608
+outputs.1.5.checksums.sha512=1c5c83197f384b84cbb233cd7a32004b6c043fcd5c3cfd73053431285f834022f4e7abbbd945a1de5751423b2888cccc5ebc636f6871f79ea06bef553a504cd8
