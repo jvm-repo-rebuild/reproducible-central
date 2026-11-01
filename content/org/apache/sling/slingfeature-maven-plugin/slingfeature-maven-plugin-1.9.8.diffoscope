@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.apache.sling/slingfeature-maven-plugin-1.9.8-source-release.zip target/slingfeature-maven-plugin-1.9.8-source-release.zip
+--- target/reference/org.apache.sling/slingfeature-maven-plugin-1.9.8-source-release.zip
++++ target/slingfeature-maven-plugin-1.9.8-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 1761235 bytes, number of entries: 306
+│ +Zip file size: 314099 bytes, number of entries: 303
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/.tokensave/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/src/it/
+│ @@ -105,16 +104,14 @@
+│  -rw-r--r--  2.0 unx      194 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/.gitignore
+│  -rw-r--r--  2.0 unx       43 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/.sling-module.json
+│ --rw-r--r--  2.0 unx     1302 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/.tokensave/config.json
+│ --rw-r--r--  2.0 unx  9084928 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/.tokensave/tokensave.db
+│  -rw-r--r--  2.0 unx     1186 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/CODE_OF_CONDUCT.md
+│  -rw-r--r--  2.0 unx     1147 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/CONTRIBUTING.md
+│ @@ -301,8 +298,8 @@
+│  -rw-r--r--  2.0 unx    22158 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      294 b- defN 26-Oct-27 13:44 slingfeature-maven-plugin-1.9.8/NOTICE
+│ -306 files, 9970058 bytes uncompressed, 1686795 bytes compressed:  83.1%
+│ +303 files, 883828 bytes uncompressed, 240191 bytes compressed:  72.8%
