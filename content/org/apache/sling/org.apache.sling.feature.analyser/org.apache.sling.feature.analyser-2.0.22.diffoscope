@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.apache.sling/org.apache.sling.feature.analyser-2.0.22-source-release.zip target/org.apache.sling.feature.analyser-2.0.22-source-release.zip
+--- target/reference/org.apache.sling/org.apache.sling.feature.analyser-2.0.22-source-release.zip
++++ target/org.apache.sling.feature.analyser-2.0.22-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 1534548 bytes, number of entries: 190
+│ +Zip file size: 263287 bytes, number of entries: 187
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/.tokensave/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/src/main/
+│ @@ -48,16 +47,14 @@
+│  -rw-r--r--  2.0 unx       41 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/.git-blame-ignore-revs
+│  -rw-r--r--  2.0 unx       62 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/.sling-module.json
+│ --rw-r--r--  2.0 unx     1310 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/.tokensave/config.json
+│ --rw-r--r--  2.0 unx  7888896 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/.tokensave/tokensave.db
+│  -rw-r--r--  2.0 unx     1186 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/CODE_OF_CONDUCT.md
+│  -rw-r--r--  2.0 unx     1147 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/CONTRIBUTING.md
+│ @@ -185,8 +182,8 @@
+│  -rw-r--r--  2.0 unx      285 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      291 b- defN 26-Oct-27 13:42 org.apache.sling.feature.analyser-2.0.22/NOTICE
+│ -190 files, 8512091 bytes uncompressed, 1480580 bytes compressed:  82.6%
+│ +187 files, 621885 bytes uncompressed, 209905 bytes compressed:  66.2%
