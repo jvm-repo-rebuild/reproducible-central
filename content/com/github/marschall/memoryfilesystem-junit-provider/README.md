@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.github.marschall:memoryfilesystem-junit-provide
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/com.github.marschall/memoryfilesystem-junit-provider/2.0.2/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/com.github.marschall/memoryfilesystem-junit-provider/2.0.1/pom) | [mvn jdk17](memoryfilesystem-junit-provider-2.0.1.buildspec) | [result](memoryfilesystem-junit-provider-2.0.1.buildinfo): [3 :white_check_mark: ](memoryfilesystem-junit-provider-2.0.1.buildcompare) | | 29K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

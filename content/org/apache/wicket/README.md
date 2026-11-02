@@ -44,6 +44,7 @@ rebuilding **13 releases** of org.apache.wicket:wicket-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [11.0.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/11.0.0/pom) | | | |
 | [10.12.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.12.0/pom) | [mvn jdk21](wicket-parent-10.12.0.buildspec) | [result](wicket-parent-10.12.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.12.0.buildcompare) | | 78M |
 | [10.11.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.11.0/pom) | [mvn jdk17](wicket-parent-10.11.0.buildspec) | [result](wicket-parent-10.11.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.11.0.buildcompare) | | 77M |
 | [10.10.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.10.0/pom) | [mvn jdk17](wicket-parent-10.10.0.buildspec) | [result](wicket-parent-10.10.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.10.0.buildcompare) | | 77M |
