@@ -7,10 +7,12 @@
 
 Source code: [https://git-wip-us.apache.org/repos/asf/wicket.git](https://git-wip-us.apache.org/repos/asf/wicket.git)
 
-<details><summary>This project defines 27 modules:</summary>
+<details><summary>This project defines 29 modules:</summary>
 
 * [org.apache.wicket.experimental.wicket10:wicket-experimental](https://central.sonatype.com/artifact/org.apache.wicket.experimental.wicket10/wicket-experimental/overview)
 * [org.apache.wicket.experimental.wicket10:wicket-metrics](https://central.sonatype.com/artifact/org.apache.wicket.experimental.wicket10/wicket-metrics/overview)
+* [org.apache.wicket.experimental.wicket11:wicket-experimental](https://central.sonatype.com/artifact/org.apache.wicket.experimental.wicket11/wicket-experimental/overview)
+* [org.apache.wicket.experimental.wicket11:wicket-metrics](https://central.sonatype.com/artifact/org.apache.wicket.experimental.wicket11/wicket-metrics/overview)
 * [org.apache.wicket:wicket](https://central.sonatype.com/artifact/org.apache.wicket/wicket/overview)
 * [org.apache.wicket:wicket-archetype-quickstart](https://central.sonatype.com/artifact/org.apache.wicket/wicket-archetype-quickstart/overview)
 * [org.apache.wicket:wicket-auth-roles](https://central.sonatype.com/artifact/org.apache.wicket/wicket-auth-roles/overview)
@@ -38,13 +40,13 @@ Source code: [https://git-wip-us.apache.org/repos/asf/wicket.git](https://git-wi
 * [org.apache.wicket:wicket-velocity](https://central.sonatype.com/artifact/org.apache.wicket/wicket-velocity/overview)
 </details>
 
-rebuilding **13 releases** of org.apache.wicket:wicket-parent:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of org.apache.wicket:wicket-parent:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [11.0.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/11.0.0/pom) | | | |
+| [11.0.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/11.0.0/pom) | [mvn jdk21](wicket-parent-11.0.0.buildspec) | [result](wicket-parent-11.0.0.buildinfo): [75 :white_check_mark: ](wicket-parent-11.0.0.buildcompare) | | 75M |
 | [10.12.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.12.0/pom) | [mvn jdk21](wicket-parent-10.12.0.buildspec) | [result](wicket-parent-10.12.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.12.0.buildcompare) | | 78M |
 | [10.11.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.11.0/pom) | [mvn jdk17](wicket-parent-10.11.0.buildspec) | [result](wicket-parent-10.11.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.11.0.buildcompare) | | 77M |
 | [10.10.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.10.0/pom) | [mvn jdk17](wicket-parent-10.10.0.buildspec) | [result](wicket-parent-10.10.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.10.0.buildcompare) | | 77M |
