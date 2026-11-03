@@ -1,0 +1,21 @@
+groupId=org.apache.syncope
+artifactId=syncope
+version=4.1.4
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://gitbox.apache.org/repos/asf/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.10.0
+jdk=21
+newline=lf
+timezone="Europe/Paris"
+
+# ignore CycloneDX aggregate SBOM because it lists javadoc jars, that are not reproducible
+command="mvn -Papache-release,skipTests clean verify -DskipTests -Dgpg.skip -Ddocker.skip -Dbuildinfo.ignore=org.apache.syncope/syncope-${version}-cyclonedx.* -Dmaven.session.versionFilter='e(org.webjars.npm:tslib:(2.8.1,))'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
+PR_merge_max_ko=0
