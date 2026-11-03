@@ -14,4 +14,5 @@ newline=lf
 command="mvn -Pdist clean verify -DskipTests -Dinvoker.skip -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

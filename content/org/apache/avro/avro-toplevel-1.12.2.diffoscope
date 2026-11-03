@@ -1,0 +1,31 @@
+1 / 15 target/reference/org.apache.avro/avro-android-1.12.2.jar lang/java/android/target/avro-android-1.12.2.jar
+--- target/reference/org.apache.avro/avro-android-1.12.2.jar
++++ lang/java/android/target/avro-android-1.12.2.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 677354 bytes, number of entries: 468
+│ +Zip file size: 677359 bytes, number of entries: 468
+│  -rw----     2.0 fat        0 bX defN 26-May-21 20:55 META-INF/
+│ --rw----     2.0 fat      382 bl defN 26-May-21 20:55 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      407 bl defN 26-May-21 20:55 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     2715 bl defN 26-May-21 20:55 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 26-May-21 20:55 META-INF/LICENSE
+│ @@ -463,8 +463,8 @@
+│  -rw----     2.0 fat    14123 bl defN 26-May-21 20:55 org/apache/avro/util/springframework/ConcurrentReferenceHashMap.class
+│  -rw----     2.0 fat     4453 bl defN 26-May-21 20:55 org/apache/avro/util/springframework/ObjectUtils.class
+│ -468 files, 1386406 bytes uncompressed, 589880 bytes compressed:  57.5%
+│ +468 files, 1386431 bytes uncompressed, 589885 bytes compressed:  57.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,12 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.5.0
+│  Java-Version: 11
+│ -Build-Jdk-Spec: 21
+│  Specification-Title: Apache Avro Android Compatibility
+│  Specification-Version: 1.12
+│  Specification-Vendor: The Apache Software Foundation
+│  Implementation-Title: Apache Avro Android Compatibility
+│  Implementation-Version: 1.12.2
+│  Implementation-Vendor: The Apache Software Foundation
+│ +Build-Jdk-Spec: 21
+│ +Build-Tool-Jdk-Spec: 21
