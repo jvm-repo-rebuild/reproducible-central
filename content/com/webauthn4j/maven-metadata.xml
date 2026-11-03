@@ -3,8 +3,8 @@
   <groupId>com.webauthn4j</groupId>
   <artifactId>webauthn4j-core</artifactId>
   <versioning>
-    <latest>0.31.11.RELEASE</latest>
-    <release>0.31.11.RELEASE</release>
+    <latest>0.32.0.RELEASE</latest>
+    <release>0.32.0.RELEASE</release>
     <versions>
       <version>0.3.0.RELEASE</version>
       <version>0.3.4.RELEASE</version>
@@ -122,7 +122,8 @@
       <version>0.31.9.RELEASE</version>
       <version>0.31.10.RELEASE</version>
       <version>0.31.11.RELEASE</version>
+      <version>0.32.0.RELEASE</version>
     </versions>
-    <lastUpdated>20261002052249</lastUpdated>
+    <lastUpdated>20261102002802</lastUpdated>
   </versioning>
 </metadata>
