@@ -14,6 +14,10 @@ rebuilding **35 releases** of com.hibegin:common-dao:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.3](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.2.3/pom) | | | |
+| [1.2.2](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.2.2/pom) | | | |
+| [1.2.1](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.2.1/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.2.0/pom) | | | |
 | [1.1.16](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.16/pom) | [mvn jdk11](common-dao-1.1.16.buildspec) | [result](common-dao-1.1.16.buildinfo): [3 :white_check_mark: ](common-dao-1.1.16.buildcompare) | | 93K |
 | [1.1.15](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.15/pom) | [mvn jdk11](common-dao-1.1.15.buildspec) | [result](common-dao-1.1.15.buildinfo): [3 :white_check_mark: ](common-dao-1.1.15.buildcompare) | | 93K |
 | [1.1.14](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.1.14/pom) | [mvn jdk11](common-dao-1.1.14.buildspec) | [result](common-dao-1.1.14.buildinfo): [3 :white_check_mark: ](common-dao-1.1.14.buildcompare) | | 91K |
