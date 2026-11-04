@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WinRM Java Client
+group-id=org.metricshub
+artifact-id=winrm-java
+version=3.1.02
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/winrm-java.git
+source.scm.tag=v3.1.02
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=winrm-java-3.1.02.pom
+outputs.0.length=12531
+outputs.0.checksums.sha512=2bf566838d7ea63b51047ac4ccba2605344fadfa4f0850d1059ec8f3b5368e0a70cb9590b02abe75e5f3f8608097e3472d6198357c7481aa827289f6ae15ec2a
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=winrm-java-3.1.02.jar
+outputs.1.length=248392
+outputs.1.checksums.sha512=911cf42f5adac14049379af1f4abf3667ed9abbc314e2095ecf3b617a92d7467eb33bcf03f32690ed32b37461b4c6b92d56f4a9ae073ddf0b7053865f7a11f1c
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=winrm-java-3.1.02-sources.jar
+outputs.2.length=240211
+outputs.2.checksums.sha512=dfdb867299430fe5f0cccc271ec0b20712330ea961a9c8ebcb506f31d555704e8453a63c7805712e6016d706fb3210324c846aac6824f61498bb72e634b3b54f
+
+outputs.3.groupId=org.metricshub
+outputs.3.filename=winrm-java-3.1.02-standalone.jar
+outputs.3.length=250522
+outputs.3.checksums.sha512=ae48144d544702575fa5341a4fbe032a65cff19753771693de6ac6b627f60b7241898118409d2388c1d67c0da5d14ddeaa65430f99598ce3c10a7c0cfc3beb94
