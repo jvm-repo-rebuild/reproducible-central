@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/MetricsHub/winrm-java.git](https://github.com/MetricsHub/winrm-java.git)
 
-rebuilding **9 releases** of org.metricshub:winrm-java:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.metricshub:winrm-java:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [3.1.04](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.04/pom) | [mvn jdk17](winrm-java-3.1.04.buildspec) | [result](winrm-java-3.1.04.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.04.buildcompare) | | 738K |
-| [3.1.03](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.03/pom) | | | |
+| [3.1.03](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.03/pom) | [mvn jdk17](winrm-java-3.1.03.buildspec) | [result](winrm-java-3.1.03.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.03.buildcompare) | | 738K |
 | [3.1.02](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.02/pom) | [mvn jdk17](winrm-java-3.1.02.buildspec) | [result](winrm-java-3.1.02.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.02.buildcompare) | | 735K |
 | [3.1.01](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.01/pom) | [mvn jdk17](winrm-java-3.1.01.buildspec) | [result](winrm-java-3.1.01.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.01.buildcompare) | | 735K |
 | [3.1.00](https://central.sonatype.com/artifact/org.metricshub/winrm-java/3.1.00/pom) | [mvn jdk17](winrm-java-3.1.00.buildspec) | [result](winrm-java-3.1.00.buildinfo): [4 :white_check_mark: ](winrm-java-3.1.00.buildcompare) | | 734K |
