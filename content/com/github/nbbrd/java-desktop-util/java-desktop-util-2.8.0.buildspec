@@ -6,7 +6,7 @@ version=2.8.0
 gitRepo=https://github.com/nbbrd/java-desktop-util.git
 gitTag=v${version}
 
-tool=mvn-3.9.11
+tool=mvn-3.10.0
 jdk=21
 newline=lf
 umask=022
