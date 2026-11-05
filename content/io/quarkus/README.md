@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1184 modules:</summary>
+<details><summary>This project defines 1185 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -576,6 +576,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-liquibase-parent-aggregator](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-parent-aggregator/overview)
 * [io.quarkus:quarkus-load-shedding](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding/overview)
 * [io.quarkus:quarkus-load-shedding-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding-deployment/overview)
+* [io.quarkus:quarkus-load-shedding-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding-deployment-spi/overview)
 * [io.quarkus:quarkus-load-shedding-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding-parent/overview)
 * [io.quarkus:quarkus-logging-gelf](https://central.sonatype.com/artifact/io.quarkus/quarkus-logging-gelf/overview)
 * [io.quarkus:quarkus-logging-gelf-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-logging-gelf-deployment/overview)
@@ -1195,14 +1196,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **225 releases** of io.quarkus:quarkus-project:
+rebuilding **226 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 225 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 136, 0 had all their differences removed :recycle:, 136 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 226 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 137, 0 had all their differences removed :recycle:, 137 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0.Beta3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta3/pom) | | | |
+| [4.0.0.Beta3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta3/pom) | [mvn jdk21](quarkus-4.0.0.Beta3.buildspec) | [result](quarkus-project-4.0.0.Beta3.buildinfo): [2537 :white_check_mark:  3 :warning:](quarkus-project-4.0.0.Beta3.buildcompare) | 3 :rotating_light: | 159M |
 | [4.0.0.Beta2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta2/pom) | [mvn jdk21](quarkus-4.0.0.Beta2.buildspec) | [result](quarkus-project-4.0.0.Beta2.buildinfo): [2534 :white_check_mark:  3 :warning:](quarkus-project-4.0.0.Beta2.buildcompare) | 3 :rotating_light: | 159M |
 | [4.0.0.Beta1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta1/pom) | [mvn jdk21](quarkus-4.0.0.Beta1.buildspec) | [result](quarkus-project-4.0.0.Beta1.buildinfo): [2523 :white_check_mark:  2 :warning:](quarkus-project-4.0.0.Beta1.buildcompare) | 2 :rotating_light: | 161M |
 | [3.40.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.40.1/pom) | [mvn jdk21](quarkus-3.40.1.buildspec) | [result](quarkus-project-3.40.1.buildinfo): [2489 :white_check_mark:  2 :warning:](quarkus-project-3.40.1.buildcompare) | 2 :rotating_light: | 152M |
