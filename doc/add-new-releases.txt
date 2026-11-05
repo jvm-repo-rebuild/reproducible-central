@@ -1,9 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/hibegin/common-dao/common-dao-1.1.16.buildspec:1.2.3
+content/com/flowlogix/flowlogix-11.7.4.buildspec:11.7.6
+content/com/github/nbbrd/java-desktop-util/java-desktop-util-2.7.0.buildspec:2.8.0
 content/io/avaje/prisms/avaje-prisms-2.1-RC2.buildspec:2.2
-content/io/cucumber/query/query-16.1.1.buildspec:16.2.0
+content/io/jstach/rainbowgum/rainbowgum-0.16.3.buildspec:0.17.0
+content/org/jline/jline-4.4.8.buildspec:4.5.0
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
 content/org/apache/nifi/nifi-api/nifi-api-2.15.0.buildspec:2.16.0
-content/org/metricshub/winrm-java/winrm-java-3.1.01.buildspec:3.1.02
-content/org/metricshub/wmi-java/wmi-java-1.0.06.buildspec:1.0.07
+content/org/metricshub/winrm-java/winrm-java-3.1.02.buildspec:3.1.04

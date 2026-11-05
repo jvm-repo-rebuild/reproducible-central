@@ -120,7 +120,7 @@ Reproducible Builds for Maven Central Repository
 | com.google.guava | [guava](../content/com/google/guava/README.md) | 54 | 36 :white_check_mark: / 18 :warning: |
 | com.google.mug | [mug](../content/com/google/mug/README.md) | 22 | 22 :white_check_mark: |
 | com.google.code.gson | [gson](../content/com/google/code/gson/README.md) | 9 | 9 :white_check_mark: |
-| com.hibegin | [common-dao](../content/com/hibegin/common-dao/README.md) | 35 | 22 :white_check_mark: / 13 :warning: |
+| com.hibegin | [common-dao](../content/com/hibegin/common-dao/README.md) | 39 | 26 :white_check_mark: / 13 :warning: |
 | | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 122 | 25 :white_check_mark: / 97 :warning: |
 | com.homeofthewizard | [gcp-secretmanager-maven-plugin](../content/com/homeofthewizard/gcp-secretmanager-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [spring-bridge-maven-plugin](../content/com/homeofthewizard/spring-bridge-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -325,7 +325,7 @@ Reproducible Builds for Maven Central Repository
 | | [messages](../content/io/cucumber/messages/README.md) | 42 | 42 :white_check_mark: |
 | | [messages-ndjson](../content/io/cucumber/messages-ndjson/README.md) | 15 | 14 :white_check_mark: / 1 :warning: |
 | | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 18 | 18 :white_check_mark: |
-| | [query](../content/io/cucumber/query/README.md) | 30 | 30 :white_check_mark: |
+| | [query](../content/io/cucumber/query/README.md) | 31 | 31 :white_check_mark: |
 | | [tag-expressions](../content/io/cucumber/tag-expressions/README.md) | 19 | 19 :white_check_mark: |
 | | [teamcity-formatter](../content/io/cucumber/teamcity-formatter/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | | [testng-xml-formatter](../content/io/cucumber/testng-xml-formatter/README.md) | 11 | 9 :white_check_mark: / 2 :warning: |
@@ -896,8 +896,8 @@ Reproducible Builds for Maven Central Repository
 | | [tablejoin](../content/org/metricshub/tablejoin/README.md) | 1 | 1 :white_check_mark: |
 | | [vcenter-java](../content/org/metricshub/vcenter-java/README.md) | 1 | 1 :white_check_mark: |
 | | [wbem-java](../content/org/metricshub/wbem-java/README.md) | 1 | 1 :white_check_mark: |
-| | [winrm-java](../content/org/metricshub/winrm-java/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
-| | [wmi-java](../content/org/metricshub/wmi-java/README.md) | 4 | 4 :white_check_mark: |
+| | [winrm-java](../content/org/metricshub/winrm-java/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
+| | [wmi-java](../content/org/metricshub/wmi-java/README.md) | 5 | 5 :white_check_mark: |
 | | [xflat](../content/org/metricshub/xflat/README.md) | 1 | 1 :white_check_mark: |
 | org.metricshub.maven | [metricshub-connector-maven-plugin](../content/org/metricshub/maven/metricshub-connector-maven-plugin/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.mockito | [mockito-core](../content/org/mockito/mockito-core/README.md) | 41 | 27 :white_check_mark: / 14 :warning: |
@@ -993,7 +993,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 13 | 13 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 47 | 45 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 38 | 5 :white_check_mark: / 33 :warning: |
-| **Count:** | **979** | **12786** | **9483** :white_check_mark:<br>**3303** :warning: |
+| **Count:** | **979** | **12793** | **9490** :white_check_mark:<br>**3303** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1019,7 +1019,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      15 mvn        16
-    882 mvn        17
+    884 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -1080,7 +1080,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.10  17
       1 mvn-3.9.10  21
     220 mvn-3.9.11   8
-    122 mvn-3.9.11  11
+    126 mvn-3.9.11  11
     320 mvn-3.9.11  17
     457 mvn-3.9.11  21
       5 mvn-3.9.11  22
@@ -1090,7 +1090,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      48 mvn-3.9.12   8
      58 mvn-3.9.12  11
     149 mvn-3.9.12  17
-    432 mvn-3.9.12  21
+    433 mvn-3.9.12  21
      11 mvn-3.9.12  22
      22 mvn-3.9.12  24
     227 mvn-3.9.12  25
