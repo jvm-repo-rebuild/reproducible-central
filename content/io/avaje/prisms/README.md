@@ -14,13 +14,14 @@ Source code: [https://github.com/avaje/avaje-prisms.git](https://github.com/avaj
 * [io.avaje:avaje-prisms-parent](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/overview)
 </details>
 
-rebuilding **20 releases** of io.avaje:avaje-prisms-parent:
+rebuilding **21 releases** of io.avaje:avaje-prisms-parent:
 - **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/2.2/pom) | | | |
+| [2.2](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/2.2/pom) | [mvn jdk26](avaje-prisms-2.2.buildspec) | [result](avaje-prisms-parent-2.2.buildinfo): [6 :white_check_mark:  1 :warning:](avaje-prisms-parent-2.2.buildcompare) | 1 :no_entry_sign: | 121K |
 | [2.1](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/2.1/pom) | | | |
 | [2.1-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/2.1-RC2/pom) | [mvn jdk25](avaje-prisms-2.1-RC2.buildspec) | [result](avaje-prisms-parent-2.1-RC2.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-2.1-RC2.buildcompare) | | 121K |
 | [2.1-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/2.1-RC1/pom) | [mvn jdk25](avaje-prisms-2.1-RC1.buildspec) | [result](avaje-prisms-parent-2.1-RC1.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-2.1-RC1.buildcompare) | | 121K |
