@@ -1,16 +1,9 @@
 version=2.8.0
-ok=19
-ko=1
+ok=20
+ko=0
 ignored=0
-okFiles="java-desktop-util-parent-2.8.0.pom java-desktop-util-swing-2.8.0.pom java-desktop-util-swing-2.8.0.jar java-desktop-util-swing-2.8.0-sources.jar java-desktop-util-fa-2.8.0.pom java-desktop-util-fa-2.8.0.jar java-desktop-util-fa-2.8.0-sources.jar java-desktop-util-chart-2.8.0.pom java-desktop-util-chart-2.8.0.jar java-desktop-util-chart-2.8.0-sources.jar java-desktop-util-os-2.8.0.pom java-desktop-util-os-2.8.0.jar java-desktop-util-os-2.8.0-sources.jar java-desktop-util-favicon-2.8.0.pom java-desktop-util-favicon-2.8.0.jar java-desktop-util-favicon-2.8.0-sources.jar java-desktop-util-demo-2.8.0.pom java-desktop-util-demo-2.8.0.jar java-desktop-util-demo-2.8.0-sources.jar"
-koFiles="java-desktop-util-bom-2.8.0.pom"
+okFiles="java-desktop-util-parent-2.8.0.pom java-desktop-util-swing-2.8.0.pom java-desktop-util-swing-2.8.0.jar java-desktop-util-swing-2.8.0-sources.jar java-desktop-util-fa-2.8.0.pom java-desktop-util-fa-2.8.0.jar java-desktop-util-fa-2.8.0-sources.jar java-desktop-util-chart-2.8.0.pom java-desktop-util-chart-2.8.0.jar java-desktop-util-chart-2.8.0-sources.jar java-desktop-util-os-2.8.0.pom java-desktop-util-os-2.8.0.jar java-desktop-util-os-2.8.0-sources.jar java-desktop-util-favicon-2.8.0.pom java-desktop-util-favicon-2.8.0.jar java-desktop-util-favicon-2.8.0-sources.jar java-desktop-util-demo-2.8.0.pom java-desktop-util-demo-2.8.0.jar java-desktop-util-demo-2.8.0-sources.jar java-desktop-util-bom-2.8.0.pom"
+koFiles=""
 ignoredFiles=""
 reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.github.nbbrd.java-desktop-util/java-desktop-util-bom-2.8.0.pom java-desktop-util-bom/target/.flattened-pom.xml
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=1
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="java-desktop-util-bom-2.8.0.pom"

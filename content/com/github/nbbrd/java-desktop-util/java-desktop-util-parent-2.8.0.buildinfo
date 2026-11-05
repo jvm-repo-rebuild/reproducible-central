@@ -22,7 +22,7 @@ os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.11
+mvn.version=3.10.0
 mvn.aggregate.artifact-id=java-desktop-util-bom
 
 # aggregated output
@@ -140,5 +140,5 @@ outputs.7.coordinates=com.github.nbbrd.java-desktop-util:java-desktop-util-bom
 
 outputs.7.0.groupId=com.github.nbbrd.java-desktop-util
 outputs.7.0.filename=java-desktop-util-bom-2.8.0.pom
-outputs.7.0.length=3207
-outputs.7.0.checksums.sha512=544c8ab948f1c98624432cfb324331a9d660a372fd4a0a09411f5a2c4b5cee9879c0650f51c72308345f8b68e418305fa1be3e53a97805581264be72e050e842
+outputs.7.0.length=3286
+outputs.7.0.checksums.sha512=90cf3dd5476fa1022a9aabfad3344be2cbed1de777aeefcaf4cb2ecf43c761974a000c52f1fdf12b9150540a0dd04acdbfb1de02a9d0729fb7217c65728d6187
