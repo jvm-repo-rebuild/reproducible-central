@@ -1,10 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/flowlogix/flowlogix-11.7.4.buildspec:11.7.6
-content/com/github/nbbrd/java-desktop-util/java-desktop-util-2.7.0.buildspec:2.8.0
-content/io/avaje/prisms/avaje-prisms-2.1-RC2.buildspec:2.2
-content/io/jstach/rainbowgum/rainbowgum-0.16.3.buildspec:0.17.0
-content/org/jline/jline-4.4.8.buildspec:4.5.0
+content/eu/maveniverse/maven/nisse/nisse-0.9.11.buildspec:0.9.12
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.18.7-beta-3.buildspec:5.18.7
+content/jakarta/persistence/jakarta.persistence-api/jakarta.persistence-api-4.0.0-M7.buildspec:4.0.0-M8
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
 content/org/apache/nifi/nifi-api/nifi-api-2.15.0.buildspec:2.16.0
-content/org/metricshub/winrm-java/winrm-java-3.1.02.buildspec:3.1.04
