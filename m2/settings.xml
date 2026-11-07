@@ -331,6 +331,11 @@
       <url>https://repository.jboss.org/</url>
     </mirror>
     <mirror>
+      <id>codegenome</id>
+      <mirrorOf>codegenome</mirrorOf>
+      <url>https://artifacts.codegenomeproject.org/maven</url>
+    </mirror>
+    <mirror>
       <id>staging</id>
       <mirrorOf>staging</mirrorOf>
       <url>https://repository.apache.org/content/groups/staging/</url>
