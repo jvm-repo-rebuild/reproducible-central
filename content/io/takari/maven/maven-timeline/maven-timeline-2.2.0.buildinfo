@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Timeline extension
+group-id=io.takari.maven
+artifact-id=maven-timeline
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:takari/maven-timeline.git
+source.scm.tag=maven-timeline-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.takari.maven
+outputs.0.filename=maven-timeline-2.2.0.pom
+outputs.0.length=3291
+outputs.0.checksums.sha512=3d82097e707aa0411b9d61834e40f58d251e6e0a0f9769f13feba2d60f4dede40f78ea32944f5ca86167ea1fa8034f95f07794c689bd74f167b369a03f90e9e6
+
+outputs.1.groupId=io.takari.maven
+outputs.1.filename=maven-timeline-2.2.0.jar
+outputs.1.length=21692
+outputs.1.checksums.sha512=352f94205520bba1c78ffe37f01ee755cdbe2cf6d328bc29bdbaeed5b34edf485419eee7e3e571dbf4c4ba9815eb25b116db54da9fe34f290dd79c9a13dd59cb
+
+outputs.2.groupId=io.takari.maven
+outputs.2.filename=maven-timeline-2.2.0-sources.jar
+outputs.2.length=5697
+outputs.2.checksums.sha512=20c4c2b397177fddeb917d0b8cdab4474e335a0f76c1e056fc3f551ab6f3d024d2358b9c0fc33498c70e3b881808bf7943f5c93b533a2bca6bff2afe50f8df30
