@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.7.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.7.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-languages-1.7.0.pom
+outputs.0.0.length=4195
+outputs.0.0.checksums.sha512=e2d1fe39b377c4b478f6e51d3c94166927528c3e39e81dfe2283fb72c3e50f146d3cfff27a66191e1a6e64614173f64c472df3c0230022b7a894014d946c9499
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-languages-1.7.0-source-release.zip
+outputs.0.1.length=515646
+outputs.0.1.checksums.sha512=5fbd595e47cd73707b5e112ca1d6817b029286236b484002fb0de5bedee2c06855ee2cf501353edba8b416ee414c248172ceb2cbdd196db1a12a74b7f6e6ff78
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-java-1.7.0.pom
+outputs.1.0.length=3957
+outputs.1.0.checksums.sha512=32abeef86acc573f6ec5a07fea58177778d16a96e7415c6335453959eea0b63ab6982f0f1795f184b6b590a3fa196c1ff13b883bc2d3e4f6f5664f906b1aafe1
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-java-1.7.0.jar
+outputs.1.1.length=59260
+outputs.1.1.checksums.sha512=6f9f0ec91c8d62e0f5ff000408df6fad3a0ba8726df617a689072d8704c9534f37e77c41e7442d4e1758147c9c0f60f896c7a3502ab48595749710867e8eba73
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-java-1.7.0-sources.jar
+outputs.1.2.length=36106
+outputs.1.2.checksums.sha512=29d6fe07ca554a7f760292830d8333d14ee10586c64e6637f895a73bec15ba5d4fcfa0408414e5d6ad903ff0e45cdd5b4820fe3bbfb8e53bace7d59a010a3e4f
