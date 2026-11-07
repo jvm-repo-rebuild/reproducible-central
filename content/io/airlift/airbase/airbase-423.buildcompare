@@ -1,0 +1,9 @@
+version=423
+ok=6
+ko=0
+ignored=0
+okFiles="airbase-root-423.pom airbase-enforcer-423.pom airbase-enforcer-423.jar airbase-policy-423.pom airbase-policy-423.jar airbase-423.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
