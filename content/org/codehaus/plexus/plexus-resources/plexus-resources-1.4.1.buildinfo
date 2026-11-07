@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Resource Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-resources
+version=1.4.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-resources.git
+source.scm.tag=plexus-resources-1.4.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-resources-1.4.1.pom
+outputs.0.length=4366
+outputs.0.checksums.sha512=0e27e37f1880c40fe899045564a9daec4f474278563059b209a2635e8a7e84c409afa61ff6cf8110d9c06d86a35b9f034bbec64c894357da2d81bb3d4308e847
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-resources-1.4.1.jar
+outputs.1.length=23335
+outputs.1.checksums.sha512=87438d3a19652f4bfd0ed0ecb116f3c29dd8b7d7dcb49fb6d697234b9c06166a1a601952ccdcc99c932044bcc78389b70b97525590d1f28ebed508414860ace1
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-resources-1.4.1-source-release.zip
+outputs.2.length=46265
+outputs.2.checksums.sha512=c87c9d529a225fdd1b9ab0e5ffbb9fce75c7efdb4b433b228b0b83bd4ff25d6a513ba74cdfcea04ab4df5877be688852084d3d8e2b6817eed4e703b7c3082a1c
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-resources-1.4.1-sources.jar
+outputs.3.length=24985
+outputs.3.checksums.sha512=375ed50d2324b41a8b7aea43d5d694ae9121a56168bd981da8e57dcc568e4d81aa587f60f2ec9622a123934d78fb79b9276fcbf2e93dde0ad58e0ef993886a46
