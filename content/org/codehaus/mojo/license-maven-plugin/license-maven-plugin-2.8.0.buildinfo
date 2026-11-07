@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=License Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=license-maven-plugin
+version=2.8.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/license-maven-plugin.git
+source.scm.tag=2.8.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=license-maven-plugin-2.8.0.pom
+outputs.0.length=22601
+outputs.0.checksums.sha512=62421133541112b69dcc228cdb1a63dacd3713e7ebac01da908f27151173f4600111d201c2e3f41f0f69751e40dc5e79af719eba99f7d2a36fe8dc2b3f63daaa
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=license-maven-plugin-2.8.0.jar
+outputs.1.length=600014
+outputs.1.checksums.sha512=59837e8ff64c406c1dcd8611c7e2e0e5cef88edbfefd6460c5ff0363f0e3a7d34f7ad5484bfb2f807098e400a7ed8f3ce30d5ad99a068ad50f5ef19dfeeb7330
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=license-maven-plugin-2.8.0-third-party.properties
+outputs.2.length=966
+outputs.2.checksums.sha512=af679b6ba78a2e9ff1672dc60dc4eef5ca53a184d124468a50ed3af10257751bd62250b498605b1eb63a02013709f5b18fe0842cf82496135318eec019257380
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=license-maven-plugin-2.8.0-source-release.zip
+outputs.3.length=1100462
+outputs.3.checksums.sha512=7961762b7f7e6ee8b30b26d64cb66302ab8ae72acfe60848abda975f4336682ca177686135a0120e243462413d7a2cefec4dae15e5631e70c975c4205f01e37f
+
+outputs.4.groupId=org.codehaus.mojo
+outputs.4.filename=license-maven-plugin-2.8.0-sources.jar
+outputs.4.length=402985
+outputs.4.checksums.sha512=f9b4cb1a754afdf87266ece14e11490ea283193ac9f9a05697e14b249f2cad27d1a523f464eb328c30c137b9f86fa91784c13d8d22b0c262dfed0d0c86e7622a
