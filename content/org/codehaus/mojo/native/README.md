@@ -23,13 +23,13 @@ Source code: [https://github.com/mojohaus/maven-native.git](https://github.com/m
 * [org.codehaus.mojo:native-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/overview)
 </details>
 
-rebuilding **3 releases** of org.codehaus.mojo:native-maven-plugin:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.codehaus.mojo:native-maven-plugin:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.2.0/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.2.0/pom) | [mvn jdk25](maven-native-1.2.0.buildspec) | [result](maven-native-1.2.0.buildinfo): [33 :white_check_mark: ](maven-native-1.2.0.buildcompare) | | 756K |
 | [1.1.0](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.1.0/pom) | [mvn jdk25](maven-native-1.1.0.buildspec) | [result](maven-native-1.1.0.buildinfo): [33 :white_check_mark: ](maven-native-1.1.0.buildcompare) | | 752K |
 | [1.0.0](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.0.0/pom) | [mvn jdk21](maven-native-1.0.0.buildspec) | [result](maven-native-1.0.0.buildinfo): [30 :white_check_mark: ](maven-native-1.0.0.buildcompare) | | 706K |
 | [1.0-M1](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.0-M1/pom) | [mvn jdk21](maven-native-1.0-M1.buildspec) | [result](maven-native-1.0-M1.buildinfo): [30 :white_check_mark: ](maven-native-1.0-M1.buildcompare) | | 688K |
