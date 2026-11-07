@@ -66,6 +66,7 @@ rebuilding **117 releases** of org.hibernate.orm:hibernate-core:
 | [8.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta2/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta2.buildspec) | [result](hibernate-core-8.0.0.Beta2.buildinfo): [64 :white_check_mark:  5 :warning:](hibernate-core-8.0.0.Beta2.buildcompare) | 5 :rotating_light: | 32M |
 | [8.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Beta1/pom) | [gradle jdk25](hibernate-core-8.0.0.Beta1.buildspec) | [result](hibernate-core-8.0.0.Beta1.buildinfo): [79 :white_check_mark: ](hibernate-core-8.0.0.Beta1.buildcompare) | | 30M |
 | [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/8.0.0.Alpha1/pom) | [gradle jdk25](hibernate-core-8.0.0.Alpha1.buildspec) | [result](hibernate-core-8.0.0.Alpha1.buildinfo): [72 :white_check_mark: ](hibernate-core-8.0.0.Alpha1.buildcompare) | | 27M |
+| [7.4.15.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.4.15.Final/pom) | | | |
 | [7.4.14.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.4.14.Final/pom) | | | |
 | [7.4.13.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.4.13.Final/pom) | | | |
 | [7.4.12.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.4.12.Final/pom) | | | |

@@ -52,6 +52,7 @@ rebuilding **36 releases** of io.opentelemetry:opentelemetry-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.68.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.68.0/pom) | | | |
 | [1.67.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.67.0/pom) | [gradle jdk25](opentelemetry-sdk-1.67.0.buildspec) | [result](opentelemetry-sdk-1.67.0.buildinfo): [92 :white_check_mark: ](opentelemetry-sdk-1.67.0.buildcompare) | | 4.0M |
 | [1.66.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.66.0/pom) | [gradle jdk21](opentelemetry-sdk-1.66.0.buildspec) | [result](opentelemetry-sdk-1.66.0.buildinfo): [92 :white_check_mark: ](opentelemetry-sdk-1.66.0.buildcompare) | | 3.9M |
 | [1.65.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.65.0/pom) | [gradle jdk21](opentelemetry-sdk-1.65.0.buildspec) | [result](opentelemetry-sdk-1.65.0.buildinfo): [92 :white_check_mark: ](opentelemetry-sdk-1.65.0.buildcompare) | | 3.8M |

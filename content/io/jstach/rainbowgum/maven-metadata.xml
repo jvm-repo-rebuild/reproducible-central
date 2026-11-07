@@ -3,8 +3,8 @@
   <groupId>io.jstach.rainbowgum</groupId>
   <artifactId>rainbowgum-maven-parent</artifactId>
   <versioning>
-    <latest>0.17.0</latest>
-    <release>0.17.0</release>
+    <latest>0.17.1</latest>
+    <release>0.17.1</release>
     <versions>
       <version>0.2.0</version>
       <version>0.3.0</version>
@@ -34,7 +34,8 @@
       <version>0.16.2</version>
       <version>0.16.3</version>
       <version>0.17.0</version>
+      <version>0.17.1</version>
     </versions>
-    <lastUpdated>20261104012744</lastUpdated>
+    <lastUpdated>20261106210420</lastUpdated>
   </versioning>
 </metadata>

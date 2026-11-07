@@ -3,8 +3,8 @@
   <groupId>com.github.nbbrd.nbbrd-maven-tools</groupId>
   <artifactId>nbbrd-maven-tools</artifactId>
   <versioning>
-    <latest>1.3.1</latest>
-    <release>1.3.1</release>
+    <latest>1.4.2</latest>
+    <release>1.4.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -15,7 +15,8 @@
       <version>1.2.0</version>
       <version>1.3.0</version>
       <version>1.3.1</version>
+      <version>1.4.2</version>
     </versions>
-    <lastUpdated>20261015083850</lastUpdated>
+    <lastUpdated>20261106084300</lastUpdated>
   </versioning>
 </metadata>
