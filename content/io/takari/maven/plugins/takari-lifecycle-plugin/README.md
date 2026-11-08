@@ -13,13 +13,13 @@ Source code: [https://github.com/takari/takari-lifecycle.git](https://github.com
 * [io.takari.maven.plugins:takari-lifecycle-plugin](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/overview)
 </details>
 
-rebuilding **10 releases** of io.takari.maven.plugins:takari-lifecycle-plugin:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of io.takari.maven.plugins:takari-lifecycle-plugin:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.4.0](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.4.0/pom) | | | |
+| [2.4.0](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.4.0/pom) | [mvn jdk25](takari-lifecycle-plugin-2.4.0.buildspec) | [result](takari-lifecycle-2.4.0.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.4.0.buildcompare) | | 443K |
 | [2.3.4](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.3.4/pom) | [mvn jdk21](takari-lifecycle-plugin-2.3.4.buildspec) | [result](takari-lifecycle-2.3.4.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.3.4.buildcompare) | | 472K |
 | [2.3.3](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.3.3/pom) | [mvn jdk21](takari-lifecycle-plugin-2.3.3.buildspec) | [result](takari-lifecycle-2.3.3.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.3.3.buildcompare) | | 472K |
 | [2.3.2](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.3.2/pom) | [mvn jdk21](takari-lifecycle-plugin-2.3.2.buildspec) | [result](takari-lifecycle-2.3.2.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.3.2.buildcompare) | | 472K |
