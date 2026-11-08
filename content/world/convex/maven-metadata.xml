@@ -3,8 +3,8 @@
   <groupId>world.convex</groupId>
   <artifactId>convex</artifactId>
   <versioning>
-    <latest>0.8.18</latest>
-    <release>0.8.18</release>
+    <latest>0.8.19</latest>
+    <release>0.8.19</release>
     <versions>
       <version>0.7.0-rc1</version>
       <version>0.7.0-rc2</version>
@@ -44,7 +44,8 @@
       <version>0.8.16</version>
       <version>0.8.17</version>
       <version>0.8.18</version>
+      <version>0.8.19</version>
     </versions>
-    <lastUpdated>20261025185315</lastUpdated>
+    <lastUpdated>20261107220243</lastUpdated>
   </versioning>
 </metadata>
