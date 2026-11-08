@@ -14,15 +14,16 @@ source.scm.tag=v0.13.1
 build-tool=mvn
 
 # effective build environment information
-java.version=21.0.10
+java.version=21.0.12.1
 java.vendor=Ubuntu
 os.name=Linux
-os.version=6.14.0-1017-azure
+os.version=7.0.0-1017-azure
 os.arch=amd64
 line.separator=\n
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.12
+mvn.version=3.10.0
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(io.cucumber:messages:(32.0.1,));e(io.cucumber:query:(15.0.1,))
 
 # output
 
@@ -33,8 +34,8 @@ outputs.0.checksums.sha512=aa6ba262475a37e90c6ac7c9c219961999d2053c05774199f3bfc
 
 outputs.1.groupId=io.cucumber
 outputs.1.filename=junit-xml-formatter-0.13.1.jar
-outputs.1.length=17903
-outputs.1.checksums.sha512=596fff006d2524ac697111a468bbb76ebc260dbbfeea87faecf855bd76e5e874106508caf51787832cc00565dcd658c185135c50688f1c85bdf2f59746560a79
+outputs.1.length=17901
+outputs.1.checksums.sha512=c427087bea1676f02a9f9866f689ebbdd5dd6e98d5c4dff5bb26a8bcc53410e69db41f1196aa5dd5e8a72128bd270f1708064eb0c562402b148d56294e6f51e2
 
 outputs.2.groupId=io.cucumber
 outputs.2.filename=junit-xml-formatter-0.13.1-sources.jar
