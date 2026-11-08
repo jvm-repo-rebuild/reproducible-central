@@ -7,10 +7,10 @@
 
 Source code: [https://github.com/OP-TED/eForms-SDK.git](https://github.com/OP-TED/eForms-SDK.git)
 
-rebuilding **54 releases** of eu.europa.ted.eforms:eforms-sdk:
+rebuilding **55 releases** of eu.europa.ted.eforms:eforms-sdk:
 - **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 0 had all their differences removed :recycle:, 7 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -19,7 +19,7 @@ rebuilding **54 releases** of eu.europa.ted.eforms:eforms-sdk:
 | [2.0.0-alpha.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/2.0.0-alpha.3/pom) | [mvn jdk11](eforms-sdk-2.0.0-alpha.3.buildspec) | [result](eforms-sdk-2.0.0-alpha.3.buildinfo): [2 :white_check_mark:  1 :warning:](eforms-sdk-2.0.0-alpha.3.buildcompare) | 1 :rotating_light: | 36M |
 | [2.0.0-alpha.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/2.0.0-alpha.2/pom) | [mvn jdk11](eforms-sdk-2.0.0-alpha.2.buildspec) | [result](eforms-sdk-2.0.0-alpha.2.buildinfo): [2 :white_check_mark:  1 :warning:](eforms-sdk-2.0.0-alpha.2.buildcompare) [:mag:](eforms-sdk-2.0.0-alpha.2.diffoscope) | 1 :rotating_light: | 39M |
 | [2.0.0-alpha.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/2.0.0-alpha.1/pom) | [mvn jdk11](eforms-sdk-2.0.0-alpha.1.buildspec) | [result](eforms-sdk-2.0.0-alpha.1.buildinfo): [3 :white_check_mark: ](eforms-sdk-2.0.0-alpha.1.buildcompare) | | 37M |
-| [1.16.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.16.0/pom) | | | |
+| [1.16.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.16.0/pom) | [mvn jdk11](eforms-sdk-1.16.0.buildspec) | [result](eforms-sdk-1.16.0.buildinfo): [2 :white_check_mark:  1 :warning:](eforms-sdk-1.16.0.buildcompare) | 1 :rotating_light: | 45M |
 | [1.16.0-beta.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.16.0-beta.3/pom) | | | |
 | [1.16.0-beta.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.16.0-beta.2/pom) | | | |
 | [1.16.0-beta.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.16.0-beta.1/pom) | | | |
