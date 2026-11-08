@@ -6,12 +6,12 @@ version=0.14.1
 gitRepo=https://github.com/cucumber/cucumber-${artifactId}.git
 gitTag=v${version}
 
-tool=mvn-3.9.12
+tool=mvn-3.10.0
 jdk=21
 newline=lf
 umask=022
 
-command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip '-Dmaven.session.versionFilter=e((16.1.0,))@io.cucumber:query'"
 buildinfo=java/target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
