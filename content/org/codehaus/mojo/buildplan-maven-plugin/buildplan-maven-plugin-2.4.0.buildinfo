@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=BuildPlan Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=buildplan-maven-plugin
+version=2.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/buildplan-maven-plugin.git
+source.scm.tag=v2.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.20.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=buildplan-maven-plugin-2.4.0.pom
+outputs.0.length=9559
+outputs.0.checksums.sha512=288493749af1e177b4ae24407bc6ae181782c1a75357fb1c6d79066d7b8583341ab54a25c115b7c5af69be7ec37eb0074c1d1c20d84f02b24f9b8b1a7c23620d
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=buildplan-maven-plugin-2.4.0.jar
+outputs.1.length=53673
+outputs.1.checksums.sha512=bd28bff216a961fa5a89e97c4e3f6cd7d7109ba9df369b0dada9e640383edb162a7726aca055631861ab545c6ac773f8d237deabfcfc533cd62e667efa712406
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=buildplan-maven-plugin-2.4.0-source-release.zip
+outputs.2.length=406877
+outputs.2.checksums.sha512=6ef59dd01a2fceadfac8c38ad62e154a462b33db6da32467fa66d573b6f8fa2db437ee3dd50872adf6bab5ab9571fa76975a2c495679a6b7b4b3ec443987df26
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=buildplan-maven-plugin-2.4.0-sources.jar
+outputs.3.length=32862
+outputs.3.checksums.sha512=aeb1df852f2ba8796b69fe5f482cdc3db638c74db71203d21fc01d31175464b1c155be0c64b88c1639f634ef10996fcce80a3a3d97134809489af3ffd75032ed
