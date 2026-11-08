@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 184 modules:</summary>
+<details><summary>This project defines 187 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/overview)
 * [org.apache.dubbo:dubbo-all-shaded](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-all-shaded/overview)
@@ -33,6 +33,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-container-log4j](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-container-log4j/overview)
 * [org.apache.dubbo:dubbo-container-logback](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-container-logback/overview)
 * [org.apache.dubbo:dubbo-container-spring](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-container-spring/overview)
+* [org.apache.dubbo:dubbo-demo-mcp-server](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-demo-mcp-server/overview)
 * [org.apache.dubbo:dubbo-dependencies](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-dependencies/overview)
 * [org.apache.dubbo:dubbo-dependencies-bom](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-dependencies-bom/overview)
 * [org.apache.dubbo:dubbo-dependencies-zookeeper](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-dependencies-zookeeper/overview)
@@ -43,6 +44,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-filter-validation](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-filter-validation/overview)
 * [org.apache.dubbo:dubbo-kubernetes](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-kubernetes/overview)
 * [org.apache.dubbo:dubbo-maven-plugin](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-maven-plugin/overview)
+* [org.apache.dubbo:dubbo-mcp](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-mcp/overview)
 * [org.apache.dubbo:dubbo-metadata](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata/overview)
 * [org.apache.dubbo:dubbo-metadata-api](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-api/overview)
 * [org.apache.dubbo:dubbo-metadata-definition-protobuf](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-definition-protobuf/overview)
@@ -61,6 +63,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-metrics-event](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metrics-event/overview)
 * [org.apache.dubbo:dubbo-metrics-metadata](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metrics-metadata/overview)
 * [org.apache.dubbo:dubbo-metrics-netty](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metrics-netty/overview)
+* [org.apache.dubbo:dubbo-metrics-otlp](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metrics-otlp/overview)
 * [org.apache.dubbo:dubbo-metrics-prometheus](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metrics-prometheus/overview)
 * [org.apache.dubbo:dubbo-metrics-registry](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metrics-registry/overview)
 * [org.apache.dubbo:dubbo-monitor](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-monitor/overview)
@@ -195,14 +198,14 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-zookeeper-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-spring-boot-starter/overview)
 </details>
 
-rebuilding **85 releases** of org.apache.dubbo:dubbo:
+rebuilding **86 releases** of org.apache.dubbo:dubbo:
 - **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 61 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 1 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 62 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 1 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.7/pom) | | | |
+| [3.3.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.7/pom) | [mvn jdk25](dubbo-3.3.7.buildspec) | [result](dubbo-parent-3.3.7.buildinfo): [266 :white_check_mark:  2 :warning:](dubbo-parent-3.3.7.buildcompare) | 1 :recycle: 1 :rotating_light: | 52M |
 | [3.3.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.6/pom) | [mvn jdk21](dubbo-3.3.6.buildspec) | [result](dubbo-parent-3.3.6.buildinfo): [257 :white_check_mark:  2 :warning:](dubbo-parent-3.3.6.buildcompare) | 1 :recycle: 1 :rotating_light: | 51M |
 | [3.3.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.5/pom) | [mvn jdk21](dubbo-3.3.5.buildspec) | [result](dubbo-parent-3.3.5.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.5.buildcompare) | | 50M |
 | [3.3.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.4/pom) | [mvn jdk21](dubbo-3.3.4.buildspec) | [result](dubbo-parent-3.3.4.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.4.buildcompare) | | 49M |
