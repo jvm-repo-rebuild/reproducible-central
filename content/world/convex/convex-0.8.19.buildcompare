@@ -1,0 +1,19 @@
+version=0.8.19
+ok=36
+ko=4
+ignored=0
+okFiles="convex-0.8.19.pom convex-core-0.8.19.pom convex-core-0.8.19.jar convex-peer-0.8.19.pom convex-peer-0.8.19.jar convex-peer-0.8.19-sources.jar convex-java-0.8.19.pom convex-java-0.8.19.jar convex-java-0.8.19-sources.jar convex-x402-0.8.19.pom convex-x402-0.8.19.jar convex-x402-0.8.19-sources.jar convex-restapi-0.8.19.pom convex-restapi-0.8.19-sources.jar convex-dlfs-0.8.19.pom convex-dlfs-0.8.19.jar convex-dlfs-0.8.19-sources.jar convex-observer-0.8.19.pom convex-observer-0.8.19.jar convex-observer-0.8.19-sources.jar convex-gui-0.8.19.pom convex-gui-0.8.19.jar convex-gui-0.8.19-sources.jar convex-social-0.8.19.pom convex-social-0.8.19.jar convex-social-0.8.19-sources.jar convex-p2p-0.8.19.pom convex-p2p-0.8.19.jar convex-p2p-0.8.19-sources.jar convex-cli-0.8.19.pom convex-cli-0.8.19.jar convex-cli-0.8.19-sources.jar convex-db-0.8.19.pom convex-db-0.8.19.jar convex-db-0.8.19-sources.jar convex-benchmarks-0.8.19.pom"
+koFiles="convex-core-0.8.19-sources.jar convex-restapi-0.8.19.jar convex-benchmarks-0.8.19.jar convex-benchmarks-0.8.19-sources.jar"
+ignoredFiles=""
+reference_java_version="27 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/world.convex/convex-core-0.8.19-sources.jar convex-core/target/convex-core-0.8.19-sources.jar
+# diffoscope target/reference/world.convex/convex-restapi-0.8.19.jar convex-restapi/target/convex-restapi-0.8.19.jar
+# diffoscope target/reference/world.convex/convex-benchmarks-0.8.19.jar convex-benchmarks/target/convex-benchmarks.jar
+# diffoscope target/reference/world.convex/convex-benchmarks-0.8.19-sources.jar convex-benchmarks/target/convex-benchmarks-sources.jar
+stabilize_ok=0
+stabilize_ko=4
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="convex-core-0.8.19-sources.jar.stabilized convex-restapi-0.8.19.jar.stabilized convex-benchmarks-0.8.19.jar.stabilized convex-benchmarks-0.8.19-sources.jar.stabilized"
+stabilize_ignoredFiles=""
