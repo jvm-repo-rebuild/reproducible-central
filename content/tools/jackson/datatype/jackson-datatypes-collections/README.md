@@ -7,9 +7,10 @@
 
 Source code: [https://github.com/FasterXML/jackson-datatypes-collections.git](https://github.com/FasterXML/jackson-datatypes-collections.git)
 
-<details><summary>This project defines 6 modules:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [tools.jackson.datatype:jackson-datatype-eclipse-collections](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-eclipse-collections/overview)
+* [tools.jackson.datatype:jackson-datatype-fastutil](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-fastutil/overview)
 * [tools.jackson.datatype:jackson-datatype-guava](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-guava/overview)
 * [tools.jackson.datatype:jackson-datatype-hppc](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-hppc/overview)
 * [tools.jackson.datatype:jackson-datatype-pcollections](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-pcollections/overview)
@@ -17,13 +18,13 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-collections.git](ht
 * [tools.jackson.datatype:jackson-datatypes-collections](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/overview)
 </details>
 
-rebuilding **30 releases** of tools.jackson.datatype:jackson-datatypes-collections:
-- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **31 releases** of tools.jackson.datatype:jackson-datatypes-collections:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3.0](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.3.0/pom) | | | |
+| [3.3.0](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.3.0/pom) | [mvn jdk17](jackson-datatypes-collections-3.3.0.buildspec) | [result](jackson-datatypes-collections-3.3.0.buildinfo): [31 :white_check_mark: ](jackson-datatypes-collections-3.3.0.buildcompare) | | 1.5M |
 | [3.2.4](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.2.4/pom) | [mvn jdk17](jackson-datatypes-collections-3.2.4.buildspec) | [result](jackson-datatypes-collections-3.2.4.buildinfo): [26 :white_check_mark: ](jackson-datatypes-collections-3.2.4.buildcompare) | | 1023K |
 | [3.2.3](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.2.3/pom) | [mvn jdk17](jackson-datatypes-collections-3.2.3.buildspec) | [result](jackson-datatypes-collections-3.2.3.buildinfo): [26 :white_check_mark: ](jackson-datatypes-collections-3.2.3.buildcompare) | | 1023K |
 | [3.2.2](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.2.2/pom) | [mvn jdk17](jackson-datatypes-collections-3.2.2.buildspec) | [result](jackson-datatypes-collections-3.2.2.buildinfo): [26 :white_check_mark: ](jackson-datatypes-collections-3.2.2.buildcompare) | | 1023K |
