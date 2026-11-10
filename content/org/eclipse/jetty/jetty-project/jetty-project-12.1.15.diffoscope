@@ -1,0 +1,42 @@
+1 / 13 target/reference/org.eclipse.jetty/jetty-core-home-12.1.15.tar.gz jetty-core/jetty-core-home/target/jetty-core-home-12.1.15.tar.gz
+--- target/reference/org.eclipse.jetty/jetty-core-home-12.1.15.tar.gz
++++ jetty-core/jetty-core-home/target/jetty-core-home-12.1.15.tar.gz
+├── jetty-core-home-12.1.15.tar
+│ ├── jetty-core-home-12.1.15/jetty-core-home-12.1.15-sbom.zip
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,4 +1,4 @@
+│ │ │  Zip file size: 271488 bytes, number of entries: 2
+│ │ │ --rw-r--r--  2.0 unx   712318 b- defN 26-Nov-05 11:08 jetty-core-home-12.1.15-cyclonedx.json
+│ │ │ --rw-r--r--  2.0 unx   646525 b- defN 26-Nov-05 11:08 jetty-core-home-12.1.15-cyclonedx.xml
+│ │ │ +-rw-r--r--  2.0 unx   712318 b- defN 26-Nov-10 08:21 jetty-core-home-12.1.15-cyclonedx.json
+│ │ │ +-rw-r--r--  2.0 unx   646525 b- defN 26-Nov-10 08:21 jetty-core-home-12.1.15-cyclonedx.xml
+│ │ │  2 files, 1358843 bytes uncompressed, 271124 bytes compressed:  80.0%
+
+2 / 13 target/reference/org.eclipse.jetty/jetty-core-home-12.1.15.zip jetty-core/jetty-core-home/target/jetty-core-home-12.1.15.zip
+--- target/reference/org.eclipse.jetty/jetty-core-home-12.1.15.zip
++++ jetty-core/jetty-core-home/target/jetty-core-home-12.1.15.zip
+├── jetty-core-home-12.1.15/jetty-core-home-12.1.15-sbom.zip
+│ ├── zipinfo {}
+│ │ @@ -1,4 +1,4 @@
+│ │  Zip file size: 271488 bytes, number of entries: 2
+│ │ --rw-r--r--  2.0 unx   712318 b- defN 26-Nov-05 11:08 jetty-core-home-12.1.15-cyclonedx.json
+│ │ --rw-r--r--  2.0 unx   646525 b- defN 26-Nov-05 11:08 jetty-core-home-12.1.15-cyclonedx.xml
+│ │ +-rw-r--r--  2.0 unx   712318 b- defN 26-Nov-10 08:21 jetty-core-home-12.1.15-cyclonedx.json
+│ │ +-rw-r--r--  2.0 unx   646525 b- defN 26-Nov-10 08:21 jetty-core-home-12.1.15-cyclonedx.xml
+│ │  2 files, 1358843 bytes uncompressed, 271124 bytes compressed:  80.0%
+
+3 / 13 target/reference/org.eclipse.jetty.ee11/jetty-ee11-home-12.1.15.tar.gz jetty-ee11/jetty-ee11-home/target/jetty-ee11-home-12.1.15.tar.gz
+--- target/reference/org.eclipse.jetty.ee11/jetty-ee11-home-12.1.15.tar.gz
++++ jetty-ee11/jetty-ee11-home/target/jetty-ee11-home-12.1.15.tar.gz
+├── jetty-ee11-home-12.1.15.tar
+│ ├── jetty-ee11-home-12.1.15-sbom.zip
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,4 +1,4 @@
+│ │ │  Zip file size: 88726 bytes, number of entries: 2
+│ │ │ --rw-r--r--  2.0 unx   255618 b- defN 26-Nov-05 11:11 jetty-ee11-home-12.1.15-cyclonedx.json
+│ │ │ --rw-r--r--  2.0 unx   233735 b- defN 26-Nov-05 11:11 jetty-ee11-home-12.1.15-cyclonedx.xml
+│ │ │ +-rw-r--r--  2.0 unx   255618 b- defN 26-Nov-10 08:24 jetty-ee11-home-12.1.15-cyclonedx.json
+│ │ │ +-rw-r--r--  2.0 unx   233735 b- defN 26-Nov-10 08:24 jetty-ee11-home-12.1.15-cyclonedx.xml
+│ │ │  2 files, 489353 bytes uncompressed, 88362 bytes compressed:  81.9%
+
+...
