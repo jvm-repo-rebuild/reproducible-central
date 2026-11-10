@@ -18,15 +18,15 @@ Source code: [https://github.com/mojohaus/mrm.git](https://github.com/mojohaus/m
 * [org.codehaus.mojo:mrm-webapp](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-webapp/overview)
 </details>
 
-rebuilding **8 releases** of org.codehaus.mojo:mrm:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.codehaus.mojo:mrm:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.1.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/2.1.0/pom) | [mvn jdk25](mrm-2.1.0.buildspec) | [result](mrm-2.1.0.buildinfo): [17 :white_check_mark: ](mrm-2.1.0.buildcompare) | | 572K |
 | [2.0.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/2.0.0/pom) | [mvn jdk25](mrm-2.0.0.buildspec) | [result](mrm-2.0.0.buildinfo): [17 :white_check_mark: ](mrm-2.0.0.buildcompare) | | 569K |
-| [1.8.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.8.0/pom) | | | |
+| [1.8.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.8.0/pom) | [mvn jdk17](mrm-1.8.0.buildspec) | [result](mrm-1.8.0.buildinfo): [11 :white_check_mark: ](mrm-1.8.0.buildcompare) | | 429K |
 | [1.7.1](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.7.1/pom) | [mvn jdk21](mrm-1.7.1.buildspec) | [result](mrm-1.7.1.buildinfo): [11 :white_check_mark: ](mrm-1.7.1.buildcompare) | | 389K |
 | [1.7.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.7.0/pom) | [mvn jdk21](mrm-1.7.0.buildspec) | [result](mrm-1.7.0.buildinfo): [11 :white_check_mark: ](mrm-1.7.0.buildcompare) | | 386K |
 | [1.6.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.6.0/pom) | [mvn jdk21](mrm-1.6.0.buildspec) | [result](mrm-1.6.0.buildinfo): [11 :white_check_mark: ](mrm-1.6.0.buildcompare) | | 385K |
