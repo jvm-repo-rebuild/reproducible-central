@@ -16,5 +16,5 @@ userName="Eclipse Jetty Team"
 command="mvn -Peclipse-release clean package -DskipTests -Dgpg.skip -Dtimestamp=${timestamp} -Dbuildinfo.ignore='*/*-demo-jspc-*.war,*/*-demo-jspc-*webapp-${version}-webbundle-*.jar,*/*-p2site.zip' -Duser.name='${userName}'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
