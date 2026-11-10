@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/mojohaus/xml-maven-plugin.git](https://github.com/mojohaus/xml-maven-plugin.git)
 
-rebuilding **5 releases** of org.codehaus.mojo:xml-maven-plugin:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of org.codehaus.mojo:xml-maven-plugin:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.4.0/pom) | | | |
+| [1.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.4.0/pom) | [mvn jdk25](xml-maven-plugin-1.4.0.buildspec) | [result](xml-maven-plugin-1.4.0.buildinfo): [4 :white_check_mark: ](xml-maven-plugin-1.4.0.buildcompare) | | 349K |
 | [1.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.3.0/pom) | [mvn jdk25](xml-maven-plugin-1.3.0.buildspec) | [result](xml-maven-plugin-1.3.0.buildinfo): [3 :white_check_mark:  1 :warning:](xml-maven-plugin-1.3.0.buildcompare) | 1 :rotating_light: | 375K |
 | [1.2.2](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.2.2/pom) | [mvn jdk11](xml-maven-plugin-1.2.2.buildspec) | [result](xml-maven-plugin-1.2.2.buildinfo): [3 :white_check_mark:  1 :warning:](xml-maven-plugin-1.2.2.buildcompare) | 1 :rotating_light: | 346K |
 | [1.2.1](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.2.1/pom) | [mvn jdk21](xml-maven-plugin-1.2.1.buildspec) | [result](xml-maven-plugin-1.2.1.buildinfo): [3 :white_check_mark:  1 :warning:](xml-maven-plugin-1.2.1.buildcompare) [:mag:](xml-maven-plugin-1.2.1.diffoscope) [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) | 1 :rotating_light: | 347K |
