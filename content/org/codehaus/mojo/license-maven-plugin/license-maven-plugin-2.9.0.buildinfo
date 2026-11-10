@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=License Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=license-maven-plugin
+version=2.9.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/license-maven-plugin.git
+source.scm.tag=2.9.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=license-maven-plugin-2.9.0.pom
+outputs.0.length=23583
+outputs.0.checksums.sha512=23eb588d82f82873567859a426cd172fce9b70bfeeb090f0591b6ede899b90b4cdcb582751fa811e5f3202438ae7084cf6491e49fa19e323d708ce72659c3975
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=license-maven-plugin-2.9.0.jar
+outputs.1.length=632537
+outputs.1.checksums.sha512=a52944158c9c2d5215f94b3f08622d149928f1b1cc14cf0fac2f85a86a8df5d31be8428b51dcb0b30bc79ed6ddb2b8235dd499cde6d26a9493b1ae7da1047881
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=license-maven-plugin-2.9.0-third-party.properties
+outputs.2.length=966
+outputs.2.checksums.sha512=af679b6ba78a2e9ff1672dc60dc4eef5ca53a184d124468a50ed3af10257751bd62250b498605b1eb63a02013709f5b18fe0842cf82496135318eec019257380
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=license-maven-plugin-2.9.0-source-release.zip
+outputs.3.length=1150567
+outputs.3.checksums.sha512=6c35b361fa90a00cbb84ba204a679c1b79b36a1b9420b144b03d487600a2504e2b211d1c65eeac36517ccbe783520440ca7941776946da42a028ea08b341b4fb
+
+outputs.4.groupId=org.codehaus.mojo
+outputs.4.filename=license-maven-plugin-2.9.0-sources.jar
+outputs.4.length=421852
+outputs.4.checksums.sha512=fc480963c172877e7dcbadb4fbb2d936f3f377a0a47baffa17512041d742f57b344fc048d9b6a7384c08ba491b668e9b19c1e85c4c5175c28858ab9dc50c6d87
