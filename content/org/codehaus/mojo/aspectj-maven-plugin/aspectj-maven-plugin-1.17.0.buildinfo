@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's AspectJ Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=aspectj-maven-plugin
+version=1.17.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/aspectj-maven-plugin.git
+source.scm.tag=1.17.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.5
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=aspectj-maven-plugin-1.17.0.pom
+outputs.0.length=13479
+outputs.0.checksums.sha512=5fc93ef002c05208a6974f43f813657a4010261efa49e7b0228b34c521cc3b94f20592cb658074a1642494c46626f9c646c541bfdf321288b0cd9d5ef979737d
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=aspectj-maven-plugin-1.17.0.jar
+outputs.1.length=64036
+outputs.1.checksums.sha512=0618d19b62fc0d8ff28c2f4fdd7ccf26a9585973816561ea2cb6882ebf54f823f17a91664a4c453b381a2ed7465677626baa49094c1087109163bf9121e0bcf5
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=aspectj-maven-plugin-1.17.0-source-release.zip
+outputs.2.length=327431
+outputs.2.checksums.sha512=cef7cb93bb0945894a8c4adc98f86aa2fbcf3736fed4efe94d461c9b234443e469f0dc5c45f801e6fdcc2ee4b3ea37d383683dcfd55918adec50b4299fbbbf02
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=aspectj-maven-plugin-1.17.0-sources.jar
+outputs.3.length=46213
+outputs.3.checksums.sha512=8ff07ce1c7b0ff0794be44754ee7abadccb4a2642aa835d721b8da998a5bea68f604cfa40414a485bbf4c79edb1ba24d3d75d4ac05db597452ec01fc2f36091e
