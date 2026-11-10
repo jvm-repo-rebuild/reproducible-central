@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.github.tfw-org:tfw:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2026.17](https://central.sonatype.com/artifact/io.github.tfw-org/tfw/2026.17/pom) | | | |
 | [2026.16](https://central.sonatype.com/artifact/io.github.tfw-org/tfw/2026.16/pom) | [mvn jdk21](tfw-2026.16.buildspec) | [result](tfw-2026.16.buildinfo): [5 :white_check_mark: ](tfw-2026.16.buildcompare) | | 2.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

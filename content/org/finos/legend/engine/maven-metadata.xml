@@ -551,10 +551,11 @@
       <version>5.0.3</version>
       <version>5.0.4</version>
       <version>5.0.5</version>
+      <version>5.0.6</version>
       <version>5.1.0</version>
       <version>5.1.1</version>
       <version>5.2.0</version>
     </versions>
-    <lastUpdated>20261107110333</lastUpdated>
+    <lastUpdated>20261109190542</lastUpdated>
   </versioning>
 </metadata>

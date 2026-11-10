@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.codehaus.mojo:aspectj-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.17.0](https://central.sonatype.com/artifact/org.codehaus.mojo/aspectj-maven-plugin/1.17.0/pom) | | | |
 | [1.16.1](https://central.sonatype.com/artifact/org.codehaus.mojo/aspectj-maven-plugin/1.16.1/pom) | [mvn jdk25](aspectj-maven-plugin-1.16.1.buildspec) | [result](aspectj-maven-plugin-1.16.1.buildinfo): [4 :white_check_mark: ](aspectj-maven-plugin-1.16.1.buildcompare) | | 409K |
 | [1.16.0](https://central.sonatype.com/artifact/org.codehaus.mojo/aspectj-maven-plugin/1.16.0/pom) | [mvn jdk21](aspectj-maven-plugin-1.16.0.buildspec) | [result](aspectj-maven-plugin-1.16.0.buildinfo): [4 :white_check_mark: ](aspectj-maven-plugin-1.16.0.buildcompare) | | 409K |
 | [1.15.0](https://central.sonatype.com/artifact/org.codehaus.mojo/aspectj-maven-plugin/1.15.0/pom) | [mvn jdk21](aspectj-maven-plugin-1.15.0.buildspec) | [result](aspectj-maven-plugin-1.15.0.buildinfo): [4 :white_check_mark: ](aspectj-maven-plugin-1.15.0.buildcompare) | | 411K |

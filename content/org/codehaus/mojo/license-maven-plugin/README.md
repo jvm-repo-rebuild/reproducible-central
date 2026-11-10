@@ -13,6 +13,7 @@ rebuilding **10 releases** of org.codehaus.mojo:license-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.9.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.9.0/pom) | | | |
 | [2.8.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.8.0/pom) | [mvn jdk25](license-maven-plugin-2.8.0.buildspec) | [result](license-maven-plugin-2.8.0.buildinfo): [5 :white_check_mark: ](license-maven-plugin-2.8.0.buildcompare) | | 2.1M |
 | [2.7.1](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.7.1/pom) | [mvn jdk17](license-maven-plugin-2.7.1.buildspec) | [result](license-maven-plugin-2.7.1.buildinfo): [5 :white_check_mark: ](license-maven-plugin-2.7.1.buildcompare) | | 2.0M |
 | [2.7.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.7.0/pom) | [mvn jdk21](license-maven-plugin-2.7.0.buildspec) | [result](license-maven-plugin-2.7.0.buildinfo): [5 :white_check_mark: ](license-maven-plugin-2.7.0.buildcompare) | | 2.0M |

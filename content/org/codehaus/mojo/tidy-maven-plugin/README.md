@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.codehaus.mojo:tidy-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.5.0/pom) | | | |
 | [1.4.1](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.4.1/pom) | [mvn jdk25](tidy-maven-plugin-1.4.1.buildspec) | [result](tidy-maven-plugin-1.4.1.buildinfo): [4 :white_check_mark: ](tidy-maven-plugin-1.4.1.buildcompare) | | 146K |
 | [1.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.4.0/pom) | [mvn jdk21](tidy-maven-plugin-1.4.0.buildspec) | [result](tidy-maven-plugin-1.4.0.buildinfo): [4 :white_check_mark: ](tidy-maven-plugin-1.4.0.buildcompare) | | 146K |
 | [1.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.3.0/pom) | [mvn jdk21](tidy-maven-plugin-1.3.0.buildspec) | [result](tidy-maven-plugin-1.3.0.buildinfo): [4 :white_check_mark: ](tidy-maven-plugin-1.3.0.buildcompare) | | 128K |
