@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling I18N Support
+group-id=org.apache.sling
+artifact-id=org.apache.sling.i18n
+version=3.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-i18n.git
+source.scm.tag=org.apache.sling.i18n-3.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.13.0.3
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.i18n-3.0.4.pom
+outputs.0.length=11819
+outputs.0.checksums.sha512=213973a7b3a7e25af3840880dd8527f2c7d5e4ce68277ca72d8d460df8d444cb01b58e0fcd7e055ab435aa59848ea58793938b866878f8af7493b7185259a590
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.i18n-3.0.4.jar
+outputs.1.length=84831
+outputs.1.checksums.sha512=bbab2b85256abab6e174d15236798733aa8e9be52911fa79ace99571c3c586099f5be67c776c53f3a07ba48b3943e1125b01fe85972b020aafa234dab69eab31
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.i18n-3.0.4-source-release.zip
+outputs.2.length=98008
+outputs.2.checksums.sha512=a5e8e6ae3cddc1bf33a14031eef756bce5fd4b0db619a80c2f16c6f2bff6e4953e8b23d681802827775d37657748a0990fbaf69673f12830bf8c606a83083e5b
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.i18n-3.0.4-sources.jar
+outputs.3.length=47051
+outputs.3.checksums.sha512=0112f71419df768e0c8d133c4ae065d6cf6673f29d9a519c684abaf3661349bae24bc5f5650291a6e709969578275bcf6aa6346e71c58fc7dea5cdb12c9d79d4
