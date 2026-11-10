@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Properties Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=properties-maven-plugin
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/properties-maven-plugin.git
+source.scm.tag=1.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=properties-maven-plugin-1.4.0.pom
+outputs.0.length=6425
+outputs.0.checksums.sha512=87fb5d37cb6a18bcbf43a1b41b0471f5fdeaba8f6b27c37af321adb7d120a0bab9a4f0441fb32fcfdc10c34cf641011ef41abdef41dad74564f6a7898295e1c7
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=properties-maven-plugin-1.4.0.jar
+outputs.1.length=48450
+outputs.1.checksums.sha512=5c15f8c4d4117c90a5622858e7e04ccd1198721e10b90bf9237fbb06ca41ee4f18a5045ad3737cde2d48cf3c7f8702048087e0734c72e2d9fbf3560664da722c
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=properties-maven-plugin-1.4.0-source-release.zip
+outputs.2.length=112123
+outputs.2.checksums.sha512=a9be6ab65c2d6111f37b22434853384f653d1de07816d71248030b7baeb74c1b27b9a9a582aaf7777507aba20c6f4d82715c6568fecad0f50fdf5152f96f19c9
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=properties-maven-plugin-1.4.0-sources.jar
+outputs.3.length=29988
+outputs.3.checksums.sha512=9bb525e4725d917e6d4a1d82ce9cc38a2ccce78b00b4747f2a21097a7c4d56c0ef3ceb93b86d5a07e2e9754bb1e201891e14be7db11122fea28840e1425ce316
