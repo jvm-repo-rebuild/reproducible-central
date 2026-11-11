@@ -23,6 +23,7 @@ rebuilding **19 releases** of org.hibernate.validator:hibernate-validator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [9.2.0.CR1](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.2.0.CR1/pom) | | | |
 | [9.2.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.2.0.Beta1/pom) | [mvn jdk25](hibernate-validator-9.2.0.Beta1.buildspec) | [result](hibernate-validator-parent-9.2.0.Beta1.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.2.0.Beta1.buildcompare) | | 2.9M |
 | [9.1.6.Final](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.1.6.Final/pom) | [mvn jdk25](hibernate-validator-9.1.6.Final.buildspec) | [result](hibernate-validator-parent-9.1.6.Final.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.1.6.Final.buildcompare) | | 2.6M |
 | [9.1.5.Final](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.1.5.Final/pom) | [mvn jdk25](hibernate-validator-9.1.5.Final.buildspec) | [result](hibernate-validator-parent-9.1.5.Final.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.1.5.Final.buildcompare) | | 2.6M |

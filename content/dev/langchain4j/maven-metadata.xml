@@ -83,6 +83,7 @@
       <version>1.11.10</version>
       <version>1.11.11</version>
       <version>1.11.12</version>
+      <version>1.11.13</version>
       <version>1.12.1</version>
       <version>1.12.2</version>
       <version>1.13.0</version>
@@ -106,6 +107,7 @@
       <version>1.19.3</version>
       <version>1.19.4</version>
       <version>1.19.5</version>
+      <version>1.19.6</version>
       <version>1.20.0</version>
       <version>1.20.1</version>
       <version>1.20.2</version>
@@ -113,6 +115,6 @@
       <version>1.22.0</version>
       <version>1.23.0</version>
     </versions>
-    <lastUpdated>20261102131050</lastUpdated>
+    <lastUpdated>20261110124348</lastUpdated>
   </versioning>
 </metadata>

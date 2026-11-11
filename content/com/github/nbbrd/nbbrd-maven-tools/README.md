@@ -23,6 +23,7 @@ rebuilding **10 releases** of com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-too
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.5.0/pom) | | | |
 | [1.4.2](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.4.2/pom) | [mvn jdk21](nbbrd-maven-tools-1.4.2.buildspec) | [result](nbbrd-maven-tools-1.4.2.buildinfo): [14 :white_check_mark: ](nbbrd-maven-tools-1.4.2.buildcompare) | | 390K |
 | [1.3.1](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.3.1/pom) | [mvn jdk21](nbbrd-maven-tools-1.3.1.buildspec) | [result](nbbrd-maven-tools-1.3.1.buildinfo): [11 :white_check_mark: ](nbbrd-maven-tools-1.3.1.buildcompare) | | 282K |
 | [1.3.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.3.0/pom) | [mvn jdk21](nbbrd-maven-tools-1.3.0.buildspec) | [result](nbbrd-maven-tools-1.3.0.buildinfo): [11 :white_check_mark: ](nbbrd-maven-tools-1.3.0.buildcompare) | | 280K |
