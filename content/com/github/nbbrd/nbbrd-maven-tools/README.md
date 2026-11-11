@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/nbbrd/nbbrd-maven-tools.git](https://github.com/nbbrd/nbbrd-maven-tools.git)
 
-<details><summary>This project defines 6 modules:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
+* [com.github.nbbrd.nbbrd-maven-tools:bundle-maven-plugin](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/bundle-maven-plugin/overview)
 * [com.github.nbbrd.nbbrd-maven-tools:compatibility-api](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/compatibility-api/overview)
 * [com.github.nbbrd.nbbrd-maven-tools:compatibility-maven-plugin](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/compatibility-maven-plugin/overview)
 * [com.github.nbbrd.nbbrd-maven-tools:exe-icon-maven-plugin](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/exe-icon-maven-plugin/overview)
@@ -17,13 +18,13 @@ Source code: [https://github.com/nbbrd/nbbrd-maven-tools.git](https://github.com
 * [com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/overview)
 </details>
 
-rebuilding **10 releases** of com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.5.0/pom) | | | |
+| [1.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.5.0/pom) | [mvn jdk21](nbbrd-maven-tools-1.5.0.buildspec) | [result](nbbrd-maven-tools-1.5.0.buildinfo): [17 :white_check_mark: ](nbbrd-maven-tools-1.5.0.buildcompare) | | 467K |
 | [1.4.2](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.4.2/pom) | [mvn jdk21](nbbrd-maven-tools-1.4.2.buildspec) | [result](nbbrd-maven-tools-1.4.2.buildinfo): [14 :white_check_mark: ](nbbrd-maven-tools-1.4.2.buildcompare) | | 390K |
 | [1.3.1](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.3.1/pom) | [mvn jdk21](nbbrd-maven-tools-1.3.1.buildspec) | [result](nbbrd-maven-tools-1.3.1.buildinfo): [11 :white_check_mark: ](nbbrd-maven-tools-1.3.1.buildcompare) | | 282K |
 | [1.3.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.3.0/pom) | [mvn jdk21](nbbrd-maven-tools-1.3.0.buildspec) | [result](nbbrd-maven-tools-1.3.0.buildinfo): [11 :white_check_mark: ](nbbrd-maven-tools-1.3.0.buildcompare) | | 280K |
