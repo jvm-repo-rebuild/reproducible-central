@@ -1,0 +1,9 @@
+version=0.5.0
+ok=44
+ko=0
+ignored=0
+okFiles="praecepta-0.5.0.pom praecepta-0.5.0-cyclonedx.json praecepta-engine-0.5.0.pom praecepta-engine-0.5.0.jar praecepta-engine-0.5.0-cyclonedx.json praecepta-engine-0.5.0-sources.jar praecepta-loader-0.5.0.pom praecepta-loader-0.5.0.jar praecepta-loader-0.5.0-cyclonedx.json praecepta-loader-0.5.0-sources.jar praecepta-integration-0.5.0.pom praecepta-integration-0.5.0.jar praecepta-integration-0.5.0-cyclonedx.json praecepta-integration-0.5.0-sources.jar praecepta-compiler-0.5.0.pom praecepta-compiler-0.5.0.jar praecepta-compiler-0.5.0-cyclonedx.json praecepta-compiler-0.5.0-sources.jar praecepta-maven-plugin-0.5.0.pom praecepta-maven-plugin-0.5.0.jar praecepta-maven-plugin-0.5.0-cyclonedx.json praecepta-maven-plugin-0.5.0-sources.jar praecepta-gradle-plugin-0.5.0.pom praecepta-gradle-plugin-0.5.0.jar praecepta-gradle-plugin-0.5.0-cyclonedx.json praecepta-gradle-plugin-0.5.0-sources.jar io.github.brunopacheco1.praecepta.gradle.plugin-0.5.0.pom io.github.brunopacheco1.praecepta.gradle.plugin-0.5.0-cyclonedx.json praecepta-spring-boot-starter-0.5.0.pom praecepta-spring-boot-starter-0.5.0.jar praecepta-spring-boot-starter-0.5.0-cyclonedx.json praecepta-spring-boot-starter-0.5.0-sources.jar praecepta-micronaut-0.5.0.pom praecepta-micronaut-0.5.0.jar praecepta-micronaut-0.5.0-cyclonedx.json praecepta-micronaut-0.5.0-sources.jar praecepta-quarkus-0.5.0.pom praecepta-quarkus-0.5.0.jar praecepta-quarkus-0.5.0-cyclonedx.json praecepta-quarkus-0.5.0-sources.jar praecepta-quarkus-deployment-0.5.0.pom praecepta-quarkus-deployment-0.5.0.jar praecepta-quarkus-deployment-0.5.0-cyclonedx.json praecepta-quarkus-deployment-0.5.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
