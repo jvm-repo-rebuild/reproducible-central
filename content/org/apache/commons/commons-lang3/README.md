@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-lang.git](https://github.com/apache/commons-lang.git)
 
-rebuilding **7 releases** of org.apache.commons:commons-lang3:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.commons:commons-lang3:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.22.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.22.0/pom) | | | |
+| [3.22.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.22.0/pom) | [mvn jdk27](commons-lang3-3.22.0.buildspec) | [result](commons-lang3-3.22.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.22.0.buildcompare) | | 4.2M |
 | [3.21.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.21.0/pom) | [mvn jdk25](commons-lang3-3.21.0.buildspec) | [result](commons-lang3-3.21.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.21.0.buildcompare) | | 4.0M |
 | [3.20.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.20.0/pom) | [mvn jdk25](commons-lang3-3.20.0.buildspec) | [result](commons-lang3-3.20.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.20.0.buildcompare) | | 3.5M |
 | [3.19.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.19.0/pom) | [mvn jdk17](commons-lang3-3.19.0.buildspec) | [result](commons-lang3-3.19.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.19.0.buildcompare) | | 3.5M |

@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Lang
+group-id=org.apache.commons
+artifact-id=commons-lang3
+version=3.22.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-lang.git
+source.scm.tag=rel/commons-lang-3.21.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=27.0.1.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-lang3-3.22.0.pom
+outputs.0.length=35594
+outputs.0.checksums.sha512=3dc356e7654b44237a81155f729358d17d2c8f140b43a971c8743fa25760dbace02dcb604fa3ba80acafdf47977fd76676cc56645d2bb010b245c63c77fc2f03
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-lang3-3.22.0.jar
+outputs.1.length=764703
+outputs.1.checksums.sha512=cb464ed16c44587100bcbd801f77612376c5cd079463357d9add8b2e70314be4c4691537f8f888e040e0f0c96153063aca3b0645e70b26b68b40f32a40ca289b
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-lang3-3.22.0-tests.jar
+outputs.2.length=1875959
+outputs.2.checksums.sha512=669588def763d9a8eea901b3302f267dbb86db8ac1b0efb59825cdf4e90d218d88dc4b27e983fa5ad562ddb86d7fe340d1d370425c05b2354e7bd633685eaeb8
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-lang3-3.22.0-sources.jar
+outputs.3.length=822149
+outputs.3.checksums.sha512=f8fb79716b577ab8e0a286cbdacd6d0a233ad29fa294840fe4aac6b5adbc75efa85ecd80b262f5b415f5bbc87a57fce8f603396a13cc5db6ab77b6af751ba9e5
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-lang3-3.22.0-test-sources.jar
+outputs.4.length=873090
+outputs.4.checksums.sha512=ae3d96d2c6ca1141e194323a58e2de96afc4159b354be6ee0c53c53ba6e44bb786b63c011760dd0388958df3a3948ef7a245808c699fb3e034d8278f20959fb2
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-lang3-3.22.0-cyclonedx.xml
+outputs.5.length=4039
+outputs.5.checksums.sha512=ad7461e48080f39087c94bc15fe9e436a9b65ba7665cd4bc2e6206e619b7659b42a13d7f08cb0b1c172e47af36d221d953fe492a907f48b5b33bd8f669a77c0e
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-lang3-3.22.0-cyclonedx.json
+outputs.6.length=4367
+outputs.6.checksums.sha512=6959d38fc12648778494c576b1e5f002065f4856098bcdb13e9c3cb5259d49aa2e752fbc9fd907481628d37da1593401b5fa33084d1cc58837090cd2fb94629f
+# ignored commons-lang3-3.22.0.spdx.json
