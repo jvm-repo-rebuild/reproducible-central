@@ -15,14 +15,14 @@ Source code: [https://github.com/brunopacheco1/praecepta.git](https://github.com
 * [io.github.brunopacheco1:praecepta-maven-plugin](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-maven-plugin/overview)
 </details>
 
-rebuilding **1 releases** of io.github.brunopacheco1:praecepta:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of io.github.brunopacheco1:praecepta:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.4.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.4.0/pom) | | | |
-| [0.3.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.3.0/pom) | | | |
+| [0.3.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.3.0/pom) | [mvn jdk25](praecepta-0.3.0.buildspec) | [result](praecepta-0.3.0.buildinfo): [14 :white_check_mark: ](praecepta-0.3.0.buildcompare) | | 412K |
 | [0.2.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.2.0/pom) | [mvn jdk25](praecepta-0.2.0.buildspec) | [result](praecepta-0.2.0.buildinfo): [14 :white_check_mark: ](praecepta-0.2.0.buildcompare) | | 351K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
