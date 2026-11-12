@@ -1,0 +1,28 @@
+# Central Repository coordinates for the Reference release (multi-module: the parent POM)
+groupId=io.github.brunopacheco1
+artifactId=praecepta
+version=0.4.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/brunopacheco1/praecepta.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.12
+jdk=25
+newline=lf
+
+# The tag keeps the development version: the release workflow sets only the version (mvn versions:set,
+# keeping the build timestamp committed in the tag), so apply the same edit here. Written with
+# ${version}, so bin/add-new-release.sh can copy this file for later releases unchanged
+execBefore="perl -pi -e 's|<version>${version}-SNAPSHOT</version>|<version>${version}</version>|' pom.xml */pom.xml"
+
+# Rebuild command: the published modules only, as the release workflow deploys them
+command="mvn -Prelease clean package -pl praecepta-engine,praecepta-loader,praecepta-maven-plugin -am -DskipTests -Dinvoker.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
