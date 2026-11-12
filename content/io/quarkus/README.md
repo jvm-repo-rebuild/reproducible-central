@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1185 modules:</summary>
+<details><summary>This project defines 1188 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -356,6 +356,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-hal](https://central.sonatype.com/artifact/io.quarkus/quarkus-hal/overview)
 * [io.quarkus:quarkus-hal-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hal-deployment/overview)
 * [io.quarkus:quarkus-hal-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hal-parent/overview)
+* [io.quarkus:quarkus-hibernate-accessor](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-accessor/overview)
+* [io.quarkus:quarkus-hibernate-accessor-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-accessor-deployment/overview)
+* [io.quarkus:quarkus-hibernate-accessor-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-accessor-parent/overview)
 * [io.quarkus:quarkus-hibernate-envers](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-envers/overview)
 * [io.quarkus:quarkus-hibernate-envers-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-envers-deployment/overview)
 * [io.quarkus:quarkus-hibernate-envers-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-envers-parent/overview)
@@ -1196,14 +1199,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **227 releases** of io.quarkus:quarkus-project:
+rebuilding **228 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 227 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 138, 0 had all their differences removed :recycle:, 138 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 228 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 139, 0 had all their differences removed :recycle:, 139 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.CR1/pom) | | | |
+| [4.0.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.CR1/pom) | [mvn jdk21](quarkus-4.0.0.CR1.buildspec) | [result](quarkus-project-4.0.0.CR1.buildinfo): [2544 :white_check_mark:  3 :warning:](quarkus-project-4.0.0.CR1.buildcompare) | 3 :rotating_light: | 159M |
 | [4.0.0.Beta3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta3/pom) | [mvn jdk21](quarkus-4.0.0.Beta3.buildspec) | [result](quarkus-project-4.0.0.Beta3.buildinfo): [2537 :white_check_mark:  3 :warning:](quarkus-project-4.0.0.Beta3.buildcompare) | 3 :rotating_light: | 159M |
 | [4.0.0.Beta2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta2/pom) | [mvn jdk21](quarkus-4.0.0.Beta2.buildspec) | [result](quarkus-project-4.0.0.Beta2.buildinfo): [2534 :white_check_mark:  3 :warning:](quarkus-project-4.0.0.Beta2.buildcompare) | 3 :rotating_light: | 159M |
 | [4.0.0.Beta1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/4.0.0.Beta1/pom) | [mvn jdk21](quarkus-4.0.0.Beta1.buildspec) | [result](quarkus-project-4.0.0.Beta1.buildinfo): [2523 :white_check_mark:  2 :warning:](quarkus-project-4.0.0.Beta1.buildcompare) | 2 :rotating_light: | 161M |
