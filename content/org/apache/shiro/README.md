@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shiro.git)
 
-<details><summary>This project defines 38 modules:</summary>
+<details><summary>This project defines 39 modules:</summary>
 
 * [org.apache.shiro.crypto:shiro-crypto-support](https://central.sonatype.com/artifact/org.apache.shiro.crypto/shiro-crypto-support/overview)
 * [org.apache.shiro.crypto:shiro-hashes-argon2](https://central.sonatype.com/artifact/org.apache.shiro.crypto/shiro-hashes-argon2/overview)
@@ -29,6 +29,7 @@ Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shi
 * [org.apache.shiro:shiro-crypto-core](https://central.sonatype.com/artifact/org.apache.shiro/shiro-crypto-core/overview)
 * [org.apache.shiro:shiro-crypto-hash](https://central.sonatype.com/artifact/org.apache.shiro/shiro-crypto-hash/overview)
 * [org.apache.shiro:shiro-ehcache](https://central.sonatype.com/artifact/org.apache.shiro/shiro-ehcache/overview)
+* [org.apache.shiro:shiro-ejb](https://central.sonatype.com/artifact/org.apache.shiro/shiro-ejb/overview)
 * [org.apache.shiro:shiro-event](https://central.sonatype.com/artifact/org.apache.shiro/shiro-event/overview)
 * [org.apache.shiro:shiro-features](https://central.sonatype.com/artifact/org.apache.shiro/shiro-features/overview)
 * [org.apache.shiro:shiro-guice](https://central.sonatype.com/artifact/org.apache.shiro/shiro-guice/overview)
@@ -49,13 +50,14 @@ Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shi
 * [org.apache.shiro:shiro-web](https://central.sonatype.com/artifact/org.apache.shiro/shiro-web/overview)
 </details>
 
-rebuilding **24 releases** of org.apache.shiro:shiro-root:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of org.apache.shiro:shiro-root:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.2](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/3.0.2/pom) | [mvn jdk25](shiro-3.0.2.buildspec) | [result](shiro-root-3.0.2.buildinfo): [86 :white_check_mark: ](shiro-root-3.0.2.buildcompare) | | 15M |
 | [3.0.1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/3.0.1/pom) | [mvn jdk25](shiro-3.0.1.buildspec) | [result](shiro-root-3.0.1.buildinfo): [112 :white_check_mark:  3 :warning:](shiro-root-3.0.1.buildcompare) [:memo:](https://github.com/apache/shiro/pull/2887) | 3 :rotating_light: | 18M |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/3.0.0/pom) | [mvn jdk25](shiro-3.0.0.buildspec) | [result](shiro-root-3.0.0.buildinfo): [114 :white_check_mark:  1 :warning:](shiro-root-3.0.0.buildcompare) [:mag:](shiro-root-3.0.0.diffoscope) | 1 :rotating_light: | 17M |
 | [3.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/3.0.0-alpha-1/pom) | [mvn jdk25](shiro-3.0.0-alpha-1.buildspec) | [result](shiro-root-3.0.0-alpha-1.buildinfo): [113 :white_check_mark:  2 :warning:](shiro-root-3.0.0-alpha-1.buildcompare) [:mag:](shiro-root-3.0.0-alpha-1.diffoscope) | 1 :recycle: 1 :rotating_light: | 17M |
