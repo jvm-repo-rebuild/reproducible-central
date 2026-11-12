@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFlat Utility
+group-id=org.metricshub
+artifact-id=jflat
+version=1.3.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/jflat.git
+source.scm.tag=v1.3.00
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.21.0.3
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1017-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=jflat-1.3.00.pom
+outputs.0.length=4965
+outputs.0.checksums.sha512=ecdae72c63021e7475ef193de05cf416c8abd2edca1d164a1e808845e07e2320d216daa46549d398111f74d66182af0485f0848bccf47f28a47df0a46c18c80e
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=jflat-1.3.00.jar
+outputs.1.length=18312
+outputs.1.checksums.sha512=b06420e602195384722ab39341c90721e6e47f7abea7bb0ecaf557e6ee05c2f6b29af94e3b9bdf5889e09e1127bbbb0d334a22307aac4c791b78d971589bc829
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=jflat-1.3.00-sources.jar
+outputs.2.length=15057
+outputs.2.checksums.sha512=d0740eff27af017ec7ba4048ffc509393e56351704ac4a472ac8c2f971659306d11cd23f2fdbc55ded2ce8ee4424a46ec8537d1d509b73639f459a29a0ab280d
