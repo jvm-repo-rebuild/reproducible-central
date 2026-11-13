@@ -16,7 +16,7 @@ build-tool=mvn
 java.version=17.0.21.0.3
 java.vendor=Ubuntu
 os.name=Linux
-os.version=7.0.0-1017-azure
+os.version=7.0.0-1019-azure
 os.arch=amd64
 line.separator=\n
 
