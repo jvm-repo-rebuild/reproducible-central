@@ -21,6 +21,7 @@ rebuilding **3 releases** of io.github.brunopacheco1:praecepta:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.5.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.5.0/pom) | | | |
 | [0.4.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.4.0/pom) | [mvn jdk25](praecepta-0.4.0.buildspec) | [result](praecepta-0.4.0.buildinfo): [14 :white_check_mark: ](praecepta-0.4.0.buildcompare) | | 538K |
 | [0.3.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.3.0/pom) | [mvn jdk25](praecepta-0.3.0.buildspec) | [result](praecepta-0.3.0.buildinfo): [14 :white_check_mark: ](praecepta-0.3.0.buildcompare) | | 412K |
 | [0.2.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.2.0/pom) | [mvn jdk25](praecepta-0.2.0.buildspec) | [result](praecepta-0.2.0.buildinfo): [14 :white_check_mark: ](praecepta-0.2.0.buildcompare) | | 351K |
