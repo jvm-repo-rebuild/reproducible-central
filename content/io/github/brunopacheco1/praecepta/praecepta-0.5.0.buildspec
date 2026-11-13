@@ -20,7 +20,7 @@ newline=lf
 execBefore="perl -pi -e 's|<version>${version}-SNAPSHOT</version>|<version>${version}</version>|' pom.xml */pom.xml"
 
 # Rebuild command: the published modules only, as the release workflow deploys them
-command="mvn -Prelease clean package -pl praecepta-engine,praecepta-loader,praecepta-maven-plugin -am -DskipTests -Dinvoker.skip -Dgpg.skip"
+command="mvn -Prelease clean package -pl '!praecepta-benchmarks,!praecepta-tck' -DskipTests -Dinvoker.skip -Dgpg.skip"
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
