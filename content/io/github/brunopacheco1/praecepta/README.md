@@ -7,21 +7,23 @@
 
 Source code: [https://github.com/brunopacheco1/praecepta.git](https://github.com/brunopacheco1/praecepta.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [io.github.brunopacheco1:praecepta](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/overview)
+* [io.github.brunopacheco1:praecepta-compiler](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-compiler/overview)
 * [io.github.brunopacheco1:praecepta-engine](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-engine/overview)
+* [io.github.brunopacheco1:praecepta-integration](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-integration/overview)
 * [io.github.brunopacheco1:praecepta-loader](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-loader/overview)
 * [io.github.brunopacheco1:praecepta-maven-plugin](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-maven-plugin/overview)
 </details>
 
-rebuilding **3 releases** of io.github.brunopacheco1:praecepta:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of io.github.brunopacheco1:praecepta:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.5.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.5.0/pom) | | | |
+| [0.5.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.5.0/pom) | [mvn jdk25](praecepta-0.5.0.buildspec) | [result](praecepta-0.5.0.buildinfo): [22 :white_check_mark: ](praecepta-0.5.0.buildcompare) | | 683K |
 | [0.4.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.4.0/pom) | [mvn jdk25](praecepta-0.4.0.buildspec) | [result](praecepta-0.4.0.buildinfo): [14 :white_check_mark: ](praecepta-0.4.0.buildcompare) | | 538K |
 | [0.3.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.3.0/pom) | [mvn jdk25](praecepta-0.3.0.buildspec) | [result](praecepta-0.3.0.buildinfo): [14 :white_check_mark: ](praecepta-0.3.0.buildcompare) | | 412K |
 | [0.2.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.2.0/pom) | [mvn jdk25](praecepta-0.2.0.buildspec) | [result](praecepta-0.2.0.buildinfo): [14 :white_check_mark: ](praecepta-0.2.0.buildcompare) | | 351K |
