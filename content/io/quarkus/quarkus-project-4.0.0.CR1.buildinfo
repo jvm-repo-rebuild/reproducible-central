@@ -17,7 +17,7 @@ build-tool=mvn
 java.version=21.0.13
 java.vendor=Eclipse Adoptium
 os.name=Linux
-os.version=7.0.0-1017-azure
+os.version=7.0.0-1019-azure
 os.arch=amd64
 line.separator=\n
 
@@ -945,8 +945,8 @@ outputs.64.0.checksums.sha512=9fc9e33a85fd06be7d2d8c62b6ac69cfbec68068de23981713
 
 outputs.64.1.groupId=io.quarkus
 outputs.64.1.filename=quarkus-ide-launcher-4.0.0.CR1.jar
-outputs.64.1.length=16523974
-outputs.64.1.checksums.sha512=6ae971f7462664b8314a99148440b9c601d2e2a12c2af4a97a750e9c2a1e13be159c0b8dc092c46f45ee9c55faf7ff7369e6130eb0ed7f5b7b610767b624ff11
+outputs.64.1.length=16556902
+outputs.64.1.checksums.sha512=b07b97b17e3b67a32a845c9f86ef43378766d7d30553f942bd4738dc2b4c3b5d3b02dd5f05ef5270112049352bbb3e9ea705bde9432230d8ae2f846265e38f1e
 
 outputs.64.2.groupId=io.quarkus
 outputs.64.2.filename=quarkus-ide-launcher-4.0.0.CR1-sources.jar
@@ -14781,7 +14781,7 @@ outputs.1044.1.checksums.sha512=1a26e5ca1fae2d68c76d46b30a42a44440b5ca5cc65cb271
 outputs.1044.2.groupId=io.quarkus
 outputs.1044.2.filename=quarkus-cli-4.0.0.CR1-runner.jar
 outputs.1044.2.length=18387711
-outputs.1044.2.checksums.sha512=8cc1ba229fe7882663553fde0da8dbcf8952c038055884deac77c00a80b3b0d148f61088453014b7bc658589e73126c10cf394493d91f93bf68d052dc454de8d
+outputs.1044.2.checksums.sha512=fa096e0c0f069f084935c3c4942745fcf0bb0e48dc03c3fa3714db6136e61a1b5173967662d102f7b4718cb90c65fb0f98c07d341b562b47112e9fb4a41687b3
 
 outputs.1044.3.groupId=io.quarkus
 outputs.1044.3.filename=quarkus-cli-4.0.0.CR1-sources.jar
@@ -14826,8 +14826,8 @@ outputs.1047.0.checksums.sha512=3215c70561056d41159e4be9306112f75b84adc3df62c4d6
 
 outputs.1047.1.groupId=io.quarkus
 outputs.1047.1.filename=quarkus-documentation-core-rag-4.0.0.CR1.jar
-outputs.1047.1.length=20729583
-outputs.1047.1.checksums.sha512=889d245b4340fe7e4288e74d5f79dbaea616d2e063d203152e60978140dab82f0a7db3fdecb8a5e709111cd1f9b226c04d0175938a6a71eb38570c75159b6347
+outputs.1047.1.length=20729936
+outputs.1047.1.checksums.sha512=834f083aade09b3bc6794115aa6e40d8143ac814d63afe859c3c5450ce452a30a4a487b6c9cb9e8c977645753a7e913b6f5337f397e257844c9e4af6733b7ee3
 
 outputs.1048.coordinates=io.quarkus:quarkus-documentation
 
