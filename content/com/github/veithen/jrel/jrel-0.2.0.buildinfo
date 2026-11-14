@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jrel
+group-id=com.github.veithen
+artifact-id=jrel
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/jrel.git
+source.scm.tag=0.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.13.0.3
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1019-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=com.github.veithen
+outputs.0.filename=jrel-0.2.0.pom
+outputs.0.length=4584
+outputs.0.checksums.sha512=427c99132197a282276520c6cac7f19369b8bc8518de2f65d2d602224b86f3a21377a6c080e81445b5a870fb56ba468c882e1aa16df7d9e50789f4445e849d43
+
+outputs.1.groupId=com.github.veithen
+outputs.1.filename=jrel-0.2.0.jar
+outputs.1.length=66110
+outputs.1.checksums.sha512=c9e8704568eca9c0339ec7557bf28b6acfedcb5b1362e4c1546f48e66fcccbf947070859ac7bd71e880e8a21b17f02897099a7ffc1c6d43f81fb3df05901d84d
+
+outputs.2.groupId=com.github.veithen
+outputs.2.filename=jrel-0.2.0-sources.jar
+outputs.2.length=46633
+outputs.2.checksums.sha512=64b12bee2306ed722bdd46214088d32631c586697da57e974177e3f47e05be47f027e6031e4fab2f20097c727092e04d94ccc011c2dc10958ce87a9580d03545
+
+outputs.3.groupId=com.github.veithen
+outputs.3.filename=jrel-0.2.0-source-release.zip
+outputs.3.length=78652
+outputs.3.checksums.sha512=96950c1f008173b1695608e9e5b2a94371377652bbf366757aa86b2bcf793ad5fe57b1369a8a2337b8cc59d4c503996489c2158a45a36f735623a1114bf10721
