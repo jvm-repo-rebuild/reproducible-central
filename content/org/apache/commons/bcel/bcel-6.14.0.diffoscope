@@ -1,0 +1,46 @@
+
+commons-lang jar used during the release is not the one from Maven Central but a Release Manager's personal build
+=> visible in the generated SBOM
+but does not impact code aspects of the release = sources nor .jar binaries
+
+not reproducible release from a reproducible project: it's just a build done in release manager specific environment that cannot be reconstructed by anybody (who would need the RM's commons-lang .jar)
+
+1 / 2 target/reference/org.apache.bcel/bcel-6.14.0-cyclonedx.xml target/bcel-6.14.0-bom.xml
+--- target/reference/org.apache.bcel/bcel-6.14.0-cyclonedx.xml
++++ target/bcel-6.14.0-bom.xml
+│   --- target/reference/org.apache.bcel/bcel-6.14.0-cyclonedx.xml
+├── +++ target/bcel-6.14.0-bom.xml
+│ @@ -82,22 +82,22 @@
+│    Please ensure your build environment is up-to-date and kindly report any build issues.
+│  
+│    Starting with Commons Lang 3.9, we target Java 8 and use those features.
+│  
+│    For advice on upgrading from 2.x to 3.x, see https://commons.apache.org/lang/article3_0.html</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">02e224d0d51b011a4bc29ebaae786b3c</hash>
+│ -        <hash alg="SHA-1">a303b7800fe4709f422ce364c4a246bd6d6e338b</hash>
+│ -        <hash alg="SHA-256">3640908c0b3e96564705172153ca0564db8390441a7e2a610c9e8f4c9aff9e16</hash>
+│ -        <hash alg="SHA-512">71a426ecbf3410878589182fbda950cc0dfcab1d462b7a226809b4d772ffc6764b8b9800ad65a5d9a989be4a31034ba47560d834bcffe5bc64d2b34d551804da</hash>
+│ -        <hash alg="SHA-384">04501c1ebad85c3119efbcac9fa6eb0bf88bef0b683b52c7a60acce07a6dc3c8c47479df475146d36caac088b44f8b8f</hash>
+│ -        <hash alg="SHA3-384">5b784eea4ff0ae3397607c387a893dca0935baf0cab90637d62a4cf7700a14fe8d642e213f3f80f14edf52c11e4682f3</hash>
+│ -        <hash alg="SHA3-256">e71b9bd4c99fe576066088b40498ed92de2c6d5fff734432c2f71db492023acc</hash>
+│ -        <hash alg="SHA3-512">e2764f3f306af35cbaa1299f4d737f862e0b20062063d20b2860fabf1c3b52ac240b56c29219dab0868bd94fc02e8b3a369dd28a95828b30ff3b663c790c3e50</hash>
+│ +        <hash alg="MD5">74a94a62f74cf1566767a085b3b9c758</hash>
+│ +        <hash alg="SHA-1">7bad013a5acee0a078d75fc352a906baa57acb74</hash>
+│ +        <hash alg="SHA-256">a2af247ec4db6eb8947e18e23e0433e4871a7c5d0a40e1f92e46ede54ae1defe</hash>
+│ +        <hash alg="SHA-512">839bd4a0e63a82334c46f7acad520dac56900c8c4ea3e663811c1e8863de416df2bb8ff334c407caf6cb6d20fb892c6c730d7f271bd59c5c973611ed2f890b37</hash>
+│ +        <hash alg="SHA-384">39615b3093cf020161bcdfa6813d0d608892b6a69b6e7d413bc27a9b8c2e4500cb4d0a64f1b2ffd9d0c3b9f611687872</hash>
+│ +        <hash alg="SHA3-384">54b8b1d35b30254d17751cd0ea42fd51cb8d6511c9aa761b76752396af67e14b16bce998aa8d31da9faa7846ee9cd478</hash>
+│ +        <hash alg="SHA3-256">d4c089ab0bf23ff52bfb24f2bb9e2cb629b66efcd43fa263fe4ae5affcbc567f</hash>
+│ +        <hash alg="SHA3-512">8bf09495990791415be6bbb9f72f2f3f40f4517b2b56501329e8c5ca716381c1858ea75a734b86346b37d8f5a7697f3361c204f3affe3f8fee656ee68a72480f</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+2 / 2 target/reference/org.apache.bcel/bcel-6.14.0-cyclonedx.json target/bcel-6.14.0-bom.json
+# same
