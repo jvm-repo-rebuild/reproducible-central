@@ -1,0 +1,7 @@
+version=1.6.7
+ok=6
+ko=0
+ignored=0
+okFiles="logback-parent-1.6.7.pom logback-core-1.6.7.pom logback-core-kryo-1.6.7.pom logback-classic-1.6.7.pom logback-classic-kryo-1.6.7.pom logback-access-1.6.7.pom"
+koFiles=""
+ignoredFiles=""
