@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Common Utilities
+group-id=org.codehaus.plexus
+artifact-id=plexus-utils
+version=4.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-utils.git
+source.scm.tag=plexus-utils-4.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.13.0.3
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1019-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-utils-4.2.0.pom
+outputs.0.length=7800
+outputs.0.checksums.sha512=87df220319639baafa54eacf60f90b1eddd3c5bbc8e9d13c219b5b75630cdcbefcf348edb61600b7af8f07b1407dbb1317be681f0e55e22145af51205aef614b
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-utils-4.2.0.jar
+outputs.1.length=195262
+outputs.1.checksums.sha512=44cd519b7b88768e1aa876eae091fef00d72daf071aad4cfe0c2bed2c593729c3c51490466b4f0eb2480c3a69913e48befdfe696815433c0358291e5ab3ef7f8
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-utils-4.2.0-source-release.zip
+outputs.2.length=292136
+outputs.2.checksums.sha512=18d629cfd35c5c6b1b3d5c25b2bad83d9f72c6396bc5885856a0f65d5d5b82cd10e3ea2c97ffddd0af00fbcf8d722955934522099350b778f4df45f8cb55c1ad
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-utils-4.2.0-sources.jar
+outputs.3.length=184970
+outputs.3.checksums.sha512=e964d6928bd6f3832829994c36d21ea93ea08a3c58365a62f7edafa61c1d9922a0ff6e959a033605c03ba42c3b9129297ff9c49cbcb737fcd81511a10cd12591
