@@ -25,6 +25,7 @@ rebuilding **26 releases** of org.codehaus.mojo:versions-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.25.2](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.25.2/pom) | | | |
 | [2.25.1](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.25.1/pom) | [mvn jdk25](versions-maven-plugin-2.25.1.buildspec) | [result](versions-maven-plugin-2.25.1.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.25.1.buildcompare) | | 2.4M |
 | [2.25.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.25.0/pom) | [mvn jdk17](versions-maven-plugin-2.25.0.buildspec) | [result](versions-maven-plugin-2.25.0.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.25.0.buildcompare) | | 2.4M |
 | [2.24.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.24.0/pom) | [mvn jdk25](versions-maven-plugin-2.24.0.buildspec) | [result](versions-maven-plugin-2.24.0.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.24.0.buildcompare) | | 2.2M |
