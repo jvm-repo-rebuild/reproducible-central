@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-xml.git](https://github.com/codehaus-plexus/plexus-xml.git)
 
-rebuilding **12 releases** of org.codehaus.plexus:plexus-xml:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of org.codehaus.plexus:plexus-xml:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.2.1/pom) | | | |
+| [4.2.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.2.1/pom) | [mvn jdk25](plexus-xml-4.2.1.buildspec) | [result](plexus-xml-4.2.1.buildinfo): [4 :white_check_mark: ](plexus-xml-4.2.1.buildcompare) | | 373K |
 | [4.2.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.2.0/pom) | [mvn jdk25](plexus-xml-4.2.0.buildspec) | [result](plexus-xml-4.2.0.buildinfo): [4 :white_check_mark: ](plexus-xml-4.2.0.buildcompare) | | 372K |
 | [4.1.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.1.1/pom) | [mvn jdk25](plexus-xml-4.1.1.buildspec) | [result](plexus-xml-4.1.1.buildinfo): [4 :white_check_mark: ](plexus-xml-4.1.1.buildcompare) | | 366K |
 | [4.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.1.0/pom) | [mvn jdk24](plexus-xml-4.1.0.buildspec) | [result](plexus-xml-4.1.0.buildinfo): [4 :white_check_mark: ](plexus-xml-4.1.0.buildcompare) | | 365K |
