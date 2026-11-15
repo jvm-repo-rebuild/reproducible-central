@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Logback-Parent
+group-id=ch.qos.logback
+artifact-id=logback-parent
+version=1.6.7
+
+# source information
+source.scm.uri=scm:git@github.com:qos-ch/logback.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.1
+java.vendor=Oracle Corporation
+os.name=Linux
+os.version=7.0.0-43-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=logback-access
+
+# aggregated output
+
+outputs.0.coordinates=ch.qos.logback:logback-parent
+
+outputs.0.0.groupId=ch.qos.logback
+outputs.0.0.filename=logback-parent-1.6.7.pom
+outputs.0.0.length=19493
+outputs.0.0.checksums.sha512=8697c96836635dea1afea808f9af3e0110b273c2325c467ca3868bc63c158fd0383b066bcc6c4ae908c687ab5d9e8a4a866b78101699607512cacbd4be05bc55
+
+outputs.1.coordinates=ch.qos.logback:logback-core
+
+outputs.1.0.groupId=ch.qos.logback
+outputs.1.0.filename=logback-core-1.6.7.pom
+outputs.1.0.length=8924
+outputs.1.0.checksums.sha512=428c7cae4b946bd05f991be38b9af1c0720bcfd37b471591170e9ec46cd77f2f979ba2602950cf6e912a15b23132c5f17093076a2265cc05bc4342c2a13c15b1
+
+outputs.2.coordinates=ch.qos.logback:logback-core-kryo
+
+outputs.2.0.groupId=ch.qos.logback
+outputs.2.0.filename=logback-core-kryo-1.6.7.pom
+outputs.2.0.length=1589
+outputs.2.0.checksums.sha512=ef07eef1cdaaf57078856af327c63e585c987341332cc7c85de335e8aab281427a5cf5ddfb5498c7ae98e107466b756d8536ec4560dd36212ded08e3429b6b34
+
+outputs.3.coordinates=ch.qos.logback:logback-classic
+
+outputs.3.0.groupId=ch.qos.logback
+outputs.3.0.filename=logback-classic-1.6.7.pom
+outputs.3.0.length=15383
+outputs.3.0.checksums.sha512=8693e361d8604e5bc401022c93657fd0942a41b815827534d6c78e7b419124de138789ab735612149e54069ca1d47c09d95885836d962055999db6b9f9c6f5d2
+
+outputs.4.coordinates=ch.qos.logback:logback-classic-kryo
+
+outputs.4.0.groupId=ch.qos.logback
+outputs.4.0.filename=logback-classic-kryo-1.6.7.pom
+outputs.4.0.length=1812
+outputs.4.0.checksums.sha512=6d9f2ff8a6c0ef6d74a29c7a2629382169803d245ce53c8bca3c8749c80b7ae42b33f405c85c8e742032811112da28058d7a19c239a1133f1d383c2193cb71b2
+
+outputs.5.coordinates=ch.qos.logback:logback-access
+
+outputs.5.0.groupId=ch.qos.logback
+outputs.5.0.filename=logback-access-1.6.7.pom
+outputs.5.0.length=991
+outputs.5.0.checksums.sha512=5b5a342b6b9f38682aade0bafee0bef4bea3fe8333777f117054e45b4f14e09a2d12c7fc10dfadaa0b09439241a2899636fdf274d5a77ef75fc8099d735395dc
