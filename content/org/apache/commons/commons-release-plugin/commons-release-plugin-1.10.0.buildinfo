@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Release Plugin
+group-id=org.apache.commons
+artifact-id=commons-release-plugin
+version=1.10.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-release-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=27.0.1.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1016-aws
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-release-plugin-1.10.0.pom
+outputs.0.length=26748
+outputs.0.checksums.sha512=7cd8c3c683011abfb79dbe7fb44041d83b1ff9538eec06c1c4afd1fd78c71c94fb8bc34912f70aaf06bd977230ee3c8aa5237dbae6cdbd1ab9317b13de9513ad
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-release-plugin-1.10.0.jar
+outputs.1.length=71608
+outputs.1.checksums.sha512=c4bbbca3839ed2188a1a7dc9d218280ca8deb0c1476f64ac3cc61de74558c2972d4814ccbb1b1db0029d7c01f5ddcc6a8a0cf46d8cc70b7a8acf496b40b0c8c4
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-release-plugin-1.10.0-tests.jar
+outputs.2.length=5902187
+outputs.2.checksums.sha512=dbe959359c9682e1a1abae447aca48f6f21ea8600d2d031c7a2604c82898977ce8ded247a062109b08cc9317d15090af2337c82c3d18814bb20d81700ea4c775
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-release-plugin-1.10.0-sources.jar
+outputs.3.length=60835
+outputs.3.checksums.sha512=cb9306d5d6832106c3add15826ab335bc8a7dbb1918684943bf7a800477bad8a3b39336a32bd6650c81bfd5bbf13ba22095d8e901d7b97853c718bd4f1b914b4
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-release-plugin-1.10.0-test-sources.jar
+outputs.4.length=5898097
+outputs.4.checksums.sha512=cb6221c6d10e630d5704449114b30e72bff3ae0dfd4e05cae9c8fce825980bc1c697d66cc42e7d2fd447b9f15aaaac5a7d556ffe40cfa4a659a4b4af6a5c97df
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-release-plugin-1.10.0-cyclonedx.xml
+outputs.5.length=193171
+outputs.5.checksums.sha512=474732d1b2580166d570222c86b7922d50bff3c16357d94a15c26096359e8cfcd8cd6c4a50f30e54e339a5597a89578c76c696b92ec8cd444dcdbea7d30a7cda
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-release-plugin-1.10.0-cyclonedx.json
+outputs.6.length=209978
+outputs.6.checksums.sha512=23cab12f6d663b623808114a96594a040e5054ec24ace21ad541f7591643e63c8a55fb54ced01c5819227acb51cec6d798ac23621cbcba080c9984a9be45cae7
+# ignored commons-release-plugin-1.10.0.spdx.json
