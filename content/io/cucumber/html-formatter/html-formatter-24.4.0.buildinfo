@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber HTML Formatter
+group-id=io.cucumber
+artifact-id=html-formatter
+version=24.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/cucumber/html-formatter.git
+source.scm.tag=v24.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.13.0.3
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1019-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(io.cucumber:messages:(35.0.0,));e(org.jspecify:jspecify:(1.0.1,))
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=html-formatter-24.4.0.pom
+outputs.0.length=7497
+outputs.0.checksums.sha512=993b18bd6eb652bfae4e35ea8ab27862cc50e93e647b5521c34c26590bff008b9622402c37f34a81a763e8b9efd78d194480b070b8d9b4295fc8aa886f5f0f48
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=html-formatter-24.4.0.jar
+outputs.1.length=297646
+outputs.1.checksums.sha512=3210c70dac88079ccf9d6a5a09ce733864fc6b2e21cf497a1a51cf7b14a3944b118d6dfb8d7ecc0c853922ad953b8b23b65f41df7528a810b2f8a342542c57ea
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=html-formatter-24.4.0-sources.jar
+outputs.2.length=292779
+outputs.2.checksums.sha512=df17f99bedf58846dace1d6eaba7246ed597e65b0868c7c24b79379e00906e775adf902c411792578b18c3b824d292b08e757cfe45dbebaec67c89cd4166f698
