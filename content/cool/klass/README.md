@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwizard/klass.git)
 
-<details><summary>This project defines 129 modules:</summary>
+<details><summary>This project defines 139 modules:</summary>
 
+* [cool.klass:docs](https://central.sonatype.com/artifact/cool.klass/docs/overview)
 * [cool.klass:klass](https://central.sonatype.com/artifact/cool.klass/klass/overview)
 * [cool.klass:klass-bom](https://central.sonatype.com/artifact/cool.klass/klass-bom/overview)
 * [cool.klass:klass-bootstrap-writer](https://central.sonatype.com/artifact/cool.klass/klass-bootstrap-writer/overview)
@@ -22,9 +23,11 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-deserializer-json-test](https://central.sonatype.com/artifact/cool.klass/klass-deserializer-json-test/overview)
 * [cool.klass:klass-dropwizard](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard/overview)
 * [cool.klass:klass-dropwizard-bundle-bootstrap-writer](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundle-bootstrap-writer/overview)
+* [cool.klass:klass-dropwizard-bundle-redoc](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundle-redoc/overview)
 * [cool.klass:klass-dropwizard-bundle-reladomo-jsonview](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundle-reladomo-jsonview/overview)
 * [cool.klass:klass-dropwizard-bundle-reladomo-response](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundle-reladomo-response/overview)
 * [cool.klass:klass-dropwizard-bundle-sample-data](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundle-sample-data/overview)
+* [cool.klass:klass-dropwizard-bundle-swagger-ui](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundle-swagger-ui/overview)
 * [cool.klass:klass-dropwizard-bundles](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-bundles/overview)
 * [cool.klass:klass-dropwizard-configuration](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-configuration/overview)
 * [cool.klass:klass-dropwizard-configuration-data-store](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-configuration-data-store/overview)
@@ -37,6 +40,8 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-dropwizard-configuration-factories](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-configuration-factories/overview)
 * [cool.klass:klass-dropwizard-configuration-sample-data](https://central.sonatype.com/artifact/cool.klass/klass-dropwizard-configuration-sample-data/overview)
 * [cool.klass:klass-generator-abstract-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-abstract-plugin/overview)
+* [cool.klass:klass-generator-drizzle-schema](https://central.sonatype.com/artifact/cool.klass/klass-generator-drizzle-schema/overview)
+* [cool.klass:klass-generator-drizzle-schema-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-drizzle-schema-plugin/overview)
 * [cool.klass:klass-generator-dropwizard](https://central.sonatype.com/artifact/cool.klass/klass-generator-dropwizard/overview)
 * [cool.klass:klass-generator-dropwizard-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-dropwizard-plugin/overview)
 * [cool.klass:klass-generator-dto](https://central.sonatype.com/artifact/cool.klass/klass-generator-dto/overview)
@@ -76,6 +81,8 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-generator-relational-schema-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-relational-schema-plugin/overview)
 * [cool.klass:klass-generator-service-resources](https://central.sonatype.com/artifact/cool.klass/klass-generator-service-resources/overview)
 * [cool.klass:klass-generator-service-resources-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-service-resources-plugin/overview)
+* [cool.klass:klass-generator-swagger](https://central.sonatype.com/artifact/cool.klass/klass-generator-swagger/overview)
+* [cool.klass:klass-generator-swagger-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-swagger-plugin/overview)
 * [cool.klass:klass-generator-uml-nomnoml](https://central.sonatype.com/artifact/cool.klass/klass-generator-uml-nomnoml/overview)
 * [cool.klass:klass-generator-uml-nomnoml-plugin](https://central.sonatype.com/artifact/cool.klass/klass-generator-uml-nomnoml-plugin/overview)
 * [cool.klass:klass-generators](https://central.sonatype.com/artifact/cool.klass/klass-generators/overview)
@@ -99,6 +106,7 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-model-bootstrapped-reladomo-pojos](https://central.sonatype.com/artifact/cool.klass/klass-model-bootstrapped-reladomo-pojos/overview)
 * [cool.klass:klass-model-bootstrapped-relational-schema](https://central.sonatype.com/artifact/cool.klass/klass-model-bootstrapped-relational-schema/overview)
 * [cool.klass:klass-model-bootstrapped-services](https://central.sonatype.com/artifact/cool.klass/klass-model-bootstrapped-services/overview)
+* [cool.klass:klass-model-bootstrapped-swagger](https://central.sonatype.com/artifact/cool.klass/klass-model-bootstrapped-swagger/overview)
 * [cool.klass:klass-model-converters](https://central.sonatype.com/artifact/cool.klass/klass-model-converters/overview)
 * [cool.klass:klass-model-loader](https://central.sonatype.com/artifact/cool.klass/klass-model-loader/overview)
 * [cool.klass:klass-model-loader-compiler](https://central.sonatype.com/artifact/cool.klass/klass-model-loader-compiler/overview)
@@ -119,6 +127,7 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-reladomo-tree-deep-fetcher](https://central.sonatype.com/artifact/cool.klass/klass-reladomo-tree-deep-fetcher/overview)
 * [cool.klass:klass-reladomo-tree-serializer](https://central.sonatype.com/artifact/cool.klass/klass-reladomo-tree-serializer/overview)
 * [cool.klass:klass-reladomo-tree-serializer-dto](https://central.sonatype.com/artifact/cool.klass/klass-reladomo-tree-serializer-dto/overview)
+* [cool.klass:klass-reladomo-utc-infinity-timestamp](https://central.sonatype.com/artifact/cool.klass/klass-reladomo-utc-infinity-timestamp/overview)
 * [cool.klass:klass-serialization-jackson](https://central.sonatype.com/artifact/cool.klass/klass-serialization-jackson/overview)
 * [cool.klass:klass-serialization-jackson-jsonview](https://central.sonatype.com/artifact/cool.klass/klass-serialization-jackson-jsonview/overview)
 * [cool.klass:klass-serialization-jackson-jsonview-reladomo](https://central.sonatype.com/artifact/cool.klass/klass-serialization-jackson-jsonview-reladomo/overview)
@@ -128,6 +137,7 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-serialization-jackson-response-dto-reladomo](https://central.sonatype.com/artifact/cool.klass/klass-serialization-jackson-response-dto-reladomo/overview)
 * [cool.klass:klass-serializers](https://central.sonatype.com/artifact/cool.klass/klass-serializers/overview)
 * [cool.klass:klass-service-klass-html](https://central.sonatype.com/artifact/cool.klass/klass-service-klass-html/overview)
+* [cool.klass:klass-service-swagger](https://central.sonatype.com/artifact/cool.klass/klass-service-swagger/overview)
 * [cool.klass:klass-servlet-logging-mdc-jsonview](https://central.sonatype.com/artifact/cool.klass/klass-servlet-logging-mdc-jsonview/overview)
 * [cool.klass:klass-servlet-logging-structured-klass-response](https://central.sonatype.com/artifact/cool.klass/klass-servlet-logging-structured-klass-response/overview)
 * [cool.klass:klass-syntax](https://central.sonatype.com/artifact/cool.klass/klass-syntax/overview)
@@ -140,14 +150,14 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-token-categorizing-parser](https://central.sonatype.com/artifact/cool.klass/klass-token-categorizing-parser/overview)
 </details>
 
-rebuilding **6 releases** of cool.klass:klass:
+rebuilding **7 releases** of cool.klass:klass:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.7.0](https://central.sonatype.com/artifact/cool.klass/klass/0.7.0/pom) | | | |
+| [0.7.0](https://central.sonatype.com/artifact/cool.klass/klass/0.7.0/pom) | [mvn jdk21](klass-0.7.0.buildspec) | [result](klass-0.7.0.buildinfo): [366 :white_check_mark:  2 :warning:](klass-0.7.0.buildcompare) | 2 :rotating_light: | 7.4M |
 | [0.6.0](https://central.sonatype.com/artifact/cool.klass/klass/0.6.0/pom) | [mvn jdk17](klass-0.6.0.buildspec) | [result](klass-0.6.0.buildinfo): [328 :white_check_mark:  11 :warning:](klass-0.6.0.buildcompare) [:mag:](klass-0.6.0.diffoscope) [:memo:](https://github.com/liftwizard/klass/issues/608) | 11 :rotating_light: | 7.1M |
 | [0.5.0](https://central.sonatype.com/artifact/cool.klass/klass/0.5.0/pom) | [mvn jdk17](klass-0.5.0.buildspec) | [result](klass-0.5.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.5.0.buildcompare) [:memo:](https://github.com/liftwizard/klass/issues/425) | - | 7.4M |
 | [0.4.0](https://central.sonatype.com/artifact/cool.klass/klass/0.4.0/pom) | [mvn jdk17](klass-0.4.0.buildspec) | [result](klass-0.4.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.4.0.buildcompare) | - | 7.4M |
