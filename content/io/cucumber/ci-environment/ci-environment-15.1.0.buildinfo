@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber CiEnvironment
+group-id=io.cucumber
+artifact-id=ci-environment
+version=15.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/cucumber/ci-environment.git
+source.scm.tag=v15.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.1
+java.vendor=Oracle Corporation
+os.name=Linux
+os.version=7.0.0-43-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+mvn.rebuild-args=-Dmaven.session.versionFilter=e(org.jspecify:jspecify:(1.0.1,))
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=ci-environment-15.1.0.pom
+outputs.0.length=11329
+outputs.0.checksums.sha512=daaafbad7bae9fd7ce9965c177f0085f1721ae10097cdc2974e7f6eec93b7c76aba4b904e35aaf057b29bbbe7a9da66e2778d8c85db51882cd21bba4bf69c596
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=ci-environment-15.1.0.jar
+outputs.1.length=17707
+outputs.1.checksums.sha512=6af2c66bc3e96c1d2e2027c2f4b495c47d7308e7b699b68b0e4fdc4beb6002cb32c1eac688a055a78666530d85522d79e2226eb329bf7af3c436689785803d5d
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=ci-environment-15.1.0-sources.jar
+outputs.2.length=9627
+outputs.2.checksums.sha512=59f2ea2a7cd17941d5557399db618e59d1b32ce41916266a0459f9ac68e475aae400a12ae629bbf3ea512fea2cbbf77581ad009c5e3a7ec04ca37c893be3b0f6
