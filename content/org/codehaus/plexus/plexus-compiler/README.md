@@ -30,6 +30,7 @@ rebuilding **20 releases** of org.codehaus.plexus:plexus-compiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.18.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.18.1/pom) | | | |
 | [2.18.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.18.0/pom) | [mvn jdk25](plexus-compiler-2.18.0.buildspec) | [result](plexus-compiler-2.18.0.buildinfo): [27 :white_check_mark: ](plexus-compiler-2.18.0.buildcompare) | | 537K |
 | [2.17.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.17.1/pom) | [mvn jdk25](plexus-compiler-2.17.1.buildspec) | [result](plexus-compiler-2.17.1.buildinfo): [27 :white_check_mark: ](plexus-compiler-2.17.1.buildcompare) | | 535K |
 | [2.17.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.17.0/pom) | [mvn jdk25](plexus-compiler-2.17.0.buildspec) | [result](plexus-compiler-2.17.0.buildinfo): [27 :white_check_mark: ](plexus-compiler-2.17.0.buildcompare) | | 526K |
