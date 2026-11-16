@@ -1,0 +1,15 @@
+version=1.29.0-alpha
+ok=2
+ko=4
+okFiles="opentelemetry-semconv-incubating-1.29.0-alpha.pom opentelemetry-semconv-1.29.0-alpha.pom"
+koFiles="opentelemetry-semconv-incubating-1.29.0-alpha-sources.jar opentelemetry-semconv-incubating-1.29.0-alpha.jar opentelemetry-semconv-1.29.0-alpha-sources.jar opentelemetry-semconv-1.29.0-alpha.jar"
+# diffoscope central/io/opentelemetry/semconv/opentelemetry-semconv-incubating/1.29.0-alpha/opentelemetry-semconv-incubating-1.29.0-alpha-sources.jar repository/io/opentelemetry/semconv/opentelemetry-semconv-incubating/1.29.0-alpha/opentelemetry-semconv-incubating-1.29.0-alpha-sources.jar
+# diffoscope central/io/opentelemetry/semconv/opentelemetry-semconv-incubating/1.29.0-alpha/opentelemetry-semconv-incubating-1.29.0-alpha.jar repository/io/opentelemetry/semconv/opentelemetry-semconv-incubating/1.29.0-alpha/opentelemetry-semconv-incubating-1.29.0-alpha.jar
+# diffoscope central/io/opentelemetry/semconv/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha-sources.jar repository/io/opentelemetry/semconv/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha-sources.jar
+# diffoscope central/io/opentelemetry/semconv/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.jar repository/io/opentelemetry/semconv/opentelemetry-semconv/1.29.0-alpha/opentelemetry-semconv-1.29.0-alpha.jar
+stabilize_ok=4
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="opentelemetry-semconv-incubating-1.29.0-alpha-sources.jar.stabilized opentelemetry-semconv-incubating-1.29.0-alpha.jar.stabilized opentelemetry-semconv-1.29.0-alpha-sources.jar.stabilized opentelemetry-semconv-1.29.0-alpha.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
