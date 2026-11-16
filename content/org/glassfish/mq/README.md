@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/eclipse-ee4j/openmq.git)
 
-<details><summary>This project defines 44 modules:</summary>
+<details><summary>This project defines 57 modules:</summary>
 
 * [org.glassfish.mq:bridge](https://central.sonatype.com/artifact/org.glassfish.mq/bridge/overview)
 * [org.glassfish.mq:helpfiles](https://central.sonatype.com/artifact/org.glassfish.mq/helpfiles/overview)
@@ -15,26 +15,39 @@ Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/ecl
 * [org.glassfish.mq:jmsra](https://central.sonatype.com/artifact/org.glassfish.mq/jmsra/overview)
 * [org.glassfish.mq:mq](https://central.sonatype.com/artifact/org.glassfish.mq/mq/overview)
 * [org.glassfish.mq:mq-admin](https://central.sonatype.com/artifact/org.glassfish.mq/mq-admin/overview)
+* [org.glassfish.mq:mq-admin-guide](https://central.sonatype.com/artifact/org.glassfish.mq/mq-admin-guide/overview)
 * [org.glassfish.mq:mq-broker](https://central.sonatype.com/artifact/org.glassfish.mq/mq-broker/overview)
 * [org.glassfish.mq:mq-client](https://central.sonatype.com/artifact/org.glassfish.mq/mq-client/overview)
 * [org.glassfish.mq:mq-cluster](https://central.sonatype.com/artifact/org.glassfish.mq/mq-cluster/overview)
+* [org.glassfish.mq:mq-dev-guide-c](https://central.sonatype.com/artifact/org.glassfish.mq/mq-dev-guide-c/overview)
+* [org.glassfish.mq:mq-dev-guide-java](https://central.sonatype.com/artifact/org.glassfish.mq/mq-dev-guide-java/overview)
+* [org.glassfish.mq:mq-dev-guide-jmx](https://central.sonatype.com/artifact/org.glassfish.mq/mq-dev-guide-jmx/overview)
 * [org.glassfish.mq:mq-direct](https://central.sonatype.com/artifact/org.glassfish.mq/mq-direct/overview)
 * [org.glassfish.mq:mq-distribution](https://central.sonatype.com/artifact/org.glassfish.mq/mq-distribution/overview)
+* [org.glassfish.mq:mq-docs](https://central.sonatype.com/artifact/org.glassfish.mq/mq-docs/overview)
 * [org.glassfish.mq:mq-logger](https://central.sonatype.com/artifact/org.glassfish.mq/mq-logger/overview)
 * [org.glassfish.mq:mq-packager-opensource](https://central.sonatype.com/artifact/org.glassfish.mq/mq-packager-opensource/overview)
 * [org.glassfish.mq:mq-partition](https://central.sonatype.com/artifact/org.glassfish.mq/mq-partition/overview)
 * [org.glassfish.mq:mq-portunif](https://central.sonatype.com/artifact/org.glassfish.mq/mq-portunif/overview)
+* [org.glassfish.mq:mq-release-notes](https://central.sonatype.com/artifact/org.glassfish.mq/mq-release-notes/overview)
 * [org.glassfish.mq:mq-share](https://central.sonatype.com/artifact/org.glassfish.mq/mq-share/overview)
+* [org.glassfish.mq:mq-share-auth](https://central.sonatype.com/artifact/org.glassfish.mq/mq-share-auth/overview)
+* [org.glassfish.mq:mq-shared-doc-resources](https://central.sonatype.com/artifact/org.glassfish.mq/mq-shared-doc-resources/overview)
+* [org.glassfish.mq:mq-tech-over](https://central.sonatype.com/artifact/org.glassfish.mq/mq-tech-over/overview)
 * [org.glassfish.mq:mq-txnlog](https://central.sonatype.com/artifact/org.glassfish.mq/mq-txnlog/overview)
 * [org.glassfish.mq:mq-ums](https://central.sonatype.com/artifact/org.glassfish.mq/mq-ums/overview)
 * [org.glassfish.mq:mqadmin-cli](https://central.sonatype.com/artifact/org.glassfish.mq/mqadmin-cli/overview)
+* [org.glassfish.mq:mqadmin-commons](https://central.sonatype.com/artifact/org.glassfish.mq/mqadmin-commons/overview)
 * [org.glassfish.mq:mqadmin-gui](https://central.sonatype.com/artifact/org.glassfish.mq/mqadmin-gui/overview)
+* [org.glassfish.mq:mqadmin-resources](https://central.sonatype.com/artifact/org.glassfish.mq/mqadmin-resources/overview)
+* [org.glassfish.mq:mqadmin-utils](https://central.sonatype.com/artifact/org.glassfish.mq/mqadmin-utils/overview)
 * [org.glassfish.mq:mqbridge-admin](https://central.sonatype.com/artifact/org.glassfish.mq/mqbridge-admin/overview)
 * [org.glassfish.mq:mqbridge-api](https://central.sonatype.com/artifact/org.glassfish.mq/mqbridge-api/overview)
 * [org.glassfish.mq:mqbridge-jms](https://central.sonatype.com/artifact/org.glassfish.mq/mqbridge-jms/overview)
 * [org.glassfish.mq:mqbridge-stomp](https://central.sonatype.com/artifact/org.glassfish.mq/mqbridge-stomp/overview)
 * [org.glassfish.mq:mqbroker-comm](https://central.sonatype.com/artifact/org.glassfish.mq/mqbroker-comm/overview)
 * [org.glassfish.mq:mqbroker-core](https://central.sonatype.com/artifact/org.glassfish.mq/mqbroker-core/overview)
+* [org.glassfish.mq:mqcomm-coders](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-coders/overview)
 * [org.glassfish.mq:mqcomm-io](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-io/overview)
 * [org.glassfish.mq:mqcomm-lists](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-lists/overview)
 * [org.glassfish.mq:mqcomm-options](https://central.sonatype.com/artifact/org.glassfish.mq/mqcomm-options/overview)
@@ -55,14 +68,14 @@ Source code: [https://github.com/eclipse-ee4j/openmq.git](https://github.com/ecl
 * [org.glassfish.mq:project](https://central.sonatype.com/artifact/org.glassfish.mq/project/overview)
 </details>
 
-rebuilding **3 releases** of org.glassfish.mq:project:
+rebuilding **4 releases** of org.glassfish.mq:project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.10.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.10.0/pom) | | | |
+| [6.10.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.10.0/pom) | [mvn jdk25](openmq-6.10.0.buildspec) | [result](project-6.10.0.buildinfo): [81 :white_check_mark:  131 :warning:](project-6.10.0.buildcompare) | 1 :recycle: 39 :rotating_light: 66 :no_entry_sign: | 37M |
 | [6.9.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.9.0/pom) | [mvn jdk25](openmq-6.9.0.buildspec) | [result](project-6.9.0.buildinfo): [44 :white_check_mark:  35 :warning:](project-6.9.0.buildcompare) [:mag:](project-6.9.0.diffoscope) | 1 :recycle: 34 :rotating_light: | 28M |
 | [6.8.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.8.0/pom) | [mvn jdk25](openmq-6.8.0.buildspec) | [result](project-6.8.0.buildinfo): [41 :white_check_mark:  32 :warning:](project-6.8.0.buildcompare) | 1 :recycle: 31 :rotating_light: | 32M |
 | [6.7.0](https://central.sonatype.com/artifact/org.glassfish.mq/project/6.7.0/pom) | [mvn jdk21](openmq-6.7.0.buildspec) | [result](project-6.7.0.buildinfo): [41 :white_check_mark:  32 :warning:](project-6.7.0.buildcompare) | 1 :recycle: 31 :rotating_light: | 29M |
