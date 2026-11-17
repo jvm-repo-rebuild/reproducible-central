@@ -1,0 +1,148 @@
+version=6.10.0
+ok=81
+ko=131
+ignored=0
+okFiles="project-6.10.0.pom mq-6.10.0.pom mq-6.10.0-cyclonedx.xml mq-6.10.0-cyclonedx.json mqcomm-lists-6.10.0.pom mqcomm-lists-6.10.0-cyclonedx.xml mqcomm-lists-6.10.0-cyclonedx.json mqcomm-selector-6.10.0.pom mqcomm-coders-6.10.0.pom mqcomm-coders-6.10.0-cyclonedx.xml mqcomm-coders-6.10.0-cyclonedx.json mqcomm-util-6.10.0.pom mq-share-6.10.0.pom mq-logger-6.10.0.pom mqcomm-options-6.10.0.pom mqcomm-options-6.10.0-cyclonedx.xml mqcomm-options-6.10.0-cyclonedx.json mqcomm-io-6.10.0.pom mqjmx-api-6.10.0.pom http-tunnel-6.10.0.pom http-tunnel-6.10.0-cyclonedx.xml http-tunnel-6.10.0-cyclonedx.json mqhttp-tunnel-api-share-6.10.0.pom mqhttp-tunnel-api-share-6.10.0-cyclonedx.xml mqhttp-tunnel-api-share-6.10.0-cyclonedx.json mqhttp-tunnel-api-server-6.10.0.pom mqhttp-tunnel-6.10.0.pom mq-share-auth-6.10.0.pom mq-direct-6.10.0.pom persist-6.10.0.pom persist-6.10.0-cyclonedx.xml persist-6.10.0-cyclonedx.json mq-txnlog-6.10.0.pom mq-broker-6.10.0.pom mq-broker-6.10.0-cyclonedx.xml mq-broker-6.10.0-cyclonedx.json mqbroker-comm-6.10.0.pom mq-portunif-6.10.0.pom mq-portunif-6.10.0-cyclonedx.xml mq-portunif-6.10.0-cyclonedx.json bridge-6.10.0.pom bridge-6.10.0-cyclonedx.xml bridge-6.10.0-cyclonedx.json mqbridge-api-6.10.0.pom mqbroker-core-6.10.0.pom jmsra-6.10.0.pom jmsra-6.10.0-cyclonedx.xml jmsra-6.10.0-cyclonedx.json mqjmsra-api-6.10.0.pom mqjmsra-api-6.10.0-cyclonedx.xml mqjmsra-api-6.10.0-cyclonedx.json mq-client-6.10.0.pom mq-ums-6.10.0.pom mqdisk-io-6.10.0.pom mq-admin-6.10.0.pom mq-admin-6.10.0-cyclonedx.xml mq-admin-6.10.0-cyclonedx.json mqadmin-resources-6.10.0.pom mqadmin-utils-6.10.0.pom mqadmin-commons-6.10.0.pom mqadmin-cli-6.10.0.pom mqjmsra-ra-6.10.0.pom mqbridge-jms-6.10.0.pom mqbridge-stomp-6.10.0.pom mqbridge-admin-6.10.0.pom mq-cluster-6.10.0.pom mqpersist-file-6.10.0.pom mqpersist-jdbc-6.10.0.pom mq-partition-6.10.0.pom mq-partition-6.10.0-cyclonedx.xml mq-partition-6.10.0-cyclonedx.json mqpartition-persist-api-6.10.0.pom mqpartition-persist-jdbc-6.10.0.pom mqadmin-gui-6.10.0.pom helpfiles-6.10.0.pom helpfiles-6.10.0-cyclonedx.xml helpfiles-6.10.0-cyclonedx.json mq-packager-opensource-6.10.0.pom mq-distribution-6.10.0.pom mq-distribution-6.10.0-cyclonedx.xml mq-distribution-6.10.0-cyclonedx.json"
+koFiles="project-6.10.0-cyclonedx.xml project-6.10.0-cyclonedx.json mqcomm-lists-6.10.0.jar mqcomm-selector-6.10.0.jar mqcomm-selector-6.10.0-cyclonedx.xml mqcomm-selector-6.10.0-cyclonedx.json mqcomm-coders-6.10.0.jar mqcomm-util-6.10.0.jar mqcomm-util-6.10.0-cyclonedx.xml mqcomm-util-6.10.0-cyclonedx.json mq-share-6.10.0.jar mq-share-6.10.0-cyclonedx.xml mq-share-6.10.0-cyclonedx.json mq-logger-6.10.0.jar mq-logger-6.10.0-cyclonedx.xml mq-logger-6.10.0-cyclonedx.json mqcomm-options-6.10.0.jar mqcomm-io-6.10.0.jar mqcomm-io-6.10.0-cyclonedx.xml mqcomm-io-6.10.0-cyclonedx.json mqjmx-api-6.10.0.jar mqjmx-api-6.10.0-cyclonedx.xml mqjmx-api-6.10.0-cyclonedx.json mqhttp-tunnel-api-share-6.10.0.jar mqhttp-tunnel-api-server-6.10.0.jar mqhttp-tunnel-api-server-6.10.0-cyclonedx.xml mqhttp-tunnel-api-server-6.10.0-cyclonedx.json mqhttp-tunnel-6.10.0.jar mqhttp-tunnel-6.10.0-cyclonedx.xml mqhttp-tunnel-6.10.0-cyclonedx.json mq-share-auth-6.10.0.jar mq-share-auth-6.10.0-cyclonedx.xml mq-share-auth-6.10.0-cyclonedx.json mq-direct-6.10.0.jar mq-direct-6.10.0-cyclonedx.xml mq-direct-6.10.0-cyclonedx.json mq-txnlog-6.10.0.jar mq-txnlog-6.10.0-cyclonedx.xml mq-txnlog-6.10.0-cyclonedx.json mqbroker-comm-6.10.0.jar mqbroker-comm-6.10.0-cyclonedx.xml mqbroker-comm-6.10.0-cyclonedx.json mq-portunif-6.10.0.jar mqbridge-api-6.10.0.jar mqbridge-api-6.10.0-cyclonedx.xml mqbridge-api-6.10.0-cyclonedx.json mqbroker-core-6.10.0.jar mqbroker-core-6.10.0-cyclonedx.xml mqbroker-core-6.10.0-cyclonedx.json mqjmsra-api-6.10.0.jar mq-client-6.10.0.jar mq-client-6.10.0-cyclonedx.xml mq-client-6.10.0-cyclonedx.json mq-ums-6.10.0.jar mq-ums-6.10.0-cyclonedx.xml mq-ums-6.10.0-cyclonedx.json mqdisk-io-6.10.0.jar mqdisk-io-6.10.0-cyclonedx.xml mqdisk-io-6.10.0-cyclonedx.json mqadmin-resources-6.10.0.jar mqadmin-resources-6.10.0-cyclonedx.xml mqadmin-resources-6.10.0-cyclonedx.json mqadmin-utils-6.10.0.jar mqadmin-utils-6.10.0-cyclonedx.xml mqadmin-utils-6.10.0-cyclonedx.json mqadmin-commons-6.10.0.jar mqadmin-commons-6.10.0-cyclonedx.xml mqadmin-commons-6.10.0-cyclonedx.json mqadmin-cli-6.10.0.jar mqadmin-cli-6.10.0-cyclonedx.xml mqadmin-cli-6.10.0-cyclonedx.json mqjmsra-ra-6.10.0.jar mqjmsra-ra-6.10.0-cyclonedx.xml mqjmsra-ra-6.10.0-cyclonedx.json mqbridge-jms-6.10.0.jar mqbridge-jms-6.10.0-cyclonedx.xml mqbridge-jms-6.10.0-cyclonedx.json mqbridge-stomp-6.10.0.jar mqbridge-stomp-6.10.0-cyclonedx.xml mqbridge-stomp-6.10.0-cyclonedx.json mqbridge-admin-6.10.0.jar mqbridge-admin-6.10.0-cyclonedx.xml mqbridge-admin-6.10.0-cyclonedx.json mq-cluster-6.10.0.jar mq-cluster-6.10.0-cyclonedx.xml mq-cluster-6.10.0-cyclonedx.json mqpersist-file-6.10.0.jar mqpersist-file-6.10.0-cyclonedx.xml mqpersist-file-6.10.0-cyclonedx.json mqpersist-jdbc-6.10.0.jar mqpersist-jdbc-6.10.0-cyclonedx.xml mqpersist-jdbc-6.10.0-cyclonedx.json mqpartition-persist-api-6.10.0.jar mqpartition-persist-api-6.10.0-cyclonedx.xml mqpartition-persist-api-6.10.0-cyclonedx.json mqpartition-persist-jdbc-6.10.0.jar mqpartition-persist-jdbc-6.10.0-cyclonedx.xml mqpartition-persist-jdbc-6.10.0-cyclonedx.json mqadmin-gui-6.10.0.jar mqadmin-gui-6.10.0-cyclonedx.xml mqadmin-gui-6.10.0-cyclonedx.json helpfiles-6.10.0.jar mq-packager-opensource-6.10.0-cyclonedx.xml mq-packager-opensource-6.10.0-cyclonedx.json mq-distribution-6.10.0.zip mq-distribution-6.10.0-sources.zip"
+ignoredFiles=""
+missing=25
+missingFiles="mq-docs-6.10.0.pom mq-docs-6.10.0-cyclonedx.xml mq-docs-6.10.0-cyclonedx.json mq-shared-doc-resources-6.10.0.pom mq-shared-doc-resources-6.10.0.jar mq-shared-doc-resources-6.10.0-cyclonedx.xml mq-shared-doc-resources-6.10.0-cyclonedx.json mq-dev-guide-jmx-6.10.0.pom mq-dev-guide-jmx-6.10.0-cyclonedx.xml mq-dev-guide-jmx-6.10.0-cyclonedx.json mq-admin-guide-6.10.0.pom mq-admin-guide-6.10.0-cyclonedx.xml mq-admin-guide-6.10.0-cyclonedx.json mq-dev-guide-c-6.10.0.pom mq-dev-guide-c-6.10.0-cyclonedx.xml mq-dev-guide-c-6.10.0-cyclonedx.json mq-release-notes-6.10.0.pom mq-release-notes-6.10.0-cyclonedx.xml mq-release-notes-6.10.0-cyclonedx.json mq-dev-guide-java-6.10.0.pom mq-dev-guide-java-6.10.0-cyclonedx.xml mq-dev-guide-java-6.10.0-cyclonedx.json mq-tech-over-6.10.0.pom mq-tech-over-6.10.0-cyclonedx.xml mq-tech-over-6.10.0-cyclonedx.json"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.glassfish.mq/project-6.10.0-cyclonedx.xml target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/project-6.10.0-cyclonedx.json target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-docs/6.10.0/mq-docs-6.10.0.pom; ls -l docs/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-docs/6.10.0/mq-docs-6.10.0-cyclonedx.xml; ls -l docs/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-docs/6.10.0/mq-docs-6.10.0-cyclonedx.json; ls -l docs/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-shared-doc-resources/6.10.0/mq-shared-doc-resources-6.10.0.pom; ls -l docs/mq-shared-doc-resources/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-shared-doc-resources/6.10.0/mq-shared-doc-resources-6.10.0.jar; ls -l docs/mq-shared-doc-resources/target/mq-shared-doc-resources-6.10.0.jar
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-shared-doc-resources/6.10.0/mq-shared-doc-resources-6.10.0-cyclonedx.xml; ls -l docs/mq-shared-doc-resources/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-shared-doc-resources/6.10.0/mq-shared-doc-resources-6.10.0-cyclonedx.json; ls -l docs/mq-shared-doc-resources/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-jmx/6.10.0/mq-dev-guide-jmx-6.10.0.pom; ls -l docs/mq-dev-guide-jmx/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-jmx/6.10.0/mq-dev-guide-jmx-6.10.0-cyclonedx.xml; ls -l docs/mq-dev-guide-jmx/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-jmx/6.10.0/mq-dev-guide-jmx-6.10.0-cyclonedx.json; ls -l docs/mq-dev-guide-jmx/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-admin-guide/6.10.0/mq-admin-guide-6.10.0.pom; ls -l docs/mq-admin-guide/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-admin-guide/6.10.0/mq-admin-guide-6.10.0-cyclonedx.xml; ls -l docs/mq-admin-guide/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-admin-guide/6.10.0/mq-admin-guide-6.10.0-cyclonedx.json; ls -l docs/mq-admin-guide/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-c/6.10.0/mq-dev-guide-c-6.10.0.pom; ls -l docs/mq-dev-guide-c/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-c/6.10.0/mq-dev-guide-c-6.10.0-cyclonedx.xml; ls -l docs/mq-dev-guide-c/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-c/6.10.0/mq-dev-guide-c-6.10.0-cyclonedx.json; ls -l docs/mq-dev-guide-c/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-release-notes/6.10.0/mq-release-notes-6.10.0.pom; ls -l docs/mq-release-notes/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-release-notes/6.10.0/mq-release-notes-6.10.0-cyclonedx.xml; ls -l docs/mq-release-notes/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-release-notes/6.10.0/mq-release-notes-6.10.0-cyclonedx.json; ls -l docs/mq-release-notes/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-java/6.10.0/mq-dev-guide-java-6.10.0.pom; ls -l docs/mq-dev-guide-java/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-java/6.10.0/mq-dev-guide-java-6.10.0-cyclonedx.xml; ls -l docs/mq-dev-guide-java/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-dev-guide-java/6.10.0/mq-dev-guide-java-6.10.0-cyclonedx.json; ls -l docs/mq-dev-guide-java/target/bom.json
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-tech-over/6.10.0/mq-tech-over-6.10.0.pom; ls -l docs/mq-tech-over/pom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-tech-over/6.10.0/mq-tech-over-6.10.0-cyclonedx.xml; ls -l docs/mq-tech-over/target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/glassfish/mq/mq-tech-over/6.10.0/mq-tech-over-6.10.0-cyclonedx.json; ls -l docs/mq-tech-over/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqcomm-lists-6.10.0.jar mq/main/mqcomm-lists/target/mqcomm-lists.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-selector-6.10.0.jar mq/main/mqcomm-selector/target/mqcomm-selector.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-selector-6.10.0-cyclonedx.xml mq/main/mqcomm-selector/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqcomm-selector-6.10.0-cyclonedx.json mq/main/mqcomm-selector/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqcomm-coders-6.10.0.jar mq/main/mqcomm-coders/target/mqcomm-coders.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-util-6.10.0.jar mq/main/mqcomm-util/target/mqcomm-util.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-util-6.10.0-cyclonedx.xml mq/main/mqcomm-util/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqcomm-util-6.10.0-cyclonedx.json mq/main/mqcomm-util/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-share-6.10.0.jar mq/main/mq-share/target/mq-share.jar
+# diffoscope target/reference/org.glassfish.mq/mq-share-6.10.0-cyclonedx.xml mq/main/mq-share/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-share-6.10.0-cyclonedx.json mq/main/mq-share/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-logger-6.10.0.jar mq/main/mq-logger/target/mq-logger.jar
+# diffoscope target/reference/org.glassfish.mq/mq-logger-6.10.0-cyclonedx.xml mq/main/mq-logger/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-logger-6.10.0-cyclonedx.json mq/main/mq-logger/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqcomm-options-6.10.0.jar mq/main/mqcomm-options/target/mqcomm-options.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-io-6.10.0.jar mq/main/mqcomm-io/target/mqcomm-io.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-io-6.10.0-cyclonedx.xml mq/main/mqcomm-io/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqcomm-io-6.10.0-cyclonedx.json mq/main/mqcomm-io/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqjmx-api-6.10.0.jar mq/main/mqjmx-api/target/mqjmx-api.jar
+# diffoscope target/reference/org.glassfish.mq/mqjmx-api-6.10.0-cyclonedx.xml mq/main/mqjmx-api/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqjmx-api-6.10.0-cyclonedx.json mq/main/mqjmx-api/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-api-share-6.10.0.jar mq/main/http-tunnel/mqhttp-tunnel-api-share/target/mqhttp-tunnel-api-share.jar
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-api-server-6.10.0.jar mq/main/http-tunnel/mqhttp-tunnel-api-server/target/mqhttp-tunnel-api-server.jar
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-api-server-6.10.0-cyclonedx.xml mq/main/http-tunnel/mqhttp-tunnel-api-server/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-api-server-6.10.0-cyclonedx.json mq/main/http-tunnel/mqhttp-tunnel-api-server/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-6.10.0.jar mq/main/http-tunnel/mqhttp-tunnel/target/mqhttp-tunnel.jar
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-6.10.0-cyclonedx.xml mq/main/http-tunnel/mqhttp-tunnel/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-6.10.0-cyclonedx.json mq/main/http-tunnel/mqhttp-tunnel/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-share-auth-6.10.0.jar mq/main/mq-share-auth/target/mq-share-auth.jar
+# diffoscope target/reference/org.glassfish.mq/mq-share-auth-6.10.0-cyclonedx.xml mq/main/mq-share-auth/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-share-auth-6.10.0-cyclonedx.json mq/main/mq-share-auth/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-direct-6.10.0.jar mq/main/mq-direct/target/mq-direct.jar
+# diffoscope target/reference/org.glassfish.mq/mq-direct-6.10.0-cyclonedx.xml mq/main/mq-direct/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-direct-6.10.0-cyclonedx.json mq/main/mq-direct/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-txnlog-6.10.0.jar mq/main/persist/mq-txnlog/target/mq-txnlog.jar
+# diffoscope target/reference/org.glassfish.mq/mq-txnlog-6.10.0-cyclonedx.xml mq/main/persist/mq-txnlog/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-txnlog-6.10.0-cyclonedx.json mq/main/persist/mq-txnlog/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqbroker-comm-6.10.0.jar mq/main/mq-broker/mqbroker-comm/target/mqbroker-comm.jar
+# diffoscope target/reference/org.glassfish.mq/mqbroker-comm-6.10.0-cyclonedx.xml mq/main/mq-broker/mqbroker-comm/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqbroker-comm-6.10.0-cyclonedx.json mq/main/mq-broker/mqbroker-comm/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-portunif-6.10.0.jar mq/main/mq-portunif/target/mq-portunif.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-api-6.10.0.jar mq/main/bridge/mqbridge-api/target/mqbridge-api.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-api-6.10.0-cyclonedx.xml mq/main/bridge/mqbridge-api/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqbridge-api-6.10.0-cyclonedx.json mq/main/bridge/mqbridge-api/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqbroker-core-6.10.0.jar mq/main/mq-broker/mqbroker-core/target/mqbroker-core.jar
+# diffoscope target/reference/org.glassfish.mq/mqbroker-core-6.10.0-cyclonedx.xml mq/main/mq-broker/mqbroker-core/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqbroker-core-6.10.0-cyclonedx.json mq/main/mq-broker/mqbroker-core/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqjmsra-api-6.10.0.jar mq/main/jmsra/mqjmsra-api/target/mqjmsra-api.jar
+# diffoscope target/reference/org.glassfish.mq/mq-client-6.10.0.jar mq/main/mq-client/target/mq-client.jar
+# diffoscope target/reference/org.glassfish.mq/mq-client-6.10.0-cyclonedx.xml mq/main/mq-client/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-client-6.10.0-cyclonedx.json mq/main/mq-client/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-ums-6.10.0.jar mq/main/mq-ums/target/mq-ums.jar
+# diffoscope target/reference/org.glassfish.mq/mq-ums-6.10.0-cyclonedx.xml mq/main/mq-ums/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-ums-6.10.0-cyclonedx.json mq/main/mq-ums/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqdisk-io-6.10.0.jar mq/main/persist/mqdisk-io/target/mqdisk-io.jar
+# diffoscope target/reference/org.glassfish.mq/mqdisk-io-6.10.0-cyclonedx.xml mq/main/persist/mqdisk-io/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqdisk-io-6.10.0-cyclonedx.json mq/main/persist/mqdisk-io/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqadmin-resources-6.10.0.jar mq/main/mq-admin/mqadmin-resources/target/mqadmin-resources.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-resources-6.10.0-cyclonedx.xml mq/main/mq-admin/mqadmin-resources/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqadmin-resources-6.10.0-cyclonedx.json mq/main/mq-admin/mqadmin-resources/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqadmin-utils-6.10.0.jar mq/main/mqadmin-utils/target/mqadmin-utils.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-utils-6.10.0-cyclonedx.xml mq/main/mqadmin-utils/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqadmin-utils-6.10.0-cyclonedx.json mq/main/mqadmin-utils/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqadmin-commons-6.10.0.jar mq/main/mqadmin-commons/target/mqadmin-commons.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-commons-6.10.0-cyclonedx.xml mq/main/mqadmin-commons/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqadmin-commons-6.10.0-cyclonedx.json mq/main/mqadmin-commons/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqadmin-cli-6.10.0.jar mq/main/mq-admin/mqadmin-cli/target/mqadmin-cli.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-cli-6.10.0-cyclonedx.xml mq/main/mq-admin/mqadmin-cli/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqadmin-cli-6.10.0-cyclonedx.json mq/main/mq-admin/mqadmin-cli/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqjmsra-ra-6.10.0.jar mq/main/jmsra/mqjmsra-ra/target/mqjmsra-ra.jar
+# diffoscope target/reference/org.glassfish.mq/mqjmsra-ra-6.10.0-cyclonedx.xml mq/main/jmsra/mqjmsra-ra/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqjmsra-ra-6.10.0-cyclonedx.json mq/main/jmsra/mqjmsra-ra/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqbridge-jms-6.10.0.jar mq/main/bridge/mqbridge-jms/target/mqbridge-jms.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-jms-6.10.0-cyclonedx.xml mq/main/bridge/mqbridge-jms/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqbridge-jms-6.10.0-cyclonedx.json mq/main/bridge/mqbridge-jms/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqbridge-stomp-6.10.0.jar mq/main/bridge/mqbridge-stomp/target/mqbridge-stomp.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-stomp-6.10.0-cyclonedx.xml mq/main/bridge/mqbridge-stomp/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqbridge-stomp-6.10.0-cyclonedx.json mq/main/bridge/mqbridge-stomp/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqbridge-admin-6.10.0.jar mq/main/bridge/mqbridge-admin/target/mqbridge-admin.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-admin-6.10.0-cyclonedx.xml mq/main/bridge/mqbridge-admin/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqbridge-admin-6.10.0-cyclonedx.json mq/main/bridge/mqbridge-admin/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-cluster-6.10.0.jar mq/main/mq-broker/mq-cluster/target/mq-cluster.jar
+# diffoscope target/reference/org.glassfish.mq/mq-cluster-6.10.0-cyclonedx.xml mq/main/mq-broker/mq-cluster/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-cluster-6.10.0-cyclonedx.json mq/main/mq-broker/mq-cluster/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqpersist-file-6.10.0.jar mq/main/mq-broker/mqpersist-file/target/mqpersist-file.jar
+# diffoscope target/reference/org.glassfish.mq/mqpersist-file-6.10.0-cyclonedx.xml mq/main/mq-broker/mqpersist-file/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqpersist-file-6.10.0-cyclonedx.json mq/main/mq-broker/mqpersist-file/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqpersist-jdbc-6.10.0.jar mq/main/mq-broker/mqpersist-jdbc/target/mqpersist-jdbc.jar
+# diffoscope target/reference/org.glassfish.mq/mqpersist-jdbc-6.10.0-cyclonedx.xml mq/main/mq-broker/mqpersist-jdbc/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqpersist-jdbc-6.10.0-cyclonedx.json mq/main/mq-broker/mqpersist-jdbc/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-api-6.10.0.jar mq/main/mq-broker/mq-partition/mqpartition-persist-api/target/mqpartition-persist-api.jar
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-api-6.10.0-cyclonedx.xml mq/main/mq-broker/mq-partition/mqpartition-persist-api/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-api-6.10.0-cyclonedx.json mq/main/mq-broker/mq-partition/mqpartition-persist-api/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-jdbc-6.10.0.jar mq/main/mq-broker/mq-partition/mqpartition-persist-jdbc/target/mqpartition-persist-jdbc.jar
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-jdbc-6.10.0-cyclonedx.xml mq/main/mq-broker/mq-partition/mqpartition-persist-jdbc/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-jdbc-6.10.0-cyclonedx.json mq/main/mq-broker/mq-partition/mqpartition-persist-jdbc/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mqadmin-gui-6.10.0.jar mq/main/mq-admin/mqadmin-gui/target/mqadmin-gui.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-gui-6.10.0-cyclonedx.xml mq/main/mq-admin/mqadmin-gui/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mqadmin-gui-6.10.0-cyclonedx.json mq/main/mq-admin/mqadmin-gui/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/helpfiles-6.10.0.jar mq/main/helpfiles/target/helpfiles.jar
+# diffoscope target/reference/org.glassfish.mq/mq-packager-opensource-6.10.0-cyclonedx.xml mq/main/mq-packager-opensource/target/bom.xml
+# diffoscope target/reference/org.glassfish.mq/mq-packager-opensource-6.10.0-cyclonedx.json mq/main/mq-packager-opensource/target/bom.json
+# diffoscope target/reference/org.glassfish.mq/mq-distribution-6.10.0.zip mq/dist/bundles/mq.zip
+# diffoscope target/reference/org.glassfish.mq/mq-distribution-6.10.0-sources.zip mq/dist/bundles/mq-src.zip
+stabilize_ok=1
+stabilize_ko=39
+stabilize_ignored=66
+stabilize_okFiles="mq-distribution-6.10.0-sources.zip.stabilized"
+stabilize_koFiles="mqcomm-lists-6.10.0.jar.stabilized mqcomm-selector-6.10.0.jar.stabilized mqcomm-coders-6.10.0.jar.stabilized mqcomm-util-6.10.0.jar.stabilized mq-share-6.10.0.jar.stabilized mq-logger-6.10.0.jar.stabilized mqcomm-options-6.10.0.jar.stabilized mqcomm-io-6.10.0.jar.stabilized mqjmx-api-6.10.0.jar.stabilized mqhttp-tunnel-api-share-6.10.0.jar.stabilized mqhttp-tunnel-api-server-6.10.0.jar.stabilized mqhttp-tunnel-6.10.0.jar.stabilized mq-share-auth-6.10.0.jar.stabilized mq-direct-6.10.0.jar.stabilized mq-txnlog-6.10.0.jar.stabilized mqbroker-comm-6.10.0.jar.stabilized mq-portunif-6.10.0.jar.stabilized mqbridge-api-6.10.0.jar.stabilized mqbroker-core-6.10.0.jar.stabilized mqjmsra-api-6.10.0.jar.stabilized mq-client-6.10.0.jar.stabilized mq-ums-6.10.0.jar.stabilized mqdisk-io-6.10.0.jar.stabilized mqadmin-resources-6.10.0.jar.stabilized mqadmin-utils-6.10.0.jar.stabilized mqadmin-commons-6.10.0.jar.stabilized mqadmin-cli-6.10.0.jar.stabilized mqjmsra-ra-6.10.0.jar.stabilized mqbridge-jms-6.10.0.jar.stabilized mqbridge-stomp-6.10.0.jar.stabilized mqbridge-admin-6.10.0.jar.stabilized mq-cluster-6.10.0.jar.stabilized mqpersist-file-6.10.0.jar.stabilized mqpersist-jdbc-6.10.0.jar.stabilized mqpartition-persist-api-6.10.0.jar.stabilized mqpartition-persist-jdbc-6.10.0.jar.stabilized mqadmin-gui-6.10.0.jar.stabilized helpfiles-6.10.0.jar.stabilized mq-distribution-6.10.0.zip.stabilized"
+stabilize_ignoredFiles="project-6.10.0-cyclonedx.xml project-6.10.0-cyclonedx.json mqcomm-selector-6.10.0-cyclonedx.xml mqcomm-selector-6.10.0-cyclonedx.json mqcomm-util-6.10.0-cyclonedx.xml mqcomm-util-6.10.0-cyclonedx.json mq-share-6.10.0-cyclonedx.xml mq-share-6.10.0-cyclonedx.json mq-logger-6.10.0-cyclonedx.xml mq-logger-6.10.0-cyclonedx.json mqcomm-io-6.10.0-cyclonedx.xml mqcomm-io-6.10.0-cyclonedx.json mqjmx-api-6.10.0-cyclonedx.xml mqjmx-api-6.10.0-cyclonedx.json mqhttp-tunnel-api-server-6.10.0-cyclonedx.xml mqhttp-tunnel-api-server-6.10.0-cyclonedx.json mqhttp-tunnel-6.10.0-cyclonedx.xml mqhttp-tunnel-6.10.0-cyclonedx.json mq-share-auth-6.10.0-cyclonedx.xml mq-share-auth-6.10.0-cyclonedx.json mq-direct-6.10.0-cyclonedx.xml mq-direct-6.10.0-cyclonedx.json mq-txnlog-6.10.0-cyclonedx.xml mq-txnlog-6.10.0-cyclonedx.json mqbroker-comm-6.10.0-cyclonedx.xml mqbroker-comm-6.10.0-cyclonedx.json mqbridge-api-6.10.0-cyclonedx.xml mqbridge-api-6.10.0-cyclonedx.json mqbroker-core-6.10.0-cyclonedx.xml mqbroker-core-6.10.0-cyclonedx.json mq-client-6.10.0-cyclonedx.xml mq-client-6.10.0-cyclonedx.json mq-ums-6.10.0-cyclonedx.xml mq-ums-6.10.0-cyclonedx.json mqdisk-io-6.10.0-cyclonedx.xml mqdisk-io-6.10.0-cyclonedx.json mqadmin-resources-6.10.0-cyclonedx.xml mqadmin-resources-6.10.0-cyclonedx.json mqadmin-utils-6.10.0-cyclonedx.xml mqadmin-utils-6.10.0-cyclonedx.json mqadmin-commons-6.10.0-cyclonedx.xml mqadmin-commons-6.10.0-cyclonedx.json mqadmin-cli-6.10.0-cyclonedx.xml mqadmin-cli-6.10.0-cyclonedx.json mqjmsra-ra-6.10.0-cyclonedx.xml mqjmsra-ra-6.10.0-cyclonedx.json mqbridge-jms-6.10.0-cyclonedx.xml mqbridge-jms-6.10.0-cyclonedx.json mqbridge-stomp-6.10.0-cyclonedx.xml mqbridge-stomp-6.10.0-cyclonedx.json mqbridge-admin-6.10.0-cyclonedx.xml mqbridge-admin-6.10.0-cyclonedx.json mq-cluster-6.10.0-cyclonedx.xml mq-cluster-6.10.0-cyclonedx.json mqpersist-file-6.10.0-cyclonedx.xml mqpersist-file-6.10.0-cyclonedx.json mqpersist-jdbc-6.10.0-cyclonedx.xml mqpersist-jdbc-6.10.0-cyclonedx.json mqpartition-persist-api-6.10.0-cyclonedx.xml mqpartition-persist-api-6.10.0-cyclonedx.json mqpartition-persist-jdbc-6.10.0-cyclonedx.xml mqpartition-persist-jdbc-6.10.0-cyclonedx.json mqadmin-gui-6.10.0-cyclonedx.xml mqadmin-gui-6.10.0-cyclonedx.json mq-packager-opensource-6.10.0-cyclonedx.xml mq-packager-opensource-6.10.0-cyclonedx.json"
