@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=picocsv
+group-id=com.github.nbbrd.picocsv
+artifact-id=picocsv
+version=2.6.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/nbbrd/picocsv.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.13.0.3
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1019-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.12
+
+# output
+
+outputs.0.groupId=com.github.nbbrd.picocsv
+outputs.0.filename=picocsv-2.6.1.pom
+outputs.0.length=40156
+outputs.0.checksums.sha512=401563c80417f2ed583b8b9bfdf17399d3e1827c494667043518f77bd4e4f81471cf9b27591d9360541164124e1108c1de16c53e9caa61ded0ffcb5e0f17bd87
+
+outputs.1.groupId=com.github.nbbrd.picocsv
+outputs.1.filename=picocsv-2.6.1.jar
+outputs.1.length=25724
+outputs.1.checksums.sha512=0a99092d4d29cdf3c18d06d0d4e1a0590b203603cc212589f7f55278ffd21068a06ae7cbc85b9b8e483bc261b22300d624949543293c3ddc4d7b49bddb737a3f
+
+outputs.2.groupId=com.github.nbbrd.picocsv
+outputs.2.filename=picocsv-2.6.1-sources.jar
+outputs.2.length=16918
+outputs.2.checksums.sha512=79bb00b7890531c0df8c03a4bbc3927e138b3ddd0fe8b58ca8e83ce82cca9a6a0e606c7be194a74b9b8709de7a442b3b25a3b25d7e75b130a5bf0c435006ea8c
