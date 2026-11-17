@@ -1,0 +1,5 @@
+version=5.0.0.CR2
+ok=4
+ko=0
+okFiles="hibernate-reactive-core-5.0.0.CR2-sources.jar hibernate-reactive-core-5.0.0.CR2.jar hibernate-reactive-core-5.0.0.CR2.pom hibernate-reactive-platform-5.0.0.CR2.pom"
+koFiles=""
