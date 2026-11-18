@@ -1,13 +1,7 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/github/nbbrd/picocsv/picocsv-2.6.0.buildspec:2.6.1
-content/com/google/mug/mug-11.2.buildspec:11.3
-content/io/avaje/http/avaje-http-3.13-RC1.buildspec:3.13-RC2
-content/io/avaje/jsonb/avaje-jsonb-3.17-RC1.buildspec:3.17-RC2
-content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.5.0.buildspec:2.6.0
-content/it/mulders/puml/puml-parent-0.5.5.buildspec:0.5.6
-content/it/mulders/stryker/pit-dashboard-reporter-0.3.21.buildspec:0.3.22
+content/land/oras/oras-java-sdk/oras-java-sdk-0.9.2.buildspec:0.9.3
+content/org/dbunit/dbunit-3.5.2.buildspec:3.5.3
 content/org/apache/amoro/amoro-0.8.1-incubating.buildspec:0.9.0-incubating
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
-content/org/apache/wss4j/wss4j-4.0.2.buildspec:4.0.3
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-5.1.0.CR1.buildspec:5.1.0.CR2
+content/org/apache/maven/plugins/maven-help-plugin/maven-help-plugin-3.5.2.buildspec:3.6.0

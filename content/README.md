@@ -89,7 +89,7 @@ Reproducible Builds for Maven Central Repository
 | | [java-sql-util](../content/com/github/nbbrd/java-sql-util/README.md) | 4 | 4 :warning: |
 | | [jdplus-sdmx](../content/com/github/nbbrd/jdplus-sdmx/README.md) | 8 | 8 :warning: |
 | | [nbbrd-maven-tools](../content/com/github/nbbrd/nbbrd-maven-tools/README.md) | 11 | 11 :white_check_mark: |
-| | [picocsv](../content/com/github/nbbrd/picocsv/README.md) | 5 | 5 :white_check_mark: |
+| | [picocsv](../content/com/github/nbbrd/picocsv/README.md) | 6 | 6 :white_check_mark: |
 | | [sasquatch](../content/com/github/nbbrd/sasquatch/README.md) | 3 | 3 :white_check_mark: |
 | | [sdmx-dl](../content/com/github/nbbrd/sdmx-dl/README.md) | 9 | 1 :white_check_mark: / 8 :warning: |
 | | [spreadsheet4j](../content/com/github/nbbrd/spreadsheet4j/README.md) | 4 | 4 :white_check_mark: |
@@ -118,7 +118,7 @@ Reproducible Builds for Maven Central Repository
 | | [wsimport-maven-plugin](../content/com/github/veithen/maven/wsimport-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [xjc-maven-plugin](../content/com/github/veithen/maven/xjc-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | com.google.guava | [guava](../content/com/google/guava/README.md) | 54 | 36 :white_check_mark: / 18 :warning: |
-| com.google.mug | [mug](../content/com/google/mug/README.md) | 22 | 22 :white_check_mark: |
+| com.google.mug | [mug](../content/com/google/mug/README.md) | 23 | 23 :white_check_mark: |
 | com.google.code.gson | [gson](../content/com/google/code/gson/README.md) | 9 | 9 :white_check_mark: |
 | com.hibegin | [common-dao](../content/com/hibegin/common-dao/README.md) | 40 | 27 :white_check_mark: / 13 :warning: |
 | | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 122 | 25 :white_check_mark: / 97 :warning: |
@@ -302,10 +302,10 @@ Reproducible Builds for Maven Central Repository
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](../content/io/avaje/config/README.md) | 12 | 4 :white_check_mark: / 8 :warning: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
-| | [avaje-http](../content/io/avaje/http/README.md) | 55 | 33 :white_check_mark: / 22 :warning: |
+| | [avaje-http](../content/io/avaje/http/README.md) | 56 | 34 :white_check_mark: / 22 :warning: |
 | | [avaje-inject](../content/io/avaje/inject/README.md) | 84 | 72 :white_check_mark: / 12 :warning: |
 | | [avaje-jex](../content/io/avaje/jex/README.md) | 53 | 45 :white_check_mark: / 8 :warning: |
-| | [avaje-jsonb](../content/io/avaje/jsonb/README.md) | 68 | 61 :white_check_mark: / 7 :warning: |
+| | [avaje-jsonb](../content/io/avaje/jsonb/README.md) | 69 | 62 :white_check_mark: / 7 :warning: |
 | | [avaje-logback-encoder](../content/io/avaje/logback-encoder/README.md) | 16 | 16 :white_check_mark: |
 | | [avaje-metrics](../content/io/avaje/metrics/README.md) | 41 | 6 :white_check_mark: / 35 :warning: |
 | | [avaje-prisms](../content/io/avaje/prisms/README.md) | 22 | 19 :white_check_mark: / 3 :warning: |
@@ -373,7 +373,7 @@ Reproducible Builds for Maven Central Repository
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation](../content/io/opentelemetry/instrumentation/README.md) | 57 | 18 :white_check_mark: / 39 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 37 | 34 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](../content/io/repaint/maven/tiles-maven-plugin/README.md) | 12 | 12 :white_check_mark: |
-| io.smallrye | [jandex](../content/io/smallrye/jandex/README.md) | 27 | 27 :warning: |
+| io.smallrye | [jandex](../content/io/smallrye/jandex/README.md) | 28 | 28 :warning: |
 | io.takari | [*.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 3 | 3 :warning: |
 | | [takari-archiver](../content/io/takari/takari-archiver/README.md) | 11 | 11 :white_check_mark: |
 | io.takari.maven | [maven-timeline](../content/io/takari/maven/maven-timeline/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
@@ -397,13 +397,13 @@ Reproducible Builds for Maven Central Repository
 | | [nodejs-maven-plugin](../content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | | [sling-initial-content-transform-maven-plugin](../content/io/wcm/maven/plugins/sling-initial-content-transform-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | io.wcm.tooling.commons | [*.content-package-builder](../content/io/wcm/tooling/commons/content-package-builder/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
-| | [*.crx-packmgr-helper](../content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 13 | 11 :white_check_mark: / 2 :warning: |
+| | [*.crx-packmgr-helper](../content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 14 | 12 :white_check_mark: / 2 :warning: |
 | io.yupiik | [bundlebee](../content/io/yupiik/bundlebee/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.yupiik.fusion | [fusion](../content/io/yupiik/fusion/README.md) | 22 | 22 :white_check_mark: |
 | io.yupiik.maven | [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 15 | 15 :warning: |
 | it.mulders | [mcs](../content/it/mulders/mcs/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| it.mulders.puml | [puml-parent](../content/it/mulders/puml/README.md) | 4 | 4 :white_check_mark: |
-| it.mulders.stryker | [pit-dashboard-reporter](../content/it/mulders/stryker/README.md) | 4 | 4 :white_check_mark: |
+| it.mulders.puml | [puml-parent](../content/it/mulders/puml/README.md) | 5 | 5 :white_check_mark: |
+| it.mulders.stryker | [pit-dashboard-reporter](../content/it/mulders/stryker/README.md) | 5 | 5 :white_check_mark: |
 | it.mulders.clocky | [clocky](../content/it/mulders/clocky/clocky/README.md) | 1 | 1 :white_check_mark: |
 | jakarta.activation | [jakarta.activation-api](../content/jakarta/activation/jakarta.activation-api/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | jakarta.annotation | [jakarta.annotation-api](../content/jakarta/annotation/jakarta.annotation-api/README.md) | 2 | 2 :white_check_mark: |
@@ -496,7 +496,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.tika | [tika](../content/org/apache/tika/README.md) | 30 | 2 :white_check_mark: / 28 :warning: |
 | org.apache.wayang | [wayang](../content/org/apache/wayang/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | org.apache.wicket | [wicket](../content/org/apache/wicket/README.md) | 14 | 14 :white_check_mark: |
-| org.apache.wss4j | [wss4j](../content/org/apache/wss4j/README.md) | 15 | 14 :white_check_mark: / 1 :warning: |
+| org.apache.wss4j | [wss4j](../content/org/apache/wss4j/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
 | org.apache.zookeeper | [zookeeper](../content/org/apache/zookeeper/README.md) | 9 | 9 :warning: |
 | org.apache.activemq | [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 29 | 17 :white_check_mark: / 12 :warning: |
 | org.apache.apache.resources | [apache-resource-bundles](../content/org/apache/apache/resources/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -858,7 +858,7 @@ Reproducible Builds for Maven Central Repository
 | org.glassfish.build | [glassfishbuild-maven-plugin](../content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | org.hibernate.models | [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 20 | 17 :white_check_mark: / 3 :warning: |
 | org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 118 | 111 :white_check_mark: / 7 :warning: |
-| org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 156 | 156 :white_check_mark: |
+| org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 158 | 158 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 36 | 34 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 21 | 19 :white_check_mark: / 2 :warning: |
 | org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 36 | 29 :white_check_mark: / 7 :warning: |
@@ -994,7 +994,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 13 | 13 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 47 | 45 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 39 | 5 :white_check_mark: / 34 :warning: |
-| **Count:** | **980** | **12983** | **9652** :white_check_mark:<br>**3331** :warning: |
+| **Count:** | **980** | **12996** | **9664** :white_check_mark:<br>**3332** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1007,7 +1007,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     271 gradle     17
     213 gradle     21
       5 gradle     24
-    138 gradle     25
+    140 gradle     25
      35 mvn         7
    1583 mvn         8
       1 mvn         9
@@ -1031,11 +1031,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    945 mvn        21
+    946 mvn        21
      15 mvn        22
      24 mvn        23
      41 mvn        24
-    183 mvn        25
+    185 mvn        25
      17 mvn        26
       1 mvn        27
       1 mvn-3.10.0  11
@@ -1090,10 +1090,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.11  26
      48 mvn-3.9.12   8
      58 mvn-3.9.12  11
-    161 mvn-3.9.12  17
-    463 mvn-3.9.12  21
+    164 mvn-3.9.12  17
+    464 mvn-3.9.12  21
      11 mvn-3.9.12  22
-     22 mvn-3.9.12  24
+     23 mvn-3.9.12  24
     261 mvn-3.9.12  25
       9 mvn-3.9.12  26
      18 mvn-3.9.12  27
@@ -1106,9 +1106,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.15  17
       4 mvn-3.9.15  21
      10 mvn-3.9.15  25
-      4 mvn-3.9.16  11
+      5 mvn-3.9.16  11
      11 mvn-3.9.16  17
-     34 mvn-3.9.16  21
+     35 mvn-3.9.16  21
      19 mvn-3.9.16  22
      86 mvn-3.9.16  25
       3 mvn-3.9.16  26
@@ -1191,7 +1191,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.9  22
       4 mvn-3.9.9  23
      48 mvn-3.9.9  24
-     84 mvn-3.9.9  25
+     85 mvn-3.9.9  25
       2 mvn-4.0.0-alpha-12  21
       2 mvn-4.0.0-alpha-12  22
       1 mvn-4.0.0-alpha-13  21

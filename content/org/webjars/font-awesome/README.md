@@ -20,6 +20,7 @@ rebuilding **15 releases** of org.webjars:font-awesome:
 | [7.0.0](https://central.sonatype.com/artifact/org.webjars/font-awesome/7.0.0/pom) | [mvn jdk21](font-awesome-7.0.0.buildspec) | [result](font-awesome-7.0.0.buildinfo): [2 :white_check_mark: ](font-awesome-7.0.0.buildcompare) | | 9.3M |
 | [6.7.2](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.7.2/pom) | [mvn jdk21](font-awesome-6.7.2.buildspec) | [result](font-awesome-6.7.2.buildinfo): [2 :white_check_mark: ](font-awesome-6.7.2.buildcompare) | | 6.5M |
 | [6.7.1](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.7.1/pom) | [mvn jdk21](font-awesome-6.7.1.buildspec) | [result](font-awesome-6.7.1.buildinfo): [2 :white_check_mark: ](font-awesome-6.7.1.buildcompare) | | 6.6M |
+| [6.7.0](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.7.0/pom) | | | |
 | [6.6.0](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.6.0/pom) | [mvn jdk21](font-awesome-6.6.0.buildspec) | [result](font-awesome-6.6.0.buildinfo): [2 :white_check_mark: ](font-awesome-6.6.0.buildcompare) | | 6.5M |
 | [6.5.2](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.5.2/pom) | [mvn jdk8](font-awesome-6.5.2.buildspec) | [result](font-awesome-6.5.2.buildinfo): [2 :white_check_mark: ](font-awesome-6.5.2.buildcompare) | | 6.5M |
 | [6.5.1](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.5.1/pom) | [mvn jdk8](font-awesome-6.5.1.buildspec) | [result](font-awesome-6.5.1.buildinfo): [2 :white_check_mark: ](font-awesome-6.5.1.buildcompare) | | 6.5M |
