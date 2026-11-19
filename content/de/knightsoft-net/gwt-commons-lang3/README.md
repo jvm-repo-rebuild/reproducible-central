@@ -14,6 +14,7 @@ rebuilding **9 releases** of de.knightsoft-net:gwt-commons-lang3:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.22.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.22.0-0/pom) | | | |
 | [3.21.0-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.21.0-1/pom) | [mvn jdk21](gwt-commons-lang3-3.21.0-1.buildspec) | [result](gwt-commons-lang3-3.21.0-1.buildinfo): [5 :white_check_mark:  2 :warning:](gwt-commons-lang3-3.21.0-1.buildcompare) | 2 :no_entry_sign: | 5.6M |
 | [3.21.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.21.0-0/pom) | [mvn jdk21](gwt-commons-lang3-3.21.0-0.buildspec) | [result](gwt-commons-lang3-3.21.0-0.buildinfo): [7 :white_check_mark: ](gwt-commons-lang3-3.21.0-0.buildcompare) | | 5.6M |
 | [3.20.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.20.0-0/pom) | [mvn jdk21](gwt-commons-lang3-3.20.0-0.buildspec) | [result](gwt-commons-lang3-3.20.0-0.buildinfo): [5 :white_check_mark: ](gwt-commons-lang3-3.20.0-0.buildcompare) | | 5.0M |
