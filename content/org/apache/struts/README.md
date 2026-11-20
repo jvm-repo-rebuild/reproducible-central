@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/apache/struts.git](https://github.com/apache/struts.git)
 
-<details><summary>This project defines 45 modules:</summary>
+<details><summary>This project defines 46 modules:</summary>
 
 * [org.apache.struts:struts2-apps](https://central.sonatype.com/artifact/org.apache.struts/struts2-apps/overview)
 * [org.apache.struts:struts2-assembly](https://central.sonatype.com/artifact/org.apache.struts/struts2-assembly/overview)
 * [org.apache.struts:struts2-async-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-async-plugin/overview)
 * [org.apache.struts:struts2-bean-validation-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-bean-validation-plugin/overview)
 * [org.apache.struts:struts2-bom](https://central.sonatype.com/artifact/org.apache.struts/struts2-bom/overview)
+* [org.apache.struts:struts2-boot-starter](https://central.sonatype.com/artifact/org.apache.struts/struts2-boot-starter/overview)
 * [org.apache.struts:struts2-cdi-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-cdi-plugin/overview)
 * [org.apache.struts:struts2-config-browser-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-config-browser-plugin/overview)
 * [org.apache.struts:struts2-convention-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-convention-plugin/overview)
@@ -56,13 +57,13 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **38 releases** of org.apache.struts:struts2-parent:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **39 releases** of org.apache.struts:struts2-parent:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.5.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.5.0/pom) | | | |
+| [7.5.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.5.0/pom) | [mvn jdk17](struts2-7.5.0.buildspec) | [result](struts2-project-7.5.0.buildinfo): [76 :white_check_mark: ](struts2-project-7.5.0.buildcompare) | | 54M |
 | [7.4.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.4.0/pom) | [mvn jdk17](struts2-7.4.0.buildspec) | [result](struts2-project-7.4.0.buildinfo): [73 :white_check_mark: ](struts2-project-7.4.0.buildcompare) | | 54M |
 | [7.3.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.3.0/pom) | [mvn jdk17](struts2-7.3.0.buildspec) | [result](struts2-project-7.3.0.buildinfo): [73 :white_check_mark: ](struts2-project-7.3.0.buildcompare) | | 53M |
 | [7.2.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.2.1/pom) | [mvn jdk17](struts2-7.2.1.buildspec) | [result](struts2-project-7.2.1.buildinfo): [73 :white_check_mark: ](struts2-project-7.2.1.buildcompare) | | 47M |
