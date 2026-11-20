@@ -62,12 +62,14 @@ rebuilding **38 releases** of org.apache.struts:struts2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [7.5.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.5.0/pom) | | | |
 | [7.4.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.4.0/pom) | [mvn jdk17](struts2-7.4.0.buildspec) | [result](struts2-project-7.4.0.buildinfo): [73 :white_check_mark: ](struts2-project-7.4.0.buildcompare) | | 54M |
 | [7.3.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.3.0/pom) | [mvn jdk17](struts2-7.3.0.buildspec) | [result](struts2-project-7.3.0.buildinfo): [73 :white_check_mark: ](struts2-project-7.3.0.buildcompare) | | 53M |
 | [7.2.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.2.1/pom) | [mvn jdk17](struts2-7.2.1.buildspec) | [result](struts2-project-7.2.1.buildinfo): [73 :white_check_mark: ](struts2-project-7.2.1.buildcompare) | | 47M |
 | [7.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.1.1/pom) | [mvn jdk17](struts2-7.1.1.buildspec) | [result](struts2-project-7.1.1.buildinfo): [74 :white_check_mark: ](struts2-project-7.1.1.buildcompare) | | 46M |
 | [7.0.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.3/pom) | [mvn jdk17](struts2-7.0.3.buildspec) | [result](struts2-parent-7.0.3.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.3.buildcompare) | | 45M |
 | [7.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.0/pom) | [mvn jdk17](struts2-7.0.0.buildspec) | [result](struts2-parent-7.0.0.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.0.buildcompare) | | 45M |
+| [6.13.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.13.0/pom) | | | |
 | [6.12.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.12.0/pom) | [mvn jdk8](struts2-6.12.0.buildspec) | [result](struts2-parent-6.12.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.12.0.buildcompare) | | 49M |
 | [6.11.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.11.0/pom) | [mvn jdk8](struts2-6.11.0.buildspec) | [result](struts2-parent-6.11.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.11.0.buildcompare) | | 49M |
 | [6.10.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.10.0/pom) | [mvn jdk8](struts2-6.10.0.buildspec) | [result](struts2-parent-6.10.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.10.0.buildcompare) | | 49M |

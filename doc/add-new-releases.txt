@@ -1,11 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/access/access-2.0.15.buildspec:2.0.16
+content/ch/qos/logback/logback-1.6.7.buildspec:1.6.8
 content/dev/langchain4j/langchain4j-1.23.0.buildspec:1.24.0
-content/eu/maveniverse/maven/nisse/nisse-0.9.12.buildspec:0.10.0
-content/io/avaje/http/avaje-http-3.13-RC2.buildspec:3.13-RC3
+content/io/airlift/airbase/airbase-424.buildspec:425
 content/org/apache/amoro/amoro-0.8.1-incubating.buildspec:0.9.0-incubating
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
-content/org/apache/sling/org.apache.sling.feature.extension.apiregions/org.apache.sling.feature.extension.apiregions-2.2.2.buildspec:2.2.4
-content/org/apache/sling/slingfeature-maven-plugin/slingfeature-maven-plugin-1.9.10.buildspec:1.9.12
-content/org/infinispan/protostream/protostream-6.0.12.buildspec:6.0.13
+content/org/apache/struts/struts2-7.4.0.buildspec:7.5.0
+content/org/metricshub/wmi-java/wmi-java-1.0.07.buildspec:1.0.08

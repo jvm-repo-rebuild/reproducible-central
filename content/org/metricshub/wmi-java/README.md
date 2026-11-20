@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.metricshub:wmi-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.08](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.08/pom) | | | |
 | [1.0.07](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.07/pom) | [mvn jdk17](wmi-java-1.0.07.buildspec) | [result](wmi-java-1.0.07.buildinfo): [3 :white_check_mark: ](wmi-java-1.0.07.buildcompare) | | 142K |
 | [1.0.06](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.06/pom) | [mvn jdk17](wmi-java-1.0.06.buildspec) | [result](wmi-java-1.0.06.buildinfo): [3 :white_check_mark: ](wmi-java-1.0.06.buildcompare) | | 142K |
 | [1.0.05](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.05/pom) | [mvn jdk17](wmi-java-1.0.05.buildspec) | [result](wmi-java-1.0.05.buildinfo): [3 :white_check_mark: ](wmi-java-1.0.05.buildcompare) | | 141K |
