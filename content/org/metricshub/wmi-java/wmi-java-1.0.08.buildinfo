@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WMI Java Client
+group-id=org.metricshub
+artifact-id=wmi-java
+version=1.0.08
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/wmi-java.git
+source.scm.tag=v1.0.08
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.21.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1019-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=wmi-java-1.0.08.pom
+outputs.0.length=4699
+outputs.0.checksums.sha512=50cf7b93105aa3d7a9500b496cb28f67fc5c41b6cf2d657f11d530dbcaf75008a1a759aef1a49db52d12690d9c2c7380afaaa0c307da5afc453f321af13b6f2a
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=wmi-java-1.0.08.jar
+outputs.1.length=77306
+outputs.1.checksums.sha512=6f4f5cedf4b2ec1b80577be0ec9f72e638985aaa6117d9429b25cd633e4025deba3c5ea1eec8aed6445cdabe0930bc764cbc465c51519824982566316ef397b5
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=wmi-java-1.0.08-sources.jar
+outputs.2.length=66739
+outputs.2.checksums.sha512=8198f4be4a170c6f91d3e9340a5d9688e650d58905afbf8e4b1600a1db20bed6a12c18b0359a72f30165ecb65a57636ad823aaba6b64233162df4db1619ce7b7
