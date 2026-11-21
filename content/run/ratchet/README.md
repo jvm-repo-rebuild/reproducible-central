@@ -57,8 +57,8 @@ Source code: [https://github.com/ratchet-run/ratchet.git](https://github.com/rat
 * [run.ratchet:ratchet-version-compatibility](https://central.sonatype.com/artifact/run.ratchet/ratchet-version-compatibility/overview)
 </details>
 
-rebuilding **3 releases** of run.ratchet:ratchet-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of run.ratchet:ratchet-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -67,7 +67,7 @@ rebuilding **3 releases** of run.ratchet:ratchet-parent:
 | [0.4.0](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.4.0/pom) | | | |
 | [0.3.1](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.3.1/pom) | | | |
 | [0.3.0](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.3.0/pom) | | | |
-| [0.2.1](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.2.1/pom) | | | |
+| [0.2.1](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.2.1/pom) | [mvn jdk25](ratchet-0.2.1.buildspec) | [result](ratchet-parent-0.2.1.buildinfo): [145 :white_check_mark: ](ratchet-parent-0.2.1.buildcompare) | | 31M |
 | [0.2.0](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.2.0/pom) | [mvn jdk25](ratchet-0.2.0.buildspec) | [result](ratchet-parent-0.2.0.buildinfo): [145 :white_check_mark: ](ratchet-parent-0.2.0.buildcompare) | | 31M |
 | [0.1.1](https://central.sonatype.com/artifact/run.ratchet/ratchet-parent/0.1.1/pom) | [mvn jdk25](ratchet-0.1.1.buildspec) | [result](ratchet-parent-0.1.1.buildinfo): [129 :white_check_mark: ](ratchet-parent-0.1.1.buildcompare) | | 29M |
 
