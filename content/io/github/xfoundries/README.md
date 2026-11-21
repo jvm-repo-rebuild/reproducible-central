@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfoundries/jfoundry.git)
 
-<details><summary>This project defines 114 modules:</summary>
+<details><summary>This project defines 141 modules:</summary>
 
 * [io.github.xfoundries:jfoundry-application](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-application/overview)
 * [io.github.xfoundries:jfoundry-application-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-application-core/overview)
@@ -19,6 +19,10 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-domain](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain/overview)
 * [io.github.xfoundries:jfoundry-domain-event-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-core/overview)
 * [io.github.xfoundries:jfoundry-domain-event-externalization-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-externalization-core/overview)
+* [io.github.xfoundries:jfoundry-domain-event-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-helidon/overview)
+* [io.github.xfoundries:jfoundry-domain-event-jta](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-jta/overview)
+* [io.github.xfoundries:jfoundry-domain-event-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-quarkus-deployment/overview)
+* [io.github.xfoundries:jfoundry-domain-event-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-quarkus-runtime/overview)
 * [io.github.xfoundries:jfoundry-domain-event-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-spring/overview)
 * [io.github.xfoundries:jfoundry-domain-event-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-domain-event-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-domain-event-spring-boot-starter/overview)
@@ -29,8 +33,11 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-helidon-integration-tests](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-helidon-integration-tests/overview)
 * [io.github.xfoundries:jfoundry-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-helidon-runtime/overview)
 * [io.github.xfoundries:jfoundry-hexagonal](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-hexagonal/overview)
+* [io.github.xfoundries:jfoundry-http-jaxrs](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-http-jaxrs/overview)
+* [io.github.xfoundries:jfoundry-http-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-http-spring/overview)
 * [io.github.xfoundries:jfoundry-inbox-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-core/overview)
 * [io.github.xfoundries:jfoundry-inbox-jpa](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-jpa/overview)
+* [io.github.xfoundries:jfoundry-inbox-jpa-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-jpa-helidon/overview)
 * [io.github.xfoundries:jfoundry-inbox-jpa-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-jpa-helidon-runtime/overview)
 * [io.github.xfoundries:jfoundry-inbox-jpa-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-jpa-quarkus-deployment/overview)
 * [io.github.xfoundries:jfoundry-inbox-jpa-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-jpa-quarkus-runtime/overview)
@@ -40,6 +47,7 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-inbox-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-inbox-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-inbox-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-infrastructure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-infrastructure/overview)
+* [io.github.xfoundries:jfoundry-jakarta](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-jakarta/overview)
 * [io.github.xfoundries:jfoundry-jpa-spring-boot-support](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-jpa-spring-boot-support/overview)
 * [io.github.xfoundries:jfoundry-lock-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-lock-core/overview)
 * [io.github.xfoundries:jfoundry-lock-redisson](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-lock-redisson/overview)
@@ -65,10 +73,12 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-observability-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-observability-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-onion](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-onion/overview)
 * [io.github.xfoundries:jfoundry-outbox-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-core/overview)
+* [io.github.xfoundries:jfoundry-outbox-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-helidon/overview)
 * [io.github.xfoundries:jfoundry-outbox-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-helidon-runtime/overview)
 * [io.github.xfoundries:jfoundry-outbox-jobrunr](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jobrunr/overview)
 * [io.github.xfoundries:jfoundry-outbox-jobrunr-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jobrunr-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-outbox-jpa](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jpa/overview)
+* [io.github.xfoundries:jfoundry-outbox-jpa-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jpa-helidon/overview)
 * [io.github.xfoundries:jfoundry-outbox-jpa-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jpa-helidon-runtime/overview)
 * [io.github.xfoundries:jfoundry-outbox-jpa-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jpa-quarkus-deployment/overview)
 * [io.github.xfoundries:jfoundry-outbox-jpa-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-jpa-quarkus-runtime/overview)
@@ -82,7 +92,9 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-outbox-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-outbox-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-parent](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/overview)
 * [io.github.xfoundries:jfoundry-persistence-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-core/overview)
+* [io.github.xfoundries:jfoundry-persistence-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-helidon/overview)
 * [io.github.xfoundries:jfoundry-persistence-jpa](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-jpa/overview)
+* [io.github.xfoundries:jfoundry-persistence-jpa-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-jpa-helidon/overview)
 * [io.github.xfoundries:jfoundry-persistence-jpa-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-jpa-helidon-runtime/overview)
 * [io.github.xfoundries:jfoundry-persistence-jpa-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-jpa-quarkus-deployment/overview)
 * [io.github.xfoundries:jfoundry-persistence-jpa-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-jpa-quarkus-runtime/overview)
@@ -92,6 +104,8 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-persistence-mybatis-plus-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-mybatis-plus-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-persistence-mybatis-plus-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-mybatis-plus-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-persistence-mybatis-plus-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-mybatis-plus-starter/overview)
+* [io.github.xfoundries:jfoundry-persistence-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-quarkus-deployment/overview)
+* [io.github.xfoundries:jfoundry-persistence-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-quarkus-runtime/overview)
 * [io.github.xfoundries:jfoundry-persistence-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-spring/overview)
 * [io.github.xfoundries:jfoundry-persistence-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-persistence-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-quarkus](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-quarkus/overview)
@@ -99,6 +113,13 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-quarkus-deployment/overview)
 * [io.github.xfoundries:jfoundry-quarkus-integration-tests](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-quarkus-integration-tests/overview)
 * [io.github.xfoundries:jfoundry-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-quarkus-runtime/overview)
+* [io.github.xfoundries:jfoundry-restclient-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-helidon/overview)
+* [io.github.xfoundries:jfoundry-restclient-jaxrs](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-jaxrs/overview)
+* [io.github.xfoundries:jfoundry-restclient-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-quarkus-deployment/overview)
+* [io.github.xfoundries:jfoundry-restclient-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-quarkus-runtime/overview)
+* [io.github.xfoundries:jfoundry-restclient-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-spring/overview)
+* [io.github.xfoundries:jfoundry-restclient-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-spring-boot-autoconfigure/overview)
+* [io.github.xfoundries:jfoundry-restclient-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-restclient-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-spring/overview)
 * [io.github.xfoundries:jfoundry-spring-boot-dependencies](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-spring-boot-dependencies/overview)
 * [io.github.xfoundries:jfoundry-spring-boot-parent](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-spring-boot-parent/overview)
@@ -109,11 +130,17 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-spring-integration-tests](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-spring-integration-tests/overview)
 * [io.github.xfoundries:jfoundry-starters](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-starters/overview)
 * [io.github.xfoundries:jfoundry-transaction-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-core/overview)
+* [io.github.xfoundries:jfoundry-transaction-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-helidon/overview)
+* [io.github.xfoundries:jfoundry-transaction-jta](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-jta/overview)
+* [io.github.xfoundries:jfoundry-transaction-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-quarkus-deployment/overview)
+* [io.github.xfoundries:jfoundry-transaction-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-quarkus-runtime/overview)
 * [io.github.xfoundries:jfoundry-transaction-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-spring/overview)
 * [io.github.xfoundries:jfoundry-transaction-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-transaction-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-spring-boot-starter/overview)
 * [io.github.xfoundries:jfoundry-web](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web/overview)
+* [io.github.xfoundries:jfoundry-web-helidon](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-helidon/overview)
 * [io.github.xfoundries:jfoundry-web-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-helidon-runtime/overview)
+* [io.github.xfoundries:jfoundry-web-jaxrs](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-jaxrs/overview)
 * [io.github.xfoundries:jfoundry-web-problem-details](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-problem-details/overview)
 * [io.github.xfoundries:jfoundry-web-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-quarkus-deployment/overview)
 * [io.github.xfoundries:jfoundry-web-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-quarkus-runtime/overview)
@@ -125,8 +152,8 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-webmvc-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-webmvc-spring-boot-starter/overview)
 </details>
 
-rebuilding **7 releases** of io.github.xfoundries:jfoundry-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of io.github.xfoundries:jfoundry-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -134,7 +161,7 @@ rebuilding **7 releases** of io.github.xfoundries:jfoundry-parent:
 | [1.7.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.7.0/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.6.0/pom) | | | |
 | [1.5.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.5.0/pom) | | | |
-| [1.4.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.4.0/pom) | | | |
+| [1.4.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.4.0/pom) | [mvn jdk25](jfoundry-1.4.0.buildspec) | [result](jfoundry-parent-1.4.0.buildinfo): [336 :white_check_mark: ](jfoundry-parent-1.4.0.buildcompare) | | 5.7M |
 | [1.3.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.3.0/pom) | [mvn jdk25](jfoundry-1.3.0.buildspec) | [result](jfoundry-parent-1.3.0.buildinfo): [290 :white_check_mark: ](jfoundry-parent-1.3.0.buildcompare) | | 5.3M |
 | [1.2.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.2.0/pom) | [mvn jdk25](jfoundry-1.2.0.buildspec) | [result](jfoundry-parent-1.2.0.buildinfo): [303 :white_check_mark: ](jfoundry-parent-1.2.0.buildcompare) | | 5.3M |
 | [1.1.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.1.0/pom) | [mvn jdk25](jfoundry-1.1.0.buildspec) | [result](jfoundry-parent-1.1.0.buildinfo): [298 :white_check_mark: ](jfoundry-parent-1.1.0.buildcompare) | | 5.2M |
