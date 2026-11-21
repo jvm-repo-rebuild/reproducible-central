@@ -125,8 +125,8 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-webmvc-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-webmvc-spring-boot-starter/overview)
 </details>
 
-rebuilding **6 releases** of io.github.xfoundries:jfoundry-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of io.github.xfoundries:jfoundry-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -135,7 +135,7 @@ rebuilding **6 releases** of io.github.xfoundries:jfoundry-parent:
 | [1.6.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.6.0/pom) | | | |
 | [1.5.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.5.0/pom) | | | |
 | [1.4.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.4.0/pom) | | | |
-| [1.3.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.3.0/pom) | | | |
+| [1.3.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.3.0/pom) | [mvn jdk25](jfoundry-1.3.0.buildspec) | [result](jfoundry-parent-1.3.0.buildinfo): [290 :white_check_mark: ](jfoundry-parent-1.3.0.buildcompare) | | 5.3M |
 | [1.2.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.2.0/pom) | [mvn jdk25](jfoundry-1.2.0.buildspec) | [result](jfoundry-parent-1.2.0.buildinfo): [303 :white_check_mark: ](jfoundry-parent-1.2.0.buildcompare) | | 5.3M |
 | [1.1.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.1.0/pom) | [mvn jdk25](jfoundry-1.1.0.buildspec) | [result](jfoundry-parent-1.1.0.buildinfo): [298 :white_check_mark: ](jfoundry-parent-1.1.0.buildcompare) | | 5.2M |
 | [1.0.3](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.0.3/pom) | [mvn jdk25](jfoundry-1.0.3.buildspec) | [result](jfoundry-parent-1.0.3.buildinfo): [296 :white_check_mark: ](jfoundry-parent-1.0.3.buildcompare) | | 5.2M |
