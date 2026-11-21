@@ -22,12 +22,12 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20261119141256 --> [airbase](../content/io/airlift/airbase/README.md) | [424](../content/io/airlift/airbase/airbase-424.buildspec) :white_check_mark: | [425](../content/io/airlift/airbase/airbase-425.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-424.buildspec 425` |
-| <!-- 20261119140307 --> [wmi-java](../content/org/metricshub/wmi-java/README.md) | [1.0.07](../content/org/metricshub/wmi-java/wmi-java-1.0.07.buildspec) :white_check_mark: | [1.0.08](../content/org/metricshub/wmi-java/wmi-java-1.0.08.buildspec) | `bin/add-new-release.sh content/org/metricshub/wmi-java/wmi-java-1.0.07.buildspec 1.0.08` |
+| <!-- 20261120190746 --> [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | [9.2.0.CR2](../content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.2.0.CR2.buildspec) :white_check_mark: | [9.2.0.Final](../content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.2.0.Final.buildspec) | `bin/add-new-release.sh content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.2.0.CR2.buildspec 9.2.0.Final` |
+| <!-- 20261120151309 --> [teams4j-cards](../content/io/github/teams4j/teams4j-cards/README.md) | [0.2.0](../content/io/github/teams4j/teams4j-cards/teams4j-cards-0.2.0.buildspec) :white_check_mark: | [0.3.0](../content/io/github/teams4j/teams4j-cards/teams4j-cards-0.3.0.buildspec) | `bin/add-new-release.sh content/io/github/teams4j/teams4j-cards/teams4j-cards-0.2.0.buildspec 0.3.0` |
+| <!-- 20261120094404 --> [pmd-designer](../content/net/sourceforge/pmd/pmd-designer/README.md) | [7.19.3](../content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.19.3.buildspec) :white_check_mark: | [7.30.0](../content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.30.0.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.19.3.buildspec 7.30.0` |
+| <!-- 20261120043242 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.17-RC2](../content/io/avaje/jsonb/avaje-jsonb-3.17-RC2.buildspec) :white_check_mark: | [3.17-RC3](../content/io/avaje/jsonb/avaje-jsonb-3.17-RC3.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.17-RC2.buildspec 3.17-RC3` |
 | <!-- 20261119111747 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.6.7](../content/ch/qos/logback/logback-1.6.7.buildspec) :white_check_mark: | [1.6.8](../content/ch/qos/logback/logback-1.6.8.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.6.7.buildspec 1.6.8` |
-| <!-- 20261119071843 --> [struts2-project](../content/org/apache/struts/README.md) | [7.4.0](../content/org/apache/struts/struts2-7.4.0.buildspec) :white_check_mark: | [7.5.0](../content/org/apache/struts/struts2-7.5.0.buildspec) | `bin/add-new-release.sh content/org/apache/struts/struts2-7.4.0.buildspec 7.5.0` |
-| <!-- 20261119071843 --> [struts2-project](../content/org/apache/struts/README.md) | [7.4.0](../content/org/apache/struts/struts2-7.4.0.buildspec) :white_check_mark: | 6.13.0  | `bin/add-new-release.sh content/org/apache/struts/struts2-PREV.buildspec 6.13.0 ` |
-| <!-- 20261118132921 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.23.0](../content/dev/langchain4j/langchain4j-1.23.0.buildspec) :white_check_mark: | [1.24.0](../content/dev/langchain4j/langchain4j-1.24.0.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.23.0.buildspec 1.24.0` |
+| <!-- 20261119071843 --> [struts2-project](../content/org/apache/struts/README.md) | [7.5.0](../content/org/apache/struts/struts2-7.5.0.buildspec) :white_check_mark: | 6.13.0  | `bin/add-new-release.sh content/org/apache/struts/struts2-PREV.buildspec 6.13.0 ` |
 | <!-- 20261110140153 --> [amoro-parent](../content/org/apache/amoro/README.md) | [0.8.1-incubating](../content/org/apache/amoro/amoro-0.8.1-incubating.buildspec) :white_check_mark: | [0.9.0-incubating](../content/org/apache/amoro/amoro-0.9.0-incubating.buildspec) | `bin/add-new-release.sh content/org/apache/amoro/amoro-0.8.1-incubating.buildspec 0.9.0-incubating` |
 | <!-- 20261102102249 --> [hop](../content/org/apache/hop/README.md) | [2.19.0](../content/org/apache/hop/hop-2.19.0.buildspec) :white_check_mark: | [2.20.0](../content/org/apache/hop/hop-2.20.0.buildspec) | `bin/add-new-release.sh content/org/apache/hop/hop-2.19.0.buildspec 2.20.0` |
 | <!-- 20261028212023 --> [tika](../content/org/apache/tika/README.md) | [4.2.0](../content/org/apache/tika/tika-4.2.0.buildspec) :white_check_mark: | 4.0.0 4.0.0-beta-1  | `bin/add-new-release.sh content/org/apache/tika/tika-PREV.buildspec 4.0.0 4.0.0-beta-1 ` |
@@ -56,6 +56,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20261120064838 --> [avaje-metrics-parent](../content/io/avaje/metrics/README.md) | [10.4-RC6](../content/io/avaje/metrics/avaje-metrics-10.4-RC6.buildspec) :warning: | [10.4](../content/io/avaje/metrics/avaje-metrics-10.4.buildspec) | `bin/add-new-release.sh content/io/avaje/metrics/avaje-metrics-10.4-RC6.buildspec 10.4` |
 | <!-- 20261120010905 --> [jspwiki-builder](../content/org/apache/jspwiki/README.md) | [3.0.0](../content/org/apache/jspwiki/jspwiki-3.0.0.buildspec) :x: | [3.0.1](../content/org/apache/jspwiki/jspwiki-3.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/jspwiki/jspwiki-3.0.0.buildspec 3.0.1` |
 | <!-- 20261119140908 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.32.11](../content/org/webjars/swagger-ui/swagger-ui-5.32.11.buildspec) :x: [:memo:](https://github.com/webjars/swagger-ui/issues/212) | [5.35.1](../content/org/webjars/swagger-ui/swagger-ui-5.35.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.32.11.buildspec 5.35.1` |
 | <!-- 20261119000828 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.27.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.27.0.buildspec) :warning: | [2.34.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.34.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.27.0.buildspec 2.34.0` |
@@ -86,6 +87,7 @@ or maybe Reproducible but we were not able to reproduce...
 | ---------- | ------ |
 | <!-- 20261119121510 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 8.0.0.CR1 :warning: |
 | <!-- 20261118215303 --> [clojure](../content/org/clojure/README.md) | 1.13.0-alpha11 :warning: [:memo:](https://clojure.atlassian.net/browse/CLJ-2959) |
+| <!-- 20261118132921 --> [langchain4j](../content/dev/langchain4j/README.md) | 1.24.0 :x: |
 | <!-- 20261118125342 --> [convex](../content/world/convex/README.md) | 0.8.20 :warning: |
 | <!-- 20261118121740 --> [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | 3.22.0-0 :warning: |
 | <!-- 20261118121101 --> [quarkus-project](../content/io/quarkus/README.md) | 4.0.0 :warning: |
@@ -143,7 +145,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20260913211956 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.12.0 :warning: |
 | <!-- 20260908184255 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.17.6 :warning: |
 | <!-- 20260901084954 --> [jdplus-sdmx](../content/com/github/nbbrd/jdplus-sdmx/README.md) | 3.5.0 :warning: [:memo:](https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin/issues/133) |
-| <!-- 20260826023519 --> [avaje-metrics-parent](../content/io/avaje/metrics/README.md) | 10.4-RC6 :warning: |
 | <!-- 20260824185236 --> [hive](../content/org/apache/hive/README.md) | 4.2.1 :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) |
 | <!-- 20260824123503 --> [scriptingbundle-maven-plugin](../content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 0.5.4 :warning: |
 | <!-- 20260824123503 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 3.0.10 :warning: |

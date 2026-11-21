@@ -128,14 +128,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **81 releases** of dev.langchain4j:langchain4j:
+rebuilding **82 releases** of dev.langchain4j:langchain4j:
 - **58** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 23 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 24 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 15, 3 had all their differences removed :recycle:, 12 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.24.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.24.0/pom) | | | |
+| [1.24.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.24.0/pom) | [mvn jdk25](langchain4j-1.24.0.buildspec) | :x: | |
 | [1.23.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.23.0/pom) | [mvn jdk25](langchain4j-1.23.0.buildspec) | [result](langchain4j-aggregator-1.23.0.buildinfo): [333 :white_check_mark: ](langchain4j-aggregator-1.23.0.buildcompare) | | 474M |
 | [1.22.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.22.0/pom) | [mvn jdk25](langchain4j-1.22.0.buildspec) | [result](langchain4j-aggregator-1.22.0.buildinfo): [329 :white_check_mark: ](langchain4j-aggregator-1.22.0.buildcompare) | | 473M |
 | [1.21.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.21.0/pom) | [mvn jdk25](langchain4j-1.21.0.buildspec) | [result](langchain4j-aggregator-1.21.0.buildinfo): [329 :white_check_mark: ](langchain4j-aggregator-1.21.0.buildcompare) | | 473M |
