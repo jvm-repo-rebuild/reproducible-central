@@ -1,0 +1,20 @@
+groupId=run.ratchet
+artifactId=ratchet-parent
+display=${groupId}:ratchet
+version=0.1.1
+
+gitRepo=https://github.com/ratchet-run/ratchet.git
+gitTag=v${version}
+
+tool=mvn-3.9.12
+jdk=25
+newline=lf
+#umask=022
+
+# release workflow: mvn -DskipTests -Dspotbugs.skip=true deploy -P central,sign
+# install (not package) is required: flatten in central profile breaks Quarkus in-reactor resolution
+command="mvn -Pcentral clean install -DskipTests -Dspotbugs.skip=true -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
