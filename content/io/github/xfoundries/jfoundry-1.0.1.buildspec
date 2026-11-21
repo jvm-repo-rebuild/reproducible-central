@@ -1,0 +1,20 @@
+groupId=io.github.xfoundries
+artifactId=jfoundry-parent
+display=${groupId}:jfoundry
+version=1.0.1
+
+gitRepo=https://github.com/xfoundries/jfoundry.git
+gitTag=v${version}
+
+# release workflow publishes with Maven 3.9.16 (mvnw wrapper is Maven 4 rc, only used for verification)
+tool=mvn-3.9.16
+jdk=25
+newline=lf
+#umask=022
+
+# install (not package) and -T 1 (as release workflow, .mvn/maven.config enables parallel build): artifact:compare needs packaged reactor jars
+command="mvn -T 1 -Prelease clean install -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
