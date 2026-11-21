@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfoundries/jfoundry.git)
 
-<details><summary>This project defines 107 modules:</summary>
+<details><summary>This project defines 109 modules:</summary>
 
 * [io.github.xfoundries:jfoundry-application](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-application/overview)
 * [io.github.xfoundries:jfoundry-application-core](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-application-core/overview)
@@ -109,17 +109,19 @@ Source code: [https://github.com/xfoundries/jfoundry.git](https://github.com/xfo
 * [io.github.xfoundries:jfoundry-transaction-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-spring/overview)
 * [io.github.xfoundries:jfoundry-transaction-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-transaction-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-transaction-spring-boot-starter/overview)
+* [io.github.xfoundries:jfoundry-web](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web/overview)
 * [io.github.xfoundries:jfoundry-web-helidon-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-helidon-runtime/overview)
 * [io.github.xfoundries:jfoundry-web-problem-details](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-problem-details/overview)
 * [io.github.xfoundries:jfoundry-web-quarkus-deployment](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-quarkus-deployment/overview)
 * [io.github.xfoundries:jfoundry-web-quarkus-runtime](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-quarkus-runtime/overview)
+* [io.github.xfoundries:jfoundry-web-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-web-spring/overview)
 * [io.github.xfoundries:jfoundry-webmvc-spring](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-webmvc-spring/overview)
 * [io.github.xfoundries:jfoundry-webmvc-spring-boot-autoconfigure](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-webmvc-spring-boot-autoconfigure/overview)
 * [io.github.xfoundries:jfoundry-webmvc-spring-boot-starter](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-webmvc-spring-boot-starter/overview)
 </details>
 
-rebuilding **3 releases** of io.github.xfoundries:jfoundry-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of io.github.xfoundries:jfoundry-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -131,7 +133,7 @@ rebuilding **3 releases** of io.github.xfoundries:jfoundry-parent:
 | [1.3.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.3.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.1.0/pom) | | | |
-| [1.0.3](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.0.3/pom) | | | |
+| [1.0.3](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.0.3/pom) | [mvn jdk25](jfoundry-1.0.3.buildspec) | [result](jfoundry-parent-1.0.3.buildinfo): [296 :white_check_mark: ](jfoundry-parent-1.0.3.buildcompare) | | 5.2M |
 | [1.0.2](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.0.2/pom) | [mvn jdk25](jfoundry-1.0.2.buildspec) | [result](jfoundry-parent-1.0.2.buildinfo): [293 :white_check_mark: ](jfoundry-parent-1.0.2.buildcompare) | | 5.1M |
 | [1.0.1](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.0.1/pom) | [mvn jdk25](jfoundry-1.0.1.buildspec) | [result](jfoundry-parent-1.0.1.buildinfo): [293 :white_check_mark: ](jfoundry-parent-1.0.1.buildcompare) | | 5.1M |
 | [1.0.0](https://central.sonatype.com/artifact/io.github.xfoundries/jfoundry-parent/1.0.0/pom) | [mvn jdk25](jfoundry-1.0.0.buildspec) | [result](jfoundry-parent-1.0.0.buildinfo): [292 :white_check_mark: ](jfoundry-parent-1.0.0.buildcompare) | | 5.1M |
