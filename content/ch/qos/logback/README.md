@@ -19,13 +19,13 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 * [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/overview)
 </details>
 
-rebuilding **88 releases** of ch.qos.logback:logback-parent:
-- **73** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **89 releases** of ch.qos.logback:logback-parent:
+- **74** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.6.8/pom) | | | |
+| [1.6.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.6.8/pom) | [mvn jdk21](logback-1.6.8.buildspec) | [result](logback-parent-1.6.8.buildinfo): [6 :white_check_mark: ](logback-parent-1.6.8.buildcompare) | | 49K |
 | [1.6.7](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.6.7/pom) | [mvn jdk21](logback-1.6.7.buildspec) | [result](logback-parent-1.6.7.buildinfo): [6 :white_check_mark: ](logback-parent-1.6.7.buildcompare) | | 48K |
 | [1.6.6](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.6.6/pom) | [mvn jdk21](logback-1.6.6.buildspec) | [result](logback-parent-1.6.6.buildinfo): [4 :white_check_mark: ](logback-parent-1.6.6.buildcompare) | | 44K |
 | [1.6.5](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.6.5/pom) | [mvn jdk21](logback-1.6.5.buildspec) | [result](logback-parent-1.6.5.buildinfo): [12 :white_check_mark: ](logback-parent-1.6.5.buildcompare) | | 3.1M |
