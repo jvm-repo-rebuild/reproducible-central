@@ -7,15 +7,19 @@
 
 Source code: [https://github.com/teams4j/teams4j.git](https://github.com/teams4j/teams4j.git)
 
-<details><summary>This project defines 14 modules:</summary>
+<details><summary>This project defines 20 modules:</summary>
 
 * [io.github.teams4j:teams4j-bom](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bom/overview)
 * [io.github.teams4j:teams4j-bot](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bot/overview)
 * [io.github.teams4j:teams4j-bot-kotlin](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bot-kotlin/overview)
 * [io.github.teams4j:teams4j-bot-ktor](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bot-ktor/overview)
 * [io.github.teams4j:teams4j-bot-spring-boot-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bot-spring-boot-starter/overview)
+* [io.github.teams4j:teams4j-bot-spring-boot3-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bot-spring-boot3-starter/overview)
+* [io.github.teams4j:teams4j-bot-spring-boot4-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-bot-spring-boot4-starter/overview)
 * [io.github.teams4j:teams4j-cards](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/overview)
 * [io.github.teams4j:teams4j-cards-jackson](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards-jackson/overview)
+* [io.github.teams4j:teams4j-cards-jackson2](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards-jackson2/overview)
+* [io.github.teams4j:teams4j-cards-jackson3](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards-jackson3/overview)
 * [io.github.teams4j:teams4j-cards-kotlin](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards-kotlin/overview)
 * [io.github.teams4j:teams4j-cards-kotlinx](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards-kotlinx/overview)
 * [io.github.teams4j:teams4j-http](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-http/overview)
@@ -23,15 +27,17 @@ Source code: [https://github.com/teams4j/teams4j.git](https://github.com/teams4j
 * [io.github.teams4j:teams4j-webhook](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-webhook/overview)
 * [io.github.teams4j:teams4j-webhook-kotlin](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-webhook-kotlin/overview)
 * [io.github.teams4j:teams4j-webhook-spring-boot-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-webhook-spring-boot-starter/overview)
+* [io.github.teams4j:teams4j-webhook-spring-boot3-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-webhook-spring-boot3-starter/overview)
+* [io.github.teams4j:teams4j-webhook-spring-boot4-starter](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-webhook-spring-boot4-starter/overview)
 </details>
 
-rebuilding **3 releases** of io.github.teams4j:teams4j-cards:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of io.github.teams4j:teams4j-cards:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.4.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.4.0/pom) | | | |
+| [0.4.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.4.0/pom) | [gradle jdk21](teams4j-cards-0.4.0.buildspec) | [result](teams4j-cards-0.4.0.buildinfo): [49 :white_check_mark: ](teams4j-cards-0.4.0.buildcompare) | | 1.3M |
 | [0.3.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.3.0/pom) | [gradle jdk21](teams4j-cards-0.3.0.buildspec) | [result](teams4j-cards-0.3.0.buildinfo): [40 :white_check_mark: ](teams4j-cards-0.3.0.buildcompare) | | 1.2M |
 | [0.2.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.2.0/pom) | [gradle jdk21](teams4j-cards-0.2.0.buildspec) | [result](teams4j-cards-0.2.0.buildinfo): [40 :white_check_mark: ](teams4j-cards-0.2.0.buildcompare) | | 1.2M |
 | [0.1.0](https://central.sonatype.com/artifact/io.github.teams4j/teams4j-cards/0.1.0/pom) | [gradle jdk21](teams4j-cards-0.1.0.buildspec) | [result](teams4j-cards-0.1.0.buildinfo): [40 :white_check_mark: ](teams4j-cards-0.1.0.buildcompare) | | 1.1M |
