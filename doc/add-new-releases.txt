@@ -1,9 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.6.7.buildspec:1.6.8
-content/io/avaje/jsonb/avaje-jsonb-3.17-RC2.buildspec:3.17-RC3
-content/io/github/teams4j/teams4j-cards/teams4j-cards-0.2.0.buildspec:0.3.0
-content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.19.3.buildspec:7.30.0
+content/io/airlift/airbase/airbase-425.buildspec:426
+content/io/github/xfoundries/jfoundry-1.4.0.buildspec:1.7.0
+content/io/github/teams4j/teams4j-cards/teams4j-cards-0.3.0.buildspec:0.4.0
+content/it/mulders/mcs/mcs-0.11.2.buildspec:0.11.4
 content/org/apache/amoro/amoro-0.8.1-incubating.buildspec:0.9.0-incubating
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
-content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.2.0.CR2.buildspec:9.2.0.Final
+content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.1.5.buildspec:4.2.0
