@@ -88,6 +88,7 @@ rebuilding **29 releases** of org.apache.jena:jena:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.3.0](https://central.sonatype.com/artifact/org.apache.jena/jena/6.3.0/pom) | | | |
 | [6.2.0](https://central.sonatype.com/artifact/org.apache.jena/jena/6.2.0/pom) | [mvn jdk21](jena-6.2.0.buildspec) | [result](jena-6.2.0.buildinfo): [229 :white_check_mark: ](jena-6.2.0.buildcompare) | | 300M |
 | [6.1.0](https://central.sonatype.com/artifact/org.apache.jena/jena/6.1.0/pom) | [mvn jdk21](jena-6.1.0.buildspec) | [result](jena-6.1.0.buildinfo): [229 :white_check_mark: ](jena-6.1.0.buildcompare) | | 297M |
 | [6.0.0](https://central.sonatype.com/artifact/org.apache.jena/jena/6.0.0/pom) | [mvn jdk21](jena-6.0.0.buildspec) | [result](jena-6.0.0.buildinfo): [251 :white_check_mark: ](jena-6.0.0.buildcompare) | | 361M |

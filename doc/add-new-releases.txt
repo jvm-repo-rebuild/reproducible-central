@@ -1,9 +1,12 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/io/airlift/airbase/airbase-425.buildspec:426
 content/io/github/xfoundries/jfoundry-1.4.0.buildspec:1.7.0
-content/io/github/teams4j/teams4j-cards/teams4j-cards-0.3.0.buildspec:0.4.0
-content/it/mulders/mcs/mcs-0.11.2.buildspec:0.11.4
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.19.1-beta-1.buildspec:5.19.1-beta-2
 content/org/apache/amoro/amoro-0.8.1-incubating.buildspec:0.9.0-incubating
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
-content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.1.5.buildspec:4.2.0
+content/org/apache/jena/jena/jena-6.2.0.buildspec:6.3.0
+content/org/codehaus/mojo/animal-sniffer/animal-sniffer-1.29.1.buildspec:1.29.2
+content/org/codehaus/mojo/extra-enforcer-rules/extra-enforcer-rules-1.12.1.buildspec:1.13.0
+content/org/codehaus/mojo/flatten-maven-plugin/flatten-maven-plugin-1.9.0.buildspec:1.10.0
+content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.9.0.buildspec:2.10.0
+content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.25.2.buildspec:2.25.3
