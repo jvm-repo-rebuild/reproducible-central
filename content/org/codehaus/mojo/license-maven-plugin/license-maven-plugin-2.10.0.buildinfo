@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=License Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=license-maven-plugin
+version=2.10.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/license-maven-plugin.git
+source.scm.tag=2.10.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.21.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=license-maven-plugin-2.10.0.pom
+outputs.0.length=25589
+outputs.0.checksums.sha512=8f4164ee256efb2b40f704b05c9bae883e97b77f6e764db7737912bd977dcb63f968aa94086321dc006445a9b8d7b91766e2ff50675d8693658d5739d78a1c60
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=license-maven-plugin-2.10.0.jar
+outputs.1.length=651276
+outputs.1.checksums.sha512=8bf5be1a264e0d2ba9a34aa1a2969ce3cb55ae6b98e37d859d5f127def554c2cdcd7afd91436599bc804412ed1823488156fa11eb69929f8578aa68fe744ff83
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=license-maven-plugin-2.10.0-third-party.properties
+outputs.2.length=966
+outputs.2.checksums.sha512=af679b6ba78a2e9ff1672dc60dc4eef5ca53a184d124468a50ed3af10257751bd62250b498605b1eb63a02013709f5b18fe0842cf82496135318eec019257380
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=license-maven-plugin-2.10.0-source-release.zip
+outputs.3.length=1179455
+outputs.3.checksums.sha512=e39e5e19789fbcf274416bd1f658e9c43325e00dd2a4f2e169223c7052efe1cdff53f9ee8d381fd80ad837591c61d6e3ef00e3c484577c8fcee20a9b2a586b8d
+
+outputs.4.groupId=org.codehaus.mojo
+outputs.4.filename=license-maven-plugin-2.10.0-sources.jar
+outputs.4.length=429714
+outputs.4.checksums.sha512=264b9f0ab80c0aaa4860a42b4cb117b71bb7069ff2eac916f0ed0b413a1f549bfa99125ab3ebaea6f8cea6345d2fb604b2b06689b8c78cf7e421a691bc56da92
