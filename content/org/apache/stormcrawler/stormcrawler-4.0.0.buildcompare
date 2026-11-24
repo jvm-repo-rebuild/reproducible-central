@@ -1,0 +1,9 @@
+version=4.0.0
+ok=50
+ko=0
+ignored=1
+okFiles="stormcrawler-4.0.0.pom stormcrawler-4.0.0-source-release.tar.gz stormcrawler-4.0.0-source-release.zip stormcrawler-core-4.0.0.pom stormcrawler-core-4.0.0.jar stormcrawler-core-4.0.0-sources.jar stormcrawler-core-4.0.0-tests.jar stormcrawler-external-4.0.0.pom stormcrawler-ai-4.0.0.pom stormcrawler-ai-4.0.0.jar stormcrawler-ai-4.0.0-sources.jar stormcrawler-aws-4.0.0.pom stormcrawler-aws-4.0.0.jar stormcrawler-aws-4.0.0-sources.jar stormcrawler-langid-4.0.0.pom stormcrawler-langid-4.0.0.jar stormcrawler-langid-4.0.0-sources.jar stormcrawler-opensearch-4.0.0.pom stormcrawler-opensearch-4.0.0.jar stormcrawler-opensearch-4.0.0-sources.jar stormcrawler-playwright-4.0.0.pom stormcrawler-playwright-4.0.0.jar stormcrawler-playwright-4.0.0-sources.jar stormcrawler-solr-4.0.0.pom stormcrawler-solr-4.0.0.jar stormcrawler-solr-4.0.0-sources.jar stormcrawler-sql-4.0.0.pom stormcrawler-sql-4.0.0.jar stormcrawler-sql-4.0.0-sources.jar stormcrawler-tika-4.0.0.pom stormcrawler-tika-4.0.0.jar stormcrawler-tika-4.0.0-sources.jar stormcrawler-urlfrontier-4.0.0.pom stormcrawler-urlfrontier-4.0.0.jar stormcrawler-urlfrontier-4.0.0-sources.jar stormcrawler-warc-4.0.0.pom stormcrawler-warc-4.0.0.jar stormcrawler-warc-4.0.0-sources.jar stormcrawler-archetype-4.0.0.pom stormcrawler-archetype-4.0.0.jar stormcrawler-archetype-4.0.0-sources.jar stormcrawler-opensearch-archetype-4.0.0.pom stormcrawler-opensearch-archetype-4.0.0.jar stormcrawler-opensearch-archetype-4.0.0-sources.jar stormcrawler-solr-archetype-4.0.0.pom stormcrawler-solr-archetype-4.0.0.jar stormcrawler-solr-archetype-4.0.0-sources.jar stormcrawler-docs-4.0.0.pom stormcrawler-docs-4.0.0.jar stormcrawler-docs-4.0.0-sources.jar"
+koFiles=""
+ignoredFiles="stormcrawler-docs-4.0.0-docs.tar.gz"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
