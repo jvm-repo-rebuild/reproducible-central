@@ -232,6 +232,11 @@
       <url>https://repo.clojars.org</url>
     </mirror>
     <mirror>
+      <id>clojars</id>
+      <mirrorOf>clojars</mirrorOf>
+      <url>https://repo.clojars.org</url>
+    </mirror>
+    <mirror>
       <id>wso2-m2</id>
       <mirrorOf>wso2-m2</mirrorOf>
       <url>http://dist.wso2.org/maven2/</url>
@@ -334,6 +339,11 @@
       <id>codegenome</id>
       <mirrorOf>codegenome</mirrorOf>
       <url>https://artifacts.codegenomeproject.org/maven</url>
+    </mirror>
+    <mirror>
+      <id>jetbrains-intellij-dependencies</id>
+      <mirrorOf>jetbrains-intellij-dependencies</mirrorOf>
+      <url>https://packages.jetbrains.team/maven/p/ij/intellij-dependencies/</url>
     </mirror>
     <mirror>
       <id>staging</id>
