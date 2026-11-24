@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/repaint-io/maven-tiles](https://github.com/repaint-io/maven-tiles)
 
-rebuilding **12 releases** of io.repaint.maven:tiles-maven-plugin:
+rebuilding **13 releases** of io.repaint.maven:tiles-maven-plugin:
 - **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.48.0](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.48.0/pom) | | | |
+| [2.48.0](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.48.0/pom) | [mvn jdk17](tiles-maven-plugin-2.48.0.buildspec) | [result](tiles-maven-plugin-2.48.0.buildinfo): [ 3 :warning:](tiles-maven-plugin-2.48.0.buildcompare) | 2 :rotating_light: 1 :no_entry_sign: | 160K |
 | [2.47.0](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.47.0/pom) | [mvn jdk26](tiles-maven-plugin-2.47.0.buildspec) | [result](tiles-maven-plugin-2.47.0.buildinfo): [3 :white_check_mark: ](tiles-maven-plugin-2.47.0.buildcompare) | | 160K |
 | [2.46.0](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.46.0/pom) | [mvn jdk26](tiles-maven-plugin-2.46.0.buildspec) | [result](tiles-maven-plugin-2.46.0.buildinfo): [3 :white_check_mark: ](tiles-maven-plugin-2.46.0.buildcompare) | | 151K |
 | [2.45.1](https://central.sonatype.com/artifact/io.repaint.maven/tiles-maven-plugin/2.45.1/pom) | [mvn jdk26](tiles-maven-plugin-2.45.1.buildspec) | [result](tiles-maven-plugin-2.45.1.buildinfo): [3 :white_check_mark: ](tiles-maven-plugin-2.45.1.buildcompare) | | 156K |
