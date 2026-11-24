@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=airbase-root
+group-id=io.airlift
+artifact-id=airbase-root
+version=427
+
+# source information
+source.scm.uri=scm:git:git@github.com/airlift/airbase.git
+source.scm.tag=427
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.5.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=7.0.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.10.1
+mvn.aggregate.artifact-id=airbase
+
+# aggregated output
+
+outputs.0.coordinates=io.airlift:airbase-root
+
+outputs.0.0.groupId=io.airlift
+outputs.0.0.filename=airbase-root-427.pom
+outputs.0.0.length=7077
+outputs.0.0.checksums.sha512=1ef1bbfbf49026b9ed4adcb1db0a34a9678bf38da4f111c8cb061ca46a0477fd752253f2610ab50fa55fcf51b7b36f5ad65e1a79116d65b6908cc6960adb5cf2
+
+outputs.1.coordinates=io.airlift:airbase-enforcer
+
+outputs.1.0.groupId=io.airlift
+outputs.1.0.filename=airbase-enforcer-427.pom
+outputs.1.0.length=3004
+outputs.1.0.checksums.sha512=9151ee15557a06fa18de19c76458f9c73498a9fee0f0251ff7bb62cb3749a1d4ef0901d43f86ad0d050da8a8905266c5d3bc9841439b15e80f6c916e335843f8
+
+outputs.1.1.groupId=io.airlift
+outputs.1.1.filename=airbase-enforcer-427.jar
+outputs.1.1.length=4429
+outputs.1.1.checksums.sha512=e2cd996a05c753abf86ff1d0765f58caad8061a80866b4ad3bf311ff816cda38ac9fb84b63eb9aa30a67f805123764de0540cb9567d1e3a3e821021932df7fcf
+
+outputs.2.coordinates=io.airlift:airbase-policy
+
+outputs.2.0.groupId=io.airlift
+outputs.2.0.filename=airbase-policy-427.pom
+outputs.2.0.length=774
+outputs.2.0.checksums.sha512=79ee20c6cd1fbc677bb9e60d12403c4c91fddce4ab6a271ec675ae54f805f3fe6c26c7d77e8423df42c49f1c58865b82c8b835ba5b30c576dcc6321ef97507af
+
+outputs.2.1.groupId=io.airlift
+outputs.2.1.filename=airbase-policy-427.jar
+outputs.2.1.length=3617
+outputs.2.1.checksums.sha512=3ca5845423140f704bda58cfbfcdddb53985a99859f2f102206a719af12c59d366b1093e45534e5d6c66f3f12f1e58224ebcb3570254cfe0e131f00098b0c834
+
+outputs.3.coordinates=io.airlift:airbase
+
+outputs.3.0.groupId=io.airlift
+outputs.3.0.filename=airbase-427.pom
+outputs.3.0.length=94702
+outputs.3.0.checksums.sha512=30158b6961f584402f6480f2390141ac21e145fa952a645c9e53751346f8dfbbe67836194508348376935a8d52450d8d263db92fcbc45b1feced4c95d3a3af65
