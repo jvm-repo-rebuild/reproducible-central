@@ -1,12 +1,13 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/com/hibegin/common-dao/common-dao-1.2.4.buildspec:1.2.5
-content/com/hibegin/zrlog-base/zrlog-base-4.0.1.buildspec:4.0.2
-content/eu/maveniverse/maven/mima/mima-3.0.1.buildspec:3.0.2
-content/io/airlift/airbase/airbase-426.buildspec:427
-content/io/avaje/jsonb/avaje-jsonb-3.17-RC3.buildspec:3.17-RC4
+content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.5.0.buildspec:1.6.0
+content/io/avaje/jsonb/avaje-jsonb-3.17-RC4.buildspec:3.17-RC5
 content/io/github/xfoundries/jfoundry-1.4.0.buildspec:1.7.0
+content/io/github/brunopacheco1/praecepta/praecepta-0.7.0.buildspec:0.8.0
 content/io/repaint/maven/tiles-maven-plugin/tiles-maven-plugin-2.47.0.buildspec:2.48.0
+content/net/osslabz/jdbc-url-parser/jdbc-url-parser-0.1.3.buildspec:0.2.0
 content/org/apache/amoro/amoro-0.8.1-incubating.buildspec:0.9.0-incubating
 content/org/apache/hop/hop-2.19.0.buildspec:2.20.0
-content/org/apache/stormcrawler/stormcrawler-3.7.0.buildspec:4.0.0
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-5.1.0.CR2.buildspec:5.1.0.CR3
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-9.0.0.Beta1.buildspec:9.0.0.CR1
+content/org/osgi/test/osgi-test-1.3.0.buildspec:1.4.0

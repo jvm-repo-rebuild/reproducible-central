@@ -26,6 +26,7 @@ rebuilding **9 releases** of org.apache.zookeeper:parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.10.0](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.10.0/pom) | | | |
 | [3.9.7](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.7/pom) | [mvn jdk11](zookeeper-3.9.7.buildspec) | [result](parent-3.9.7.buildinfo): [20 :white_check_mark:  4 :warning:](parent-3.9.7.buildcompare) | 1 :recycle: 3 :rotating_light: | 17M |
 | [3.9.6](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.6/pom) | [mvn jdk11](zookeeper-3.9.6.buildspec) | [result](parent-3.9.6.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.6.buildcompare) | 2 :recycle: 1 :rotating_light: | 17M |
 | [3.9.5](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.5/pom) | [mvn jdk11](zookeeper-3.9.5.buildspec) | [result](parent-3.9.5.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.5.buildcompare) | 2 :recycle: 1 :rotating_light: | 17M |

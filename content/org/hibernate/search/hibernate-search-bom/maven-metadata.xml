@@ -3,8 +3,8 @@
   <groupId>org.hibernate.search</groupId>
   <artifactId>hibernate-search-bom</artifactId>
   <versioning>
-    <latest>9.0.0.Beta1</latest>
-    <release>9.0.0.Beta1</release>
+    <latest>9.0.0.CR1</latest>
+    <release>9.0.0.CR1</release>
     <versions>
       <version>7.0.0.Beta1</version>
       <version>7.0.0.CR1</version>
@@ -53,7 +53,8 @@
       <version>8.4.0.Final</version>
       <version>8.4.1.Final</version>
       <version>9.0.0.Beta1</version>
+      <version>9.0.0.CR1</version>
     </versions>
-    <lastUpdated>20261102102432</lastUpdated>
+    <lastUpdated>20261124204318</lastUpdated>
   </versioning>
 </metadata>

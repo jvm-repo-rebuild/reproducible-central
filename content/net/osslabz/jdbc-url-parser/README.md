@@ -14,6 +14,7 @@ rebuilding **4 releases** of net.osslabz:jdbc-url-parser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.2.0](https://central.sonatype.com/artifact/net.osslabz/jdbc-url-parser/0.2.0/pom) | | | |
 | [0.1.3](https://central.sonatype.com/artifact/net.osslabz/jdbc-url-parser/0.1.3/pom) | [mvn jdk25](jdbc-url-parser-0.1.3.buildspec) | [result](jdbc-url-parser-0.1.3.buildinfo): [3 :white_check_mark: ](jdbc-url-parser-0.1.3.buildcompare) | | 75K |
 | [0.1.2](https://central.sonatype.com/artifact/net.osslabz/jdbc-url-parser/0.1.2/pom) | [mvn jdk25](jdbc-url-parser-0.1.2.buildspec) | [result](jdbc-url-parser-0.1.2.buildinfo): [3 :white_check_mark: ](jdbc-url-parser-0.1.2.buildcompare) | | 77K |
 | [0.1.1](https://central.sonatype.com/artifact/net.osslabz/jdbc-url-parser/0.1.1/pom) | [mvn jdk25](jdbc-url-parser-0.1.1.buildspec) | [result](jdbc-url-parser-0.1.1.buildinfo): [2 :white_check_mark:  1 :warning:](jdbc-url-parser-0.1.1.buildcompare) | 1 :recycle: | 62K |
