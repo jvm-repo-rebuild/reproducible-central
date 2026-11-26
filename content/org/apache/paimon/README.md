@@ -100,6 +100,7 @@ rebuilding **17 releases** of org.apache.paimon:paimon-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.1.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/2.1.1/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/2.1.0/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/2.0.0/pom) | [mvn jdk8](paimon-parent-2.0.0.buildspec) | [result](paimon-parent-2.0.0.buildinfo): [192 :white_check_mark:  1 :warning:](paimon-parent-2.0.0.buildcompare) [:mag:](paimon-parent-2.0.0.diffoscope) | 1 :no_entry_sign: | 1.4G |
 | [1.4.2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.4.2/pom) | [mvn jdk8](paimon-parent-1.4.2.buildspec) | [result](paimon-parent-1.4.2.buildinfo): [176 :white_check_mark:  1 :warning:](paimon-parent-1.4.2.buildcompare) | 1 :no_entry_sign: | 1.3G |
