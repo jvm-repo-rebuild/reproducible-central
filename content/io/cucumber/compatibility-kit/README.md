@@ -14,6 +14,7 @@ rebuilding **19 releases** of io.cucumber:compatibility-kit:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [31.0.1](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/31.0.1/pom) | | | |
 | [31.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/31.0.0/pom) | [mvn jdk21](compatibility-kit-31.0.0.buildspec) | [result](compatibility-kit-31.0.0.buildinfo): [3 :white_check_mark: ](compatibility-kit-31.0.0.buildcompare) | | 337K |
 | [30.0.0](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/30.0.0/pom) | [mvn jdk21](compatibility-kit-30.0.0.buildspec) | [result](compatibility-kit-30.0.0.buildinfo): [3 :white_check_mark: ](compatibility-kit-30.0.0.buildcompare) | | 323K |
 | [29.2.2](https://central.sonatype.com/artifact/io.cucumber/compatibility-kit/29.2.2/pom) | [mvn jdk21](compatibility-kit-29.2.2.buildspec) | [result](compatibility-kit-29.2.2.buildinfo): [3 :white_check_mark: ](compatibility-kit-29.2.2.buildcompare) | | 306K |

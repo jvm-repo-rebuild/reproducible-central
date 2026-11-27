@@ -21,6 +21,7 @@ rebuilding **18 releases** of eu.maveniverse.maven.scalpel:scalpel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.5.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.scalpel/scalpel/0.5.1/pom) | | | |
 | [0.5.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.scalpel/scalpel/0.5.0/pom) | [mvn jdk21](scalpel-0.5.0.buildspec) | [result](scalpel-0.5.0.buildinfo): [10 :white_check_mark: ](scalpel-0.5.0.buildcompare) | | 307K |
 | [0.4.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.scalpel/scalpel/0.4.3/pom) | [mvn jdk21](scalpel-0.4.3.buildspec) | [result](scalpel-0.4.3.buildinfo): [10 :white_check_mark: ](scalpel-0.4.3.buildcompare) | | 290K |
 | [0.4.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.scalpel/scalpel/0.4.2/pom) | [mvn jdk21](scalpel-0.4.2.buildspec) | [result](scalpel-0.4.2.buildinfo): [10 :white_check_mark: ](scalpel-0.4.2.buildcompare) | | 285K |

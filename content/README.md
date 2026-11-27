@@ -344,7 +344,7 @@ Reproducible Builds for Maven Central Repository
 | io.github.xfoundries | [jfoundry](../content/io/github/xfoundries/README.md) | 8 | 8 :white_check_mark: |
 | io.github.albertus82 | [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | 12 | 12 :white_check_mark: |
 | | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 6 | 6 :warning: |
-| io.github.brunopacheco1 | [praecepta](../content/io/github/brunopacheco1/praecepta/README.md) | 6 | 6 :white_check_mark: |
+| io.github.brunopacheco1 | [praecepta](../content/io/github/brunopacheco1/praecepta/README.md) | 7 | 7 :white_check_mark: |
 | io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 45 | 45 :white_check_mark: |
 | io.github.chains-project | [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 120 | 83 :white_check_mark: / 37 :warning: |
 | io.github.derkrischan | [jpdftest](../content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :white_check_mark: |
@@ -382,7 +382,7 @@ Reproducible Builds for Maven Central Repository
 | io.takari.maven.plugins | [takari-lifecycle-plugin](../content/io/takari/maven/plugins/takari-lifecycle-plugin/README.md) | 11 | 8 :white_check_mark: / 3 :warning: |
 | | [takari-plugin-testing](../content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](../content/io/telicent/jena/jena-kafka/README.md) | 32 | 32 :white_check_mark: |
-| | [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | 41 | 38 :white_check_mark: / 3 :warning: |
+| | [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | 42 | 38 :white_check_mark: / 4 :warning: |
 | io.telicent.smart-caches.graph | [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | 94 | 75 :white_check_mark: / 19 :warning: |
 | io.wcm | [*.caconfig.editor](../content/io/wcm/io.wcm.caconfig/README.md) | 14 | 14 :warning: |
 | | [*.parent_toplevel](../content/io/wcm/tooling/README.md) | 29 | 29 :white_check_mark: |
@@ -996,7 +996,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 13 | 13 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 47 | 45 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 40 | 5 :white_check_mark: / 35 :warning: |
-| **Count:** | **982** | **13064** | **9722** :white_check_mark:<br>**3342** :warning: |
+| **Count:** | **982** | **13066** | **9723** :white_check_mark:<br>**3343** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1095,10 +1095,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      49 mvn-3.9.12   8
      58 mvn-3.9.12  11
     168 mvn-3.9.12  17
-    477 mvn-3.9.12  21
+    478 mvn-3.9.12  21
      11 mvn-3.9.12  22
      23 mvn-3.9.12  24
-    272 mvn-3.9.12  25
+    273 mvn-3.9.12  25
       9 mvn-3.9.12  26
      19 mvn-3.9.12  27
       1 mvn-3.9.13  17
