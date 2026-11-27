@@ -23,13 +23,13 @@ Source code: [https://github.com/brunopacheco1/praecepta.git](https://github.com
 * [io.github.brunopacheco1:praecepta-spring-boot-starter](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta-spring-boot-starter/overview)
 </details>
 
-rebuilding **7 releases** of io.github.brunopacheco1:praecepta:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of io.github.brunopacheco1:praecepta:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.11.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.11.0/pom) | | | |
+| [0.11.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.11.0/pom) | [mvn jdk25](praecepta-0.11.0.buildspec) | [result](praecepta-0.11.0.buildinfo): [44 :white_check_mark: ](praecepta-0.11.0.buildcompare) | | 2.1M |
 | [0.10.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.10.0/pom) | | | |
 | [0.9.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.9.0/pom) | [mvn jdk25](praecepta-0.9.0.buildspec) | [result](praecepta-0.9.0.buildinfo): [44 :white_check_mark: ](praecepta-0.9.0.buildcompare) | | 2.0M |
 | [0.8.0](https://central.sonatype.com/artifact/io.github.brunopacheco1/praecepta/0.8.0/pom) | | | |
