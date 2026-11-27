@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-core
+version=2.21.9
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-core.git
+source.scm.tag=jackson-core-2.21.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_514
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1020-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-core-2.21.9.pom
+outputs.0.length=9704
+outputs.0.checksums.sha512=6b4dddb2a39c9a37c8522013e2aede5cd2cae2a99895a899ee3e151f93c4b837dabdbece8d773814b64cfd9dc792dbe17239e0e6b147cfa2006a27feca276b5b
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-core-2.21.9.jar
+outputs.1.length=601144
+outputs.1.checksums.sha512=31fc4e2a4751d2a6821c28c5de27b7d97245414ab3ca1d3f146b4c530352ea1e04b603c8bb6a59059783120fe4d7c1fa7932b87ed79ad9d1a2d81ea0f0147a34
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-core-2.21.9-sbom-cyclonedx.xml
+outputs.2.length=4377
+outputs.2.checksums.sha512=02b8eb28011558bbd305e09fd14fb14bd4c18c5be3b9da175b1fef656ff594aa5e9b5c0650c9ca5982e5659314c9f278d59f664d1b5659aef0c31f1d52f0ca3e
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-core-2.21.9-sbom-cyclonedx.json
+outputs.3.length=4737
+outputs.3.checksums.sha512=f9485ca24b3e4aea56276904e7a1f61eb13884da3ffd5eda92b27e53e53a3b64ed9ddf72eb7ab975c73c7fb2a862f029f132335ba112bfc1fb913baf043cc2db
+
+outputs.4.groupId=com.fasterxml.jackson.core
+outputs.4.filename=jackson-core-2.21.9.module
+outputs.4.length=2426
+outputs.4.checksums.sha512=6c3479de0bf0c2eb17554e5ff5fa68fefb0cae008c3761edfbda370b2cf26cd70ddde7527b43cb019e5510f49af89f736ab17693acde9b4871f06af20197c921
+
+outputs.5.groupId=com.fasterxml.jackson.core
+outputs.5.filename=jackson-core-2.21.9-sources.jar
+outputs.5.length=513366
+outputs.5.checksums.sha512=d3b7119cf6a9460bf83b57f3ff1e6b125dd20aa9d3b9dd261b126c21631d2f81a56c8c8a8d9e4813d7714dc77b62a8858fc708a10dba000c45b3c0cc59b63048
