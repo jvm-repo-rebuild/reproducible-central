@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=tools.jackson.core
+artifact-id=jackson-core
+version=3.1.9
+
+# source information
+source.scm.uri=scm:git:https://github.com/FasterXML/jackson-core.git
+source.scm.tag=jackson-core-3.1.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.13.1
+java.vendor=Ubuntu
+os.name=Linux
+os.version=7.0.0-1018-aws
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-core-3.1.9.pom
+outputs.0.length=12079
+outputs.0.checksums.sha512=a7038562bd1dce2abf5e613aa53511093169d07d1bc597ca6c9807c265f4d314017ad90a318dafac2782914e5a6140fac4ee60d85782b37456974086ab201b39
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-core-3.1.9.jar
+outputs.1.length=610183
+outputs.1.checksums.sha512=f37f67d0001c8115806a7170965180f8385be4a4ad0ba6ce204fc866bc40b5e0c29db59114f1418c6509e5bbdb2fbfa9b640b2fa228736ae402d9d40563154cd
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-core-3.1.9-sbom-cyclonedx.xml
+outputs.2.length=5150
+outputs.2.checksums.sha512=0928d46dbe8e98014a0b9215022b5cc47e4cee14f8d59e789b05e255cc97d52da28c629dea5f32e6600e8d706f0cd7c47768215737ef36278408713e0216bc25
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-core-3.1.9-sbom-cyclonedx.json
+outputs.3.length=5780
+outputs.3.checksums.sha512=9b232c94f722d03839d093dcb916445fb5624f05f317e9de77a4aec010050f7cf01caec76d07172a60c9f2f46d85b3e7d2c8576adcfe36e2cc8212214059d5b5
+
+outputs.4.groupId=tools.jackson.core
+outputs.4.filename=jackson-core-3.1.9.module
+outputs.4.length=2395
+outputs.4.checksums.sha512=73940498fbbdff418ae941ce0885646ca73fa075b83728d8ec7570c4ec4d4c84b2c551c0db735ca341058fa582cb4fc4694274ba71a7df0e382ebb5cb1fbc3b0
+
+outputs.5.groupId=tools.jackson.core
+outputs.5.filename=jackson-core-3.1.9-sources.jar
+outputs.5.length=506510
+outputs.5.checksums.sha512=6fea7ab65027c5f07d80491a4bbbd5983140f33397e68de528e0cb6dbfbb8339a2a334393fbd7c1695a02bc6c5652f8ac24f8a117d39fe3f82e1543f4bd1ddf5
