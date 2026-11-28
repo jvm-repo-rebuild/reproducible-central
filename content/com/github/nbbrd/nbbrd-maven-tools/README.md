@@ -21,13 +21,13 @@ Source code: [https://github.com/nbbrd/nbbrd-maven-tools.git](https://github.com
 * [com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/overview)
 </details>
 
-rebuilding **12 releases** of com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.1](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.6.1/pom) | | | |
+| [1.6.1](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.6.1/pom) | [mvn jdk21](nbbrd-maven-tools-1.6.1.buildspec) | [result](nbbrd-maven-tools-1.6.1.buildinfo): [26 :white_check_mark: ](nbbrd-maven-tools-1.6.1.buildcompare) | | 599K |
 | [1.6.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.6.0/pom) | [mvn jdk21](nbbrd-maven-tools-1.6.0.buildspec) | [result](nbbrd-maven-tools-1.6.0.buildinfo): [26 :white_check_mark: ](nbbrd-maven-tools-1.6.0.buildcompare) | | 599K |
 | [1.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.5.0/pom) | [mvn jdk21](nbbrd-maven-tools-1.5.0.buildspec) | [result](nbbrd-maven-tools-1.5.0.buildinfo): [17 :white_check_mark: ](nbbrd-maven-tools-1.5.0.buildcompare) | | 467K |
 | [1.4.2](https://central.sonatype.com/artifact/com.github.nbbrd.nbbrd-maven-tools/nbbrd-maven-tools/1.4.2/pom) | [mvn jdk21](nbbrd-maven-tools-1.4.2.buildspec) | [result](nbbrd-maven-tools-1.4.2.buildinfo): [14 :white_check_mark: ](nbbrd-maven-tools-1.4.2.buildcompare) | | 390K |
