@@ -1,0 +1,27 @@
+version=1.4.0
+ok=34
+ko=12
+ignored=0
+okFiles="org.osgi.test.parent-1.4.0.pom org.osgi.test.common-1.4.0.pom org.osgi.test.common-1.4.0.jar org.osgi.test.common-1.4.0-sources.jar org.osgi.test.assertj.feature-1.4.0.pom org.osgi.test.assertj.feature-1.4.0.jar org.osgi.test.assertj.feature-1.4.0-sources.jar org.osgi.test.assertj.framework-1.4.0.pom org.osgi.test.assertj.framework-1.4.0.jar org.osgi.test.assertj.framework-1.4.0-sources.jar org.osgi.test.assertj.log-1.4.0.pom org.osgi.test.assertj.log-1.4.0.jar org.osgi.test.assertj.log-1.4.0-sources.jar org.osgi.test.assertj.permission-1.4.0.pom org.osgi.test.assertj.permission-1.4.0.jar org.osgi.test.assertj.permission-1.4.0-sources.jar org.osgi.test.assertj.promise-1.4.0.pom org.osgi.test.assertj.promise-1.4.0.jar org.osgi.test.assertj.promise-1.4.0-sources.jar org.osgi.test.assertj.xml-1.4.0.pom org.osgi.test.assertj.xml-1.4.0.jar org.osgi.test.assertj.xml-1.4.0-sources.jar org.osgi.test.junit4-1.4.0.pom org.osgi.test.junit4-1.4.0.jar org.osgi.test.junit4-1.4.0-sources.jar org.osgi.test.junit5-1.4.0.pom org.osgi.test.junit5-1.4.0.jar org.osgi.test.junit5-1.4.0-sources.jar org.osgi.test.junit5.cm-1.4.0.pom org.osgi.test.junit5.cm-1.4.0.jar org.osgi.test.junit5.cm-1.4.0-sources.jar org.osgi.test.junit5.listeners.log.osgi-1.4.0.pom org.osgi.test.junit5.listeners.log.osgi-1.4.0.jar org.osgi.test.junit5.listeners.log.osgi-1.4.0-sources.jar"
+koFiles="org.osgi.test.bom-1.4.0.pom"
+ignoredFiles=""
+missing=11
+missingFiles="org.osgi.test.common-1.4.0-tests.jar org.osgi.test.assertj.feature-1.4.0-tests.jar org.osgi.test.assertj.framework-1.4.0-tests.jar org.osgi.test.assertj.log-1.4.0-tests.jar org.osgi.test.assertj.permission-1.4.0-tests.jar org.osgi.test.assertj.promise-1.4.0-tests.jar org.osgi.test.assertj.xml-1.4.0-tests.jar org.osgi.test.junit4-1.4.0-tests.jar org.osgi.test.junit5-1.4.0-tests.jar org.osgi.test.junit5.cm-1.4.0-tests.jar org.osgi.test.junit5.listeners.log.osgi-1.4.0-tests.jar"
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.common/1.4.0/org.osgi.test.common-1.4.0-tests.jar; ls -l org.osgi.test.common/target/org.osgi.test.common-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.feature/1.4.0/org.osgi.test.assertj.feature-1.4.0-tests.jar; ls -l org.osgi.test.assertj.feature/target/org.osgi.test.assertj.feature-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.framework/1.4.0/org.osgi.test.assertj.framework-1.4.0-tests.jar; ls -l org.osgi.test.assertj.framework/target/org.osgi.test.assertj.framework-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.log/1.4.0/org.osgi.test.assertj.log-1.4.0-tests.jar; ls -l org.osgi.test.assertj.log/target/org.osgi.test.assertj.log-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.permission/1.4.0/org.osgi.test.assertj.permission-1.4.0-tests.jar; ls -l org.osgi.test.assertj.permission/target/org.osgi.test.assertj.permission-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.promise/1.4.0/org.osgi.test.assertj.promise-1.4.0-tests.jar; ls -l org.osgi.test.assertj.promise/target/org.osgi.test.assertj.promise-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.assertj.xml/1.4.0/org.osgi.test.assertj.xml-1.4.0-tests.jar; ls -l org.osgi.test.assertj.xml/target/org.osgi.test.assertj.xml-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit4/1.4.0/org.osgi.test.junit4-1.4.0-tests.jar; ls -l org.osgi.test.junit4/target/org.osgi.test.junit4-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5/1.4.0/org.osgi.test.junit5-1.4.0-tests.jar; ls -l org.osgi.test.junit5/target/org.osgi.test.junit5-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.cm/1.4.0/org.osgi.test.junit5.cm-1.4.0-tests.jar; ls -l org.osgi.test.junit5.cm/target/org.osgi.test.junit5.cm-1.4.0-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/osgi/org.osgi.test.junit5.listeners.log.osgi/1.4.0/org.osgi.test.junit5.listeners.log.osgi-1.4.0-tests.jar; ls -l org.osgi.test.junit5.listeners.log.osgi/target/org.osgi.test.junit5.listeners.log.osgi-1.4.0-tests.jar
+# diffoscope target/reference/org.osgi/org.osgi.test.bom-1.4.0.pom org.osgi.test.bom/.flattened-pom.xml
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="org.osgi.test.bom-1.4.0.pom"
